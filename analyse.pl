@@ -1,0 +1,102 @@
+#!/usr/bin/env perl
+# -*- mode: cperl; indent-tabs-mode: nil; tab-width: 3; cperl-indent-level: 3; -*-
+use strict;
+use warnings;
+use utf8;
+
+BEGIN {
+	$| = 1;
+	binmode(STDIN, ':encoding(UTF-8)');
+	binmode(STDOUT, ':encoding(UTF-8)');
+}
+use open qw( :encoding(UTF-8) :std );
+use feature 'unicode_strings';
+use Digest::SHA qw(sha1_base64);
+
+use lib 'test/regression/';
+use Helpers;
+
+use Getopt::Long;
+Getopt::Long::Configure('no_ignore_case');
+my $opt_verbose = 0;
+my $rop = GetOptions(
+	'verbose|v' => \$opt_verbose,
+                    );
+
+my $v = '';
+if ($opt_verbose) {
+   $v = '-v';
+}
+
+if (! -s './tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst') {
+   print "Can't find ./tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst - make sure you are in the kal folder.\n";
+   exit(1);
+}
+
+my @fs = glob('test/regression/input-*.txt');
+foreach my $f (@fs) {
+   my ($bn) = ($f =~ m@test/regression/input-(\w+).txt@);
+
+   if ($ARGV[0] && $bn !~ /$ARGV[0]/) {
+      next;
+   }
+
+   print "Handling $bn ...\n";
+   print "\tinput $f\n";
+   `rm -rfv test/regression/output-$bn-*`;
+
+   print "\tdelimiting by lines\n";
+   my $i = 0;
+   my %uniq = ();
+   my @sents = ();
+   my @ins = split(/\n+/, file_get_contents($f));
+   foreach (@ins) {
+      ++$i;
+      $_ =~ s/#[^\n]*//g;
+      $_ = trim($_);
+      $_ =~ s/\s\s+/ /g;
+      if (!$_) {
+         # Skip empty or commented lines
+         next;
+      }
+      my $s = $_;
+      utf8::encode($s); # sha1_base64() can't handle UTF-8 for some reason
+      my $hash = sha1_base64($s);
+      $hash =~ s/[^a-zA-Z0-9]/x/g;
+      if (defined $uniq{$hash}) {
+         # Skip duplicate inputs
+         next;
+      }
+      $uniq{$hash} = 1;
+      push(@sents, "<s$hash-$i>\n".$_."\n</s$hash-$i>\n<STREAMCMD:FLUSH>");
+   }
+
+   @sents = sort(@sents);
+   file_put_contents("test/regression/output-$bn-010.txt", join("\n\n", @sents));
+
+   my $cmd = "cat test/regression/output-$bn-010.txt";
+   $cmd .= " | ./tools/shellscripts/kal-tokenise $v ./tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst";
+   $cmd .= " | cg-sort | tee test/regression/output-$bn-020.txt";
+   $cmd .= " | vislcg3 -t -g ./src/syntax/disambiguator.cg3 --no-mappings";
+   $cmd .= " 2>test/regression/output-$bn-030.err | cg-sort | tee test/regression/output-$bn-030.txt";
+   $cmd .= " | cg-untrace";
+   $cmd .= " | cg-sort | tee test/regression/output-$bn-040.txt";
+   $cmd .= " | vislcg3 -t -g ./src/syntax/disambiguator.cg3";
+   $cmd .= " 2>test/regression/output-$bn-050.err | cg-sort | tee test/regression/output-$bn-050.txt";
+   $cmd .= " | cg-untrace";
+   $cmd .= " | cg-sort | tee test/regression/output-$bn-060.txt";
+   $cmd .= " >/dev/null";
+
+   print "\ttokenising and analysing\n";
+   `$cmd`;
+
+   print "\n";
+
+   my $fst = file_get_contents("test/regression/output-$bn-020.txt");
+   my @errs = ($fst =~ m/(\t"[^\n]+?"[^\n]+?"[^\n]*)/g);
+   if (@errs) {
+      print "ERROR: FST output has 3+ quotes, likely caused by missing root.lexc entries:\n";
+      print join("\n", @errs)."\n";
+      print "\n";
+   }
+}
