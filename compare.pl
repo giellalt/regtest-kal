@@ -13,7 +13,8 @@ use open qw( :encoding(UTF-8) :std );
 use feature 'unicode_strings';
 use File::Spec;
 
-use lib 'test/regression/';
+use FindBin qw($Bin);
+use lib "$Bin/";
 use Helpers;
 
 use Getopt::Long;
@@ -40,14 +41,14 @@ sub compare_010 {
 
    my @add = ();
    my @del = ();
-   my $e_10 = load_output("test/regression/expected-$bn-010.txt");
-   foreach my $h (keys(%$e_10)) {
+   my $e_20 = load_output("$Bin/expected-$bn-020.txt");
+   foreach my $h (keys(%$e_20)) {
       if (! defined $o_10->{$h}) {
          push(@del, $h);
       }
    }
    foreach my $h (keys(%$o_10)) {
-      if (! defined $e_10->{$h}) {
+      if (! defined $e_20->{$h}) {
          push(@add, $h);
       }
    }
@@ -63,7 +64,7 @@ sub compare_010 {
          @del = sort(@del);
          print "\nDELETED INPUTS:\nText\n";
          foreach my $h (@del) {
-            print $e_10->{$h}->[1]."\n";
+            print $e_20->{$h}->[1]."\n";
          }
       }
       print "\nWere the above input additions/deletions expected? [Y]es / [N]o: ";
@@ -73,7 +74,7 @@ sub compare_010 {
          exit(1);
       }
       print "\nAccepted changes in input\n";
-      save_expected("test/regression/expected-$bn-010.txt", $o_10);
+      #save_expected("$Bin/expected-$bn-010.txt", $o_10);
    }
 
    return 0;
@@ -86,8 +87,8 @@ sub compare_020 {
 
    my $did = 0;
    my @diff = ();
-   my $e_20 = load_output("test/regression/expected-$bn-020.txt");
-   my $o_20 = load_output("test/regression/output-$bn-020.txt");
+   my $e_20 = load_output("$Bin/expected-$bn-020.txt");
+   my $o_20 = load_output("$Bin/output-$bn-020.txt");
    foreach my $h (keys(%$o_20)) {
       if (! defined $e_20->{$h}) {
          $did = 1;
@@ -106,12 +107,12 @@ sub compare_020 {
    }
    if (!@diff) {
       if ($did) {
-         save_expected("test/regression/expected-$bn-020.txt", $e_20);
+         save_expected("$Bin/expected-$bn-020.txt", $e_20);
       }
       return 0;
    }
 
-   print "FST analyses differ between 'test/regression/expected-$bn-020.txt' and 'test/regression/output-$bn-020.txt':\n";
+   print "FST analyses differ between '$Bin/expected-$bn-020.txt' and '$Bin/output-$bn-020.txt':\n";
    @diff = sort {$o_20->{$a}->[0] <=> $o_20->{$b}->[0]} @diff;
    my $all = 0;
    foreach my $h (@diff) {
@@ -141,7 +142,7 @@ sub compare_020 {
    }
 
    if ($did) {
-      save_expected("test/regression/expected-$bn-020.txt", $e_20);
+      save_expected("$Bin/expected-$bn-020.txt", $e_20);
    }
 
    return 1;
@@ -154,10 +155,10 @@ sub compare_040 {
 
    my $did = 0;
    my @diff = ();
-   #my $e_30 = load_output("test/regression/expected-$bn-030.txt");
-   my $o_30 = load_output("test/regression/output-$bn-030.txt");
-   my $e_40 = load_output("test/regression/expected-$bn-040.txt");
-   my $o_40 = load_output("test/regression/output-$bn-040.txt");
+   #my $e_30 = load_output("$Bin/expected-$bn-030.txt");
+   my $o_30 = load_output("$Bin/output-$bn-030.txt");
+   my $e_40 = load_output("$Bin/expected-$bn-040.txt");
+   my $o_40 = load_output("$Bin/output-$bn-040.txt");
    foreach my $h (keys(%$o_40)) {
       $o_40->{$h}->[1] = strip_secondary($o_40->{$h}->[1]);
 
@@ -180,13 +181,13 @@ sub compare_040 {
    }
    if (!@diff) {
       if ($did) {
-         #save_expected("test/regression/expected-$bn-030.txt", $e_30);
-         save_expected("test/regression/expected-$bn-040.txt", $e_40);
+         #save_expected("$Bin/expected-$bn-030.txt", $e_30);
+         save_expected("$Bin/expected-$bn-040.txt", $e_40);
       }
       return 0;
    }
 
-   print "Tagging differs between 'test/regression/expected-$bn-040.txt' and 'test/regression/output-$bn-040.txt':\n";
+   print "Tagging differs between '$Bin/expected-$bn-040.txt' and '$Bin/output-$bn-040.txt':\n";
    @diff = sort {$o_40->{$a}->[0] <=> $o_40->{$b}->[0]} @diff;
    my $all = 0;
    foreach my $h (@diff) {
@@ -221,8 +222,8 @@ sub compare_040 {
    }
 
    if ($did) {
-      #save_expected("test/regression/expected-$bn-030.txt", $e_30);
-      save_expected("test/regression/expected-$bn-040.txt", $e_40);
+      #save_expected("$Bin/expected-$bn-030.txt", $e_30);
+      save_expected("$Bin/expected-$bn-040.txt", $e_40);
    }
 
    return 1;
@@ -235,10 +236,10 @@ sub compare_060 {
 
    my $did = 0;
    my @diff = ();
-   #my $e_50 = load_output("test/regression/expected-$bn-050.txt");
-   my $o_50 = load_output("test/regression/output-$bn-050.txt");
-   my $e_60 = load_output("test/regression/expected-$bn-060.txt");
-   my $o_60 = load_output("test/regression/output-$bn-060.txt");
+   #my $e_50 = load_output("$Bin/expected-$bn-050.txt");
+   my $o_50 = load_output("$Bin/output-$bn-050.txt");
+   my $e_60 = load_output("$Bin/expected-$bn-060.txt");
+   my $o_60 = load_output("$Bin/output-$bn-060.txt");
    foreach my $h (keys(%$o_60)) {
       $o_60->{$h}->[1] = strip_secondary($o_60->{$h}->[1]);
 
@@ -261,13 +262,13 @@ sub compare_060 {
    }
    if (!@diff) {
       if ($did) {
-         #save_expected("test/regression/expected-$bn-050.txt", $e_50);
-         save_expected("test/regression/expected-$bn-060.txt", $e_60);
+         #save_expected("$Bin/expected-$bn-050.txt", $e_50);
+         save_expected("$Bin/expected-$bn-060.txt", $e_60);
       }
       return 0;
    }
 
-   print "Tagging differs between 'test/regression/expected-$bn-060.txt' and 'test/regression/output-$bn-060.txt':\n";
+   print "Tagging differs between '$Bin/expected-$bn-060.txt' and '$Bin/output-$bn-060.txt':\n";
    @diff = sort {$o_60->{$a}->[0] <=> $o_60->{$b}->[0]} @diff;
    my $all = 0;
    foreach my $h (@diff) {
@@ -302,23 +303,23 @@ sub compare_060 {
    }
 
    if ($did) {
-      #save_expected("test/regression/expected-$bn-050.txt", $e_50);
-      save_expected("test/regression/expected-$bn-060.txt", $e_60);
+      #save_expected("$Bin/expected-$bn-050.txt", $e_50);
+      save_expected("$Bin/expected-$bn-060.txt", $e_60);
    }
 
    return 1;
 }
 
-my @fs = glob('test/regression/input-*.txt');
+my @fs = glob("$Bin/input-*.txt");
 foreach my $f (@fs) {
-   my ($bn) = ($f =~ m@test/regression/input-(\w+).txt@);
+   my ($bn) = ($f =~ m@$Bin/input-(\w+).txt@);
 
    if ($ARGV[0] && $bn !~ /$ARGV[0]/) {
       next;
    }
 
    print "Handling $bn ...\n";
-   my $o_10 = load_output("test/regression/output-$bn-010.txt");
+   my $o_10 = load_output("$Bin/output-$bn-010.txt");
    compare_010($bn, $o_10);
 
    if ($opt_020) {

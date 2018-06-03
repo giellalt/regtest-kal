@@ -13,7 +13,8 @@ use open qw( :encoding(UTF-8) :std );
 use feature 'unicode_strings';
 use Digest::SHA qw(sha1_base64);
 
-use lib 'test/regression/';
+use FindBin qw($Bin);
+use lib "$Bin/";
 use Helpers;
 
 use Getopt::Long;
@@ -33,9 +34,9 @@ if (! -s './tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst') {
    exit(1);
 }
 
-my @fs = glob('test/regression/input-*.txt');
+my @fs = glob("$Bin/input-*.txt");
 foreach my $f (@fs) {
-   my ($bn) = ($f =~ m@test/regression/input-(\w+).txt@);
+   my ($bn) = ($f =~ m@$Bin/input-(\w+).txt@);
 
    if ($ARGV[0] && $bn !~ /$ARGV[0]/) {
       next;
@@ -43,7 +44,7 @@ foreach my $f (@fs) {
 
    print "Handling $bn ...\n";
    print "\tinput $f\n";
-   `rm -rfv test/regression/output-$bn-*`;
+   `rm -rfv $Bin/output-$bn-*`;
 
    print "\tdelimiting by lines\n";
    my $i = 0;
@@ -72,19 +73,19 @@ foreach my $f (@fs) {
    }
 
    @sents = sort(@sents);
-   file_put_contents("test/regression/output-$bn-010.txt", join("\n\n", @sents));
+   file_put_contents("$Bin/output-$bn-010.txt", join("\n\n", @sents));
 
-   my $cmd = "cat test/regression/output-$bn-010.txt";
+   my $cmd = "cat $Bin/output-$bn-010.txt";
    $cmd .= " | ./tools/shellscripts/kal-tokenise $v ./tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst";
-   $cmd .= " | cg-sort | tee test/regression/output-$bn-020.txt";
+   $cmd .= " | cg-sort | tee $Bin/output-$bn-020.txt";
    $cmd .= " | vislcg3 -t -g ./src/syntax/disambiguator.cg3 --no-mappings";
-   $cmd .= " 2>test/regression/output-$bn-030.err | cg-sort | tee test/regression/output-$bn-030.txt";
+   $cmd .= " 2>$Bin/output-$bn-030.err | cg-sort | tee $Bin/output-$bn-030.txt";
    $cmd .= " | cg-untrace";
-   $cmd .= " | cg-sort | tee test/regression/output-$bn-040.txt";
+   $cmd .= " | cg-sort | tee $Bin/output-$bn-040.txt";
    $cmd .= " | vislcg3 -t -g ./src/syntax/disambiguator.cg3";
-   $cmd .= " 2>test/regression/output-$bn-050.err | cg-sort | tee test/regression/output-$bn-050.txt";
+   $cmd .= " 2>$Bin/output-$bn-050.err | cg-sort | tee $Bin/output-$bn-050.txt";
    $cmd .= " | cg-untrace";
-   $cmd .= " | cg-sort | tee test/regression/output-$bn-060.txt";
+   $cmd .= " | cg-sort | tee $Bin/output-$bn-060.txt";
    $cmd .= " >/dev/null";
 
    print "\ttokenising and analysing\n";
@@ -92,7 +93,7 @@ foreach my $f (@fs) {
 
    print "\n";
 
-   my $fst = file_get_contents("test/regression/output-$bn-020.txt");
+   my $fst = file_get_contents("$Bin/output-$bn-020.txt");
    my @errs = ($fst =~ m/(\t"[^\n]+?"[^\n]+?"[^\n]*)/g);
    if (@errs) {
       print "ERROR: FST output has 3+ quotes, likely caused by missing root.lexc entries:\n";
