@@ -125,8 +125,8 @@ sub compare_020 {
       file_put_contents("$tmpdir/kal-expect.txt", $e_20->{$h}->[1]."\n");
       file_put_contents("$tmpdir/kal-output.txt", $o_20->{$h}->[1]."\n");
       print "\n";
-      print "Line $o_10->{$h}->[0]: $o_10->{$h}->[1] :\n";
-      print `diff -bB -u5 '$tmpdir/kal-expect.txt' '$tmpdir/kal-output.txt' | sed '1,3d'`;
+      print "\e[31mLine $o_10->{$h}->[0]: \e[91m$o_10->{$h}->[1]\e[31m :\e[39m\n";
+      print "\e[34m".`diff -bB -u5 '$tmpdir/kal-expect.txt' '$tmpdir/kal-output.txt' | sed '1,3d'`."\e[39m";
       print "[A]ll ok / [O]k / [N]ot ok / [B]reak: ";
       my $act = <STDIN>;
       if ($act =~ /^[oa]/i) {
@@ -201,11 +201,11 @@ sub compare_040 {
       file_put_contents("$tmpdir/kal-expect.txt", $e_40->{$h}->[1]."\n");
       file_put_contents("$tmpdir/kal-output.txt", $o_40->{$h}->[1]."\n");
       print "\n";
-      print "Line $o_10->{$h}->[0]: $o_10->{$h}->[1] :\n";
-      print `diff -bB -u1 '$tmpdir/kal-expect.txt' '$tmpdir/kal-output.txt' | sed '1,3d'`;
+      print "\e[31mLine $o_10->{$h}->[0]: \e[91m$o_10->{$h}->[1]\e[31m :\e[39m\n";
+      print "\e[34m".`diff -bB -u1 '$tmpdir/kal-expect.txt' '$tmpdir/kal-output.txt' | sed '1,3d'`."\e[39m";
       print "\n";
-      print "Trace:\n";
-      print $o_30->{$h}->[1]."\n";
+      print "\e[94mTrace:\n";
+      print $o_30->{$h}->[1]."\e[39m\n";
       print "[A]ll ok / [O]k / [N]ot ok / [B]reak: ";
       my $act = <STDIN>;
       if ($act =~ /^[oa]/i) {
@@ -282,11 +282,11 @@ sub compare_060 {
       file_put_contents("$tmpdir/kal-expect.txt", $e_60->{$h}->[1]."\n");
       file_put_contents("$tmpdir/kal-output.txt", $o_60->{$h}->[1]."\n");
       print "\n";
-      print "Line $o_10->{$h}->[0]: $o_10->{$h}->[1] :\n";
-      print `diff -bB -u1 '$tmpdir/kal-expect.txt' '$tmpdir/kal-output.txt' | sed '1,3d'`;
+      print "\e[31mLine $o_10->{$h}->[0]: \e[91m$o_10->{$h}->[1]\e[31m :\e[39m\n";
+      print "\e[34m".`diff -bB -u1 '$tmpdir/kal-expect.txt' '$tmpdir/kal-output.txt' | sed '1,3d'`."\e[39m";
       print "\n";
-      print "Trace:\n";
-      print $o_50->{$h}->[1]."\n";
+      print "\e[94mTrace:\n";
+      print $o_50->{$h}->[1]."\e[39m\n";
       print "[A]ll ok / [O]k / [N]ot ok / [B]reak: ";
       my $act = <STDIN>;
       if ($act =~ /^[oa]/i) {

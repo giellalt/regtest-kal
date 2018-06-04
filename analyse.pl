@@ -96,8 +96,11 @@ foreach my $f (@fs) {
    my $fst = file_get_contents("$Bin/output-$bn-020.txt");
    my @errs = ($fst =~ m/(\t"[^\n]+?"[^\n]+?"[^\n]*)/g);
    if (@errs) {
+      my $err = join("\n", @errs);
+      $err =~ s/("[^"\n]+")/\e[91m$1\e[39m/g;
+      $err =~ s/\t\e\[91m"/\t"/g;
       print "ERROR: FST output has 3+ quotes, likely caused by missing root.lexc entries:\n";
-      print join("\n", @errs)."\n";
+      print $err."\n";
       print "\n";
    }
 }
