@@ -19,10 +19,32 @@ use Helpers;
 
 use Getopt::Long;
 Getopt::Long::Configure('no_ignore_case');
+my $opt_help = 0;
 my $opt_verbose = 0;
 my $rop = GetOptions(
+	'help|?' => \$opt_help,
+	'help|h' => \$opt_help,
 	'verbose|v' => \$opt_verbose,
                     );
+
+if ($opt_help) {
+   my @cns = ();
+   my @fs = glob("$Bin/input-*.txt");
+   foreach my $f (@fs) {
+      my ($bn) = ($f =~ m@$Bin/input-(\w+).txt@);
+      push(@cns, $bn);
+   }
+
+   print "analyse.pl [-v] [<corpus name>]\n";
+   print "\n";
+   print "Possible corpus names:\n\t".join("\n\t", @cns)."\n";
+   print "\n";
+   print "Cmdline flags:\n";
+   print "  --verbose, -v  Show verbose output from kal-tokenise\n";
+   print "\n";
+   print "Default is that all corpora are enabled.\n";
+   exit(0);
+}
 
 my $v = '';
 if ($opt_verbose) {

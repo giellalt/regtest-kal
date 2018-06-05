@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use utf8;
 use Exporter qw(import);
-our @EXPORT = qw(trim file_get_contents file_put_contents load_output save_output save_expected strip_secondary);
+our @EXPORT = qw(trim file_get_contents file_put_contents load_output save_output save_expected strip_secondary collapse_cohorts expand_cohorts);
 
 sub trim {
    my ($s) = @_;
@@ -83,6 +83,19 @@ sub strip_secondary {
    my ($str) = @_;
    while ($str =~ s/ i[^"\s\n]+(\s|\n|$)/$1/g) {}
    while ($str =~ s@ [^"/\s\n]+/[^"/\s\n]+(\s|\n|$)@$1@g) {}
+   return $str;
+}
+
+sub collapse_cohorts {
+   my ($str) = @_;
+   $str =~ s/([^"])\n\t/$1\x{e000}/sg;
+   return $str;
+}
+
+sub expand_cohorts {
+   my ($str) = @_;
+   while ($str =~ s/^([-+])([^\n]+?)\x{e000}/$1$2\n$1\t/mg) {}
+   $str =~ s/\x{e000}/\n\t/g;
    return $str;
 }
 

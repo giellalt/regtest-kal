@@ -19,14 +19,38 @@ use Helpers;
 
 use Getopt::Long;
 Getopt::Long::Configure('no_ignore_case');
+my $opt_help = 0;
 my $opt_020 = 0;
 my $opt_040 = 0;
 my $opt_060 = 0;
 my $rop = GetOptions(
+	'help|?' => \$opt_help,
+	'help|h' => \$opt_help,
 	'fst|f' => \$opt_020,
 	'pos|p' => \$opt_040,
 	'syntax|s' => \$opt_060,
                     );
+
+if ($opt_help) {
+   my @cns = ();
+   my @fs = glob("$Bin/input-*.txt");
+   foreach my $f (@fs) {
+      my ($bn) = ($f =~ m@$Bin/input-(\w+).txt@);
+      push(@cns, $bn);
+   }
+
+   print "compare.pl [-f] [-p] [-s] [<corpus name>]\n";
+   print "\n";
+   print "Possible corpus names:\n\t".join("\n\t", @cns)."\n";
+   print "\n";
+   print "Cmdline flags:\n";
+   print "  --fst, -f      Compare FST analyses\n";
+   print "  --pos, -p      Compare POS tagging\n";
+   print "  --syntax, -s   Compare syntactic functions\n";
+   print "\n";
+   print "Default is that all corpora and all comparison levels are enabled and will run in order FST, POS, syntax.\n";
+   exit(0);
+}
 
 if (!$opt_020 && !$opt_040 && !$opt_060) {
    $opt_020 = $opt_040 = $opt_060 = 1;
@@ -198,15 +222,14 @@ sub compare_040 {
          next;
       }
 
-      file_put_contents("$tmpdir/kal-expect.txt", $e_40->{$h}->[1]."\n");
-      file_put_contents("$tmpdir/kal-output.txt", $o_40->{$h}->[1]."\n");
+      file_put_contents("$tmpdir/kal-expect.txt", collapse_cohorts($e_40->{$h}->[1])."\n");
+      file_put_contents("$tmpdir/kal-output.txt", collapse_cohorts($o_40->{$h}->[1])."\n");
       print "\n";
       print "\e[31mLine $o_10->{$h}->[0]: \e[91m$o_10->{$h}->[1]\e[31m :\e[39m\n";
-      print "\e[34m".`diff -bB -u1 '$tmpdir/kal-expect.txt' '$tmpdir/kal-output.txt' | sed '1,3d'`."\e[39m";
+      print "\e[34m".expand_cohorts(scalar `diff -bB -u4 '$tmpdir/kal-expect.txt' '$tmpdir/kal-output.txt' | sed '1,3d'`)."\e[39m";
       print "\n";
-      print "\e[94mTrace:\n";
-      print $o_30->{$h}->[1]."\e[39m\n";
-      print "[A]ll ok / [O]k / [N]ot ok / [B]reak: ";
+      PROMPT:
+      print "[A]ll ok / [O]k / [N]ot ok / [T]race / [B]reak: ";
       my $act = <STDIN>;
       if ($act =~ /^[oa]/i) {
          $did = 1;
@@ -218,6 +241,10 @@ sub compare_040 {
       }
       if ($act =~ /^b/i) {
          last;
+      }
+      if ($act =~ /^t/i) {
+         print "\e[94m".$o_30->{$h}->[1]."\e[39m\n";
+         goto PROMPT;
       }
    }
 
@@ -279,15 +306,14 @@ sub compare_060 {
          next;
       }
 
-      file_put_contents("$tmpdir/kal-expect.txt", $e_60->{$h}->[1]."\n");
-      file_put_contents("$tmpdir/kal-output.txt", $o_60->{$h}->[1]."\n");
+      file_put_contents("$tmpdir/kal-expect.txt", collapse_cohorts($e_60->{$h}->[1])."\n");
+      file_put_contents("$tmpdir/kal-output.txt", collapse_cohorts($o_60->{$h}->[1])."\n");
       print "\n";
       print "\e[31mLine $o_10->{$h}->[0]: \e[91m$o_10->{$h}->[1]\e[31m :\e[39m\n";
-      print "\e[34m".`diff -bB -u1 '$tmpdir/kal-expect.txt' '$tmpdir/kal-output.txt' | sed '1,3d'`."\e[39m";
+      print "\e[34m".expand_cohorts(scalar `diff -bB -u4 '$tmpdir/kal-expect.txt' '$tmpdir/kal-output.txt' | sed '1,3d'`)."\e[39m";
       print "\n";
-      print "\e[94mTrace:\n";
-      print $o_50->{$h}->[1]."\e[39m\n";
-      print "[A]ll ok / [O]k / [N]ot ok / [B]reak: ";
+      PROMPT:
+      print "[A]ll ok / [O]k / [N]ot ok / [T]race / [B]reak: ";
       my $act = <STDIN>;
       if ($act =~ /^[oa]/i) {
          $did = 1;
@@ -299,6 +325,10 @@ sub compare_060 {
       }
       if ($act =~ /^b/i) {
          last;
+      }
+      if ($act =~ /^t/i) {
+         print "\e[94m".$o_50->{$h}->[1]."\e[39m\n";
+         goto PROMPT;
       }
    }
 
