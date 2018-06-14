@@ -150,7 +150,7 @@ sub compare_020 {
       file_put_contents("$tmpdir/kal-output.txt", $o_20->{$h}->[1]."\n");
       print "\n";
       print "\e[31mLine $o_10->{$h}->[0]: \e[91m$o_10->{$h}->[1]\e[31m :\e[39m\n";
-      print "\e[34m".`diff -bB -u5 '$tmpdir/kal-expect.txt' '$tmpdir/kal-output.txt' | sed '1,3d'`."\e[39m";
+      print "\e[34m".`diff -bB -U 5 '$tmpdir/kal-expect.txt' '$tmpdir/kal-output.txt' | sed '1,3d'`."\e[39m";
       print "[A]ll ok / [O]k / [N]ot ok / [B]reak: ";
       my $act = <STDIN>;
       if ($act =~ /^[oa]/i) {
@@ -226,7 +226,7 @@ sub compare_040 {
       file_put_contents("$tmpdir/kal-output.txt", collapse_cohorts($o_40->{$h}->[1])."\n");
       print "\n";
       print "\e[31mLine $o_10->{$h}->[0]: \e[91m$o_10->{$h}->[1]\e[31m :\e[39m\n";
-      print "\e[34m".expand_cohorts(scalar `diff -bB -u4 '$tmpdir/kal-expect.txt' '$tmpdir/kal-output.txt' | sed '1,3d'`)."\e[39m";
+      print "\e[34m".expand_cohorts(scalar `diff -bB -U 4 '$tmpdir/kal-expect.txt' '$tmpdir/kal-output.txt' | sed '1,3d'`)."\e[39m";
       print "\n";
       PROMPT:
       print "[A]ll ok / [O]k / [N]ot ok / [T]race / [B]reak: ";
@@ -310,7 +310,7 @@ sub compare_060 {
       file_put_contents("$tmpdir/kal-output.txt", collapse_cohorts($o_60->{$h}->[1])."\n");
       print "\n";
       print "\e[31mLine $o_10->{$h}->[0]: \e[91m$o_10->{$h}->[1]\e[31m :\e[39m\n";
-      print "\e[34m".expand_cohorts(scalar `diff -bB -u4 '$tmpdir/kal-expect.txt' '$tmpdir/kal-output.txt' | sed '1,3d'`)."\e[39m";
+      print "\e[34m".expand_cohorts(scalar `diff -bB -U 4 '$tmpdir/kal-expect.txt' '$tmpdir/kal-output.txt' | sed '1,3d'`)."\e[39m";
       print "\n";
       PROMPT:
       print "[A]ll ok / [O]k / [N]ot ok / [T]race / [B]reak: ";
