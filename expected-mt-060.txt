@@ -1313,9 +1313,9 @@
 "<tassaavoq>"
 	"tassa" U V Ind 3Sg @PRED
 "<sanningasulik>"
-	"sanner" NGA TUQ LIK N Abs Sg @SUBJ_COMP
-	"sanninga" TUQ LIK N Abs Sg @SUBJ_COMP
-	"sannip" NGA TUQ LIK N Abs Sg @SUBJ_COMP
+	"sanner" NGA TUQ LIK N Abs Sg @i-N<
+	"sanninga" TUQ LIK N Abs Sg @i-N<
+	"sannip" NGA TUQ LIK N Abs Sg @i-N<
 "<.>"
 	"." CLB
 </s>
@@ -1361,10 +1361,6 @@
 "<eqqaanniippoq>"
 	"eqqaq" IP V Ind 3Sg @PRED
 	"eqqaq" IP V Ind 3Sg @PRED
-	"ip" QQAAQ IP V Ind 3Sg @PRED
-	"ip" QQAAQ IP V Ind 3Sg @PRED
-	"ip" QQAAQ IP V Ind 3Sg @PRED
-	"ip" QQAAQ IP V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -2815,7 +2811,7 @@
 
 <sPSLlfsNvTue6U41K6w1t27lvvsU-0>
 "<HF-ikkut>"
-	"HF" Via @i-ADVL>
+	"HF" N Via @i-ADVL>
 "<aqqusaartitaavoq>"
 	"aqqusaar" TIP TAQ U V Ind 3Sg @PRED
 "<.>"
@@ -2826,7 +2822,7 @@
 "<Andap>"
 	"Anda" Prop Rel Sg @SUBJ>
 "<illuni>"
-	"ip" V Cont 4Sg @ADVL>
+	"illu" N Abs Sg 4SgPoss @OBJ>
 "<takuaa>"
 	"taku" V Ind 3Sg 3SgO @PRED
 "<.>"
@@ -3679,7 +3675,7 @@
 
 <sWv2UMJwRkKOQmJwdejx1LJkbpXg-0>
 "<Aqagu>"
-	"aqaguagu" Pali @CL-ADVL>
+	"aqagu" Adv @CL-ADVL>
 "<maani>"
 	"ma" Adv Lok @ADVL>
 "<Oqaasileriffimmi>"
@@ -3736,6 +3732,7 @@
 <sX65lgtt72fb9xR8EtWEKwl1LpdA-0>
 "<Maniitsoq>"
 	"Maniitsoq" Prop Abs Sg §PropNexusSg @SUBJ>
+	"maniip" TUQ N Abs Sg @SUBJ>
 "<Sisimiunit>"
 	"Sisimiut" Prop Abl Pl @ADVL>
 "<Nuummut>"
@@ -3761,7 +3758,7 @@
 "<Tassa>"
 	"tassa" Adv @CL-ADVL>
 "<kisima>"
-	"kisi" Nom 1Sg @SUBJ>
+	"kisi" N Nom 1Sg @SUBJ>
 "<inuusimavunga>"
 	"inuk" U SIMA V Ind 1Sg @PRED
 "<,>"
@@ -4169,7 +4166,7 @@
 
 <saBk4diCSO4BLFILMaP29FF1Tem0-0>
 "<Niels>"
-	"Niels" Prop @PROP>
+	"Niels" Prop Abs Sg §PropNexusSg @PROP>
 "<Egede>"
 	"Egede" Prop Abs Sg §PropNexusSg @SUBJ>
 "<eqqaassutissiorneqarpoq>"
@@ -4462,10 +4459,11 @@
 	"nanoq" TAQ LIK LIAR TAR NIQ N Abs Sg @SUBJ>
 "<sikorsuit>"
 	"sikorsuaq" N Abs Pl @OBJ>
+	"siku" SUAQ N Abs Pl @OBJ>
 "<pissutigalugit>"
 	"pissut" GE V Cont 3PlO @ADVL>
 "<unitsitaavoq>"
-	"unitsitaq" U V Ind 3Sg @PRED
+	"unip" TIP TAQ U V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -4528,7 +4526,7 @@
 "<sanasuuvoq>"
 	"sana" TUQ U V Ind 3Sg @PRED
 "<pikkorissoq>"
-	"pikkorip" TUQ N Abs Sg @SUBJ_COMP
+	"pikkorip" TUQ N Abs Sg @i-N<
 "<.>"
 	"." CLB
 </s>
@@ -4706,6 +4704,7 @@
 "<Kaali>"
 	"kaa" Interj LI @INTERJ
 "<tuttumik>"
+	"tup" TUQ N Ins Sg @ADVL>
 	"tuttoq" N Ins Sg @ADVL>
 	"tuttu" N Ins Sg @ADVL>
 "<nerivoq>"
@@ -5076,7 +5075,8 @@
 "<qitsuk>"
 	"qitsuk" N Abs Sg @OBJ>
 "<paareqquaa>"
-	"paaq" GE QQU V Ind 3Sg 3SgO @PRED
+	"paaq" GIP QQU V Ind 3Sg 3SgO @PRED
+	"paare" QQU V Ind 3Sg 3SgO @PRED
 "<.>"
 	"." CLB
 </s>
@@ -5332,7 +5332,6 @@
 <siyxcjKoCAiDDKw0RRhcNbyQfNz4-0>
 "<Eqqakkat>"
 	"eqqar" TAQ N Abs Pl @SUBJ>
-	"ip" QQAR TAQ N Abs Pl @SUBJ>
 "<Paamiuneersut>"
 	"Paamiut" IR V Par 3Pl @PRED2
 	"paa" MIU IR V Par 3Pl @PRED2
@@ -5624,6 +5623,7 @@
 "<Taamani>"
 	"taamani" Pali @CL-ADVL>
 "<kiattup>"
+	"kiap" TUQ N Rel Sg @POSS>
 	"kiattoq" N Rel Sg @POSS>
 "<orpippassuini>"
 	"orpippassuaq" N Lok Pl 3SgPoss @i-ADVL>
@@ -5684,7 +5684,7 @@
 "<aajuna>"
 	"aajuna" Interj @FOC
 "<illorput>"
-	"illu" N Abs Sg 1PlPoss @SUBJ_COMP
+	"illu" N Abs Sg 1PlPoss @HNOUN
 "<.>"
 	"." CLB
 </s>
@@ -6149,6 +6149,7 @@
 	"akunneq" N Lok Sg 3PlPoss @ADVL>
 "<uteqattaarpoq>"
 	"uteqattaar" V Ind 3Sg @PRED
+	"uter" QATTAAR V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -7433,6 +7434,7 @@
 
 <sxGguUAW7ixCwDxDbsMzZpQnHLC0-0>
 "<Kujataata>"
+	"kujap" TAQ N Rel Sg 3SgPoss @POSS>
 	"kujat" N Rel Sg 3SgPoss @POSS>
 "<missaani>"
 	"missaq" N Lok Sg 3SgPoss
@@ -7482,6 +7484,7 @@
 "<takuvunga>"
 	"taku" V Ind 1Sg @PRED
 "<kiattup>"
+	"kiap" TUQ N Rel Sg @POSS>
 	"kiattoq" N Rel Sg @POSS>
 "<orpippassui>"
 	"orpippassuaq" N Abs Pl 3SgPoss @OBJ>
