@@ -366,7 +366,7 @@
 "<kiilumut>"
 	"kiilu" N Trm Sg @>N
 "<60>"
-	"60" Num Abs @>N
+	"60" Num Abs @i->N
 "<kroneqarpoq>"
 	"krone" QAR V Ind 3Sg @PRED
 	"krone" QAR V Ind 3Sg @PRED
@@ -1046,7 +1046,6 @@
 "<antennit>"
 	"antenne" N Abs Pl @SUBJ>
 "<kujammukanneq>"
-	"kujak" KANNIQ Pali @ADVL>
 	"kujate" KANNIQ Pali @ADVL>
 "<sammipput>"
 	"sammi" V Ind 3Pl @PRED
@@ -1741,7 +1740,7 @@
 "<illu>"
 	"illu" N Abs Sg @OBJ>
 "<400.000>"
-	"400.000" Num Abs @>N
+	"400.000" Num Abs @i->N
 "<kronilerlugu>"
 	"krone" LIR V Cont 3SgO @ADVL>
 	"krone" LIR V Cont 3SgO @ADVL>
@@ -2706,7 +2705,7 @@
 "<kapisilik>"
 	"kapisilik" N Abs Sg @SUBJ>
 "<16>"
-	"16" Num Abs @>N
+	"16" Num Abs @i->N
 "<kiiluuvoq>"
 	"kiilu" U V Ind 3Sg @PRED
 "<.>"
@@ -4350,7 +4349,7 @@
 "<marluk>"
 	"marluk" Num Abs Pl @<N
 "<angisuut>"
-	"angisooq" N Abs Pl
+	"angisooq" N Abs Pl @<N
 "<,>"
 	"," CLB
 "<aamma>"
@@ -5217,7 +5216,7 @@
 "<Marloqiusamik>"
 	"marloqiusaq" N Ins Sg @ADVL>
 "<sulinialeqigatta>"
-	"suli" NIAR LIR QE V Cau 1Pl @CL-ADVL>
+	"suli" NIAR LIR QE V Cau 1Pl @CAU
 "<apereqqaalaarlanga>"
 	"apere" QQAAR LAAR V Opt 1Sg @PRED
 "<Katersanut>"
@@ -5531,8 +5530,8 @@
 
 <sjnNgf3192qBo8O0DnY6zULQsOg8-0>
 "<kujataaneersoq>"
-	"kujate" IR V Par 3Sg @PRED
-	"kujate" IR V Par 3Sg @PRED
+	"kujate" IR TUQ N Abs Sg @HNOUN
+	"kujate" IR TUQ N Abs Sg @HNOUN
 "<.>"
 	"." CLB
 </s>
@@ -5895,7 +5894,7 @@
 
 <slksulwpl3qxXvBz8Zpw5EXkEhjo-0>
 "<Nanortalik>"
-	"Nanortalik" Prop Abs Sg @PROP>
+	"Nanortalik" Prop Abs Sg @OBJ>
 "<Kalaallit Nunaanni>"
 	"Kalaallit Nunaat" Prop Lok Sg @i-ADVL>
 "<illoqarfiit>"
@@ -5980,7 +5979,7 @@
 
 <smKZyovLQW60WagH6BEykH7Ze9Tk-0>
 "<Danmarki>"
-	"Danmark" Prop Abs Sg @PROP>
+	"Danmark" Prop Abs Sg @OBJ>
 "<Tysklandimut>"
 	"Tyskland" Prop Trm Sg @ADVL>
 "<naleqqiullugu>"
@@ -6455,7 +6454,7 @@
 "<qaammammut>"
 	"qaammat" N Trm Sg @ADVL>
 "<8.000>"
-	"8.000" Num Abs @>N
+	"8.000" Num Abs @i->N
 "<kroniupput>"
 	"krone" U V Ind 3Pl @PRED
 	"krone" U V Ind 3Pl @PRED
@@ -6570,7 +6569,7 @@
 "<Europap>"
 	"Europa" Prop Rel Sg @POSS>
 "<kujataanut>"
-	"kujate" N Trm Sg 3SgPoss
+	"kujate" N Trm Sg 3SgPoss @ADVL>
 "<aalisakkanik>"
 	"aalisagaq" N Ins Pl @i->N
 "<nioqquteqarpoq>"
@@ -6716,7 +6715,7 @@
 "<bilitsi>"
 	"billet" N Abs Sg @SUBJ>
 "<50>"
-	"50" Num Abs @>N
+	"50" Num Abs @i->N
 "<kroneqalissaaq>"
 	"krone" QAR LIR SSA V Ind 3Sg @PRED
 	"krone" QAR LIR SSA V Ind 3Sg @PRED
@@ -7160,7 +7159,7 @@
 "<arnat>"
 	"arnaq" N Rel Pl @POSS>
 "<qinersisinnaatitaalerneranniit>"
-	"qiner" HTR SINNAA TIP TAQ U LIR NIQ N Abl Sg 3PlPoss @AGENS
+	"qiner" HTR SINNAA TIP TAQ U LIR NIQ N Abl Sg 3PlPoss @i-ADVL>
 "<ukiut>"
 	"ukioq" N Rel Pl @POSS>
 "<100-nngornerat>"
