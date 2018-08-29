@@ -29,7 +29,7 @@
 "<malittarisassallu>"
 	"malittarisassaq" N Abs Pl LU @SUBJ>
 "<allanngornatik>"
-	"alla" NNGUR V ContNeg 4Pl
+	"alla" NNGUR V ContNeg 4Pl @PRED
 "<.>"
 	"." CLB
 </s>
@@ -132,7 +132,7 @@
 "<,>"
 	"," CLB
 "<taavalu>"
-	"taava" Adv LU @ADVL>
+	"taava" Adv LU @CL-ADVL>
 "<Kinamiut>"
 	"Kina" MIU N Abs Pl @SUBJ>
 "<Siberiamiullu>"
@@ -184,7 +184,7 @@
 "<,>"
 	"," CLB
 "<taavalu>"
-	"taava" Adv LU @ADVL>
+	"taava" Adv LU @CL-ADVL>
 "<Amerika>"
 	"Amerika" Prop Abs Sg @PROP>
 "<Kujallermiut>"
@@ -196,7 +196,7 @@
 "<Avannarlermiut>"
 	"avannarleq" MIU N Abs Pl @SUBJ>
 "<kingullerpaasarlutik>"
-	"kingullerpaasar" V Cont 4Pl @<ADVL
+	"kingullerpaasar" V Cont 4Pl @PRED
 "<.>"
 	"." CLB
 
@@ -422,7 +422,7 @@
 "<ilumikkersimaarfiginissaallu>"
 	"ilumikker" SIMAAR VIK GE NIQ SSAQ N Abs Sg 3PlPoss LU @SUBJ>
 "<pisariaqarani>"
-	"pi" TARIAQAR V ContNeg 4Sg @PRED2
+	"pi" TARIAQAR V ContNeg 4Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -703,7 +703,7 @@
 "<,>"
 	"," CLB
 "<taava>"
-	"taava" Adv @ADVL>
+	"taava" Adv @CL-ADVL>
 "<inuttaat>"
 	"inuk" TAQ N Abs Pl 3PlPoss @SUBJ>
 "<akuersitinneqaqqaarumaarput>"
@@ -1032,8 +1032,8 @@
 "<naleqqiukkaangamikku>"
 	"naleqqiup" V IteCau 4Pl 3SgO @CL-ADVL>
 "<maluginiartarlugu>"
-	"maluge" NIAR TAR V Cont 3SgO @<ADVL
-	"maluge" NIAR TAR V Cont 3SgO @<ADVL
+	"maluge" NIAR TAR V Cont 3SgO @PRED
+	"maluge" NIAR TAR V Cont 3SgO @PRED
 "<.>"
 	"." CLB
 </s>
@@ -1328,7 +1328,7 @@
 "<,>"
 	"," CLB
 "<taava>"
-	"taava" Adv @ADVL>
+	"taava" Adv @CL-ADVL>
 "<taassuma>"
 	"una" Pron Rel Sg @POSS>
 "<ileqqorissutsikkut>"
@@ -2264,7 +2264,7 @@
 "<ajunngitsuni>"
 	"ajor" NNGIT TUQ N Lok Pl @<N
 "<naatsiiassaqarluni>"
-	"naatsiiaq" SSAQ QAR V Cont 4Sg @<ADVL
+	"naatsiiaq" SSAQ QAR V Cont 4Sg @PRED
 "<ajunngitsunik>"
 	"ajor" NNGIT TUQ N Ins Pl @i-N<
 "<aamma>"
@@ -2274,7 +2274,7 @@
 "<ajortuni>"
 	"ajor" TUQ N Lok Pl @<N
 "<naatsiiassaqarluni>"
-	"naatsiiaq" SSAQ QAR V Cont 4Sg @<ADVL
+	"naatsiiaq" SSAQ QAR V Cont 4Sg @PRED
 "<ajortunik>"
 	"ajor" TUQ N Ins Pl @i-N<
 "<.>"
@@ -2437,7 +2437,7 @@
 "<tamaat>"
 	"tamaq" N Akk 3Sg @<N
 "<aqqusaalutoralugu>"
-	"aqqusaalutore" V Cont 3SgO @PRED2
+	"aqqusaalutore" V Cont 3SgO @PRED
 "<.>"
 	"." CLB
 
@@ -2452,7 +2452,7 @@
 "<,>"
 	"," CLB
 "<taava>"
-	"taava" Adv @ADVL>
+	"taava" Adv @CL-ADVL>
 "<ulloriaq>"
 	"ulloriaq" N Abs Sg @OBJ>
 "<qaartissavaat>"
@@ -2534,7 +2534,7 @@
 "<imminullu>"
 	"immi" Pron Trm Sg LU @ADVL>
 "<taava>"
-	"taava" Adv @ADVL>
+	"taava" Adv @CL-ADVL>
 "<tikkuarpoq>"
 	"tikkuar" V Ind 3Sg @PRED
 "<oqarlunilu>"
@@ -4002,7 +4002,7 @@
 "<naammassimmallu>"
 	"naammassi" V Cau 3Sg LU @CAU
 "<siunnersorlugu>"
-	"siunnersor" V Cont 3SgO @PRED2
+	"siunnersor" V Cont 3SgO @PRED
 "<Aasianni>"
 	"Aasiaat" Prop Lok Pl @i-ADVL>
 "<juumuussatut>"
@@ -4465,6 +4465,26 @@
 	"." CLB
 </s>
 
+<stGjYqlKYXzRYMWYx4Ay0XHnRxP8-0>
+"<Minimmut>"
+	"Minik" Prop Trm Sg @ADVL>
+	"Minik" Prop Trm Sg @ADVL>
+"<apriilimiugunarpoq>"
+	"apriili" U GUNAR V Ind 3Sg @ADVL>
+"<aamma>"
+	"aamma" Adv @ADVL>
+"<nassiutereernikuuara>"
+	"nassip" UTE RIIR NIKUU V Ind 1Sg 3SgO @PRED
+"<,>"
+	"," CLB
+"<paasinialaassavara>"
+	"paasi" NIAR LAAR SSA V Ind 1Sg 3SgO @PRED
+"<misissorsimaneraa>"
+	"misissor" SIMA NIR V Par 3Sg 3SgO @CL-<CIT
+"<.>"
+	"." CLB
+</s>
+
 <stZ1mEp8tl2P3QFfnSJOeaKo0qHQ-0>
 "<Ferie>"
 	"ferie" N Abs Sg @OBJ>
@@ -4623,7 +4643,7 @@
 	"Minik" Prop Trm Sg @ADVL>
 	"Minik" Prop Trm Sg @ADVL>
 "<apriilimiugunarpoq>"
-	"apriili" U GUNAR V Ind 3Sg @PRED
+	"apriili" U GUNAR V Ind 3Sg @ADVL>
 "<aamma>"
 	"aamma" Adv @ADVL>
 "<nassiutereernikuuara>"
@@ -4667,7 +4687,7 @@
 "<,>"
 	"," CLB
 "<taava>"
-	"taava" Adv @ADVL>
+	"taava" Adv @CL-ADVL>
 "<inuttaat>"
 	"inuk" TAQ N Abs Pl 3PlPoss @SUBJ>
 "<akuersitinneqaqqaarumaarput>"
