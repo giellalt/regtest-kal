@@ -78,7 +78,7 @@ foreach my $f (@fs) {
       $_ =~ s/#[^\n]*//g;
       $_ = trim($_);
       $_ =~ s/\s\s+/ /g;
-      if (!$_) {
+      if (!$_ || /^</) {
          # Skip empty or commented lines
          next;
       }

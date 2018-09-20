@@ -86,9 +86,10 @@ sub compare_010 {
       }
       if (@del) {
          @del = sort(@del);
-         print "\nDELETED INPUTS:\nText\n";
+         print "\nDELETED INPUTS:\n* Text\n";
          foreach my $h (@del) {
-            print $e_20->{$h}->[1]."\n";
+            my @wfs = ($e_20->{$h}->[1] =~ /(?:^|\n)"<(.+?)>"/g);
+            print '* '.join(' ', @wfs)."\n";
          }
       }
       print "\nWere the above input additions/deletions expected? [Y]es / [N]o: ";
