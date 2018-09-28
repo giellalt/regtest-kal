@@ -2632,8 +2632,8 @@
 "<Allatut>"
 	"alla" N Aeq Sg @i-ADVL>
 "<ajornartumik>"
-	"ajor" NAR TUQ N Ins Sg @i->N
-	"ajor" NAR TUQ N Ins Sg @i->N
+	"ajor" NAR TUQ N Ins Sg @ADVL>
+	"ajor" NAR TUQ N Ins Sg @ADVL>
 "<allamik>"
 	"alla" N Ins Sg @i->N
 "<sammisassarsiortariaqarsimavunga>"
@@ -6013,18 +6013,18 @@
 "<Soorlu>"
 	"soorlu" Pali @CL-ADVL>
 "<isigisat>"
-	"isi" GE TAQ N Rel Pl @SUBJ>
+	"isi" GE TAQ N Abs Pl @OBJ>
 "<qalipagassaqqissut>"
-	"qalipagaq" SSAQQIP TUQ N Rel Pl @N<
+	"qalipagaq" SSAQQIP TUQ N Abs Pl @N<
 "<tappiffigisaqigai>"
 	"tappiffige" TAR QE V Par 3Sg 3PlO @PRED2
 	"tappip" VIK GE TAR QE V Par 3Sg 3PlO @PRED2
 "<taamattaaq>"
 	"taama" Adv TTAAQ @ADVL>
 "<pinngortitat>"
-	"pinngor" TIP TAQ N Rel Pl @N<
+	"pinngor" TIP TAQ N Rel Pl @POSS>
 "<nipaannut>"
-	"nipi" N Trm Sg 3PlPoss @ADVL>
+	"nipi" N Trm Pl 3PlPoss @ADVL>
 "<tutsarilluinnarpoq>"
 	"tutsaq" GIP LLUINNAR V Ind 3Sg @PRED
 	"tutsarip" LLUINNAR V Ind 3Sg @PRED
@@ -7636,7 +7636,7 @@
 
 <sULH85vDlXZlRqmllCx9ASqXZcPk-0>
 "<Nakorsap>"
-	"nakorsaq" N Prop Rel Sg @SUBJ>
+	"nakorsaq" N Rel Sg @SUBJ>
 "<Biinallu>"
 	"Biina" Prop Rel Sg LU @SUBJ>
 "<atugartik>"
@@ -10261,7 +10261,7 @@
 "<Pisassiissutinilli>"
 	"pisaq" SSIP HTR UTE N Abl Pl LI @i-ADVL>
 	"pisaq" SSIP HTR UTE N Abl Pl LI @i-ADVL>
-	"pisassii" UTE N Abl Pl LI @i-ADVL>
+	"pisassip" HTR UTE N Abl Pl LI @i-ADVL>
 	"pisataq" LIR HTR UTE N Abl Pl LI @i-ADVL>
 "<amerlanerusunik>"
 	"amerla" NIRU TUQ N Ins Pl @i-MIK-OBJ>
@@ -10545,9 +10545,7 @@
 	"oqar" TSIAR TAR NIQ N Abs Pl LI @OBJ>
 	"oqatsiar" TAR NIQ N Abs Pl LI @OBJ>
 "<nalaatsornerinnaat>"
-	"nalaatsor" NIQ INNAQ N Abs Pl 3PlPoss @N<
 	"nalaatsor" NIQ INNAQ N Abs Pl @N<
-	"nalaatsor" NIQ INNAQ N Abs Pl 3PlPoss @N<
 	"nalaatsor" NIQ INNAQ N Abs Pl @N<
 "<pissutigalugit>"
 	"pissut" GE V Cont 3PlO @ADVL>
@@ -11087,7 +11085,7 @@
 "<Siumup>"
 	"Siumut" Prop Rel Sg @POSS>
 "<siulittaasua>"
-	"siu" LIK TAQ U TUQ N Abs Sg 3SgPoss @OBJ>
+	"siu" LIK TAQ U TUQ N Abs Sg 3SgPoss @N<
 "<,>"
 	"," CLB
 "<Hans>"
@@ -13643,7 +13641,7 @@
 "<naalakkersuisut>"
 	"naalagaq" LIRSUR HTR TUQ N Rel Pl @POSS>
 "<nassuiaataat>"
-	"nassuiar" UTE N Abs Sg 3PlPoss @OBJ>
+	"nassuiar" UTE N Abs Pl 3PlPoss @<SUBJ
 "<,>"
 	"," CLB
 "<soorlu>"
@@ -14580,12 +14578,12 @@
 
 <sqFtxVxxC1eDFGAWpNM1KcGmF0rE-0>
 "<nunamit>"
-	"nuna" N Abl Sg @ADVL>
+	"nuna" N Abl Sg @i-ADVL>
 "<maannga>"
-	"ma" Adv Abl @ADVL>
+	"ma" Adv Abl @i-ADVL>
 "<pisorinanngitsoq>"
-	"pisoq" GE NAR NNGIT V Par 3Sg @PRED
-	"pisoq" GE NAR NNGIT V Par 3Sg @PRED
+	"pisoq" GE NAR NNGIT TUQ N Abs Sg @HNOUN
+	"pisoq" GE NAR NNGIT TUQ N Abs Sg @HNOUN
 "<.>"
 	"." CLB
 </s>
@@ -15574,9 +15572,9 @@
 
 <stxEc2Iw7UBgmFBGAA0IWBfXWu3A-0>
 "<Tamakkuli>"
-	"manna" Pron Rel Pl LI @SUBJ>
+	"manna" Pron Abs Pl LI @OBJ>
 "<tamaasa>"
-	"tamaq" N Akk 3Pl @OBJ>
+	"tamaq" N Akk 3Pl @N<
 "<ikinngutigiit>"
 	"ikinngutigiit" N Rel Pl @SUBJ>
 "<tikerlaat>"
@@ -15587,7 +15585,7 @@
 	"isi" GE NNGIT TUQ N Aeq Sg @ADVL>
 	"isi" GIP NNGIT TUQ N Aeq Sg @ADVL>
 "<ippaat>"
-	"ip" V Ind 3Pl 3SgO @PRED
+	"ip" V Ind 3Pl 3PlO @PRED
 "<.>"
 	"." CLB
 </s>
