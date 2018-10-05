@@ -24,7 +24,7 @@
 "<maajip>"
 	"maaji" N Rel Sg @POSS>
 "<aappaanni>"
-	"aappaq" N Lok Sg 3PlPoss @ADVL>
+	"aappaq" N Lok Sg 3SgPoss @ADVL>
 "<pissaaq>"
 	"pi" SSA V Ind 3Sg @PRED
 "<uternissarlu>"
@@ -331,7 +331,7 @@
 
 <s2AwsOjZzkYcExy5tSPJW1AlODaA-0>
 "<umiarsuaq>"
-	"umiarsuaq" N Abs Sg @SUBJ>
+	"umiarsuaq" N Abs Sg @OBJ>
 "<800>"
 	"800" Num Abs @N<
 "<tonsit>"
@@ -2214,7 +2214,7 @@
 "<nunap>"
 	"nuna" N Rel Sg @POSS>
 "<sajunnera>"
-	"sajup" NIQ N Abs Sg 3SgPoss @OBJ>
+	"sajup" NIQ N Abs Sg 3SgPoss @SUBJ>
 "<richterskalamik>"
 	"richterskala" N Ins Sg @ADVL>
 "<uuttorlugu>"
@@ -3416,7 +3416,6 @@
 "<Siumup>"
 	"Siumut" Prop Rel Sg @POSS>
 "<ataatsimiittarfiata>"
-	"ataaseq" IP TAR VIK N Rel Sg 3SgPoss @POSS>
 	"ataaseq" IP TAR VIK N Rel Sg 3SgPoss @POSS>
 	"ataatsimiip" TAR VIK N Rel Sg 3SgPoss @POSS>
 "<silataani>"
@@ -7912,7 +7911,6 @@
 	"suli" VIK N Abs Sg @OBJ>
 "<ingerlalluanngitsoq>"
 	"ingerla" LLUAR NNGIT TUQ N Abs Sg @N<
-	"ingerlap" LLUAR NNGIT TUQ N Abs Sg @N<
 "<aqutsisunut>"
 	"aqup" HTR TUQ N Trm Pl @ADVL>
 "<assuarliutigaa>"
@@ -9087,12 +9085,12 @@
 "<eqqaani>"
 	"eqqaq" N Lok Sg 3SgPoss @ADVL>
 "<pisuttuartilluni>"
-	"pisup" TUAR TIP V Cont 4SgO @ADVL>
-	"pisup" TUAR TIP V Cont 4SgO @ADVL>
+	"pisup" TUAR TIP V Cont 4Sg @PRED2
+	"pisup" TUAR TIP V Cont 4Sg @PRED2
 "<,>"
 	"," CLB
 "<piaarinaatsoornikkut>"
-	"piaarinaatsoor" NIQ N Via Sg @i-ADVL>
+	"piaarinaatsoor" NIQ N Via Sg @ADVL>
 "<saviminermik>"
 	"savimineq" N Ins Sg @MIK-OBJ>
 "<ujaqqat>"
@@ -10015,7 +10013,6 @@
 "<Inatsisartut>"
 	"Inatsisartut" Prop Abs Pl @SUBJ>
 "<ataatsimiimmata>"
-	"ataaseq" IP V Cau 3Pl @CAU
 	"ataaseq" IP V Cau 3Pl @CAU
 	"ataatsimiip" V Cau 3Pl @CAU
 "<oqaluuserineqarpoq>"
@@ -11033,10 +11030,9 @@
 	"unnuk" KKUT N Rel Pl @POSS>
 "<ataatsimiinnerata>"
 	"ataaseq" IP NIQ N Rel Sg 3PlPoss @POSS>
-	"ataaseq" IP NIQ N Rel Sg 3PlPoss @POSS>
 	"ataatsimiip" NIQ N Rel Sg 3PlPoss @POSS>
 "<kingorna>"
-	"kinguneq" N Abs Sg 3SgPoss
+	"kinguneq" N Abs Sg 3SgPoss @SUBJ>
 "<Siumup>"
 	"Siumut" Prop Rel Sg @POSS>
 "<siulittaasua>"
@@ -11050,7 +11046,6 @@
 "<oqarpoq>"
 	"oqar" V Ind 3Sg @PRED
 "<ataatsimiinneq>"
-	"ataaseq" IP NIQ N Abs Sg @SUBJ>
 	"ataaseq" IP NIQ N Abs Sg @SUBJ>
 	"ataatsimiip" NIQ N Abs Sg @SUBJ>
 "<eqeersimaartumik>"
@@ -15245,7 +15240,7 @@
 "<Savissivimmi>"
 	"savissivik" N Lok Sg @i-ADVL>
 "<aalisarneq>"
-	"aalisar" NIQ N Abs Sg @SUBJ>
+	"aalisar" NIQ N Abs Sg @OBJ>
 "<ukiuunerani>"
 	"ukioq" U NIQ N Lok Sg 3SgPoss @ADVL>
 "<ingerlaannarsinnaaqqullugu>"
@@ -15905,8 +15900,8 @@
 "<Paasiuminaatsumik>"
 	"paasi" GUMINAR IT TUQ N Ins Sg @ADVL>
 "<sunnertikkaanni>"
-	"sunner" TIP V Par 3Sg 3PlO @CL-ADVL>
-	"sunner" TIP V Par 3Sg 3SgO @CL-ADVL>
+	"sunner" TIP V Par 4Sg 3PlO @CL-ADVL>
+	"sunner" TIP V Par 4Sg 3SgO @CL-ADVL>
 "<akuersinnginnissaq>"
 	"akoq" IR HTR NNGIT NIQ SSAQ N Abs Sg @SUBJ>
 	"akoq" IRSIR NNGIT NIQ SSAQ N Abs Sg @SUBJ>
