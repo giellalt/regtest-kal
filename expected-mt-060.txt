@@ -144,7 +144,7 @@
 "<meeqqat>"
 	"meeraq" N Abs Pl @OBJ>
 "<filmimik>"
-	"film" N Ins Sg @i-MIK-OBJ>
+	"film" N Ins Sg @MIK-OBJ>
 "<takutitsiffigai>"
 	"taku" TIP HTR VIK GE V Ind 3Sg 3PlO @PRED
 "<.>"
@@ -1202,17 +1202,17 @@
 "<piukkunneqarsinnaasut>"
 	"piukkup" NIQAR SINNAA TUQ N Abs Pl @N<
 "<tassaasut>"
-	"tassa" U V Par 3Pl @CL-ADVL>
+	"tassa" U V Par 3Pl @CL-<CIT
 "<talittarfik>"
 	"talittarfik" N Abs Sg @i-N<
 "<Esbjerg-miittoq>"
-	"Esbjerg" IP V Par 3Sg @PRED2
+	"Esbjerg" IP TUQ N Abs Sg @N<
 "<,>"
 	"," CLB
 "<Århus-miittoq>"
-	"Århus" IP V Par 3Sg @PRED2
+	"Århus" IP TUQ N Abs Sg @N<
 "<Ålborgimiittorlu>"
-	"Ålborg" IP V Par 3Sg LU @PRED2
+	"Ålborg" IP TUQ N Abs Sg LU @N<
 "<.>"
 	"." CLB
 </s>
@@ -6811,7 +6811,7 @@
 "<pissusaata>"
 	"pi" SSUSIQ N Rel Sg 3SgPoss @POSS>
 "<allanngoriartorneranik>"
-	"alla" NNGUR GIARTUR NIQ N Ins Sg 3SgPoss @i-MIK-OBJ>
+	"alla" NNGUR GIARTUR NIQ N Ins Sg 3SgPoss @MIK-OBJ>
 "<erseqqinnerpaamik>"
 	"erseqqip" NIRPAAQ N Ins Sg @N<
 	"erser" QQIP NIRPAAQ N Ins Sg @N<
@@ -7737,11 +7737,12 @@
 "<Silaannarmik>"
 	"sila" INNAQ N Ins Sg @i-MIK-OBJ>
 "<mingutsitsinerup>"
-	"mingutsitsineq" N Rel Sg @POSS>
+	"mingup" TIP HTR NIQ N Rel Sg @POSS>
+	"mingutsip" HTR NIQ N Rel Sg @POSS>
 "<issittumut>"
 	"issip" TUQ N Trm Sg @i-ADVL>
 "<sunniutaanik>"
-	"sunner" UTE N Ins Sg 3SgPoss @i-MIK-OBJ>
+	"sunner" UTE N Ins Sg 3SgPoss @MIK-OBJ>
 "<misissuisuupput>"
 	"misissor" HTR TUQ U V Ind 3Pl @PRED
 "<naalagaaffiit>"
@@ -7761,29 +7762,29 @@
 "<,>"
 	"," CLB
 "<USA>"
-	"USA" Prop Abs Sg @<APPOS
+	"USA" Prop Abs Sg @i-N<
 "<,>"
 	"," CLB
 "<Canada>"
-	"Canada" Prop Abs Sg @<APPOS
+	"Canada" Prop Abs Sg @i-N<
 "<,>"
 	"," CLB
 "<Rusland>"
-	"Rusland" Prop Abs Sg @<APPOS
+	"Rusland" Prop Abs Sg @i-N<
 "<,>"
 	"," CLB
 "<Island>"
-	"Island" Prop Abs Sg @<APPOS
+	"Island" Prop Abs Sg @i-N<
 "<,>"
 	"," CLB
 "<Norge>"
-	"Norge" Prop Abs Sg @<APPOS
+	"Norge" Prop Abs Sg @i-N<
 "<Finland>"
-	"Finland" Prop Abs Sg @<APPOS
+	"Finland" Prop Abs Sg @i-N<
 "<aamma>"
 	"aamma" Conj @CONJ
 "<Sverige>"
-	"Sverige" Prop Abs Sg @<APPOS
+	"Sverige" Prop Abs Sg @i-N<
 "<.>"
 	"." CLB
 </s>
@@ -9150,7 +9151,7 @@
 "<Angutip>"
 	"angut" N Rel Sg @SUBJ>
 "<aningaasanik>"
-	"aningaasaq" N Ins Pl @i-MIK-OBJ>
+	"aningaasaq" N Ins Pl @MIK-OBJ>
 "<tamatta>"
 	"tamaq" N Akk 1Pl @OBJ>
 "<tigusiffigivaatigut>"
@@ -10027,7 +10028,7 @@
 "<takusinnaasaat>"
 	"taku" SINNAA TAR UTE N Abs Sg @N<
 "<tassaasoq>"
-	"tassa" U V Par 3Sg @CL-ADVL>
+	"tassa" U V Par 3Sg @PRED2
 "<Kalaallit Nunaanni>"
 	"Kalaallit Nunaat" Prop Lok Sg @ADVL>
 "<meeqqat>"
@@ -11031,7 +11032,7 @@
 "<“>"
 	"“" PUNCT LEFT
 "<Manniit>"
-	"mannik" N Abs Pl @HNOUN
+	"mannik" N Abs Pl
 "<arfinillit>"
 	"arfinillit" Num Abs Pl @N<
 "<,>"
@@ -11045,11 +11046,11 @@
 "<ilinnut>"
 	"illit" Pron Trm 2Sg @i-ADVL>
 "<pullannikkaamik>"
-	"pullap" NIQ KKAAQ N Ins Sg @<ADVL
+	"pullap" NIQ KKAAQ N Ins Sg @i->N
 "<ataatsimik>"
 	"ataaseq" Num Ins Sg @N<
 "<tikikummisissunniarina>"
-	"tikikummisissunniarina" ?
+	"tikikummi" SI UTE NIAR V Imp 2Sg @PRED
 "<”>"
 	"”" PUNCT RIGHT
 </s>
@@ -11502,7 +11503,7 @@
 "<angajoqqaatut>"
 	"angajoqqaaq" N Aeq Sg @i-ADVL>N
 "<akisussaaffimmik>"
-	"aki" TUQ SSAQ U VIK N Ins Sg @i-MIK-OBJ>
+	"aki" TUQ SSAQ U VIK N Ins Sg @MIK-OBJ>
 "<tigumminnittunngorpoq>"
 	"tigummi" HTR TUQ NNGUR V Ind 3Sg @PRED
 "<,>"
@@ -12416,7 +12417,7 @@
 "<inatsisit>"
 	"inatsit" N Abs Pl @N<
 "<erseqqarluppallaartoq>"
-	"erseqqarlup" VALLAAR V Par 3Sg @PRED2
+	"erseqqarlup" VALLAAR TUQ N Abs Sg @N<
 "<.>"
 	"." CLB
 </s>
@@ -12586,7 +12587,7 @@
 "<Angutip>"
 	"Anguteq" Prop Rel Sg @SUBJ>
 "<aningaasanik>"
-	"aningaasaq" N Ins Pl @i-MIK-OBJ>
+	"aningaasaq" N Ins Pl @MIK-OBJ>
 "<tamatta>"
 	"tamaq" N Akk 1Pl @OBJ>
 "<tigusiffigivaatigut>"
@@ -12696,7 +12697,7 @@
 "<Ungalunnguaq>"
 	"ungaloq" NNGUAQ N Abs Sg @OBJ>
 "<naasunik>"
-	"naasoq" N Ins Pl @i-MIK-OBJ>
+	"naasoq" N Ins Pl @MIK-OBJ>
 "<Tipporsuup>"
 	"Tipporsuaq" Prop Rel Sg @SUBJ>
 "<naatitsivigisarpaa>"
@@ -15168,7 +15169,7 @@
 "<ingerlaannarsinnaaqqullugu>"
 	"ingerla" INNAR SINNAA QQU V Cont 3SgO @ADVL>
 "<qerititsivimmik>"
-	"qerititsivik" N Ins Sg @i-MIK-OBJ>
+	"qerititsivik" N Ins Sg @MIK-OBJ>
 "<annerusumik>"
 	"anneq" U TUQ N Ins Sg @N<
 "<aamma>"
@@ -16822,7 +16823,7 @@
 "<aasakkut>"
 	"aasaq" N Via Sg @ADVL>
 "<naasunik>"
-	"naasoq" N Ins Pl @i-MIK-OBJ>
+	"naasoq" N Ins Pl @MIK-OBJ>
 "<sikkernerissunik>"
 	"sikker" NIQ GIP TUQ N Ins Pl @N<
 "<Tipporsuup>"
