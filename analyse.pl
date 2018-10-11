@@ -125,4 +125,14 @@ foreach my $f (@fs) {
       print $err."\n";
       print "\n";
    }
+
+   @errs = ($fst =~ m/(\t"[^\n]+?" \?)/g);
+   if (@errs) {
+      my $err = join("\n", @errs);
+      $err =~ s/("[^"\n]+")/\e[91m$1\e[39m/g;
+      $err =~ s/\t\e\[91m"/\t"/g;
+      print "ERROR: FST could not provide analysis for:\n";
+      print $err."\n";
+      print "\n";
+   }
 }
