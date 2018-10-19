@@ -43,6 +43,8 @@
 	"oqar" SINNAA TUQ GE V Ind 3Sg @PRED
 	"oqar" SINNAA SURE V Ind 3Sg @PRED
 	"oqar" SINNAA SURE V Ind 3Sg @PRED
+	"oqar" SINNAA TUQ GE V Ind 3Sg @PRED
+	"oqar" SINNAA TUQ GE V Ind 3Sg @PRED
 "<:>"
 	":" CLB
 </s>
@@ -254,67 +256,6 @@
 	"ukioq" QAR SSA V Int 3Sg @PRED
 "<?>"
 	"?" CLB
-</s>
-
-<s1wWbRFTxWX9D5OLixViWBmjBqQo-0>
-"<->"
-	"-" PUNCT
-"<Taanna>"
-	"una" Pron Abs Sg @SUBJ>
-"<paasitinneqarpoq>"
-	"paasi" TIP NIQAR V Ind 3Sg @PRED
-"<,>"
-	"," CLB
-"<timimik>"
-	"timi" N Ins Sg @i-ADVL>N
-"<sungiusaasumi>"
-	"sungiusaasoq" N Lok Sg @ADVL>
-"<inissaqarnersoq>"
-	"ini" SSAQ QAR NIR V Par 3Sg @CL-<CIT
-"<–>"
-	"–" PUNCT
-"<sivisuumik>"
-	"sivisooq" N Ins Sg @ADVL>
-"<utaqqisariaqartoq>"
-	"utaqqi" TARIAQAR V Par 3Sg @PRED2
-"<ilisimallutigut>"
-	"ilisimallu" N Via @ADVL>
-"<–>"
-	"–" PUNCT
-"<paasiniaaqqullugu>"
-	"paasi" NIAR HTR QQU V Cont 3SgO @ADVL>
-"<nakorsiartarfimmut>"
-	"nakorsiartarfik" N Trm Sg @ADVL>
-"<sianeqquneqarpoq>"
-	"sianer" QQU NIQAR V Ind 3Sg @PRED
-	"siani" QQU NIQAR V Ind 3Sg @PRED
-"<.>"
-	"." CLB
-
-"<Tamannalu>"
-	"manna" Pron Abs Sg LU @SUBJ>
-"<pissusissamisuunngilaq>"
-	"pissusissamisoor" NNGIT V Ind 3Sg @PRED
-"<,>"
-	"," CLB
-"<Elise>"
-	"Elise" Prop Abs Sg @PROP>
-"<Bruun>"
-	"Bruun" Prop Abs Sg @SUBJ>
-"<peqatigiiffik>"
-	"peqatigiiffik" N Abs Sg @PROP>
-"<Hjertelivetimik>"
-	"Hjerteliveti" Prop Ins Sg @i-MIK-OBJ>
-"<pilersitsisimasoq>"
-	"pi" LIR TIP HTR SIMA TUQ N Abs Sg @N<
-"<,>"
-	"," CLB
-"<Sermitsiaq.AG-mut>"
-	"Sermitsiaq.AG" Prop Trm Sg @ADVL>
-"<oqaluttuarpoq>"
-	"oqaluttuar" V Ind 3Sg @PRED
-"<.>"
-	"." CLB
 </s>
 
 <s1y9RzJFS4PaVGXPEek4RP6Bom4k-0>
@@ -772,9 +713,9 @@
 "<kalaallinik>"
 	"kalaaleq" N Ins Pl @i->N
 "<kalaallisut>"
-	"kalaaleq" N Aeq Sg @ADVL>
+	"kalaaleq" N Aeq Sg @i-ADVL>N
 "<bloggiliortartunik>"
-	"bloggiliortartoq" N Ins Pl @i->N
+	"blog" LIUR TAR TUQ N Ins Pl @i->N
 "<ujaasilaarpunga>"
 	"ujar" HTR SI LAAR V Ind 1Sg @PRED
 "<,>"
@@ -913,6 +854,8 @@
 	"suli" Adv @ADVL>
 "<nerriviliorsimannginnerarmat>"
 	"nerrivik" LIUR SIMA NNGIT NIRAR V Cau 3Sg @CAU
+	"nerrivik" LIUR SIMA NNGIT NIRAR V Cau 3Sg @CAU
+	"nerrivilior" SIMA NNGIT NIRAR V Cau 3Sg @CAU
 	"nerrivilior" SIMA NNGIT NIRAR V Cau 3Sg @CAU
 "<puuguttanik>"
 	"puugutaq" N Ins Pl @MIK-OBJ>
@@ -1498,6 +1441,7 @@
 "<Utterslev Mosekkut>"
 	"Utterslev Mose" Prop Via Sg @ADVL>
 "<ingerlatilluni>"
+	"ingerla" TIP V Cont 4Sg @ADVL>
 	"ingerla" TIP V Cont 4Sg @ADVL>
 "<Emiliep>"
 	"Emilie" Prop Rel Sg @POSS>
@@ -3284,6 +3228,7 @@
 	"pi" V Cont 3SgO @i-ADVL>
 "<paasissutissanik>"
 	"paasi" UTE SSAQ N Ins Pl @ADVL>
+	"paasi" UTE SSAQ N Ins Pl @ADVL>
 "<pissarsiniartarpoq>"
 	"pissarsi" NIAR TAR V Ind 3Sg @PRED
 	"pissarsi" NIAR TAR V Ind 3Sg @PRED
@@ -4133,6 +4078,7 @@
 "<misigititsineranit>"
 	"misige" TIP HTR NIQ N Abl Sg 3SgPoss @ADVL>
 "<sunnertissimavunga>"
+	"sunner" TIP SIMA V Ind 1Sg @PRED
 	"sunner" TIP SIMA V Ind 1Sg @PRED
 "<.>"
 	"." CLB
@@ -6060,7 +6006,7 @@
 "<,>"
 	"," CLB
 "<nunarsuarmi>"
-	"nunarsuaq" N Lok Sg @ADVL>
+	"nuna" SUAQ N Lok Sg @ADVL>
 "<,>"
 	"," CLB
 "<ataqqinartuaraqarpoq>"
@@ -6423,9 +6369,9 @@
 	"?" CLB
 
 "<ataqqinartuaqqap>"
-	"ataqqi" NAR TUQ ARAQ N Rel Sg @SUBJ>
+	"ataqqi" NAR TUQ ARAQ N Rel Sg @HNOUN
 "<eqqaasippaa>"
-	"eqqaa" TIP V Ind 3Sg 3SgO @PRED
+	"eqqaasippaa" ?
 "<.>"
 	"." CLB
 </s>
@@ -6923,7 +6869,7 @@
 "<,>"
 	"," CLB
 "<nunarsuarmi>"
-	"nunarsuaq" N Lok Sg @ADVL>
+	"nuna" SUAQ N Lok Sg @ADVL>
 "<,>"
 	"," CLB
 "<ataqqinartuaraqarpoq>"
@@ -6973,6 +6919,7 @@
 "<sanajumaarpakka>"
 	"sana" GUMAAR V Ind 1Sg 3PlO @PRED
 "<paasissutissaaleqilaarpungali>"
+	"paasi" UTE SSAALIQI LAAR V Ind 1Sg LI @PRED
 	"paasi" UTE SSAALIQI LAAR V Ind 1Sg LI @PRED
 "<:>"
 	":" CLB
@@ -7466,9 +7413,9 @@
 
 <smwDyxEDewzc2dD2FrU2Wx7cfX68-0>
 "<Ilisimassutsili>"
-	"ili" SIMA SSUSIQ N Abs Pl 4SgPoss LI @OBJ>
+	"ilisima" SSUSIQ N Abs Pl 4SgPoss LI @OBJ>
 "<atorlugu>"
-	"ator" V Cont 3SgO @ADVL>
+	"ator" V Cont 3SgO @PRED2
 "<nangippoq>"
 	"nangip" V Ind 3Sg @PRED
 "<:>"
@@ -7701,7 +7648,7 @@
 "<sangiakujulluni>"
 	"sangiap" KUJUP V Cont 4Sg @ADVL>
 "<qinngasaaraluni>"
-	"qinngasaara" V Cont 4Sg @ADVL>
+	"qinngasaar" V Cont 4Sg 3SgO @ADVL>
 "<taamatut>"
 	"taamatut" Adv @ADVL>
 "<oqaluttoq>"
@@ -7715,7 +7662,6 @@
 "<,>"
 	"," CLB
 "<eqqaalerpaalu>"
-	"eqqaa" LIR V Ind 3Sg 3PlO LU @PRED
 	"eqqaa" LIR V Ind 3Sg 3SgO LU @PRED
 "<ippassaq>"
 	"ippassaq" Pali @ADVL>
@@ -7965,6 +7911,67 @@
 	"." CLB
 </s>
 
+<sqAx08DlwqKZl1anzBrEmS7bdOps-0>
+"<->"
+	"-" PUNCT
+"<Taanna>"
+	"una" Pron Abs Sg @SUBJ>
+"<paasitinneqarpoq>"
+	"paasi" TIP NIQAR V Ind 3Sg @PRED
+"<,>"
+	"," CLB
+"<timimik>"
+	"timi" N Ins Sg @i-ADVL>N
+"<sungiusaasumi>"
+	"sungiusaasoq" N Lok Sg @ADVL>
+"<inissaqarnersoq>"
+	"ini" SSAQ QAR NIR V Par 3Sg @CL-<CIT
+"<–>"
+	"–" PUNCT
+"<sivisuumik>"
+	"sivisooq" N Ins Sg @ADVL>
+"<utaqqisariaqartoq>"
+	"utaqqi" TARIAQAR V Par 3Sg @CL-CIT>
+"<ilisimallutigu>"
+	"ilisima" V Cont 1Pl 3SgO @PRED2
+"<–>"
+	"–" PUNCT
+"<paasiniaaqqullugu>"
+	"paasi" NIAR HTR QQU V Cont 3SgO @ADVL>
+"<nakorsiartarfimmut>"
+	"nakorsiartarfik" N Trm Sg @ADVL>
+"<sianeqquneqarpoq>"
+	"sianer" QQU NIQAR V Ind 3Sg @PRED
+	"siani" QQU NIQAR V Ind 3Sg @PRED
+"<.>"
+	"." CLB
+
+"<Tamannalu>"
+	"manna" Pron Abs Sg LU @SUBJ>
+"<pissusissamisuunngilaq>"
+	"pissusissamisoor" NNGIT V Ind 3Sg @PRED
+"<,>"
+	"," CLB
+"<Elise>"
+	"Elise" Prop Abs Sg @PROP>
+"<Bruun>"
+	"Bruun" Prop Abs Sg @SUBJ>
+"<peqatigiiffimmik>"
+	"peqatigiiffik" N Ins Sg @PROP>
+"<Hjertelivetimik>"
+	"Hjertelivet" Prop Ins Sg @i-MIK-OBJ>
+"<pilersitsisimasoq>"
+	"pi" LIR TIP HTR SIMA TUQ N Abs Sg @<APPOS
+"<,>"
+	"," CLB
+"<Sermitsiaq.AG-mut>"
+	"Sermitsiaq.AG" Prop Trm Sg @ADVL>
+"<oqaluttuarpoq>"
+	"oqaluttuar" V Ind 3Sg @PRED
+"<.>"
+	"." CLB
+</s>
+
 <sqBtz82dpGFfjkFM30xxH72aht0c-0>
 "<Ilaa>"
 	"ilaa" Interj @INTERJ
@@ -8063,7 +8070,7 @@
 "<naasumik>"
 	"naasoq" N Ins Sg @i-N<
 "<nunarsuarmi>"
-	"nunarsuaq" N Lok Sg @i-ADVL>
+	"nuna" SUAQ N Lok Sg @i-ADVL>
 "<asseqanngitsumik>"
 	"assi" QAR NNGIT TUQ N Ins Sg @N<
 "<ullaallu>"
@@ -8496,7 +8503,7 @@
 "<soorlu>"
 	"soorlu" Pali @FOC>N
 "<nunarsuup>"
-	"nunarsuaq" N Rel Sg @<APPOS
+	"nuna" SUAQ N Rel Sg @<APPOS
 "<,>"
 	"," CLB
 "<Jupiterip>"
@@ -8545,6 +8552,7 @@
 "<qiimmassarniarlunilu>"
 	"qiimmassar" NIAR V Cont 4Sg LU @ADVL>
 "<imernerusimasoq>"
+	"imer" NIRU SIMA V Par 3Sg @CL-<CIT
 	"imer" NIRU SIMA V Par 3Sg @CL-<CIT
 	"imer" NIRU SIMA V Par 3Sg @CL-<CIT
 "<,>"
@@ -8783,7 +8791,7 @@
 "<,>"
 	"," CLB
 "<nunarsuarmi>"
-	"nunarsuaq" N Lok Sg @ADVL>
+	"nuna" SUAQ N Lok Sg @ADVL>
 "<,>"
 	"," CLB
 "<ataqqinartuaraqarpoq>"
@@ -9115,67 +9123,6 @@
 	"." CLB
 </s>
 
-<sx1WxTw6tYCb1aPYhhZMnaVtxLUE-0>
-"<->"
-	"-" PUNCT
-"<Taanna>"
-	"una" Pron Abs Sg @SUBJ>
-"<paasitinneqarpoq>"
-	"paasi" TIP NIQAR V Ind 3Sg @PRED
-"<,>"
-	"," CLB
-"<timimik>"
-	"timi" N Ins Sg @i-ADVL>N
-"<sungiusaasumi>"
-	"sungiusaasoq" N Lok Sg @ADVL>
-"<inissaqarnersoq>"
-	"ini" SSAQ QAR NIR V Par 3Sg @CL-<CIT
-"<–>"
-	"–" PUNCT
-"<sivisuumik>"
-	"sivisooq" N Ins Sg @ADVL>
-"<utaqqisariaqartoq>"
-	"utaqqi" TARIAQAR V Par 3Sg @CL-CIT>
-"<ilisimallutigu>"
-	"ilisima" V Cont 1Pl 3SgO @PRED2
-"<–>"
-	"–" PUNCT
-"<paasiniaaqqullugu>"
-	"paasi" NIAR HTR QQU V Cont 3SgO @ADVL>
-"<nakorsiartarfimmut>"
-	"nakorsiartarfik" N Trm Sg @ADVL>
-"<sianeqquneqarpoq>"
-	"sianer" QQU NIQAR V Ind 3Sg @PRED
-	"siani" QQU NIQAR V Ind 3Sg @PRED
-"<.>"
-	"." CLB
-
-"<Tamannalu>"
-	"manna" Pron Abs Sg LU @SUBJ>
-"<pissusissamisuunngilaq>"
-	"pissusissamisoor" NNGIT V Ind 3Sg @PRED
-"<,>"
-	"," CLB
-"<Elise>"
-	"Elise" Prop Abs Sg @PROP>
-"<Bruun>"
-	"Bruun" Prop Abs Sg @SUBJ>
-"<peqatigiiffik>"
-	"peqatigiiffik" N Abs Sg @PROP>
-"<Hjertelivetimik>"
-	"Hjerteliveti" Prop Ins Sg @i-MIK-OBJ>
-"<pilersitsisimasoq>"
-	"pi" LIR TIP HTR SIMA TUQ N Abs Sg @N<
-"<,>"
-	"," CLB
-"<Sermitsiaq.AG-mut>"
-	"Sermitsiaq.AG" Prop Trm Sg @ADVL>
-"<oqaluttuarpoq>"
-	"oqaluttuar" V Ind 3Sg @PRED
-"<.>"
-	"." CLB
-</s>
-
 <sx1tVenqHCbTpU6XGxuQC4LP4ySM-0>
 "<->"
 	"-" PUNCT
@@ -9242,6 +9189,7 @@
 "<alliartorput>"
 	"alli" GIARTUR V Ind 3Pl @PRED
 "<Attup>"
+	"Attu" Prop Rel Sg @POSS>
 	"Attu" Prop Rel Sg @POSS>
 "<eqqaani>"
 	"eqqaq" N Lok Sg 3SgPoss @ADVL>
