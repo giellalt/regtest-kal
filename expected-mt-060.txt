@@ -1064,7 +1064,7 @@
 "<sisamanut>"
 	"sisamat" Num Trm Pl @ADVL>
 "<qiteqqukkaa>"
-	"qiteqqup" V Par 3Sg 3SgO @CL-ADVL>
+	"qiteqqup" V Par 3Sg 3SgO @i-CL-ADVL>
 "<ammaanersiorluni>"
 	"ammar" HTR NIQ SIUR V Cont 4Sg @i-ADVL>
 "<oqalugiarnermini>"
@@ -1935,6 +1935,7 @@
 "<,>"
 	"," CLB
 "<qimanniaqinagu>"
+	"qimap" NIAR QE V ContNeg 3SgO @<ADVL
 	"qimap" NIAR QE V ContNeg 3SgO @<ADVL
 "<!>"
 	"!" CLB
@@ -6564,7 +6565,6 @@
 	"," CLB
 "<kunngikkormiut>"
 	"kunngi" KKUT MIU N Abs Pl @OBJ>
-	"kunngi" KKUT MIU N Abs Pl @OBJ>
 "<atertaavi>"
 	"ateq" TAAQ N Abs Pl 3SgPoss @N<
 "<assut>"
@@ -7089,7 +7089,7 @@
 "<siulersuisuisa>"
 	"siulersor" HTR TUQ N Rel Pl 3SgPoss @SUBJ>
 "<qanittukkut>"
-	"qanip" TUQ KKUT N Rel Pl @N<
+	"qanip" TUQ N Via Sg @ADVL>
 "<aalajangissavaat>"
 	"aalajanger" SSA V Ind 3Pl 3SgO @PRED
 "<,>"
@@ -9762,15 +9762,15 @@
 "<ilalu>"
 	"ila" Interj LU @INTERJ
 "<ersisuittarsimassusii>"
-	"ersisuip" TAR SIMA SSUSIQ N Abs Pl 3SgPoss @SUBJ>
+	"ersisuip" TAR SIMA SSUSIQ N Abs Pl 3SgPoss @OBJ>
 "<,>"
 	"," CLB
 "<ilaannimi>"
 	"ila" IT NIQ N Rel Pl 4SgPoss @POSS>
 "<ilaasa>"
-	"ila" N Rel Pl 3PlPoss
+	"ila" N Rel Pl 3PlPoss @SUBJ>
 "<malittarsimagaluaqaat>"
-	"malip" TAR SIMA GALUAR QE V Ind 3Pl @PRED
+	"malip" TAR SIMA GALUAR QE V Ind 3Pl 3PlO @PRED
 "<sumiiffeeruttarsimallugilli>"
 	"sumiiffik" IRUTE TAR SIMA V Cont 3PlO LI @<ADVL
 	"suna" IP VIK IRUTE TAR SIMA V Cont 3PlO LI @<ADVL
@@ -14283,7 +14283,7 @@
 "<kiannerpaagami>"
 	"kiap" NIRPAAQ U V Cau 4Sg @CAU
 "<noorl'uuvoq>"
-	"noorl'uu" V Ind 3Sg @PRED
+	"noor'lu" U V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -15804,7 +15804,6 @@
 	"," CLB
 "<kunngikkormiut>"
 	"kunngi" KKUT MIU N Abs Pl @OBJ>
-	"kunngi" KKUT MIU N Abs Pl @OBJ>
 "<atertaavi>"
 	"ateq" TAAQ N Abs Pl 3SgPoss @N<
 "<assut>"
@@ -16373,22 +16372,20 @@
 "<Arnat>"
 	"arnaq" N Rel Pl @SUBJ>
 "<meerannguit>"
-	"meeraq" NNGUAQ N Rel Pl @N<
+	"meeraq" NNGUAQ N Abs Pl @OBJ>
 "<taakku>"
-	"una" Pron Rel Pl @N<
+	"una" Pron Abs Pl @N<
 "<paasitinniaraluarpaat>"
-	"paasi" TIP NIAR GALUAR V Ind 3Pl 3SgO @PRED
+	"paasi" TIP NIAR GALUAR V Ind 3Pl 3PlO @PRED
 "<ataataat>"
 	"ataata" N Abs Sg 3PlPoss @SUBJ>
 "<toqusoq>"
 	"toqu" V Par 3Sg @CL-CIT>
 "<unnerlugu>"
-	"unner" V Cont 3SgO @CL-<CIT
+	"unner" V Cont 3SgO @<ADVL
 "<,>"
 	"," CLB
 "<ajornaqaarli>"
-	"ajor" NAR QE V Ind 3Sg LI @PRED
-	"ajor" NAR QE V Ind 3Sg LI @PRED
 	"ajor" NAR QE V Ind 3Sg LI @PRED
 	"ajor" NAR QE V Ind 3Sg LI @PRED
 "<meerannguit>"
@@ -17088,8 +17085,6 @@
 "<allatulli>"
 	"alla" N Aeq Sg LI @ADVL>
 "<ajornaqimmat>"
-	"ajor" NAR QE V Cau 3Sg @CAU
-	"ajor" NAR QE V Cau 3Sg @CAU
 	"ajor" NAR QE V Cau 3Sg @CAU
 	"ajor" NAR QE V Cau 3Sg @CAU
 "<iluarisaannarminik>"
