@@ -1243,6 +1243,7 @@
 	"tuni" UTE SSAQ N Ins Pl @i->N
 "<tunineqartarlutik>"
 	"tuni" NIQ QAR TAR V Cont 4Pl @ADVL>
+	"tuni" NIQ QAR TAR V Cont 4Pl @ADVL>
 "<,>"
 	"," CLB
 "<naalagiartinneqartarlutik>"
@@ -1959,6 +1960,8 @@
 "<allaanerusunik>"
 	"alla" U NIRU TUQ N Ins Pl @N<
 "<taaneqartunut>"
+	"taa" NIQ QAR TUQ N Trm Pl @ADVL>
+	"taa" NIQ QAR TUQ N Trm Pl @ADVL>
 	"taa" NIQ QAR TUQ N Trm Pl @ADVL>
 "<ilaavoq>"
 	"ila" U V Ind 3Sg @PRED
@@ -3801,7 +3804,7 @@
 "<nal.>"
 	"nalunaaqutaq" N @>N
 "<13>"
-	"13" Num Abs
+	"13" Num Abs @>N
 "<katersalerisut>"
 	"katersaq" LIRI TUQ N Abs Pl
 "<tamakkerluta>"
@@ -5386,7 +5389,7 @@
 "<nalunaarusiaq>"
 	"nalunaarusiaq" N Abs Sg @OBJ>
 "<Nukissiorfinniit>"
-	"nukissiorfik" N Prop Abl Pl @ADVL>
+	"nukissiorfik" Prop Abl Pl @ADVL>
 "<Asiaq>"
 	"Asiaq" Prop Abs Sg @OBJ>
 	"Asiaq" Prop Abs Sg @OBJ>
@@ -5483,7 +5486,7 @@
 "<Narsarsuup>"
 	"Narsarsuaq" Prop Rel Sg @POSS>
 "<Qaqortullu>"
-	"qaqor" TUQ N Prop Rel Pl LU @POSS>
+	"qaqor" TUQ Prop Rel Pl LU @POSS>
 "<akornanni>"
 	"akunneq" N Lok Sg 3PlPoss @ADVL>
 "<angallassisuuvoq>"
@@ -5558,6 +5561,8 @@
 "<inuusuttunillu>"
 	"inuusup" TUQ N Ins Pl LU @i->N
 "<inissinneqarsimasunik>"
+	"ini" SSIP NIQ QAR SIMA TUQ N Ins Pl @i-MIK-OBJ>
+	"ini" SSIP NIQ QAR SIMA TUQ N Ins Pl @i-MIK-OBJ>
 	"ini" SSIP NIQ QAR SIMA TUQ N Ins Pl @i-MIK-OBJ>
 "<paarsinermik>"
 	"paare" HTR NIQ N Ins Sg @i-MIK-OBJ>
@@ -7460,7 +7465,7 @@
 "<niviarsiaraavoq>"
 	"niviarsiaraq" U V Ind 3Sg @PRED
 "<maannakkut>"
-	"maannakkut" Adv @i-ADVL>
+	"maannakkut" Adv @i-ADVL>N
 "<22-nik>"
 	"22" Num Ins @i->N
 "<ukiulik>"
@@ -8181,7 +8186,7 @@
 "<Inersimasut>"
 	"iner" SIMA TUQ N Abs Pl @SUBJ>
 "<nammineerlutik>"
-	"nammineer" V Cont 4Pl @PRED2
+	"nammineer" V Cont 4Pl @ADVL>
 "<imaaliallaannaq>"
 	"imaaliallaannaq" Adv @ADVL>
 "<paasinnissinnaanngillat>"
@@ -9613,7 +9618,7 @@
 
 <sbZPodL1PZYTsvPjZ6xoOIQ4Ywqg-0>
 "<Borgmester>"
-	"borgmester" N Abs Sg @PROP>
+	"borgmester" Prop Abs Sg @PROP>
 "<Agnethe>"
 	"Agnethe" Prop Abs Sg @PROP>
 "<Davidsen>"
@@ -10819,7 +10824,7 @@
 "<Kangerluat>"
 	"kangerluk" Prop Abs Sg 3PlPoss @SUBJ>
 "<40>"
-	"40" Num Abs
+	"40" Num Abs @>N
 "<km>"
 	"kilometer" N
 "<qinngortussuseqarpoq>"
@@ -11074,7 +11079,7 @@
 
 <sg3ZnV7iwFiJ2wZ0JwxQCxK8nJQc-0>
 "<Demokraatit>"
-	"Demokraatit" Prop Rel Pl @SUBJ>
+	"Demokraatit" Prop Abs Pl @SUBJ>
 "<partiitut>"
 	"parti" N Aeq Sg @ADVL>
 "<nutaatut>"
@@ -11086,15 +11091,16 @@
 "<tamakkerlugu>"
 	"tamakker" V Cont 3SgO @ADVL>
 "<14>"
-	"14" Num Abs
+	"14" Num Abs @>N
 "<procentinik>"
 	"procent" N Ins Pl @i->N
 "<qinerneqaraluarlutik>"
 	"qiner" NIQ QAR GALUAR V Cont 4Pl @ADVL>
+	"qiner" NIQ QAR GALUAR V Cont 4Pl @ADVL>
 "<,>"
 	"," CLB
 "<Siumukkut>"
-	"Siumut" KKUT Prop Rel Pl @PROP>
+	"Siumut" KKUT Prop Rel Pl @POSS>
 "<Inuit Ataqatigiillu>"
 	"Inuit Ataqatigiit" Prop Rel Pl LU @POSS>
 "<inissisimanerat>"
@@ -11468,7 +11474,7 @@
 "<niviarsiaraavoq>"
 	"niviarsiaraq" U V Ind 3Sg @PRED
 "<maannakkut>"
-	"maannakkut" Adv @i-ADVL>
+	"maannakkut" Adv @i-ADVL>N
 "<22-nik>"
 	"22" Num Ins @i->N
 "<ukiulik>"
@@ -12353,7 +12359,7 @@
 
 <sjY5LPui9xXpqfQazVzLlijjFOsY-0>
 "<amerlasooriarluni>"
-	"amerla" TUQ U RIAR V Cont 4Sg @ADVL>
+	"amerla" TUUR RIAR V Cont 4Sg @ADVL>
 "<takuaa>"
 	"taku" V Ind 3Sg 3SgO @PRED
 "<.>"
@@ -12455,7 +12461,7 @@
 "<narluinnarlugu>"
 	"narlor" INNAR V Cont 3SgO @ADVL>
 "<300>"
-	"300" Num Abs
+	"300" Num Abs @>N
 "<km>"
 	"kilometer" N
 "<missiliorpaa>"
@@ -14930,7 +14936,7 @@
 "<ilimagisaaninngarnit>"
 	"ilimage" TAQ N Abl Sg 3SgPoss @ADVL>
 "<65>"
-	"65" Num Abs @SUBJ>
+	"65" Num Abs @>N
 "<procentimik>"
 	"procent" N Ins Sg @ADVL>
 "<annertunerulluni>"
@@ -16318,6 +16324,7 @@
 "<Namminersornerullutik>"
 	"namminersor" NIRU V Cont 4Pl @i-ADVL>
 "<Oqartussanut>"
+	"oqar" TUQ SSAQ Prop Trm Pl @i-OBJ-DOTR>
 	"oqar" TUQ SSAQ Prop Trm Pl @i-OBJ-DOTR>
 "<ikiortissarsioqqullugu>"
 	"ikiortissarsior" QQU V Cont 3SgO @CL-<CIT
