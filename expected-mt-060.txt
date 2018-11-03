@@ -1746,13 +1746,13 @@
 "<,>"
 	"," CLB
 "<sulili>"
-	"suli" Adv LI @ADVL>
+	"suli" Adv LI @i-ADVL>
 "<qanoq>"
-	"qanoq" Adv @ADVL>
+	"qanoq" Adv @i-ADVL>
 "<ilerianngitsoq>"
-	"ili" RIAR NNGIT V Par 3Sg @CL-<CIT
+	"ili" RIAR NNGIT TUQ N Abs Sg @SUBJ>
 "<matu>"
-	"matu" N Abs Sg @SUBJ>
+	"matu" N Abs Sg @N<
 "<mapperpoq>"
 	"mapper" V Ind 3Sg @PRED
 "<kiffaalu>"
@@ -2195,11 +2195,11 @@
 "<Maalap>"
 	"Maalat" Prop Rel Sg @<APPOS
 "<niviarsiararsuaq>"
-	"niviarsiaraq" SUAQ N Abs Sg @SUBJ>
+	"niviarsiaraq" SUAQ N Abs Sg @OBJ>
 "<aatsaat>"
 	"aatsaat" Adv @ADVL>
 "<itertoq>"
-	"iter" V Par 3Sg @PRED2
+	"itertoq" N Abs Sg @OBJ>
 "<kissumiarlugu>"
 	"kissumiar" V Cont 3SgO @ADVL>
 "<arnaanukaappaa>"
@@ -5664,7 +5664,7 @@
 "<Nuummi>"
 	"Nuuk" Prop Lok Sg @i-ADVL>
 "<immikkoortortaqarfiani>"
-	"immikkoor" TUQ TAQ QAR VIK N Lok Sg 3SgPoss @N<
+	"immikkoor" TUQ TAQ QAR VIK N Lok Sg 3SgPoss @ADVL>
 "<Atertami>"
 	"Aterta" Prop Lok Sg @<APPOS
 "<inissianik>"
@@ -5693,7 +5693,7 @@
 	"." CLB
 
 "<Aalajangernerlu>"
-	"aalajanger" NIQ N Abs Sg LU @>V
+	"aalajanger" NIQ N Abs Sg LU @SUBJ>
 "<ajugaanertut>"
 	"ajor" TAQ U NIQ N Aeq Sg @i-ADVL>
 "<annertuutut>"
@@ -5701,8 +5701,8 @@
 "<oqaatigisariaqartoq>"
 	"oqar" UTE GE TARIAQAR V Par 3Sg @CL-<CIT
 "<Atertaq>"
-	"ateq" TAQ Prop Abs Sg @OBJ>
-	"atertaq" Prop Abs Sg @OBJ>
+	"ateq" TAQ Prop Abs Sg @<APPOS
+	"atertaq" Prop Abs Sg @<APPOS
 "<pillugu>"
 	"pi" V Cont 3SgO @i-ADVL>
 "<aallaqqaataaniit>"
@@ -6230,9 +6230,11 @@
 "<assut>"
 	"assut" Adv @ADVL>
 "<atisarissaartoq>"
-	"ati" TAQ GIP SAAR V Par 3Sg @PRED2
-	"ati" TAQ GIP SSAAR V Par 3Sg @PRED2
-	"ati" TAQ GIP TAAR V Par 3Sg @PRED2
+	"ati" TAQ GE SSAAR TUQ N Abs Sg @SUBJ>
+	"ati" TAQ GIP SAAR TUQ N Abs Sg @SUBJ>
+	"ati" TAQ GIP SAAR TUQ N Abs Sg @SUBJ>
+	"ati" TAQ GIP SSAAR TUQ N Abs Sg @SUBJ>
+	"ati" TAQ GIP TAAR TUQ N Abs Sg @SUBJ>
 "<suliffissaaleqinnguatsiaqalunili>"
 	"suli" VIK SSAALIQI NNGUATSIAR QE V Cont 4Sg LI @ADVL>
 	"suli" VIK SSAALIQI NNGUATSIAR QE V Cont 4Sg LI @ADVL>
@@ -9505,7 +9507,7 @@
 "<nukappiaraq>"
 	"nukappiaraq" N Abs Sg @i-N<
 "<ataaseq>"
-	"ataaseq" N Abs Sg @N<
+	"ataaseq" Num Abs Sg @N<
 "<mikisoq>"
 	"miki" TUQ N Abs Sg @N<
 "<.>"
@@ -12039,8 +12041,8 @@
 "<ujarlersut>"
 	"ujarlersoq" N Abs Pl @<SUBJ
 "<tasersuup>"
-	"tasersuaq" N Rel Sg @POSS>
-	"tasersuk" N Rel Sg @POSS>
+	"tasersuaq" N Rel Sg
+	"tasersuk" N Rel Sg
 "<illoqarfiup>"
 	"illu" QAR VIK N Rel Sg @N<
 "<kangianiittup>"
@@ -13231,7 +13233,7 @@
 "<peqataanani>"
 	"peqat" U V ContNeg 4Sg @ADVL>
 "<præsidentinngorniuteqataasimasorli>"
-	"præsident" NNGUR NIUTE QATE U SIMA V Par 3Sg LI @PRED2
+	"præsident" NNGUR NIUTE QATE U SIMA TUQ N Abs Sg LI @N<
 "<senator>"
 	"senator" N Abs Sg @PROP>
 "<John>"
