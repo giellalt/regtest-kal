@@ -1368,7 +1368,7 @@
 "<sivisoorujussuartut>"
 	"sivisooq" RUJUK SUAQ N Aeq Sg @ADVL>
 "<isigaa>"
-	"isi" GE V Ind 3Sg 3SgO @PRED
+	"isige" V Ind 3Sg 3SgO @PRED
 "<,>"
 	"," CLB
 "<sukkalisaarnerullunili>"
@@ -1583,7 +1583,7 @@
 "<tungaannaa>"
 	"tunge" INNAQ N Abs Sg 3SgPoss @OBJ>
 "<isigiinnaraa>"
-	"isi" GIIP NAR GE V Ind 3Sg 3SgO @PRED
+	"isige" INNAR V Par 3Sg 3SgO @PRED2
 "<aarit>"
 	"aar" V Par 2Sg 3SgO @PRED2
 "<matuersaaserput>"
@@ -1591,7 +1591,7 @@
 "<arriitsuararsuarmik>"
 	"arriip" TUQ ARAQ SUAQ N Ins Sg @ADVL>
 "<qissallakkiartulerpoq>"
-	"qissallap" GIARTUR LIR V Ind 3Sg @PRED2
+	"qissallap" GIARTUR LIR V Ind 3Sg @PRED
 </s>
 
 <s6ziZQ0qtoi9zoIKOR0XI8fdU0zA-0>
@@ -2732,7 +2732,7 @@
 "<,>"
 	"," CLB
 "<nutaamik>"
-	"nutaaq" N Ins Sg @ADVL>
+	"nutaaq" N Ins Sg @i->N
 "<illulioramik>"
 	"illu" LIUR V Cau 4Pl @CAU
 "<.>"
@@ -2894,7 +2894,7 @@
 "<Aasianni>"
 	"Aasiaat" Prop Lok Pl @ADVL>
 "<pinerluuteqarsimasunut>"
-	"pinerlup" UTE QAR SIMA TUQ N Trm Pl @i-ADVL>
+	"pinerlup" UTE QAR SIMA TUQ N Trm Pl @ADVL>
 "<inissiisarfimmiitinneqarpoq>"
 	"inissii" TAR VIK IP TIP NIQAR V Ind 3Sg @PRED
 "<.>"
@@ -3116,7 +3116,7 @@
 "<Pauli>"
 	"Pauli" Prop Abs Sg @OBJ>
 "<isigaa>"
-	"isi" GE V Ind 3Sg 3SgO @PRED
+	"isige" V Ind 3Sg 3SgO @PRED
 "<.>"
 	"." CLB
 </s>
@@ -3773,7 +3773,6 @@
 	"ator" HTR PILUUR NIQ N Trm Sg @i-ADVL>
 "<sangujartuinnavittut>"
 	"sangu" GIARTUR INNAQ VIK N Aeq Sg
-	"sangu" GIARTUR INNAQ VIK N Aeq Sg 1SgPoss
 "<.>"
 	"." CLB
 </s>
@@ -4081,7 +4080,7 @@
 "<tyskit>"
 	"tyskeq" N Rel Pl @SUBJ>
 "<1940-mi>"
-	"1940" Num Lok @ADVL>
+	"1940" Num Lok @i-ADVL>N
 "<Danmarki>"
 	"Danmark" Prop Abs Sg @OBJ>
 "<isaaffigaat>"
@@ -4291,7 +4290,7 @@
 "<qungujulalluni>"
 	"qungujula" V Cont 4Sg @<ADVL
 "<isigigaani>"
-	"isi" GE V Par 3Sg 4SgO @CL-<CIT
+	"isige" V Par 3Sg 4SgO @CL-<CIT
 "<.>"
 	"." CLB
 </s>
@@ -5949,7 +5948,7 @@
 "<Soorlu>"
 	"soorlu" Pali @CL-ADVL>
 "<isigisat>"
-	"isi" GE TAQ N Abs Pl @OBJ>
+	"isige" TAQ N Abs Pl @OBJ>
 "<qalipagassaqqissut>"
 	"qalipagaq" SSAQQIP TUQ N Abs Pl @N<
 "<tappiffigisaqigai>"
@@ -7093,8 +7092,9 @@
 "<qaangiuppata>"
 	"qaangiup" V Con 3Pl @CON
 "<saviminermik>"
-	"savimineq" N Ins Sg @i-MIK-OBJ>
+	"savimineq" N Ins Sg @i->N
 "<piiaaffiliornissaq>"
+	"piiaap" VIK LIUR NIQ SSAQ N Abs Sg @HNOUN
 	"piiar" HTR VIK LIUR NIQ SSAQ N Abs Sg @HNOUN
 "<.>"
 	"." CLB
@@ -8423,7 +8423,6 @@
 	"nalu" NNGIT TAQ N Abs Pl 1SgPoss @<OBJ
 "<sangujartuinnavittut>"
 	"sangu" GIARTUR INNAQ VIK N Aeq Sg
-	"sangu" GIARTUR INNAQ VIK N Aeq Sg 1SgPoss
 </s>
 
 <sXdbs3879C9jKGnrxExmo4y8idzc-0>
@@ -10710,7 +10709,7 @@
 "<Tamakkuli>"
 	"manna" Pron Rel Pl LI @SUBJ>
 "<isiginngitsutut>"
-	"isi" GE NNGIT TUQ N Aeq Sg @ADVL>
+	"isige" NNGIT TUQ N Aeq Sg @ADVL>
 "<ippaat>"
 	"ip" V Ind 3Pl 3SgO @PRED
 </s>
@@ -10765,7 +10764,7 @@
 "<qajaq>"
 	"qajaq" N Abs Sg @OBJ>
 "<isigaara>"
-	"isi" GE V Ind 1Sg 3SgO @PRED
+	"isige" V Ind 1Sg 3SgO @PRED
 "<ornikkaatit>"
 	"ornip" V Par 3Sg 2SgO @PRED2
 "<,>"
@@ -12539,7 +12538,7 @@
 	"ajor" TUQ LIUR TUQ N Aeq Sg @ADVL>
 	"ajor" TUQ LIUR TUQ N Aeq Sg @ADVL>
 "<isigineqarsinnaagaluarlunga>"
-	"isi" GE NIQAR SINNAA GALUAR V Cont 1Sg @<ADVL
+	"isige" NIQAR SINNAA GALUAR V Cont 1Sg @<ADVL
 "<.>"
 	"." CLB
 </s>
@@ -13372,7 +13371,7 @@
 "<,>"
 	"," CLB
 "<tupaqqangaarama>"
-	"tupap" QQA NGAAR V Cau 1Sg @CAU
+	"tupap" QQA NGAAR V Cau 1Sg @i-ADVL>N
 "<isikka>"
 	"isi" N Abs Pl 1SgPoss @OBJ>
 "<anillatsingajallugit>"
@@ -14345,7 +14344,7 @@
 "<imminut>"
 	"immi" Pron Trm Sg @N<
 "<isigisoq>"
-	"isi" GE TUQ N Abs Sg @N<
+	"isige" TUQ N Abs Sg @N<
 "<.>"
 	"." CLB
 </s>
@@ -15248,7 +15247,7 @@
 	"sinnartoor" SIMA TUQ N Abs Pl @N<
 	"sinnartoor" SIMA TUQ N Rel Pl @N<
 "<isiginngitsutut>"
-	"isi" GE NNGIT TUQ N Aeq Sg @ADVL>
+	"isige" NNGIT TUQ N Aeq Sg @ADVL>
 "<ippaat>"
 	"ip" V Ind 3Pl 3PlO @PRED
 "<.>"
@@ -16389,7 +16388,7 @@
 	"ajor" NAR QE V Ind 3Sg LI @PRED
 	"ajor" NAR QE V Ind 3Sg LI @PRED
 "<meerannguit>"
-	"meeraq" NNGUAQ N Rel Pl @SUBJ>
+	"meeraq" NNGUAQ N Rel Pl @POSS>
 "<taakku>"
 	"una" Pron Rel Pl @N<
 "<ataataartorlutik>"
@@ -17047,7 +17046,7 @@
 "<taama>"
 	"taama" Adv @>V
 "<isigitigigaani>"
-	"isi" GE TIGE V Par 3Sg 4SgO @PRED2
+	"isige" TIGE V Par 3Sg 4SgO @PRED2
 "<,>"
 	"," CLB
 "<allatulli>"
@@ -17149,7 +17148,7 @@
 "<imigassartallit>"
 	"imer" TAQ SSAQ TAQ LIK N Abs Pl @N<
 "<qaffaavigeqqullugit>"
-	"qaffar" HTR VIK GE QQU V Cont 3PlO @CL-<CIT
+	"qaffap" HTR VIK GE QQU V Cont 3PlO @CL-<CIT
 "<.>"
 	"." CLB
 </s>
