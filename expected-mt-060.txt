@@ -995,7 +995,7 @@
 "<">"
 	""" PUNCT
 "<Malersortinneq>"
-	"malersortip" NIQ N Prop Abs Sg @N<
+	"malersortip" NIQ Prop Abs Sg @SUBJ>
 "<">"
 	""" PUNCT
 "<->"
@@ -3338,7 +3338,7 @@
 "<angalaarnermik>"
 	"angalaar" NIQ N Ins Sg @CL-<ADVL
 "<nunap>"
-	"nuna" N Rel Sg @<SUBJ
+	"nuna" N Rel Sg
 "<assiliornermillu>"
 	"asseq" LIUR NIQ N Ins Sg LU @CL-<ADVL
 	"assi" LIUR NIQ N Ins Sg LU @CL-<ADVL
@@ -3787,7 +3787,7 @@
 "<atuipiloornermut>"
 	"ator" HTR PILUUR NIQ N Trm Sg @i-ADVL>
 "<sangujartuinnavittut>"
-	"sangu" GIARTUR INNAQ VIK N Aeq Sg
+	"sangu" GIARTUR INNAQ VIK N Aeq Sg @<ADVL
 "<.>"
 	"." CLB
 </s>
@@ -3954,7 +3954,7 @@
 "<–>"
 	"–" PUNCT
 "<inuusuttut>"
-	"inuusup" TUQ N Abs Pl @SUBJ>
+	"inuusup" TUQ N Abs Pl @<OBJ
 "<pingaartumik>"
 	"pingaartumik" Adv @ADVL>
 "<ilinniagallit>"
@@ -3962,7 +3962,7 @@
 "<tunuarsimaannarunnaarlutik>"
 	"tunuar" SIMA INNAR GUNNAIR V Cont 4Pl @i-ADVL>
 "<sassartilernerat>"
-	"sassarter" LIR NIQ N Abs Sg 3PlPoss @HNOUN
+	"sassarter" LIR NIQ N Abs Sg 3PlPoss @<OBJ
 "<.>"
 	"." CLB
 </s>
@@ -5269,8 +5269,7 @@
 
 <sLoKHx1FQLla1844fXrK8sQHYLDg-0>
 "<Aataakkut>"
-	"Aataaq" KKUT Prop Abs Pl @OBJ>
-	"aataaq" KKUT N Abs Pl @OBJ>
+	"aataa" KKUT N Abs Pl @OBJ>
 "<asimi>"
 	"asi" N Rel Pl 4SgPoss @POSS>
 "<illuaraanni>"
@@ -7483,7 +7482,7 @@
 "<pissutsit>"
 	"pi" SSUSIQ N Rel Pl @POSS>
 "<sakkortuumik>"
-	"sakkortooq" N Rel Pl 4PlPoss @POSS>
+	"sakkortooq" N Rel Pl 4PlPoss @N<
 "<allanngulernerannit>"
 	"alla" NNGUR LIR NIQ N Abl Sg 3PlPoss @AGENS
 "<eqqorneqartunut>"
@@ -8437,7 +8436,7 @@
 "<nalunngisakka>"
 	"nalu" NNGIT TAQ N Abs Pl 1SgPoss @<OBJ
 "<sangujartuinnavittut>"
-	"sangu" GIARTUR INNAQ VIK N Aeq Sg
+	"sangu" GIARTUR INNAQ VIK N Aeq Sg @<ADVL
 </s>
 
 <sXdbs3879C9jKGnrxExmo4y8idzc-0>
@@ -9083,7 +9082,8 @@
 "<utoqqasaavisa>"
 	"utoqqasaaq" N Rel Pl 3SgPoss @POSS>
 "<isikkamik>"
-	"isigak" N Rel Pl 4PlPoss @POSS>
+	"iser" TAQ N Rel Pl 4PlPoss @N<
+	"isigak" N Rel Pl 4PlPoss @N<
 "<arsaallutik>"
 	"arsaq" U V Cont 4Pl @i-ADVL>
 "<unamminissaat>"
@@ -9462,7 +9462,7 @@
 "<illuaqqami>"
 	"illu" ARAQ N Rel Sg 4SgPoss @HNOUN
 "<aataap>"
-	"aataaq" N Rel Sg @POSS>
+	"aataa" N Rel Sg @POSS>
 "<qangangaatsiarli>"
 	"qangangaatsiaq" Adv LI @HNOUN
 "<sanaarisimasaani>"
@@ -15223,7 +15223,6 @@
 "<tikerlaat>"
 	"tikip" RLAAQ N Rel Pl @N<
 "<sinnartoorsimasut>"
-	"sinnartoor" SIMA TUQ N Abs Pl @N<
 	"sinnartoor" SIMA TUQ N Rel Pl @N<
 "<isiginngitsutut>"
 	"isige" NNGIT TUQ N Aeq Sg @ADVL>
@@ -16440,7 +16439,7 @@
 "<illuaqqami>"
 	"illu" ARAQ N Lok Sg @ADVL>
 "<aataap>"
-	"aataaq" N Rel Sg @POSS>
+	"aataa" N Rel Sg @POSS>
 "<qangangaatsiarli>"
 	"qangangaatsiaq" Adv LI @ADVL>
 "<sanaarisimasaani>"
@@ -16860,10 +16859,9 @@
 "<Taama>"
 	"taama" Adv @CL-ADVL>
 "<oqartorlu>"
-	"oqar" TUQ N Abs Sg LU @SUBJ>
 	"oqar" V Par 3Sg LU @PRED2
 "<Manu>"
-	"Manu" Prop Abs Sg @<APPOS
+	"Manu" Prop Abs Sg @SUBJ>
 "<oqariasaarpoq>"
 	"oqar" RIATAAR V Ind 3Sg @PRED
 "<:>"
