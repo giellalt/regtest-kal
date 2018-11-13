@@ -1539,7 +1539,7 @@
 "<Aamma>"
 	"aamma" Adv @ADVL>
 "<suliffeqarfiit>"
-	"suli" VIK QAR VIK N Abs Pl @SUBJ>
+	"suli" VIK QAR VIK N Abs Pl @OBJ>
 "<kommunelluunniit>"
 	"kommune" N Abs Pl LUUNNIIT @OBJ>
 "<tunuliaqutarinagit>"
@@ -1547,19 +1547,19 @@
 "<inunnik>"
 	"inuk" N Ins Pl @i->N
 "<ataasiakkaanik>"
-	"ataasiakkaaq" N Ins Pl @i->N
+	"ataasiakkaaq" N Ins Pl @N<
 "<suliniuteqartoqalerpoq>"
 	"suli" NIUTE QAR TUQ QAR LIR V Ind 3Sg @PRED
 "<,>"
 	"," CLB
 "<soorlu>"
-	"soorlu" Pali @FOC>N
+	"soorlu" Pali @i-ADVL>
 "<arpattartoq>"
 	"arpap" TAR TUQ N Abs Sg @<APPOS
 "<tamatta>"
 	"tamaq" N Nom 1Pl
 "<nalunngisarput>"
-	"nalu" NNGIT TAR V Ind 3Pl @PRED
+	"nalu" NNGIT TAQ N Abs Sg 1PlPoss @N<
 "<,>"
 	"," CLB
 "<Kim>"
@@ -1946,7 +1946,6 @@
 	""" PUNCT
 "<Nallinnarpallaassaqaaq>"
 	"nallinnar" VALLAAR SSA QE V Ind 3Sg @PRED
-	"nallip" NAR VALLAAR SSA QE V Ind 3Sg @PRED
 "<,>"
 	"," CLB
 "<qimanniaqinagu>"
@@ -4151,8 +4150,6 @@
 "<Isumassaqartinnanngikkaluaqisorlu>"
 	"isumassaq" QAR TIP NAR NNGIT GALUAR QE V Par 3Sg LU @PRED2
 	"isumassaq" QAR TIP NAR NNGIT GALUAR QE V Par 3Sg LU @PRED2
-	"isumassaq" QAR TIP NAR NNGIT GALUAR QE V Par 3Sg LU @PRED2
-	"isumassaq" QAR TIP NAR NNGIT GALUAR QE V Par 3Sg LU @PRED2
 "<maani>"
 	"ma" Adv Lok @ADVL>
 "<inoqarfimmit>"
@@ -4824,8 +4821,6 @@
 "<nunatsinni>"
 	"nuna" N Lok Sg 1PlPoss @i-ADVL>
 "<ajornannginnerulernissaa>"
-	"ajor" NAR NNGIT NIRU LIR NIQ SSAQ N Abs Sg 3SgPoss @<OBJ
-	"ajor" NAR NNGIT NIRU LIR NIQ SSAQ N Abs Sg 3SgPoss @<OBJ
 	"ajor" NAR NNGIT NIRU LIR NIQ SSAQ N Abs Sg 3SgPoss @<OBJ
 "<.>"
 	"." CLB
@@ -5915,8 +5910,6 @@
 	"angallat" SSAQ N Aeq Sg @i-ADVL>
 "<piukkunnarsagaq>"
 	"piukkunnar" SAR TAQ N Abs Sg @N<
-	"piukkup" NAR SAR TAQ N Abs Sg @N<
-	"piukkup" NAR SAR TAQ N Abs Sg @N<
 "<–>"
 	"–" PUNCT
 "<kingullermik>"
@@ -6456,7 +6449,7 @@
 "<tungaaniit>"
 	"tunge" N Abl Sg 3SgPoss @i-ADVL>
 "<inatsisartut>"
-	"inap" HTR TAR TUQ N Rel Pl @SUBJ>
+	"inap" HTR TAR TUQ N Abs Pl @OBJ>
 "<sunik>"
 	"suna" Pron Ins Pl @ADVL>
 "<paasitissallugit>"
@@ -6697,8 +6690,9 @@
 "<piffissakkullu>"
 	"piffik" SSAQ N Via Sg LU @ADVL>
 "<tamatigut>"
-	"tamaq" N Via @N<
+	"tamaq" N Via @i-ADVL>
 "<aggertuaannarput>"
+	"agger" TUAR INNAQ N Abs Sg 1PlPoss @HNOUN
 	"agger" TUAR INNAR V Ind 3Pl @PRED
 "<.>"
 	"." CLB
@@ -6843,7 +6837,6 @@
 "<tammartajaarsimagaanni>"
 	"tammartajaar" SIMA V Par 4Sg @CL-ADVL>
 "<akunnattoornanngeqaaq>"
-	"akunnattoor" NAR NNGIT QE V Ind 3Sg @PRED
 	"akunnattoor" NAR NNGIT QE V Ind 3Sg @PRED
 "<.>"
 	"." CLB
@@ -7558,8 +7551,6 @@
 "<naak>"
 	"naak" Adv @ADVL>
 "<artornartaraluaqaluni>"
-	"artor" NAR TAR GALUAR QE V Cont 4Sg @<ADVL
-	"artor" NAR TAR GALUAR QE V Cont 4Sg @<ADVL
 	"artor" NAR TAR GALUAR QE V Cont 4Sg @<ADVL
 	"artor" NAR TAR GALUAR QE V Cont 4Sg @<ADVL
 "<.>"
@@ -8516,7 +8507,6 @@
 	"kalerrii" SINNAA V Con 2Sg @CON
 	"kalerrip" HTR SINNAA V Con 2Sg @CON
 "<qujanassaqaaq>"
-	"quja" NAR SSA QE V Ind 3Sg @PRED
 	"quja" NAR SSA QE V Ind 3Sg @PRED
 "<.>"
 	"." CLB
@@ -9557,8 +9547,6 @@
 	"aamma" Conj @CONJ
 "<piukkunnarluartunik>"
 	"piukkunnar" LLUAR TUQ N Ins Pl @i->N
-	"piukkup" NAR LLUAR TUQ N Ins Pl @i->N
-	"piukkup" NAR LLUAR TUQ N Ins Pl @i->N
 	"piukkup" NAR LLUAR TUQ N Ins Pl @i->N
 	"piukkup" NAR LLUAR TUQ N Ins Pl @i->N
 "<sinniisussaateqarluta>"
@@ -13019,7 +13007,6 @@
 	"sila" N Abs Sg @SUBJ>
 "<tujorminakujuttoq>"
 	"tujormi" NAR KUJUP V Par 3Sg @PRED2
-	"tujormi" NAR KUJUP V Par 3Sg @PRED2
 "<Manu>"
 	"Manu" Prop Abs Sg @SUBJ>
 "<atuarfimmit>"
@@ -13694,8 +13681,6 @@
 "<ajornanngilaq>"
 	"ajor" NAR NNGIT V Ind 3Sg @PRED
 	"ajor" NAR NNGIT V Ind 3Sg @PRED
-	"ajor" NAR NNGIT V Ind 3Sg @PRED
-	"ajor" NAR NNGIT V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -14195,7 +14180,6 @@
 	"ma" Adv Abl @i-ADVL>
 "<pisorinanngitsoq>"
 	"pisoq" GE NAR NNGIT TUQ N Abs Sg @HNOUN
-	"pisoq" GE NAR NNGIT TUQ N Abs Sg @HNOUN
 "<.>"
 	"." CLB
 </s>
@@ -14555,7 +14539,7 @@
 "<paasitimmannga>"
 	"paasi" TIP V Cau 3Pl 1SgO @CAU
 "<susoqarnersoq>"
-	"susoq" QAR NIR V Par 3Sg @CL-<CIT
+	"susoq" QAR NIR V Par 3Sg @CL-CIT>
 "<paasivara>"
 	"paasi" V Ind 1Sg 3SgO @PRED
 "<,>"
@@ -16103,7 +16087,7 @@
 
 <sxH2i59dOvxHtJLRAztp89nSrcxs-0>
 "<Inuppassuit>"
-	"inuk" PAK SUAQ N Abs Pl @SUBJ>
+	"inuk" PAK SUAQ N Abs Pl @OBJ>
 "<ammassiat>"
 	"ammassiaq" N Abs Pl @N<
 "<takuleraluarlugit>"
