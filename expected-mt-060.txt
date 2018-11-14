@@ -781,16 +781,16 @@
 "<,>"
 	"," CLB
 "<uummataalu>"
-	"uummat" N Abs Sg 3SgPoss LU @SUBJ>
+	"uummat" N Abs Sg 3SgPoss LU @<SUBJ
 "<aamma>"
-	"aamma" Adv @ADVL>
+	"aamma" Adv @i-ADVL>
 	"aamma" Conj @CONJ
 "<soorlu>"
-	"soorlu" Pali @ADVL>
+	"soorlu" Pali
 "<sumik>"
 	"suna" Pron Ins Sg @i->N
 "<kapineqartoq>"
-	"kapineq" QAR V Par 3Sg @PRED2
+	"kapineq" QAR TUQ N Abs Sg @<APPOS
 "<.>"
 	"." CLB
 </s>
@@ -816,6 +816,7 @@
 <s3j3DLuKtRHXBQPKX1m8AARoE0xQ-0>
 "<Manu>"
 	"Manu" Prop Abs Sg @SUBJ>
+	"manu" N Abs Sg @SUBJ>
 "<qinngasaartittarnerminik>"
 	"qinngasaar" TIP TAR NIQ N Ins Sg 4SgPoss @MIK-OBJ>
 	"qinngasaar" TIP TAR NIQ N Ins Sg 4SgPoss @MIK-OBJ>
@@ -1005,9 +1006,9 @@
 "<2001-imi>"
 	"2001" Num Lok @i-ADVL>
 "<saqqummersinneqartumi>"
-	"saqqummer" TIP NIQAR TUQ N Rel Pl 4SgPoss @POSS>
+	"saqqummer" TIP NIQAR TUQ N Lok Sg @ADVL>
 "<ilaatigut>"
-	"ila" N Via Sg 3PlPoss @ADVL>
+	"ilaatigut" Adv @ADVL>
 "<taama>"
 	"taama" Adv @ADVL>
 "<allappoq>"
@@ -1649,7 +1650,7 @@
 "<aanani>"
 	"aanaq" N Abs Pl 4SgPoss @OBJ>
 "<aatanilu>"
-	"aap" TAQ N Abs Pl 4SgPoss LU @SUBJ>
+	"aataq" N Abs Pl 4SgPoss LU @SUBJ>
 "<pinialullutik>"
 	"pinialup" V Cont 4Pl @ADVL>
 "<angalasut>"
@@ -4115,7 +4116,7 @@
 "<Aalisarnikkut>"
 	"aalisar" NIQ N Via Sg @i-ADVL>
 "<inuussutissarsiorneq>"
-	"inuk" U UTE SSAQ SIUR NIQ N Abs Sg
+	"inuk" U UTE SSAQ SIUR NIQ N Abs Sg @SUBJ>
 "<siunissami>"
 	"siuneq" SSAQ N Lok Sg @ADVL>
 "<akileeqataasalissaaq>"
@@ -5103,7 +5104,7 @@
 "<,>"
 	"," CLB
 "<soorlu>"
-	"soorlu" Pali @ADVL>
+	"soorlu" Pali @FOC>N
 "<Danmarkimi>"
 	"Danmark" Prop Lok Sg @ADVL>
 "<Hjørringimi>"
@@ -5178,45 +5179,6 @@
 	"Oqaatsoq" Prop Lok Pl @ADVL>
 "<neqisisimagami>"
 	"neqi" SI SIMA V Cau 4Sg @CAU
-"<.>"
-	"." CLB
-</s>
-
-<sLOONxgUxEZdB9xGqXsnTHUPGVvU-0>
-"<Nunatsinneersut>"
-	"Nuna" IR TUQ N Abs Pl @SUBJ>
-"<soorlu>"
-	"soorlu" Pali @FOC>N
-"<Ilulissaneersut>"
-	"Ilulissat" IR V Par 3Pl @PRED2
-"<Disko Bay Blues>"
-	"Disko Bay Blues" Prop Abs Sg @SUBJ>
-"<,>"
-	"," CLB
-"<Nuummeersut>"
-	"Nuuk" IR V Par 3Pl @PRED2
-"<Pele>"
-	"Pele" Prop Abs Sg @PROP>
-"<Møller>"
-	"Møller" Prop Abs Sg @PROP>
-"<Band>"
-	"band" Prop Abs Sg @<APPOS
-"<,>"
-	"," CLB
-"<The Kalak String Quartet>"
-	"The Kalak String Quartet" Prop Abs Sg @<APPOS
-"<,>"
-	"," CLB
-"<Nuuk>"
-	"Nuuk" Prop Abs Sg @PROP>
-"<By>"
-	"by" Prop Abs Sg @SUBJ>
-"<orkester>"
-	"orkester" N Abs Sg @N<
-"<allallu>"
-	"allak" N Abs Sg LU @N<
-"<peqataapput>"
-	"peqat" U V Ind 3Pl @PRED
 "<.>"
 	"." CLB
 </s>
@@ -5701,35 +5663,35 @@
 "<Aalajangernerlu>"
 	"aalajanger" NIQ N Abs Sg LU @SUBJ>
 "<ajugaanertut>"
-	"ajor" TAQ U NIQ N Aeq Sg @i-ADVL>
+	"ajor" TAQ U NIQ N Aeq Sg @ADVL>
 "<annertuutut>"
 	"anneq" TUUQ N Aeq Sg @N<
 "<oqaatigisariaqartoq>"
-	"oqar" UTE GE TARIAQAR V Par 3Sg @CL-<CIT
+	"oqar" UTE GE TARIAQAR V Par 3Sg @PRED2
 "<Atertaq>"
-	"ateq" TAQ Prop Abs Sg @<APPOS
-	"atertaq" Prop Abs Sg @<APPOS
+	"ateq" TAQ Prop Abs Sg @OBJ>
+	"atertaq" Prop Abs Sg @OBJ>
 "<pillugu>"
 	"pi" V Cont 3SgO @i-ADVL>
 "<aallaqqaataaniit>"
-	"aallar" QQAAR UTE N Abl Sg 3SgPoss @ADVL>
+	"aallar" QQAAR UTE N Abl Sg 3SgPoss @i-ADVL>
 "<ullumimut>"
 	"ullumi" Trm Pali @i-ADVL>
 "<sulissutiginneqataasoq>"
-	"suli" UTE GE HTR QATE U V Par 3Sg @CL-<CIT
-	"suli" UTE GIP NIQ QATE U V Par 3Sg @CL-<CIT
+	"suli" UTE GE HTR QATE U TUQ N Abs Sg @SUBJ>
+	"suli" UTE GIP NIQ QATE U TUQ N Abs Sg @SUBJ>
 "<,>"
 	"," CLB
 "<Atertamilu>"
 	"Aterta" Prop Lok Sg LU @i-ADVL>
 "<najugalik>"
-	"najor" TAQ LIK N Abs Sg @<OBJ
+	"najor" TAQ LIK N Abs Sg @<APPOS
 "<Martin>"
 	"Martin" Prop Abs Sg @PROP>
 "<Ben>"
 	"Ben" Prop Abs Sg @PROP>
 "<Shalmi>"
-	"Shalmi" Prop Abs Sg @SUBJ>
+	"Shalmi" Prop Abs Sg @<APPOS
 "<oqarpoq>"
 	"oqar" V Ind 3Sg @PRED
 "<:>"
@@ -6554,9 +6516,9 @@
 "<,>"
 	"," CLB
 "<kunngikkormiut>"
-	"kunngi" KKUT MIU N Rel Pl @SUBJ>
+	"kunngi" KKUT MIU N Rel Pl @POSS>
 "<atertaavi>"
-	"ateq" TAAQ N Abs Pl 3SgPoss @OBJ>
+	"ateq" TAAQ N Abs Pl 3PlPoss @OBJ>
 "<assut>"
 	"assut" Adv @ADVL>
 "<tulluusimaarutigalugit>"
@@ -8576,7 +8538,6 @@
 "<aanani>"
 	"aanaq" N Lok Pl @ADVL>
 "<aatanilu>"
-	"aap" TAQ N Abs Sg 4SgPoss LU @SUBJ>
 	"aataq" N Abs Sg 4SgPoss LU @SUBJ>
 "<pinialullutik>"
 	"pinialup" V Cont 4Pl @ADVL>
@@ -9351,7 +9312,7 @@
 "<->"
 	"-" PUNCT
 "<soorlu>"
-	"soorlu" Pali @FOC>N
+	"soorlu" Pali @ADVL>
 "<siulivut>"
 	"siuleq" N Abs Pl 1PlPoss @<APPOS
 "<aamma>"
@@ -9727,7 +9688,7 @@
 "<,>"
 	"," CLB
 "<ilaannimi>"
-	"ila" IT NIQ N Rel Pl 4SgPoss @POSS>
+	"ilaanni" Adv MI @ADVL>
 "<ilaasa>"
 	"ila" N Rel Pl 3PlPoss @SUBJ>
 "<malittarsimagaluaqaat>"
@@ -10158,7 +10119,7 @@
 "<ammaqqinnissaata>"
 	"ammar" QQIP NIQ SSAQ N Rel Sg 3SgPoss @POSS>
 "<ullulernissaa>"
-	"ulloq" LIR NIQ SSAQ N Abs Sg 3SgPoss @ADVL>
+	"ulloq" LIR NIQ SSAQ N Abs Sg 3SgPoss @SUBJ>
 "<nalorninarsimavoq>"
 	"nalorni" NAR SIMA V Ind 3Sg @PRED
 	"nalorni" NAR SIMA V Ind 3Sg @PRED
@@ -10686,6 +10647,43 @@
 	"atser" UTE NIQAR NNGIT V Par 3Sg @PRED2
 </s>
 
+<sf83sVxUlP3IfZ5KQpUbLHwz1YKs-0>
+"<Nunatsinneersut>"
+	"Nuna" IR TUQ N Abs Pl @SUBJ>
+"<soorlu>"
+	"soorlu" Pali @FOC>N
+"<Ilulissaneersut>"
+	"Ilulissat" IR TUQ N Abs Pl @N<
+"<Disko Bay Blues>"
+	"Disko Bay Blues" Prop Abs Sg @SUBJ>
+"<,>"
+	"," CLB
+"<Nuummeersut>"
+	"Nuuk" IR TUQ N Abs Pl @<APPOS
+"<Pele>"
+	"Pele" Prop Abs Sg @PROP>
+"<Møller>"
+	"Møller" Prop Abs Sg @PROP>
+"<Band>"
+	"band" Prop Abs Sg @<APPOS
+"<,>"
+	"," CLB
+"<The Kalak String Quartet>"
+	"The Kalak String Quartet" Prop Abs Sg @<APPOS
+"<,>"
+	"," CLB
+"<Nuuk>"
+	"Nuuk" Prop Abs Sg @PROP>
+"<Byorkester>"
+	"Byorkester" Prop Abs Sg @<APPOS
+"<allallu>"
+	"allak" N Abs Sg LU @SUBJ>
+"<peqataapput>"
+	"peqat" U V Ind 3Pl @PRED
+"<.>"
+	"." CLB
+</s>
+
 <sfAcn23QRGRG1mcPBeYUfqNZjCpg-0>
 "<erinarsullaqqippoq>"
 	"erinarsor" LLAQQIP V Ind 3Sg @PRED
@@ -11025,7 +11023,7 @@
 "<nutaatut>"
 	"nutaaq" N Aeq Sg @N<
 "<qinersisunit>"
-	"qiner" HTR TUQ N Abl Pl @ADVL>
+	"qiner" HTR TUQ N Abl Pl @AGENS
 "<nuna>"
 	"nuna" N Abs Sg @OBJ>
 "<tamakkerlugu>"
@@ -11033,10 +11031,10 @@
 "<14>"
 	"14" Num Abs @>N
 "<procentinik>"
-	"procent" N Ins Pl @i->N
+	"procent" N Ins Pl @ADVL>
 "<qinerneqaraluarlutik>"
-	"qiner" NIQ QAR GALUAR V Cont 4Pl @ADVL>
-	"qiner" NIQ QAR GALUAR V Cont 4Pl @ADVL>
+	"qiner" NIQAR GALUAR V Cont 4Pl @ADVL>
+	"qiner" NIQAR GALUAR V Cont 4Pl @ADVL>
 "<,>"
 	"," CLB
 "<Siumukkut>"
@@ -13986,11 +13984,11 @@
 
 <spL4WMniirZeeL96C2tGLHoBCv7s-0>
 "<Oqaatsit>"
-	"oqaaseq" N Abs Pl @OBJ>
+	"oqaaseq" N Rel Pl @SUBJ>
 "<taassuma>"
-	"una" Pron Rel Sg @POSS>
+	"una" Pron Rel Sg @N<
 "<paasisinnaasai>"
-	"paasi" SINNAA TAQ N Abs Pl 3SgPoss @N<
+	"paasi" SINNAA TAQ N Abs Pl 3SgPoss @OBJ>
 "<atorlugit>"
 	"ator" V Cont 3PlO @ADVL>
 "<oqaloqatigisarpara>"
@@ -14336,6 +14334,7 @@
 <srKtonj1F0eZP3X2HOqNwHHct8lA-0>
 "<Manu>"
 	"Manu" Prop Abs Sg @SUBJ>
+	"manu" N Abs Sg @SUBJ>
 "<11-nik>"
 	"11" Num Ins @i->N
 "<ukioqarpoq>"
@@ -15728,9 +15727,9 @@
 "<,>"
 	"," CLB
 "<kunngikkormiut>"
-	"kunngi" KKUT MIU N Rel Pl @SUBJ>
+	"kunngi" KKUT MIU N Rel Pl @POSS>
 "<atertaavi>"
-	"ateq" TAAQ N Abs Pl 3SgPoss @OBJ>
+	"ateq" TAAQ N Abs Pl 3PlPoss @OBJ>
 "<assut>"
 	"assut" Adv @ADVL>
 "<tulluusimaarutigalugit>"
