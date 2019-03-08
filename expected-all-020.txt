@@ -136,8 +136,9 @@
 	"sup" Orth/Arch Gram/TV LIR Der/vv Gram/TV Gram/Refl QATE Der/vn GIIT Der/nn Gram/PlurTant N Rel Pl
 "<katilluta>"
 	"katip" Gram/IV V Cont 1Pl
+	"katip" Gram/Refl Gram/IV V Cont 1Pl
 	"katip" Gram/TV Gram/Refl V Cont 1Pl
-	"katip" V Cont 1PlO
+	"katip" Gram/TV V Cont 1PlO
 "<460-iuvugut>"
 	"460" iNum U Der/nv Gram/IV V Ind 1Pl
 "<.>"
@@ -3315,15 +3316,17 @@
 "<Pisuttuarlungaluunniit>"
 	"pisup" Gram/IV TUAR Der/vv Gram/IV V Cont 1Sg LUUNNIIT
 	"pisup" Gram/TV TUAR Der/vv Gram/TV Gram/Refl V Cont 1Sg LUUNNIIT
-	"pisup" Gram/TV TUAR Der/vv V Cont 1SgO LUUNNIIT
+	"pisup" Gram/TV TUAR Der/vv Gram/TV V Cont 1SgO LUUNNIIT
 "<arpanneq>"
 	"arpap" Gram/IV NIQ Der/vn N Abs Sg
 	"arpap" Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-	"arpap" Gram/Pass NIQ Der/vn N Abs Sg
+	"arpap" Gram/Refl Gram/IV NIQ Der/vn N Abs Sg
+	"arpap" Gram/Refl Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
+	"arpap" Gram/TV Gram/Pass NIQ Der/vn N Abs Sg
 	"arpap" Gram/TV Gram/Refl NIQ Der/vn N Abs Sg
 	"arpap" Gram/TV Gram/Refl NIQ Der/vn N Abs Sg Gram/Comp
-	"arpap" NIQ Der/vn N Abs Sg
-	"arpap" NIQ Der/vn N Abs Sg Gram/Comp
+	"arpap" Gram/TV NIQ Der/vn N Abs Sg
+	"arpap" Gram/TV NIQ Der/vn N Abs Sg Gram/Comp
 "<ajorpunga>"
 	"ajor" Gram/IV V Ind 1Sg
 	"ajor" Gram/TV Gram/Refl V Ind 1Sg
@@ -10378,7 +10381,7 @@
 "<malugereerpat>"
 	"maluge" Gram/TV RIIR Der/vv Gram/TV Gram/Refl V Con 3Sg
 	"maluge" Gram/TV RIIR Der/vv Gram/TV Gram/Refl V Int 3Pl
-	"maluge" Gram/TV RIIR Der/vv V Ind 2Sg 3SgO
+	"maluge" Gram/TV RIIR Der/vv Gram/TV V Ind 2Sg 3SgO
 "<nalunartulli>"
 	"nalu" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn N Abs Pl LI
 	"nalu" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss LI
@@ -10401,7 +10404,7 @@
 "<immikkut>"
 	"immikkut" Adv
 "<uparualaarlara>"
-	"uparuar" Gram/TV LAAR Der/vv V Opt 1Sg 3SgO
+	"uparuar" Gram/TV LAAR Der/vv Gram/TV V Opt 1Sg 3SgO
 "<.>"
 	"." CLB
 </s>
@@ -15711,9 +15714,9 @@
 	"nalu" Gram/TV V Ind 1Sg 3SgO
 "<uattut>"
 	"uanga" Gram/Pers Pron Aeq 1Sg
-	"uap" Orth/Arch Gram/Pass TUQ Der/vn N Abs Pl
-	"uap" Orth/Arch Gram/Pass TUQ Der/vn N Abs Sg 2SgPoss
-	"uap" Orth/Arch Gram/Pass TUQ Der/vn N Rel Pl
+	"uap" Orth/Arch Gram/TV Gram/Pass TUQ Der/vn N Abs Pl
+	"uap" Orth/Arch Gram/TV Gram/Pass TUQ Der/vn N Abs Sg 2SgPoss
+	"uap" Orth/Arch Gram/TV Gram/Pass TUQ Der/vn N Rel Pl
 "<innersoq>"
 	"inner" Gram/IV TUQ Der/vn N Abs Sg
 	"inner" Gram/IV V Par 3Sg
