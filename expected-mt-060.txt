@@ -324,7 +324,7 @@
 "<Jensine>"
 	"Jensine" Prop Abs Sg @PROP>
 "<Berthelsen>"
-	"Berthelsen" Prop Abs Sg @PROP>
+	"Berthelsen" Prop Abs Sg @SUBJ>
 "<Sisimiuni>"
 	"Sisimiut" Prop Lok Pl @ADVL>
 "<iliuutsini>"
@@ -452,7 +452,7 @@
 "<nipi>"
 	"nipi" N Abs Sg @SUBJ>
 "<a>"
-	"a" N
+	"a" N Abs Sg @N<
 "<sekundimut>"
 	"sekund" N Trm Sg @ADVL>
 "<880-inik>"
@@ -1401,7 +1401,7 @@
 "<,>"
 	"," CLB
 "<taamaakkaluartorli>"
-	"taama" IP GALUAR V Par 3Sg LI @PRED2
+	"taama" IP GALUAR V Par 3Sg LI @CL-CIT>
 "<aqqutini>"
 	"aqqut" N Abs Sg 4SgPoss @OBJ>
 "<nakorsap>"
@@ -1996,7 +1996,7 @@
 "<,>"
 	"," CLB
 "<tassaasoq>"
-	"tassa" U V Par 3Sg @PRED2
+	"tassa" U V Par 3Sg @FOC
 "<aalakoornartoq>"
 	"aalakoor" NAR TUQ N Abs Sg @i-N<
 "<.>"
@@ -2725,7 +2725,7 @@
 "<nuannerluinnartunik>"
 	"nuanner" LLUINNAR TUQ N Ins Pl @N<
 "<ulikkaartoq>"
-	"ulikkaar" V Par 3Sg @PRED2
+	"ulikkaar" V Par 3Sg @CL-<ADVL
 "<.>"
 	"." CLB
 </s>
@@ -3193,8 +3193,8 @@
 
 <sCqWIWiQlj4h2cVoXo8Az2NADRnQ-0>
 "<Attu>"
-	"Attu" Prop Abs Sg @PROP>
-	"Attu" Prop Abs Sg @PROP>
+	"Attu" Prop Abs Sg @SUBJ>
+	"Attu" Prop Abs Sg @SUBJ>
 "<Aasiaat>"
 	"Aasiaat" Prop Rel Pl @i-POSS>
 "<eqqaanniippoq>"
@@ -4525,7 +4525,7 @@
 "<pinialullutik>"
 	"pinialup" V Cont 4Pl @ADVL>
 "<angalasut>"
-	"angala" V Par 3Pl @PRED2
+	"angala" V Par 3Pl @PRED
 "<.>"
 	"." CLB
 </s>
@@ -5126,7 +5126,7 @@
 "<nalunaaqutaq>"
 	"nalunaaqutaq" N Abs Sg @SUBJ>
 "<arfineq-pingasunnguinnartoq>"
-	"arfineq-pingasut" NNGUR INNAR V Par 3Sg @PRED2
+	"arfineq-pingasut" NNGUR INNAR V Par 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -5706,7 +5706,7 @@
 
 <sNDTQFYlk6Rzgzx5KaYLS5KkZh0g-0>
 "<tuttumit>"
-	"tuttu" N Abl Sg @LOK-ADVL>N
+	"tuttu" N Abl Sg @ADVL>N
 "<nassuk>"
 	"nassuk" N Abs Sg @HNOUN
 "<.>"
@@ -5800,7 +5800,7 @@
 "<qivittunik>"
 	"qivip" TUQ N Ins Pl @MIK-OBJ>
 "<naammattoorsisimasut>"
-	"naammattoor" HTR SIMA V Par 3Pl @PRED2
+	"naammattoor" HTR SIMA V Par 3Pl @PRED
 </s>
 
 <sNjWs0a8r99s4tqfLu4jmNZx8aeM-0>
@@ -5941,7 +5941,7 @@
 "<pitsaasuullutillu>"
 	"pitsak" U TUQ U V Cont 4Pl LU @ADVL>
 "<pitsaavallaanngitsut>"
-	"pitsak" U VALLAAR NNGIT V Par 3Pl @PRED2
+	"pitsak" U VALLAAR NNGIT V Par 3Pl @PRED
 "<.>"
 	"." CLB
 </s>
@@ -6464,7 +6464,7 @@
 "<Bosniap>"
 	"Bosnien" Prop Rel Sg @POSS>
 "<qulaani>"
-	"qule" N Lok Sg 3SgPoss @LOK-ADVL>N
+	"qule" N Lok Sg 3SgPoss @ADVL>N
 "<silaannaq>"
 	"silaannaq" N Abs Sg @HNOUN
 "<.>"
@@ -7817,9 +7817,9 @@
 
 <sVPDO65HNQYSuYtbJSa9kMx5Fm6w-0>
 "<Suliffik>"
-	"suli" VIK N Abs Sg @OBJ>
+	"suli" VIK N Abs Sg @SUBJ>
 "<ingerlalluanngitsoq>"
-	"ingerla" LLUAR NNGIT TUQ N Abs Sg @N<
+	"ingerla" LLUAR NNGIT V Par 3Sg @CL-CIT>
 "<aqutsisunut>"
 	"aqup" HTR TUQ N Trm Pl @ADVL>
 "<assuarliutigaa>"
@@ -8169,6 +8169,15 @@
 	"meeraq" N Trm Pl @ADVL>
 "<qasunartaqaaq>"
 	"qasunar" TAR QE V Ind 3Sg @PRED
+"<.>"
+	"." CLB
+</s>
+
+<sWSYIxgYwDjvEVNUvqn4rrmFgxgQ-0>
+"<AIDS-imik>"
+	"AIDS" N Ins Sg @MIK-OBJ>
+"<misissuivoq>"
+	"misissor" HTR V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -8823,10 +8832,10 @@
 
 <sZ4mVQc5PSx933xxuxc969VJ6ZT4-0>
 "<E>"
-	"E" N @>N
-	"e" N @>N
+	"E" N Abs Sg @OBJ>
+	"e" N Abs Sg @OBJ>
 "<20>"
-	"20" Num Abs
+	"20" Num Abs @N<
 "<Odense>"
 	"Odense" Prop Abs Sg @OBJ>
 "<killeqqullugu>"
@@ -8850,8 +8859,8 @@
 "<20.000>"
 	"20.000" Num Abs @i-MWE>N
 "<kroniusut>"
-	"krone" U V Par 3Pl @PRED2
-	"krone" U V Par 3Pl @PRED2
+	"krone" U V Par 3Pl @PRED
+	"krone" U V Par 3Pl @PRED
 "<.>"
 	"." CLB
 </s>
@@ -9013,7 +9022,7 @@
 
 <sZgxC84W2lxZ7alOFisjQeAAZcKs-0>
 "<Hellerup>"
-	"Hellerup" Prop Abs Sg @PROP>
+	"Hellerup" Prop Abs Sg @SUBJ>
 "<Københavnip>"
 	"København" Prop Rel Sg @i-POSS>
 "<avataatungaaniippoq>"
@@ -9247,7 +9256,7 @@
 
 <saWZpSjQkTalVBhJmQxshCkVnx84-0>
 "<tallimaanngitsut>"
-	"tallimat" U NNGIT V Par 3Pl @PRED2
+	"tallimat" U NNGIT V Par 3Pl @PRED
 "<.>"
 	"." CLB
 </s>
@@ -9807,7 +9816,7 @@
 "<takusinnaasaat>"
 	"taku" SINNAA TAR UTE N Abs Sg @N<
 "<tassaasoq>"
-	"tassa" U V Par 3Sg @PRED2
+	"tassa" U V Par 3Sg @ADVL>
 "<Kalaallit Nunaanni>"
 	"Kalaallit Nunaat" Prop Lok Sg @ADVL>
 "<meeqqat>"
@@ -12732,15 +12741,6 @@
 	"." CLB
 </s>
 
-<sl4U7YpAAxpyXTF2Xgbx7jDPKx6A-0>
-"<AIDSimik>"
-	"AIDS" N Ins Sg @MIK-OBJ>
-"<misissuivoq>"
-	"misissor" HTR V Ind 3Sg @PRED
-"<.>"
-	"." CLB
-</s>
-
 <sl5FQtxz5p0rDjKjrmEeeJnXhAoc-0>
 "<Sunakasiunngilaq>"
 	"suna" KASIK U NNGIT V Ind 3Sg @PRED
@@ -15038,7 +15038,7 @@
 "<aappaluttumi>"
 	"aak" PALUP TUQ N Lok Sg @N<
 "<najugaqartoq>"
-	"najor" TAQ QAR V Par 3Sg @PRED2
+	"najor" TAQ QAR V Par 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -15475,7 +15475,7 @@
 
 <svzGK5DjQGAd9n383HwJGWQ2ihxU-0>
 "<x>"
-	"x" N @>N
+	"x" N Abs Sg @OBJ>
 "<2-mik>"
 	"2" Num Ins @ADVL>
 "<taarserpaa>"
@@ -16255,8 +16255,8 @@
 "<usingianngikkunik>"
 	"usingiar" NNGIT V Con 4Pl @CON
 "<usilersortut>"
-	"useq" LIRSUR V Par 3Pl @PRED2
-	"usilersor" V Par 3Pl @PRED2
+	"useq" LIRSUR V Par 3Pl @PRED
+	"usilersor" V Par 3Pl @PRED
 </s>
 
 <sxWMOkmFx839UexMqMRsphYvJpow-0>
@@ -16623,8 +16623,7 @@
 
 <sy3FXZlX1ffGOxFwNhxauoZHFyPQ-0>
 "<A>"
-	"A" N
-	"a" N
+	"a" N Abs Sg @OBJ>
 "<B-mit>"
 	"B" N Abl Sg @ADVL>
 	"b" N Abl Sg @ADVL>

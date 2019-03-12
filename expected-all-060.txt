@@ -215,7 +215,7 @@
 "<ataaseq>"
 	"ataaseq" Num Abs Sg @N<
 "<mikisoq>"
-	"miki" V Par 3Sg @PRED2
+	"miki" V Par 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -1038,7 +1038,7 @@
 "<23-anni>"
 	"23" Num Lok Sg 3PlPoss @ADVL>
 "<aallartissaaq>"
-	"aallartip" SSA V Ind 3Sg @PRED
+	"aallar" TIP SSA V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -1395,9 +1395,9 @@
 	";" CLB
 
 "<inituallaanngitsut>"
-	"initu" VALLAAR NNGIT V Par 3Pl @PRED2
+	"initu" VALLAAR NNGIT V Par 3Pl @PRED
 "<ajoqutaanatillu>"
-	"ajoqut" U V ContNeg 4Pl LU @PRED
+	"ajoqut" U V ContNeg 4Pl LU @PRED2
 "<.>"
 	"." CLB
 
@@ -1494,7 +1494,9 @@
 
 "<D>"
 	"D" N @>N
+	"D" N Abs Sg @>N
 	"d" N @>N
+	"d" N Abs Sg @>N
 "<30>"
 	"30" Num Abs @>N
 "<grader>"
@@ -4409,7 +4411,6 @@
 	"sakkukitsoq" N Ins Sg @ADVL>
 "<qalaartinneqassaaq>"
 	"qalaar" TIP NIQAR SSA V Ind 3Sg @PRED
-	"qalaar" TIP NIQAR SSA V Ind 3Sg @PRED
 </s>
 
 <sNeAUWbt1TjsXUtCTGWJRN8OKIqw-0>
@@ -7018,8 +7019,8 @@
 "<5>"
 	"5" Num Abs @i-MWE>N
 "<gradiugaluartoq>"
-	"grad" U GALUAR V Par 3Sg @PRED2
-	"grad" U GALUAR V Par 3Sg @PRED2
+	"grad" U GALUAR V Par 3Sg @CL-<ADVL
+	"grad" U GALUAR V Par 3Sg @CL-<ADVL
 "<.>"
 	"." CLB
 </s>
@@ -7245,7 +7246,7 @@
 "<Inuit>"
 	"inuk" N Abs Pl @SUBJ>
 "<sianiitsut>"
-	"sianiip" V Par 3Pl @PRED2
+	"sianiip" V Par 3Pl @PRED
 "<.>"
 	"." CLB
 
@@ -7701,7 +7702,7 @@
 	"utaqqi" KATAP LIR V Cont 3SgO @ADVL>
 	"utaqqi" KATAP LIR V Cont 3SgO @ADVL>
 "<qiangiililersoq>"
-	"qiangiilip" LIR V Par 3Sg @PRED2
+	"qiangiilip" LIR V Par 3Sg @CL-<ADVL
 "<.>"
 	"." CLB
 </s>
@@ -9194,7 +9195,7 @@
 "<qorlortup>"
 	"qorlor" TUQ N Rel Sg @POSS>
 "<upernaami>"
-	"upernaaq" N Lok Sg @>N
+	"upernaaq" N Lok Sg @ADVL>N
 "<aputip>"
 	"aput" N Rel Sg @POSS>
 "<aalernerani>"
@@ -9470,7 +9471,7 @@
 "<ajorniaannarlutik>"
 	"ajor" NIAR INNAR V Cont 4Pl @ADVL>
 "<kapinartoqartut>"
-	"kapinartoq" QAR V Par 3Pl @PRED2
+	"kapinartoq" QAR V Par 3Pl @PRED
 "<.>"
 	"." CLB
 </s>
@@ -10204,7 +10205,6 @@
 	"missaa" N @ADVL>
 "<uninngatinneqassaaq>"
 	"uninnga" TIP NIQAR SSA V Ind 3Sg @PRED
-	"uninnga" TIP NIQAR SSA V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -10546,7 +10546,7 @@
 "<soraarummeernersiorlutik>"
 	"soraarummeer" NIQ SIUR V Cont 4Pl @ADVL>
 "<nuannassuataartut>"
-	"nuannap" SUATAAR V Par 3Pl @PRED2
+	"nuannap" SUATAAR V Par 3Pl @PRED
 "<.>"
 	"." CLB
 </s>
