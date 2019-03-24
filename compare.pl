@@ -4,6 +4,10 @@ use strict;
 use warnings;
 use FindBin qw($Bin);
 
+if (@ARGV && $ARGV[0] !~ /^-/) {
+   @ARGV = ('-c', $ARGV[0]);
+}
+
 my $regtest = "$Bin/../nutserut/regtest/regtest.pl";
 if (! -e $regtest) {
    $regtest = "$Bin/regtest/regtest.pl";
