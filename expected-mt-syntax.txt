@@ -3472,7 +3472,7 @@
 "<akuliuppoq>"
 	"akuliup" Gram/IV V Ind 3Sg @PRED
 "<suliat>"
-	"suliaq" N Abs Pl
+	"suliaq" N Abs Pl @NIQ_OBJ>
 "<naammassilersullu>"
 	"naammassi" Gram/IV LIR Der/vv TUQ Der/vn N Abs Pl LU @SUBJ>
 "<,>"
@@ -6594,27 +6594,28 @@
 "<arfinilinnik>"
 	"arfinillit" Num Ins Pl @i->N
 "<ukioqartungali>"
-	"ukioq" QAR V Par 1Sg LI @PRED2
+	"ukioq" QAR Der/nv Gram/IV V Par 1Sg LI @PRED2
 "<inersimasut>"
-	"iner" SIMA TUQ N Rel Pl @SUBJ>
+	"iner" Gram/IV SIMA Der/vv TUQ Der/vn N Rel Pl @SUBJ>
 "<titartaarusussuseerutsissimavaannga>"
-	"titartar" HTR GUSUP SSUSIQ IRUTE TIP SIMA V Ind 3Pl 1SgO @PRED
+	"titartar" Gram/TV HTR Der/vv Gram/IV GUSUP Der/vv SSUSIQ Der/vn IRUTE Der/nv Gram/IV TIP Der/vv Gram/TV SIMA Der/vv V Ind 3Pl 1SgO @PRED
 "<,>"
 	"," CLB
 "<pulateriaarsuillu>"
 	"pulateriaarsuk" N Rel Pl LU @POSS>
 "<ipititsisartut>"
-	"ipitip" HTR TAR TUQ N Rel Pl @N<
+	"ipitip" Gram/TV HTR Der/vv Gram/IV TAR Der/vv TUQ Der/vn N Rel Pl @N<
 "<matoqqasut>"
-	"matu" QQA TUQ N Rel Pl @N<
+	"matu" Gram/IV QQA Der/vv TUQ Der/vn N Rel Pl @N<
 "<ammasulluunniit>"
-	"amma" TUQ N Rel Pl LUUNNIIT @N<
+	"amma" TUQ Der/vn N Rel Pl LUUNNIIT @N<
 "<titartarnissaat>"
-	"titartar" NIQ SSAQ N Abs Sg 3PlPoss @OBJ>
+	"titartar" Gram/TV Gram/Pass NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss @OBJ>
+	"titartar" Gram/TV NIQ Der/vn SSAQ Der/vn N Abs Sg 3PlPoss @OBJ>
 "<kisiat>"
-	"kisi" N Akk 3Sg @N<
+	"kisi" N Gram/Cong Akk 3Sg @N<
 "<ilikkarsimavara>"
-	"ilikkar" SIMA V Ind 1Sg 3SgO @PRED
+	"ilikkar" Gram/TV SIMA Der/vv V Ind 1Sg 3SgO @PRED
 "<.>"
 	"." CLB
 </s>
@@ -11822,7 +11823,7 @@
 "<tassali>"
 	"tassa" Adv LI @CL-ADVL>
 "<tiitorfitik>"
-	"tiitorfik" N Abs Pl 4PlPoss @OBJ>
+	"tiitorfik" N Abs Pl 4PlPoss @NIQ_OBJ>
 "<kusanartut>"
 	"kusanar" Gram/IV TUQ Der/vn N Abs Pl @N<
 "<allagissaaqisullu>"
@@ -12424,9 +12425,9 @@
 "<nunap>"
 	"nuna" N Rel Sg @POSS>
 "<piniagassarsui>"
-	"piniagaq" SSAQ Der/nn SUAQ Der/nn N Abs Pl 3SgPoss @SUBJ>
-	"piniagassaq" SUAQ Der/nn N Abs Pl 3SgPoss @SUBJ>
-	"piniar" Gram/TV TAQ Der/vn SSAQ Der/nn SUAQ Der/nn N Abs Pl 3SgPoss @SUBJ>
+	"piniagaq" SSAQ Der/nn SUAQ Der/nn N Abs Pl 3SgPoss @NIQ_SUBJ>
+	"piniagassaq" SUAQ Der/nn N Abs Pl 3SgPoss @NIQ_SUBJ>
+	"piniar" Gram/TV TAQ Der/vn SSAQ Der/nn SUAQ Der/nn N Abs Pl 3SgPoss @NIQ_SUBJ>
 "<tusaamanermit>"
 	"tusaama" Gram/IV NIQ Der/vn N Abl Sg @CL-ADVL>
 "<nuussimavugut>"
@@ -16137,9 +16138,7 @@
 
 <sxO9hDy0lExRzPmnLWXEBjrQT4GU-0>
 "<Kamaatinngilara>"
-	"kamaap" Gram/IV TIP Der/vv Gram/TV NNGIT Der/vv V Ind 1Sg 3SgO @PRED
 	"kamaap" Gram/TV NNGIT Der/vv V Ind 1Sg 3SgO @PRED
-	"kamak" U Der/nv TIP Der/vv Gram/TV NNGIT Der/vv V Ind 1Sg 3SgO @PRED
 "<,>"
 	"," CLB
 "<uangami>"
