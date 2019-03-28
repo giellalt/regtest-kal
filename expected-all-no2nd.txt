@@ -5453,13 +5453,14 @@
 "<->"
 	"-" PUNCT
 "<Imernera>"
-	"imer" NIQ N Abs Sg 1SgPoss @HNOUN
+	"imer" NIQ N Abs Sg 1SgPoss @SUBJ>
 "<,>"
 	"," CLB
 "<imerajuttoq>"
-	"imer" GAJUP TUQ N Abs Sg @SUBJ>
+	"imer" GAJUP TUQ N Abs Sg @N<
 "<naggasiivoq>"
-	"naggasii" V Ind 3Sg @PRED
+	"naggaser" HTR V Ind 3Sg @PRED
+	"naggat" LIR HTR V Ind 3Sg @PRED
 "<nipaarutivillunilu>"
 	"nipaarutivip" V Cont 4Sg LU @PRED
 "<.>"
@@ -7207,11 +7208,11 @@
 	"naaq" SSAQ U NNGIT TUQ N Ins Sg @ADVL>
 	"naassaanngitsoq" N Ins Sg @ADVL>
 "<taqqamani>"
-	"qam" Adv Lok @ADVL>
+	"qam" Adv Lok @i-ADVL>
 "<pisiniarfiup>"
 	"pisi" NIAR VIK N Rel Sg @i-POSS>
 "<iluaniittuassasoq>"
-	"ilu" IP TUAR SSA V Par 3Sg @PRED2
+	"ilu" IP TUAR SSA TUQ N Abs Sg @OBJ>
 "<,>"
 	"," CLB
 "<alanngumi>"
@@ -7219,7 +7220,7 @@
 "<tarratut>"
 	"tarraq" N Aeq Sg @ADVL>
 "<illuni>"
-	"ip" V Cont 4Sg @<ADVL
+	"ip" V Cont 4Sg @ADVL>
 "<,>"
 	"," CLB
 "<seqernup>"
@@ -7231,7 +7232,7 @@
 "<qaamanera>"
 	"qaama" NIQ N Abs Sg 3SgPoss @OBJ>
 "<takunngisaannassallugit>"
-	"taku" NNGIT TAR INNAR SSA V Cont 3PlO @<ADVL
+	"taku" NNGIT TAR INNAR SSA V Cont 3PlO @PRED
 "<,>"
 	"," CLB
 "<tipigissaatisunni>"
@@ -7243,7 +7244,7 @@
 "<nungukkiartornerini>"
 	"nungup" GIARTUR NIQ N Lok Pl 3SgPoss @ADVL>
 "<isigiuassallugit>"
-	"isige" TUAR SSA V Cont 3PlO @<ADVL
+	"isige" TUAR SSA V Cont 3PlO @ADVL>
 "<kiffartuuttuusaarlugillu>"
 	"kiffartuup" TUUSAAR V Cont 3PlO LU @ADVL>
 "<aningaasannanniarfigiuassallugit>"
@@ -7726,7 +7727,7 @@
 "<ersersitsisutut>"
 	"erser" TIP HTR TUQ N Aeq Sg @ADVL>
 "<naatsorsuutigineqartariaqanngimmata>"
-	"naatsorsor" UTE GE NIQAR TARIAQAR NNGIT V Cau 3Pl @CL-<CIT
+	"naatsorsor" UTE GE NIQAR TARIAQAR NNGIT V Cau 3Pl @CAU
 "<,>"
 	"," CLB
 "<ajunnginnerussagaluarpormi>"
