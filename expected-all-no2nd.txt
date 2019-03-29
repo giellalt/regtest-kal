@@ -4669,7 +4669,7 @@
 "<Tassa>"
 	"tassa" Adv @PRED
 "<ajortoq>"
-	"ajor" TUQ N Abs Sg @i-N<
+	"ajor" TUQ N Abs Sg @SUBJ_COMP
 "<.>"
 	"." CLB
 </s>
@@ -5119,13 +5119,13 @@
 	"illar" TAR NIQ N Abs Sg 1SgPoss @i-N<
 	"illar" TAR NIQ N Abs Sg 3SgPoss @i-N<
 "<savaatitaarusunneralu>"
-	"sava" U TIP TAQ U GUSUP NIQ N Abs Sg 1SgPoss LU @i-N<
-	"sava" U TIP TAQ U GUSUP NIQ N Abs Sg 3SgPoss LU @i-N<
+	"sava" UTE TAAR GUSUP NIQ N Abs Sg 1SgPoss LU @i-N<
+	"sava" UTE TAAR GUSUP NIQ N Abs Sg 3SgPoss LU @i-N<
 "<;>"
 	";" CLB
 
 "<savaatitaarusunnermi>"
-	"sava" U TIP TAQ U GUSUP NIQ N Abs Sg MI @SUBJ>
+	"sava" UTE TAAR GUSUP NIQ N Abs Sg MI @SUBJ>
 "<uppernarsaataavoq>"
 	"uppernarsar" UTE U V Ind 3Sg @PRED
 "<inuusimanermut>"
@@ -5453,14 +5453,13 @@
 "<->"
 	"-" PUNCT
 "<Imernera>"
-	"imer" NIQ N Abs Sg 1SgPoss @SUBJ>
+	"imer" NIQ N Abs Sg 1SgPoss @HNOUN
 "<,>"
 	"," CLB
 "<imerajuttoq>"
-	"imer" GAJUP TUQ N Abs Sg @N<
+	"imer" GAJUP TUQ N Abs Sg @SUBJ>
 "<naggasiivoq>"
 	"naggaser" HTR V Ind 3Sg @PRED
-	"naggat" LIR HTR V Ind 3Sg @PRED
 "<nipaarutivillunilu>"
 	"nipaarutivip" V Cont 4Sg LU @PRED
 "<.>"
@@ -5722,7 +5721,7 @@
 "<ajutoornera>"
 	"ajutoor" NIQ N Abs Sg 3SgPoss @SUBJ>
 "<ajorsigaluttuinnartutut>"
-	"ajor" HTR GALUTTUAR INNAR TUQ N Aeq Sg @ADVL>
+	"ajor" SI GALUTTUAR INNAR TUQ N Aeq Sg @ADVL>
 "<isikkoqarpoq>"
 	"isikku" QAR V Ind 3Sg @PRED
 "<imissaralu>"
@@ -7261,7 +7260,7 @@
 "<tassa>"
 	"tassa" Adv @PRED
 "<meerapalaaq>"
-	"meeraq" PALAAQ N Abs Sg @i-N<
+	"meeraq" PALAAQ N Abs Sg @SUBJ_COMP
 "<!>"
 	"!" CLB
 
@@ -9208,7 +9207,7 @@
 "<ajutoornera>"
 	"ajutoor" NIQ N Abs Sg 3SgPoss @SUBJ>
 "<ajorsigaluttuinnartutut>"
-	"ajor" HTR GALUTTUAR INNAR TUQ N Aeq Sg @ADVL>
+	"ajor" SI GALUTTUAR INNAR TUQ N Aeq Sg @ADVL>
 "<isikkoqarpoq>"
 	"isikku" QAR V Ind 3Sg @PRED
 "<imissaralu>"
@@ -10261,10 +10260,10 @@
 "<Qisuup>"
 	"qisuk" N Rel Sg @SUBJ>
 "<masattup>"
-	"masattoq" N Rel Sg @N<
+	"masap" TUQ N Rel Sg @N<
 "<saviminertarasaartullu>"
-	"savik" MINIQ TAQ GASAAR TUQ N Rel Sg LU @SUBJ>
-	"savimineq" TAQ GASAAR TUQ N Rel Sg LU @SUBJ>
+	"savik" MINIQ TAQ GASAAR TUQ N Rel Pl LU @SUBJ>
+	"savimineq" TAQ GASAAR TUQ N Rel Pl LU @SUBJ>
 "<ikumanermini>"
 	"ikuma" NIQ N Lok Sg 4SgPoss @ADVL>
 "<nipit>"
@@ -10276,7 +10275,7 @@
 "<isumaqartilerpakka>"
 	"isuma" QAR TIP LIR V Ind 1Sg 3PlO @PRED
 "<innermut>"
-	"inneq" N Trm Sg @i-ADVL>
+	"inneq" N Trm Sg @OBJ-DOTR>
 "<ikummarissumut>"
 	"ikummarip" TUQ N Trm Sg @N<
 "<pulaqqusisut>"
@@ -10290,7 +10289,7 @@
 "<ataatsimoorluta>"
 	"ataaseq" UR V Cont 1PlO @i-ADVL>
 "<misigisarsimasavut>"
-	"misige" TAR SIMA TAQ N Abs Pl 1PlPoss @N<
+	"misige" TAR SIMA TAQ N Abs Pl 1PlPoss @OBJ>
 "<nuannersut>"
 	"nuanner" TUQ N Abs Pl @N<
 "<uterfigissagikka>"

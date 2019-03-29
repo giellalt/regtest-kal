@@ -9624,41 +9624,39 @@
 "<->"
 	"-" PUNCT
 "<Inatsisartunut>"
-	"Inatsisartut" Prop Trm Pl @i-ADVL>
+	"Inatsisartut" Sem/Hum Prop Trm Pl @i-ADVL>
 "<ilaasortat>"
-	"ila" U TUQ TAQ N Rel Pl @POSS>
+	"ila" U Der/nv Gram/IV TUQ Der/vn TAQ Der/nn N Rel Pl @POSS>
 "<innuttaasunik>"
-	"innuttaq" U TUQ N Ins Pl @i-MIK-OBJ>
+	"innuttaq" U Der/nv Gram/IV TUQ Der/vn N Ins Pl @i-MIK-OBJ>
 "<naapitsinissaminnut>"
-	"naapip" HTR NIQ SSAQ N Trm Sg 4PlPoss @i-ADVL>
+	"naapip" Gram/TV HTR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Sg 4PlPoss @i-ADVL>
 "<piginnaatitaannginnerannik>"
-	"piginnaatitaa" NNGIT NIQ N Ins Sg 3PlPoss @ADVL>
-	"piginnaatitaq" IR NNGIT NIQ N Ins Sg 3PlPoss @ADVL>
-	"piginnaatitaq" U NNGIT NIQ N Ins Sg 3PlPoss @ADVL>
+	"piginnaatitaq" U Der/nv Gram/IV NNGIT Der/vv NIQ Der/vn N Ins Sg 3PlPoss @ADVL>
 "<oqassalluni>"
-	"oqar" SSA V Cont 4Sg @ADVL>
+	"oqar" Gram/IV SSA Der/vv V Cont 4Sg @ADVL>
 "<eqqunngilaq>"
-	"eqqor" NNGIT V Ind 3Sg @PRED
+	"eqqor" NNGIT Der/vv V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 
 "<Inatsisartunut>"
-	"Inatsisartut" Prop Trm Pl @i-ADVL>
+	"Inatsisartut" Sem/Hum Prop Trm Pl @i-ADVL>
 "<ilaasortat>"
-	"ila" U TUQ TAQ N Abs Pl @SUBJ>
+	"ila" U Der/nv Gram/IV TUQ Der/vn TAQ Der/nn N Abs Pl @SUBJ>
 "<sulinerput>"
 	"sulineq" N Abs Sg 1PlPoss @OBJ>
 "<pillugu>"
-	"pi" V Cont 3SgO @ADVL>
+	"pi" Gram/TV V Cont 3SgO @i-ADVL>
 "<pisinnaatillutik>"
-	"pisinnaatip" V Cont 4Pl @ADVL>
+	"pi" SINNAA Der/vv TIP Der/vv Gram/Db Gram/Refl V Cont 4Pl @ADVL>
 "<oqaluttuarnissaminnut>"
-	"oqalup" TUAR NIQ SSAQ N Trm Sg 4PlPoss @ADVL>
-	"oqaluttuar" NIQ SSAQ N Trm Sg 4PlPoss @ADVL>
+	"oqalup" Gram/IV TUAR Der/vv NIQ Der/vn SSAQ Der/nn N Trm Sg 4PlPoss @ADVL>
+	"oqaluttuar" Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Sg 4PlPoss @ADVL>
 "<pisussaaffeqarput>"
-	"pisoq" SSAQ U VIK QAR V Ind 3Pl @PRED
-	"pisuk" SSAQ U VIK QAR V Ind 3Pl @PRED
-	"pisussaaffik" QAR V Ind 3Pl @PRED
+	"pisoq" SSAQ Der/nn U Der/nv Gram/IV VIK Der/vn QAR Der/nv Gram/IV V Ind 3Pl @PRED
+	"pisuk" Orth/Youth SSAQ Der/nn U Der/nv Gram/IV VIK Der/vn QAR Der/nv Gram/IV V Ind 3Pl @PRED
+	"pisussaaffik" QAR Der/nv Gram/IV V Ind 3Pl @PRED
 "<.>"
 	"." CLB
 </s>
@@ -13801,7 +13799,6 @@
 
 <soOLsb2a0eP3iSQeJxkLDsdDWOpY-0>
 "<USA-mi>"
-	"USA" N Gram/ACR Lok Sg @ADVL>
 	"USA" Sem/Geo Prop Lok Sg Orth/Alt @ADVL>
 "<allisarsimavoq>"
 	"allisar" Gram/IV SIMA Der/vv V Ind 3Sg @PRED
@@ -14474,11 +14471,10 @@
 	"naalagiarneq" N Abs Sg LU @SUBJ>
 "<naggaserneqassalluni>"
 	"naggaser" Gram/TV NIQAR Der/vv SSA Der/vv V Cont 4Sg @PRED
-	"naggat" LIR Der/nv Gram/TV NIQAR Der/vv SSA Der/vv V Cont 4Sg @PRED
 "<nerliiviliarnertalimmik>"
-	"nerler" Gram/TV HTR Der/vv Gram/IV VIK Der/vn LIAR Der/nv Gram/IV NIQ Der/vn TAQ Der/nn LIK Der/nn N Ins Sg @i-N<
-	"nerliivik" LIAR Der/nv Gram/IV NIQ Der/vn TAQ Der/nn LIK Der/nn N Ins Sg @i-N<
-	"nerliiviliarneq" TAQ Der/nn LIK Der/nn N Ins Sg @i-N<
+	"nerler" Gram/TV HTR Der/vv Gram/IV VIK Der/vn LIAR Der/nv Gram/IV NIQ Der/vn TAQ Der/nn LIK Der/nn N Ins Sg @<ADVL
+	"nerliivik" LIAR Der/nv Gram/IV NIQ Der/vn TAQ Der/nn LIK Der/nn N Ins Sg @<ADVL
+	"nerliiviliarneq" TAQ Der/nn LIK Der/nn N Ins Sg @<ADVL
 "<.>"
 	"." CLB
 </s>
@@ -14807,7 +14803,7 @@
 "<Saviminissaq>"
 	"saviminissaq" N Abs Sg @SUBJ>
 "<taamatut>"
-	"taamatut" Adv @ADVL>
+	"taamatut" Adv @i-ADVL>
 "<annertutigisoq>"
 	"anneq" TU Der/nv Gram/IV TIGE Der/vv TUQ Der/vn N Abs Sg @N<
 "<Isukasiata>"
