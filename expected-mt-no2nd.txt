@@ -1632,9 +1632,10 @@
 
 <s70xyysAX2J2dZmaS1tCHV5TXRRQ-0>
 "<taama>"
-	"taama" Adv @>V
+	"taama" Adv
+	"taama" Interj @INTERJ
 "<akikitsigiva>"
-	"aki" KIP TIGE V Int 3Sg @PRED
+	"akikitsigiva" ?
 "<?>"
 	"?" CLB
 </s>
@@ -2249,22 +2250,24 @@
 	"Qasigiannguit" Prop Lok Pl @i-ADVL>
 "<aalisartuuneq>"
 	"aalisar" TUQ U NIQ N Abs Sg @SUBJ>
+	"aalisar" TUU NIQ N Abs Sg @SUBJ>
 "<piniartuunermit>"
 	"piniar" TUQ U NIQ N Abl Sg @CL-ADVL>
+	"piniar" TUU NIQ N Abl Sg @CL-ADVL>
 "<annertunerugaluartoq>"
 	"anneq" TU NIQ U GALUAR V Par 3Sg @CL-CIT>
 "<,>"
 	"," CLB
 "<piniartunut>"
-	"piniar" TUQ N Trm Pl @i-ADVL>
+	"piniar" TUQ N Trm Pl @ADVL>
 "<piaartumik>"
 	"piaartoq" N Ins Sg @i->N
 "<iliuuseqartoqartariaqartoq>"
-	"ilior" USIQ QAR TUQ QAR TARIAQAR V Par 3Sg @CL-CIT>
+	"ilior" USIQ QAR TUQ QAR TARIAQAR TUQ N Abs Sg @SUBJ>
 "<Jess>"
-	"Jess" Prop Abs Sg @PROP>
+	"Jess" Prop Abs Sg @<APPOS
 "<Svane>"
-	"Svane" Prop Abs Sg @SUBJ>
+	"Svane" Prop Abs Sg @<APPOS
 "<isumaqarpoq>"
 	"isuma" QAR V Ind 3Sg @PRED
 "<.>"
@@ -3322,7 +3325,7 @@
 "<partiit>"
 	"parti" N Rel Pl @POSS>
 "<gangiannut>"
-	"gang" N Trm Sg 3PlPoss @i-ADVL>
+	"gang" N Trm Sg 3PlPoss @ADVL>
 "<allamik>"
 	"alla" N Ins Sg @i->N
 "<isertoqarpoq>"
@@ -4220,7 +4223,7 @@
 "<oqarpoq>"
 	"oqar" V Ind 3Sg @PRED
 "<uannut>"
-	"uanga" Pron Trm 1Sg @OBJ-DOTR>
+	"uanga" Pron Trm 1Sg @ADVL>
 "<ikioqqulluni>"
 	"ikior" QQU V Cont 4Sg @CL-<CIT
 "<.>"
@@ -8922,7 +8925,7 @@
 "<isikkamik>"
 	"isigak" N Rel Pl 4PlPoss @ADVL>
 "<arsaallutik>"
-	"arsar" UTE V Cont 4Pl @i-ADVL>
+	"arsaq" U V Cont 4Pl @i-ADVL>
 "<unamminissaat>"
 	"unammi" NIQ SSAQ N Abs Sg 3PlPoss @SUBJ>
 "<aputinit>"
@@ -9678,21 +9681,20 @@
 	"ukioq" UR TUQ N Ins Sg @i-ADVL>
 "<nalunaarutaani>"
 	"nalunaar" UTE N Lok Sg 3SgPoss @ADVL>
-	"nalunaar" UTE N Lok Sg 3SgPoss @ADVL>
 "<erserpoq>"
 	"erser" V Ind 3Sg @PRED
 "<,>"
 	"," CLB
 "<siulersuisut>"
-	"siu" LIRSUR HTR TUQ N Abs Sg 2SgPoss @SUBJ>
+	"siulersor" HTR V Par 3Pl @CL-CIT>
 "<takusinnaasaat>"
-	"taku" SINNAA TAR UTE N Abs Sg @N<
+	"taku" SINNAA TAQ N Abs Pl 3PlPoss @<SUBJ
 "<tassaasoq>"
-	"tassa" U V Par 3Sg @ADVL>
+	"tassa" U V Par 3Sg @CL-<CIT
 "<Kalaallit Nunaanni>"
 	"Kalaallit Nunaat" Prop Lok Sg @ADVL>
 "<meeqqat>"
-	"meeraq" N Abs Pl @SUBJ>
+	"meeraq" N Abs Pl @i-N<
 "<inuusuttullu>"
 	"inuusup" V Par 3Pl LU @CL-<CIT
 "<pillugit>"
@@ -9843,13 +9845,11 @@
 	"Uummannaq" Prop Lok Sg @i-ADVL>
 "<piniartut>"
 	"piniar" TUQ N Abs Pl @SUBJ>
-	"piniar" TUQ N Abs Pl @SUBJ>
 "<–>"
 	"–" PUNCT
 "<Avannaani>"
-	"avannaq" Prop Lok Sg 3SgPoss @i-ADVL>
+	"Avannaq" Prop Lok Sg 3SgPoss @i-ADVL>
 "<piniartut>"
-	"piniar" TUQ N Abs Pl @OBJ>
 	"piniar" TUQ N Abs Pl @OBJ>
 "<amerlanerit>"
 	"amerla" NIQ N Abs Pl @N<
@@ -9871,7 +9871,6 @@
 	"." CLB
 
 "<Pisassiissutinilli>"
-	"pisaq" SSIP HTR UTE N Abl Pl LI @i-ADVL>
 	"pisaq" SSIP HTR UTE N Abl Pl LI @i-ADVL>
 "<amerlanerusunik>"
 	"amerla" NIRU TUQ N Ins Pl @i->N
@@ -10113,16 +10112,15 @@
 
 <sdy4OqIs4vEfAclKb3JNPaC0MuV4-0>
 "<Oqatsiartarnerilli>"
-	"oqar" TSIAR TAR NIQ N Abs Pl LI @OBJ>
-	"oqatsiar" TAR NIQ N Abs Pl LI @OBJ>
+	"oqar" TSIAR TAR NIQ N Rel Pl LI @POSS>
+	"oqatsiar" TAR NIQ N Rel Pl LI @POSS>
 "<nalaatsornerinnaat>"
-	"nalaatsor" NIQ INNAQ N Abs Pl @N<
+	"nalaatsor" NIQ INNAQ N Abs Pl 3PlPoss @OBJ>
 "<pissutigalugit>"
 	"pissut" GE V Cont 3PlO @ADVL>
 "<kigaatsumik>"
 	"kigaap" TUQ N Ins Sg @ADVL>
 "<ilikkariartuaalerpara>"
-	"ilikkar" GIARTUAAR LIR V Ind 1Sg 3SgO @PRED
 	"ilikkar" GIARTUAAR LIR V Ind 1Sg 3SgO @PRED
 "<.>"
 	"." CLB
@@ -10620,7 +10618,7 @@
 "<,>"
 	"," CLB
 "<Isortumulli>"
-	"isortoq" Prop Trm Sg LI @i-ADVL>N
+	"Isortoq" Prop Trm Sg LI @i-ADVL>N
 "<pinerminni>"
 	"pineq" N Lok Sg 4PlPoss @ADVL>
 "<illupalaannguaq>"
@@ -11108,7 +11106,7 @@
 "<ukkusissat>"
 	"ukkusissaq" N Abs Pl Abs @N<
 "<qaammaqqutigaat>"
-	"qaammaqqutige" V Ind 3Pl 3PlO @PRED
+	"qaammaqqut" GE V Ind 3Pl 3PlO @PRED
 "<.>"
 	"." CLB
 </s>
@@ -16076,7 +16074,7 @@
 "<Ilaqutariit>"
 	"ilaqutaq" GIIT N Abs Pl @OBJ>
 "<ataatsimik>"
-	"ataaseq" Num Ins Sg @i-MIK-OBJ>
+	"ataaseq" Num Ins Sg @i->N
 "<kontollit>"
 	"konto" LIK N Abs Pl @N<
 "<25.000>"
@@ -16084,16 +16082,16 @@
 "<kronet>"
 	"krone" N Abs Pl @OBJ>
 "<sinnerlugit>"
-	"sinner" V Cont 3PlO @ADVL>
+	"sinner" V Cont 3PlO @PRED
 "<bankimi>"
 	"bank" N Lok Sg @ADVL>
 "<ileqqaagaqarunik>"
 	"ileqqaar" TAQ QAR V Con 4Pl @CON
 	"ili" QQAAR TAQ QAR V Con 4Pl @CON
 "<atuinermut>"
-	"ator" HTR NIQ N Trm Sg @i-ADVL>
+	"ator" HTR NIQ N Trm Sg @<ADVL
 "<akiliutikinnerussapput>"
-	"akiler" UTE KIP NIRU SSA V Ind 3Pl @PRED
+	"akiliutikinnerussapput" ?
 "<.>"
 	"." CLB
 </s>
@@ -16698,6 +16696,7 @@
 	"suli" NIUTE N Trm Sg @i-ADVL>
 "<malinnaalluarneq>"
 	"malinnaa" LLUAR NIQ N Abs Sg @>V
+	"malinnaap" LLUAR NIQ N Abs Sg @>V
 "<ajorama>"
 	"ajor" V Cau 1Sg @CAU
 "<tammalinnguatsiarpunga>"
