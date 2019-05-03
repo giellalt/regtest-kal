@@ -1031,8 +1031,7 @@
 "<taamatut>"
 	"taamatut" Adv @i-ADVL>
 "<pisoqarnissaa>"
-	"pisoq" QAR NIQ SSAQ N Abs Sg 3SgPoss @<OBJ
-	"pisuk" QAR NIQ SSAQ N Abs Sg 3SgPoss @<OBJ
+	"pi" TUQ QAR NIQ SSAQ N Abs Sg 3SgPoss @<OBJ
 "<.>"
 	"." CLB
 </s>
@@ -3140,8 +3139,6 @@
 "<uanga>"
 	"uanga" Pron Rel 1Sg @SUBJ>
 "<pisuussutiginngilara>"
-	"pisoq" U UTE GE NNGIT V Ind 1Sg 3SgO @PRED
-	"pisuk" U UTE GE NNGIT V Ind 1Sg 3SgO @PRED
 	"pisuussutige" NNGIT V Ind 1Sg 3SgO @PRED
 "<.>"
 	"." CLB
@@ -3999,16 +3996,12 @@
 "<tunngasunut>"
 	"tunnga" TUQ N Trm Pl @i-ADVL>
 "<siunnersuisoqatigiivinut>"
-	"siunnersor" HTR TUQ QATE GIIT N Trm Pl 3SgPoss @i-ADVL>
-	"siunnersuisoq" QATE GIIT N Trm Pl 3SgPoss @i-ADVL>
+	"siunnersor" HTR TUQ QATE GIIT N Trm Pl 3SgPoss @ADVL>
+	"siunnersuisoq" QATE GIIT N Trm Pl 3SgPoss @ADVL>
 "<,>"
 	"," CLB
-"<National>"
-	"National" Prop Abs Sg @PROP>
-"<Space>"
-	"Space" Prop Abs Sg @PROP>
-"<Councilimut>"
-	"Councili" Prop Trm Sg @<APPOS
+"<National Space Councilimut>"
+	"National Space Council" Prop Trm Sg @<APPOS
 "<,>"
 	"," CLB
 "<oqalugiarnermini>"
@@ -5551,13 +5544,13 @@
 
 <sLeJgEYDcxrBTegvFGJhsflWYMlw-0>
 "<Avataarsualiartartunik>"
-	"avataarsualiar" TAR TUQ N Ins Pl @ADVL>
+	"avataarsualiar" TAR TUQ N Ins Pl @i-MIK-OBJ>
 "<ukiut>"
-	"ukioq" N Abs Pl @OBJ>
+	"ukioq" N Rel Pl @POSS>
 "<tallimat>"
-	"tallimat" Num Abs Pl @N<
+	"tallimat" Num Rel Pl @N<
 "<ingerlannginnerini>"
-	"ingerlap" NNGIT NIR V Par 4Sg 3PlO @PRED2
+	"ingerla" NNGIT NIQ N Lok Pl 3PlPoss @i-ADVL>
 "<Qaammammukartitsinissani>"
 	"Qaammat" KAR TIP HTR NIQ SSAQ N Abs Sg 4SgPoss @OBJ>
 "<USA-p>"
@@ -5798,7 +5791,7 @@
 "<Larsip>"
 	"Lars" Prop Rel Sg @SUBJ>
 "<Papa>"
-	"Papa" Prop
+	"Papa" Prop Abs Sg @OBJ>
 "<niuatigut>"
 	"nioq" N Via Sg 3SgPoss @ADVL>
 	"niu" N Via Sg 3SgPoss @ADVL>
@@ -7124,9 +7117,9 @@
 "<tamaviaaraluarsimasoq>"
 	"tamaviaar" GALUAR SIMA V Par 3Sg @PRED2
 "<Qooqap>"
-	"Qooqa" Prop Rel Sg @POSS>
+	"Qooqa" Prop Rel Sg @SUBJ>
 "<angugaluttualeqimmani>"
-	"angugaluttualeqimma" N Lok Pl @ADVL>
+	"angu" GALUTTUAR LIR QE V Cau 3Sg 4SgO @CAU
 "<qimaaniaqaluni>"
 	"qimaa" NIAR QE V Cont 4Sg @ADVL>
 "<misigaaq>"
@@ -7434,7 +7427,7 @@
 "<missaanni>"
 	"misse" N Lok Sg 3PlPoss @ADVL>
 "<pisarineqarput>"
-	"pisaq" GE NIQAR V Ind 3Pl @PRED
+	"pi" TAQ GE NIQAR V Ind 3Pl @PRED
 "<.>"
 	"." CLB
 </s>
@@ -7810,7 +7803,7 @@
 "<ipititsisartup>"
 	"ipitip" HTR TAR TUQ N Rel Sg @N<
 "<pisani>"
-	"pisaq" N Abs Sg 4SgPoss @OBJ>
+	"pi" TAQ N Abs Sg 4SgPoss @OBJ>
 "<ilivitsuutillugu>"
 	"ilivitsoq" U TIP V Cont 3SgO @ADVL>
 "<tamuanagu>"
@@ -10086,8 +10079,7 @@
 	"?" CLB
 
 "<Unnoqqaaginnarmalli>"
-	"Unnoqqaaginnarmall" N Abs Sg
-	"Unnoqqaaginnarmall" Prop Abs Sg
+	"unnup" QQAAR INNAR V Cau 3Sg LI @CAU
 "<ilimagilerassi>"
 	"ilimage" LIR V Cau 1Sg 2PlO @CAU
 "<.>"
@@ -11060,7 +11052,7 @@
 "<135-nik>"
 	"135" Num Ins @i->N
 "<pisaqartoqartarnissaa>"
-	"pisaq" QAR TUQ QAR TAR NIQ SSAQ N Abs Sg 3SgPoss @OBJ>
+	"pi" TAQ QAR TUQ QAR TAR NIQ SSAQ N Abs Sg 3SgPoss @OBJ>
 "<innersuussutigigaluaraat>"
 	"innersuup" UTE GE GALUAR V Par 3Pl 3SgO @PRED2
 "<,>"
@@ -11068,7 +11060,7 @@
 "<massakkullu>"
 	"massakkut" Adv LU @ADVL>
 "<pisassat>"
-	"pisaq" SSAQ N Abs Pl @SUBJ>
+	"pi" TAQ SSAQ N Abs Pl @SUBJ>
 "<ukiumut>"
 	"ukioq" N Trm Sg @>N
 "<300-nik>"
@@ -12689,42 +12681,6 @@
 	"?" CLB
 </s>
 
-<sj7nZ2tvgpR3DyjaGOOr6S3tNJuk-0>
-"<Ilinniartitsisut>"
-	"ilinniar" TIP HTR TUQ N Rel Pl @POSS>
-"<kattuffianni>"
-	"kattuffik" N Lok Sg 3PlPoss @ADVL>
-"<siulittaasoq>"
-	"siulittar" HTR V Par 3Sg @CL-CIT>
-"<,>"
-	"," CLB
-"<Sivso>"
-	"Sivso" Prop Abs Sg @PROP>
-"<Dorph>"
-	"Dorph" Prop Abs Sg @<APPOS
-"<isumaqarpoq>"
-	"isuma" QAR V Ind 3Sg @PRED
-"<ajornartorsiut>"
-	"ajor" NAR TUQ SIUT N Abs Sg @SUBJ>
-"<tassaasoq>"
-	"tassa" U V Par 3Sg @CL-<CIT
-"<,>"
-	"," CLB
-"<meeqqat>"
-	"meeraq" N Rel Pl @POSS>
-"<atuarfii>"
-	"atuar" VIK N Abs Pl 3PlPoss @OBJ>
-"<pillugit>"
-	"pi" V Cont 3PlO @i-ADVL>N
-"<inatsisit>"
-	"inatsit" N Abs Pl @SUBJ>
-"<erseqqarluppallaartoq>"
-	"erseqqarlup" VALLAAR TUQ N Abs Sg @N<
-	"erseqqarlup" VALLAAR V Par 3Sg @PRED2
-"<.>"
-	"." CLB
-</s>
-
 <sj9JahJMhAJXxSqxJOsL3udWU0iA-0>
 "<matu>"
 	"matu" N Abs Sg @SUBJ>
@@ -13792,7 +13748,7 @@
 "<Polenimi>"
 	"Polen" Prop Lok Sg @<APPOS
 "<pisumi>"
-	"pisoq" N Lok Sg @N<
+	"pi" TUQ N Lok Sg @N<
 "<peqataatippaa>"
 	"peqat" U TIP V Ind 3Sg 3SgO @PRED
 "<.>"
@@ -14780,7 +14736,7 @@
 "<maannga>"
 	"ma" Adv Abl @i-ADVL>
 "<pisorinanngitsoq>"
-	"pisoq" GE NAR NNGIT TUQ N Abs Sg @HNOUN
+	"pi" TUQ GE NAR NNGIT TUQ N Abs Sg @HNOUN
 "<.>"
 	"." CLB
 </s>
@@ -17027,8 +16983,7 @@
 "<qanoq>"
 	"qanoq" Adv @i-ADVL>
 "<pisoqarnera>"
-	"pisoq" QAR NIQ N Abs Sg 3SgPoss @OBJ>
-	"pisuk" QAR NIQ N Abs Sg 3SgPoss @OBJ>
+	"pi" TUQ QAR NIQ N Abs Sg 3SgPoss @OBJ>
 "<pillugu>"
 	"pi" V Cont 3SgO @i-ADVL>
 "<ilisimatinneqartarnissarput>"
