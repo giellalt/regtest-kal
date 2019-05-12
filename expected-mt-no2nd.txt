@@ -889,16 +889,16 @@
 "<,>"
 	"," CLB
 "<uummataalu>"
-	"uummat" N Abs Sg 3SgPoss LU @<SUBJ
+	"uummat" N Abs Sg 3SgPoss LU @SUBJ>
 "<aamma>"
-	"aamma" Adv @i-ADVL>
+	"aamma" Adv @ADVL>
 	"aamma" Conj @CONJ
 "<soorlu>"
-	"soorlu" Pali
+	"soorlu" Pali @ADVL>
 "<sumik>"
 	"suna" Pron Ins Sg @i->N
 "<kapineqartoq>"
-	"kapineq" QAR TUQ N Abs Sg @<APPOS
+	"kapineq" QAR V Par 3Sg @PRED2
 "<.>"
 	"." CLB
 </s>
@@ -2860,7 +2860,7 @@
 "<nuannerluinnartunik>"
 	"nuanner" LLUINNAR TUQ N Ins Pl @N<
 "<ulikkaartoq>"
-	"ulikkaar" V Par 3Sg @CL-<ADVL
+	"ulikkaar" V Par 3Sg @PRED2
 "<.>"
 	"." CLB
 </s>
@@ -5201,6 +5201,7 @@
 
 "<Naalakkersuisut>"
 	"Naalakkersuisut" Prop Rel Pl @SUBJ>
+	"naalagaq" LIRSUR HTR TUQ N Rel Pl @SUBJ>
 "<soorlu>"
 	"soorlu" Pali @ADVL>
 "<Atuakkiorfimmut>"
@@ -5501,7 +5502,7 @@
 "<misigilerpunga>"
 	"misige" LIR V Ind 1Sg @PRED
 "<utoqqalisunga>"
-	"utoqqali" V Par 1Sg @CL-<ADVL
+	"utoqqali" V Par 1Sg @CL-<CIT
 "<.>"
 	"." CLB
 </s>
@@ -7177,9 +7178,9 @@
 "<tamarmi>"
 	"tamaq" N Lok Sg @ADVL>
 "<quinarujuttuinnanngorluni>"
-	"quinap" RUJUP TUQ INNAQ NNGUR V Cont 4Sg @<ADVL
+	"quinap" RUJUP TUQ INNAQ NNGUR V Cont 4Sg @ADVL>
 "<nukillaalersoq>"
-	"nukillaar" LIR V Par 3Sg @PRED2
+	"nukillaar" LIR V Par 3Sg @CL-<CIT
 "<->"
 	"-" PUNCT
 "<…>"
@@ -13382,7 +13383,7 @@
 "<ilaanni>"
 	"ila" N Lok Sg 3PlPoss @ADVL>
 "<oqartoq>"
-	"oqar" V Par 3Sg @CL-<ADVL
+	"oqar" V Par 3Sg @PRED2
 "<:>"
 	":" CLB
 
@@ -15524,7 +15525,7 @@
 "<misigaaq>"
 	"misige" V Ind 3Sg @PRED
 "<napparsimakujulluni>"
-	"napparsima" KUJUP V Cont 4Sg @i-ADVL>
+	"napparsima" KUJUP V Cont 4Sg @CL-<CIT
 "<sinnarliortarnermik>"
 	"sinnarlior" TAR NIQ N Ins Sg @CL-<ADVL
 "<,>"
@@ -15892,7 +15893,7 @@
 "<misigilerpoq>"
 	"misige" LIR V Ind 3Sg @PRED
 "<kisimiilluni>"
-	"kisi" IP V Cont 4Sg @<ADVL
+	"kisi" IP V Cont 4Sg @CL-<CIT
 "<.>"
 	"." CLB
 </s>
