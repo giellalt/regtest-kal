@@ -16,8 +16,8 @@ use FindBin qw($Bin);
 my $args = ' '.join(' ', @ARGV).' ';
 
 if ($args =~ / --regtest / && $args =~ / --raw /) {
-   print "BIN/kal-tokenise LEX/tokeniser-disamb-gt-desc.pmhfst | cg-sort | REGTEST_AUTO fst | vislcg3 -t -g ETC/disambiguator.cg3 --no-mappings --trace | REGTEST_CG morf | vislcg3 -t -g ETC/disambiguator.cg3 --trace | REGTEST_CG syntax | perl -wpne 's~ [^/\\s]+/[^/\\s]+~~g; s~ i[A-Z\\d]\\w*~~g;' | cg-sort | REGTEST_AUTO no2nd\n";
+   print "BIN/kal-tokenise LEX/tokeniser-disamb-gt-desc.pmhfst | cg-sort | REGTEST_AUTO fst | vislcg3 -g ETC/kal-pre1.cg3 --trace | REGTEST_CG pre1 | vislcg3 -g ETC/kal-pre2.cg3 --trace | REGTEST_CG pre2 | vislcg3 -g ETC/disambiguator.cg3 --no-mappings --trace | REGTEST_CG morf | vislcg3 -g ETC/disambiguator.cg3 --trace | REGTEST_CG syntax | perl -wpne 's~ [^/\\s]+/[^/\\s]+~~g; s~ i[A-Z\\d]\\w*~~g;' | cg-sort | REGTEST_AUTO no2nd\n";
 }
 elsif ($args =~ / --regtest /) {
-   print "$Bin/../kal/tools/shellscripts/kal-tokenise $Bin/../kal/tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst | cg-sort | REGTEST_AUTO fst | vislcg3 -t -g $Bin/../kal/src/syntax/disambiguator.cg3 --no-mappings --trace | REGTEST_CG morf | vislcg3 -t -g $Bin/../kal/src/syntax/disambiguator.cg3 --trace | REGTEST_CG syntax | perl -wpne 's~ [^/\\s]+/[^/\\s]+~~g; s~ i[A-Z\\d]\\w*~~g;' | cg-sort | REGTEST_AUTO no2nd\n";
+   print "$Bin/../kal/tools/shellscripts/kal-tokenise $Bin/../kal/tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst | cg-sort | REGTEST_AUTO fst | vislcg3 -g $Bin/../kal/src/syntax/kal-pre1.cg3 --trace | REGTEST_CG pre1 | vislcg3 -g $Bin/../kal/src/syntax/kal-pre2.cg3 --trace | REGTEST_CG pre2 | vislcg3 -g $Bin/../kal/src/syntax/disambiguator.cg3 --no-mappings --trace | REGTEST_CG morf | vislcg3 -g $Bin/../kal/src/syntax/disambiguator.cg3 --trace | REGTEST_CG syntax | perl -wpne 's~ [^/\\s]+/[^/\\s]+~~g; s~ i[A-Z\\d]\\w*~~g;' | cg-sort | REGTEST_AUTO no2nd\n";
 }
