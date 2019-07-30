@@ -1394,7 +1394,7 @@
 "<->"
 	"-" PUNCT
 "<Pinningaaravit>"
-	"pinner" NGAAR V Cau 2Sg @CAU
+	"pinner" NGAAR V Cau 2Sg @PRED
 "<!>"
 	"!" CLB
 </s>
@@ -2334,7 +2334,8 @@
 "<->"
 	"-" PUNCT
 "<Tassami>"
-	"tassa" Adv MI @PRED
+	"tassa" Adv MI @FOC
+	"tassa" Interj MI @FOC
 "<...>"
 	"..." CLB
 
@@ -2392,7 +2393,7 @@
 "<Sunut>"
 	"suna" Pron Trm Pl @>N
 "<tamanut>"
-	"tamaq" N Trm Pl @HNOUN
+	"tamaq" N Trm Pl @ADVL>
 "<,>"
 	"," CLB
 "<kunngi>"
@@ -4454,6 +4455,7 @@
 "<->"
 	"-" PUNCT
 "<Ilumut>"
+	"ilumut" Adv @ADVL>
 	"ilumut" Interj @INTERJ
 "<,>"
 	"," CLB
@@ -4522,8 +4524,8 @@
 "<->"
 	"-" PUNCT
 "<allinnginnerminni>"
-	"alli" NNGIT NIQ N Lok Sg 4PlPoss @HNOUN
-	"allip" NNGIT NIQ N Lok Sg 4PlPoss @HNOUN
+	"alli" NNGIT NIQ N Lok Sg 4PlPoss @<ADVL
+	"allip" NNGIT NIQ N Lok Sg 4PlPoss @<ADVL
 "<.>"
 	"." CLB
 </s>
@@ -6113,7 +6115,7 @@
 	"taku" V Cau 1Sg 3SgO @CAU
 	"taku" V Cau 2Sg 3SgO @CAU
 "<aliasuttorujussuugavit>"
-	"aliasup" TUQ RUJUK SUAQ U V Cau 2Sg @CAU
+	"aliasup" TUQ RUJUK SUAQ U V Cau 2Sg @PRED
 "<?>"
 	"?" CLB
 
@@ -6482,7 +6484,7 @@
 "<">"
 	""" PUNCT
 "<soorlumi>"
-	"soorlu" Pali MI @CL-ADVL>
+	"soorlu" Pali MI @ADVL>
 "<taamaattussaannartut>"
 	"taama" IP TUQ SSAQ INNAQ N Aeq Sg @ADVL>
 "<nipeqartillugu>"
@@ -6692,7 +6694,7 @@
 "<">"
 	""" PUNCT
 "<Ataqqinartuaraq>"
-	"ataqqi" NAR TUQ ARAQ N Abs Sg @OBJ>
+	"Ataqqi" NAR TUQ ARAQ Prop Abs Sg @OBJ>
 "<sinittoq>"
 	"sinip" TUQ N Abs Sg @N<
 "<una>"
@@ -7043,7 +7045,7 @@
 "<->"
 	"-" PUNCT
 "<Aali>"
-	"aali" Conj @CONJ
+	"aali" Interj @ADVL>
 "<oqartutit>"
 	"oqar" V Par 2Sg @PRED2
 "<naasut>"
