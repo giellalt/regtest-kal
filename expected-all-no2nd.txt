@@ -1062,7 +1062,6 @@
 "<->"
 	"-" PUNCT
 "<Seqernup>"
-	"Seqineq" Prop Rel Sg @POSS>
 	"seqineq" N Rel Sg @POSS>
 "<tarrinnissaa>"
 	"tarrip" NIQ SSAQ N Abs Sg 3SgPoss @OBJ>
@@ -1852,28 +1851,6 @@
 	"." CLB
 </s>
 
-<sAQIt8aOZDqcUPyRzpBQldPPOuXg-0>
-"<“>"
-	"“" PUNCT LEFT
-"<Naasorli>"
-	"naasoq" N Abs Sg LI @OBJ>
-"<ajortuusoq>"
-	"ajor" TUQ U TUQ N Abs Sg @N<
-"<paasigaanni>"
-	"paasi" V Par 3Sg 3SgO @CL-ADVL>
-"<ingerlaannaq>"
-	"ingerlaannaq" Adv @ADVL>
-"<nusullugu>"
-	"nusup" V Cont 3SgO @ADVL>
-"<peerneqassaaq>"
-	"peer" NIQAR SSA V Ind 3Sg @PRED
-"<.>"
-	"." CLB
-
-"<”>"
-	"”" PUNCT RIGHT
-</s>
-
 <sAWnWhTxW4VCTFUQZXgjnyjTbpOU-0>
 "<Tassa>"
 	"tassa" Adv @PRED
@@ -2661,7 +2638,7 @@
 "<->"
 	"-" PUNCT
 "<Inuunera>"
-	"inuk" U NIQ N Abs Sg 1SgPoss @SUBJ>
+	"inuk" U NIQ N Abs Sg 3SgPoss @SUBJ>
 "<assigiiaaginnarpoq>"
 	"assi" GIIAAR INNAR V Ind 3Sg @PRED
 "<.>"
@@ -4333,7 +4310,7 @@
 "<->"
 	"-" PUNCT
 "<Imernera>"
-	"imer" NIQ N Abs Sg 1SgPoss @HNOUN
+	"imer" NIQ N Abs Sg 1SgPoss @SUBJ>
 "<,>"
 	"," CLB
 "<imerajuttoq>"
@@ -4443,7 +4420,6 @@
 "<->"
 	"-" PUNCT
 "<Seqernup>"
-	"Seqineq" Prop Rel Sg @POSS>
 	"seqineq" N Rel Sg @POSS>
 "<tarrikkiartuaarnera>"
 	"tarrip" GIARTUAAR NIQ N Abs Sg 3SgPoss @OBJ>
@@ -6284,7 +6260,6 @@
 "<->"
 	"-" PUNCT
 "<Seqernummi>"
-	"Seqineq" Prop Rel Sg MI @POSS>
 	"seqineq" N Rel Sg MI @POSS>
 "<tarrinnera>"
 	"tarrip" NIQ N Abs Sg 3SgPoss @HNOUN
@@ -6487,7 +6462,7 @@
 "<">"
 	""" PUNCT
 "<soorlumi>"
-	"soorlu" Pali MI @ADVL>
+	"soorlu" Pali MI @CL-ADVL>
 "<taamaattussaannartut>"
 	"taama" IP TUQ SSAQ INNAQ N Aeq Sg @ADVL>
 "<nipeqartillugu>"
@@ -6575,7 +6550,6 @@
 "<->"
 	"-" PUNCT
 "<Seqernup>"
-	"Seqineq" Prop Rel Sg @POSS>
 	"seqineq" N Rel Sg @POSS>
 "<tarrinnera>"
 	"tarrip" NIQ N Abs Sg 3SgPoss @OBJ>
@@ -7049,7 +7023,8 @@
 "<->"
 	"-" PUNCT
 "<Aali>"
-	"aali" Interj @ADVL>
+	"aali" Conj @CONJ
+	"aali" Interj @CL-ADVL>
 "<oqartutit>"
 	"oqar" V Par 2Sg @PRED2
 "<naasut>"
@@ -8796,7 +8771,6 @@
 	"..." CLB
 
 "<Aamma>"
-	"aamma" Adv
 	"aamma" Conj @CONJ
 "<...>"
 	"..." CLB
@@ -9060,6 +9034,23 @@
 	"paasi" NIAR LAAR SSA V Ind 1Sg 3SgO @PRED
 "<misissorsimaneraa>"
 	"misissor" SIMA NIR V Par 3Sg 3SgO @CL-<CIT
+"<.>"
+	"." CLB
+</s>
+
+<swo82jGnCa4CveQxkSc7xLvGC64s-0>
+"<Naasorli>"
+	"naasoq" N Abs Sg LI @OBJ>
+"<ajortuusoq>"
+	"ajor" TUQ U TUQ N Abs Sg @N<
+"<paasigaanni>"
+	"paasi" V Par 3Sg 3SgO @CL-ADVL>
+"<ingerlaannaq>"
+	"ingerlaannaq" Adv @ADVL>
+"<nusullugu>"
+	"nusup" V Cont 3SgO @ADVL>
+"<peerneqassaaq>"
+	"peer" NIQAR SSA V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>

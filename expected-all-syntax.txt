@@ -1070,8 +1070,6 @@
 "<->"
 	"-" PUNCT
 "<Seqernup>"
-	"Seqineq" Dial/Vgr Sem/Fem Sem/Hum Dial/Ngr Prop Rel Sg @POSS>
-	"Seqineq" Dial/Vgr Sem/Mask Sem/Hum Dial/Ngr Prop Rel Sg @POSS>
 	"seqineq" N Rel Sg Orth/Alt @POSS>
 "<tarrinnissaa>"
 	"tarrip" Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3SgPoss @OBJ>
@@ -1867,29 +1865,6 @@
 	"." CLB
 </s>
 
-<sAQIt8aOZDqcUPyRzpBQldPPOuXg-0>
-"<“>"
-	"“" PUNCT LEFT
-"<Naasorli>"
-	"naasoq" N Abs Sg LI @OBJ>
-"<ajortuusoq>"
-	"ajor" Gram/IV TUQ Der/vn U Der/nv Gram/IV TUQ Der/vn N Abs Sg @N<
-	"ajor" Gram/TV Gram/Pass TUQ Der/vn U Der/nv Gram/IV TUQ Der/vn N Abs Sg @N<
-"<paasigaanni>"
-	"paasi" Gram/TV V Par 3Sg 3SgO @CL-ADVL>
-"<ingerlaannaq>"
-	"ingerlaannaq" Adv @ADVL>
-"<nusullugu>"
-	"nusup" Gram/TV V Cont 3SgO @ADVL>
-"<peerneqassaaq>"
-	"peer" Gram/TV NIQAR Der/vv Gram/IV SSA Der/vv Gram/IV V Ind 3Sg @PRED
-"<.>"
-	"." CLB
-
-"<”>"
-	"”" PUNCT RIGHT
-</s>
-
 <sAWnWhTxW4VCTFUQZXgjnyjTbpOU-0>
 "<Tassa>"
 	"tassa" Adv @PRED
@@ -2681,13 +2656,13 @@
 
 <sH28arx5xj9d8lWgXqCbw3uhIlU0-0>
 "<->"
-	"-" PUNCT
+	"-" PUNCT DIRTALESTART
 "<Inuunera>"
-	"inuk" U Der/nv Gram/IV NIQ Der/vn N Abs Sg 1SgPoss @SUBJ>
+	"inuk" U Der/nv Gram/IV NIQ Der/vn N Abs Sg 3SgPoss @SUBJ>
 "<assigiiaaginnarpoq>"
 	"assi" GIIAAR Der/nv Gram/IV INNAR Der/vv Gram/IV V Ind 3Sg @PRED
 "<.>"
-	"." CLB
+	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE
 </s>
 
 <sH6VZK7OOVRTSU2v9q5ubkG6EwF0-0>
@@ -4364,11 +4339,11 @@
 
 <sUk7xoTXHFCqxgExquBvycnXkkaI-0>
 "<->"
-	"-" PUNCT
+	"-" PUNCT DIRTALESTART
 "<Imernera>"
-	"imer" Gram/IV NIQ Der/vn N Abs Sg 1SgPoss @HNOUN
+	"imer" Gram/IV NIQ Der/vn N Abs Sg 1SgPoss @SUBJ>
 "<,>"
-	"," CLB
+	"," CLB DIRTALESLUT
 "<imerajuttoq>"
 	"imer" Gram/IV GAJUP Der/vv Gram/IV TUQ Der/vn N Abs Sg @SUBJ>
 "<naggasiivoq>"
@@ -4476,8 +4451,6 @@
 "<->"
 	"-" PUNCT
 "<Seqernup>"
-	"Seqineq" Dial/Vgr Sem/Fem Sem/Hum Dial/Ngr Prop Rel Sg @POSS>
-	"Seqineq" Dial/Vgr Sem/Mask Sem/Hum Dial/Ngr Prop Rel Sg @POSS>
 	"seqineq" N Rel Sg Orth/Alt @POSS>
 "<tarrikkiartuaarnera>"
 	"tarrip" Gram/IV GIARTUAAR Der/vv Gram/IV NIQ Der/vn N Abs Sg 3SgPoss @OBJ>
@@ -6320,17 +6293,15 @@
 
 <sfYUhlfCUdl3c27ZKxaVLWMdUexM-0>
 "<->"
-	"-" PUNCT
+	"-" PUNCT DIRTALESTART
 "<Seqernummi>"
-	"Seqineq" Dial/Vgr Sem/Fem Sem/Hum Dial/Ngr Prop Rel Sg MI @POSS>
-	"Seqineq" Dial/Vgr Sem/Mask Sem/Hum Dial/Ngr Prop Rel Sg MI @POSS>
 	"seqineq" N Rel Sg Orth/Alt MI @POSS>
 "<tarrinnera>"
 	"tarrip" Gram/IV NIQ Der/vn N Abs Sg 3SgPoss @HNOUN
 "<takorusutara>"
 	"taku" Gram/TV GUSUP Der/vv Gram/TV TAQ Der/vn N Abs Sg 1SgPoss @N<
 "<?>"
-	"?" CLB
+	"?" CLB DIRTALESLUT DIRTALESLUT DIRTALESLUT
 
 "<ataqqinartuaqqap>"
 	"ataqqi" Gram/TV NAR Der/vv Gram/IV TUQ Der/vn ARAQ Der/nn N Rel Sg @SUBJ>
@@ -6512,10 +6483,10 @@
 "<Akivorlu>"
 	"aki" Gram/IV V Ind 3Sg LU @PRED
 "<:>"
-	":" CLB
+	":" CLB DIRTALESTART
 
 "<">"
-	""" PUNCT
+	""" PUNCT DIRTALESTART DIRTALESTART
 "<Aa>"
 	"aa" Interj @INTERJ
 "<,>"
@@ -6523,18 +6494,18 @@
 "<soorunami>"
 	"soorunami" Interj @INTERJ
 "<!>"
-	"!" CLB
+	"!" CLB DIRTALEMIDDLE
 
 "<">"
-	""" PUNCT
+	""" PUNCT DIRTALESTART DIRTALEMIDDLE
 "<soorlumi>"
-	"soorlu" Pali MI @ADVL>
+	"soorlu" Pali MI @CL-ADVL>
 "<taamaattussaannartut>"
 	"taama" IP Der/nv Gram/IV TUQ Der/vn SSAQ Der/nn INNAQ Der/nn N Aeq Sg @ADVL>
 "<nipeqartillugu>"
 	"nipi" QAR Der/nv Gram/IV TIP Der/vv Gram/TV V Cont 3SgO @PRED
 "<.>"
-	"." CLB
+	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE
 
 "<Uangalu>"
 	"uanga" Gram/Pers Pron Abs 1Sg LU @SUBJ>
@@ -6615,17 +6586,15 @@
 
 <shXS3Jbgip42HAqiMM437qre1N80-0>
 "<->"
-	"-" PUNCT
+	"-" PUNCT DIRTALESTART
 "<Seqernup>"
-	"Seqineq" Dial/Vgr Sem/Fem Sem/Hum Dial/Ngr Prop Rel Sg @POSS>
-	"Seqineq" Dial/Vgr Sem/Mask Sem/Hum Dial/Ngr Prop Rel Sg @POSS>
 	"seqineq" N Rel Sg Orth/Alt @POSS>
 "<tarrinnera>"
 	"tarrip" Gram/IV NIQ Der/vn N Abs Sg 3SgPoss @OBJ>
 "<takujumaarpat>"
 	"taku" Gram/TV GUMAAR Der/vv Gram/TV V Ind 2Sg 3SgO @PRED
 "<.>"
-	"." CLB
+	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE
 </s>
 
 <shYV0lGuEeoeznTZvNVqDyA56x9w-0>
@@ -7090,9 +7059,10 @@
 
 <skSPZUafStzpp7NqIPrjR33YAHus-0>
 "<->"
-	"-" PUNCT
+	"-" PUNCT DIRTALESTART
 "<Aali>"
-	"aali" Interj @ADVL>
+	"aali" Conj @CONJ
+	"aali" Interj @CL-ADVL>
 "<oqartutit>"
 	"oqar" Gram/IV Sem/Concessive V Par 2Sg @PRED2
 "<naasut>"
@@ -8813,10 +8783,10 @@
 "<oqarfigaara>"
 	"oqar" Gram/IV VIK Der/vn GE Der/nv Gram/TV V Ind 1Sg 3SgO @PRED
 "<:>"
-	":" CLB
+	":" CLB DIRTALESTART
 
 "<”>"
-	"”" PUNCT RIGHT
+	"”" PUNCT RIGHT DIRTALESTART
 "<Naasoq>"
 	"naasoq" N Abs Sg @SUBJ>
 "<asasat>"
@@ -8845,19 +8815,18 @@
 	"..." CLB
 
 "<Aamma>"
-	"aamma" Adv
 	"aamma" Conj @CONJ
 "<...>"
 	"..." CLB
 
 "<”>"
-	"”" PUNCT RIGHT
+	"”" PUNCT RIGHT DIRTALESTART
 "<Allamik>"
 	"alla" N Ins Sg @ADVL>
 "<oqaasissaaruppunga>"
 	"oqaaseq" SSAQ Der/nn IRUTE Der/nv Gram/IV V Ind 1Sg @PRED
 "<.>"
-	"." CLB
+	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE
 
 "<Isumaalliortutut>"
 	"isumaalliortoq" N Aeq Sg @ADVL>
@@ -9112,6 +9081,24 @@
 	"paasi" Gram/TV NIAR Der/vv LAAR Der/vv SSA Der/vv Gram/TV V Ind 1Sg 3SgO @PRED
 "<misissorsimaneraa>"
 	"misissor" Gram/TV SIMA Der/vv NIR Der/vv Gram/TV V Par 3Sg 3SgO @CL-<CIT
+"<.>"
+	"." CLB
+</s>
+
+<swo82jGnCa4CveQxkSc7xLvGC64s-0>
+"<Naasorli>"
+	"naasoq" N Abs Sg LI @OBJ>
+"<ajortuusoq>"
+	"ajor" Gram/IV TUQ Der/vn U Der/nv Gram/IV TUQ Der/vn N Abs Sg @N<
+	"ajor" Gram/TV Gram/Pass TUQ Der/vn U Der/nv Gram/IV TUQ Der/vn N Abs Sg @N<
+"<paasigaanni>"
+	"paasi" Gram/TV V Par 3Sg 3SgO @CL-ADVL>
+"<ingerlaannaq>"
+	"ingerlaannaq" Adv @ADVL>
+"<nusullugu>"
+	"nusup" Gram/TV V Cont 3SgO @ADVL>
+"<peerneqassaaq>"
+	"peer" Gram/TV NIQAR Der/vv Gram/IV SSA Der/vv Gram/IV V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
