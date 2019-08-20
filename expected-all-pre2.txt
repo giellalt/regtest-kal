@@ -2263,10 +2263,13 @@
 <s5PNj9v0ctKNq7aNphIU5vTVdJJg-0>
 "<Sap.ak.>"
 	"sapaatip akunnera" N Sem/Time Gram/Abbr
-"<asimiissaagut>"
-	"asi" iN iAbl iSg Gram/Hyb IR Gram/IV SSA Der/vv Gram/IV V Ind 1Pl
-	"asi" iN iIns iSg Gram/Hyb IR Gram/IV SSA Der/vv Gram/IV V Ind 1Pl
-	"asi" iN iLok iSg Gram/Hyb IP Gram/IV SSA Der/vv Gram/IV V Ind 1Pl
+"<asimiissaagut>" Hyb/1-2
+	"asi" N Abl Sg
+	"asi" N Ins Sg
+	"asi" N Lok Sg
+"<issaagut>" Hyb/2-2
+	"IP" Gram/IV SSA Der/vv Gram/IV V Ind 1Pl
+	"IR" Gram/IV SSA Der/vv Gram/IV V Ind 1Pl
 "<.>"
 	"." CLB
 </s>
@@ -2835,23 +2838,16 @@
 "<gradip>"
 	"grad" OLang/DAN OLang/DAN N Rel Sg
 	"grad" OLang/DAN Sem/Unit N Rel Sg
-"<missaaniikkaluartoq>"
-	"missaq" iN iLok iPl i3SgPoss Gram/Hyb IP Gram/IV GALUAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
-	"missaq" iN iLok iPl i3SgPoss Gram/Hyb IP Gram/IV GALUAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
-	"missaq" iN iLok iPl i3SgPoss Gram/Hyb IP Gram/IV GALUAR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"missaq" iN iLok iPl i3SgPoss Gram/Hyb IP Gram/IV GALUAR Der/vv Gram/IV V Par 3Sg
-	"missaq" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV GALUAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
-	"missaq" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV GALUAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
-	"missaq" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV GALUAR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"missaq" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV GALUAR Der/vv Gram/IV V Par 3Sg
-	"misse" iN iLok iPl i3SgPoss Gram/Hyb IP Gram/IV GALUAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
-	"misse" iN iLok iPl i3SgPoss Gram/Hyb IP Gram/IV GALUAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
-	"misse" iN iLok iPl i3SgPoss Gram/Hyb IP Gram/IV GALUAR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"misse" iN iLok iPl i3SgPoss Gram/Hyb IP Gram/IV GALUAR Der/vv Gram/IV V Par 3Sg
-	"misse" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV GALUAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
-	"misse" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV GALUAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
-	"misse" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV GALUAR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"misse" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV GALUAR Der/vv Gram/IV V Par 3Sg
+"<missaaniikkaluartoq>" Hyb/1-2
+	"missaq" N Lok Pl 3SgPoss
+	"missaq" N Lok Sg 3SgPoss
+	"misse" N Lok Pl 3SgPoss
+	"misse" N Lok Sg 3SgPoss
+"<ikkaluartoq>" Hyb/2-2
+	"IP" Gram/IV GALUAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
+	"IP" Gram/IV GALUAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
+	"IP" Gram/IV GALUAR Der/vv Gram/IV TUQ Der/vn N Abs Sg
+	"IP" Gram/IV GALUAR Der/vv Gram/IV V Par 3Sg
 "<suli>"
 	"su" V Opt 3Sg
 	"suli" Adv
@@ -2866,8 +2862,10 @@
 	"ippassaq" Pali
 "<Lindos>"
 	"Lindos" Sem/Geo Prop Abs Sg
-"<villagemukarama>"
-	"village" OLang/ENG iN iTrm iSg Gram/Hyb KAR Der/nv Gram/IV V Cau 1Sg
+"<villagemukarama>" Hyb/1-2
+	"village" OLang/ENG N Trm Sg
+"<KAR>" Hyb/2-2
+	"KAR" Der/nv Gram/IV V Cau 1Sg
 "<Akropolis>"
 	"Akropolis" Sem/Geo Prop Abs Sg
 "<alakkarlugu>"
@@ -2901,8 +2899,10 @@
 	"assaq" Orth/Arch N Abs Sg 3SgPoss
 "<,>"
 	"," CLB
-"<seqinermiiffiunngilaq>"
-	"seqineq" iN iLok iSg Gram/Hyb IP Gram/IV VIK Der/vn U Der/nv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Sg
+"<seqinermiiffiunngilaq>" Hyb/1-2
+	"seqineq" N Lok Sg
+"<iffiunngilaq>" Hyb/2-2
+	"IP" Gram/IV VIK Der/vn U Der/nv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Sg
 "<.>"
 	"." CLB
 </s>
@@ -4354,23 +4354,16 @@
 "<gradip>"
 	"grad" OLang/DAN OLang/DAN N Rel Sg
 	"grad" OLang/DAN Sem/Unit N Rel Sg
-"<missaaniikkaluartoq>"
-	"missaq" iN iLok iPl i3SgPoss Gram/Hyb IP Gram/IV GALUAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
-	"missaq" iN iLok iPl i3SgPoss Gram/Hyb IP Gram/IV GALUAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
-	"missaq" iN iLok iPl i3SgPoss Gram/Hyb IP Gram/IV GALUAR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"missaq" iN iLok iPl i3SgPoss Gram/Hyb IP Gram/IV GALUAR Der/vv Gram/IV V Par 3Sg
-	"missaq" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV GALUAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
-	"missaq" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV GALUAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
-	"missaq" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV GALUAR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"missaq" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV GALUAR Der/vv Gram/IV V Par 3Sg
-	"misse" iN iLok iPl i3SgPoss Gram/Hyb IP Gram/IV GALUAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
-	"misse" iN iLok iPl i3SgPoss Gram/Hyb IP Gram/IV GALUAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
-	"misse" iN iLok iPl i3SgPoss Gram/Hyb IP Gram/IV GALUAR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"misse" iN iLok iPl i3SgPoss Gram/Hyb IP Gram/IV GALUAR Der/vv Gram/IV V Par 3Sg
-	"misse" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV GALUAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
-	"misse" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV GALUAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
-	"misse" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV GALUAR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"misse" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV GALUAR Der/vv Gram/IV V Par 3Sg
+"<missaaniikkaluartoq>" Hyb/1-2
+	"missaq" N Lok Pl 3SgPoss
+	"missaq" N Lok Sg 3SgPoss
+	"misse" N Lok Pl 3SgPoss
+	"misse" N Lok Sg 3SgPoss
+"<ikkaluartoq>" Hyb/2-2
+	"IP" Gram/IV GALUAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
+	"IP" Gram/IV GALUAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
+	"IP" Gram/IV GALUAR Der/vv Gram/IV TUQ Der/vn N Abs Sg
+	"IP" Gram/IV GALUAR Der/vv Gram/IV V Par 3Sg
 "<suli>"
 	"su" V Opt 3Sg
 	"suli" Adv
@@ -4385,8 +4378,10 @@
 	"ippassaq" Pali
 "<Lindos>"
 	"Lindos" Sem/Geo Prop Abs Sg
-"<villagemukarama>"
-	"village" OLang/ENG iN iTrm iSg Gram/Hyb KAR Der/nv Gram/IV V Cau 1Sg
+"<villagemukarama>" Hyb/1-2
+	"village" OLang/ENG N Trm Sg
+"<KAR>" Hyb/2-2
+	"KAR" Der/nv Gram/IV V Cau 1Sg
 "<Akropolis>"
 	"Akropolis" Sem/Geo Prop Abs Sg
 "<alakkarlugu>"
@@ -4420,8 +4415,10 @@
 	"assaq" Orth/Arch N Abs Sg 3SgPoss
 "<,>"
 	"," CLB
-"<seqinermiiffiunngilaq>"
-	"seqineq" iN iLok iSg Gram/Hyb IP Gram/IV VIK Der/vn U Der/nv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Sg
+"<seqinermiiffiunngilaq>" Hyb/1-2
+	"seqineq" N Lok Sg
+"<iffiunngilaq>" Hyb/2-2
+	"IP" Gram/IV VIK Der/vn U Der/nv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Sg
 "<.>"
 	"." CLB
 </s>
@@ -9643,11 +9640,13 @@
 "<igaffiup>"
 	"iga" Gram/HV VIK Der/vn N Rel Sg
 	"iga" Gram/Refl Gram/IV VIK Der/vn N Rel Sg
-"<naqqaniittut>"
-	"nateq" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV TUQ Der/vn N Abs Pl
-	"nateq" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
-	"nateq" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV TUQ Der/vn N Rel Pl
-	"nateq" iN iLok iSg i3SgPoss Gram/Hyb IP Gram/IV V Par 3Pl
+"<naqqaniittut>" Hyb/1-2
+	"nateq" N Lok Sg 3SgPoss
+"<ittut>" Hyb/2-2
+	"IP" Gram/IV TUQ Der/vn N Abs Pl
+	"IP" Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
+	"IP" Gram/IV TUQ Der/vn N Rel Pl
+	"IP" Gram/IV V Par 3Pl
 "<sakallugit>"
 	"sakap" Gram/TV V Cont 3PlO
 "<uppikaatimmatigit>"
@@ -10119,23 +10118,16 @@
 "<uanga>"
 	"uanga" Gram/Pers Pron Abs 1Sg
 	"uanga" Gram/Pers Pron Rel 1Sg
-"<najukkanneersut>"
-	"najor" Gram/TV TAQ Der/vn iN iAbl iPl i1SgPoss Gram/Hyb IR Gram/IV TUQ Der/vn N Abs Pl
-	"najor" Gram/TV TAQ Der/vn iN iAbl iPl i1SgPoss Gram/Hyb IR Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
-	"najor" Gram/TV TAQ Der/vn iN iAbl iPl i1SgPoss Gram/Hyb IR Gram/IV TUQ Der/vn N Rel Pl
-	"najor" Gram/TV TAQ Der/vn iN iAbl iPl i1SgPoss Gram/Hyb IR Gram/IV V Par 3Pl
-	"najor" Gram/TV TAQ Der/vn iN iAbl iPl i2SgPoss Gram/Hyb IR Gram/IV TUQ Der/vn N Abs Pl
-	"najor" Gram/TV TAQ Der/vn iN iAbl iPl i2SgPoss Gram/Hyb IR Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
-	"najor" Gram/TV TAQ Der/vn iN iAbl iPl i2SgPoss Gram/Hyb IR Gram/IV TUQ Der/vn N Rel Pl
-	"najor" Gram/TV TAQ Der/vn iN iAbl iPl i2SgPoss Gram/Hyb IR Gram/IV V Par 3Pl
-	"najor" Gram/TV TAQ Der/vn iN iAbl iSg i1SgPoss Gram/Hyb IR Gram/IV TUQ Der/vn N Abs Pl
-	"najor" Gram/TV TAQ Der/vn iN iAbl iSg i1SgPoss Gram/Hyb IR Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
-	"najor" Gram/TV TAQ Der/vn iN iAbl iSg i1SgPoss Gram/Hyb IR Gram/IV TUQ Der/vn N Rel Pl
-	"najor" Gram/TV TAQ Der/vn iN iAbl iSg i1SgPoss Gram/Hyb IR Gram/IV V Par 3Pl
-	"najor" Gram/TV TAQ Der/vn iN iAbl iSg i2SgPoss Gram/Hyb IR Gram/IV TUQ Der/vn N Abs Pl
-	"najor" Gram/TV TAQ Der/vn iN iAbl iSg i2SgPoss Gram/Hyb IR Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
-	"najor" Gram/TV TAQ Der/vn iN iAbl iSg i2SgPoss Gram/Hyb IR Gram/IV TUQ Der/vn N Rel Pl
-	"najor" Gram/TV TAQ Der/vn iN iAbl iSg i2SgPoss Gram/Hyb IR Gram/IV V Par 3Pl
+"<najukkanneersut>" Hyb/1-2
+	"najor" Gram/TV TAQ Der/vn N Abl Pl 1SgPoss
+	"najor" Gram/TV TAQ Der/vn N Abl Pl 2SgPoss
+	"najor" Gram/TV TAQ Der/vn N Abl Sg 1SgPoss
+	"najor" Gram/TV TAQ Der/vn N Abl Sg 2SgPoss
+"<IR>" Hyb/2-2
+	"IR" Gram/IV TUQ Der/vn N Abs Pl
+	"IR" Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
+	"IR" Gram/IV TUQ Der/vn N Rel Pl
+	"IR" Gram/IV V Par 3Pl
 "<paasilluarniassammassuk>"
 	"paasi" Gram/TV LLUAR Der/vv NIAR Der/vv SSA Der/vv Gram/TV V Cau 3Pl 3SgO
 "<.>"
@@ -12778,10 +12770,13 @@
 "<akunnera>"
 	"akunneq" N Abs Sg 1SgPoss
 	"akunneq" N Abs Sg 3SgPoss
-"<asimiissaagut>"
-	"asi" iN iAbl iSg Gram/Hyb IR Gram/IV SSA Der/vv Gram/IV V Ind 1Pl
-	"asi" iN iIns iSg Gram/Hyb IR Gram/IV SSA Der/vv Gram/IV V Ind 1Pl
-	"asi" iN iLok iSg Gram/Hyb IP Gram/IV SSA Der/vv Gram/IV V Ind 1Pl
+"<asimiissaagut>" Hyb/1-2
+	"asi" N Abl Sg
+	"asi" N Ins Sg
+	"asi" N Lok Sg
+"<issaagut>" Hyb/2-2
+	"IP" Gram/IV SSA Der/vv Gram/IV V Ind 1Pl
+	"IR" Gram/IV SSA Der/vv Gram/IV V Ind 1Pl
 "<.>"
 	"." CLB
 </s>

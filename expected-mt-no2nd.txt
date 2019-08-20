@@ -782,7 +782,9 @@
 "<makiaarpoq>"
 	"makip" JAAR V Ind 3Sg @PRED
 "<iggavimmukarlunilu>"
-	"iggavik" KAR V Cont 4Sg LU @PRED
+	"iggavik" N Trm Sg @<ADVL
+"<KAR>"
+	"KAR" V Cont 4Sg LU @PRED
 "<,>"
 	"," CLB
 "<pakatsisimanerata>"
@@ -1200,7 +1202,9 @@
 "<nunani>"
 	"nuna" N Lok Pl @i-ADVL>
 "<tamaneersut>"
-	"tamaq" IR TUQ N Abs Pl @N<
+	"tamaq" N Abl Pl @i-ADVL>
+"<IR>"
+	"IR" TUQ N Abs Pl @N<
 "<nunatsinnit>"
 	"nuna" N Abl Sg 1PlPoss @i-ADVL>
 "<suleqatigerusunnerarpai>"
@@ -1287,7 +1291,7 @@
 	"IP" TUQ N Abs Sg @N<
 "<Ålborgimiittorlu>"
 	"Ålborg" Prop Lok Sg @i-ADVL>
-"<ittorlu>"
+"<ittoqrlu>"
 	"IP" TUQ N Abs Sg LU @N<
 "<.>"
 	"." CLB
@@ -2382,7 +2386,7 @@
 "<isersimatillugit>"
 	"iser" SIMA TIP V Cont 3PlO @ADVL>
 "<panissiap>"
-	"panik" SIAQ N Rel Sg @i-POSS>
+	"panik" SIAQ N Rel Sg @POSS>
 "<Maalap>"
 	"Maalat" Prop Rel Sg @<APPOS
 "<niviarsiararsuaq>"
@@ -2394,7 +2398,9 @@
 "<kissumiarlugu>"
 	"kissumiar" V Cont 3SgO @ADVL>
 "<arnaanukaappaa>"
-	"arnaq" KAR UTE V Ind 3Sg 3SgO @PRED
+	"arnaq" N Trm Sg 3SgPoss @ADVL>
+"<KAR>"
+	"KAR" UTE V Ind 3Sg 3SgO @PRED
 "<,>"
 	"," CLB
 "<arni>"
@@ -3037,16 +3043,20 @@
 "<Aasianni>"
 	"Aasiaat" Prop Lok Pl @i-ADVL>
 "<pinerluuteqarsimasunut>"
-	"pinerlup" UTE QAR SIMA TUQ N Trm Pl @ADVL>
+	"pinerlup" UTE QAR SIMA TUQ N Trm Pl @i-ADVL>
 "<inissiisarfimmiitinneqarpoq>"
-	"inissip" HTR TAR VIK IP TIP NIQAR V Ind 3Sg @PRED
+	"inissip" HTR TAR VIK N Lok Sg @ADVL>
+"<isinneqarpoq>"
+	"IP" TIP NIQAR V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 
 "<2001-imili>"
 	"2001" Num Lok LI @ADVL>
 "<inissiisarfimmiitilluni>"
-	"inissip" HTR TAR VIK IP TIP V Cont 4Sg @i-ADVL>
+	"inissip" HTR TAR VIK N Lok Sg @ADVL>
+"<isilluni>"
+	"IP" TIP V Cont 4Sg @i-ADVL>
 "<inooqamminut>"
 	"inuk" U QATE N Trm Sg 4SgPoss @i-ADVL>
 "<politiinullu>"
@@ -5635,7 +5645,7 @@
 "<asimeerujoortarput>"
 	"asi" N Ins Sg @ADVL>
 "<erujoortarput>"
-	"IR" RUJUUR TAR V Ind 3Pl @PRED
+	"IP" RUJUUR TAR V Ind 3Pl @PRED
 "<.>"
 	"." CLB
 </s>
@@ -6772,12 +6782,8 @@
 	"apere" V Ind 1Pl 3SgO @PRED
 "<,>"
 	"," CLB
-"<Royal>"
-	"Royal" Prop Abs Sg @PROP>
-"<Arctic>"
-	"Arctic" Prop Abs Sg @PROP>
-"<Linep>"
-	"Line" Prop Rel Sg @POSS>
+"<Royal Arctic Linep>"
+	"Royal Arctic Line" Prop Rel Sg @POSS>
 "<tungaaniit>"
 	"tunge" N Abl Sg 3SgPoss @i-ADVL>
 "<inatsisartut>"
@@ -12906,7 +12912,6 @@
 	"Nuuk" Prop Lok Sg @ADVL>
 "<issaanga>"
 	"IP" SSA V Ind 1Sg @PRED
-	"IR" SSA V Ind 1Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -13473,7 +13478,9 @@
 "<pingasuni>"
 	"pingasut" Num Lok Pl @N<
 "<maaniipput>"
-	"ma" IP V Ind 3Pl @PRED
+	"ma" Adv Lok @N<
+"<ipput>"
+	"IP" V Ind 3Pl @PRED
 "<sunalu>"
 	"suna" Pron Abs Sg LU @>N
 "<tamaat>"
@@ -14459,13 +14466,15 @@
 "<imigassat>"
 	"imer" TAQ SSAQ N Abs Pl @OBJ>
 "<nerriviup>"
-	"nerrivik" N Rel Sg @i-POSS>
+	"nerrivik" N Rel Sg @POSS>
 "<qaavaniittut>"
-	"qaaq" IP TUQ N Abs Sg 2SgPoss @SUBJ>
+	"qaaq" N Lok Sg 3SgPoss @i-ADVL>
+"<ittut>"
+	"IP" TUQ N Abs Pl @N<
 "<paariniarsimagamigit>"
 	"paare" NIAR SIMA V Cau 4Sg 3PlO @CAU
 "<kisimi>"
-	"kisi" N Nom 4Sg @N<
+	"kisi" N Nom 4Sg @SUBJ>
 "<qitinngilaq>"
 	"qitip" NNGIT V Ind 3Sg @PRED
 "<.>"
@@ -15269,7 +15278,6 @@
 	"akunneq" N Lok Sg 3SgPoss @ADVL>
 "<issagaanni>"
 	"IP" SSA V Par 4Sg @CL-<ADVL
-	"IR" SSA V Par 4Sg @CL-<ADVL
 "<.>"
 	"." CLB
 </s>

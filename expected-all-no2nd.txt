@@ -1040,7 +1040,6 @@
 	"atuar" TAQ UTE QAR VIK N Abl Sg @ADVL>
 "<ilissava>"
 	"IP" LIR SSA V Int 3Sg @PRED
-	"IR" LIR SSA V Int 3Sg @PRED
 "<?>"
 	"?" CLB
 </s>
@@ -1218,7 +1217,9 @@
 "<Sap.ak.>"
 	"sapaatip akunnera" N @ADVL>
 "<asimiissaagut>"
-	"asi" IP SSA V Ind 1Pl @PRED
+	"asi" N Lok Sg @ADVL>
+"<issaagut>"
+	"IP" SSA V Ind 1Pl @PRED
 "<.>"
 	"." CLB
 </s>
@@ -1573,9 +1574,11 @@
 "<30>"
 	"30" Num Abs @>N
 "<gradip>"
-	"grad" N Rel Sg @i-POSS>
+	"grad" N Rel Sg @POSS>
 "<missaaniikkaluartoq>"
-	"misse" IP GALUAR V Par 3Sg @ADVL>
+	"misse" N Lok Sg 3SgPoss @ADVL>
+"<ikkaluartoq>"
+	"IP" GALUAR V Par 3Sg @PRED2
 "<suli>"
 	"suli" Adv @ADVL>
 "<kianneruvoq>"
@@ -1585,9 +1588,11 @@
 "<ippassaq>"
 	"ippassaq" Pali @ADVL>
 "<Lindos>"
-	"Lindos" Prop Abs Sg @i-PROP>
+	"Lindos" Prop Abs Sg @PROP>
 "<villagemukarama>"
-	"village" KAR V Cau 1Sg @CAU
+	"village" N Trm Sg @ADVL>
+"<KAR>"
+	"KAR" V Cau 1Sg @CAU
 "<Akropolis>"
 	"Akropolis" Prop Abs Sg @OBJ>
 "<alakkarlugu>"
@@ -1611,7 +1616,9 @@
 "<,>"
 	"," CLB
 "<seqinermiiffiunngilaq>"
-	"seqineq" IP VIK U NNGIT V Ind 3Sg @PRED
+	"seqineq" N Lok Sg @ADVL>
+"<iffiunngilaq>"
+	"IP" VIK U NNGIT V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -2458,9 +2465,11 @@
 "<30>"
 	"30" Num Abs @>N
 "<gradip>"
-	"grad" N Rel Sg @i-POSS>
+	"grad" N Rel Sg @POSS>
 "<missaaniikkaluartoq>"
-	"misse" IP GALUAR V Par 3Sg @ADVL>
+	"misse" N Lok Sg 3SgPoss @ADVL>
+"<ikkaluartoq>"
+	"IP" GALUAR V Par 3Sg @PRED2
 "<suli>"
 	"suli" Adv @ADVL>
 "<kianneroqaaq>"
@@ -2470,9 +2479,11 @@
 "<ippassaq>"
 	"ippassaq" Pali @ADVL>
 "<Lindos>"
-	"Lindos" Prop Abs Sg @i-PROP>
+	"Lindos" Prop Abs Sg @PROP>
 "<villagemukarama>"
-	"village" KAR V Cau 1Sg @CAU
+	"village" N Trm Sg @ADVL>
+"<KAR>"
+	"KAR" V Cau 1Sg @CAU
 "<Akropolis>"
 	"Akropolis" Prop Abs Sg @OBJ>
 "<alakkarlugu>"
@@ -2496,7 +2507,9 @@
 "<,>"
 	"," CLB
 "<seqinermiiffiunngilaq>"
-	"seqineq" IP VIK U NNGIT V Ind 3Sg @PRED
+	"seqineq" N Lok Sg @ADVL>
+"<iffiunngilaq>"
+	"IP" VIK U NNGIT V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -5476,9 +5489,11 @@
 "<Puiaasat>"
 	"puiaq" USAQ N Abs Pl @OBJ>
 "<igaffiup>"
-	"iga" VIK N Rel Sg @i-POSS>
+	"iga" VIK N Rel Sg @POSS>
 "<naqqaniittut>"
-	"nateq" IP TUQ N Abs Pl @N<
+	"nateq" N Lok Sg 3SgPoss @i-ADVL>
+"<ittut>"
+	"IP" TUQ N Abs Pl @N<
 "<sakallugit>"
 	"sakap" V Cont 3PlO @ADVL>
 "<uppikaatimmatigit>"
@@ -5551,7 +5566,7 @@
 "<missaanniikkaluartoq>"
 	"misse" N Lok Sg 3PlPoss @ADVL>
 "<ikkaluartoq>"
-	"IP" GALUAR V Par 3Sg
+	"IP" GALUAR V Par 3Sg @PRED2
 "<suli>"
 	"suli" Adv @ADVL>
 "<kianneroqaaq>"
@@ -5773,16 +5788,19 @@
 "<meeqqat>"
 	"meeraq" N Rel Pl @SUBJ>
 "<uanga>"
-	"uanga" Pron Rel 1Sg @i-POSS>
+	"uanga" Pron Rel 1Sg @POSS>
 "<najukkanneersut>"
-	"najor" TAQ IR TUQ N Rel Pl @N<
+	"najor" TAQ N Abl Sg 1SgPoss @i-ADVL>
+"<IR>"
+	"IR" TUQ N Abs Pl @N<
+	"IR" TUQ N Rel Pl @N<
 "<paasilluarniassammassuk>"
 	"paasi" LLUAR NIAR SSA V Cau 3Pl 3SgO @CL-<ADVL
 "<.>"
 	"." CLB
 
 "<”>"
-	"”" PUNCT RIGHT
+	"”" PUNCT RIGHT DIRTALESTART
 "<Arlaanni>"
 	"arlaq" N Lok Sg 3PlPoss @ADVL>
 "<angalassagaluarunik>"
@@ -5800,7 +5818,7 @@
 "<iluaqutigisinnaavaat>"
 	"iluaqut" GE SINNAA V Ind 3Pl 3PlO @PRED
 "<.>"
-	"." CLB
+	"." CLB DIRTALEMIDDLE
 
 "<Ilaannikkut>"
 	"ilaannikkut" Adv @CL-ADVL>
@@ -5857,7 +5875,7 @@
 	"..." CLB
 
 "<”>"
-	"”" PUNCT RIGHT
+	"”" PUNCT RIGHT DIRTALESTART
 </s>
 
 <sbpJZoH97w04nS2LVtBREBqBM6xM-0>
@@ -7298,7 +7316,9 @@
 "<akunnera>"
 	"akunneq" N Abs Sg 3SgPoss @ADVL>
 "<asimiissaagut>"
-	"asi" IP SSA V Ind 1Pl @PRED
+	"asi" N Ins Sg @ADVL>
+"<issaagut>"
+	"IP" SSA V Ind 1Pl @PRED
 "<.>"
 	"." CLB
 </s>
