@@ -359,9 +359,11 @@
 "<siulliulluni>"
 	"siulleq" U V Cont 4Sg @i-ADVL>
 "<nunnittup>"
-	"nunnip" TUQ N Rel Sg @N<
+	"nunnip" TUQ N Rel Sg @POSS>
 "<USA-meersuunissaa>"
-	"USA" IR TUQ U NIQ SSAQ N Abs Sg 3SgPoss @OBJ>
+	"USA" N Abl Sg @i-ADVL>
+"<IR>"
+	"IR" TUQ U NIQ SSAQ N Abs Sg 3SgPoss @OBJ>
 "<siunniukkitsik>"
 	"siunniup" V Par 4Pl 3SgO @CL-CIT>
 "<,>"
@@ -373,7 +375,7 @@
 "<erseqqissaatigaa>"
 	"erseqqissar" UTE GE V Ind 3Sg 3SgO @PRED
 "<:>"
-	":" CLB
+	":" CLB DIRTALESTART
 </s>
 
 <s1vVxx23xxtX70k0dKokTr6Poi60-0>
@@ -602,7 +604,7 @@
 
 <s2vnx4CSyjqbBxcIPFK1pPz2Jdy0-0>
 "<kisimiikkunnaarpoq>"
-	"kisi" IP GUNNAIR V Ind 3Sg @PRED
+	"kisimiip" GUNNAIR V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -681,9 +683,7 @@
 "<Sunaaffa>"
 	"sunaaffa" Adv @FOC
 "<kisimiinnanga>"
-	"kisi" N Nom 4Sg
-"<innanga>"
-	"IP" V ContNeg 1Sg @PRED
+	"kisimiip" V ContNeg 1Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -4426,9 +4426,13 @@
 "<Avataarsualiartartut>"
 	"avataarsualiar" TAR TUQ N Rel Pl @POSS>
 "<USA-meersut>"
-	"USA" IR TUQ N Rel Pl @<APPOS
+	"USA" N Abl Sg @i-ADVL>
+"<IR>"
+	"IR" TUQ N Rel Pl @N<
 "<Qaammammukartinneqarnissaat>"
-	"Qaammat" KAR TIP NIQAR NIQ SSAQ N Abs Sg 3PlPoss @OBJ>
+	"Qaammat" Prop Trm Sg @i-ADVL>
+"<KAR>"
+	"KAR" TIP NIQAR NIQ SSAQ N Abs Sg 3PlPoss @OBJ>
 "<,>"
 	"," CLB
 "<allaallumi>"
@@ -11804,7 +11808,7 @@
 "<Amerikameersut>"
 	"Amerika" Prop Abl Sg @i-ADVL>
 "<IR>"
-	"IR" TUQ N Abs Pl
+	"IR" TUQ N Rel Pl @N<
 "<Qaammammut>"
 	"Qaammat" Prop Trm Sg @i-ADVL>
 "<ukiut>"
@@ -12584,7 +12588,7 @@
 "<kangianiittup>"
 	"kangi" N Lok Sg 3SgPoss @i-ADVL>
 "<ittup>"
-	"IP" TUQ N Rel Sg @POSS>
+	"IP" TUQ N Rel Sg @N<
 "<qinnguani>"
 	"qinngoq" N Lok Sg 3SgPoss @ADVL>
 "<Buujuk>"
@@ -12767,7 +12771,9 @@
 "<allaqqasoq>"
 	"allap" QQA TUQ N Abs Sg @N<
 "<inissaminiinngimmat>"
-	"ini" SSAQ IP NNGIT V Cau 3Sg @CAU
+	"ini" SSAQ N Lok Sg 4SgPoss @ADVL>
+"<inngimmat>"
+	"IP" NNGIT V Cau 3Sg @CAU
 "<atorsimagukku>"
 	"ator" SIMA V Con 2Sg 3SgO @CON
 "<atuagaateqarfimmut>"
@@ -13590,7 +13596,9 @@
 "<paasiniaasartuisa>"
 	"paasi" NIAR HTR TAR TUQ N Rel Pl 3SgPoss @SUBJ>
 "<FE-meersut>"
-	"FE" IR TUQ N Rel Pl @<APPOS
+	"FE" N Abl Sg @i-ADVL>
+"<IR>"
+	"IR" TUQ N Rel Pl @N<
 "<oqaatigaat>"
 	"oqar" UTE GE V Ind 3Pl 3SgO @PRED
 "<.>"
@@ -15562,7 +15570,7 @@
 <stXZMe8Eix8a67xOz7kxXuDtq7N4-0>
 "<Evamukaapput>"
 	"Eva" Prop Trm Sg @ADVL>
-"<KAA>"
+"<KAR>"
 	"KAA" V Ind 3Pl @PRED
 "<.>"
 	"." CLB
@@ -15882,9 +15890,7 @@
 "<misigilerpoq>"
 	"misige" LIR V Ind 3Sg @PRED
 "<kisimiilluni>"
-	"kisi" N Nom 4Sg @SUBJ>
-"<illuni>"
-	"IP" V Cont 4Sg @CL-<CIT
+	"kisimiip" V Cont 4Sg @CL-<CIT
 "<.>"
 	"." CLB
 </s>
@@ -17342,7 +17348,7 @@
 "<naatsorsuutigineqarporlu>"
 	"naatsorsor" UTE GE NIQAR V Ind 3Sg LU @PRED
 "<unnugu>"
-	"unnugu" Pali @ADVL>
+	"unnugu" Pali @i-ADVL>
 "<arfineq pingasut>"
 	"arfineq pingasut" Num Rel Pl @POSS>
 "<missaanni>"
@@ -17350,7 +17356,7 @@
 "<Nuummut>"
 	"Nuuk" Prop Trm Sg @i-ADVL>
 "<tikinnissaat>"
-	"tikip" NIQ SSAQ N Abs Sg 3PlPoss @<SUBJ
+	"tikip" NIQ SSAQ N Abs Sg 3PlPoss @SUBJ>
 "<,>"
 	"," CLB
 "<Air Greenlandip>"
@@ -17358,7 +17364,9 @@
 "<timmisartunik>"
 	"timmi" TAR TUQ N Ins Pl @i-MIK-OBJ>
 "<aqutsisoqarfianeersoq>"
-	"aqup" HTR TUQ QAR VIK IR TUQ N Abs Sg @SUBJ>
+	"aqup" HTR TUQ QAR VIK N Abl Sg 3SgPoss @i-ADVL>
+"<IR>"
+	"IR" TUQ N Abs Sg @SUBJ>
 "<,>"
 	"," CLB
 "<Hans>"

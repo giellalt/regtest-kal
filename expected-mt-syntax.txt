@@ -361,9 +361,11 @@
 "<siulliulluni>"
 	"siulleq" U Der/nv Gram/IV V Cont 4Sg @i-ADVL>
 "<nunnittup>"
-	"nunnip" Gram/IV TUQ Der/vn Orth/Alt N Rel Sg @N<
-"<USA-meersuunissaa>"
-	"USA" iN Gram/ACR iAbl iSg Gram/Hyb IR Gram/IV TUQ Der/vn U Der/nv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3SgPoss @OBJ>
+	"nunnip" Gram/IV TUQ Der/vn Orth/Alt N Rel Sg @POSS>
+"<USA-meersuunissaa>" Hyb/1-2
+	"USA" N Gram/ACR Abl Sg @i-ADVL>
+"<IR>" Hyb/2-2
+	"IR" Gram/IV TUQ Der/vn U Der/nv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3SgPoss @OBJ>
 "<siunniukkitsik>"
 	"siunniup" Gram/TV V Par 4Pl 3SgO @CL-CIT>
 "<,>"
@@ -605,7 +607,7 @@
 
 <s2vnx4CSyjqbBxcIPFK1pPz2Jdy0-0>
 "<kisimiikkunnaarpoq>"
-	"kisi" iN Gram/Cong iNom i4Sg Gram/Hyb IP Gram/IV GUNNAIR Der/vv Gram/IV V Ind 3Sg @PRED
+	"kisimiip" Gram/IV GUNNAIR Der/vv Gram/IV V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -683,10 +685,8 @@
 <s38rSVuup2eMfPrVOgkTVb1y5QOw-0>
 "<Sunaaffa>"
 	"sunaaffa" Adv @FOC
-"<kisimiinnanga>" Hyb/1-2
-	"kisi" N Gram/Cong Nom 4Sg
-"<innanga>" Hyb/2-2
-	"IP" Gram/IV V ContNeg 1Sg @PRED
+"<kisimiinnanga>"
+	"kisimiip" Gram/IV V ContNeg 1Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -4454,10 +4454,14 @@
 <sGPMREkpni1t295ZnMJJVhtoFAxo-0>
 "<Avataarsualiartartut>"
 	"avataarsualiar" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Rel Pl @POSS>
-"<USA-meersut>"
-	"USA" iN Gram/ACR iAbl iSg Gram/Hyb IR Gram/IV TUQ Der/vn N Rel Pl @<APPOS
-"<Qaammammukartinneqarnissaat>"
-	"Qaammat" Orth/Copy iN iProp iTrm iSg Gram/Hyb KAR Der/nv Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss Orth/Copy @OBJ>
+"<USA-meersut>" Hyb/1-2
+	"USA" N Gram/ACR Abl Sg @i-ADVL>
+"<IR>" Hyb/2-2
+	"IR" Gram/IV TUQ Der/vn N Rel Pl @N<
+"<Qaammammukartinneqarnissaat>" Hyb/1-2
+	"Qaammat" Orth/Copy Prop Trm Sg Orth/Copy @i-ADVL>
+"<KAR>" Hyb/2-2
+	"KAR" Der/nv Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss @OBJ>
 "<,>"
 	"," CLB
 "<allaallumi>"
@@ -11880,7 +11884,7 @@
 "<Amerikameersut>" Hyb/1-2
 	"Amerika" Sem/Geo Prop Abl Sg @i-ADVL>
 "<IR>" Hyb/2-2
-	"IR" Gram/IV TUQ Der/vn N Abs Pl
+	"IR" Gram/IV TUQ Der/vn N Rel Pl @N<
 "<Qaammammut>"
 	"Qaammat" Orth/Copy Prop Trm Sg Orth/Copy @i-ADVL>
 "<ukiut>"
@@ -12665,7 +12669,7 @@
 "<kangianiittup>" Hyb/1-2
 	"kangi" N Lok Sg 3SgPoss @i-ADVL>
 "<ittup>" Hyb/2-2
-	"IP" Gram/IV TUQ Der/vn N Rel Sg @POSS>
+	"IP" Gram/IV TUQ Der/vn N Rel Sg @N<
 "<qinnguani>"
 	"qinngoq" N Lok Sg 3SgPoss @ADVL>
 "<Buujuk>"
@@ -12847,9 +12851,10 @@
 	"ate" N Lok Sg 3SgPoss @i-ADVL>
 "<allaqqasoq>"
 	"allap" Gram/IV QQA Der/vv Gram/IV TUQ Der/vn N Abs Sg @N<
-"<inissaminiinngimmat>"
-	"ini" SSAQ Der/nn iN iLok iPl i4SgPoss Gram/Hyb IP Gram/IV NNGIT Der/vv Gram/IV V Cau 3Sg @CAU
-	"ini" SSAQ Der/nn iN iLok iSg i4SgPoss Gram/Hyb IP Gram/IV NNGIT Der/vv Gram/IV V Cau 3Sg @CAU
+"<inissaminiinngimmat>" Hyb/1-2
+	"ini" SSAQ Der/nn N Lok Sg 4SgPoss @ADVL>
+"<inngimmat>" Hyb/2-2
+	"IP" Gram/IV NNGIT Der/vv Gram/IV V Cau 3Sg @CAU
 "<atorsimagukku>"
 	"ator" Gram/TV SIMA Der/vv Gram/TV V Con 2Sg 3SgO @CON
 "<atuagaateqarfimmut>"
@@ -13674,8 +13679,10 @@
 	"isertor" Gram/IV TUQ Der/vn N Ins Sg @i-ADVL>
 "<paasiniaasartuisa>"
 	"paasi" Gram/TV NIAR Der/vv HTR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Rel Pl 3SgPoss @SUBJ>
-"<FE-meersut>"
-	"FE" iN Gram/ACR iAbl iSg Gram/Hyb IR Gram/IV TUQ Der/vn N Rel Pl @<APPOS
+"<FE-meersut>" Hyb/1-2
+	"FE" N Gram/ACR Abl Sg @i-ADVL>
+"<IR>" Hyb/2-2
+	"IR" Gram/IV TUQ Der/vn N Rel Pl @N<
 "<oqaatigaat>"
 	"oqar" UTE Der/vn GE Der/nv Gram/TV V Ind 3Pl 3SgO @PRED
 "<.>"
@@ -15659,7 +15666,7 @@
 <stXZMe8Eix8a67xOz7kxXuDtq7N4-0>
 "<Evamukaapput>" Hyb/1-2
 	"Eva" Sem/Fem Sem/Hum Prop Trm Sg @ADVL>
-"<KAA>" Hyb/2-2
+"<KAR>" Hyb/2-2
 	"KAA" Der/nv Gram/IV V Ind 3Pl @PRED
 "<.>"
 	"." CLB
@@ -15980,10 +15987,8 @@
 <susJxDsM2kfWrKn9rh9dA6donRgs-0>
 "<misigilerpoq>"
 	"misige" Gram/IV LIR Der/vv Gram/IV V Ind 3Sg @PRED
-"<kisimiilluni>" Hyb/1-2
-	"kisi" N Gram/Cong Nom 4Sg @SUBJ>
-"<illuni>" Hyb/2-2
-	"IP" Gram/IV V Cont 4Sg @CL-<CIT
+"<kisimiilluni>"
+	"kisimiip" Gram/IV V Cont 4Sg @CL-<CIT
 "<.>"
 	"." CLB
 </s>
@@ -17445,7 +17450,7 @@
 "<naatsorsuutigineqarporlu>"
 	"naatsorsor" UTE Der/vn GE Der/nv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg LU @PRED
 "<unnugu>"
-	"unnugu" Pali @ADVL>
+	"unnugu" Pali @i-ADVL>
 "<arfineq pingasut>"
 	"arfineq pingasut" Num Rel Pl @POSS>
 "<missaanni>"
@@ -17453,15 +17458,17 @@
 "<Nuummut>"
 	"Nuuk" Sem/Geo Prop Trm Sg @i-ADVL>
 "<tikinnissaat>"
-	"tikip" Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss @<SUBJ
+	"tikip" Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss @SUBJ>
 "<,>"
 	"," CLB
 "<Air Greenlandip>"
 	"Air Greenland" Sem/Hum Prop Rel Sg @POSS>
 "<timmisartunik>"
 	"timmi" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Ins Pl @i-MIK-OBJ>
-"<aqutsisoqarfianeersoq>"
-	"aqup" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn iN iAbl iSg i3SgPoss Gram/Hyb IR Gram/IV TUQ Der/vn N Abs Sg @SUBJ>
+"<aqutsisoqarfianeersoq>" Hyb/1-2
+	"aqup" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn N Abl Sg 3SgPoss @i-ADVL>
+"<IR>" Hyb/2-2
+	"IR" Gram/IV TUQ Der/vn N Abs Sg @SUBJ>
 "<,>"
 	"," CLB
 "<Hans>"
