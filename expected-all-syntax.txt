@@ -1042,18 +1042,18 @@
 	"dvd" OLang/DAN N Abs Sg @OBJ>
 "<atuakkap>"
 	"atuar" Gram/TV TAQ Der/vn N Rel Sg @POSS>
-"<iluaniittoq>" Hyb/1-2
-	"ilu" N Lok Sg 3SgPoss @i-ADVL>
-"<ittoq>" Hyb/2-2
-	"IP" Gram/IV TUQ Der/vn N Abs Sg @N<
-"<tassaniitiinnarlugu>" Hyb/1-2
-	"tass" Gram/Dem Adv Lok @ADVL>
-"<isiinnarlugu>" Hyb/2-2
-	"IP" Gram/IV TIP Der/vv Gram/TV INNAR Der/vv Gram/TV V Cont 3SgO @ADVL>
-"<atuagaateqarfimmiilissava>" Hyb/1-2
-	"atuar" Gram/TV TAQ Der/vn UTE Der/nn QAR Der/nv Gram/IV VIK Der/vn N Abl Sg @ADVL>
-"<ilissava>" Hyb/2-2
-	"IP" Gram/IV LIR Der/vv SSA Der/vv Gram/IV V Int 3Sg @PRED
+"<iluaniittoq>"
+	"ilu" N Lok Sg 3SgPoss Hyb/1-2 @i-ADVL>
+"<ittoq>"
+	"IP" Gram/IV TUQ Der/vn N Abs Sg Hyb/2-2 @N<
+"<tassaniitiinnarlugu>"
+	"tass" Gram/Dem Adv Lok Hyb/1-2 @ADVL>
+"<isiinnarlugu>"
+	"IP" Gram/IV TIP Der/vv Gram/TV INNAR Der/vv Gram/TV V Cont 3SgO Hyb/2-2 @ADVL>
+"<atuagaateqarfimmiilissava>"
+	"atuar" Gram/TV TAQ Der/vn UTE Der/nn QAR Der/nv Gram/IV VIK Der/vn N Lok Sg Hyb/1-2 @N<
+"<ilissava>"
+	"IP" Gram/IV LIR Der/vv SSA Der/vv Gram/IV V Int 3Sg Hyb/2-2 @PRED
 "<?>"
 	"?" CLB
 </s>
@@ -2544,9 +2544,9 @@
 "<taxanut>"
 	"taxa" OLang/DAN N Trm Pl @ADVL>
 "<ikillunilu>"
-	"iki" Gram/IV V Cont 4Sg LU @ADVL>
+	"iki" Gram/IV V Cont 4Sg LU @i-ADVL>
 "<kamannera>"
-	"kamanneq" N Abs Sg 3SgPoss @SUBJ>
+	"kamap" Gram/IV NIQ Der/vn N Abs Sg 3SgPoss @SUBJ>
 "<sakkortusiartuinnarpoq>"
 	"sakkortusi" Gram/IV GIARTUR Der/vv INNAR Der/vv Gram/IV V Ind 3Sg @PRED
 "<.>"
@@ -7364,10 +7364,11 @@
 	"sapaat" N Rel Sg @POSS>
 "<akunnera>"
 	"akunneq" N Abs Sg 3SgPoss @ADVL>
-"<asimiissaagut>" Hyb/1-2
-	"asi" N Ins Sg @ADVL>
-"<issaagut>" Hyb/2-2
-	"IP" Gram/IV SSA Der/vv Gram/IV V Ind 1Pl @PRED
+"<asimiissaagut>"
+	"asi" N Ins Sg Hyb/1-2 @ADVL>
+	"asi" N Lok Sg Hyb/1-2 @ADVL>
+"<issaagut>"
+	"IP" Gram/IV SSA Der/vv Gram/IV V Ind 1Pl Hyb/2-2 @PRED
 "<.>"
 	"." CLB
 </s>
