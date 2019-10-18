@@ -1168,7 +1168,7 @@
 "<inituallaanngitsut>"
 	"initu" Gram/IV VALLAAR Der/vv NNGIT Der/vv Gram/IV V Par 3Pl @PRED
 "<ajoqutaanatillu>"
-	"ajoqut" U Der/nv Gram/IV V ContNeg 4Pl LU @PRED2
+	"ajoqut" U Der/nv Gram/IV Gram/Conj-encl V ContNeg 4Pl LU @PRED2
 "<.>"
 	"." CLB
 
@@ -1181,7 +1181,7 @@
 "<puttussuuttarput>"
 	"puttussuup" Gram/IV TAR Der/vv Gram/IV V Ind 3Pl @PRED
 "<unnukkullu>"
-	"unnuk" N Via Sg LU @ADVL>
+	"unnuk" Gram/Conj-encl N Via Sg LU @ADVL>
 "<toqusarlutik>"
 	"toqu" Gram/IV TAR Der/vv Gram/IV V Cont 4Pl @PRED
 "<.>"
@@ -1199,10 +1199,11 @@
 	"naatsiiaq" SSAQ Der/nn N Abl Sg @ADVL>
 "<,>"
 	"," CLB
-"<suminngaanneersuugaluarnersumit>" Hyb/1-2
-	"suna" Gram/Int Pron Abl Sg @ADVL>
-"<IR>" Hyb/2-2
-	"IR" Gram/IV TUQ Der/vn U Der/nv Gram/IV GALUAR Der/vv NIR Der/vv Gram/IV TUQ Der/vn N Abl Sg @N<
+"<suminngaanneersuugaluarnersumit>"
+	"suna" Gram/Int Pron Abl Sg Hyb/1-2 @ADVL>
+"<IR>"
+	"IR" Gram/IV SUAQ Der/vn U Der/nv Gram/IV GALUAR Der/vv NIR Der/vv Gram/IV TUQ Der/vn N Abl Sg Hyb/2-2 @<APPOS
+	"IR" Gram/IV TUQ Der/vn U Der/nv Gram/IV GALUAR Der/vv NIR Der/vv Gram/IV TUQ Der/vn N Abl Sg Hyb/2-2 @<APPOS
 "<tingilluni>"
 	"tingi" Gram/IV V Cont 4Sg @ADVL>
 	"tingip" Gram/IV V Cont 4Sg @ADVL>
@@ -1213,7 +1214,7 @@
 "<,>"
 	"," CLB
 "<ataqqinartuaqqallu>"
-	"ataqqi" Gram/TV NAR Der/vv Gram/IV TUQ Der/vn ARAQ Der/nn N Rel Sg LU @SUBJ>
+	"ataqqi" Gram/TV NAR Der/vv Gram/IV TUQ Der/vn ARAQ Der/nn Gram/Conj-encl N Rel Sg LU @SUBJ>
 "<taassuma>"
 	"una" Prefix/TA Gram/Dem Pron Rel Sg @POSS>
 "<naaqqaataa>"
