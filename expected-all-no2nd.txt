@@ -92,8 +92,7 @@
 "<ilisimasalinnut>"
 	"ilisima" TAQ LIK N Trm Pl @i-ADVL>
 "<kalaallit>"
-	"kalaaleq" N Abs Pl @OBJ>
-	"kalaaleq" N Rel Pl @SUBJ>
+	"kalaaleq" N Rel Pl
 "<Danmarkimiittut>"
 	"Danmark" Prop Lok Sg @i-ADVL>
 "<ittut>"
@@ -359,13 +358,13 @@
 "<naatsorsuutigaa>"
 	"naatsorsor" UTE GE V Ind 3Sg 3SgO @PRED
 "<ilaasussat>"
-	"ila" U TUQ SSAQ N Rel Pl @SUBJ>
+	"ila" U TUQ SSAQ N Abs Pl @OBJ>
 "<900-t>"
 	"900" Num Rel Pl @i-POSS>
 "<missaanniittut>"
 	"misse" N Lok Sg 3PlPoss @i-ADVL>
 "<ittut>"
-	"IP" TUQ N Abs Pl @OBJ>
+	"IP" TUQ N Abs Pl @N<
 "<kinguaattooqqasut>"
 	"kinguaap" TUQ U QQA TUQ N Abs Pl @N<
 	"kinguaattoor" QQA TUQ N Abs Pl @N<
@@ -5284,7 +5283,7 @@
 "<mianersoqqullugit>"
 	"mianersor" QQU V Cont 3PlO @<ADVL
 "<navianartumut>"
-	"navianar" TUQ N Trm Sg @<ADVL
+	"navianartoq" N Trm Sg @<ADVL
 "<nalusatsinnut>"
 	"nalu" TAQ N Trm Sg 1PlPoss @N<
 "<qangali>"
@@ -5292,7 +5291,7 @@
 "<uatsinnik>"
 	"uanga" Pron Ins 1Pl @i->N
 "<navianartorsiortitsisimasumut>"
-	"navianar" TUQ SIUR TIP HTR SIMA TUQ N Trm Sg @N<
+	"navianartoq" SIUR TIP HTR SIMA TUQ N Trm Sg @N<
 "<.>"
 	"." CLB DIRTALEMIDDLE
 
@@ -7107,7 +7106,7 @@
 "<meeqqat>"
 	"meeraq" N Rel Pl @SUBJ>
 "<uanga>"
-	"uanga" Pron Rel 1Sg @POSS>
+	"uanga" Pron Rel 1Sg @i-POSS>
 "<najukkanneersut>"
 	"najor" TAQ N Abl Sg 1SgPoss @i-ADVL>
 "<IR>"
@@ -10591,7 +10590,7 @@
 "<Ulloq>"
 	"ulloq" N Abs Sg @OBJ>
 "<atorluarisiuttoq>"
-	"ator" LLUAR V Imp 2Pl 3SgO TUQ @PRED
+	"atorluar" V Imp 2Pl 3SgO TUQ @PRED
 "<.>"
 	"." CLB
 </s>
