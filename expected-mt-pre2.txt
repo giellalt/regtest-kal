@@ -1011,6 +1011,7 @@
 	"umiarsuaq" N Abs Sg
 	"umiarsuar" Gram/IV V Ind Gram/Exclm
 "<800>"
+	"800" N Abs Sg
 	"800" Num Abs Sg
 "<tonsit>"
 	"ton" OLang/DAN Sem/Unit Orth/Alt N Abs Pl
@@ -3848,6 +3849,7 @@
 "<sanaalugaq>"
 	"sanaalugaq" N Abs Sg
 "<100>"
+	"100" N Abs Sg
 	"100" Num Abs Sg
 "<kroninut>"
 	"krone" OLang/DAN N Trm Pl
@@ -4146,10 +4148,10 @@
 	"nalunaaqutaq" N Abs Sg
 "<arfineq-pingasunut>"
 	"arfineq-pingasut" Orth/Alt Num Trm Pl
-"<maaniissaatit>" Hyb/1-2
-	"ma" Gram/Dem Adv Lok
-"<issaatit>" Hyb/2-2
-	"IP" Gram/IV SSA Der/vv Gram/IV V Ind 2Sg
+"<maaniissaatit>"
+	"ma" Gram/Dem Adv Lok Hyb/1-2
+"<issaatit>"
+	"IP" Gram/IV SSA Der/vv Gram/IV V Ind 2Sg Hyb/2-2
 "<.>"
 	"." CLB
 </s>
@@ -4807,6 +4809,13 @@
 	"." CLB
 
 "<Skypekkut>"
+	"Skype" OLang/DAN Err/Sub KKUT Der/nn Gram/PlurTant N Abs Pl
+	"Skype" OLang/DAN Err/Sub KKUT Der/nn Gram/PlurTant N Rel Pl
+	"Skype" OLang/DAN Err/Sub N Via Pl 1SgPoss
+	"Skype" OLang/DAN Err/Sub N Via Pl 2SgPoss
+	"Skype" OLang/DAN Err/Sub N Via Sg
+	"Skype" OLang/DAN Err/Sub N Via Sg 1SgPoss
+	"Skype" OLang/DAN Err/Sub N Via Sg 2SgPoss
 	"Skype" Sem/Hum KKUT Der/nn Prop Abs Pl
 	"Skype" Sem/Hum KKUT Der/nn Prop Rel Pl
 	"Skype" Sem/Hum Prop Via Sg
@@ -4823,7 +4832,6 @@
 	"Atassut" Sem/Hum Prop Abs Sg
 	"ata" Gram/IV UTE Der/vn N Abs Sg
 	"ata" Gram/TV Gram/Refl Gram/IV UTE Der/vn N Abs Sg
-	"ata" UTE Der/vn N Abs Sg
 "<tunulequtaralugu>"
 	"tunulequtaq" GE Der/nv Gram/TV V Cont 3SgO
 "<qineqqusaarpoq>"
@@ -5241,10 +5249,13 @@
 "<ullormut>"
 	"ullormut" Pali
 "<450>"
+	"450" N Abs Sg
 	"450" Num Abs Sg
 "<kronisisarpoq>"
+	"krone" OLang/DAN SI Der/nv Gram/IV SAR Der/vv Gram/Refl Gram/IV V Ind 3Sg
 	"krone" OLang/DAN SI Der/nv Gram/IV SAR Der/vv Gram/TV Gram/Refl V Ind 3Sg
 	"krone" OLang/DAN SI Der/nv Gram/IV TAR Der/vv Gram/IV V Ind 3Sg
+	"krone" OLang/DAN Sem/Unit SI Der/nv Gram/IV SAR Der/vv Gram/Refl Gram/IV V Ind 3Sg
 	"krone" OLang/DAN Sem/Unit SI Der/nv Gram/IV SAR Der/vv Gram/TV Gram/Refl V Ind 3Sg
 	"krone" OLang/DAN Sem/Unit SI Der/nv Gram/IV TAR Der/vv Gram/IV V Ind 3Sg
 "<.>"
@@ -5414,6 +5425,7 @@
 "<7-imi>"
 	"7" Err/Sub Num Abs Pl 3PlPoss MI
 	"7" Err/Sub Num Abs Pl 3SgPoss MI
+	"7" N Lok Sg
 	"7" Num Abs Sg MI
 	"7" Num Lok Sg
 "<.>"
@@ -7126,6 +7138,7 @@
 	"eqquiniar" Gram/IV NIQ Der/vn N Abs Sg
 	"eqquiniar" Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
 "<2000>"
+	"2000" N Abs Sg
 	"2000" Num Abs Sg
 "<kronit>"
 	"krone" OLang/DAN N Abs Pl
@@ -7384,6 +7397,7 @@
 "<normu>"
 	"normu" N Abs Sg
 "<4-tut>"
+	"4" N Aeq Sg Orth/Alt
 	"4" Num Aeq Sg
 "<inissitaavoq>"
 	"ini" Orth/Alt SSIP Der/nv Gram/TV TAQ Der/vn U Der/nv Gram/IV V Ind 3Sg
@@ -7593,11 +7607,11 @@
 	"aasiak" N Abs Sg 3PlPoss
 	"aasiak" N Rel Pl
 	"aasiak" UTE Der/nn N Abs Sg
-"<eqqaanniippoq>" Hyb/1-2
-	"eqqaq" N Lok Pl 3PlPoss
-	"eqqaq" N Lok Sg 3PlPoss
-"<ippoq>" Hyb/2-2
-	"IP" Gram/IV V Ind 3Sg
+"<eqqaanniippoq>"
+	"eqqaq" N Lok Pl 3PlPoss Hyb/1-2
+	"eqqaq" N Lok Sg 3PlPoss Hyb/1-2
+"<ippoq>"
+	"IP" Gram/IV V Ind 3Sg Hyb/2-2
 "<.>"
 	"." CLB
 </s>
@@ -9486,6 +9500,7 @@
 	"ukioq" N Rel Pl 4SgPoss
 	"ukioq" N Rel Sg 4SgPoss
 "<1932-mi>"
+	"1932" N Lok Sg Orth/Alt
 	"1932" Num Abs Sg MI
 	"1932" Num Lok Sg
 "<.>"
@@ -9510,6 +9525,7 @@
 "<nal.>"
 	"nalunaaqutaq" N Gram/Abbr
 "<13>"
+	"13" N Abs Sg
 	"13" Num Abs Sg
 "<katersalerisut>"
 	"katersaq" LIRI Der/nv Gram/IV TUQ Der/vn N Abs Pl
@@ -9531,6 +9547,7 @@
 	"," CLB
 "<naapilerpugut>"
 	"naapip" Gram/IV LIR Der/vv Gram/IV V Ind 1Pl
+	"naapip" Gram/IV LIR Der/vv Gram/IV V Int 1Pl
 	"naapip" Gram/TV LIR Der/vv Gram/Refl V Ind 1Pl
 "<.>"
 	"." CLB
@@ -10199,7 +10216,7 @@
 	"ih" Interj LU
 	"illu" N Abs Sg
 "<400.000>"
-	"400.000" Num Abs
+	"400.000" N Abs Sg
 	"400.000" Num Abs Sg
 "<kronilerlugu>"
 	"krone" OLang/DAN LIR Der/nv Gram/TV V Cont 3SgO
@@ -10256,6 +10273,7 @@
 	"tyskeq" N Abs Sg 2SgPoss
 	"tyskeq" N Rel Pl
 "<1940-mi>"
+	"1940" N Lok Sg Orth/Alt
 	"1940" Num Abs Sg MI
 	"1940" Num Lok Sg
 "<Danmarki>"
@@ -12362,6 +12380,7 @@
 	"umiarsuaq" N Abs Sg
 	"umiarsuar" Gram/IV V Ind Gram/Exclm
 "<800>"
+	"800" N Abs Sg
 	"800" Num Abs Sg
 "<tonsinik>"
 	"ton" OLang/DAN Sem/Unit Orth/Alt N Ins Pl
@@ -12523,6 +12542,7 @@
 	"qupper" Gram/TV NIQ Der/vn N Abs Sg
 	"qupper" Gram/TV NIQ Der/vn N Abs Sg Gram/Comp
 "<10-mi>"
+	"10" N Lok Sg Orth/Alt
 	"10" Num Abs Sg MI
 	"10" Num Lok Sg
 "<oqaasertai>"
@@ -12623,6 +12643,7 @@
 	"kaajallap" Gram/TV NIQ Der/vn N Abs Sg 1SgPoss
 	"kaajallap" Gram/TV NIQ Der/vn N Abs Sg 3SgPoss
 "<6>"
+	"6" N Abs Sg
 	"6" Num Abs Sg
 "<centimeteriuvoq>"
 	"centimeter" OLang/DAN Sem/Unit U Der/nv Gram/IV V Ind 3Sg
@@ -12802,8 +12823,6 @@
 "<nalunaaqutaq>"
 	"nalunaaqutaq" N Abs Sg
 "<arfineq-pingasunnguinnartoq>"
-	"arfineq-pingasut" Orth/Alt NNGUR Der/nv Gram/IV INNAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
-	"arfineq-pingasut" Orth/Alt NNGUR Der/nv Gram/IV INNAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
 	"arfineq-pingasut" Orth/Alt NNGUR Der/nv Gram/IV INNAR Der/vv Gram/IV TUQ Der/vn N Abs Sg
 	"arfineq-pingasut" Orth/Alt NNGUR Der/nv Gram/IV INNAR Der/vv Gram/IV V Par 3Sg
 "<.>"
@@ -14311,6 +14330,7 @@
 "<normu>"
 	"normu" N Abs Sg
 "<26-mi>"
+	"26" N Lok Sg Orth/Alt
 	"26" Num Abs Sg MI
 	"26" Num Lok Sg
 "<najugaqarpoq>"
@@ -15782,6 +15802,7 @@
 
 <sPynTc2LQHmK85Nz8kCg0uzHNm1A-0>
 "<50.000>"
+	"50.000" N Abs Sg
 	"50.000" Num Abs Sg
 "<koruunit>"
 	"krone" OLang/DAN Sem/Unit Err/Sub Orth/Arch N Abs Pl
@@ -19417,6 +19438,7 @@
 "<regningia>"
 	"regning" OLang/DAN N Abs Sg 3SgPoss
 "<100>"
+	"100" N Abs Sg
 	"100" Num Abs Sg
 "<kroniuvoq>"
 	"krone" OLang/DAN Sem/Unit U Der/nv Gram/IV V Ind 3Sg
@@ -20268,11 +20290,11 @@
 "<paasinngilara>"
 	"paasi" Gram/TV NNGIT Der/vv Gram/TV V Ind 1Sg 3SgO
 	"paat" LIR Der/nv Gram/TV NNGIT Der/vv Gram/TV V Ind 1Sg 3SgO
-"<suminngaanneernersoq>" Hyb/1-2
-	"suna" Gram/Int Pron Abl Sg
-"<IR>" Hyb/2-2
-	"IR" Gram/IV NIR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"IR" Gram/IV NIR Der/vv Gram/IV V Par 3Sg
+"<suminngaanneernersoq>"
+	"suna" Gram/Int Pron Abl Sg Hyb/1-2
+"<IR>"
+	"IR" Gram/IV NIR Der/vv Gram/IV TUQ Der/vn N Abs Sg Hyb/2-2
+	"IR" Gram/IV NIR Der/vv Gram/IV V Par 3Sg Hyb/2-2
 "<.>"
 	"." CLB
 </s>
@@ -20737,6 +20759,7 @@
 "<nalunaaqutaq>"
 	"nalunaaqutaq" N Abs Sg
 "<10>"
+	"10" N Abs Sg
 	"10" Num Abs Sg
 "<toquvoq>"
 	"toqu" Gram/IV V Ind 3Sg
@@ -21060,6 +21083,7 @@
 	"e" N Gram/Abbr
 	"e" N Gram/Abbr Abs Sg
 "<20>"
+	"20" N Abs Sg
 	"20" Num Abs Sg
 "<Odense>"
 	"Odense" Sem/Geo Prop Abs Sg
@@ -21112,6 +21136,7 @@
 	"taarsigassarsiaq" N Abs Sg 2SgPoss
 	"taarsigassarsiaq" N Rel Pl
 "<20.000>"
+	"20.000" N Abs Sg
 	"20.000" Num Abs Sg
 "<kroniusut>"
 	"krone" OLang/DAN Sem/Unit U Der/nv Gram/IV TUQ Der/vn N Abs Pl
@@ -21262,6 +21287,7 @@
 	"sapaatip-akunneq" N Abs Sg 1SgPoss
 	"sapaatip-akunneq" N Abs Sg 3SgPoss
 "<26-mi>"
+	"26" N Lok Sg Orth/Alt
 	"26" Num Abs Sg MI
 	"26" Num Lok Sg
 "<feeriarpoq>"
@@ -21274,6 +21300,7 @@
 "<normu>"
 	"normu" N Abs Sg
 "<370>"
+	"370" N Abs Sg
 	"370" Num Abs Sg
 "<makitaavoq>"
 	"makip" Gram/TV TAQ Der/vn U Der/nv Gram/IV V Ind 3Sg
@@ -22549,6 +22576,7 @@
 "<tiimimut>"
 	"time" OLang/DAN Sem/Unit Orth/Alt N Trm Sg
 "<60>"
+	"60" N Abs Sg
 	"60" Num Abs Sg
 "<kilometerit>"
 	"kilometer" OLang/DAN Sem/Unit N Abs Pl
@@ -23419,11 +23447,13 @@
 	"ini" N Abs Sg
 	"ini" Orth/Alt N Abs Sg 4SgPoss Orth/Arch
 "<4>"
+	"4" N Abs Sg
 	"4" Num Abs Sg
 "<gange>"
 	"gang" OLang/DAN Err/Sub N Abs Pl
 	"gange" Conj
 "<3>"
+	"3" N Abs Sg
 	"3" Num Abs Sg
 "<meterinik>"
 	"meter" OLang/DAN Sem/Unit N Ins Pl
@@ -23470,18 +23500,18 @@
 <sczXQpZ20LMEjtu0ZqKc5EfRUjoo-0>
 "<Aviaaja>"
 	"Aviaaja" Dial/Vgr Sem/Fem Sem/Hum Prop Abs Sg
-"<5a-miippoq>" Hyb/1-2
-	"5a" N Lok
-"<ippoq>" Hyb/2-2
-	"IP" Gram/IV V Ind 3Sg
+"<5a-miippoq>"
+	"5a" N Lok Hyb/1-2
+"<ippoq>"
+	"IP" Gram/IV V Ind 3Sg Hyb/2-2
 "<Nukalu>"
 	"Nuka" Dial/Vgr Sem/Fem Sem/Hum Prop Abs Sg LU
 	"Nuka" Dial/Vgr Sem/Mask Sem/Hum Prop Abs Sg LU
 	"nuka" N Abs Sg LU
-"<4b-miilluni>" Hyb/1-2
-	"4b" N Lok
-"<illuni>" Hyb/2-2
-	"IP" Gram/IV V Cont 4Sg
+"<4b-miilluni>"
+	"4b" N Lok Hyb/1-2
+"<illuni>"
+	"IP" Gram/IV V Cont 4Sg Hyb/2-2
 "<.>"
 	"." CLB
 </s>
@@ -25815,7 +25845,7 @@
 
 <sfscwX6pWMlAwGJu6dMBexaVUKi8-0>
 "<Qaamarnup>"
-	"qaama" Gram/IV NIQ Der/vn N Rel Sg Orth/Alt
+	"qaama" Gram/IV NIQ Der/vn N Rel Sg
 "<Uummataani>"
 	"uummat" N Lok Pl 3SgPoss
 	"uummat" N Lok Sg 3SgPoss
@@ -26758,6 +26788,7 @@
 "<uulia>"
 	"uulia" N Abs Sg
 "<20>"
+	"20" N Abs Sg
 	"20" Num Abs Sg
 "<kiilunik>"
 	"kilo" Err/Sub Sem/Unit N Ins Pl
@@ -27072,6 +27103,7 @@
 	"umiatsiaq" N Abs Sg
 	"umiatsiar" Gram/IV V Ind Gram/Exclm
 "<20>"
+	"20" N Abs Sg
 	"20" Num Abs Sg
 "<fodsilik>"
 	"fod" OLang/DAN Sem/Unit Orth/Alt iN iAbs iPl LIK Der/nn N Abs Sg
@@ -27146,11 +27178,12 @@
 "<tiimimut>"
 	"time" OLang/DAN Sem/Unit Orth/Alt N Trm Sg
 "<100>"
+	"100" N Abs Sg
 	"100" Num Abs Sg
-"<kilometerimiippoq>" Hyb/1-2
-	"kilometer" OLang/DAN Sem/Unit N Lok Sg
-"<ippoq>" Hyb/2-2
-	"IP" Gram/IV V Ind 3Sg
+"<kilometerimiippoq>"
+	"kilometer" OLang/DAN Sem/Unit N Lok Sg Hyb/1-2
+"<ippoq>"
+	"IP" Gram/IV V Ind 3Sg Hyb/2-2
 "<.>"
 	"." CLB
 </s>
@@ -27183,11 +27216,11 @@
 </s>
 
 <shnZW5efdpVlsxaB6A0ojpGQ0dQM-0>
-"<Canadamiinnerata>" Hyb/1-2
-	"Canada" Sem/Geo Prop Lok Sg
-"<innerata>" Hyb/2-2
-	"IP" Gram/IV NIQ Der/vn N Rel Sg 3PlPoss
-	"IP" Gram/IV NIQ Der/vn N Rel Sg 3SgPoss
+"<Canadamiinnerata>"
+	"Canada" Sem/Geo Prop Lok Sg Hyb/1-2
+"<innerata>"
+	"IP" Gram/IV NIQ Der/vn N Rel Sg 3PlPoss Hyb/2-2
+	"IP" Gram/IV NIQ Der/vn N Rel Sg 3SgPoss Hyb/2-2
 "<ineritippaa>"
 	"inerip" Gram/IV TIP Der/vv Gram/TV V Ind 3Sg 3SgO
 	"ineritip" Gram/TV V Ind 3Sg 3SgO
@@ -29045,6 +29078,7 @@
 "<narluinnarlugu>"
 	"narlor" Gram/TV INNAR Der/vv Gram/TV V Cont 3SgO
 "<300>"
+	"300" N Abs Sg
 	"300" Num Abs Sg
 "<km>"
 	"kilometer" Gram/Abbr N Abs Sg
@@ -29219,24 +29253,28 @@
 
 <sk2TxAsx0qOifNSYInMaV4Dmrx6w-0>
 "<sillimasertinnerminut>"
-	"sillimmat" Orth/Alt LIR Der/nv Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn N Trm Sg 4SgPoss
-	"sillimmat" Orth/Alt LIR Der/nv Gram/IV TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn N Trm Sg 4SgPoss
-	"sillimmat" Orth/Alt LIR Der/nv Gram/IV TIP Der/vv Gram/TV NIQ Der/vn N Trm Sg 4SgPoss
-	"sillimmat" Orth/Alt LIR Der/nv Gram/TV TIP Der/vv Gram/Db Gram/Refl NIQ Der/vn N Trm Sg 4SgPoss
-	"sillimmat" Orth/Alt LIR Der/nv Gram/TV TIP Der/vv Gram/Db Gram/TV Gram/Pass NIQ Der/vn N Trm Sg 4SgPoss
-	"sillimmat" Orth/Alt LIR Der/nv Gram/TV TIP Der/vv Gram/Db Gram/TV NIQ Der/vn N Trm Sg 4SgPoss
+	"sillimmat" Orth/Alt LIR Der/nv Gram/IV TIP Der/vv Orth/Alt Gram/TV Gram/Pass NIQ Der/vn N Trm Sg 4SgPoss
+	"sillimmat" Orth/Alt LIR Der/nv Gram/IV TIP Der/vv Orth/Alt Gram/TV Gram/Refl NIQ Der/vn N Trm Sg 4SgPoss
+	"sillimmat" Orth/Alt LIR Der/nv Gram/IV TIP Der/vv Orth/Alt Gram/TV NIQ Der/vn N Trm Sg 4SgPoss
+	"sillimmat" Orth/Alt LIR Der/nv Gram/TV TIP Der/vv Gram/Db Orth/Alt Gram/Refl NIQ Der/vn N Trm Sg 4SgPoss
+	"sillimmat" Orth/Alt LIR Der/nv Gram/TV TIP Der/vv Gram/Db Orth/Alt Gram/TV Gram/Pass NIQ Der/vn N Trm Sg 4SgPoss
+	"sillimmat" Orth/Alt LIR Der/nv Gram/TV TIP Der/vv Gram/Db Orth/Alt Gram/TV NIQ Der/vn N Trm Sg 4SgPoss
 "<ukiumut>"
 	"ukioq" N Trm Sg
 "<1000>"
+	"1000" N Abs Sg
 	"1000" Num Abs Sg
 "<kroninik>"
 	"krone" OLang/DAN N Ins Pl
 	"krone" OLang/DAN Sem/Unit N Ins Pl
 "<akiliisarpoq>"
+	"aki" LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV V Ind 3Sg
 	"aki" LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl V Ind 3Sg
 	"aki" LIR Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV V Ind 3Sg
+	"akik" LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV V Ind 3Sg
 	"akik" LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl V Ind 3Sg
 	"akik" LIR Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV V Ind 3Sg
+	"akiler" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV V Ind 3Sg
 	"akiler" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl V Ind 3Sg
 	"akiler" Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV V Ind 3Sg
 "<.>"
@@ -29468,6 +29506,7 @@
 	"umiarsuaq" N Rel Sg
 	"umik" ARSUK Der/nn N Rel Sg
 "<5000>"
+	"5000" N Abs Sg
 	"5000" Num Abs Sg
 "<tons>"
 	"ton" OLang/DAN Sem/Unit Orth/Alt N Abs Pl
@@ -32189,7 +32228,6 @@
 	"USA" Sem/Geo Prop Lok Sg Orth/Alt
 "<allisarsimavoq>"
 	"alli" Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV V Ind 3Sg
-	"alli" Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Orth/Arch Gram/IV V Ind 3Sg
 	"alli" Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV V Ind 3Sg
 	"alli" Gram/IV TAR Der/vv SIMA Der/vv Gram/IV V Ind 3Sg
 	"alli" Gram/TV TAR Der/vv SIMA Der/vv Gram/Refl Gram/IV V Ind 3Sg
@@ -32375,22 +32413,22 @@
 "<Danmarkiliarnini>"
 	"Danmark" Sem/Geo iProp LIAR Der/nv Gram/IV NIQ Der/vn N Abs Pl 4SgPoss
 	"Danmark" Sem/Geo iProp LIAR Der/nv Gram/IV NIQ Der/vn N Abs Sg 4SgPoss
-"<Islandikkoornermik>" Hyb/1-2
-	"Island" Sem/Geo Prop Via Sg
-	"Island" Sem/Hum Prop Via Sg
-"<UR>" Hyb/2-2
-	"UR" Gram/IV NIQ Der/vn N Ins Sg
-	"UR" Gram/IV NIQ Der/vn N Rel Pl 4PlPoss
-	"UR" Gram/IV NIQ Der/vn N Rel Sg 4PlPoss
-	"UR" Gram/Refl NIQ Der/vn N Ins Sg
-	"UR" Gram/Refl NIQ Der/vn N Rel Pl 4PlPoss
-	"UR" Gram/Refl NIQ Der/vn N Rel Sg 4PlPoss
-	"UR" Gram/TV Gram/Pass NIQ Der/vn N Ins Sg
-	"UR" Gram/TV Gram/Pass NIQ Der/vn N Rel Pl 4PlPoss
-	"UR" Gram/TV Gram/Pass NIQ Der/vn N Rel Sg 4PlPoss
-	"UR" Gram/TV NIQ Der/vn N Ins Sg
-	"UR" Gram/TV NIQ Der/vn N Rel Pl 4PlPoss
-	"UR" Gram/TV NIQ Der/vn N Rel Sg 4PlPoss
+"<Islandikkoornermik>"
+	"Island" Sem/Geo Prop Via Sg Hyb/1-2
+	"Island" Sem/Hum Prop Via Sg Hyb/1-2
+"<UR>"
+	"UR" Gram/IV NIQ Der/vn N Ins Sg Hyb/2-2
+	"UR" Gram/IV NIQ Der/vn N Rel Pl 4PlPoss Hyb/2-2
+	"UR" Gram/IV NIQ Der/vn N Rel Sg 4PlPoss Hyb/2-2
+	"UR" Gram/Refl NIQ Der/vn N Ins Sg Hyb/2-2
+	"UR" Gram/Refl NIQ Der/vn N Rel Pl 4PlPoss Hyb/2-2
+	"UR" Gram/Refl NIQ Der/vn N Rel Sg 4PlPoss Hyb/2-2
+	"UR" Gram/TV Gram/Pass NIQ Der/vn N Ins Sg Hyb/2-2
+	"UR" Gram/TV Gram/Pass NIQ Der/vn N Rel Pl 4PlPoss Hyb/2-2
+	"UR" Gram/TV Gram/Pass NIQ Der/vn N Rel Sg 4PlPoss Hyb/2-2
+	"UR" Gram/TV NIQ Der/vn N Ins Sg Hyb/2-2
+	"UR" Gram/TV NIQ Der/vn N Rel Pl 4PlPoss Hyb/2-2
+	"UR" Gram/TV NIQ Der/vn N Rel Sg 4PlPoss Hyb/2-2
 "<ilavaa>"
 	"ila" Gram/TV V Ind 3Sg 3SgO
 "<.>"
@@ -33903,14 +33941,12 @@
 "<bilitsi>"
 	"billet" OLang/DAN Err/Sub N Abs Sg
 "<50>"
+	"50" N Abs Sg
 	"50" Num Abs Sg
 "<kroneqalissaaq>"
 	"krone" OLang/DAN Err/Sub QAR Der/nv Gram/IV LIR Der/vv SSA Der/vv Gram/IV V Ind 3Sg
-	"krone" OLang/DAN Err/Sub QAR Der/nv Gram/IV LIR Der/vv SSA Der/vv Gram/Refl Gram/IV V Ind 3Sg
 	"krone" OLang/DAN QAR Der/nv Gram/IV LIR Der/vv SSA Der/vv Gram/IV V Ind 3Sg
-	"krone" OLang/DAN QAR Der/nv Gram/IV LIR Der/vv SSA Der/vv Gram/Refl Gram/IV V Ind 3Sg
 	"krone" OLang/DAN Sem/Unit QAR Der/nv Gram/IV LIR Der/vv SSA Der/vv Gram/IV V Ind 3Sg
-	"krone" OLang/DAN Sem/Unit QAR Der/nv Gram/IV LIR Der/vv SSA Der/vv Gram/Refl Gram/IV V Ind 3Sg
 "<.>"
 	"." CLB
 </s>
@@ -34697,6 +34733,7 @@
 "<motoori>"
 	"motoori" N Abs Sg
 "<80>"
+	"80" N Abs Sg
 	"80" Num Abs Sg
 "<hk-nik>"
 	"hestekræfter" N Gram/Abbr Pl Ins
@@ -34831,10 +34868,11 @@
 	"titar" Gram/TV NIQ Der/vn N Abs Sg
 	"titar" Gram/TV NIQ Der/vn N Abs Sg Gram/Comp
 	"titarneq" N Abs Sg
-"<16-imiippoq>" Hyb/1-2
-	"16" Num Lok Sg
-"<ippoq>" Hyb/2-2
-	"IP" Gram/IV V Ind 3Sg
+"<16-imiippoq>"
+	"16" N Lok Sg Hyb/1-2
+	"16" Num Lok Sg Hyb/1-2
+"<ippoq>"
+	"IP" Gram/IV V Ind 3Sg Hyb/2-2
 "<.>"
 	"." CLB
 </s>
@@ -35533,12 +35571,14 @@
 "<Kangerluat>"
 	"kangerluk" N Abs Sg 3PlPoss
 "<40>"
+	"40" N Abs Sg
 	"40" Num Abs Sg
 "<km-inik>"
 	"kilometer" N Gram/Abbr Pl Ins
 "<qinngortussuseqarpoq>"
 	"qinngoq" TU Der/nv Gram/IV SSUSIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"qinngoq" TUR Der/nv Gram/IV SSUSIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
+	"qinngor" Gram/TV TUR Der/vv Gram/Refl SSUSIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"qinngortu" Gram/IV SSUSIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 "<qinnguminilu>"
 	"qinngoq" N Lok Pl 4SgPoss LU
@@ -36435,6 +36475,7 @@
 	"x" N Gram/Abbr
 	"x" N Gram/Abbr Abs Sg
 "<2-mik>"
+	"2" N Ins Sg Orth/Alt
 	"2" Num Ins Sg
 "<taarserpaa>"
 	"taarser" Gram/TV V Ind 3Sg 3SgO
@@ -36622,6 +36663,7 @@
 	"sipaaq" N Abs Sg
 	"sipaar" Gram/IV V Ind Gram/Exclm
 "<4>"
+	"4" N Abs Sg
 	"4" Num Abs Sg
 "<igippaa>"
 	"igip" Gram/TV V Ind 3Sg 3SgO
@@ -37506,13 +37548,16 @@
 	"umiarsuaq" N Abs Sg
 	"umiarsuar" Gram/IV V Ind Gram/Exclm
 "<800>"
+	"800" N Abs Sg
 	"800" Num Abs Sg
 "<tonsinik>"
 	"ton" OLang/DAN Sem/Unit Orth/Alt N Ins Pl
 "<usilersorpoq>"
 	"useq" LIRSUR Der/nv Gram/IV V Ind 3Sg
+	"useq" LIRSUR Der/nv Gram/Refl Gram/IV V Ind 3Sg
 	"useq" LIRSUR Der/nv Gram/TV Gram/Refl V Ind 3Sg
 	"usi" LIRSUR Der/nv Gram/IV V Ind 3Sg
+	"usi" LIRSUR Der/nv Gram/Refl Gram/IV V Ind 3Sg
 	"usi" LIRSUR Der/nv Gram/TV Gram/Refl V Ind 3Sg
 	"usiler" Gram/TV TUR Der/vv Gram/TV Gram/Refl V Ind 3Sg
 	"usilersor" Gram/IV V Ind 3Sg
@@ -37784,6 +37829,7 @@
 "<5-imi>"
 	"5" Err/Sub Num Abs Pl 3PlPoss MI
 	"5" Err/Sub Num Abs Pl 3SgPoss MI
+	"5" N Lok Sg
 	"5" Num Abs Sg MI
 	"5" Num Lok Sg
 "<najugaqarpoq>"
@@ -38304,6 +38350,7 @@
 	"inap" Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Rel Pl
 	"inap" Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV V Par 3Pl
 "<kaffisortarfianni>"
+	"kaffe" OLang/DAN TUR Der/nv Gram/IV TAR Der/vv Gram/IV VIK Der/vn N Lok Sg 3PlPoss
 	"kaffi" TUR Der/nv Gram/IV TAR Der/vv Gram/IV VIK Der/vn N Lok Sg 3PlPoss
 "<kalaallit>"
 	"kalaaleq" N Abs Pl
@@ -39426,6 +39473,7 @@
 	"tigutsit" SSAQ Der/nn N Aeq Sg 4SgPoss
 	"tigutsit" SSAQ Der/nn N Lok Sg Aeq
 "<1000>"
+	"1000" N Abs Sg
 	"1000" Num Abs Sg
 "<kronit>"
 	"krone" OLang/DAN N Abs Pl
