@@ -46,7 +46,6 @@
 	"iluanaar" NIAR V Cont 4Sg @i-ADVL>
 "<saluttuunissamik>"
 	"salup" TUQ U NIQ SSAQ N Ins Sg @<ADVL
-	"saluttoq" U NIQ SSAQ N Ins Sg @<ADVL
 "<bikiniinnaallunilu>"
 	"bikini" INNAQ U V Cont 4Sg LU @ADVL>
 "<inuppassuit>"
@@ -106,11 +105,13 @@
 "<Sinniisoqarfia>"
 	"Sinniisoqarfik" Prop Abs Sg 3SgPoss @PROP>
 "<Qinersinermullu>"
-	"Qiner" HTR NIQ Prop Trm Sg LU @i-ADVL>
+	"Qiner" HTR NIQ Prop Trm Sg LU @ADVL>
 "<Siulersuisut>"
 	"Siulersor" HTR TUQ Prop Abs Pl @<APPOS
 "<ataatsimoortumik>"
-	"ataatsimoor" TUQ N Ins Sg @MIK-OBJ>
+	"ataaseq" Num Trm Sg @i-ADVL>
+"<UR>"
+	"UR" TUQ N Ins Sg @MIK-OBJ>
 "<aaqqeeqatigineqartariaqarput>"
 	"aaqqip" HTR QATE GE NIQAR TARIAQAR V Ind 3Pl @PRED
 "<,>"
@@ -201,17 +202,15 @@
 "<pigisaalu>"
 	"pi" GE TAQ N Abs Pl 3SgPoss LU @SUBJ>
 "<nalillit>"
-	"nalilik" N Rel Pl @POSS>
+	"nalilik" N Rel Pl @i-POSS>
 "<USA-miittut>"
 	"USA" Prop Lok Sg @i-ADVL>
 "<ittut>"
-	"IP" TUQ N Rel Pl @N<
-"<Tuluit>"
-	"Tuluk" Prop Rel Pl @i-POSS>
-"<Nunaanniittullu>"
-	"Nunaat" Prop Lok Sg 3PlPoss @i-ADVL>
+	"IP" TUQ N Rel Pl @i-POSS>
+"<Tuluit Nunaanniittullu>"
+	"Tuluit Nunaat" Prop Lok Sg 3PlPoss @i-ADVL>
 "<ittullu>"
-	"IP" TUQ N Abs Pl LU @SUBJ>
+	"IP" TUQ N Abs Pl LU @N<
 "<atorneqarsinnaajunnaartinneqarput>"
 	"ator" NIQAR SINNAA GUNNAIR TIP NIQAR V Ind 3Pl @PRED
 "<.>"
@@ -234,14 +233,12 @@
 "<ittut>"
 	"IP" TUQ N Abs Pl @N<
 "<kinguaattooqqasut>"
-	"kinguaap" TUQ U QQA TUQ N Abs Pl @N<
-	"kinguaattoor" QQA TUQ N Abs Pl @N<
+	"kinguaap" TUUR QQA TUQ N Abs Pl @N<
 "<tamaasa>"
 	"tamaq" N Akk 3Pl @N<
 "<apuuffissaannut>"
 	"apuup" VIK SSAQ N Trm Sg 3PlPoss @ADVL>
 "<sapaatip-akunnerata>"
-	"sapaatip-akunneq" N Rel Sg 3PlPoss @POSS>
 	"sapaatip-akunneq" N Rel Sg 3SgPoss @POSS>
 "<naanerani>"
 	"naa" NIQ N Lok Sg 3SgPoss @ADVL>
@@ -263,10 +260,8 @@
 </s>
 
 <s06YqDyEuCWPr9yLLjUYzoXz5KYs-0>
-"<Tuluit>"
-	"Tuluk" Prop Rel Sg 2SgPoss @POSS>
-"<Nunaanni>"
-	"Nunaat" Prop Lok Sg 3PlPoss @ADVL>
+"<Tuluit Nunaanni>"
+	"Tuluit Nunaat" Prop Lok Sg 3PlPoss @ADVL>
 "<aappariit>"
 	"aappaq" GIIT N Rel Pl @POSS>
 "<pissiariilluunniit>"
@@ -281,7 +276,7 @@
 	"ilaqutaq" GIIP TUQ N Abs Pl @N<
 "<ataatsimuulernissaminnik>"
 	"ataaseq" U LIR NIQ SSAQ N Ins Sg 4PlPoss @i->N
-	"ataatsimoor" LIR NIQ SSAQ N Ins Sg 4PlPoss @i->N
+	"ataaseq" UR LIR NIQ SSAQ N Ins Sg 4PlPoss @i->N
 "<qinnuteqartarput>"
 	"qinnut" QAR TAR V Ind 3Pl @PRED
 "<.>"
@@ -2969,7 +2964,6 @@
 "<ataatsimiititaliaa>"
 	"ataatsimiititaliaq" N Abs Sg 3SgPoss @SUBJ>
 "<tusarniaassasoq>"
-	"tusarner" JAAR SSA V Par 3Sg @i-CL-<CIT
 	"tusarniaa" SSA V Par 3Sg @i-CL-<CIT
 "<immikkut>"
 	"immikkut" Adv @i-ADVL>
@@ -4781,7 +4775,9 @@
 "<suliaqartut>"
 	"suliaqartoq" N Rel Pl @N<
 "<ataatsimoorsimalernissaat>"
-	"ataatsimoor" SIMA LIR NIQ SSAQ N Abs Sg 3PlPoss @OBJ>
+	"ataaseq" Num Trm Sg @i-ADVL>
+"<UR>"
+	"UR" SIMA LIR NIQ SSAQ N Abs Sg 3PlPoss @OBJ>
 "<AUU>"
 	"AUU" N Abs @PROP>
 "<Arcticip>"
