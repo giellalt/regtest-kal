@@ -229,7 +229,7 @@
 "<900-t>"
 	"900" Num Rel Pl @i-POSS>
 "<missaanniittut>"
-	"misse" N Lok Sg 3PlPoss @i-ADVL>
+	"misse" N Lok Sg 3PlPoss %NumPossessum @i-ADVL>
 "<ittut>"
 	"IP" TUQ N Abs Pl @N<
 "<kinguaattooqqasut>"
@@ -263,15 +263,15 @@
 "<Tuluit Nunaanni>"
 	"Tuluit Nunaat" Prop Lok Sg 3PlPoss @ADVL>
 "<aappariit>"
-	"aappaq" GIIT N Rel Pl @POSS>
+	"aappaq" GIIT N Rel Pl
 "<pissiariilluunniit>"
-	"pissiaq" GIIT N Rel Pl LUUNNIIT @POSS>
+	"pissiaq" GIIT N Rel Pl LUUNNIIT
 "<40.000-it>"
-	"40.000" Num Abs Pl @SUBJ>
+	"40.000" Num Rel Pl @i-POSS>
 "<missaanniittut>"
-	"misse" N Lok Sg 3PlPoss @i-ADVL>
+	"misse" N Lok Sg 3PlPoss %NumPossessum @i-ADVL>
 "<ittut>"
-	"IP" TUQ N Abs Pl @N<
+	"IP" TUQ N Abs Pl @SUBJ>
 "<ilaqutariittut>"
 	"ilaqutaq" GIIP TUQ N Abs Pl @N<
 "<ataatsimuulernissaminnik>"
@@ -349,9 +349,9 @@
 "<ukiumut>"
 	"ukioq" N Trm Sg @>N
 "<24.000-it>"
-	"24.000" Num Abs Pl @N<
+	"24.000" Num Rel Pl @N<
 "<missaanniittartut>"
-	"misse" N Lok Sg 3PlPoss @ADVL>
+	"misse" N Lok Sg 3PlPoss %NumPossessum @ADVL>
 "<ittartut>"
 	"IP" TAR V Par 3Pl @PRED2
 "<tamarmik>"
@@ -513,7 +513,7 @@
 "<katillugit>"
 	"katip" V Cont 3PlO %ContHypotagme @CL-CIT>
 "<filmeeqqat>"
-	"film" ARAQ N Rel Pl @POSS>
+	"film" ARAQ N Rel Pl
 "<filmillu>"
 	"film" N Abs Pl LU @SUBJ>
 "<sivisunerumaat>"
@@ -521,7 +521,7 @@
 "<qulit>"
 	"qulit" Num Rel Pl @i-POSS>
 "<missaanniittut>"
-	"misse" N Lok Sg 3PlPoss @i-ADVL>
+	"misse" N Lok Sg 3PlPoss %NumPossessum @i-ADVL>
 "<ittut>"
 	"IP" TUQ N Abs Pl @N<
 "<takutinneqarput>"
@@ -646,7 +646,7 @@
 "<145-it>"
 	"145" Num Rel Pl @POSS>
 "<missaanni>"
-	"misse" N Lok Sg 3PlPoss @ADVL>
+	"misse" N Lok Sg 3PlPoss %NumPossessum @ADVL>
 "<ukioq>"
 	"ukioq" N Abs Sg %ContHypotagme @OBJ>
 "<naallugu>"
@@ -658,13 +658,13 @@
 "<aalisartullu>"
 	"aalisar" TUQ N Rel Pl LU @POSS>
 "<300-it>"
-	"300" Num Abs Pl @SUBJ>
+	"300" Num Rel Pl @N<
 "<320-illu>"
-	"320" Num Abs Pl LU @SUBJ>
+	"320" Num Rel Pl LU @i-POSS>
 "<akornanniittut>"
 	"akunneq" N Lok Sg 3PlPoss @i-ADVL>
 "<ittut>"
-	"IP" TUQ N Abs Pl @N<
+	"IP" TUQ N Abs Pl @SUBJ>
 "<tunisisassasut>"
 	"tuni" HTR TAR SSA V Par 3Pl @PRED2
 "<,>"
@@ -689,11 +689,11 @@
 "<marluk>"
 	"marluk" Num Abs Pl @N<
 "<Risømi>"
-	"Risø" Prop Lok Sg @ADVL>
+	"Risø" Prop Lok Sg @i-ADVL>
 "<ilisimatusarfimmeersut>"
-	"ilisimatusar" VIK N Abl Sg @ADVL>
+	"ilisimatusar" VIK N Abl Sg @i-ADVL>
 "<IR>"
-	"IR" V Par 3Pl @PRED2
+	"IR" TUQ N Abs Pl @N<
 "<taamanikkut>"
 	"taamanikkut" Pali @ADVL>
 "<sermip>"
@@ -717,7 +717,7 @@
 "<->"
 	"-" PUNCT DIRTALESTART
 "<Meeqqat>"
-	"meeraq" N Abs Pl @NIQ_SUBJ>
+	"meeraq" N Abs Pl @SUBJ>
 "<taakkua>"
 	"una" Pron Abs Pl @N<
 "<sisamat>"
@@ -772,20 +772,20 @@
 "<Kalaallit>"
 	"kalaaleq" N Rel Pl @POSS>
 "<meerartaat>"
-	"meeraq" TAAQ N Rel Pl @N<
+	"meeraq" TAQ N Abs Sg 3PlPoss @SUBJ>
 "<1.000-it>"
-	"1.000" Num Abs Pl @SUBJ>
+	"1.000" Num Rel Pl @POSS>
 "<missaanniittut>"
-	"misse" N Lok Sg 3PlPoss @ADVL>
+	"misse" N Lok Sg 3PlPoss %NumPossessum @i-ADVL>
 "<ittut>"
-	"IP" V Par 3Pl @PRED2
+	"IP" TUQ N Abs Pl @SUBJ>
 "<inooqatigiinnikkut>"
 	"inooqatigiip" NIQ N Via Sg @i-ADVL>
 	"inuk" U QATIGIIP NIQ N Via Sg @i-ADVL>
 "<ilungersunartunik>"
 	"ilungersunar" TUQ N Ins Pl @i->N
 "<ajornartorsiuteqartut>"
-	"ajor" NAR TUQ SIUT QAR V Par 3Pl @PRED2
+	"ajor" NAR TUQ SIUT QAR V Par 3Pl @CL-CIT>
 "<,>"
 	"," CLB
 "<immikkut>"
@@ -3253,7 +3253,7 @@
 "<2000-it>"
 	"2000" Num Rel Pl @i-POSS>
 "<missaanniinnerat>"
-	"misse" N Lok Sg 3PlPoss @i-ADVL>
+	"misse" N Lok Sg 3PlPoss %NumPossessum @i-ADVL>
 "<innerat>"
 	"IP" NIQ N Abs Sg 3PlPoss @SUBJ>
 "<eqqoriaarujussuarluni>"
@@ -7905,7 +7905,7 @@
 "<ukiup>"
 	"ukioq" N Rel Sg @POSS>
 "<siulianut>"
-	"siu" LIK N Trm Sg 3SgPoss @ADVL>
+	"siuleq" N Trm Sg 3SgPoss @ADVL>
 "<sanilliullugu>"
 	"sanilliup" V Cont 3SgO @<ADVL
 "<,>"

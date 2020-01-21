@@ -236,7 +236,7 @@
 "<900-t>"
 	"900" Num Rel Pl
 "<missaanniittut>"
-	"misse" N Lok Sg 3PlPoss Hyb/1-2
+	"misse" N Lok Sg 3PlPoss Hyb/1-2 %NumPossessum
 "<ittut>"
 	"IP" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2
 "<kinguaattooqqasut>"
@@ -272,11 +272,12 @@
 "<aappariit>"
 	"aappaq" GIIT Der/nn N Rel Pl
 "<pissiariilluunniit>"
+	"pissiaq" GIIT Der/nn N Abs Pl LUUNNIIT
 	"pissiaq" GIIT Der/nn N Rel Pl LUUNNIIT
 "<40.000-it>"
-	"40.000" Num Abs Pl
+	"40.000" Err/Sub Num Rel Pl
 "<missaanniittut>"
-	"misse" N Lok Sg 3PlPoss Hyb/1-2
+	"misse" N Lok Sg 3PlPoss Hyb/1-2 %NumPossessum
 "<ittut>"
 	"IP" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2
 "<ilaqutariittut>"
@@ -358,9 +359,9 @@
 "<ukiumut>"
 	"ukioq" N Trm Sg
 "<24.000-it>"
-	"24.000" Num Abs Pl
+	"24.000" Err/Sub Num Rel Pl
 "<missaanniittartut>"
-	"misse" N Lok Sg 3PlPoss Hyb/1-2
+	"misse" N Lok Sg 3PlPoss Hyb/1-2 %NumPossessum
 "<ittartut>"
 	"IP" Gram/IV TAR Der/vv Gram/IV V Par 3Pl Hyb/2-2
 "<tamarmik>"
@@ -532,7 +533,7 @@
 "<qulit>"
 	"qulit" Num Rel Pl
 "<missaanniittut>"
-	"misse" N Lok Sg 3PlPoss Hyb/1-2
+	"misse" N Lok Sg 3PlPoss Hyb/1-2 %NumPossessum
 "<ittut>"
 	"IP" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2
 "<takutinneqarput>"
@@ -658,9 +659,9 @@
 "<->"
 	"-" PUNCT DIRTALESTART
 "<145-it>"
-	"145" Orth/Append Num Rel Pl
+	"145" Err/Sub Num Rel Pl
 "<missaanni>"
-	"misse" N Lok Sg 3PlPoss
+	"misse" N Lok Sg 3PlPoss %NumPossessum
 "<ukioq>"
 	"ukioq" N Abs Sg %ContHypotagme
 "<naallugu>"
@@ -672,9 +673,9 @@
 "<aalisartullu>"
 	"aalisar" Gram/IV TUQ Der/vn N Rel Pl LU
 "<300-it>"
-	"300" Err/Sub Num Abs Pl
+	"300" Err/Sub Num Rel Pl
 "<320-illu>"
-	"320" Err/Sub Num Abs Pl LU
+	"320" Err/Sub Num Rel Pl LU
 "<akornanniittut>"
 	"akunneq" N Lok Sg 3PlPoss Hyb/1-2
 "<ittut>"
@@ -701,13 +702,17 @@
 <s0DlYc4KpcxikfezwahiLkGPchOA-0>
 "<Fysikerit>"
 	"fysiker" OLang/DAN N Abs Pl
+	"fysiker" OLang/DAN N Rel Pl
 "<marluk>"
 	"marluk" Num Abs Pl
+	"marluk" Num Rel Pl
 "<Risømi>"
 	"Risø" Sem/Geo Prop Lok Sg
 "<ilisimatusarfimmeersut>"
 	"ilisimatusar" Gram/IV VIK Der/vn N Abl Sg Hyb/1-2
 "<IR>"
+	"IR" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2
+	"IR" Gram/IV TUQ Der/vn N Rel Pl Hyb/2-2
 	"IR" Gram/IV V Par 3Pl Hyb/2-2
 "<taamanikkut>"
 	"taamanikkut" Pali
@@ -788,15 +793,15 @@
 
 <s0FNZdtm35GxFb3dKjxofSxxyYe4-0>
 "<Kalaallit>"
-	"kalaaleq" N Abs Pl
 	"kalaaleq" N Rel Pl
 "<meerartaat>"
-	"meeraq" TAAQ Der/nn N Rel Pl
+	"meeraq" TAQ Der/nn N Abs Sg 3PlPoss
 "<1.000-it>"
-	"1.000" Num Abs Pl
+	"1.000" Err/Sub Num Rel Pl
 "<missaanniittut>"
-	"misse" N Lok Sg 3PlPoss Hyb/1-2
+	"misse" N Lok Sg 3PlPoss Hyb/1-2 %NumPossessum
 "<ittut>"
+	"IP" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2
 	"IP" Gram/IV V Par 3Pl Hyb/2-2
 "<inooqatigiinnikkut>"
 	"inooqatigiip" Gram/IV NIQ Der/vn N Via Sg
@@ -804,6 +809,7 @@
 "<ilungersunartunik>"
 	"ilungersunar" Gram/IV TUQ Der/vn N Ins Pl
 "<ajornartorsiuteqartut>"
+	"ajor" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn QAR Der/nv Gram/IV TUQ Der/vn N Abs Pl
 	"ajor" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn QAR Der/nv Gram/IV V Par 3Pl
 "<,>"
 	"," CLB
@@ -1806,7 +1812,6 @@
 "<60>"
 	"60" Num Abs Sg
 "<kroneqarpoq>"
-	"krone" OLang/DAN QAR Der/nv Gram/IV V Ind 3Sg
 	"krone" OLang/DAN Sem/Unit QAR Der/nv Gram/IV V Ind 3Sg
 "<.>"
 	"." CLB
@@ -3312,9 +3317,9 @@
 	"apor" Gram/IV RAR Der/vv TAR Der/vv Gram/IV TUQ Der/vn N Rel Pl
 	"apor" Gram/IV RAR Der/vv TAR Der/vv Gram/IV V Par 3Pl
 "<2000-it>"
-	"2000" Orth/Append Num Rel Pl
+	"2000" Err/Sub Num Rel Pl
 "<missaanniinnerat>"
-	"misse" N Lok Sg 3PlPoss Hyb/1-2
+	"misse" N Lok Sg 3PlPoss Hyb/1-2 %NumPossessum
 "<innerat>"
 	"IP" Gram/IV NIQ Der/vn N Abs Sg 3PlPoss Hyb/2-2
 "<eqqoriaarujussuarluni>"
@@ -3584,7 +3589,6 @@
 "<400.000>"
 	"400.000" Num Abs Sg %ContHypotagme
 "<kronilerlugu>"
-	"krone" OLang/DAN LIR Der/nv Gram/TV V Cont 3SgO %ContHypotagme
 	"krone" OLang/DAN Sem/Unit LIR Der/nv Gram/TV V Cont 3SgO %ContHypotagme
 "<tunineqarpoq>"
 	"tuni" Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg
@@ -7255,7 +7259,6 @@
 "<5>"
 	"5" Num Abs Sg
 "<gradiugaluartoq>"
-	"grad" OLang/DAN OLang/DAN U Der/nv Gram/IV GALUAR Der/vv Gram/IV V Par 3Sg
 	"grad" OLang/DAN Sem/Unit U Der/nv Gram/IV GALUAR Der/vv Gram/IV V Par 3Sg
 "<.>"
 	"." CLB
@@ -8045,7 +8048,7 @@
 "<ukiup>"
 	"ukioq" N Rel Sg
 "<siulianut>"
-	"siu" LIK Der/nn N Trm Sg 3SgPoss
+	"siuleq" N Trm Sg 3SgPoss
 "<sanilliullugu>"
 	"sanilliup" Gram/TV V Cont 3SgO
 "<,>"
@@ -9949,7 +9952,6 @@
 	"8.000" Num Abs Sg
 "<kroniupput>"
 	"krone" OLang/DAN Sem/Unit U Der/nv Gram/IV V Ind 3Pl
-	"krone" OLang/DAN U Der/nv Gram/IV V Ind 3Pl
 "<.>"
 	"." CLB
 </s>
