@@ -579,7 +579,7 @@
 "<->"
 	"-" PUNCT DIRTALESTART
 "<Ikiuutilaaqqaarlungami>"
-	"ikiuup" LAAR QQAAR V Cont 1Sg MI @CL-CIT>
+	"ikiuup" LAAR QQAAR V Cont 1Sg MI @PRED
 "<,>"
 	"," CLB DIRTALESLUT
 "<Emilie>"
@@ -2980,27 +2980,6 @@
 	"." CLB
 </s>
 
-<s9Gg4tsun1AiH4wG0uxSdPxafxGc-0>
-"<USA>"
-	"USA" Prop Abs Sg @OBJ>
-"<,>"
-	"," CLB
-"<EU>"
-	"EU" Prop Abs Sg @OBJ>
-"<NATO-lu>"
-	"NATO" N LU
-"<Rusland>"
-	"Rusland" Prop Abs Sg @SUBJ>
-"<isumaqatigiissummik>"
-	"isuma" QATE GIIP UTE N Ins Sg @MIK-OBJ>
-"<atorunnaarsitseqqunagu>"
-	"ator" GUNNAIR TIP HTR QQU V ContNeg 3SgO @ADVL>
-"<kajumissaarsimavaat>"
-	"kajumissaar" SIMA V Ind 3Pl 3SgO @PRED
-"<.>"
-	"." CLB
-</s>
-
 <s9H7v6k9pyBYgwx4xdTdG9ghEdmA-0>
 "<nasalerpoq>"
 	"nasaq" LIR V Ind 3Sg @PRED
@@ -4977,9 +4956,9 @@
 "<ingilluni>"
 	"ingip" V Cont 4Sg @ADVL>
 "<taliatigut>"
-	"taleq" N Via Sg 3SgPoss @<ADVL
+	"taleq" N Via Sg 3SgPoss @ADVL>
 "<tigullugulu>"
-	"tigu" V Cont 3SgO LU @CL-CIT>
+	"tigu" V Cont 3SgO LU @PRED
 "<oqarpoq>"
 	"oqar" V Ind 3Sg @PRED
 "<.>"
@@ -13259,6 +13238,27 @@
 	"akisu" NIQ N Abs Sg @N<
 "<pisiarivara>"
 	"pisiaq" GE V Ind 1Sg 3SgO @PRED
+"<.>"
+	"." CLB
+</s>
+
+<scB69PfIXhYThTgtoIIxUDOuVmgY-0>
+"<USA-p>"
+	"USA" Prop Rel Sg @SUBJ>
+"<,>"
+	"," CLB
+"<EU-p>"
+	"EU" Prop Rel Sg @SUBJ>
+"<NATO-llu>"
+	"NATO" Prop Rel Sg LU @SUBJ>
+"<Rusland>"
+	"Rusland" Prop Abs Sg @OBJ>
+"<isumaqatigiissummik>"
+	"isuma" QATE GIIP UTE N Ins Sg @MIK-OBJ>
+"<atorunnaarsitseqqunagu>"
+	"ator" GUNNAIR TIP HTR QQU V ContNeg 3SgO @ADVL>
+"<kajumissaarsimavaat>"
+	"kajumissaar" SIMA V Ind 3Pl 3SgO @PRED
 "<.>"
 	"." CLB
 </s>
@@ -22805,7 +22805,7 @@
 "<ataaseq>"
 	"ataaseq" Num Abs Sg %ContHypotagme @OBJ>
 "<sioqqullugu>"
-	"sioqqup" V Cont 3SgO %ContHypotagme @CL-CIT>
+	"sioqqup" V Cont 3SgO %ContHypotagme @ADVL>
 "<isernavianngillat>"
 	"iser" NAVIAR NNGIT V Ind 3Pl @PRED
 "<,>"
