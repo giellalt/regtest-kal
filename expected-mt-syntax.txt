@@ -79,7 +79,7 @@
 "<->"
 	"-" PUNCT DIRTALESTART
 "<Arnat>"
-	"arnaq" N Abs Pl @SUBJ>
+	"arnaq" N Abs Pl %AmbiguøsN @SUBJ>
 "<kisimik>"
 	"kisi" N Gram/Cong Nom 4Pl @N<
 "<sulisinnaanngillat>"
@@ -90,9 +90,9 @@
 
 <s0JSLsTq2vpRLbpkRwxXLN0drPWY-0>
 "<Ukiut>"
-	"ukioq" N Abs Pl @SUBJ>
+	"ukioq" N Abs Pl %AmbiguøsN @SUBJ>
 "<marluk>"
-	"marluk" Num Abs Pl @N<
+	"marluk" Num Abs Pl %AmbiguøsN @N<
 "<qaangiummata>"
 	"qaangiup" Gram/IV V Cau 3Pl @CAU
 "<fru>"
@@ -237,7 +237,7 @@
 "<Ilaanni>"
 	"ilaanni" Adv @CL-ADVL>
 "<nuliami>"
-	"nuliaq" N Rel Sg 4SgPoss @POSS>
+	"nuliaq" N Rel Sg 4SgPoss %AmbiguøsN @POSS>
 "<ilaquttaminut>"
 	"ilaqutaq" N Trm Sg 4SgPoss @MIK-OBJ>
 "<pulaarluni>"
@@ -251,7 +251,7 @@
 "<ikinngutitoqqami>"
 	"ikinngut" TUQAQ Der/nn N Rel Pl 4SgPoss @POSS>
 "<ilaat>"
-	"ila" N Abs Sg 3PlPoss @OBJ>
+	"ila" N Abs Sg 3PlPoss %AmbiguøsN @OBJ>
 "<Joorsi>"
 	"Joorsi" Sem/Mask Sem/Hum Prop Abs Sg @<APPOS
 "<tikeraarsimavaa>"
@@ -326,7 +326,7 @@
 "<eqqaminiinngitsut>"
 	"eqqaq" N Lok Sg 4SgPoss Hyb/1-2 @i-ADVL>
 "<inngitsut>"
-	"IP" Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 @N<
+	"IP" Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 %AmbiguøsN @N<
 "<eqqarsaatigilersarpai>"
 	"eqqarsar" UTE Der/vn GE Der/nv Gram/TV LIR Der/vv TAR Der/vv Orth/Arch Gram/TV V Ind 3Sg 3PlO @PRED
 "<.>"
@@ -391,7 +391,7 @@
 
 <s1CbMevnoyGUvYWkcV4xtzqnr38Y-0>
 "<Sisimiut>"
-	"Sisimiut" Sem/Geo Prop Rel Pl @POSS>
+	"Sisimiut" Sem/Geo Prop Rel Pl %AmbiguøsN @POSS>
 "<eqqaat>"
 	"eqqaq" N Abs Sg 3PlPoss @SUBJ>
 "<piniarfigippoq>"
@@ -421,7 +421,7 @@
 "<ilinniartitsisup>"
 	"ilinniar" Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Rel Sg @SUBJ>
 "<meeqqat>"
-	"meeraq" N Abs Pl @OBJ>
+	"meeraq" N Abs Pl %AmbiguøsN @OBJ>
 "<filmimik>"
 	"film" OLang/DAN N Ins Sg @MIK-OBJ>
 "<takutitsiffigai>"
@@ -766,7 +766,7 @@
 "<,>"
 	"," CLB
 "<illit>"
-	"illit" Gram/Pers Pron Abs 2Sg @OBJ>
+	"illit" Gram/Pers Pron Abs 2Sg %AmbiguøsN @OBJ>
 "<Eriup>"
 	"Erik" Sem/Mask Sem/Hum Prop Rel Sg @SUBJ>
 "<anaanagaatit>"
@@ -774,7 +774,7 @@
 "<,>"
 	"," CLB
 "<uanga>"
-	"uanga" Gram/Pers Pron Rel 1Sg @SUBJ>
+	"uanga" Gram/Pers Pron Rel 1Sg %AmbiguøsN @SUBJ>
 "<aanagaakkit>"
 	"aana" GE Der/nv Gram/TV V Ind 1Sg 2SgO @PRED
 "<,>"
@@ -808,7 +808,7 @@
 "<800>"
 	"800" Num Abs Sg @>N
 "<tonsit>"
-	"ton" OLang/DAN Sem/Unit Orth/Alt N Abs Pl %ContHypotagme @OBJ>
+	"ton" OLang/DAN Sem/Unit Orth/Alt N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<tikillugit>"
 	"tikip" Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<usisinnaavoq>"
@@ -931,7 +931,7 @@
 "<Tamanna>"
 	"manna" Prefix/TA Gram/Dem Pron Abs Sg @OBJ>
 "<nuannequtit>"
-	"nuanner" UTE Der/vn N Rel Pl @SUBJ>
+	"nuanner" UTE Der/vn N Rel Pl %AmbiguøsN @SUBJ>
 "<ilagaat>"
 	"ila" GE Der/nv Gram/TV V Ind 3Pl 3SgO @PRED
 "<.>"
@@ -944,7 +944,7 @@
 "<Massa>"
 	"ma" Gram/Dem Interj @INTERJ
 "<ilaat>"
-	"ila" N Abs Pl 3PlPoss @SUBJ>
+	"ila" N Abs Pl 3PlPoss %AmbiguøsN @SUBJ>
 "<kunissuutikujuttut>"
 	"kunissuup" Gram/Reci Gram/IV KUJUP Der/vv Gram/IV V Par 3Pl @PRED
 "<.>"
@@ -981,9 +981,9 @@
 
 <s2xexKJSabKw0T5A23lYXsvDjENM-0>
 "<Piniartut>"
-	"piniar" Gram/IV TUQ Der/vn N Rel Pl @SUBJ>
+	"piniar" Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @SUBJ>
 "<nammineq>"
-	"nammineq" Gram/Coref Pron Rel 4Pl Orth/Alt @N<
+	"nammineq" Gram/Coref Pron Rel 4Pl Orth/Alt %AmbiguøsN @N<
 "<ilagisatik>"
 	"ila" GE Der/nv Gram/TV TAQ Der/vn N Abs Pl 4PlPoss @OBJ>
 "<taakannga>"
@@ -1015,9 +1015,9 @@
 "<silataani>"
 	"silate" N Lok Sg 3SgPoss @i-ADVL>
 "<majuartarfiit>"
-	"majuar" Gram/IV TAR Der/vv Gram/IV VIK Der/vn N Abs Pl @OBJ>
+	"majuar" Gram/IV TAR Der/vv Gram/IV VIK Der/vn N Abs Pl %AmbiguøsN @OBJ>
 "<quasartut>"
-	"quasartoq" N Abs Pl %ContHypotagme @N<
+	"quasartoq" N Abs Pl %ContHypotagme %AmbiguøsN @N<
 "<malugiitsoorlugit>"
 	"malugiitsoor" Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<quaalluni>"
@@ -1031,7 +1031,7 @@
 "<tussimavoq>"
 	"tup" Gram/IV SIMA Der/vv Gram/IV V Ind 3Sg @PRED
 "<niumi>"
-	"niu" N Rel Sg 4SgPoss @POSS>
+	"niu" N Rel Sg 4SgPoss %AmbiguøsN @POSS>
 "<illua>"
 	"illu" N Abs Sg 3SgPoss %ContHypotagme @OBJ>
 "<nanerlugu>"
@@ -1050,7 +1050,7 @@
 "<atuagaq>"
 	"atuar" Gram/TV TAQ Der/vn N Abs Sg @SUBJ>
 "<nammineq>"
-	"nammineq" Gram/Coref Pron Abs 4Sg @SUBJ>
+	"nammineq" Gram/Coref Pron Abs 4Sg %AmbiguøsN @SUBJ>
 "<saqqummersinneqarpoq>"
 	"saqqummer" Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg @PRED
 "<.>"
@@ -1070,7 +1070,7 @@
 "<Sunaaffa>"
 	"sunaaffa" Adv @CL-ADVL>
 "<aqissit>"
-	"aqisseq" N Abs Pl @OBJ>
+	"aqisseq" N Abs Pl %AmbiguøsN @OBJ>
 "<naammattoorsimagaluarai>"
 	"naammap" Gram/IV TUUR Der/vv SIMA Der/vv Gram/IV GALUAQ Der/vn GE Der/nv Gram/TV V Ind 3Sg 3PlO @PRED
 	"naammattoor" Gram/IV SIMA Der/vv Gram/IV GALUAQ Der/vn GE Der/nv Gram/TV V Ind 3Sg 3PlO @PRED
@@ -1162,7 +1162,7 @@
 "<Tassami>"
 	"tassa" Adv MI @CL-ADVL>
 "<qaleralittassat>"
-	"qaleralik" TAQ Der/nn SSAQ Der/nn N Abs Pl @SUBJ>
+	"qaleralik" TAQ Der/nn SSAQ Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<upernassarli>"
 	"upernassaq" N Abs Sg LI @SUBJ>
 "<eqqartorneqalerput>"
@@ -1176,7 +1176,7 @@
 "<arfernani>"
 	"arfineq" Num Gram/Ord Lok Sg 3PlPoss Orth/Alt @ADVL>
 "<inassuteqaatit>"
-	"inassuteqaat" N Abs Pl @SUBJ>
+	"inassuteqaat" N Abs Pl %AmbiguøsN @SUBJ>
 "<siullerpaamik>"
 	"siu" LLIQ Der/nn PAAQ Der/nn N Ins Sg @ADVL>
 "<naalakkersuisunut>"
@@ -1407,15 +1407,15 @@
 "<,>"
 	"," CLB
 "<atuaqatigiit>"
-	"atuar" Gram/HV QATE Der/vn GIIT Der/nn N Abs Pl @SUBJ>
+	"atuar" Gram/HV QATE Der/vn GIIT Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<arlallit>"
-	"arlaq" LIK Der/nn N Abs Pl @N<
+	"arlaq" LIK Der/nn N Abs Pl %AmbiguøsN @N<
 "<nangaajunnaarlutik>"
 	"nangaa" Gram/IV GUNNAIR Der/vv Gram/IV V Cont 4Pl @ADVL>
 "<aamma>"
 	"aamma" Adv @ADVL>
 "<namminneq>"
-	"nammineq" Gram/Coref Pron Rel 4Pl
+	"nammineq" Gram/Coref Pron Rel 4Pl %AmbiguøsN
 "<qanoq>"
 	"qanoq" Adv @i-ADVL>
 "<pineqartarnerminnik>"
@@ -1495,7 +1495,7 @@
 "<allanut>"
 	"alla" N Trm Pl @N<
 "<unammisartut>"
-	"unammisartoq" N Rel Pl @POSS>
+	"unammisartoq" N Rel Pl %AmbiguøsN @POSS>
 "<sungiusaasuata>"
 	"sungiusaasoq" N Rel Sg 3PlPoss @SUBJ>
 "<soorunami>"
@@ -1512,8 +1512,8 @@
 "<->"
 	"-" PUNCT DIRTALESTART
 "<Nammineq>"
-	"nammineq" Gram/Coref Pron Abs 1Sg @SUBJ>
-	"nammineq" Gram/Coref Pron Abs 4Sg @SUBJ>
+	"nammineq" Gram/Coref Pron Abs 1Sg %AmbiguøsN @SUBJ>
+	"nammineq" Gram/Coref Pron Abs 4Sg %AmbiguøsN @SUBJ>
 "<soorlu>"
 	"soorlu" Pali @ADVL>
 "<oqareersunga>"
@@ -1535,9 +1535,9 @@
 "<tamaat>"
 	"tamaq" N Gram/Cong Akk 3Sg @N<
 "<inuit>"
-	"inuk" N Abs Pl @OBJ>
+	"inuk" N Abs Pl %AmbiguøsN @OBJ>
 "<ilumoorsaartut>"
-	"ilumoorsaar" Gram/IV TUQ Der/vn N Abs Pl @N<
+	"ilumoorsaar" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<susassaqarfigisimaqaakka>"
 	"susaq" SSAQ Der/nn QAR Der/nv Gram/IV VIK Der/vn GE Der/nv Gram/TV SIMA Der/vv QE Der/vv Gram/TV V Ind 1Sg 3PlO @PRED
 "<.>"
@@ -1548,19 +1548,19 @@
 "<Nalunngilai>"
 	"nalu" Gram/TV NNGIT Der/vv Gram/TV V Ind 3Sg 3PlO @PRED
 "<kikkut>"
-	"kina" Gram/Int Pron Abs Pl @SUBJ>
+	"kina" Gram/Int Pron Abs Pl %AmbiguøsN @SUBJ>
 "<katittut>"
 	"katip" Gram/IV V Par 3Pl @CL-<CIT
 "<,>"
 	"," CLB
 "<kikkut>"
-	"kina" Gram/Int Pron Abs Pl @SUBJ>
+	"kina" Gram/Int Pron Abs Pl %AmbiguøsN @SUBJ>
 "<avittut>"
 	"avip" Gram/IV V Par 3Pl @CL-<CIT
 "<,>"
 	"," CLB
 "<kikkut>"
-	"kina" Gram/Int Pron Abs Pl @SUBJ>
+	"kina" Gram/Int Pron Abs Pl %AmbiguøsN @SUBJ>
 "<asaqatigiilersut>"
 	"asa" Gram/TV QATIGIIP Der/vv Gram/Reci LIR Der/vv Gram/IV V Par 3Pl @CL-<CIT
 "<assigisaallu>"
@@ -1571,11 +1571,11 @@
 
 <s44eLECXypTBDD5NYEkrLuyLjyIo-0>
 "<illut>"
-	"illu" N Abs Pl @SUBJ>
+	"illu" N Abs Pl %AmbiguøsN @SUBJ>
 "<Noorlerniittut>"
 	"Noorliit" Sem/Geo Prop Lok Pl Hyb/1-2 @i-ADVL>
 "<ittut>"
-	"IP" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 @N<
+	"IP" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 %AmbiguøsN @N<
 "<ersipput>"
 	"ersi" Gram/IV V Ind 3Pl @PRED
 	"ersip" Gram/IV V Ind 3Pl @PRED
@@ -1670,9 +1670,9 @@
 "<ittunik>"
 	"ip" Gram/IV TUQ Der/vn N Ins Pl @N<
 "<nunat>"
-	"nuna" N Abs Pl @i-N<
+	"nuna" N Abs Pl %AmbiguøsN @i-N<
 "<ataasiakkaat>"
-	"ataasiakkaaq" N Abs Pl @N<
+	"ataasiakkaaq" N Abs Pl %AmbiguøsN @N<
 "<tigusisinnaanersut>"
 	"tigu" Gram/TV HTR Der/vv Gram/IV SINNAA Der/vv NIR Der/vv Gram/IV V Par 3Pl @CL-<CIT
 "<.>"
@@ -1681,7 +1681,7 @@
 
 <s4YUWgMAQxe4Qe7LUD19FoS58KpY-0>
 "<Naalakkersuisut>"
-	"Naalakkersuisut" Sem/Hum Prop Rel Pl @POSS>
+	"Naalakkersuisut" Sem/Hum Prop Rel Pl %AmbiguøsN @POSS>
 "<siulittaasuata>"
 	"siulittar" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Rel Sg 3PlPoss @SUBJ>
 "<ualeq>"
@@ -1707,13 +1707,13 @@
 "<annertusartariaqartoq>"
 	"annertusar" Gram/TV TARIAQAR Der/vv Gram/IV V Par 3Sg @CL-<CIT
 "<ilisimatuullu>"
-	"ilisima" Gram/TV Gram/Refl Gram/IV TUUQ Der/vn Gram/Conj-encl N Abs Pl LU @OBJ>
+	"ilisima" Gram/TV Gram/Refl Gram/IV TUUQ Der/vn Gram/Conj-encl N Abs Pl LU %AmbiguøsN @OBJ>
 "<nunani>"
 	"nuna" N Lok Pl @i-ADVL>
 "<tamaneersut>"
 	"tamaq" N Gram/Cong Abl Pl Hyb/1-2 @i-ADVL>
 "<IR>"
-	"IR" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 @N<
+	"IR" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 %AmbiguøsN @N<
 "<nunatsinnit>"
 	"nuna" N Abl Sg 1PlPoss @i-ADVL>
 "<suleqatigerusunnerarpai>"
@@ -1823,9 +1823,9 @@
 "<umiarsuarnut>"
 	"umiarsuaq" N Trm Pl @i-ADVL>
 "<talittarfiit>"
-	"talittarfik" N Abs Pl @SUBJ>
+	"talittarfik" N Abs Pl %AmbiguøsN @SUBJ>
 "<piukkunneqarsinnaasut>"
-	"piukkup" Gram/TV NIQAR Der/vv Gram/IV SINNAA Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"piukkup" Gram/TV NIQAR Der/vv Gram/IV SINNAA Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<tassaasut>"
 	"tassa" U Der/nv Gram/IV V Par 3Pl @FOC>N
 "<talittarfik>"
@@ -1850,7 +1850,7 @@
 
 <s4zf5Np04hxsTMdk60V7gGjC5sxc-0>
 "<Allat>"
-	"alla" N Rel Pl @SUBJ>
+	"alla" N Rel Pl %AmbiguøsN @SUBJ>
 "<susassarinngilaat>"
 	"susaq" SSAQ Der/nn GE Der/nv Gram/TV NNGIT Der/vv Gram/TV V Ind 3Pl 3SgO @PRED
 "<!>"
@@ -1898,7 +1898,7 @@
 
 <s5DZzxQ0eOxku3Mgbx9QatLOqaCg-0>
 "<Umiartortut>"
-	"umiartor" Gram/IV TUQ Der/vn N Rel Pl @POSS>
+	"umiartor" Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<unnuiffissaqarnissaat>"
 	"unnuiffik" SSAQ Der/nn QAR Der/nv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss %ContHypotagme @OBJ>
 	"unnup" Gram/IV VIP Der/vv Gram/IV VIK Der/vn SSAQ Der/nn QAR Der/nv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss %ContHypotagme @OBJ>
@@ -1917,7 +1917,7 @@
 "<,>"
 	"," CLB
 "<umiartortullu>"
-	"umiartor" Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"umiartor" Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<assigiinngitsutigut>"
 	"assi" GIIP Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Via Pl @ADVL>
 "<isumagineqartalerput>"
@@ -1972,7 +1972,7 @@
 "<ilumoorsinnaammat>"
 	"ilumoor" Gram/IV SINNAA Der/vv Gram/IV V Cau 3Sg @CAU
 "<kalaallit>"
-	"kalaaleq" N Abs Pl @SUBJ>
+	"kalaaleq" N Abs Pl %AmbiguøsN @SUBJ>
 "<iluarluanngitsuummata>"
 	"iluar" Gram/IV LLUAR Der/vv NNGIT Der/vv Gram/IV TUQ Der/vn U Der/nv Gram/IV V Cau 3Pl @CAU
 "<ilagitinnaveersaartarai>"
@@ -2005,13 +2005,13 @@
 
 <s5NJTindlq8vj8bZcO0wUkxxpRgQ-0>
 "<Inuppassuit>"
-	"inuk" PAK Der/nn SUAQ Der/nn N Abs Pl @SUBJ>
+	"inuk" PAK Der/nn SUAQ Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<uniaaluttut>"
 	"uniaaluk" N Aeq Sg @>V
 "<ulapitsigalutik>"
 	"ulapip" Gram/IV TIGE Der/vv Gram/IV V Cont 4Pl @i-ADVL>
 "<ingerlarsortut>"
-	"ingerlarsor" Gram/IV TUQ Der/vn N Rel Pl @POSS>
+	"ingerlarsor" Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<tunuanni>"
 	"tunu" N Lok Sg 3PlPoss @ADVL>
 "<takulerpara>"
@@ -2039,7 +2039,7 @@
 "<naalagiarneq>"
 	"naalagiarneq" N Abs Sg @OBJ>
 "<ilinniagaqartut>"
-	"ilinniar" Gram/TV TAQ Der/vn QAR Der/nv Gram/IV TUQ Der/vn N Rel Pl @SUBJ>
+	"ilinniar" Gram/TV TAQ Der/vn QAR Der/nv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @SUBJ>
 "<ingerlatissavaat>"
 	"ingerlap" Gram/TV SSA Der/vv Gram/TV V Ind 3Pl 3SgO @PRED
 "<.>"
@@ -2138,7 +2138,7 @@
 	"nakorsaq" N Rel Sg @SUBJ>
 "<sivisoorujussuartut>"
 	"sivisooq" RUJUK Der/nn SUAQ Der/nn N Aeq Sg @ADVL>
-	"sivisooq" U Der/nv Gram/IV RUJUP Der/vv SUAR Der/vv Gram/IV TUQ Der/vn N Abs Pl @OBJ>
+	"sivisooq" U Der/nv Gram/IV RUJUP Der/vv SUAR Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @OBJ>
 "<isigaa>"
 	"isige" Gram/TV V Ind 3Sg 3SgO @PRED
 "<,>"
@@ -2230,7 +2230,7 @@
 
 <s68FGIB1jx9nEYJU2Rr0xbwCRH4M-0>
 "<tiivit>"
-	"tyve" OLang/DAN Err/Sub Num Abs Pl %ContHypotagme @OBJ>
+	"tyve" OLang/DAN Err/Sub Num Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<sinnilaarlugit>"
 	"sinner" Gram/TV LAAR Der/vv Gram/TV V Cont 3PlO %ContHypotagme @PRED
 "<.>"
@@ -2274,7 +2274,7 @@
 
 <s6AUdyxCYh0fkmU8yVskWMNmvG5Q-0>
 "<meeqqat>"
-	"meeraq" N Abs Pl @OBJ>
+	"meeraq" N Abs Pl %AmbiguøsN @OBJ>
 "<arsamik>"
 	"arsaq" N Ins Sg @ADVL>
 "<tunivakka>"
@@ -2312,7 +2312,7 @@
 "<Piitaq>"
 	"Piitaq" Sem/Mask Sem/Hum Prop Abs Sg @OBJ>
 "<atuaqatigiit>"
-	"atuar" Gram/HV QATE Der/vn GIIT Der/nn N Rel Pl @SUBJ>
+	"atuar" Gram/HV QATE Der/vn GIIT Der/nn N Rel Pl %AmbiguøsN @SUBJ>
 "<silatoortaraat>"
 	"silatooq" TAQ Der/nn GE Der/nv Gram/TV V Ind 3Pl 3SgO @PRED
 "<.>"
@@ -2474,11 +2474,11 @@
 "<matumani>"
 	"manna" Gram/Dem Pron Lok Sg @i-ADVL>
 "<pineqartut>"
-	"pi" NIQAR Der/vv Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
+	"pi" NIQAR Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<tassaaginnaanngimmata>"
 	"tassa" U Der/nv Gram/IV INNAQ Der/vn U Der/nv Gram/IV NNGIT Der/vv Gram/IV V Cau 3Pl @CL-<CIT
 "<pisortat>"
-	"pi" Gram/IV TUQ Der/vn TAQ Der/nn N Rel Pl @POSS>
+	"pi" Gram/IV TUQ Der/vn TAQ Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<allaffissuini>"
 	"allap" Gram/IV VIK Der/vn SUAQ Der/nn N Lok Pl 3PlPoss @i-ADVL>
 "<imaluunniit>"
@@ -2486,11 +2486,11 @@
 "<ingerlatseqatigiiffinni>"
 	"ingerlap" HTR Der/vv Gram/IV QATIGIIP Der/vv Gram/Reci Gram/IV VIK Der/vn N Lok Pl @i-ADVL>
 "<pisortat>"
-	"pi" Gram/IV TUQ Der/vn TAQ Der/nn N Rel Pl @POSS>
+	"pi" Gram/IV TUQ Der/vn TAQ Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<pigisaanni>"
 	"pi" GE Der/nv Gram/TV TAQ Der/vn N Lok Pl 3PlPoss @N<
 "<sulisut>"
-	"suli" Gram/IV TUQ Der/vn N Abs Pl @i-N<
+	"suli" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @i-N<
 "<.>"
 	"." CLB
 </s>
@@ -2697,8 +2697,8 @@
 "<,>"
 	"," CLB
 "<nammineq>"
-	"nammineq" Gram/Coref Pron Abs 4Sg @OBJ>
-	"nammineq" Gram/Coref Pron Rel 4Sg @SUBJ>
+	"nammineq" Gram/Coref Pron Abs 4Sg %AmbiguøsN @OBJ>
+	"nammineq" Gram/Coref Pron Rel 4Sg %AmbiguøsN @SUBJ>
 "<nuannersunik>"
 	"nuanner" Gram/IV TUQ Der/vn N Ins Pl @i-OBJ-DOTR>
 "<takutitaqarfigisimanerlugu>"
@@ -2731,7 +2731,7 @@
 "<Nyvejip>"
 	"Nyvej" Sem/Geo Prop Rel Sg @POSS>
 "<Qingartallu>"
-	"Qingartaq" Orth/Copy Gram/Conj-encl Prop Rel Pl LU Orth/Copy @POSS>
+	"Qingartaq" Orth/Copy Gram/Conj-encl Prop Rel Pl LU %AmbiguøsN Orth/Copy @POSS>
 "<paarlaffianni>"
 	"paarlaffik" N Lok Sg 3PlPoss @ADVL>
 "<inigisaqarpoq>"
@@ -2899,7 +2899,7 @@
 "<immaqa>"
 	"immaqa" Adv @CL-ADVL>
 "<illit>"
-	"illit" Gram/Pers Pron Abs 2Sg @SUBJ>
+	"illit" Gram/Pers Pron Abs 2Sg %AmbiguøsN @SUBJ>
 "<pujortuleeraqarputit>"
 	"pujortuleeraq" QAR Der/nv Gram/IV V Ind 2Sg @PRED
 	"pujortulik" ARAQ Der/nn QAR Der/nv Gram/IV V Ind 2Sg @PRED
@@ -2955,7 +2955,7 @@
 "<naalagaaffimmi>"
 	"naalagaaffik" N Lok Sg @i-ADVL>
 "<pissutsit>"
-	"pi" SSUSIQ Der/vn N Abs Pl %ContHypotagme @OBJ>
+	"pi" SSUSIQ Der/vn N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<pillugit>"
 	"pi" Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<cand. scient. pol-itut>"
@@ -3027,7 +3027,7 @@
 
 <s9RA82xyq0ErQJPHr1vJWieqQEUo-0>
 "<Saqqummersitassat>"
-	"saqqummer" Gram/IV TIP Der/vv Gram/TV TAQ Der/vn SSAQ Der/nn N Rel Pl @POSS>
+	"saqqummer" Gram/IV TIP Der/vv Gram/TV TAQ Der/vn SSAQ Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<ammarneqarnerannut>"
 	"ammar" Gram/TV NIQAR Der/vv Gram/IV NIQ Der/vn N Trm Sg 3PlPoss @ADVL>
 "<atatillugu>"
@@ -3157,7 +3157,7 @@
 "<Suli>"
 	"suli" Adv @ADVL>
 "<pulaartut>"
-	"pulaar" Gram/IV TUQ Der/vn N Abs Pl %ContHypotagme @OBJ>
+	"pulaar" Gram/IV TUQ Der/vn N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<isersimatillugit>"
 	"iser" Gram/IV SIMA Der/vv TIP Der/vv Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 	"iser" Gram/TV SIMA Der/vv TIP Der/vv Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
@@ -3255,31 +3255,31 @@
 "<Taamaalilluni>"
 	"taamaali" Gram/IV Sem/Temporal V Cont 4Sg @PRED2
 "<inuppassuit>"
-	"inuk" PAK Der/nn SUAQ Der/nn N Abs Pl @OBJ>
+	"inuk" PAK Der/nn SUAQ Der/nn N Abs Pl %AmbiguøsN @OBJ>
 "<nalulluinnakkani>"
 	"nalu" Gram/TV LLUINNAR Der/vv Gram/TV TAQ Der/vn N Abs Pl 4SgPoss @N<
 "<,>"
 	"," CLB
 "<kunngikkormiut>"
-	"kunngi" KKUT Der/nn MIU Der/nn N Abs Pl @N<
+	"kunngi" KKUT Der/nn MIU Der/nn N Abs Pl %AmbiguøsN @N<
 "<,>"
 	"," CLB
 "<isiginnaartitsisartut>"
-	"isiginnaar" Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"isiginnaar" Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<,>"
 	"," CLB
 "<naalakkersuisut>"
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<,>"
 	"," CLB
 "<kikkulluunniit>"
-	"kina" LUUNNIIT Gram/Indef Gram/Adv-encl Pron Abs Pl
+	"kina" LUUNNIIT Gram/Indef Gram/Adv-encl Pron Abs Pl %AmbiguøsN
 "<atuagassiani>"
 	"atuagassiaq" N Lok Pl @i-ADVL>
 "<taamaattuni>"
 	"taama" IP Der/nv Gram/IV TUQ Der/vn N Lok Pl @N<
 "<allaaserineqartartut>"
-	"allap" Gram/IV USIQ Der/vn GE Der/nv Gram/TV NIQAR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"allap" Gram/IV USIQ Der/vn GE Der/nv Gram/TV NIQAR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<ilikkartorujussuuai>"
 	"ilikkar" Gram/TV TURUJUSSUU Der/vv Gram/TV V Ind 3Sg 3PlO @PRED
 "<.>"
@@ -3299,7 +3299,7 @@
 
 <s9oMhEcnvhFYc5yYuqxLqdUsvxh4-0>
 "<kristumiut>"
-	"kristumiu" N Abs Pl @SUBJ>
+	"kristumiu" N Abs Pl %AmbiguøsN @SUBJ>
 "<nunap>"
 	"nuna" N Rel Sg @POSS>
 "<inuinit>"
@@ -3599,7 +3599,7 @@
 "<qinersinissami>"
 	"qiner" Gram/TV HTR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Lok Sg @ADVL>
 "<Ilulissat>"
-	"Ilulissat" Sem/Geo Prop Abs Pl @PROP>
+	"Ilulissat" Sem/Geo Prop Abs Pl %AmbiguøsN @PROP>
 "<kommuneani>"
 	"kommune" OLang/DAN Err/Sub N Lok Sg 3SgPoss @ADVL>
 "<borgmesteri>"
@@ -3684,7 +3684,7 @@
 "<atisakka>"
 	"ati" Gram/TV TAQ Der/vn N Abs Pl 1SgPoss @HNOUN
 "<kusanarnerit>"
-	"kusanar" Gram/IV NIQ Der/vn N Abs Pl @N<
+	"kusanar" Gram/IV NIQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<.>"
 	"." CLB
 </s>
@@ -3700,7 +3700,7 @@
 
 <sB2f7WXTiQeOsjkILVxycfec69vE-0>
 "<illillu>"
-	"illit" Gram/Pers Gram/Conj-encl Pron Rel 2Sg LU
+	"illit" Gram/Pers Gram/Conj-encl Pron Rel 2Sg LU %AmbiguøsN
 "<qilaliarfimmi>"
 	"qilaliarfik" N Lok Sg @ADVL>
 "<pilluarit>"
@@ -3718,7 +3718,7 @@
 "<qangattarnerannit>"
 	"qangattar" Gram/IV NIQ Der/vn N Abl Sg 3PlPoss
 "<ujaqqat>"
-	"ujarak" N Abs Pl @SUBJ>
+	"ujarak" N Abs Pl %AmbiguøsN @SUBJ>
 "<tammikalasannguarsi>"
 	"tammikala" Gram/IV TAR Der/vv Gram/IV NNGUARSI Interj @PRED
 "<.>"
@@ -3758,10 +3758,10 @@
 
 <sB80OhfGiVNWELpoj1bb8n2pLtik-0>
 "<Apeqqutit>"
-	"apeqqut" N Abs Pl @SUBJ>
+	"apeqqut" N Abs Pl %AmbiguøsN @SUBJ>
 "<imaannaanngitsut>"
-	"imaannaa" Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
-	"imaq" INNAQ Der/nn U Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"imaannaa" Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
+	"imaq" INNAQ Der/nn U Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<akissutisiniarneqarput>"
 	"aki" Gram/IV UTE Der/vn SI Der/nv Gram/IV NIAR Der/vv Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Pl @PRED
 "<oqallisigineqarlutillu>"
@@ -3870,9 +3870,9 @@
 "<”>"
 	"”" PUNCT RIGHT
 "<Oqaluttuat>"
-	"Oqaluttuaq" Orth/Copy Prop Abs Pl Orth/Copy @i-N<
+	"Oqaluttuaq" Orth/Copy Prop Abs Pl %AmbiguøsN Orth/Copy @i-N<
 "<ilumoortut>"
-	"ilumoor" Gram/IV TUQ Der/vn N Abs Pl @N<
+	"ilumoor" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<”>"
 	"”" PUNCT RIGHT
 "<.>"
@@ -4087,7 +4087,7 @@
 "<Tamannali>"
 	"manna" Prefix/TA Gram/Dem Gram/Conj-encl Pron Abs Sg LI @OBJ>
 "<uanga>"
-	"uanga" Gram/Pers Pron Rel 1Sg @SUBJ>
+	"uanga" Gram/Pers Pron Rel 1Sg %AmbiguøsN @SUBJ>
 "<pisuussutiginngilara>"
 	"pisuussutige" Gram/TV NNGIT Der/vv Gram/TV V Ind 1Sg 3SgO @PRED
 "<.>"
@@ -4116,7 +4116,7 @@
 "<2000>"
 	"2000" Num Abs Sg @>N
 "<kronit>"
-	"krone" OLang/DAN Sem/Unit N Abs Pl %ContHypotagme @OBJ>
+	"krone" OLang/DAN Sem/Unit N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<sinnerlugit>"
 	"sinner" Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<iluanaarutaavoq>"
@@ -4139,7 +4139,7 @@
 "<romani>"
 	"roman" OLang/DAN N Abs Sg @SUBJ>
 "<kakkersakkat>"
-	"kakkersar" Gram/TV TAQ Der/vn N Abs Pl @SUBJ>
+	"kakkersar" Gram/TV TAQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<marluupput>"
 	"marluk" U Der/nv Gram/IV V Ind 3Pl @PRED
 "<.>"
@@ -4159,9 +4159,9 @@
 "<sapaatip-akunneranut>"
 	"sapaatip-akunneq" N Trm Sg 3SgPoss @ADVL>
 "<tiimit>"
-	"time" OLang/DAN Sem/Unit Orth/Alt N Abs Pl @ADVL>
+	"time" OLang/DAN Sem/Unit Orth/Alt N Abs Pl %AmbiguøsN @ADVL>
 "<40-t>"
-	"40" Num Abs Pl @N<
+	"40" Num Abs Pl %AmbiguøsN @N<
 "<sulisarpoq>"
 	"suli" Gram/IV TAR Der/vv Gram/IV V Ind 3Sg @PRED
 "<.>"
@@ -4303,7 +4303,7 @@
 "<ajorniartarneranut>"
 	"ajor" Gram/IV NIAR Der/vv TAR Der/vv Gram/IV NIQ Der/vn N Trm Sg 3SgPoss @ADVL>
 "<nammineq>"
-	"nammineq" Gram/Coref Pron Abs 4Sg @>N
+	"nammineq" Gram/Coref Pron Abs 4Sg %AmbiguøsN @>N
 "<kalaallimik>"
 	"kalaaleq" N Ins Sg @i->N
 "<anaanaqarnini>"
@@ -4318,9 +4318,9 @@
 "<Naatsersornialeraangamigit>"
 	"naatsersor" Gram/TV NIAR Der/vv LIR Der/vv Gram/TV V IteCau 4Sg 3PlO @CL-ADVL>
 "<ukiut>"
-	"ukioq" N Abs Pl @SUBJ>
+	"ukioq" N Abs Pl %AmbiguøsN @SUBJ>
 "<pereersimasut>"
-	"pereer" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"pereer" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<eqqarsaataaniilersarput>"
 	"eqqarsar" UTE Der/vn N Lok Sg 3SgPoss Hyb/1-2 @ADVL>
 "<ilersarput>"
@@ -4331,9 +4331,9 @@
 
 <sCXiXHkrhBxnJQVVJZVFIzR617D0-0>
 "<illit>"
-	"illit" Gram/Pers Pron Abs 2Sg @HNOUN
+	"illit" Gram/Pers Pron Abs 2Sg %AmbiguøsN @HNOUN
 "<uangaluunniit>"
-	"uanga" Gram/Pers Gram/Conj-encl Pron Abs 1Sg LUUNNIIT @HNOUN
+	"uanga" Gram/Pers Gram/Conj-encl Pron Abs 1Sg LUUNNIIT %AmbiguøsN @HNOUN
 "<.>"
 	"." CLB
 </s>
@@ -4376,7 +4376,7 @@
 	"Attu" Dial/Egr Sem/Fem Sem/Hum Prop Abs Sg @SUBJ>
 	"Attu" Sem/Geo Prop Abs Sg @SUBJ>
 "<Aasiaat>"
-	"Aasiaat" Sem/Geo Prop Rel Pl @POSS>
+	"Aasiaat" Sem/Geo Prop Rel Pl %AmbiguøsN @POSS>
 "<eqqaanniippoq>"
 	"eqqaq" N Lok Sg 3PlPoss Hyb/1-2 @ADVL>
 "<ippoq>"
@@ -4408,7 +4408,7 @@
 "<,>"
 	"," CLB
 "<partiillu>"
-	"parti" OLang/DAN Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"parti" OLang/DAN Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<piumalleraangamik>"
 	"piumaller" Gram/IV V IteCau 4Pl @CL-ADVL>
 "<aatsaat>"
@@ -4603,7 +4603,7 @@
 "<ilassarsivai>"
 	"ilassarsi" Gram/TV V Ind 3Sg 3PlO @PRED
 "<taakkua>"
-	"una" Prefix/TA Gram/Dem Pron Abs Pl @SUBJ>
+	"una" Prefix/TA Gram/Dem Pron Abs Pl %AmbiguøsN @SUBJ>
 "<spejderiugamik>"
 	"spejder" OLang/DAN U Der/nv Gram/IV V Cau 4Pl @CAU
 "<tupilisarluni>"
@@ -4624,7 +4624,7 @@
 "<Taamaalinerani>"
 	"taamaali" Gram/IV NIQ Der/vn N Lok Sg 3SgPoss @ADVL>
 "<partiit>"
-	"parti" OLang/DAN N Rel Pl @POSS>
+	"parti" OLang/DAN N Rel Pl %AmbiguøsN @POSS>
 "<gangiannut>"
 	"gang" OLang/DAN N Trm Sg 3PlPoss @ADVL>
 "<allamik>"
@@ -4653,11 +4653,11 @@
 "<Christiansen>"
 	"Christiansen" Sem/Hum Prop Abs Sg @SUBJ>
 "<inuillu>"
-	"inuk" VIK Der/nn Gram/Conj-encl N Abs Sg LU @SUBJ>
+	"inuk" VIK Der/nn Gram/Conj-encl N Abs Sg LU %AmbiguøsN @SUBJ>
 "<allat>"
-	"alla" N Abs Pl @SUBJ>
+	"alla" N Abs Pl %AmbiguøsN @SUBJ>
 "<marluk>"
-	"marluk" Num Abs Pl @N<
+	"marluk" Num Abs Pl %AmbiguøsN @N<
 "<Siumup>"
 	"Siumut" Sem/Hum Prop Rel Sg @POSS>
 "<ataatsimiittarfiata>"
@@ -4682,7 +4682,7 @@
 "<,>"
 	"," CLB
 "<meeqqat>"
-	"meeraq" N Rel Pl @POSS>
+	"meeraq" N Rel Pl %AmbiguøsN @POSS>
 "<atuarfiini>"
 	"atuar" Gram/HV VIK Der/vn N Lok Pl 3PlPoss @i-ADVL>
 "<illoqarfinni>"
@@ -4690,7 +4690,7 @@
 "<assigiinngitsuni>"
 	"assi" GIIP Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Lok Pl @N<
 "<atuartut>"
-	"atuar" Gram/HV TUQ Der/vn N Rel Pl @N<
+	"atuar" Gram/HV TUQ Der/vn N Rel Pl %AmbiguøsN @N<
 "<angusarisartagaat>"
 	"angu" Gram/TV TAQ Der/vn GE Der/nv Gram/TV TAR Der/vv TAR Der/vv Gram/TV TAQ Der/vn N Abs Pl 3PlPoss @SUBJ>
 "<qanoq>"
@@ -4760,9 +4760,9 @@
 "<akuliuppoq>"
 	"akuliup" Gram/IV V Ind 3Sg @PRED
 "<suliat>"
-	"suliaq" N Abs Pl
+	"suliaq" N Abs Pl %AmbiguøsN
 "<naammassilersullu>"
-	"naammassi" Gram/IV LIR Der/vv Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"naammassi" Gram/IV LIR Der/vv Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<,>"
 	"," CLB
 "<suliamik>"
@@ -4837,11 +4837,11 @@
 "<Pituffiup>"
 	"Pituffik" Sem/Geo Prop Rel Sg @POSS>
 "<nunat>"
-	"nuna" N Rel Pl @POSS>
+	"nuna" N Rel Pl %AmbiguøsN @POSS>
 "<Issittumi>"
 	"Issittoq" Sem/Geo Prop Lok Sg @i-ADVL>
 "<pissaanilissuit>"
-	"pissaanilissuaq" N Rel Pl @N<
+	"pissaanilissuaq" N Rel Pl %AmbiguøsN @N<
 "<akornanni>"
 	"akunneq" N Lok Sg 3PlPoss @i-ADVL>
 "<anneruniuttoqarnerani>"
@@ -4863,7 +4863,6 @@
 	"sukumip" Gram/TV HTR Der/vv Gram/IV NIRU Der/vv Gram/IV TUQ Der/vn N Ins Sg @i->N
 "<akissuteqannginnera>"
 	"aki" Gram/IV UTE Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV NIQ Der/vn N Abs Sg 3SgPoss @OBJ>
-	"aki" Gram/TV Gram/Refl Gram/IV UTE Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV NIQ Der/vn N Abs Sg 3SgPoss @OBJ>
 "<isornartorsiorpaa>"
 	"isornartorsior" Gram/TV V Ind 3Sg 3SgO @PRED
 "<.>"
@@ -4883,7 +4882,7 @@
 "<Emilie>"
 	"Emilie" Sem/Fem Sem/Hum Prop Abs Sg @SUBJ>
 "<angummi>"
-	"angut" N Rel Sg 4SgPoss @POSS>
+	"angut" N Rel Sg 4SgPoss %AmbiguøsN @POSS>
 "<arnaani>"
 	"arnaq" N Lok Sg 3SgPoss @ADVL>
 "<peroriartorsimavoq>"
@@ -4907,9 +4906,9 @@
 "<Rasmus>"
 	"Rasmus" Sem/Mask Sem/Hum Prop Abs Sg @SUBJ>
 "<atuaqatigiit>"
-	"atuar" Gram/HV QATE Der/vn GIIT Der/nn N Rel Pl @POSS>
+	"atuar" Gram/HV QATE Der/vn GIIT Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<qiimasortaat>"
-	"qiima" Gram/IV TUQ Der/vn TAQ Der/nn N Abs Sg 3PlPoss @<APPOS
+	"qiima" Gram/IV TUQ Der/vn TAQ Der/nn N Abs Sg 3PlPoss %AmbiguøsN @<APPOS
 "<,>"
 	"," CLB
 "<sanianut>"
@@ -4984,7 +4983,7 @@
 
 <sE2Ylr1ylvtwgYl4HIxSW3HnD0d0-0>
 "<Arlaqanngitsut>"
-	"arlaq" QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
+	"arlaq" QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<eqissimallutik>"
 	"eqip" Gram/IV SIMA Der/vv Gram/IV V Cont 4Pl @ADVL>
 "<qitipput>"
@@ -5027,7 +5026,7 @@
 "<titartarpara>"
 	"titartar" Gram/TV V Ind 1Sg 3SgO @PRED
 "<inersimasut>"
-	"iner" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl @SUBJ>
+	"iner" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @SUBJ>
 "<paasiniassammassuk>"
 	"paasi" Gram/TV NIAR Der/vv SSA Der/vv Gram/TV V Cau 3Pl 3SgO @CAU
 "<.>"
@@ -5103,18 +5102,18 @@
 
 <sEU5L8NXojk4qWjcCfpbeeK4qa7k-0>
 "<illinuna>"
-	"illit" Gram/Pers Pron Abs 2Sg UNA @FOC
+	"illit" Gram/Pers Pron Abs 2Sg UNA %AmbiguøsN @FOC
 "<?>"
 	"?" CLB
 </s>
 
 <sEXbkTHDTMNfrwv0ELVxdbZsgMR4-0>
 "<Ileqqutoqqat>"
-	"ileqqoq" TUQAQ Der/nn N Abs Pl %ContHypotagme @OBJ>
+	"ileqqoq" TUQAQ Der/nn N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<naapertorlugit>"
 	"naapertor" Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<Qooqqakkut>"
-	"Qooqqa" Dial/Vgr Sem/Fem Sem/Hum KKUT Der/nn Prop Abs Pl @SUBJ>
+	"Qooqqa" Dial/Vgr Sem/Fem Sem/Hum KKUT Der/nn Prop Abs Pl %AmbiguøsN @SUBJ>
 "<ataataminnik>"
 	"ataata" N Ins Sg 4PlPoss @i-MIK-OBJ>
 "<toqutsisumut>"
@@ -5195,7 +5194,7 @@
 "<allaanngilaq>"
 	"alla" U Der/nv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Sg @PRED
 "<uanga>"
-	"uanga" Gram/Pers Pron Abs 1Sg @SUBJ>
+	"uanga" Gram/Pers Pron Abs 1Sg %AmbiguøsN @SUBJ>
 "<Ninimut>"
 	"Nini" Sem/Fem Sem/Hum Prop Trm Sg @ADVL>
 "<anaanaasunga>"
@@ -5343,7 +5342,7 @@
 "<nalunngisakka>"
 	"nalu" Gram/TV NNGIT Der/vv Gram/TV TAQ Der/vn N Abs Pl 1SgPoss @SUBJ>
 "<arlallit>"
-	"arlaq" LIK Der/nn N Abs Pl @N<
+	"arlaq" LIK Der/nn N Abs Pl %AmbiguøsN @N<
 "<atuipiloornermut>"
 	"ator" Gram/TV HTR Der/vv Gram/IV PILUUR Der/vv Gram/IV NIQ Der/vn N Trm Sg @ADVL>
 "<sangujartuinnavittut>"
@@ -5364,7 +5363,7 @@
 "<,>"
 	"," CLB
 "<nammineq>"
-	"nammineq" Gram/Coref Pron Abs 4Sg @SUBJ>
+	"nammineq" Gram/Coref Pron Abs 4Sg %AmbiguøsN @SUBJ>
 "<maanna>"
 	"maanna" Adv @ADVL>
 "<meerassaqalerami>"
@@ -5385,9 +5384,9 @@
 
 <sFDQTGKndhycg1v05KnWCUGZDO4E-0>
 "<Meeqqat>"
-	"meeraq" N Abs Pl @SUBJ>
+	"meeraq" N Abs Pl %AmbiguøsN @SUBJ>
 "<utoqqaallu>"
-	"utoqqaq" Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"utoqqaq" Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<umiarsuaartuleqaat>"
 	"umiarsuaartor" Gram/IV LIR Der/vv QE Der/vv Gram/IV V Ind 3Pl @PRED
 "<.>"
@@ -5422,13 +5421,13 @@
 "<13>"
 	"13" Num Abs Sg @ADVL>
 "<katersalerisut>"
-	"katersaq" LIRI Der/nv Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
+	"katersaq" LIRI Der/nv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<tamakkerluta>"
 	"tamakker" Gram/IV V Cont 1Pl @N<
 "<,>"
 	"," CLB
 "<studentermedhjælperillu>"
-	"studentermedhjælper" OLang/DAN Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"studentermedhjælper" OLang/DAN Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<,>"
 	"," CLB
 "<naapilerpugut>"
@@ -5470,7 +5469,7 @@
 "<HIV-mik>"
 	"HIV" N Gram/ACR Ins Sg @i-ADVL>
 "<tunillanneqarsimasut>"
-	"tunillap" Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl %ContHypotagme @OBJ>
+	"tunillap" Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<tapersersorumallugit>"
 	"tapersersor" Gram/TV GUMA Der/vv Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<Malene>"
@@ -5483,7 +5482,7 @@
 	"HIV" N Gram/ACR Ins Sg @MIK-OBJ>
 	"HIV" N Gram/ACR Ins Sg @i-ADVL>
 "<tunillanneqarsimasut>"
-	"tunillap" Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl @POSS>
+	"tunillap" Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<orniguffigisinnaasaannik>"
 	"ornigup" Gram/IV VIK Der/vn GE Der/nv Gram/TV SINNAA Der/vv Gram/TV TAQ Der/vn N Ins Sg 3PlPoss @MIK-OBJ>
 "<siorna>"
@@ -5536,7 +5535,7 @@
 "<landsrådip>"
 	"landsråd" OLang/DAN OLang/DAN N Rel Sg @POSS>
 "<nammineq>"
-	"nammineq" Gram/Coref Pron Rel 4Sg @Pron>N
+	"nammineq" Gram/Coref Pron Rel 4Sg %AmbiguøsN @Pron>N
 "<qinikkaminik>"
 	"qiner" Gram/TV TAQ Der/vn N Ins Sg 4SgPoss @i-MIK-OBJ>
 "<siulittaasoqalernermigut>"
@@ -5556,11 +5555,11 @@
 "<–>"
 	"–" PUNCT
 "<inuusuttut>"
-	"inuusup" Gram/IV TUQ Der/vn N Abs Pl @<OBJ
+	"inuusup" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @<OBJ
 "<pingaartumik>"
 	"pingaartumik" Adv @i-ADVL>
 "<ilinniagallit>"
-	"ilinniar" Gram/TV TAQ Der/vn LIK Der/nn N Rel Pl @POSS>
+	"ilinniar" Gram/TV TAQ Der/vn LIK Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<tunuarsimaannarunnaarlutik>"
 	"tunuar" Gram/IV SIMA Der/vv INNAR Der/vv GUNNAIR Der/vv Gram/IV V Cont 4Pl @i-ADVL>
 "<sassartilernerat>"
@@ -5630,9 +5629,9 @@
 "<akunneranut>"
 	"akunneq" N Trm Sg 3SgPoss %TidHypotagme @ADVL>
 "<tiimit>"
-	"time" OLang/DAN Sem/Unit Orth/Alt N Abs Pl @CL-ADVL>
+	"time" OLang/DAN Sem/Unit Orth/Alt N Abs Pl %AmbiguøsN @CL-ADVL>
 "<sisamat>"
-	"sisamat" Num Abs Pl @N<
+	"sisamat" Num Abs Pl %AmbiguøsN @N<
 "<oqaatsinik>"
 	"oqaaseq" N Ins Pl @ADVL>
 "<ilinniartarpoq>"
@@ -5705,7 +5704,7 @@
 
 <sGIFkAMxociLFAQRJU0g144n2PKI-0>
 "<tyskit>"
-	"tyskeq" N Rel Pl @SUBJ>
+	"tyskeq" N Rel Pl %AmbiguøsN @SUBJ>
 "<1940-mi>"
 	"1940" Num Lok Sg @ADVL>
 "<Danmarki>"
@@ -5744,7 +5743,7 @@
 "<ulluinnarni>"
 	"ulloq" INNAQ Der/nn N Lok Pl @ADVL>
 "<biilerpassuit>"
-	"biili" PAK Der/nn SUAQ Der/nn N Rel Pl @POSS>
+	"biili" PAK Der/nn SUAQ Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<sukkaqalutik>"
 	"sukka" Gram/IV QE Der/vv Gram/IV V Cont 4Pl @i-ADVL>
 "<ingerlaffigisagaat>"
@@ -5756,7 +5755,7 @@
 "<unnuaammat>"
 	"unnuaq" U Der/nv Gram/IV V Cau 3Sg @CAU
 "<biilit>"
-	"biili" N Abs Pl @SUBJ>
+	"biili" N Abs Pl %AmbiguøsN @SUBJ>
 "<unerarsimammata>"
 	"unip" Gram/IV RAR Der/vv SIMA Der/vv Gram/IV V Cau 3Pl @CAU
 "<sunnguamik>"
@@ -5769,11 +5768,11 @@
 
 <sGPMREkpni1t295ZnMJJVhtoFAxo-0>
 "<Avataarsualiartartut>"
-	"avataarsualiar" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Rel Pl @POSS>
+	"avataarsualiar" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<USA-meersut>"
 	"USA" N Gram/ACR Abl Sg Hyb/1-2 @i-ADVL>
 "<IR>"
-	"IR" Gram/IV TUQ Der/vn N Rel Pl Hyb/2-2 @<APPOS
+	"IR" Gram/IV TUQ Der/vn N Rel Pl Hyb/2-2 %AmbiguøsN @<APPOS
 "<Qaammammukartinneqarnissaat>"
 	"Qaammat" Orth/Copy Prop Trm Sg Hyb/1-2 Orth/Copy @i-ADVL>
 "<KAR>"
@@ -5875,6 +5874,7 @@
 	"navianartorsiorfik" N Lok Sg 3SgPoss @ADVL>
 "<pappiliamineq>"
 	"pappilia" MINIQ Der/nn N Abs Sg @OBJ>
+	"pappilia" Orth/Alt MINIQ Der/nn N Abs Sg @OBJ>
 "<aqerluusarlu>"
 	"aqerluusaq" Gram/Conj-encl N Abs Sg LU @OBJ>
 "<kaasarfinnit>"
@@ -5919,12 +5919,12 @@
 "<Uumasunik>"
 	"uuma" Gram/IV TUQ Der/vn N Ins Pl @i-MIK-OBJ>
 "<illersuiniaqatigiit>"
-	"illersor" Gram/TV HTR Der/vv Gram/IV NIAQ Der/vn QATE Der/nn GIIT Der/nn N Abs Pl @SUBJ>
-	"illersor" Gram/TV HTR Der/vv Gram/IV NIAR Der/vv Gram/IV QATE Der/vn GIIT Der/nn N Abs Pl @SUBJ>
+	"illersor" Gram/TV HTR Der/vv Gram/IV NIAQ Der/vn QATE Der/nn GIIT Der/nn N Abs Pl %AmbiguøsN @SUBJ>
+	"illersor" Gram/TV HTR Der/vv Gram/IV NIAR Der/vv Gram/IV QATE Der/vn GIIT Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<taakku>"
-	"una" Prefix/TA Gram/Dem Pron Abs Pl @N<
+	"una" Prefix/TA Gram/Dem Pron Abs Pl %AmbiguøsN @N<
 "<marluk>"
-	"marluk" Num Abs Pl @N<
+	"marluk" Num Abs Pl %AmbiguøsN @N<
 "<Japanimiunit>"
 	"Japan" Sem/Geo iProp MIU Der/nn N Abl Pl @i-ADVL>
 "<arfanniummut>"
@@ -5958,7 +5958,7 @@
 "<,>"
 	"," CLB
 "<arfanniutillu>"
-	"arfap" Gram/IV NIUTE Der/vn Gram/Conj-encl N Rel Sg LU @POSS>
+	"arfap" Gram/IV NIUTE Der/vn Gram/Conj-encl N Rel Sg LU %AmbiguøsN @POSS>
 "<ikkivigineqarnissaa>"
 	"ikkeq" VIK Der/nn GE Der/nv Gram/TV NIQAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3SgPoss %ContHypotagme @OBJ>
 	"ikkik" VIK Der/nn GE Der/nv Gram/TV NIQAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3SgPoss %ContHypotagme @OBJ>
@@ -6064,7 +6064,7 @@
 
 <sHOCPXbIAKZO5WUiF7tih9OOYA9A-0>
 "<ullut>"
-	"ulloq" N Abs Pl @SUBJ>
+	"ulloq" N Abs Pl %AmbiguøsN @SUBJ>
 "<2>"
 	"2" Num Abs Sg @N<
 "<qaangiupput>"
@@ -6073,7 +6073,7 @@
 
 <sHSXGH1mTCVSaB9zG9EMTAbOfQNM-0>
 "<Illit>"
-	"illit" Gram/Pers Pron Abs 2Sg @SUBJ>
+	"illit" Gram/Pers Pron Abs 2Sg %AmbiguøsN @SUBJ>
 "<siulliuvutit>"
 	"siulleq" U Der/nv Gram/IV V Ind 2Sg @PRED
 "<.>"
@@ -6157,11 +6157,12 @@
 
 <sI14MMCDcT4RkyZcWv7gVjx581Ac-0>
 "<suut>"
-	"suna" Gram/Int Pron Abs Pl @>N
+	"suna" Gram/Int Pron Abs Pl %AmbiguøsN @>N
 "<tamaasa>"
 	"tamaq" N Gram/Cong Akk 3Pl @OBJ>
 "<ajunngitsunngorteqqikkumavai>"
 	"ajor" Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV QQIP Der/vv GUMA Der/vv Gram/TV V Ind 3Sg 3PlO @PRED
+	"ajor" Gram/TV NNGIT Der/vv Gram/Refl Gram/IV TUQ Der/vn NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV QQIP Der/vv GUMA Der/vv Gram/TV V Ind 3Sg 3PlO @PRED
 "<eqqissiniassagamik>"
 	"eqqissi" Gram/IV NIAR Der/vv SSA Der/vv Gram/IV V Cau 4Pl @CAU
 "<.>"
@@ -6241,7 +6242,7 @@
 "<Ole>"
 	"Ole" Sem/Mask Sem/Hum Prop Abs Sg @OBJ>
 "<tiimit>"
-	"time" OLang/DAN Sem/Unit Orth/Alt N Rel Pl @POSS>
+	"time" OLang/DAN Sem/Unit Orth/Alt N Rel Pl %AmbiguøsN @POSS>
 "<aappaanni>"
 	"aappaq" Num Gram/Ord Lok Sg 3PlPoss @ADVL>
 "<ilinniartitsisorissavarput>"
@@ -6292,7 +6293,7 @@
 "<,>"
 	"," CLB
 "<ilaat>"
-	"ila" N Abs Pl 3PlPoss @SUBJ>
+	"ila" N Abs Pl 3PlPoss %AmbiguøsN @SUBJ>
 "<tamarmik>"
 	"tamaq" N Gram/Cong Nom 4Pl @N<
 "<oqalupput>"
@@ -6322,7 +6323,7 @@
 "<niviarsiaraq>"
 	"niviarsiaraq" N Abs Sg @SUBJ>
 "<nikorfasut>"
-	"nikorfa" Gram/IV TUQ Der/vn N Abs Pl @N<
+	"nikorfa" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 	"nikorfa" Gram/IV V Par 3Pl @PRED
 "<.>"
 	"." CLB
@@ -6330,7 +6331,7 @@
 
 <sIOYswe1Wn1XvUZhwawTqQnne6P0-0>
 "<Pissusilersuutissallu>"
-	"pissut" LIR Der/nv Gram/IV LIR Der/vv Gram/IV TUQ Der/vn UTE Der/nn SSAQ Der/nn Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"pissut" LIR Der/nv Gram/IV LIR Der/vv Gram/IV TUQ Der/vn UTE Der/nn SSAQ Der/nn Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<tamarmik>"
 	"tamaq" N Gram/Cong Nom 4Pl @N<
 "<aaqqimmata>"
@@ -6348,7 +6349,7 @@
 "<,>"
 	"," CLB
 "<anaanagigaluamilu>"
-	"anaana" GE Der/nv Gram/TV GALUAQ Der/vn Gram/Conj-encl N Rel Sg 4SgPoss LU @POSS>
+	"anaana" GE Der/nv Gram/TV GALUAQ Der/vn Gram/Conj-encl N Rel Sg 4SgPoss LU %AmbiguøsN @POSS>
 "<qinngarisaanut>"
 	"qinngarisaq" N Trm Sg 3SgPoss @ADVL>
 "<,>"
@@ -6435,7 +6436,7 @@
 "<pillugu>"
 	"pi" Gram/TV V Cont 3SgO %ContHypotagme @i-ADVL>
 "<Namminersorlutik Oqartussat>"
-	"Namminersorlutik Oqartussat" Sem/Hum Prop Rel Pl @POSS>
+	"Namminersorlutik Oqartussat" Sem/Hum Prop Rel Pl %AmbiguøsN @POSS>
 "<nalunaarutaat>"
 	"nalunaar" Gram/IV UTE Der/vn N Abs Sg 3PlPoss @OBJ>
 "<nr.>"
@@ -6462,7 +6463,7 @@
 "<Nunatsinni>"
 	"Nuna" Prop Sem/Geo Lok Sg 1PlPoss @i-ADVL>N
 "<timersoqatigiiffiit>"
-	"timersoqatigiiffik" N Rel Pl @POSS>
+	"timersoqatigiiffik" N Rel Pl %AmbiguøsN @POSS>
 "<kattuffianni>"
 	"kattuffik" N Lok Sg 3PlPoss @i-ADVL>
 "<siulittaasup>"
@@ -6520,9 +6521,9 @@
 
 <sJ3xdxYkYqVlXtkhxikTkyRtRkDg-0>
 "<Nukappissat>"
-	"nukappiaq" N Rel Pl @POSS>
+	"nukappiaq" N Rel Pl %AmbiguøsN @POSS>
 "<ilaat>"
-	"ila" N Abs Sg 3PlPoss @SUBJ>
+	"ila" N Abs Sg 3PlPoss %AmbiguøsN @SUBJ>
 "<torlulaarpoq>"
 	"torlulaar" Gram/IV V Ind 3Sg @PRED
 "<.>"
@@ -6543,7 +6544,7 @@
 "<Rasmus>"
 	"Rasmus" Sem/Mask Sem/Hum Prop Abs Sg @SUBJ>
 "<Emiliekkut>"
-	"Emilie" Sem/Fem Sem/Hum KKUT Der/nn Prop Abs Pl @SUBJ>
+	"Emilie" Sem/Fem Sem/Hum KKUT Der/nn Prop Abs Pl %AmbiguøsN @SUBJ>
 "<anilermata>"
 	"ani" Gram/IV LIR Der/vv Gram/IV V Cau 3Pl @CAU
 "<torlulaarpoq>"
@@ -6604,7 +6605,7 @@
 "<kuisimmat>"
 	"kuisip" Gram/IV V Cau 3Sg @CAU
 "<naalagiat>"
-	"naalagiaq" N Abs Pl @SUBJ>
+	"naalagiaq" N Abs Pl %AmbiguøsN @SUBJ>
 "<aasiit>"
 	"aasiit" Pali @ADVL>
 "<taakkuupput>"
@@ -6700,7 +6701,7 @@
 
 <sJbYpL056sy85fkEkwzoygmhQMWY-0>
 "<Kommunillu>"
-	"kommune" OLang/DAN Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"kommune" OLang/DAN Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<sapaatip>"
 	"sapaat" N Rel Sg %TidHypotagme @POSS>
 "<akunneranut>"
@@ -6762,7 +6763,7 @@
 "<,>"
 	"," CLB
 "<sorsugassat>"
-	"sorsup" Gram/TV TAQ Der/vn SSAQ Der/nn N Rel Pl @SUBJ>
+	"sorsup" Gram/TV TAQ Der/vn SSAQ Der/nn N Rel Pl %AmbiguøsN @SUBJ>
 "<ilagigaat>"
 	"ila" GE Der/nv Gram/TV V Par 3Pl 3SgO @CL-<CIT
 "<atuakkiornerup>"
@@ -6775,13 +6776,13 @@
 	"." CLB
 
 "<Naalakkersuisut>"
-	"Naalakkersuisut" Sem/Hum Prop Rel Pl @SUBJ>
+	"Naalakkersuisut" Sem/Hum Prop Rel Pl %AmbiguøsN @SUBJ>
 "<soorlu>"
 	"soorlu" Pali @ADVL>
 "<Atuakkiorfimmut>"
 	"Atuakkior" Gram/IV VIK Der/vn Orth/Copy Prop Trm Sg Orth/Copy @i-ADVL>
 "<ajornartorsiutit>"
-	"ajor" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn N Abs Pl @OBJ>
+	"ajor" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn N Abs Pl %AmbiguøsN @OBJ>
 "<iliuuseqarfigisariaqaraat>"
 	"ilior" Gram/IV USIQ Der/vn QAR Der/nv Gram/IV VIK Der/vn GE Der/nv Gram/TV TARIAQAR Der/vv Gram/TV V Par 3Pl 3PlO @PRED
 "<.>"
@@ -6824,7 +6825,7 @@
 
 <sJztLY710C6rT6vfUDYbE61UCHOU-0>
 "<tiivit>"
-	"tyve" OLang/DAN Err/Sub Num Rel Pl @POSS>
+	"tyve" OLang/DAN Err/Sub Num Rel Pl %AmbiguøsN @POSS>
 "<missaanni>"
 	"misse" N Lok Sg 3PlPoss %NumPossessum @ADVL>
 "<takkupput>"
@@ -6848,9 +6849,9 @@
 "<Aamma>"
 	"aamma" Adv @i-ADVL>
 "<takornariartitsisarnerit>"
-	"takornariar" Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn N Rel Pl @POSS>
+	"takornariar" Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<nalinginnaasut>"
-	"nalinginnaq" U Der/nv Gram/IV TUQ Der/vn N Rel Pl @N<
+	"nalinginnaq" U Der/nv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @N<
 "<saniatigut>"
 	"sani" N Via Sg 3PlPoss @ADVL>
 "<nutaanik>"
@@ -6864,13 +6865,13 @@
 "<kangerlunnut>"
 	"kangerluk" N Trm Pl @i-ADVL>
 "<angalaartitsinerit>"
-	"angalaar" Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Abs Pl @SUBJ>
+	"angalaar" Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<kiisalu>"
 	"kiisa" Gram/Conj-encl Adv LU @CONJ
 "<qulimiguulimmik>"
 	"qulimiguulik" N Ins Sg @i-MIK-OBJ>
 "<takornariartitsisarnerit>"
-	"takornariar" Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn N Abs Pl @SUBJ>
+	"takornariar" Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<neqeroorutigineqartalersimallutik>"
 	"neqeroorutige" Gram/TV NIQAR Der/vv Gram/IV TAR Der/vv LIR Der/vv SIMA Der/vv Gram/IV V Cont 4Pl @PRED
 "<.>"
@@ -6976,7 +6977,7 @@
 
 <sKiXcKTrW52JnIrilKU5jS4gKfBU-0>
 "<Taakkua>"
-	"una" Prefix/TA Gram/Dem Pron Rel Pl @SUBJ>
+	"una" Prefix/TA Gram/Dem Pron Rel Pl %AmbiguøsN @SUBJ>
 "<asanninnermik>"
 	"asa" Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Ins Sg @MIK-OBJ>
 "<takutitsiffiginngisaannarsimammanni>"
@@ -7084,9 +7085,9 @@
 
 <sKv0xMpmxKwuxd6kcgzOxUzxcsjU-0>
 "<Aningaasaateqarfiit>"
-	"aningaasaq" UTE Der/nn QAR Der/nv Gram/IV VIK Der/vn N Abs Pl @SUBJ>
+	"aningaasaq" UTE Der/nn QAR Der/nv Gram/IV VIK Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<inuinnaallu>"
-	"inuk" INNAQ Der/nn Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"inuk" INNAQ Der/nn Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<aningaasanik>"
 	"aningaasaq" N Ins Pl @MIK-OBJ>
 "<tunisiumasimapput>"
@@ -7215,7 +7216,7 @@
 "<soorlu>"
 	"soorlu" Pali @FOC>N
 "<silamiut>"
-	"silamiu" N Rel Pl @POSS>
+	"silamiu" N Rel Pl %AmbiguøsN @POSS>
 "<ingerlaasiannit>"
 	"ingerlaaseq" N Abl Sg 3PlPoss @i-ADVL>N
 "<oqaluttuarisani>"
@@ -7258,9 +7259,9 @@
 "<Avataarsualiartartunik>"
 	"avataarsualiar" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Ins Pl @i-MIK-OBJ>
 "<ukiut>"
-	"ukioq" N Rel Pl @POSS>
+	"ukioq" N Rel Pl %AmbiguøsN @POSS>
 "<tallimat>"
-	"tallimat" Num Rel Pl @N<
+	"tallimat" Num Rel Pl %AmbiguøsN @N<
 "<ingerlannginnerini>"
 	"ingerla" Gram/IV NNGIT Der/vv Gram/IV NIQ Der/vn N Lok Pl 3PlPoss @ADVL>
 "<Qaammammukartitsinissani>"
@@ -7294,9 +7295,9 @@
 
 <sLoKHx1FQLla1844fXrK8sQHYLDg-0>
 "<Aataakkut>"
-	"aataa" KKUT Der/nn Gram/PlurTant N Abs Pl @OBJ>
+	"aataa" KKUT Der/nn Gram/PlurTant N Abs Pl %AmbiguøsN @OBJ>
 "<asimi>"
-	"asi" N Rel Pl 4SgPoss @POSS>
+	"asi" N Rel Pl 4SgPoss %AmbiguøsN @POSS>
 "<illuaraanni>"
 	"illu" ARAQ Der/nn N Lok Sg 3PlPoss @ADVL>
 "<,>"
@@ -7304,7 +7305,7 @@
 "<ilaanni>"
 	"ilaanni" Adv @ADVL>
 "<ullut>"
-	"ulloq" N Abs Pl %ContHypotagme @OBJ>
+	"ulloq" N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<arlerlugit>"
 	"arler" Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<illoqarfimmut>"
@@ -7345,7 +7346,7 @@
 "<inunngorneranit>"
 	"inuk" NNGUR Der/nv Gram/IV NIQ Der/vn N Abl Sg 3SgPoss @i-ADVL>
 "<ukiut>"
-	"ukioq" N Rel Pl @POSS>
+	"ukioq" N Rel Pl %AmbiguøsN @POSS>
 "<hundredinngornerat>"
 	"hundrede" NNGUR Der/nv Gram/IV NIQ Der/vn N Abs Sg 3PlPoss @HNOUN
 "<.>"
@@ -7452,7 +7453,7 @@
 "<Sumik>"
 	"suna" Gram/Int Pron Ins Sg @i-OBJ-DOTR>
 "<tunitinnissat>"
-	"tuni" Gram/TV TIP Der/vv Gram/Db Gram/TV Gram/Pass NIQ Der/vn SSAQ Der/nn N Abs Sg 2SgPoss @OBJ>
+	"tuni" Gram/TV TIP Der/vv Gram/Db Gram/TV Gram/Pass NIQ Der/vn SSAQ Der/nn N Abs Sg 2SgPoss %AmbiguøsN @OBJ>
 "<neriuutigaajuk>"
 	"neriup" UTE Der/vn GE Der/nv Gram/TV V Int 2Sg 3SgO @PRED
 "<?>"
@@ -7476,7 +7477,7 @@
 "<saqqummersitaq>"
 	"saqqummer" Gram/IV TIP Der/vv Gram/TV TAQ Der/vn N Abs Sg @OBJ>
 "<politikerit>"
-	"politiker" OLang/DAN N Rel Pl @SUBJ>
+	"politiker" OLang/DAN N Rel Pl %AmbiguøsN @SUBJ>
 "<atorluassagaat>"
 	"atorluar" Gram/TV SSA Der/vv Gram/TV V Par 3Pl 3SgO @CL-CIT>
 "<,>"
@@ -7505,7 +7506,7 @@
 "<Sunaaffa>"
 	"sunaaffa" Adv @CL-ADVL>
 "<tigusarinnittut>"
-	"tigu" Gram/TV TAQ Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl %ContHypotagme @OBJ>
+	"tigu" Gram/TV TAQ Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<nalaatsorluaavillugit>"
 	"nalaatsor" Gram/TV LLUAR Der/vv VIP Der/vv Orth/Alt Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<anillattunga>"
@@ -7592,7 +7593,7 @@
 "<Narsarsuup>"
 	"Narsarsuaq" Sem/Geo Prop Rel Sg @POSS>
 "<Qaqortullu>"
-	"Qaqortoq" Sem/Geo Gram/Conj-encl Prop Rel Sg LU @POSS>
+	"Qaqortoq" Sem/Geo Gram/Conj-encl Prop Rel Sg LU %AmbiguøsN @POSS>
 "<akornanni>"
 	"akunneq" N Lok Sg 3PlPoss @ADVL>
 "<angallassisuuvoq>"
@@ -7603,7 +7604,7 @@
 
 <sMXtuDlhveOeWqxgDPAKvUIm5TxQ-0>
 "<Ullut>"
-	"ulloq" N Rel Pl %TidHypotagme @POSS>
+	"ulloq" N Rel Pl %TidHypotagme %AmbiguøsN @POSS>
 "<ilaanni>"
 	"ila" N Lok Sg 3PlPoss %TidHypotagme @ADVL>
 "<niviarsiaqqap>"
@@ -7622,7 +7623,7 @@
 "<aallarteqqissimavoq>"
 	"aallartip" Gram/IV QQIP Der/vv SIMA Der/vv Gram/IV V Ind 3Sg @PRED
 "<ilaallu>"
-	"ila" Gram/Conj-encl N Abs Pl 3PlPoss LU @SUBJ>
+	"ila" Gram/Conj-encl N Abs Pl 3PlPoss LU %AmbiguøsN @SUBJ>
 "<qiteqqilersimallutik>"
 	"qitip" Gram/IV QQIP Der/vv LIR Der/vv SIMA Der/vv Gram/IV V Cont 4Pl @PRED
 "<.>"
@@ -7712,7 +7713,7 @@
 "<Nuummi>"
 	"Nuuk" Sem/Geo Prop Lok Sg @ADVL>
 "<angajoqqaarsiat>"
-	"angajoqqaarsiaq" N Rel Pl @POSS>
+	"angajoqqaarsiaq" N Rel Pl %AmbiguøsN @POSS>
 "<peqatigiiffiata>"
 	"peqat" GIIP Der/nv Gram/IV VIK Der/vn N Rel Sg 3PlPoss @SUBJ>
 "<ilungersorluni>"
@@ -7752,7 +7753,7 @@
 "<inatsimmi>"
 	"inatsit" N Lok Sg @i-ADVL>
 "<piumasaqaatit>"
-	"pi" GUMA Der/vv Gram/TV TAQ Der/vn QAR Der/nv UTE Der/vn N Rel Pl @POSS>
+	"pi" GUMA Der/vv Gram/TV TAQ Der/vn QAR Der/nv UTE Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<malinneqarnissaat>"
 	"malip" Gram/TV NIQAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss @<SUBJ
 "<.>"
@@ -7794,7 +7795,7 @@
 
 <sN1tNZVwoW7Dg0gtDcvvVTCduI4E-0>
 "<Tamakkuli>"
-	"manna" Prefix/TA Gram/Dem Gram/Conj-encl Pron Abs Pl LI @OBJ>
+	"manna" Prefix/TA Gram/Dem Gram/Conj-encl Pron Abs Pl LI %AmbiguøsN @OBJ>
 "<ilisimanngilai>"
 	"ilisima" Gram/TV NNGIT Der/vv Gram/TV V Ind 3Sg 3PlO @PRED
 "<.>"
@@ -7829,7 +7830,7 @@
 "<amerlanertigullu>"
 	"amerla" Gram/IV NIQ Der/vn Gram/Conj-encl N Via Pl LU @ADVL>
 "<kalaallit>"
-	"kalaaleq" N Rel Pl @POSS>
+	"kalaaleq" N Rel Pl %AmbiguøsN @POSS>
 "<illuannut>"
 	"illu" N Trm Sg 3PlPoss @ADVL>
 "<ingerlaannartarlutik>"
@@ -7923,9 +7924,9 @@
 
 <sNRCRGK4m37BG5XVxhgMvGCRC2vY-0>
 "<meterit>"
-	"meter" OLang/DAN Sem/Unit N Abs Pl @OBJ>
+	"meter" OLang/DAN Sem/Unit N Abs Pl %AmbiguøsN @OBJ>
 "<tallimat>"
-	"tallimat" Num Abs Pl @N<
+	"tallimat" Num Abs Pl %AmbiguøsN @N<
 "<takissuserai>"
 	"takissuseq" GE Der/nv Gram/TV V Ind 3Sg 3PlO @PRED
 "<.>"
@@ -7952,7 +7953,7 @@
 "<pinnersoq>"
 	"pinner" Gram/IV TUQ Der/vn N Abs Sg @N<
 "<inuit>"
-	"inuk" N Rel Pl @SUBJ>
+	"inuk" N Rel Pl %AmbiguøsN @SUBJ>
 "<alutorsarlutik>"
 	"alutorsar" Gram/IV V Cont 4Pl @ADVL>
 "<isikkuttarmassuk>"
@@ -8014,9 +8015,9 @@
 "<ineeqqamini>"
 	"ini" ARAQ Der/nn N Lok Sg 4SgPoss @i-ADVL>N
 "<tamakku>"
-	"manna" Prefix/TA Gram/Dem Pron Abs Pl @Pron>N
+	"manna" Prefix/TA Gram/Dem Pron Abs Pl %AmbiguøsN @Pron>N
 "<isumapiluit>"
-	"isuma" PILUK Der/nn N Abs Pl @N<
+	"isuma" PILUK Der/nn N Abs Pl %AmbiguøsN @N<
 "<qaffakaatittoortarpai>"
 	"qaffap" Gram/IV KAA Der/vv TIP Der/vv Gram/TV TUUR Der/vv TAR Der/vv Gram/TV V Ind 3Sg 3PlO @PRED
 "<.>"
@@ -8025,9 +8026,9 @@
 
 <sNj1xxtBmTIW3tyeTfSQyYexvBYU-0>
 "<piniartut>"
-	"piniar" Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
+	"piniar" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<arlallit>"
-	"arlaq" LIK Der/nn N Abs Pl @N<
+	"arlaq" LIK Der/nn N Abs Pl %AmbiguøsN @N<
 "<qivittunik>"
 	"qivip" Gram/IV TUQ Der/vn N Ins Pl @MIK-OBJ>
 "<naammattoorsisimasut>"
@@ -8070,7 +8071,7 @@
 "<inissianik>"
 	"ini" Orth/Alt SSIAQ Der/nn N Ins Pl @i->N
 "<attartortut>"
-	"attartor" Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
+	"attartor" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<ineqarnerminnut>"
 	"ini" QAR Der/nv Gram/IV NIQ Der/vn N Trm Sg 4PlPoss @ADVL>
 "<ukiuni>"
@@ -8219,7 +8220,7 @@
 "<maanna>"
 	"maanna" Adv @ADVL>
 "<ukiut>"
-	"ukioq" N Abs Pl @SUBJ>
+	"ukioq" N Abs Pl %AmbiguøsN @SUBJ>
 "<50-it>"
 	"50" Num Abs Pl @N<
 "<qaangiuteriannguallartut>"
@@ -8263,7 +8264,7 @@
 "<Taamaakkaluartorlu>"
 	"taama" IP Der/nv Gram/IV GALUAR Der/vv Gram/IV Sem/Temporal Gram/Adv-encl V Par 3Sg LU @PRED2
 "<taakku>"
-	"una" Prefix/TA Gram/Dem Pron Abs Pl
+	"una" Prefix/TA Gram/Dem Pron Abs Pl %AmbiguøsN
 "<isumaga>"
 	"isuma" N Abs Sg 1SgPoss @SUBJ>
 "<pitsaanerulersimanngilaq>"
@@ -8282,7 +8283,7 @@
 "<ilikkarluaqqaagaasa>"
 	"ilikkar" Gram/TV LLUAR Der/vv QQAAR Der/vv Gram/TV TAQ Der/vn N Rel Pl 3SgPoss @POSS>
 "<ilaat>"
-	"ila" N Abs Sg 3PlPoss @SUBJ>
+	"ila" N Abs Sg 3PlPoss %AmbiguøsN @SUBJ>
 "<tassaavoq>"
 	"tassa" U Der/nv Gram/IV V Ind 3Sg @PRED
 "<'>"
@@ -8299,16 +8300,16 @@
 "<Soorlu>"
 	"soorlu" Pali @CL-ADVL>
 "<isigisat>"
-	"isige" Gram/TV TAQ Der/vn N Abs Pl @OBJ>
+	"isige" Gram/TV TAQ Der/vn N Abs Pl %AmbiguøsN @OBJ>
 "<qalipagassaqqissut>"
-	"qalipagaq" SSAQQIP Der/nv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"qalipagaq" SSAQQIP Der/nv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<tappiffigisaqigai>"
 	"tappiffige" Gram/TV TAR Der/vv QE Der/vv Gram/TV V Par 3Sg 3PlO @PRED2
 	"tappip" Gram/IV VIK Der/vn GE Der/nv Gram/TV TAR Der/vv QE Der/vv Gram/TV V Par 3Sg 3PlO @PRED2
 "<taamattaaq>"
 	"taama" Adv TTAAQ @ADVL>
 "<pinngortitat>"
-	"pinngor" Gram/IV TIP Der/vv Gram/TV TAQ Der/vn N Rel Pl @POSS>
+	"pinngor" Gram/IV TIP Der/vv Gram/TV TAQ Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<nipaannut>"
 	"nipi" N Trm Pl 3PlPoss @ADVL>
 "<tutsarilluinnarpoq>"
@@ -8320,7 +8321,7 @@
 
 <sORAmMc7G8pTReoa1zrk73KYi0xk-0>
 "<nutaarsiassat>"
-	"nutaarsiassaq" N Abs Pl @SUBJ>
+	"nutaarsiassaq" N Abs Pl %AmbiguøsN @SUBJ>
 "<pitsaasuullutillu>"
 	"pitsak" U Der/nv Gram/IV TUQ Der/vn U Der/nv Gram/IV Gram/Conj-encl V Cont 4Pl LU @PRED
 "<pitsaavallaanngitsut>"
@@ -8333,11 +8334,11 @@
 "<maani>"
 	"ma" Gram/Dem Adv Lok @ADVL>
 "<atuartut>"
-	"atuar" Gram/HV TUQ Der/vn N Abs Pl @SUBJ>
+	"atuar" Gram/HV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<600-upput>"
 	"600" iNum U Der/nv Gram/IV Gram/IV V Ind 3Pl @PRED
 "<ilinniartitsisullu>"
-	"ilinniar" Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl LU @SUBJ_COMP
+	"ilinniar" Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ_COMP
 "<50-iullutik>"
 	"50" iNum U Der/nv Gram/IV Gram/IV V Cont 4Pl @PRED
 "<.>"
@@ -8382,7 +8383,7 @@
 
 <sOTYEJCSVNHntUh0b3DLhTSxMRWA-0>
 "<Kommunit>"
-	"kommune" OLang/DAN N Abs Pl @SUBJ>
+	"kommune" OLang/DAN N Abs Pl %AmbiguøsN @SUBJ>
 "<paasiniaaqquneqalerput>"
 	"paasi" Gram/TV NIAR Der/vv HTR Der/vv Gram/IV QQU Der/vv Gram/TV NIQAR Der/vv Gram/IV LIR Der/vv Gram/IV V Ind 3Pl @PRED
 "<ilaqutariinnik>"
@@ -8423,7 +8424,7 @@
 
 <sOTnypetVU4schN7Qpj6oUzDuHYY-0>
 "<Aningaasat>"
-	"aningaasaq" N Abs Pl @OBJ>
+	"aningaasaq" N Abs Pl %AmbiguøsN @OBJ>
 "<siornatigut>"
 	"siornatigut" Pali @i-ADVL>
 "<erligisani>"
@@ -8444,7 +8445,7 @@
 "<akunneri>"
 	"akunneq" N Abs Pl 3SgPoss @SUBJ>
 "<marluk>"
-	"marluk" Num Abs Pl @N<
+	"marluk" Num Abs Pl %AmbiguøsN @N<
 "<qaangiuttut>"
 	"qaangiup" Gram/IV Sem/Temporal V Par 3Pl @PRED2
 "<fru>"
@@ -8489,9 +8490,9 @@
 "<naamaneqarsinnaaqqunagu>"
 	"naama" Gram/TV NIQAR Der/vv Gram/IV SINNAA Der/vv QQU Der/vv Gram/TV V ContNeg 3SgO @ADVL>
 "<hvidløgimerngit>"
-	"hvidløg" OLang/DAN MINIQ Der/nn N Abs Pl Orth/Alt @SUBJ>
+	"hvidløg" OLang/DAN MINIQ Der/nn N Abs Pl Orth/Alt %AmbiguøsN @SUBJ>
 "<arlallit>"
-	"arlaq" LIK Der/nn N Abs Pl @N<
+	"arlaq" LIK Der/nn N Abs Pl %AmbiguøsN @N<
 "<plasticposimut>"
 	"plasticpose" OLang/DAN N Trm Sg @ADVL>
 "<aamma>"
@@ -8573,7 +8574,7 @@
 "<pinialullutik>"
 	"pinialup" Gram/IV V Cont 4Pl @i-ADVL>
 "<angalasut>"
-	"angala" Gram/IV TUQ Der/vn N Abs Pl @N<
+	"angala" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<ilagiuartarpai>"
 	"ila" GE Der/nv Gram/TV TUAR Der/vv TAR Der/vv Gram/TV V Ind 3Sg 3PlO @PRED
 "<.>"
@@ -8619,7 +8620,7 @@
 	"naqinneq" QAR Der/nv Gram/IV TIP Der/vv Gram/TV V ContNeg 3SgO %ContHypotagme @i-ADVL>
 	"naqip" Gram/TV NIQAR Der/vv Gram/IV TIP Der/vv Gram/TV V ContNeg 3SgO %ContHypotagme @i-ADVL>
 "<issuarneqarnermi>"
-	"issuar" Gram/TV NIQAR Der/vv Gram/IV NIQ Der/vn N Rel Sg 4SgPoss @POSS>
+	"issuar" Gram/TV NIQAR Der/vv Gram/IV NIQ Der/vn N Rel Sg 4SgPoss %AmbiguøsN @POSS>
 "<eqqunngitsuunera>"
 	"eqqor" Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn U Der/nv Gram/IV NIQ Der/vn N Abs Sg 3SgPoss @OBJ>
 "<aviisimut>"
@@ -8687,9 +8688,9 @@
 
 <sP30xBDMWNGo2xYo9xDCxc8CCoFA-0>
 "<Tikerlaat>"
-	"tikip" Gram/IV RLAAQ Der/vn N Rel Pl @POSS>
+	"tikip" Gram/IV RLAAQ Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<ilaat>"
-	"ila" N Abs Sg 3PlPoss @SUBJ>
+	"ila" N Abs Sg 3PlPoss %AmbiguøsN @SUBJ>
 "<inuusuttunnguaq>"
 	"inuusup" Gram/IV TUQ Der/vn NNGUAQ Der/nn N Abs Sg @N<
 "<atisartaaqqammersimalluni>"
@@ -8701,7 +8702,7 @@
 "<suliffissaaleqinnguatsiaqalunili>"
 	"suli" Gram/IV VIK Der/vn SSAQ Der/nn ILIQI Der/nv Gram/IV NNGUATSIAR Der/vv QE Der/vv Gram/IV V Cont 4Sg LI @ADVL>
 "<issiaviit>"
-	"issiavik" N Abs Pl %ContHypotagme @OBJ>
+	"issiavik" N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<iluarnersiorlugit>"
 	"iluar" Gram/IV NIQ Der/vn SIUR Der/nv Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<issiasoq>"
@@ -8744,11 +8745,11 @@
 
 <sPF77MXgnmFV6sKlW61L78qoBTk8-0>
 "<Ilaqutaasut>"
-	"ilaqutaq" U Der/nv Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
-	"ilaqutaq" U Der/nv Gram/IV TUQ Der/vn N Rel Pl @POSS>
+	"ilaqutaq" U Der/nv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
+	"ilaqutaq" U Der/nv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<ikiorneqarumasut>"
-	"ikior" Gram/TV NIQAR Der/vv Gram/IV GUMA Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
-	"ikior" Gram/TV NIQAR Der/vv Gram/IV GUMA Der/vv Gram/IV TUQ Der/vn N Rel Pl @N<
+	"ikior" Gram/TV NIQAR Der/vv Gram/IV GUMA Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
+	"ikior" Gram/TV NIQAR Der/vv Gram/IV GUMA Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @N<
 "<sumut>"
 	"suna" Gram/Int Pron Trm Sg @i-ADVL>
 "<saaffiginnissinnaanerannik>"
@@ -8758,7 +8759,7 @@
 "<,>"
 	"," CLB
 "<arlallillu>"
-	"arlaq" LIK Der/nn Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"arlaq" LIK Der/nn Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<saaffiginnereerlutik>"
 	"saap" Gram/IV VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV RIIR Der/vv Gram/IV V Cont 4Pl @PRED
 "<.>"
@@ -8767,7 +8768,7 @@
 
 <sPKt1FvX5ZqOWWSgH2u2s4xSojR8-0>
 "<Kalaallit>"
-	"kalaaleq" N Rel Pl @POSS>
+	"kalaaleq" N Rel Pl %AmbiguøsN @POSS>
 "<illuata>"
 	"illu" N Rel Sg 3PlPoss @POSS>
 "<avatinnguaniippoq>"
@@ -8881,6 +8882,7 @@
 "<Ivalo>"
 	"Ivalo" Dial/Ngr Sem/Fem Sem/Hum Prop Abs Sg @PROP>
 "<Egede>"
+	"Egede" Sem/Hum Prop Abs Sg @OBJ>
 	"Egede" Sem/Mask Sem/Hum Prop Abs Sg @OBJ>
 "<aperaarput>"
 	"apere" Gram/TV V Ind 1Pl 3SgO @PRED
@@ -8891,7 +8893,7 @@
 "<tungaaniit>"
 	"tunge" N Abl Sg 3SgPoss @i-ADVL>
 "<inatsisartut>"
-	"inap" Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl @OBJ>
+	"inap" Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @OBJ>
 "<sunik>"
 	"suna" Gram/Int Pron Ins Pl @i-OBJ-DOTR>
 "<paasitissallugit>"
@@ -8927,7 +8929,7 @@
 "<meeqqanut>"
 	"meeraq" N Trm Pl @OBJ-DOTR>
 "<aapakaat>"
-	"aapakaaq" N Abs Pl %ContHypotagme @OBJ>
+	"aapakaaq" N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<takoqqullugit>"
 	"taku" Gram/TV QQU Der/vv Gram/Db Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<uumasuusivimmukarpugut>"
@@ -8954,7 +8956,7 @@
 "<50.000>"
 	"50.000" Num Abs Sg @>N
 "<koruunit>"
-	"krone" OLang/DAN Sem/Unit Err/Sub Orth/Arch N Abs Pl @SUBJ>
+	"krone" OLang/DAN Sem/Unit Err/Sub Orth/Arch N Abs Pl %AmbiguøsN @SUBJ>
 "<suunngillat>"
 	"suna" Gram/Int iPron iAbs iSg U Der/nv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Pl @PRED
 "<akunnittarfimmi>"
@@ -8969,7 +8971,7 @@
 
 <sQ0mWVlmBp8sgY6FHeSpHmQVVswo-0>
 "<dependensit>"
-	"dependens" OLang/DAN N Abs Pl @OBJ>
+	"dependens" OLang/DAN N Abs Pl %AmbiguøsN @OBJ>
 "<paasinnginnakkit>"
 	"paasi" Gram/TV NNGIT Der/vv Gram/TV V Cau 1Sg 3PlO @PRED
 "<.>"
@@ -9018,19 +9020,19 @@
 "<ukioqartungali>"
 	"ukioq" QAR Der/nv Gram/IV Sem/Temporal Gram/Adv-encl V Par 1Sg LI @PRED2
 "<inersimasut>"
-	"iner" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl @SUBJ>
+	"iner" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @SUBJ>
 "<titartaarusussuseerutsissimavaannga>"
 	"titartar" Gram/TV HTR Der/vv Gram/IV GUSUP Der/vv Gram/IV SSUSIQ Der/vn IRUTE Der/nv Gram/IV TIP Der/vv Gram/TV SIMA Der/vv Gram/TV V Ind 3Pl 1SgO @PRED
 "<,>"
 	"," CLB
 "<pulateriaarsuillu>"
-	"pulateriaarsuk" Gram/Conj-encl N Rel Pl LU @POSS>
+	"pulateriaarsuk" Gram/Conj-encl N Rel Pl LU %AmbiguøsN @POSS>
 "<ipititsisartut>"
-	"ipitip" Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Rel Pl @N<
+	"ipitip" Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @N<
 "<matoqqasut>"
-	"matu" Gram/IV QQA Der/vv Gram/IV TUQ Der/vn N Rel Pl @N<
+	"matu" Gram/IV QQA Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @N<
 "<ammasulluunniit>"
-	"amma" Gram/IV TUQ Der/vn Gram/Conj-encl N Rel Pl LUUNNIIT @N<
+	"amma" Gram/IV TUQ Der/vn Gram/Conj-encl N Rel Pl LUUNNIIT %AmbiguøsN @N<
 "<titartarnissaat>"
 	"titartar" Gram/TV Gram/Pass NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss @OBJ>
 "<kisiat>"
@@ -9087,9 +9089,9 @@
 "<„>"
 	"„" PUNCT LEFT DIRTALESTART
 "<Arnat>"
-	"arnaq" N Abs Pl @SUBJ>
+	"arnaq" N Abs Pl %AmbiguøsN @SUBJ>
 "<mersortartut>"
-	"mersortartoq" N Abs Pl @N<
+	"mersortartoq" N Abs Pl %AmbiguøsN @N<
 "<ajunngilluartumik>"
 	"ajor" Gram/IV NNGIT Der/vv LLUAR Der/vv Gram/IV TUQ Der/vn N Ins Sg @ADVL>
 "<tamarmik>"
@@ -9133,7 +9135,7 @@
 
 <sQzUsC7VWKxmnvY2OwYR6SylFZ7s-0>
 "<takkuttut>"
-	"taku" UTE Der/vv Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
+	"taku" UTE Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<80%-iupput>"
 	"80%" iNum U Der/nv Gram/IV Gram/IV V Ind 3Pl @PRED
 "<.>"
@@ -9156,7 +9158,7 @@
 "<,>"
 	"," CLB
 "<inuppassuillu>"
-	"inuk" PAK Der/nn SUAQ Der/nn Gram/Conj-encl N Rel Pl LU @SUBJ>
+	"inuk" PAK Der/nn SUAQ Der/nn Gram/Conj-encl N Rel Pl LU %AmbiguøsN @SUBJ>
 "<nassuerutigaat>"
 	"nassuerutige" Gram/TV V Ind 3Pl 3SgO @PRED
 "<Kalaallit Nunaat>"
@@ -9235,7 +9237,7 @@
 
 <sRAo2PjMstn5xyeCaSdxd4W6jBdA-0>
 "<meeqqat>"
-	"meeraq" N Abs Pl @SUBJ>
+	"meeraq" N Abs Pl %AmbiguøsN @SUBJ>
 "<sissap>"
 	"sissaq" N Rel Sg @POSS>
 "<tungaani>"
@@ -9248,9 +9250,9 @@
 
 <sRBiQsvmE736pyPDAG6uiVZfHcXs-0>
 "<Kalaallit>"
-	"kalaaleq" N Abs Pl @HNOUN
+	"kalaaleq" N Abs Pl %AmbiguøsN @HNOUN
 "<arnat>"
-	"arnaq" N Abs Pl @N<
+	"arnaq" N Abs Pl %AmbiguøsN @N<
 "<tamarmik>"
 	"tamaq" N Gram/Cong Nom 4Pl @SUBJ>
 "<taamaattuunerlutik>"
@@ -9302,7 +9304,7 @@
 "<itisilerinermigut>"
 	"itisileri" Gram/IV NIQ Der/vn N Via Sg 4SgPoss @ADVL>
 "<kalaallit>"
-	"kalaaleq" N Rel Pl @POSS>
+	"kalaaleq" N Rel Pl %AmbiguøsN @POSS>
 "<atuakkiaannit>"
 	"atuakkiaq" N Abl Pl 3PlPoss @ADVL>
 "<allanit>"
@@ -9377,7 +9379,7 @@
 
 <sRbxDdyZQzgKj2jHPOix3CwPN1ps-0>
 "<Tuluit>"
-	"tuluk" N Abs Pl @SUBJ>
+	"tuluk" N Abs Pl %AmbiguøsN @SUBJ>
 "<panimma>"
 	"panik" N Rel Sg 1SgPoss @POSS>
 "<Nuummi>"
@@ -9392,9 +9394,9 @@
 
 <sRg0JjnSIY9x2ssrnog4j055wUtw-0>
 "<umiat>"
-	"umiaq" N Abs Pl @OBJ>
+	"umiaq" N Abs Pl %AmbiguøsN @OBJ>
 "<aallalersut>"
-	"aallar" Gram/IV LIR Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"aallar" Gram/IV LIR Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<tikippai>"
 	"tikip" Gram/TV V Ind 3Sg 3PlO @PRED
 "<.>"
@@ -9436,7 +9438,7 @@
 
 <sRyA1oqiUTl5dl0ax1Yo6T8xtPHk-0>
 "<kaagit>"
-	"kaagi" N Abs Pl @SUBJ>
+	"kaagi" N Abs Pl %AmbiguøsN @SUBJ>
 "<quliussapput>"
 	"qulit" U Der/nv Gram/IV SSA Der/vv Gram/IV V Ind 3Pl @PRED
 "<.>"
@@ -9466,7 +9468,7 @@
 
 <sS3T220Zlj6WIskk3oDwulu3ar5A-0>
 "<Atisat>"
-	"ati" Gram/TV TAQ Der/vn N Abs Pl @OBJ>
+	"ati" Gram/TV TAQ Der/vn N Abs Pl %AmbiguøsN @OBJ>
 "<naammaginngilai>"
 	"naammage" Gram/TV NNGIT Der/vv Gram/TV V Ind 3Sg 3PlO @PRED
 "<.>"
@@ -9475,7 +9477,7 @@
 
 <sS4sK2kH44HZOzPzCsEZ0PQdxE50-0>
 "<Taxartitsisullu>"
-	"taxartitsisoq" Gram/Conj-encl N Rel Sg LU @SUBJ>
+	"taxartitsisoq" Gram/Conj-encl N Rel Sg LU %AmbiguøsN @SUBJ>
 "<aningaasivini>"
 	"ani" Gram/IV NGA Der/vv Gram/IV USIQ Der/vn VIK Der/nn N Abs Sg 4SgPoss @OBJ>
 	"ani" NGA Der/nv Gram/IV USIQ Der/vn VIK Der/nn N Abs Sg 4SgPoss @OBJ>
@@ -9543,7 +9545,7 @@
 "<,>"
 	"," CLB
 "<taakkulu>"
-	"una" Prefix/TA Gram/Dem Gram/Conj-encl Pron Abs Pl LU @SUBJ>
+	"una" Prefix/TA Gram/Dem Gram/Conj-encl Pron Abs Pl LU %AmbiguøsN @SUBJ>
 "<ikinngutiminnut>"
 	"ikinngut" N Trm Sg 4PlPoss @MIK-OBJ>
 "<pulaariartussaapput>"
@@ -9656,7 +9658,7 @@
 
 <sSV0LoD5VS6NiJ0YCz5c9XoTh0Ws-0>
 "<Inuit>"
-	"inuk" N Abs Pl @SUBJ>
+	"inuk" N Abs Pl %AmbiguøsN @SUBJ>
 "<kingullerpaamik>"
 	"kingu" LLIQ Der/nn PAAQ Der/nn N Ins Sg @ADVL>
 "<Qaammammut>"
@@ -9672,7 +9674,7 @@
 "<,>"
 	"," CLB
 "<inuit>"
-	"inuk" N Abs Pl @SUBJ>
+	"inuk" N Abs Pl %AmbiguøsN @SUBJ>
 "<Qaammammut>"
 	"Qaammat" Orth/Copy Prop Trm Sg Orth/Copy @ADVL>
 "<siullerpaamik>"
@@ -9689,7 +9691,7 @@
 
 <sSWEMO7hEoh4wzTasgRR6fcr7fn4-0>
 "<Canadamiut>"
-	"Canada" Sem/Geo iProp MIU Der/nn N Rel Pl @POSS>
+	"Canada" Sem/Geo iProp MIU Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<aatsitassarsioqatigiiffiata>"
 	"aap" Gram/IV TIP Der/vv Gram/TV TAQ Der/vn SSAQ Der/nn SIUR Der/nv Gram/IV QATIGIIP Der/vv Gram/Reci Gram/IV VIK Der/vn N Rel Sg 3PlPoss @POSS>
 "<Quadra Miningip>"
@@ -9705,13 +9707,13 @@
 "<Tunumi>"
 	"Tunu" Orth/Copy Prop Lok Sg Orth/Copy @ADVL>
 "<Illoqqortoormiut>"
-	"Illoqqortoormiut" Sem/Geo Prop Rel Pl @POSS>
+	"Illoqqortoormiut" Sem/Geo Prop Rel Pl %AmbiguøsN @POSS>
 "<kangerlussuata>"
 	"kangerluk" SUAQ Der/nn N Rel Sg 3PlPoss @POSS>
 "<avannaani>"
 	"avannaq" N Lok Sg 3SgPoss @ADVL>
 "<ukiualunnguit>"
-	"ukioq" ALUK Der/nn NNGUAQ Der/nn N Abs Pl @SUBJ>
+	"ukioq" ALUK Der/nn NNGUAQ Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<qaangiuppata>"
 	"qaangiup" Gram/IV V Con 3Pl @i-ADVL>
 "<saviminermik>"
@@ -9725,9 +9727,9 @@
 
 <sSX0I2lQs0oKC5Lxqi65SGUnFgRc-0>
 "<savaaqqat>"
-	"savaaraq" N Abs Pl @SUBJ>
+	"savaaraq" N Abs Pl %AmbiguøsN @SUBJ>
 "<ajunaartut>"
-	"ajunaar" Gram/IV TUQ Der/vn N Abs Pl @N<
+	"ajunaar" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<ikittuunngikkaluarput>"
 	"ikip" Gram/IV TUQ Der/vn U Der/nv Gram/IV NNGIT Der/vv GALUAR Der/vv Gram/IV V Ind 3Pl @PRED
 "<,>"
@@ -9765,7 +9767,7 @@
 "<“>"
 	"“" PUNCT LEFT
 "<Politiit>"
-	"politeeq" N Rel Pl @POSS>
+	"politeeq" N Rel Pl %AmbiguøsN @POSS>
 "<pujortuleeraata>"
 	"pujortuleeraq" N Rel Sg 3PlPoss @SUBJ>
 "<siulliulluni>"
@@ -9779,9 +9781,9 @@
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART
 "<nukappiaqqat>"
-	"nukappiaraq" N Rel Pl @POSS>
+	"nukappiaraq" N Rel Pl %AmbiguøsN @POSS>
 "<ilaat>"
-	"ila" N Abs Sg 3PlPoss @SUBJ>
+	"ila" N Abs Sg 3PlPoss %AmbiguøsN @SUBJ>
 "<aperivoq>"
 	"apere" Gram/IV V Ind 3Sg Orth/Alt @PRED
 "<.>"
@@ -9908,7 +9910,7 @@
 
 <sT6Wz8462EcDIUsSpafdk5Tq8jKI-0>
 "<qimmit>"
-	"qimmeq" N Abs Pl @OBJ>
+	"qimmeq" N Abs Pl %AmbiguøsN @OBJ>
 "<nerukkarniartigit>"
 	"nerukkar" Gram/TV NIAR Der/vv Gram/TV V Imp 1Pl 3PlO @PRED
 "<.>"
@@ -9917,7 +9919,7 @@
 
 <sT91EuJapGJsxjxx7oUQNuh3Kg3M-0>
 "<Uanga>"
-	"uanga" Gram/Pers Pron Rel 1Sg @POSS>
+	"uanga" Gram/Pers Pron Rel 1Sg %AmbiguøsN @POSS>
 "<timmisartora>"
 	"timmi" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Sg 1SgPoss @HNOUN
 "<.>"
@@ -9952,9 +9954,9 @@
 	"naaq" TU Der/nv Gram/IV GALUAR Der/vv Gram/IV Sem/Concessive V Cont 1Sg @PRED2
 	"naartu" Gram/IV GALUAR Der/vv Gram/IV Sem/Concessive V Cont 1Sg @PRED2
 "<kjolet>"
-	"kjole" OLang/DAN Err/Sub N Abs Pl @OBJ>
+	"kjole" OLang/DAN Err/Sub N Abs Pl %AmbiguøsN @OBJ>
 "<assigiinngitsorpassuit>"
-	"assi" GIIP Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn PAK Der/nn SUAQ Der/nn N Abs Pl %ContHypotagme @N<
+	"assi" GIIP Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn PAK Der/nn SUAQ Der/nn N Abs Pl %ContHypotagme %AmbiguøsN @N<
 "<ateqattaarlugit>"
 	"ati" Gram/TV QATTAAR Der/vv Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<assiliseqattaarama>"
@@ -9981,9 +9983,9 @@
 
 <sTKhFxqNyldNjre3lVEomt73O2Kw-0>
 "<Inuit>"
-	"inuk" N Rel Pl @POSS>
+	"inuk" N Rel Pl %AmbiguøsN @POSS>
 "<marluk>"
-	"marluk" Num Rel Pl @N<
+	"marluk" Num Rel Pl %AmbiguøsN @N<
 "<katinnerisa>"
 	"katip" Gram/IV NIQ Der/vn N Rel Pl 3PlPoss @POSS>
 "<nalliussinera>"
@@ -10048,7 +10050,7 @@
 
 <sTT61l0QdZMq8XU79fCcwfaRjH0U-0>
 "<aningaasat>"
-	"aningaasaq" N Abs Pl @OBJ>
+	"aningaasaq" N Abs Pl %AmbiguøsN @OBJ>
 "<Olemut>"
 	"Ole" Sem/Mask Sem/Hum Prop Trm Sg @ADVL>
 "<tunniuppakka>"
@@ -10059,7 +10061,7 @@
 
 <sTWwTRNMxmdIkZSmDKvP4gakxrqA-0>
 "<ajoqit>"
-	"ajoqi" N Abs Pl @SUBJ>
+	"ajoqi" N Abs Pl %AmbiguøsN @SUBJ>
 "<ilagiiussutsikkut>"
 	"ila" GIIT Der/nn U Der/nv Gram/IV SSUSIQ Der/vn N Via Sg @ADVL>
 "<inuiaassutsikkullu>"
@@ -10134,11 +10136,11 @@
 "<,>"
 	"," CLB
 "<nammineq>"
-	"nammineq" Gram/Coref Pron Rel 4Sg @Pron>N
+	"nammineq" Gram/Coref Pron Rel 4Sg %AmbiguøsN @Pron>N
 "<alliartornermini>"
 	"alli" Gram/IV GIARTUR Der/vv Gram/IV NIQ Der/vn N Lok Sg 4SgPoss @i-ADVL>
 "<pisimasut>"
-	"pi" SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl @OBJ>
+	"pi" SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @OBJ>
 "<eqqaaleraangamigit>"
 	"eqqaa" Gram/TV LIR Der/vv Gram/TV V IteCau 4Sg 3PlO @CL-ADVL>
 "<sinissaaruttartunnguakasiugami>"
@@ -10253,7 +10255,7 @@
 "<1960-ikkunni>"
 	"1960" iNum iVia iSg Gram/PlurTant N Lok Pl @i-ADVL>
 "<pissutsit>"
-	"pi" SSUSIQ Der/vn N Rel Pl @POSS>
+	"pi" SSUSIQ Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<sakkortuumik>"
 	"sakkortooq" N Ins Sg @i-ADVL>
 "<allanngulernerannit>"
@@ -10371,15 +10373,15 @@
 "<ipput>"
 	"IP" Gram/IV V Ind 3Pl Hyb/2-2 @PRED
 "<illorsualiarujussuit>"
-	"illu" SUAQ Der/nn LIAQ Der/nn RUJUK Der/nn SUAQ Der/nn N Abs Pl
+	"illu" SUAQ Der/nn LIAQ Der/nn RUJUK Der/nn SUAQ Der/nn N Abs Pl %AmbiguøsN
 "<Høje Gladsaxemik>"
 	"Høje Gladsaxe" Sem/Geo Prop Ins Sg @i-ADVL>
 "<taaneqartartut>"
-	"taa" Gram/TV NIQAR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"taa" Gram/TV NIQAR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<,>"
 	"," CLB
 "<taakkualu>"
-	"una" Prefix/TA Gram/Dem Gram/Conj-encl Pron Rel Pl LU @POSS>
+	"una" Prefix/TA Gram/Dem Gram/Conj-encl Pron Rel Pl LU %AmbiguøsN @POSS>
 "<arlaanni>"
 	"arlaq" N Gram/Cong Lok Sg 3PlPoss @ADVL>
 "<Emilie>"
@@ -10421,11 +10423,11 @@
 
 <sUQJcT2rFLftqShhGwuH6Li4CexM-0>
 "<Taakku>"
-	"una" Prefix/TA Gram/Dem Pron Abs Pl @Pron>N
+	"una" Prefix/TA Gram/Dem Pron Abs Pl %AmbiguøsN @Pron>N
 "<meeqqat>"
-	"meeraq" N Abs Pl @SUBJ>
+	"meeraq" N Abs Pl %AmbiguøsN @SUBJ>
 "<marluk>"
-	"marluk" Num Abs Pl @N<
+	"marluk" Num Abs Pl %AmbiguøsN @N<
 "<atisaqanngillat>"
 	"ati" Gram/TV TAQ Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Pl @PRED
 "<.>"
@@ -10482,7 +10484,7 @@
 
 <sUcgwb4LazgeRP7Oz7sCUfKX8Kkw-0>
 "<Tamaanimiut>"
-	"tamaanimiu" N Rel Pl @POSS>
+	"tamaanimiu" N Rel Pl %AmbiguøsN @POSS>
 "<ilaannut>"
 	"ila" N Trm Sg 3PlPoss @ADVL>
 "<suliffissarsiorami>"
@@ -10494,7 +10496,7 @@
 "<aallartitaavoq>"
 	"aallartip" Gram/TV TAQ Der/vn U Der/nv Gram/IV V Ind 3Sg @PRED
 "<puulukit>"
-	"puuluki" N Abs Pl %ContHypotagme @OBJ>
+	"puuluki" N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<paareqqullugit>"
 	"paare" Gram/TV QQU Der/vv Gram/Db Gram/TV V Cont 3PlO %ContHypotagme @<ADVL
 "<.>"
@@ -10513,21 +10515,21 @@
 "<misissuisuupput>"
 	"misissor" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn U Der/nv Gram/IV V Ind 3Pl @PRED
 "<naalagaaffiit>"
-	"naalagaaffik" N Abs Pl @<SUBJ
+	"naalagaaffik" N Abs Pl %AmbiguøsN @<SUBJ
 "<issittumiittortallit>"
 	"issip" Gram/IV TUQ Der/vn N Lok Sg Hyb/1-2 @i-ADVL>
 "<ittortallit>"
-	"IP" Gram/IV TUQ Der/vn TAQ Der/nn LIK Der/nn N Abs Pl Hyb/2-2 @N<
+	"IP" Gram/IV TUQ Der/vn TAQ Der/nn LIK Der/nn N Abs Pl Hyb/2-2 %AmbiguøsN @N<
 "<issittumiittullu>"
 	"issip" Gram/IV TUQ Der/vn N Lok Sg Hyb/1-2 @i-ADVL>
 "<ittullu>"
-	"IP" Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl LU Hyb/2-2 @N<
+	"IP" Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl LU Hyb/2-2 %AmbiguøsN @N<
 "<arfineq pingasut>"
-	"arfineq pingasut" Num Abs Pl @N<
+	"arfineq pingasut" Num Abs Pl %AmbiguøsN @N<
 "<,>"
 	"," CLB
 "<tassaasut>"
-	"tassa" U Der/nv Gram/IV TUQ Der/vn N Abs Pl @FOC>N
+	"tassa" U Der/nv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @FOC>N
 "<Danmark>"
 	"Danmark" Sem/Geo Prop Abs Sg @i-N<
 "<,>"
@@ -10616,7 +10618,7 @@
 "<Gittep>"
 	"Gitte" Sem/Fem Sem/Hum Prop Rel Sg @SUBJ>
 "<qitittut>"
-	"qitip" Gram/IV TUQ Der/vn N Abs Pl @OBJ>
+	"qitip" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @OBJ>
 "<qiviarpai>"
 	"qiviar" Gram/TV V Ind 3Sg 3PlO @PRED
 "<.>"
@@ -10625,9 +10627,9 @@
 
 <sUqod6rnxCq7PLPxhI56xbxr81GQ-0>
 "<S-togit>"
-	"s-tog" OLang/DAN N Abs Pl @SUBJ>
+	"s-tog" OLang/DAN N Abs Pl %AmbiguøsN @SUBJ>
 "<minutsit>"
-	"minut" OLang/DAN Sem/Unit Orth/Alt N Abs Pl %ContHypotagme @OBJ>
+	"minut" OLang/DAN Sem/Unit Orth/Alt N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<20-kkuutaarlugit>"
 	"20" iNum KKUUTAAR Der/nv Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<aallartarput>"
@@ -10646,7 +10648,7 @@
 "<oqarpoq>"
 	"oqar" Gram/IV V Ind 3Sg @PRED
 "<kunngikkormiut>"
-	"kunngi" KKUT Der/nn MIU Der/nn N Rel Pl @POSS>
+	"kunngi" KKUT Der/nn MIU Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<atertaavi>"
 	"ateq" TAAQ Der/nn N Abs Pl 3PlPoss Err/Sub @OBJ>
 "<assut>"
@@ -10656,7 +10658,7 @@
 "<,>"
 	"," CLB
 "<namminermi>"
-	"nammineq" Gram/Coref Pron Rel 4Sg MI @POSS>
+	"nammineq" Gram/Coref Pron Rel 4Sg MI %AmbiguøsN @POSS>
 "<atiisa>"
 	"ateq" N Rel Pl 3SgPoss @SUBJ>
 "<Ivalo>"
@@ -10707,7 +10709,7 @@
 "<,>"
 	"," CLB
 "<timaa>"
-	"timi" N Abs Sg 3SgPoss @SUBJ>
+	"timi" N Abs Sg 3SgPoss %AmbiguøsN @SUBJ>
 "<nioqqortulluni>"
 	"niu" QQURTU Der/nv Gram/IV V Cont 4Sg @ADVL>
 "<qallunaarpalukkami>"
@@ -10757,7 +10759,7 @@
 "<taamaattoqanngimmat>"
 	"taama" IP Der/nv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV V Cau 3Sg @CAU
 "<qaangerniagassat>"
-	"qaanger" Gram/TV NIAR Der/vv Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Pl @OBJ>
+	"qaanger" Gram/TV NIAR Der/vv Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Pl %AmbiguøsN @OBJ>
 "<arlaqarnerarpai>"
 	"arlaq" QAR Der/nv Gram/IV NIRAR Der/vv Gram/TV V Ind 3Sg 3PlO %VerbalInderivering @PRED
 "<,>"
@@ -10767,7 +10769,7 @@
 "<nunasiaanermi>"
 	"nunasiaq" U Der/nv Gram/IV NIQ Der/vn N Lok Sg @i-ADVL>
 "<eqqarsariaatsit>"
-	"eqqarsar" Gram/IV RIAR Der/vv Gram/IV USIQ Der/vn N Abs Pl @OBJ>
+	"eqqarsar" Gram/IV RIAR Der/vv Gram/IV USIQ Der/vn N Abs Pl %AmbiguøsN @OBJ>
 "<kaanngarsimannginnerarpai>"
 	"kaanngar" Gram/IV SIMA Der/vv NNGIT Der/vv NIRAR Der/vv Gram/TV V Ind 3Sg 3PlO %VerbalInderivering @PRED
 "<.>"
@@ -10789,11 +10791,11 @@
 
 <sVNP0mFnJMplqZKqYlxFykNVXNZo-0>
 "<Qitigissat>"
-	"qitigiaq" N Abs Pl @SUBJ>
+	"qitigiaq" N Abs Pl %AmbiguøsN @SUBJ>
 "<rockit>"
-	"rock" OLang/DAN N Abs Pl @N<
+	"rock" OLang/DAN N Abs Pl %AmbiguøsN @N<
 "<nutaajunerpaat>"
-	"nutaaq" U Der/nv Gram/IV NIRPAAQ Der/vn N Abs Pl @N<
+	"nutaaq" U Der/nv Gram/IV NIRPAAQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<nipitoorujussuarmik>"
 	"nipitooq" RUJUK Der/nn SUAQ Der/nn N Ins Sg @ADVL>
 "<kipissaanngitsumillu>"
@@ -10805,15 +10807,15 @@
 "<aammalu>"
 	"aamma" Gram/Conj-encl Conj LU @CONJ
 "<oqallittut>"
-	"oqallittoq" N Abs Pl @SUBJ>
+	"oqallittoq" N Abs Pl %AmbiguøsN @SUBJ>
 "<illartullu>"
-	"illar" Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"illar" Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<nipangissanatik>"
 	"nipanger" Gram/IV SSA Der/vv Gram/IV V ContNeg 4Pl @PRED
 "<,>"
 	"," CLB
 "<torlulaanngikkaanni>"
-	"torlulaar" Gram/IV NNGIT Der/vv Gram/IV V Par 4Sg @CL-ADVL>
+	"torlulaar" Gram/IV NNGIT Der/vv Gram/IV Gram/Gaanni Gram/Gaanni V Par 4Sg @CL-ADVL>
 "<tusaasaqarfiunngillat>"
 	"tusaa" Gram/TV TAQ Der/vn QAR Der/nv Gram/IV VIK Der/vn U Der/nv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Pl @PRED
 "<.>"
@@ -10843,7 +10845,7 @@
 "<kisianni>"
 	"kisianni" Conj @CONJ
 "<uanga>"
-	"uanga" Gram/Pers Pron Abs 1Sg @SUBJ>
+	"uanga" Gram/Pers Pron Abs 1Sg %AmbiguøsN @SUBJ>
 "<pujortarneq>"
 	"pujortar" Gram/IV NIQ Der/vn N Abs Sg Gram/Comp @>V
 "<ajorpunga>"
@@ -10924,7 +10926,7 @@
 "<eqqarsaatikka>"
 	"eqqarsar" UTE Der/vn N Abs Pl 1SgPoss @OBJ>
 "<ilorliit>"
-	"ilu" LLIQ Der/nn N Abs Pl @N<
+	"ilu" LLIQ Der/nn N Abs Pl %AmbiguøsN @N<
 "<naluatit>"
 	"nalu" Gram/TV V Ind 2Sg 3PlO @PRED
 "<.>"
@@ -10933,9 +10935,9 @@
 
 <sVgfyWw8zMf0RVecgtBTF0xBuL2M-0>
 "<qimmit>"
-	"qimmeq" N Rel Pl @SUBJ>
+	"qimmeq" N Rel Pl %AmbiguøsN @SUBJ>
 "<ikkua>"
-	"innga" Gram/Dem Pron Rel Pl @N<
+	"innga" Gram/Dem Pron Rel Pl %AmbiguøsN @N<
 "<kiivaannga>"
 	"kii" Gram/TV V Ind 3Pl 1SgO @PRED
 "<.>"
@@ -11145,7 +11147,7 @@
 "<maaneeqqusaanngilaq>"
 	"ma" Gram/Dem Adv Lok Hyb/1-2 @ADVL>
 "<eqqusaanngilaq>"
-	"IP" Gram/IV QQU Der/vv Gram/TV SAAR Der/vv Gram/TV NNGIT Der/vv V Ind 3Sg Gram/Refl Hyb/2-2 @PRED
+	"IP" Gram/IV QQU Der/vv Gram/TV SAAR Der/vv Gram/TV NNGIT Der/vv Gram/Refl Gram/IV V Ind 3Sg Gram/Refl Hyb/2-2 @PRED
 	"IP" Gram/IV QQU Der/vv Gram/TV TAQ Der/vn U Der/nv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Sg Hyb/2-2 @PRED
 "<.>"
 	"." CLB
@@ -11187,7 +11189,7 @@
 "<sinippoq>"
 	"sinip" Gram/IV V Ind 3Sg @PRED
 "<Suululli>"
-	"Suulut" Sem/Mask Sem/Hum Prop Abs Sg LI @SUBJ>
+	"Suulut" Sem/Mask Sem/Hum Prop Abs Sg LI %AmbiguøsN @SUBJ>
 "<atuarluni>"
 	"atuar" Gram/HV V Cont 4Sg @PRED
 "<.>"
@@ -11229,7 +11231,7 @@
 
 <sWNNpRvMg0IH4DH9KtL3G4SW6emw-0>
 "<Inersimasut>"
-	"iner" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
+	"iner" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<nammineerlutik>"
 	"nammineer" Gram/IV V Cont 4Pl @ADVL>
 "<imaaliallaannaq>"
@@ -11310,7 +11312,7 @@
 
 <sWjjkWm2y3X8K1u73wWoxXeDTMlg-0>
 "<ullut>"
-	"ulloq" N Rel Pl @POSS>
+	"ulloq" N Rel Pl %AmbiguøsN @POSS>
 "<14-t>"
 	"14" Orth/Append Num Rel Pl @N<
 "<missaat>"
@@ -11411,7 +11413,7 @@
 "<Qorsussuarmi>"
 	"Qorsuk" SUAQ Der/nn Orth/Copy Prop Lok Sg Orth/Copy @i-ADVL>
 "<atuartut>"
-	"atuar" Gram/HV TUQ Der/vn N Abs Pl @SUBJ>
+	"atuar" Gram/HV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<Kalaallit Nunaanni>"
 	"Kalaallit Nunaat" Prop Lok Sg 3PlPoss @ADVL>
 "<karakteriginnersaapput>"
@@ -11429,7 +11431,7 @@
 "<matuneqannginnissaa>"
 	"matu" Gram/TV NIQAR Der/vv Gram/IV NNGIT Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3SgPoss @OBJ>
 "<angajoqqaat>"
-	"angajoqqaaq" N Rel Pl @SUBJ>
+	"angajoqqaaq" N Rel Pl %AmbiguøsN @SUBJ>
 "<politikerinut>"
 	"politiker" OLang/DAN N Trm Pl @OBJ-DOTR>
 "<eqqarsaatigeqquaat>"
@@ -11494,9 +11496,9 @@
 "<,>"
 	"," CLB
 "<ukiut>"
-	"ukioq" N Abs Pl @i-ADVL>
+	"ukioq" N Abs Pl %AmbiguøsN @i-ADVL>
 "<arfinillit>"
-	"arfinillit" Num Abs Pl @N<
+	"arfinillit" Num Abs Pl %AmbiguøsN @N<
 "<matuma>"
 	"manna" Gram/Dem Pron Rel Sg @POSS>
 "<siorna>"
@@ -11597,7 +11599,7 @@
 
 <sXfwPMfnlVexG0L3L0ybGxzEka50-0>
 "<suleqatigiit>"
-	"suli" Gram/IV QATE Der/vn GIIT Der/nn N Abs Pl @SUBJ>
+	"suli" Gram/IV QATE Der/vn GIIT Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<imminnut>"
 	"immi" Gram/Coref Pron Trm Pl @ADVL>
 "<akaareqatigiinngillat>"
@@ -11637,7 +11639,7 @@
 
 <sXmsr1Idt1XDB9Pxmexe3Nvk4V7Y-0>
 "<allat>"
-	"alla" N Rel Pl @POSS>
+	"alla" N Rel Pl %AmbiguøsN @POSS>
 "<qimmii>"
 	"qimmeq" N Abs Pl 3PlPoss @SUBJ>
 "<attorneqartanngillat>"
@@ -11715,7 +11717,7 @@
 
 <sYCVKr5TqupExozd7q8dmduLNI78-0>
 "<Ilulissat>"
-	"Ilulissat" Sem/Geo Prop Rel Pl @POSS>
+	"Ilulissat" Sem/Geo Prop Rel Pl %AmbiguøsN @POSS>
 "<Sermiat>"
 	"Sermeq" Orth/Copy Prop Abs Sg 3PlPoss Orth/Copy @SUBJ>
 "<ukiumut>"
@@ -11723,7 +11725,7 @@
 "<7>"
 	"7" Num Abs Sg @>N
 "<kilometerit>"
-	"kilometer" OLang/DAN Sem/Unit N Abs Pl %ContHypotagme @OBJ>
+	"kilometer" OLang/DAN Sem/Unit N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<tikillugit>"
 	"tikip" Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<sukkassuseqartoq>"
@@ -11743,7 +11745,7 @@
 
 <sYFyBSDLIvs1wJP0s9rEbQWZNFqY-0>
 "<aalisartuusugut>"
-	"aalisar" Gram/IV TUQ Der/vn U Der/nv Gram/IV TUQ Der/vn N Abs Pl 1Pl @SUBJ>
+	"aalisar" Gram/IV TUQ Der/vn U Der/nv Gram/IV TUQ Der/vn N Abs Pl 1Pl %AmbiguøsN @SUBJ>
 "<ajornakusooruteqarpugut>"
 	"ajornakusoor" UTE Der/vn QAR Der/nv Gram/IV V Ind 1Pl @PRED
 "<.>"
@@ -11778,7 +11780,7 @@
 "<oqarlunilu>"
 	"oqar" Gram/IV Gram/Conj-encl V Cont 4Sg LU @PRED
 "<nammineq>"
-	"nammineq" Gram/Coref Pron Abs 4Sg @SUBJ>
+	"nammineq" Gram/Coref Pron Abs 4Sg %AmbiguøsN @SUBJ>
 "<tassaalluni>"
 	"tassa" U Der/nv Gram/IV V Cont 4Sg @CL-<CIT
 "<»>"
@@ -12003,7 +12005,7 @@
 
 <sZ2tubTC5538A6wiuGgYMhq8AJOE-0>
 "<angummi>"
-	"angut" N Rel Sg 4SgPoss @SUBJ>
+	"angut" N Rel Sg 4SgPoss %AmbiguøsN @SUBJ>
 "<nangartaanermigut>"
 	"nangartaa" Gram/IV NIQ Der/vn N Via Sg 4SgPoss @i-ADVL>
 	"nangartar" Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Via Sg 4SgPoss @i-ADVL>
@@ -12044,7 +12046,7 @@
 
 <sZAwpGXzf5AXOGJbpDzQ2umsDvkw-0>
 "<taarsigassarsiat>"
-	"taarsigassarsiaq" N Abs Pl @SUBJ>
+	"taarsigassarsiaq" N Abs Pl %AmbiguøsN @SUBJ>
 "<20.000>"
 	"20.000" Num Abs Sg @i-MWE>N
 "<kroniusut>"
@@ -12057,11 +12059,11 @@
 "<Piffissaq>"
 	"piffik" SSAQ Der/nn N Abs Sg
 "<aggerfissat>"
-	"agger" Gram/IV VIK Der/vn SSAQ Der/nn N Rel Pl @POSS>
+	"agger" Gram/IV VIK Der/vn SSAQ Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<nalunngikkutsigu>"
 	"nalu" Gram/TV NNGIT Der/vv Gram/TV V Con 1Pl 3SgO @CON
 "<bussit>"
-	"bussi" N Rel Pl @POSS>
+	"bussi" N Rel Pl %AmbiguøsN @POSS>
 "<unittarfiannut>"
 	"unip" Gram/IV TAR Der/vv Gram/IV VIK Der/vn N Trm Sg 3PlPoss @ADVL>
 "<naapigiarsinnaavatsigit>"
@@ -12088,11 +12090,11 @@
 "<tiffasinnerusumi>"
 	"tiffasinnerusoq" N Lok Sg @N<
 "<biilit>"
-	"biili" N Rel Pl @SUBJ>
+	"biili" N Rel Pl %AmbiguøsN @SUBJ>
 "<amerlanngitsut>"
-	"amerla" Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Rel Pl @N<
+	"amerla" Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @N<
 "<ingerlasut>"
-	"ingerla" Gram/IV TUQ Der/vn N Rel Pl @N<
+	"ingerla" Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @N<
 "<kisimik>"
 	"kisi" N Gram/Cong Nom 4Pl @N<
 "<silaannaq>"
@@ -12130,22 +12132,22 @@
 "<unnuaqeqqarnissaanut>"
 	"unnuaqeqqar" Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Sg 3SgPoss @ADVL>
 "<nalunaaquttap-akunneri>"
-	"akunneq" Sem/Unit N Abs Pl 3PlPoss @SUBJ>
-	"akunneq" Sem/Unit N Abs Pl 3SgPoss @SUBJ>
+	"akunneq" Sem/Unit N Abs Pl 3PlPoss %AmbiguøsN @SUBJ>
+	"akunneq" Sem/Unit N Abs Pl 3SgPoss %AmbiguøsN @SUBJ>
 "<marluupput>"
 	"marluk" U Der/nv Gram/IV V Ind 3Pl @PRED
 </s>
 
 <sZZEZI3HipogkvjEUnpFNMhQcEvM-0>
 "<Puiaasat>"
-	"puiaq" USAQ Der/nn N Abs Pl @OBJ>
+	"puiaq" USAQ Der/nn N Abs Pl %AmbiguøsN @OBJ>
 "<igaffiup>"
 	"iga" Gram/HV Gram/IV VIK Der/vn N Rel Sg @i-POSS>
 	"iga" Gram/HV VIK Der/vn N Rel Sg @i-POSS>
 "<naqqaniittut>"
 	"nateq" N Lok Sg 3SgPoss Hyb/1-2 @i-ADVL>
 "<ittut>"
-	"IP" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 %ContHypotagme @N<
+	"IP" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 %ContHypotagme %AmbiguøsN @N<
 "<sakallugit>"
 	"sakap" Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<uppikaatimmatigit>"
@@ -12258,7 +12260,7 @@
 "<Meeqqap>"
 	"meeraq" N Rel Sg @SUBJ>
 "<aanami>"
-	"aanaq" N Rel Sg 4SgPoss @POSS>
+	"aanaq" N Rel Sg 4SgPoss %AmbiguøsN @POSS>
 "<oqaasii>"
 	"oqaaseq" N Abs Pl 3SgPoss @OBJ>
 "<akuerai>"
@@ -12351,13 +12353,13 @@
 "<->"
 	"-" PUNCT DIRTALESTART
 "<Anaanat>"
-	"anaana" N Abs Sg 2SgPoss @SUBJ>
+	"anaana" N Abs Sg 2SgPoss %AmbiguøsN @SUBJ>
 "<toquvoq>"
 	"toqu" Gram/IV V Ind 3Sg @PRED
 "<,>"
 	"," CLB
 "<uanga>"
-	"uanga" Gram/Pers Pron Abs 1Sg
+	"uanga" Gram/Pers Pron Abs 1Sg %AmbiguøsN
 "<maannakkut>"
 	"maannakkut" Adv @ADVL>
 "<anaanagaarma>"
@@ -12395,7 +12397,7 @@
 
 <sZzdQwNcM8AbxZT8fjIbR0YnsvuI-0>
 "<aningaasat>"
-	"aningaasaq" N Abs Pl @SUBJ>
+	"aningaasaq" N Abs Pl %AmbiguøsN @SUBJ>
 "<kingornussaanit>"
 	"kingornussaq" N Abl Sg 3SgPoss @ADVL>
 "<pipput>"
@@ -12475,7 +12477,7 @@
 
 <saGRB97WnfsarTbpVGKNqSimLj7U-0>
 "<Uanga>"
-	"uanga" Gram/Pers Pron Abs 1Sg @SUBJ>
+	"uanga" Gram/Pers Pron Abs 1Sg %AmbiguøsN @SUBJ>
 "<isumaqarpunga>"
 	"isuma" QAR Der/nv Gram/IV V Ind 1Sg @PRED
 "<Katuaq>"
@@ -12498,7 +12500,7 @@
 	"kultur" OLang/DAN N Via Sg 1SgPoss @i-ADVL>
 	"kultur" OLang/DAN N Via Sg @i-ADVL>
 "<aaqqissuussinerit>"
-	"aaqqissuup" Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Abs Pl @OBJ>
+	"aaqqissuup" Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Abs Pl %AmbiguøsN @OBJ>
 "<Katuamit>"
 	"Katuaq" Sem/Hum Prop Abl Sg @AGENS
 "<aamma>"
@@ -12602,26 +12604,26 @@
 "<Eckhardip>"
 	"Eckhard" Sem/Mask Sem/Hum Prop Rel Sg @SUBJ>
 "<oqaatsit>"
-	"oqaaseq" N Abs Pl @OBJ>
+	"oqaaseq" N Abs Pl %AmbiguøsN @OBJ>
 "<uiguuteqarluartut>"
-	"uiguut" QAR Der/nv Gram/IV LLUAR Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"uiguut" QAR Der/nv Gram/IV LLUAR Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<ajornartorsiutigimmagit>"
 	"ajor" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn GE Der/nv Gram/TV V Cau 3Sg 3PlO @CAU
 "<taamaammallu>"
 	"taamaammat" Gram/Conj-encl Adv LU @ADVL>
 "<uiguuteqatigiit>"
-	"uiguut" QATE Der/nn GIIT Der/nn N Abs Pl @OBJ>
+	"uiguut" QATE Der/nn GIIT Der/nn N Abs Pl %AmbiguøsN @OBJ>
 "<amerlanerusut>"
-	"amerla" Gram/IV NIRU Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"amerla" Gram/IV NIRU Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<toqqaannartumik>"
 	"toqqar" INNAR Der/vv TUQ Der/vn iN iIns Sg Adv @i-ADVL>
 "<nutsigassat>"
-	"nutser" Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Pl @N<
-	"nutsigaq" SSAQ Der/nn N Abs Pl @N<
+	"nutser" Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Pl %AmbiguøsN @N<
+	"nutsigaq" SSAQ Der/nn N Abs Pl %AmbiguøsN @N<
 "<(>"
 	"(" PUNCT LEFT
 "<glossiligaasut>"
-	"glos" Orth/Alt LIR Der/nv Gram/TV TAQ Der/vn U Der/nv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"glos" Orth/Alt LIR Der/nv Gram/TV TAQ Der/vn U Der/nv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<)>"
 	")" PUNCT RIGHT
 "<pisariaqartillugit>"
@@ -12667,11 +12669,11 @@
 "<Piitap>"
 	"Piitaq" Sem/Mask Sem/Hum Prop Rel Sg @SUBJ>
 "<angutit>"
-	"angut" N Abs Pl @OBJ>
+	"angut" N Abs Pl %AmbiguøsN @OBJ>
 "<ikku>"
-	"innga" Gram/Dem Pron Abs Pl @N<
+	"innga" Gram/Dem Pron Abs Pl %AmbiguøsN @N<
 "<oqalliseqisut>"
-	"oqallip" Gram/IV QE Der/vv Gram/IV TUQ Der/vn N Abs Pl %ContHypotagme @N<
+	"oqallip" Gram/IV QE Der/vv Gram/IV TUQ Der/vn N Abs Pl %ContHypotagme %AmbiguøsN @N<
 "<qimallugit>"
 	"qimap" Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<ornissagaani>"
@@ -12773,7 +12775,7 @@
 "<atuartaramiuk>"
 	"atuar" Gram/TV TAR Der/vv Gram/TV V Cau 4Sg 3SgO @CAU
 "<kalaallit>"
-	"kalaaleq" N Abs Pl @SUBJ>
+	"kalaaleq" N Abs Pl %AmbiguøsN @SUBJ>
 "<imerajuttuusut>"
 	"imer" Gram/IV GAJUP Der/vv Gram/IV TUQ Der/vn U Der/nv Gram/IV V Par 3Pl @CL-<CIT
 "<toqutsigajuttuusut>"
@@ -12828,11 +12830,11 @@
 "<tassa>"
 	"tassa" Adv @PRED
 "<nukappiaqqat>"
-	"nukappiaraq" N Abs Pl @SUBJ_COMP
+	"nukappiaraq" N Abs Pl %AmbiguøsN @SUBJ_COMP
 "<marluk>"
-	"marluk" Num Abs Pl @N<
+	"marluk" Num Abs Pl %AmbiguøsN @N<
 "<angisuut>"
-	"angisooq" N Abs Pl @N<
+	"angisooq" N Abs Pl %AmbiguøsN @N<
 "<,>"
 	"," CLB
 "<aamma>"
@@ -12867,7 +12869,7 @@
 "<suna>"
 	"suna" Gram/Int Pron Abs Sg @OBJ>
 "<Inuit Ataqatigiit>"
-	"Inuit Ataqatigiit" Prop Rel Pl @SUBJ>
+	"Inuit Ataqatigiit" Prop Rel Pl %AmbiguøsN @SUBJ>
 "<immikkoorutigineraat>"
 	"immikkoorutige" Gram/TV NIR Der/vv Gram/TV V Par 3Pl 3SgO @CL-<CIT
 "<.>"
@@ -12911,7 +12913,7 @@
 "<60>"
 	"60" Num Abs Sg @>N
 "<kilometerit>"
-	"kilometer" OLang/DAN Sem/Unit N Abs Pl %ContHypotagme @OBJ>
+	"kilometer" OLang/DAN Sem/Unit N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<sinnernagit>"
 	"sinner" Gram/TV V ContNeg 3PlO %ContHypotagme @ADVL>
 "<ingerlavoq>"
@@ -12946,9 +12948,9 @@
 "<neriorsuivoq>"
 	"neriorsor" Gram/TV HTR Der/vv Gram/IV V Ind 3Sg @PRED
 "<pilersaarutit>"
-	"pilersaar" Gram/IV UTE Der/vn N Abs Pl @OBJ>
+	"pilersaar" Gram/IV UTE Der/vn N Abs Pl %AmbiguøsN @OBJ>
 "<suliniutillu>"
-	"suli" Gram/IV NIUTE Der/vn Gram/Conj-encl N Abs Pl LU @OBJ>
+	"suli" Gram/IV NIUTE Der/vn Gram/Conj-encl N Abs Pl LU %AmbiguøsN @OBJ>
 "<kommunip>"
 	"kommune" OLang/DAN N Rel Sg @POSS>
 "<akuerisai>"
@@ -12956,7 +12958,7 @@
 "<piviusunngortinniarlugit>"
 	"piviu" Gram/IV TUQ Der/vn NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV NIAR Der/vv Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<isumasioqatigiit>"
-	"isuma" SIUR Der/nv Gram/IV QATE Der/vn GIIT Der/nn N Abs Pl @SUBJ>
+	"isuma" SIUR Der/nv Gram/IV QATE Der/vn GIIT Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<aningaasassaqartinneqassasut>"
 	"aningaasaq" SSAQ Der/nn QAR Der/nv Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV SSA Der/vv Gram/IV V Par 3Pl @CL-<CIT
 "<.>"
@@ -13002,7 +13004,7 @@
 "<Inatsisartunut>"
 	"Inatsisartut" Sem/Hum Prop Trm Pl @i-ADVL>
 "<ilaasortat>"
-	"ila" U Der/nv Gram/IV TUQ Der/vn TAQ Der/nn N Rel Pl @POSS>
+	"ila" U Der/nv Gram/IV TUQ Der/vn TAQ Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<innuttaasunik>"
 	"innuttaq" U Der/nv Gram/IV TUQ Der/vn N Ins Pl @i-MIK-OBJ>
 "<naapitsinissaminnut>"
@@ -13019,7 +13021,7 @@
 "<Inatsisartunut>"
 	"Inatsisartut" Sem/Hum Prop Trm Pl @i-ADVL>
 "<ilaasortat>"
-	"ila" U Der/nv Gram/IV TUQ Der/vn TAQ Der/nn N Abs Pl @SUBJ>
+	"ila" U Der/nv Gram/IV TUQ Der/vn TAQ Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<sulinerput>"
 	"sulineq" N Abs Sg 1PlPoss %ContHypotagme @OBJ>
 "<pillugu>"
@@ -13036,11 +13038,11 @@
 
 <sbwhcffDIXzByAkwwT4LTxvxrOOo-0>
 "<Meeqqat>"
-	"meeraq" N Abs Pl @OBJ>
+	"meeraq" N Abs Pl %AmbiguøsN @OBJ>
 "<qaqqamut>"
 	"qaqqaq" N Trm Sg @i-ADVL>
 "<majuartut>"
-	"majuar" Gram/IV TUQ Der/vn N Abs Pl %ContHypotagme @N<
+	"majuar" Gram/IV TUQ Der/vn N Abs Pl %ContHypotagme %AmbiguøsN @N<
 "<malillugit>"
 	"malip" Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<ingerlalerpoq>"
@@ -13063,13 +13065,13 @@
 
 <sbxQB7ZebQf8nAkKiJIN0YXYooCY-0>
 "<Piniartut>"
-	"piniar" Gram/IV TUQ Der/vn N Abs Pl @OBJ>
+	"piniar" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @OBJ>
 "<arlallit>"
-	"arlaq" LIK Der/nn N Abs Pl @N<
+	"arlaq" LIK Der/nn N Abs Pl %AmbiguøsN @N<
 "<qivittunik>"
 	"qivip" Gram/IV TUQ Der/vn N Ins Pl @i-MIK-OBJ>
 "<naammattoorsisimasut>"
-	"naammattoor" Gram/TV HTR Der/vv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"naammattoor" Gram/TV HTR Der/vv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<tusarnaartarpai>"
 	"tusarnaar" Gram/TV TAR Der/vv Gram/TV V Ind 3Sg 3PlO @PRED
 "<,>"
@@ -13116,7 +13118,7 @@
 "<Eriup>"
 	"Erik" Sem/Mask Sem/Hum Prop Rel Sg
 "<nammineq>"
-	"nammineq" Gram/Coref Pron Rel 4Pl Orth/Alt
+	"nammineq" Gram/Coref Pron Rel 4Pl Orth/Alt %AmbiguøsN
 "<matuersaateqarami>"
 	"matuersaat" QAR Der/nv Gram/IV V Cau 4Sg @CAU
 "<imminnut>"
@@ -13161,7 +13163,7 @@
 
 <sc4dp2fqXojVsa4lTopard0XIh9Q-0>
 "<Suut>"
-	"suna" Gram/Int Pron Abs Pl @>N
+	"suna" Gram/Int Pron Abs Pl %AmbiguøsN @>N
 "<tamaasa>"
 	"tamaq" N Gram/Cong Akk 3Pl @OBJ>
 "<puiortutut>"
@@ -13169,7 +13171,7 @@
 "<illugit>"
 	"ip" Gram/TV V Cont 3PlO @ADVL>
 "<aqissit>"
-	"aqisseq" N Abs Pl @OBJ>
+	"aqisseq" N Abs Pl %AmbiguøsN @OBJ>
 "<kisiisa>"
 	"kisi" N Gram/Cong Akk 3Pl @N<
 "<eqqarsaatigilerpai>"
@@ -13203,9 +13205,9 @@
 "<soqutiginngilaa>"
 	"soqutige" Gram/TV NNGIT Der/vv Gram/TV V Ind 3Sg 3SgO @PRED
 "<kalaallit>"
-	"kalaaleq" N Abs Pl @SUBJ>
+	"kalaaleq" N Abs Pl %AmbiguøsN @SUBJ>
 "<arnat>"
-	"arnaq" N Abs Pl @N<
+	"arnaq" N Abs Pl %AmbiguøsN @N<
 "<qanoq>"
 	"qanoq" Adv @ADVL>
 "<ikkaluarpata>"
@@ -13277,11 +13279,11 @@
 "<,>"
 	"," CLB
 "<nipilersuullu>"
-	"nipilersuut" Gram/Conj-encl N Abs Sg LU %ContHypotagme @OBJ>
+	"nipilersuut" Gram/Conj-encl N Abs Sg LU %ContHypotagme %AmbiguøsN @OBJ>
 "<ingiorlugu>"
 	"ingior" Gram/TV V Cont 3SgO %ContHypotagme @ADVL>
 "<ilaat>"
-	"ila" N Abs Pl 3PlPoss @SUBJ>
+	"ila" N Abs Pl 3PlPoss %AmbiguøsN @SUBJ>
 "<erinarsorujoortarput>"
 	"erinarsor" Gram/IV RUJUUR Der/vv TAR Der/vv Gram/IV V Ind 3Pl @PRED
 "<,>"
@@ -13313,7 +13315,7 @@
 "<ukiakkut>"
 	"ukiaq" N Via Sg @ADVL>
 "<Inatsisartut>"
-	"Inatsisartut" Sem/Hum Prop Abs Pl @SUBJ>
+	"Inatsisartut" Sem/Hum Prop Abs Pl %AmbiguøsN @SUBJ>
 "<ataatsimiimmata>"
 	"ataatsimiip" Gram/IV V Cau 3Pl @CAU
 "<oqaluuserineqarpoq>"
@@ -13381,7 +13383,7 @@
 "<,>"
 	"," CLB
 "<siulersuisut>"
-	"siulersor" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Rel Pl @POSS>
+	"siulersor" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<takusinnaasaat>"
 	"taku" Gram/TV SINNAA Der/vv Gram/TV TAQ Der/vn N Abs Sg 3PlPoss @SUBJ>
 "<tassaasoq>"
@@ -13389,9 +13391,9 @@
 "<Kalaallit Nunaanni>"
 	"Kalaallit Nunaat" Prop Lok Sg 3PlPoss @i-ADVL>N
 "<meeqqat>"
-	"meeraq" N Abs Pl @OBJ>
+	"meeraq" N Abs Pl %AmbiguøsN @OBJ>
 "<inuusuttullu>"
-	"inuusup" Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl LU %ContHypotagme @OBJ>
+	"inuusup" Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl LU %ContHypotagme %AmbiguøsN @OBJ>
 "<pillugit>"
 	"pi" Gram/TV V Cont 3PlO %ContHypotagme @i-ADVL>
 "<ilisimasaqarnermik>"
@@ -13430,16 +13432,16 @@
 "<Anituaraangami>"
 	"ani" Gram/IV TUAR Der/vv Gram/IV V IteCau 4Sg @CL-ADVL>
 "<atuagassiat>"
-	"atuagassiaq" N Abs Pl @OBJ>
+	"atuagassiaq" N Abs Pl %AmbiguøsN @OBJ>
 "<sapaatip>"
 	"sapaat" N Rel Sg @SUBJ>
 "<akunnikkuutaartumik>"
 	"akunneq" KKUT Der/nn U Der/nv Gram/IV TAAR Der/vv Gram/IV TUQ Der/vn N Ins Sg @ADVL>
 "<saqqummersartut>"
-	"saqqummer" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"saqqummer" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<ataasiinnaanngitsut>"
-	"ataaseq" INNAQ Der/nn U Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
-	"ataaseq" iNum INNAQ Der/nn U Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"ataaseq" INNAQ Der/nn U Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
+	"ataaseq" iNum INNAQ Der/nn U Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<pisiarisarpai>"
 	"pisiaq" GE Der/nv Gram/TV TAR Der/vv Gram/TV V Ind 3Sg 3PlO @PRED
 "<,>"
@@ -13502,15 +13504,15 @@
 
 <scd014VgRL6l9CWlf3IjKU5DjSQk-0>
 "<Ukiorpassuit>"
-	"ukioq" PAK Der/nn SUAQ Der/nn N Abs Pl @CL-ADVL>
+	"ukioq" PAK Der/nn SUAQ Der/nn N Abs Pl %AmbiguøsN @CL-ADVL>
 "<atuaqatigiissimapput>"
 	"atuar" Gram/HV QATIGIIP Der/vv Gram/Reci SIMA Der/vv Gram/IV V Ind 3Pl @PRED
 "<,>"
 	"," CLB
 "<ukiorpassuillu>"
-	"ukioq" PAK Der/nn SUAQ Der/nn Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"ukioq" PAK Der/nn SUAQ Der/nn Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<ullut>"
-	"ulloq" N Abs Pl @CL-ADVL>
+	"ulloq" N Abs Pl %AmbiguøsN @CL-ADVL>
 "<tamangajaasa>"
 	"tamaq" NGAJAK Der/nn N Gram/Cong Akk 3Pl @N<
 "<meeqqatulli>"
@@ -13546,8 +13548,8 @@
 "<Nanortaliliartarneq>"
 	"Nanortalik" Sem/Geo iProp LIAR Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn N Abs Sg @SUBJ>
 "<sikorsuit>"
-	"sikorsuaq" N Abs Pl %ContHypotagme @OBJ>
-	"siku" SUAQ Der/nn N Abs Pl %ContHypotagme @OBJ>
+	"sikorsuaq" N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
+	"siku" SUAQ Der/nn N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<pissutigalugit>"
 	"pissut" GE Der/nv Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<unitsitaavoq>"
@@ -13582,6 +13584,7 @@
 "<nalunaaqutarlu>"
 	"nalunaaqutaq" Gram/Conj-encl N Abs Sg LU @>N
 "<01.00-imut>"
+	"01.00" Err/Sub Num Trm Sg @ADVL>
 	"01.00" Num Trm Sg @ADVL>
 "<siuartinneqassalluni>"
 	"siuar" Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV SSA Der/vv Gram/IV V Cont 4Sg @PRED
@@ -13661,7 +13664,7 @@
 "<oqarpoq>"
 	"oqar" Gram/IV V Ind 3Sg @PRED
 "<kamiit>"
-	"kamik" N Abs Pl %ContHypotagme @OBJ>
+	"kamik" N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<akilerlugit>"
 	"akiler" Gram/TV V Cont 3PlO %ContHypotagme @CL-<CIT
 "<.>"
@@ -13705,15 +13708,15 @@
 "<Uummannami>"
 	"Uummannaq" Sem/Geo Prop Lok Sg @i-ADVL>
 "<piniartut>"
-	"piniar" Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
+	"piniar" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<–>"
 	"–" PUNCT
 "<Avannaani>"
 	"Avannaq" Orth/Copy Prop Lok Sg 3SgPoss Orth/Copy @i-ADVL>
 "<piniartut>"
-	"piniar" Gram/IV TUQ Der/vn N Abs Pl @OBJ>
+	"piniar" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @OBJ>
 "<amerlanerit>"
-	"amerla" Gram/IV NIQ Der/vn N Abs Pl %ContHypotagme @N<
+	"amerla" Gram/IV NIQ Der/vn N Abs Pl %ContHypotagme %AmbiguøsN @N<
 "<assigalugit>"
 	"assi" GE Der/nv Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<–>"
@@ -13723,7 +13726,7 @@
 "<amerlanerusunik>"
 	"amerla" Gram/IV NIRU Der/vv Gram/IV TUQ Der/vn N Ins Pl @ADVL>
 "<ukiut>"
-	"ukioq" N Rel Pl @POSS>
+	"ukioq" N Rel Pl %AmbiguøsN @POSS>
 "<siuliini>"
 	"siuleq" N Lok Pl 3PlPoss @ADVL>
 "<pisassinneqartaraluarput>"
@@ -13746,7 +13749,7 @@
 "<qernertanik>"
 	"qernertaq" N Ins Pl @>N
 "<qilalugartassiissutit>"
-	"qilalugartassiissut" N Abs Pl @SUBJ>
+	"qilalugartassiissut" N Abs Pl %AmbiguøsN @SUBJ>
 "<ikinnerujussuusariaqarsimapput>"
 	"ikip" Gram/IV NIQ Der/vn RUJUK Der/nn SUAQ Der/nn U Der/nv Gram/IV TARIAQAR Der/vv SIMA Der/vv Gram/IV V Ind 3Pl @PRED
 "<.>"
@@ -13757,7 +13760,7 @@
 "<„>"
 	"„" PUNCT LEFT DIRTALESTART
 "<Illit>"
-	"illit" Gram/Pers Pron Abs 2Sg @SUBJ>
+	"illit" Gram/Pers Pron Abs 2Sg %AmbiguøsN @SUBJ>
 "<tassa>"
 	"tassa" Adv @PRED
 "<meerapalaaq>"
@@ -13825,7 +13828,7 @@
 "<,>"
 	"," CLB DIRTALEMIDDLE
 "<ataata>"
-	"ataata" N Abs Sg @VOK
+	"ataata" N Abs Sg %AmbiguøsN @VOK
 "<,>"
 	"," CLB DIRTALESLUT DIRTALESLUT
 "<Emilie>"
@@ -13850,7 +13853,7 @@
 "<->"
 	"-" PUNCT DIRTALESTART
 "<Neriorsuuterpassuit>"
-	"neriorsor" UTE Der/vn PAK Der/nn SUAQ Der/nn N Abs Pl @SUBJ>
+	"neriorsor" UTE Der/vn PAK Der/nn SUAQ Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<pisarsimammata>"
 	"pi" Gram/IV TAR Der/vv Gram/IV SIMA Der/vv Gram/IV V Cau 3Pl @CAU
 "<atuarfiup>"
@@ -13950,19 +13953,19 @@
 
 <sduq3SeH85maSsFkx2VdgyaeRXwI-0>
 "<Puiaasat>"
-	"puiaq" USAQ Der/nn N Abs Pl @SUBJ>
+	"puiaq" USAQ Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<imaqanngitsut>"
-	"ima" QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"ima" QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<imallillu>"
-	"ima" LIK Der/nn Gram/Conj-encl N Abs Pl LU @N<
+	"ima" LIK Der/nn Gram/Conj-encl N Abs Pl LU %AmbiguøsN @N<
 "<,>"
 	"," CLB
 "<arsakoorfiillu>"
-	"arsakoor" Gram/IV VIK Der/vn Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"arsakoor" Gram/IV VIK Der/vn Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<cigaretikunik>"
 	"cigaret" OLang/DAN KUQ Der/nn N Ins Pl @i->N
 "<imallit>"
-	"ima" LIK Der/nn N Abs Pl @N<
+	"ima" LIK Der/nn N Abs Pl %AmbiguøsN @N<
 "<sumi>"
 	"suna" Gram/Int Pron Lok Sg @>N
 "<tamaaniipput>"
@@ -13984,7 +13987,7 @@
 
 <sdvXwTzM5dWwrCOdhXUep6jMhAxs-0>
 "<Inersimasut>"
-	"iner" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl @SUBJ>
+	"iner" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @SUBJ>
 "<siunnersorpaannga>"
 	"siunnersor" Gram/TV V Ind 3Pl 1SgO @PRED
 "<pulateriaarsunnik>"
@@ -14008,7 +14011,7 @@
 "<aalluteqquaat>"
 	"aallup" Gram/TV QQU Der/vv Gram/Db Gram/TV V Ind 3Pl 3SgO @PRED
 "<nunalerutit>"
-	"nunalerut" N Abs Pl @<OBJ
+	"nunalerut" N Abs Pl %AmbiguøsN @<OBJ
 "<,>"
 	"," CLB
 "<oqaluttuarisaaneq>"
@@ -14054,9 +14057,9 @@
 
 <sdy4OqIs4vEfAclKb3JNPaC0MuV4-0>
 "<Oqatsiartarnerilli>"
-	"oqar" Gram/IV TSIAR Der/vv TAR Der/vv Gram/IV NIQ Der/vn Gram/Conj-encl N Abs Pl LI @OBJ>
+	"oqar" Gram/IV TSIAR Der/vv TAR Der/vv Gram/IV NIQ Der/vn Gram/Conj-encl N Abs Pl LI %AmbiguøsN @OBJ>
 "<nalaatsornerinnaat>"
-	"nalaatsor" Gram/IV NIQ Der/vn INNAQ Der/nn N Abs Pl %ContHypotagme @N<
+	"nalaatsor" Gram/IV NIQ Der/vn INNAQ Der/nn N Abs Pl %ContHypotagme %AmbiguøsN @N<
 "<pissutigalugit>"
 	"pissut" GE Der/nv Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<kigaatsumik>"
@@ -14069,7 +14072,7 @@
 
 <se1sUxKiuxX8blhmo857kGd8b4LA-0>
 "<Ilaqutariit>"
-	"ilaqutaq" GIIT Der/nn N Abs Pl @SUBJ>
+	"ilaqutaq" GIIT Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<tamatuminnga>"
 	"manna" Prefix/TA Gram/Dem Pron Ins Sg @i-OBJ-DOTR>
 "<paasitinneqareersut>"
@@ -14077,7 +14080,7 @@
 "<Ilulissani>"
 	"Ilulissat" Sem/Geo Prop Lok Pl @ADVL>
 "<politiit>"
-	"politeeq" N Abs Pl @SUBJ>
+	"politeeq" N Abs Pl %AmbiguøsN @SUBJ>
 "<ilisimatitsipput>"
 	"ilisima" Gram/TV TIP Der/vv Gram/Db HTR Der/vv Gram/IV V Ind 3Pl @PRED
 "<.>"
@@ -14154,8 +14157,8 @@
 "<juunimi>"
 	"juuni" N Lok Sg @ADVL>
 "<akiligassat>"
-	"akiler" Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Pl @SUBJ>
-	"akiligaq" SSAQ Der/nn N Abs Pl @SUBJ>
+	"akiler" Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Pl %AmbiguøsN @SUBJ>
+	"akiligaq" SSAQ Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<juunimiit>"
 	"juuni" N Abl Sg @ADVL>
 "<decembarimut>"
@@ -14183,7 +14186,7 @@
 "<qanortoq>"
 	"qanoq" TUQ Der/nn Adv @ADVL>
 "<oqaatsit>"
-	"oqaaseq" N Abs Pl @OBJ>
+	"oqaaseq" N Abs Pl %AmbiguøsN @OBJ>
 "<taaku>"
 	"ta" Interj UKU @N<
 "<maleruarsigit>"
@@ -14235,17 +14238,17 @@
 "<ilumullimi>"
 	"ilumut" Adv LI MI @ADVL>
 "<inuusuttut>"
-	"inuusup" Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
+	"inuusup" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<ilittut>"
-	"ilip" Gram/IV TUQ Der/vn N Abs Pl @N<
+	"ilip" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<ittut>"
-	"ip" Gram/IV TUQ Der/vn N Abs Pl @N<
+	"ip" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<nunaqarfitsinni>"
 	"nuna" QAR Der/nv Gram/IV VIK Der/vn N Lok Sg 1PlPoss @ADVL>
 "<amerlanerugaluarpata>"
 	"amerla" Gram/IV NIRU Der/vv GALUAR Der/vv Gram/IV V Con 3Pl @CON
 "<navianartut>"
-	"navianartoq" N Abs Pl @SUBJ>
+	"navianartoq" N Abs Pl %AmbiguøsN @SUBJ>
 "<aamma>"
 	"aamma" Adv @ADVL>
 "<ikinnerusimassagaluarput>"
@@ -14335,7 +14338,7 @@
 
 <seeTVxuIMxIQYsrtayxfIzzK2Nmw-0>
 "<Inuusuttut>"
-	"inuusup" Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
+	"inuusup" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<Mikkelimi>"
 	"Mikkel" Sem/Mask Sem/Hum Prop Lok Sg @ADVL>
 "<festertorsuupput>"
@@ -14371,9 +14374,9 @@
 
 <sepFT3xMgFDQ0dBe5CWlHSIzlVVk-0>
 "<Paasissutissiisarsimanerit>"
-	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Abs Pl @OBJ>
+	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Abs Pl %AmbiguøsN @OBJ>
 "<kukkusut>"
-	"kukku" Gram/IV TUQ Der/vn N Abs Pl %ContHypotagme @N<
+	"kukku" Gram/IV TUQ Der/vn N Abs Pl %ContHypotagme %AmbiguøsN @N<
 "<pissutigalugit>"
 	"pissut" GE Der/nv Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<,>"
@@ -14383,13 +14386,13 @@
 "<Eidesgaard>"
 	"Eidesgaard" Sem/Hum Err/YouthSubj Prop Abs Sg @SUBJ>
 "<nunat>"
-	"nuna" N Abs Pl @OBJ>
+	"nuna" N Abs Pl %AmbiguøsN @OBJ>
 "<tamalaat>"
-	"tamalaaq" N Abs Pl @N<
+	"tamalaaq" N Abs Pl %AmbiguøsN @N<
 "<paasitikkusuppai>"
 	"paasi" Gram/TV TIP Der/vv Gram/Db GUSUP Der/vv Gram/TV V Ind 3Sg 3PlO @PRED
 "<Savalimmiormiut>"
-	"Savalimmiut" Sem/Geo iProp MIU Der/nn N Abs Pl @SUBJ>
+	"Savalimmiut" Sem/Geo iProp MIU Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<allanik>"
 	"alla" N Ins Pl @ADVL>
 "<eqqarsaatersortuusut>"
@@ -14404,7 +14407,7 @@
 "<Isumaqarpugut>"
 	"isuma" QAR Der/nv Gram/IV V Ind 1Pl @PRED
 "<Naalakkersuisut>"
-	"Naalakkersuisut" Sem/Hum Prop Abs Pl @SUBJ>
+	"Naalakkersuisut" Sem/Hum Prop Abs Pl %AmbiguøsN @SUBJ>
 "<paasissutissanik>"
 	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSAQ Der/nn N Ins Pl @MIK-OBJ>
 "<isertuussingaarmata>"
@@ -14414,9 +14417,9 @@
 "<allaanngilaq>"
 	"alla" U Der/nv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Sg @PRED
 "<inuiaqatigiit>"
-	"inuiaqat" GIIT Der/nn N Abs Pl @i-N<
+	"inuiaqat" GIIT Der/nn N Abs Pl %AmbiguøsN @i-N<
 "<kalaallit>"
-	"kalaaleq" N Abs Pl @N<
+	"kalaaleq" N Abs Pl %AmbiguøsN @N<
 "<aamma>"
 	"aamma" Adv @ADVL>
 "<Greenpeacekkormiuusut>"
@@ -14444,7 +14447,7 @@
 "<nunatsinni>"
 	"nuna" N Lok Sg 1PlPoss @ADVL>
 "<qilalugartassiissutit>"
-	"qilalugartassiissut" N Abs Pl @SUBJ>
+	"qilalugartassiissut" N Abs Pl %AmbiguøsN @SUBJ>
 "<700-nik>"
 	"700" Num Ins Pl @i->N
 "<amerlassuseqarput>"
@@ -14452,7 +14455,7 @@
 "<,>"
 	"," CLB
 "<ilisimatuut>"
-	"ilisima" Gram/TV Gram/Refl Gram/IV TUUQ Der/vn N Rel Pl @SUBJ>
+	"ilisima" Gram/TV Gram/Refl Gram/IV TUUQ Der/vn N Rel Pl %AmbiguøsN @SUBJ>
 "<135-nik>"
 	"135" Num Ins Pl @i->N
 "<pisaqartoqartarnissaa>"
@@ -14464,7 +14467,7 @@
 "<massakkullu>"
 	"massakkut" Gram/Conj-encl Adv LU @ADVL>
 "<pisassat>"
-	"pi" Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Pl @SUBJ>
+	"pi" Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<ukiumut>"
 	"ukioq" N Trm Sg @>N
 "<300-nik>"
@@ -14489,7 +14492,7 @@
 "<aamma>"
 	"aamma" Conj @CONJ
 "<wienerbrødit>"
-	"wienerbrød" OLang/DAN OLang/DAN N Abs Pl @i-N<
+	"wienerbrød" OLang/DAN OLang/DAN N Abs Pl %AmbiguøsN @i-N<
 "<.>"
 	"." CLB
 </s>
@@ -14531,7 +14534,7 @@
 
 <sf1ONxcVt1PJVswETrbdeRqmNLB4-0>
 "<Tuluit>"
-	"tuluk" N Rel Pl @SUBJ>
+	"tuluk" N Rel Pl %AmbiguøsN @SUBJ>
 "<paniga>"
 	"panik" N Abs Sg 1SgPoss @OBJ>
 "<Nuummi>"
@@ -14686,7 +14689,7 @@
 
 <sf942R7ceTEkFydVAOpPcnkMAHoc-0>
 "<Ilaqutariimmi>"
-	"ilaqutaq" GIIT Der/nn N Abs Pl MI @SUBJ>
+	"ilaqutaq" GIIT Der/nn N Abs Pl MI %AmbiguøsN @SUBJ>
 "<maanna>"
 	"maanna" Adv @ADVL>
 "<ilapput>"
@@ -14714,9 +14717,9 @@
 
 <sfHrNP74jhSmMOozZ4BeGnPdGW3k-0>
 "<Tamakkuli>"
-	"manna" Prefix/TA Gram/Dem Gram/Conj-encl Pron Rel Pl LI @SUBJ>
+	"manna" Prefix/TA Gram/Dem Gram/Conj-encl Pron Rel Pl LI %AmbiguøsN @SUBJ>
 "<isiginngitsutut>"
-	"isige" Gram/TV NNGIT Der/vv Gram/TV TUQ Der/vn N Aeq Sg @ADVL>
+	"isige" Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Aeq Sg @ADVL>
 "<ippaat>"
 	"ip" Gram/TV V Ind 3Pl 3SgO @PRED
 </s>
@@ -14749,7 +14752,7 @@
 "<nioqqutaalernissaanik>"
 	"nioqqutaa" Gram/IV LIR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Ins Sg 3SgPoss @i-MIK-OBJ>
 "<illersuisut>"
-	"illersor" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
+	"illersor" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<isumaqarsimagaluarput>"
 	"isuma" QAR Der/nv Gram/IV SIMA Der/vv GALUAR Der/vv Gram/IV V Ind 3Pl @PRED
 "<…>"
@@ -14760,9 +14763,9 @@
 "<->"
 	"-" PUNCT DIRTALESTART
 "<Sanasut>"
-	"sana" Gram/HV Gram/IV TUQ Der/vn N Rel Pl @POSS>
+	"sana" Gram/HV Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<ilaat>"
-	"ila" N Abs Sg 3PlPoss @SUBJ>
+	"ila" N Abs Sg 3PlPoss %AmbiguøsN @SUBJ>
 "<umiarsualiviup>"
 	"umiarsualivik" N Rel Sg @POSS>
 "<eqqaani>"
@@ -14776,7 +14779,7 @@
 "<saviminermik>"
 	"savik" MINIQ Der/nn N Ins Sg @MIK-OBJ>
 "<ujaqqat>"
-	"ujarak" N Rel Pl @i-POSS>
+	"ujarak" N Rel Pl %AmbiguøsN @i-POSS>
 "<akornanniittumik>"
 	"akunneq" N Lok Sg 3PlPoss Hyb/1-2 @i-ADVL>
 "<ittumik>"
@@ -14893,7 +14896,7 @@
 "<soorlu>"
 	"soorlu" Pali @FOC>N
 "<silamiut>"
-	"silamiu" N Rel Pl @POSS>
+	"silamiu" N Abs Pl %AmbiguøsN @N<
 "<ingerlaasiannik>"
 	"ingerlaaseq" N Ins Sg 3PlPoss @i-ADVL>N
 "<oqaluttuarisani>"
@@ -14908,7 +14911,7 @@
 
 <sfbwo6wzeoiViycoV4DUMartx4vk-0>
 "<Siumukkormiut>"
-	"Siumut" Sem/Hum KKUT Der/nn MIU Der/nn N Rel Pl @POSS>
+	"Siumut" Sem/Hum KKUT Der/nn MIU Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<ippassaq>"
 	"ippassaq" Pali @i-ADVL>
 "<unnukkut>"
@@ -14945,15 +14948,15 @@
 "<“>"
 	"“" PUNCT LEFT
 "<Manniit>"
-	"mannik" N Abs Pl
+	"mannik" N Abs Pl %AmbiguøsN
 "<arfinillit>"
-	"arfinillit" Num Abs Pl @N<
+	"arfinillit" Num Abs Pl %AmbiguøsN @N<
 "<,>"
 	"," CLB
 "<aana>"
 	"una" Prefix/AA Gram/Dem Pron Abs Sg @FOC
 "<akissat>"
-	"aki" SSAQ Der/nn N Abs Pl @<SUBJ
+	"aki" SSAQ Der/nn N Abs Pl %AmbiguøsN @<SUBJ
 "<,>"
 	"," CLB
 "<ilinnut>"
@@ -14974,7 +14977,7 @@
 "<tusind>"
 	"tusind" Num Abs Sg @>N
 "<kronit>"
-	"krone" OLang/DAN Sem/Unit N Abs Pl %ContHypotagme @OBJ>
+	"krone" OLang/DAN Sem/Unit N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<sinnerlugit>"
 	"sinner" Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<iluanaarutaavoq>"
@@ -15002,9 +15005,9 @@
 
 <sflBCHWnwwiBPGRxZN9B0cmBiKBI-0>
 "<Tipigissaatit>"
-	"tipigissaat" N Abs Pl @SUBJ>
+	"tipigissaat" N Abs Pl %AmbiguøsN @SUBJ>
 "<ilisimaneqarluartut>"
-	"ilisima" Gram/TV NIQAR Der/vv Gram/IV LLUAR Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"ilisima" Gram/TV NIQAR Der/vv Gram/IV LLUAR Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<akoorutissanik>"
 	"akoor" Gram/IV UTE Der/vn SSAQ Der/nn N Ins Pl @ADVL>
 	"akoor" UTE Der/vn SSAQ Der/nn N Ins Pl @ADVL>
@@ -15058,7 +15061,7 @@
 
 <sfojRQMIZZ4jpNx6wqOxm5eqD3bk-0>
 "<sioraasat>"
-	"sioraasaq" N Abs Pl @SUBJ>
+	"sioraasaq" N Abs Pl %AmbiguøsN @SUBJ>
 "<et>"
 	"et" Num Abs Pl @>N
 "<kiilu>"
@@ -15076,7 +15079,7 @@
 	"naaq" TU Der/nv Gram/IV V Cont 4Sg @ADVL>
 	"naartu" Gram/IV V Cont 4Sg @ADVL>
 "<qaammatit>"
-	"qaammat" N Abs Pl @OBJ>
+	"qaammat" N Abs Pl %AmbiguøsN @OBJ>
 "<tallimanngulerpai>"
 	"tallimaq" Gram/Ord NNGUR Der/nv Gram/TV LIR Der/vv Gram/TV V Ind 3Sg 3PlO @PRED
 "<.>"
@@ -15096,7 +15099,7 @@
 
 <sg3ZnV7iwFiJ2wZ0JwxQCxK8nJQc-0>
 "<Demokraatit>"
-	"Demokraatit" Sem/Hum Prop Abs Pl @SUBJ>
+	"Demokraatit" Sem/Hum Prop Abs Pl %AmbiguøsN @SUBJ>
 "<partiitut>"
 	"parti" OLang/DAN N Aeq Sg @ADVL>
 "<nutaatut>"
@@ -15116,9 +15119,9 @@
 "<,>"
 	"," CLB
 "<Siumukkut>"
-	"Siumut" Sem/Hum KKUT Der/nn Prop Rel Pl @POSS>
+	"Siumut" Sem/Hum KKUT Der/nn Prop Rel Pl %AmbiguøsN @POSS>
 "<Inuit Ataqatigiillu>"
-	"Inuit Ataqatigiit" Gram/Conj-encl Prop Rel Pl LU @POSS>
+	"Inuit Ataqatigiit" Gram/Conj-encl Prop Rel Pl LU %AmbiguøsN @POSS>
 "<inissisimanerat>"
 	"inissisima" Gram/IV NIQ Der/vn N Abs Sg 3PlPoss @OBJ>
 "<innarlinngilaat>"
@@ -15160,7 +15163,7 @@
 "<Emiliep>"
 	"Emilie" Sem/Fem Sem/Hum Prop Rel Sg @SUBJ>
 "<tamakku>"
-	"manna" Prefix/TA Gram/Dem Pron Abs Pl @OBJ>
+	"manna" Prefix/TA Gram/Dem Pron Abs Pl %AmbiguøsN @OBJ>
 "<isumaliutigiuartarai>"
 	"isuma" LIR Der/nv Gram/IV UTE Der/vn GE Der/nv Gram/TV TUAR Der/vv TAR Der/vv Gram/TV V Par 3Sg 3PlO @CL-<CIT
 "<.>"
@@ -15169,9 +15172,9 @@
 
 <sgAC0GKuJWgZ3zSYxQD8QONa0HJk-0>
 "<Nunat>"
-	"Nuna" Orth/Copy Prop Abs Pl Orth/Copy @PROP>
+	"Nuna" Orth/Copy Prop Abs Pl %AmbiguøsN Orth/Copy @PROP>
 "<Avannarliit>"
-	"Avannarleq" Orth/Copy Prop Abs Pl Orth/Copy @HNOUN
+	"Avannarleq" Orth/Copy Prop Abs Pl %AmbiguøsN Orth/Copy @HNOUN
 "<.>"
 	"." CLB
 </s>
@@ -15194,7 +15197,7 @@
 "<Ammerivia>"
 	"Ammerivik" Orth/Copy Prop Abs Sg 3SgPoss Orth/Copy @SUBJ>
 "<puisit>"
-	"puisi" N Rel Pl @POSS>
+	"puisi" N Rel Pl %AmbiguøsN @POSS>
 "<amiinik>"
 	"ameq" N Ins Pl 3PlPoss @MIK-OBJ>
 "<amerlasuunik>"
@@ -15206,12 +15209,12 @@
 "<siornami>"
 	"siorna" Pali MI @ADVL>
 "<puisit>"
-	"puisi" N Rel Pl @POSS>
+	"puisi" N Rel Pl %AmbiguøsN @POSS>
 "<amii>"
 	"ameq" N Abs Pl 3PlPoss @OBJ>
 "<80.000-t>"
-	"80.000" Err/Sub Num Abs Pl @N<
-	"80.000" Num Abs Pl @N<
+	"80.000" Err/Sub Num Abs Pl %AmbiguøsN @N<
+	"80.000" Num Abs Pl %AmbiguøsN @N<
 "<pisiarisimavai>"
 	"pisiaq" GE Der/nv Gram/TV SIMA Der/vv Gram/TV V Ind 3Sg 3PlO @PRED
 "<,>"
@@ -15219,8 +15222,8 @@
 "<naak>"
 	"naak" Conj @CONJ
 "<120.000-t>"
-	"120.000" Err/Sub Num Abs Pl %ContHypotagme @OBJ>
-	"120.000" Num Abs Pl %ContHypotagme @OBJ>
+	"120.000" Err/Sub Num Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
+	"120.000" Num Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<pisiarisinnaagaluarlugit>"
 	"pisiaq" GE Der/nv Gram/TV SINNAA Der/vv GALUAR Der/vv Gram/TV V Cont 3PlO %ContHypotagme @PRED
 "<.>"
@@ -15287,8 +15290,8 @@
 "<oqallitsitsilluni>"
 	"oqallip" Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV V Cont 4Sg @i-ADVL>
 "<aallakaatitassiaa>"
-	"aallar" Gram/IV KAA Der/vv TIP Der/vv Gram/TV TAQ Der/vn SSIAQ Der/nn N Abs Sg 3SgPoss @SUBJ>
-	"aallar" KAA Der/vv TIP Der/vv Gram/TV TAQ Der/vn SSIAQ Der/nn N Abs Sg 3SgPoss @SUBJ>
+	"aallar" Gram/IV KAA Der/vv TIP Der/vv Gram/TV TAQ Der/vn SSIAQ Der/nn N Abs Sg 3SgPoss %AmbiguøsN @SUBJ>
+	"aallar" KAA Der/vv TIP Der/vv Gram/TV TAQ Der/vn SSIAQ Der/nn N Abs Sg 3SgPoss %AmbiguøsN @SUBJ>
 "<,>"
 	"," CLB
 "<KNR1-imi>"
@@ -15460,17 +15463,17 @@
 "<->"
 	"-" PUNCT DIRTALESTART
 "<Avataarsualiartartut>"
-	"Avataaq" Dial/Vgr Sem/Mask Sem/Hum SUAQ Der/nn LIAR Der/nv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Rel Pl @POSS>
+	"Avataaq" Dial/Vgr Sem/Mask Sem/Hum SUAQ Der/nn LIAR Der/nv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<Amerikameersut>"
 	"Amerika" Sem/Geo Prop Abl Sg Hyb/1-2 @i-ADVL>
 "<IR>"
-	"IR" Gram/IV TUQ Der/vn N Rel Pl Hyb/2-2 @N<
+	"IR" Gram/IV TUQ Der/vn N Rel Pl Hyb/2-2 %AmbiguøsN @N<
 "<Qaammammut>"
 	"Qaammat" Orth/Copy Prop Trm Sg Orth/Copy @i-ADVL>
 "<ukiut>"
-	"ukioq" N Rel Pl @POSS>
+	"ukioq" N Rel Pl %AmbiguøsN @POSS>
 "<tallimat>"
-	"tallimat" Num Rel Pl @N<
+	"tallimat" Num Rel Pl %AmbiguøsN @N<
 "<ingerlannginnerini>"
 	"ingerla" Gram/IV NNGIT Der/vv Gram/IV NIQ Der/vn N Lok Pl 3PlPoss @i-ADVL>
 "<uternissaat>"
@@ -15537,9 +15540,9 @@
 "<qanga>"
 	"qanga" Adv @CL-ADVL>
 "<qulliit>"
-	"qulleq" N Abs Pl @OBJ>
+	"qulleq" N Abs Pl %AmbiguøsN @OBJ>
 "<ukkusissat>"
-	"ukkusissaq" N Abs Pl Abs @N<
+	"ukkusissaq" N Abs Pl %AmbiguøsN Abs @N<
 "<qaammaqqutigaat>"
 	"qaammaqqut" GE Der/nv Gram/TV V Ind 3Pl 3PlO @PRED
 "<.>"
@@ -15577,7 +15580,7 @@
 "<,>"
 	"," CLB
 "<eqqartuussisut>"
-	"eqqartuup" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Rel Pl @SUBJ>
+	"eqqartuup" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @SUBJ>
 "<Britney>"
 	"Britney" Sem/Fem Sem/Hum Prop Abs Sg @PROP>
 "<Spears>"
@@ -15640,15 +15643,15 @@
 
 <sh7VcOi92xKDlyNHMCIk6RQllKEE-0>
 "<qeqertat>"
-	"qeqertaq" N Abs Pl @SUBJ>
+	"qeqertaq" N Abs Pl %AmbiguøsN @SUBJ>
 "<saneqqutilikkavut>"
 	"saneqqup" Gram/TV LIR Der/vv Gram/TV TAQ Der/vn N Abs Pl 1PlPoss @N<
 "<ateqarput>"
 	"ateq" QAR Der/nv Gram/IV V Ind 3Pl @PRED
 "<Killiit>"
-	"Killeq" Orth/Copy Prop Abs Pl Orth/Copy @i-N<
-	"Killik" Orth/Alt Orth/Copy Prop Abs Pl Orth/Copy @i-N<
-	"Killik" Orth/Copy Prop Abs Pl Orth/Copy @i-N<
+	"Killeq" Orth/Copy Prop Abs Pl %AmbiguøsN Orth/Copy @i-N<
+	"Killik" Orth/Alt Orth/Copy Prop Abs Pl %AmbiguøsN Orth/Copy @i-N<
+	"Killik" Orth/Copy Prop Abs Pl %AmbiguøsN Orth/Copy @i-N<
 "<.>"
 	"." CLB
 </s>
@@ -15771,26 +15774,26 @@
 
 <shRmQ8ngscKylCZqyaLxVozgVpto-0>
 "<Angallateeqqat>"
-	"angallat" ARAQ Der/nn N Abs Pl @SUBJ>
+	"angallat" ARAQ Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<kutterillu>"
-	"kutter" OLang/DAN Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"kutter" OLang/DAN Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<usingianngikkunik>"
 	"usingiar" Gram/IV NNGIT Der/vv Gram/IV V Con 4Pl @i-ADVL>
 "<usilersortut>"
-	"useq" LIRSUR Der/nv Gram/IV TUQ Der/vn N Abs Pl @N<
-	"usilersortoq" N Abs Pl @SUBJ>
+	"useq" LIRSUR Der/nv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
+	"usilersortoq" N Abs Pl %AmbiguøsN @SUBJ>
 "<takussaapput>"
 	"takussaa" Gram/IV V Ind 3Pl @PRED
 "<,>"
 	"," CLB
 "<karsillu>"
-	"karsi" Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"karsi" Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<aalisakkanik>"
 	"aalisagaq" N Ins Pl @i->N
 "<sikulersukkanik>"
 	"siku" LIRSUR Der/nv Gram/TV TAQ Der/vn N Ins Pl @N<
 "<imallit>"
-	"ima" LIK Der/nn N Abs Pl @N<
+	"ima" LIK Der/nn N Abs Pl %AmbiguøsN @N<
 "<truckimik>"
 	"truck" OLang/DAN N Ins Sg @ADVL>
 "<assartorneqarput>"
@@ -15866,7 +15869,7 @@
 "<,>"
 	"," CLB
 "<tamakku>"
-	"manna" Prefix/TA Gram/Dem Pron Abs Pl
+	"manna" Prefix/TA Gram/Dem Pron Abs Pl %AmbiguøsN
 "<aliikkutarisartakkani>"
 	"aliikkutaq" GE Der/nv Gram/TV TAR Der/vv TAR Der/vv Gram/TV TAQ Der/vn N Abs Pl 4SgPoss %ContHypotagme @OBJ>
 "<soqutigiunnaartarlugit>"
@@ -15888,7 +15891,7 @@
 "<nalunngilat>"
 	"nalu" Gram/TV NNGIT Der/vv Gram/TV V Ind 2Sg 3SgO @PRED
 "<uanga>"
-	"uanga" Gram/Pers Pron Abs 1Sg @SUBJ>
+	"uanga" Gram/Pers Pron Abs 1Sg %AmbiguøsN @SUBJ>
 "<qallunaajusunga>"
 	"qallunaaq" U Der/nv Gram/IV V Par 1Sg @CL-<CIT
 "<.>"
@@ -15904,7 +15907,7 @@
 
 <shf9u3wFQgxEViycx9EDndZ1VvLY-0>
 "<Uanga>"
-	"uanga" Gram/Pers Pron Abs 1Sg @SUBJ>
+	"uanga" Gram/Pers Pron Abs 1Sg %AmbiguøsN @SUBJ>
 "<Najannguarlu>"
 	"Najannguaq" Dial/Vgr Sem/Fem Sem/Hum Gram/Conj-encl Prop Abs Sg LU @SUBJ>
 "<16-iani>"
@@ -15988,8 +15991,8 @@
 "<Tassami>"
 	"tassa" Adv MI @CL-ADVL>
 "<assiliissutit>"
-	"asseq" LIR Der/nv Gram/TV HTR Der/vv Gram/IV UTE Der/vn N Abs Pl @SUBJ>
-	"assi" LIR Der/nv Gram/TV HTR Der/vv Gram/IV UTE Der/vn N Abs Pl @SUBJ>
+	"asseq" LIR Der/nv Gram/TV HTR Der/vv Gram/IV UTE Der/vn N Abs Pl %AmbiguøsN @SUBJ>
+	"assi" LIR Der/nv Gram/TV HTR Der/vv Gram/IV UTE Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<tamani>"
 	"tamaq" N Gram/Cong Lok Pl @ADVL>
 "<tamaani>"
@@ -16027,9 +16030,9 @@
 "<->"
 	"-" PUNCT DIRTALESTART
 "<Ilissimiuku>"
-	"illit" Gram/Pers Pron Rel 2Pl MI UKU @POSS>
+	"illit" Gram/Pers Pron Rel 2Pl MI UKU %AmbiguøsN @POSS>
 "<tamakku>"
-	"manna" Prefix/TA Gram/Dem Pron Abs Pl @Pron>N
+	"manna" Prefix/TA Gram/Dem Pron Abs Pl %AmbiguøsN @Pron>N
 "<isumagisassasi>"
 	"isumage" Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Pl 2PlPoss @N<
 "<!>"
@@ -16046,9 +16049,9 @@
 "<,>"
 	"," CLB
 "<meeqqat>"
-	"meeraq" N Rel Pl @SUBJ>
+	"meeraq" N Rel Pl %AmbiguøsN @SUBJ>
 "<amerlanerit>"
-	"amerla" Gram/IV NIQ Der/vn N Rel Pl @N<
+	"amerla" Gram/IV NIQ Der/vn N Rel Pl %AmbiguøsN @N<
 "<qinngasaarunneq>"
 	"qinngasaarup" Gram/IV NIQ Der/vn N Abs Sg @OBJ>
 "<annertuumik>"
@@ -16061,7 +16064,7 @@
 
 <shu5TbicfHBzv77GgKQ1GEGzDFx0-0>
 "<Ilaat>"
-	"ila" N Abs Pl 3PlPoss @SUBJ>
+	"ila" N Abs Pl 3PlPoss %AmbiguøsN @SUBJ>
 "<erinarsorujuujutigalutik>"
 	"erinarsor" Gram/IV RUJUUR Der/vv UTIGE Der/vv Gram/IV V Cont 4Pl @ADVL>
 "<niperujuujutigalutilluunniit>"
@@ -16071,7 +16074,7 @@
 "<,>"
 	"," CLB
 "<ilaat>"
-	"ila" N Abs Pl 3PlPoss @SUBJ>
+	"ila" N Abs Pl 3PlPoss %AmbiguøsN @SUBJ>
 "<quianartunik>"
 	"quianar" Gram/IV TUQ Der/vn N Ins Pl @ADVL>
 "<oqaluttuuteqattaajutigalutik>"
@@ -16158,11 +16161,11 @@
 "<Ullumikkut>"
 	"ullumikkut" Adv @i-ADVL>N
 "<kalaallit>"
-	"kalaaleq" N Abs Pl @OBJ>
+	"kalaaleq" N Abs Pl %AmbiguøsN @OBJ>
 "<akuttat>"
-	"akutaq" N Abs Pl @N<
+	"akutaq" N Abs Pl %AmbiguøsN @N<
 "<pinnersut>"
-	"pinner" Gram/IV TUQ Der/vn N Abs Pl @N<
+	"pinner" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<assigai>"
 	"assi" GE Der/nv Gram/TV V Ind 3Sg 3PlO @PRED
 "<,>"
@@ -16170,7 +16173,7 @@
 "<immaqaluunniit>"
 	"immaqa" Gram/Conj-encl Adv LUUNNIIT @i-ADVL>
 "<pinnernerpaat>"
-	"pinner" Gram/IV NIRPAAQ Der/vn N Abs Pl @N<
+	"pinner" Gram/IV NIRPAAQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<.>"
 	"." CLB
 </s>
@@ -16327,7 +16330,7 @@
 
 <siRobelLobfscSBIRmRHqkY4maoI-0>
 "<aningaasat>"
-	"aningaasaq" N Abs Pl @OBJ>
+	"aningaasaq" N Abs Pl %AmbiguøsN @OBJ>
 "<Uulimut>"
 	"Uuli" Sem/Mask Sem/Hum Prop Trm Sg @ADVL>
 "<tunniuppakka>"
@@ -16389,9 +16392,9 @@
 "<tiitorfitik>"
 	"tiitorfik" N Abs Pl 4PlPoss @NIQ_OBJ>
 "<kusanartut>"
-	"kusanar" Gram/IV TUQ Der/vn N Abs Pl @N<
+	"kusanar" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<allagissaaqisullu>"
-	"alla" GISSAAR Der/nv Gram/IV QE Der/vv Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl LU @N<
+	"alla" GISSAAR Der/nv Gram/IV QE Der/vv Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl LU %AmbiguøsN @N<
 "<aserorumannginnermit>"
 	"aseror" Gram/TV GUMA Der/vv NNGIT Der/vv Gram/TV NIQ Der/vn N Abl Sg @CL-<ADVL
 "<,>"
@@ -16466,11 +16469,11 @@
 "<ukioqalernermini>"
 	"ukioq" QAR Der/nv Gram/IV LIR Der/vv Gram/IV NIQ Der/vn N Lok Sg 4SgPoss @ADVL>
 "<kalaallit>"
-	"kalaaleq" N Rel Pl @POSS>
+	"kalaaleq" N Rel Pl %AmbiguøsN @POSS>
 "<tungaannut>"
 	"tunge" N Trm Sg 3PlPoss @i-ADVL>N
 "<isumaa>"
-	"isuma" N Abs Sg 3SgPoss @SUBJ>
+	"isuma" N Abs Sg 3SgPoss %AmbiguøsN @SUBJ>
 "<allanngorsimavoq>"
 	"alla" NNGUR Der/nv Gram/IV SIMA Der/vv Gram/IV V Ind 3Sg @PRED
 "<.>"
@@ -16503,9 +16506,9 @@
 "<atatillugu>"
 	"ata" Gram/IV TIP Der/vv Gram/TV V Cont 3SgO @ADVL>
 "<inuit>"
-	"inuk" N Abs Pl @SUBJ>
+	"inuk" N Abs Pl %AmbiguøsN @SUBJ>
 "<arlallit>"
-	"arlaq" LIK Der/nn N Abs Pl @N<
+	"arlaq" LIK Der/nn N Abs Pl %AmbiguøsN @N<
 "<tigusaareerput>"
 	"tigu" Gram/TV TAQ Der/vn U Der/nv Gram/IV RIIR Der/vv Gram/IV V Ind 3Pl @PRED
 "<,>"
@@ -16550,13 +16553,13 @@
 
 <sikC2U3qV8ABxThGnDTygqOwekFg-0>
 "<Politiit>"
-	"politeeq" N Rel Pl @SUBJ>
+	"politeeq" N Rel Pl %AmbiguøsN @SUBJ>
 "<inuinnarnik>"
 	"inuk" INNAQ Der/nn N Ins Pl @i->N
 "<ikiorteqarlutik>"
 	"ikior" Gram/TV TE Der/vn QAR Der/nv Gram/IV V Cont 4Pl @ADVL>
 "<ujarlersut>"
-	"ujarlersoq" N Rel Pl @SUBJ>
+	"ujarlersoq" N Rel Pl %AmbiguøsN @SUBJ>
 "<tasersuup>"
 	"tasersuaq" N Rel Sg @i-POSS>
 "<illoqarfiup>"
@@ -16666,11 +16669,11 @@
 
 <siyxcjKoCAiDDKw0RRhcNbyQfNz4-0>
 "<Eqqakkat>"
-	"eqqar" Gram/TV TAQ Der/vn N Abs Pl @SUBJ>
+	"eqqar" Gram/TV TAQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<Paamiuneersut>"
 	"Paamiut" Sem/Geo Prop Abl Pl Hyb/1-2 @i-ADVL>
 "<IR>"
-	"IR" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 @N<
+	"IR" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 %AmbiguøsN @N<
 "<Nuummuinnaq>"
 	"Nuuk" Sem/Geo iProp iTrm iSg INNAQ Pali @i-ADVL>
 "<ingerlanneqarneq>"
@@ -16692,7 +16695,7 @@
 
 <sizeBPJc8rx6O60LWUcG9ZQNUQbA-0>
 "<Apeqqutit>"
-	"apeqqut" N Abs Pl @OBJ>
+	"apeqqut" N Abs Pl %AmbiguøsN @OBJ>
 "<akinngisaannarpai>"
 	"aki" Gram/TV NNGIT Der/vv TAR Der/vv INNAR Der/vv Gram/TV V Ind 3Sg 3PlO @PRED
 "<,>"
@@ -16730,7 +16733,7 @@
 "<,>"
 	"," CLB
 "<illimmi>"
-	"illit" Gram/Pers Pron Abs 2Sg MI @SUBJ>
+	"illit" Gram/Pers Pron Abs 2Sg MI %AmbiguøsN @SUBJ>
 "<aamma>"
 	"aamma" Adv @ADVL>
 	"aamma" Conj @CONJ
@@ -16741,7 +16744,7 @@
 "<,>"
 	"," CLB
 "<bussi>"
-	"bussi" N Abs Sg @SUBJ>
+	"bussi" N Abs Sg %AmbiguøsN @SUBJ>
 "<linia>"
 	"linie" OLang/DAN N Abs Sg @N<
 "<19>"
@@ -16775,7 +16778,7 @@
 "<aggersuni>"
 	"agger" Gram/IV TUQ Der/vn N Lok Pl @N<
 "<festeqattaarnissat>"
-	"fest" OLang/DAN R Der/nv Gram/IV QATTAAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Rel Pl @POSS>
+	"fest" OLang/DAN R Der/nv Gram/IV QATTAAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<siullersaat>"
 	"siu" LLIQ Der/nn TAQ Der/nn N Abs Sg 3PlPoss @HNOUN
 "<.>"
@@ -16842,7 +16845,7 @@
 
 <sjRSkPzBdA0E8lnOpZy0RZpIXio4-0>
 "<Naalakkersuisut>"
-	"Naalakkersuisut" Sem/Hum Prop Rel Pl @POSS>
+	"Naalakkersuisut" Sem/Hum Prop Rel Pl %AmbiguøsN @POSS>
 "<siulittaasuata>"
 	"siulittar" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Rel Sg 3PlPoss @SUBJ>
 "<Hans>"
@@ -16903,7 +16906,7 @@
 "<tasissiuteriarlugulu>"
 	"tasissiup" Gram/TV RIAR Der/vv Gram/TV Gram/Conj-encl V Cont 3SgO LU @CL-<CIT
 "<anaanami>"
-	"anaana" N Rel Sg 4SgPoss @POSS>
+	"anaana" N Rel Sg 4SgPoss %AmbiguøsN @POSS>
 "<saniliata>"
 	"sanileq" N Rel Sg 3SgPoss @POSS>
 "<matuatigut>"
@@ -17029,7 +17032,7 @@
 
 <sjrcuJoxB5GuZcxmJqqJxbDNPvnQ-0>
 "<nammineq>"
-	"nammineq" Gram/Coref Pron Rel 1Pl @POSS>
+	"nammineq" Gram/Coref Pron Rel 1Pl %AmbiguøsN @POSS>
 "<qimmivut>"
 	"qimmeq" N Abs Pl 1PlPoss @HNOUN
 "<.>"
@@ -17149,7 +17152,7 @@
 
 <sk2e3UfuvDnb4qhLiBYwmg98AjNM-0>
 "<kikkut>"
-	"kina" Gram/Int Pron Rel Pl @POSS>
+	"kina" Gram/Int Pron Rel Pl %AmbiguøsN @POSS>
 "<illui>"
 	"illu" N Abs Pl 3PlPoss @HNOUN
 "<?>"
@@ -17242,9 +17245,9 @@
 "<orpippassuini>"
 	"orpik" PAK Der/nn SUAQ Der/nn N Lok Pl 3SgPoss @i-ADVL>
 "<pisartut>"
-	"pi" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl @OBJ>
+	"pi" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @OBJ>
 "<tupinnartut>"
-	"tupinnar" Gram/IV TUQ Der/vn N Abs Pl @N<
+	"tupinnar" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<eqqarsaatigeqaakka>"
 	"eqqarsar" UTE Der/vn GE Der/nv Gram/TV QE Der/vv Gram/TV V Ind 1Sg 3PlO @PRED
 "<,>"
@@ -17446,11 +17449,11 @@
 "<Danmarkimi>"
 	"Danmark" Sem/Geo Prop Lok Sg @ADVL>
 "<amerlasuut>"
-	"amerlasooq" N Abs Pl @SUBJ>
+	"amerlasooq" N Abs Pl %AmbiguøsN @SUBJ>
 "<aqerlumik>"
 	"aqerloq" N Ins Sg @i-ADVL>N
 "<sanaat>"
-	"sanaaq" N Abs Pl @N<
+	"sanaaq" N Abs Pl %AmbiguøsN @N<
 "<qangali>"
 	"qangali" Adv @ADVL>
 "<inerteqqutaapput>"
@@ -17519,15 +17522,15 @@
 "<Ikinngutini>"
 	"ikinngut" N Abs Pl 4SgPoss @OBJ>
 "<niviaaluit>"
-	"niviaq" ALUK Der/nn N Abs Pl %ContHypotagme @N<
+	"niviaq" ALUK Der/nn N Abs Pl %ContHypotagme %AmbiguøsN @N<
 "<ilagitillugit>"
 	"ila" GE Der/nv Gram/TV TIP Der/vv Gram/Db Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<angutit>"
-	"angut" N Abs Pl @OBJ>
+	"angut" N Abs Pl %AmbiguøsN @OBJ>
 "<taamatut>"
 	"taamatut" Adv @i-ADVL>
 "<oqaluttut>"
-	"oqalup" Gram/IV TUQ Der/vn N Abs Pl @N<
+	"oqalup" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<Emiliellu>"
 	"Emilie" Sem/Fem Sem/Hum Gram/Conj-encl Prop Rel Sg LU @POSS>
 "<akissutigisartagai>"
@@ -17578,17 +17581,17 @@
 "<ilumullimi>"
 	"ilumut" Adv LI MI @ADVL>
 "<inuusuttut>"
-	"inuusup" Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
+	"inuusup" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<ilittut>"
-	"ilip" Gram/IV TUQ Der/vn N Abs Pl @N<
+	"ilip" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<ittut>"
-	"ip" Gram/IV TUQ Der/vn N Abs Pl @N<
+	"ip" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<nunaqarfitsinni>"
 	"nuna" QAR Der/nv Gram/IV VIK Der/vn N Lok Sg 1PlPoss @ADVL>
 "<amerlanerugaluarpata>"
 	"amerla" Gram/IV NIRU Der/vv GALUAR Der/vv Gram/IV V Con 3Pl @CON
 "<navianartut>"
-	"navianartoq" N Abs Pl @SUBJ>
+	"navianartoq" N Abs Pl %AmbiguøsN @SUBJ>
 "<aamma>"
 	"aamma" Adv @ADVL>
 "<ikinnerusimassagaluarput>"
@@ -17599,7 +17602,7 @@
 
 <slF6sTAuNFv9xtXeRdHqSEWV8Jek-0>
 "<Kalaallit>"
-	"kalaaleq" N Rel Pl @POSS>
+	"kalaaleq" N Rel Pl %AmbiguøsN @POSS>
 "<pissusitoqaat>"
 	"pissusitoqaq" N Abs Pl 3PlPoss @OBJ>
 "<atortorisaallu>"
@@ -17676,7 +17679,7 @@
 
 <slKmhbJk25uGFeELYVormU75p5kM-0>
 "<Filmiliortut>"
-	"film" OLang/DAN LIUR Der/nv Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
+	"film" OLang/DAN LIUR Der/nv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<ulluni>"
 	"ulloq" N Lok Pl @ADVL>
 "<pingasuni>"
@@ -17706,7 +17709,7 @@
 "<Schmidt>"
 	"Schmidt" Sem/Hum Prop Abs Sg @SUBJ>
 "<filmiliornerit>"
-	"film" OLang/DAN LIUR Der/nv Gram/IV NIQ Der/vn N Abs Pl %ContHypotagme @OBJ>
+	"film" OLang/DAN LIUR Der/nv Gram/IV NIQ Der/vn N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<pillugit>"
 	"pi" Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<taama>"
@@ -17731,7 +17734,7 @@
 "<ajornakusooraluaqisoq>"
 	"ajornakusoor" Gram/IV GALUAR Der/vv QE Der/vv Gram/IV TUQ Der/vn N Abs Sg @OBJ>
 "<nammineq>"
-	"nammineq" Gram/Coref Pron Rel 1Sg @SUBJ>
+	"nammineq" Gram/Coref Pron Rel 1Sg %AmbiguøsN @SUBJ>
 "<iluarsaanniartariaqarsimavara>"
 	"iluarsar" Gram/TV UTE Der/vv Gram/Db Gram/TV NIAR Der/vv TARIAQAR Der/vv SIMA Der/vv Gram/TV V Ind 1Sg 3SgO @PRED
 "<.>"
@@ -17744,11 +17747,11 @@
 "<inniminneeriarama>"
 	"inniminner" Gram/TV HTR Der/vv Gram/IV RIAR Der/vv Gram/IV V Cau 1Sg @CAU
 "<sapaatit>"
-	"sapaat" N Rel Pl @POSS>
+	"sapaat" N Rel Pl %AmbiguøsN @POSS>
 "<akunneri>"
 	"akunneq" N Abs Pl 3PlPoss @ADVL>
 "<marlussuit>"
-	"marlussuk" N Abs Pl @N<
+	"marlussuk" N Abs Pl %AmbiguøsN @N<
 "<utaqqeqqaartussaallunga>"
 	"utaqqi" Gram/IV QQAAR Der/vv Gram/IV TUQ Der/vn SSAQ Der/nn U Der/nv Gram/IV V Cont 1Sg @CL-CIT>
 "<paasitinneqarpunga>"
@@ -17775,10 +17778,10 @@
 
 <slT06YuYYvVgvTVT7r4xTOVB5Rlc-0>
 "<Nunat>"
-	"nuna" N Rel Pl @POSS>
+	"nuna" N Rel Pl %AmbiguøsN @POSS>
 "<killiit>"
-	"killeq" N Rel Pl @N<
-	"killik" N Rel Pl @N<
+	"killeq" N Rel Pl %AmbiguøsN @N<
+	"killik" N Rel Pl %AmbiguøsN @N<
 "<Issittumi>"
 	"Issittoq" Sem/Geo Prop Lok Sg @i-ADVL>
 "<sakkutuuliinerat>"
@@ -17798,7 +17801,7 @@
 "<FE-meersut>"
 	"FE" N Gram/ACR Abl Sg Hyb/1-2 @i-ADVL>
 "<IR>"
-	"IR" Gram/IV TUQ Der/vn N Rel Pl Hyb/2-2 @<APPOS
+	"IR" Gram/IV TUQ Der/vn N Rel Pl Hyb/2-2 %AmbiguøsN @<APPOS
 "<oqaatigaat>"
 	"oqar" UTE Der/vn GE Der/nv Gram/TV V Ind 3Pl 3SgO @PRED
 "<.>"
@@ -17838,7 +17841,7 @@
 "<,>"
 	"," CLB
 "<niumi>"
-	"niu" N Rel Sg 4SgPoss @POSS>
+	"niu" N Rel Sg 4SgPoss %AmbiguøsN @POSS>
 "<napinera>"
 	"napi" Gram/IV NIQ Der/vn N Abs Sg 3SgPoss @OBJ>
 "<annertuumik>"
@@ -17862,7 +17865,7 @@
 "<Kalaallit Nunaanni>"
 	"Kalaallit Nunaat" Prop Lok Sg 3PlPoss @i-ADVL>
 "<illoqarfiit>"
-	"illu" QAR Der/nv Gram/IV VIK Der/vn N Rel Pl @SUBJ>
+	"illu" QAR Der/nv Gram/IV VIK Der/vn N Rel Pl %AmbiguøsN @SUBJ>
 "<kujallersarivaat>"
 	"kujate" LLIQ Der/nn TAQ Der/nn GE Der/nv Gram/TV V Ind 3Pl 3SgO Orth/Alt @PRED
 "<.>"
@@ -17978,7 +17981,7 @@
 "<Obama>"
 	"Obama" Sem/Hum Prop Abs Sg @SUBJ>
 "<nammineq>"
-	"nammineq" Gram/Coref Pron Abs 4Sg @SUBJ>
+	"nammineq" Gram/Coref Pron Abs 4Sg %AmbiguøsN @SUBJ>
 "<peqataanani>"
 	"peqat" U Der/nv Gram/IV V ContNeg 4Sg @ADVL>
 "<præsidentinngorniuteqataasimasorli>"
@@ -18065,7 +18068,7 @@
 "<politikki>"
 	"politik" OLang/DAN Err/Sub N Abs Sg @OBJ>
 "<qilerniusallu>"
-	"qiler" Gram/IV NIQ Der/vn USAQ Der/nn Gram/Conj-encl N Abs Pl LU @OBJ>
+	"qiler" Gram/IV NIQ Der/vn USAQ Der/nn Gram/Conj-encl N Abs Pl LU %AmbiguøsN @OBJ>
 "<oqaluuserisarpakka>"
 	"oqalup" Gram/IV USIQ Der/vn GE Der/nv Gram/TV TAR Der/vv Gram/TV V Ind 1Sg 3PlO @PRED
 "<.>"
@@ -18074,13 +18077,13 @@
 
 <smaTDP55zRia9gvnBStVtx6cax4s-0>
 "<Apeqquteqaatit>"
-	"apeqquteqaat" N Abs Pl %ContHypotagme @OBJ>
+	"apeqquteqaat" N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<aallaavigalugit>"
 	"aallaavik" GE Der/nv Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<oqaluuserisassat>"
-	"oqalup" Gram/IV USIQ Der/vn GE Der/nv Gram/TV TAQ Der/vn SSAQ Der/nn N Rel Pl @POSS>
+	"oqalup" Gram/IV USIQ Der/vn GE Der/nv Gram/TV TAQ Der/vn SSAQ Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<siunnersuutillu>"
-	"siunnersor" UTE Der/vn Gram/Conj-encl N Rel Pl LU @POSS>
+	"siunnersor" UTE Der/vn Gram/Conj-encl N Rel Pl LU %AmbiguøsN @POSS>
 "<saniatigut>"
 	"sani" N Via Sg 3PlPoss @ADVL>
 "<aamma>"
@@ -18088,7 +18091,7 @@
 "<oqaluuserineqassapput>"
 	"oqalup" Gram/IV USIQ Der/vn GE Der/nv Gram/TV NIQAR Der/vv Gram/IV SSA Der/vv Gram/IV V Ind 3Pl @PRED
 "<naalakkersuisut>"
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Rel Pl @POSS>
+	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<nassuiaataat>"
 	"nassuiar" UTE Der/vn N Abs Pl 3PlPoss @<SUBJ
 "<,>"
@@ -18100,7 +18103,7 @@
 "<allanut>"
 	"alla" N Trm Pl @N<
 "<kiisalu>"
-	"kiisa" Gram/Adv-encl Adv LU @ADVL>
+	"kiisa" Gram/Conj-encl Adv LU @ADVL>
 "<2005-mimi>"
 	"2005" Err/Sub Num Lok Sg MI @i-ADVL>
 "<aningaasaqarnikkut>"
@@ -18110,14 +18113,14 @@
 "<pillugu>"
 	"pi" Gram/TV V Cont 3SgO %ContHypotagme @i-ADVL>
 "<nassuiaatit>"
-	"nassuiar" UTE Der/vn N Abs Pl @<APPOS
+	"nassuiar" UTE Der/vn N Abs Pl %AmbiguøsN @<APPOS
 "<.>"
 	"." CLB
 </s>
 
 <smaxUVxjpa3dzKFHicWAxQdxF5Qs-0>
 "<ilagiit>"
-	"ila" GIIT Der/nn N Rel Pl @POSS>
+	"ila" GIIT Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<katersorsimallutik>"
 	"katersor" Gram/TV SIMA Der/vv Gram/Refl Gram/IV V Cont 4Pl @i-ADVL>
 "<tussiarnerat>"
@@ -18164,11 +18167,11 @@
 "<oqaatigaa>"
 	"oqar" UTE Der/vn GE Der/nv Gram/TV V Ind 3Sg 3SgO @PRED
 "<ilaqutariit>"
-	"ilaqutaq" GIIT Der/nn N Abs Pl @SUBJ>
+	"ilaqutaq" GIIT Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<aatsaat>"
 	"aatsaat" Adv @ADVL>
 "<namminneq>"
-	"nammineq" Gram/Coref Pron Abs 4Pl @SUBJ>
+	"nammineq" Gram/Coref Pron Abs 4Pl %AmbiguøsN @SUBJ>
 "<misigilerunik>"
 	"misige" Gram/IV LIR Der/vv Gram/IV V Con 4Pl @CON
 "<katsorsarneqassallutik>"
@@ -18244,7 +18247,7 @@
 
 <smv8Y8EKkgReYOMszQWhi22JMTaI-0>
 "<tiivit>"
-	"tyve" OLang/DAN Err/Sub Num Abs Pl %ContHypotagme @OBJ>
+	"tyve" OLang/DAN Err/Sub Num Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<qaangilaarlugit>"
 	"qaanger" Gram/TV LAAR Der/vv Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<ukioqarpoq>"
@@ -18276,7 +18279,7 @@
 "<sapinngisaminillu>"
 	"sapinngisaq" Gram/Conj-encl N Ins Sg 4SgPoss LU @ADVL>
 "<ullut>"
-	"ulloq" N Abs Pl @CL-ADVL>
+	"ulloq" N Abs Pl %AmbiguøsN @CL-ADVL>
 "<tamaasa>"
 	"tamaq" N Gram/Cong Akk 3Pl @N<
 "<allanniartarpoq>"
@@ -18310,7 +18313,7 @@
 "<pisiarissappagu>"
 	"pisiaq" GE Der/nv Gram/TV SSA Der/vv Gram/TV V Con 3Sg 3SgO @CON
 "<inuttaasut>"
-	"inuttaasoq" N Rel Pl @SUBJ>
+	"inuttaasoq" N Rel Pl %AmbiguøsN @SUBJ>
 "<avataaneersunit>"
 	"avataaq" N Abl Pl Hyb/1-2 @i-ADVL>
 	"avate" N Abl Pl 3SgPoss Hyb/1-2 @i-ADVL>
@@ -18450,7 +18453,7 @@
 
 <snTVs0pFaYHceYi6y3Q2tpeUGqns-0>
 "<ataatakkut>"
-	"ataata" KKUT Der/nn Gram/PlurTant N Abs Pl @SUBJ>
+	"ataata" KKUT Der/nn Gram/PlurTant N Abs Pl %AmbiguøsN @SUBJ>
 "<Isortumukassammata>"
 	"Isortoq" Orth/Copy Prop Trm Sg Hyb/1-2 Orth/Copy @ADVL>
 "<KAR>"
@@ -18469,7 +18472,7 @@
 "<nunatsinni>"
 	"nuna" N Lok Sg 1PlPoss @i-ADVL>
 "<ilinniarfiit>"
-	"ilinniar" Gram/IV VIK Der/vn N Rel Pl @POSS>
+	"ilinniar" Gram/IV VIK Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<annersaat>"
 	"angi" NIRSAQ Der/vn N Abs Sg 3PlPoss @OBJ>
 "<,>"
@@ -18484,9 +18487,9 @@
 "<Danmarkimi>"
 	"Danmark" Sem/Geo Prop Lok Sg @ADVL>
 "<ukiut>"
-	"ukioq" N Abs Pl @ADVL>
+	"ukioq" N Abs Pl %AmbiguøsN @ADVL>
 "<marluk>"
-	"marluk" Num Abs Pl @N<
+	"marluk" Num Abs Pl %AmbiguøsN @N<
 "<ilinniaqqereerluni>"
 	"ilinniar" Gram/IV QQIP Der/vv RIIR Der/vv Gram/IV V Cont 4Sg @ADVL>
 "<inerami>"
@@ -18553,7 +18556,7 @@
 "<450.000>"
 	"450.000" Num Abs Sg @>N
 "<koruunit>"
-	"krone" OLang/DAN Sem/Unit Err/Sub Orth/Arch N Abs Pl @SUBJ>
+	"krone" OLang/DAN Sem/Unit Err/Sub Orth/Arch N Abs Pl %AmbiguøsN @SUBJ>
 "<ukioq>"
 	"ukioq" N Abs Sg @CL-ADVL>
 "<manna>"
@@ -18633,7 +18636,7 @@
 "<Aqqaluartaannguup>"
 	"Aqqaluartaaq" Dial/Vgr Sem/Mask Sem/Hum NNGUAQ Der/nn Sem/Hum Prop Rel Sg @POSS>
 "<qallunaat>"
-	"qallunaaq" N Rel Pl @i-POSS>
+	"qallunaaq" N Rel Pl %AmbiguøsN @i-POSS>
 "<nunaanniinnerani>"
 	"nuna" N Lok Sg 3PlPoss Hyb/1-2 @i-ADVL>
 "<innerani>"
@@ -18709,7 +18712,7 @@
 "<,>"
 	"," CLB
 "<ajoqeeqqat>"
-	"ajoqi" ARAQ Der/nn N Rel Pl @POSS>
+	"ajoqi" ARAQ Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<ilinniarfianni>"
 	"ilinniar" Gram/IV VIK Der/vn N Lok Sg 3PlPoss @i-ADVL>
 "<atuarsimasoq>"
@@ -18799,7 +18802,7 @@
 "<Unnummut>"
 	"unnuk" N Trm Sg @ADVL>
 "<taakku>"
-	"una" Prefix/TA Gram/Dem Pron Abs Pl @SUBJ>
+	"una" Prefix/TA Gram/Dem Pron Abs Pl %AmbiguøsN @SUBJ>
 "<qimannaveersaavipput>"
 	"qimap" Gram/TV NAVIIRSAAR Der/vv VIP Der/vv Gram/Refl V Ind 3Pl @PRED
 "<.>"
@@ -18876,13 +18879,13 @@
 "<Angutip>"
 	"angut" N Rel Sg @SUBJ>
 "<imigassat>"
-	"imer" Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Pl @OBJ>
+	"imer" Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Pl %AmbiguøsN @OBJ>
 "<nerriviup>"
 	"nerrivik" N Rel Sg @i-POSS>
 "<qaavaniittut>"
 	"qaaq" N Lok Sg 3SgPoss Hyb/1-2 @i-ADVL>
 "<ittut>"
-	"IP" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 @N<
+	"IP" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 %AmbiguøsN @N<
 "<paariniarsimagamigit>"
 	"paare" Gram/TV NIAR Der/vv SIMA Der/vv Gram/TV V Cau 4Sg 3PlO @CAU
 "<kisimi>"
@@ -18926,7 +18929,7 @@
 
 <soyn6HZ9sKeWDvGxIzcnOIxJkXiA-0>
 "<Taakku>"
-	"una" Prefix/TA Gram/Dem Pron Rel Pl @SUBJ>
+	"una" Prefix/TA Gram/Dem Pron Rel Pl %AmbiguøsN @SUBJ>
 "<ilagivaat>"
 	"ila" GE Der/nv Gram/TV V Ind 3Pl 3SgO Orth/Alt @PRED
 "<niviarsiaq>"
@@ -18972,13 +18975,13 @@
 "<qiteqatigiillualeruttorlutik>"
 	"qitip" Gram/IV QATIGIIP Der/vv Gram/Reci LLUAR Der/vv LIR Der/vv RUTTUR Der/vv Gram/IV V Cont 4Pl @PRED
 "<nukappissat>"
-	"nukappiaq" N Rel Pl @SUBJ>
+	"nukappiaq" N Rel Pl %AmbiguøsN @SUBJ>
 "<marluk>"
-	"marluk" Num Rel Pl @N<
+	"marluk" Num Rel Pl %AmbiguøsN @N<
 "<ilungersorpalullutik>"
 	"ilungersor" Gram/IV PALUP Der/vv Gram/IV V Cont 4Pl @CL-<CIT
 "<oqaluuttut>"
-	"oqalup" UTE Der/vv Gram/TV Gram/Refl TUQ Der/vn N Rel Pl @SUBJ>
+	"oqalup" UTE Der/vv Gram/TV Gram/Refl TUQ Der/vn N Rel Pl %AmbiguøsN @SUBJ>
 "<,>"
 	"," CLB
 "<Piitaq>"
@@ -18999,7 +19002,7 @@
 "<meerartaarpat>"
 	"meeraq" TAAR Der/nv Gram/IV V Con 3Sg @CON
 "<aningaasartuutissat>"
-	"aningaasartuut" SSAQ Der/nn N Abs Pl @SUBJ>
+	"aningaasartuut" SSAQ Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<suli>"
 	"suli" Adv @ADVL>
 "<amerlisussaapput>"
@@ -19021,7 +19024,7 @@
 
 <spL4WMniirZeeL96C2tGLHoBCv7s-0>
 "<Oqaatsit>"
-	"oqaaseq" N Abs Pl @OBJ>
+	"oqaaseq" N Abs Pl %AmbiguøsN @OBJ>
 "<taassuma>"
 	"una" Prefix/TA Gram/Dem Pron Rel Sg @POSS>
 "<paasisinnaasai>"
@@ -19113,8 +19116,10 @@
 "<nalunaaqutaq>"
 	"nalunaaqutaq" N Abs Sg @SUBJ>
 "<22.00-imit>"
+	"22.00" Err/Sub Num Abl Sg @ADVL>
 	"22.00" Num Abl Sg @ADVL>
 "<23.00-imut>"
+	"23.00" Err/Sub Num Trm Sg @ADVL>
 	"23.00" Num Trm Sg @ADVL>
 "<siuartinneqassaaq>"
 	"siuar" Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV SSA Der/vv Gram/IV V Ind 3Sg @PRED
@@ -19156,7 +19161,7 @@
 
 <sq2nTBvDjjhlnkB3gz0Ls8AygjfY-0>
 "<Nunalerutit>"
-	"nunalerut" N Abs Pl @OBJ>
+	"nunalerut" N Abs Pl %AmbiguøsN @OBJ>
 "<ilumut>"
 	"ilumut" Adv @ADVL>
 "<iluaqutigisimaqaakka>"
@@ -19278,7 +19283,7 @@
 "<,>"
 	"," CLB
 "<Erillu>"
-	"Erik" Sem/Mask Sem/Hum Gram/Conj-encl Prop Abs Sg LU @SUBJ>
+	"Erik" Sem/Mask Sem/Hum Gram/Conj-encl Prop Abs Sg LU %AmbiguøsN @SUBJ>
 "<silatusaavilluni>"
 	"silatusaar" Gram/IV VIP Der/vv Gram/IV V Cont 4Sg @ADVL>
 "<ikiuunniavittarpoq>"
@@ -19304,7 +19309,7 @@
 "<malugivaa>"
 	"maluge" Gram/TV V Ind 3Sg 3SgO Orth/Alt @PRED
 "<ataatami>"
-	"ataata" N Rel Sg 4SgPoss @SUBJ>
+	"ataata" N Rel Sg 4SgPoss %AmbiguøsN @SUBJ>
 "<kalaallinik>"
 	"kalaaleq" N Ins Pl @i->N
 "<ilaqartinnaveersaartaraani>"
@@ -19326,7 +19331,7 @@
 
 <sqXJzB0SD6iAes62Z8awpGRrextI-0>
 "<ukiut>"
-	"ukioq" N Rel Pl @POSS>
+	"ukioq" N Rel Pl %AmbiguøsN @POSS>
 "<250-inngornerat>"
 	"250" iNum NNGUR Der/nv Gram/IV NIQ Der/vn N Abs Sg 3PlPoss %ContHypotagme @OBJ>
 "<iluatsillugu>"
@@ -19383,7 +19388,7 @@
 "<,>"
 	"," CLB
 "<inuusuttuaqqat>"
-	"inuusuttuaraq" N Rel Pl @POSS>
+	"inuusuttuaraq" N Rel Pl %AmbiguøsN @POSS>
 "<taamaattarnerattut>"
 	"taama" IP Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn N Aeq Sg 3PlPoss @<ADVL
 "<.>"
@@ -19402,7 +19407,7 @@
 "<,>"
 	"," CLB
 "<napparsimaviullu>"
-	"napparsimavik" Gram/Conj-encl N Rel Sg LU @POSS>
+	"napparsimavik" Gram/Conj-encl N Rel Sg LU %AmbiguøsN @POSS>
 "<qamussuinit>"
 	"qamut" SUAQ Der/nn N Abl Pl 3SgPoss @AGENS
 "<aaneqarluni>"
@@ -19415,7 +19420,7 @@
 
 <sqowQABkv0r0B1uMcWShn95A7UPI-0>
 "<Guutilli>"
-	"Guuti" Sem/Hum Gram/Conj-encl Prop Rel Sg LI @SUBJ>
+	"Guuti" Sem/Hum Gram/Conj-encl Prop Rel Sg LI %AmbiguøsN @SUBJ>
 "<paasitippaanga>"
 	"paasi" Gram/TV TIP Der/vv Gram/Db Gram/TV V Ind 3Sg 1SgO @PRED
 "<inuk>"
@@ -19454,7 +19459,7 @@
 "<pisisimagamik>"
 	"pisi" Gram/HV Gram/IV SIMA Der/vv Gram/IV V Cau 4Pl @CAU
 "<amerlanerit>"
-	"amerla" Gram/IV NIQ Der/vn N Rel Pl @SUBJ>
+	"amerla" Gram/IV NIQ Der/vn N Rel Pl %AmbiguøsN @SUBJ>
 "<unnuup>"
 	"unnuk" N Rel Sg %TidHypotagme @POSS>
 "<ingerlanerani>"
@@ -19685,7 +19690,7 @@
 "<erninissaminut>"
 	"erni" Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Sg 4SgPoss @ADVL>
 "<qaammatit>"
-	"qaammat" N Abs Pl @SUBJ>
+	"qaammat" N Abs Pl %AmbiguøsN @SUBJ>
 "<amerlajunnaaraluartut>"
 	"amerla" Gram/IV GUNNAIR Der/vv GALUAR Der/vv Gram/IV Sem/Temporal V Par 3Pl @PRED2
 "<sulivoq>"
@@ -19796,9 +19801,9 @@
 
 <sryTnpWSWhNpd8WUxHvkD4IK0nxE-0>
 "<tussiaqattaartartut>"
-	"tussiaqattaar" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
+	"tussiaqattaar" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<Qissiat>"
-	"Qissiaq" Orth/Copy Prop Abs Pl Orth/Copy @<APPOS
+	"Qissiaq" Orth/Copy Prop Abs Pl %AmbiguøsN Orth/Copy @<APPOS
 "<tussiartuussapput>"
 	"tussiartoq" U Der/nv Gram/IV SSA Der/vv Gram/IV V Ind 3Pl @PRED
 "<,>"
@@ -19926,7 +19931,7 @@
 "<suna>"
 	"suna" Gram/Int Pron Abs Sg @OBJ>
 "<Inuit Ataqatigiit>"
-	"Inuit Ataqatigiit" Prop Rel Pl @SUBJ>
+	"Inuit Ataqatigiit" Prop Rel Pl %AmbiguøsN @SUBJ>
 "<immikkoorutigineraat>"
 	"immikkoorutige" Gram/TV NIR Der/vv Gram/TV V Par 3Pl 3SgO @CL-<CIT
 "<.>"
@@ -19948,11 +19953,11 @@
 "<Tassa>"
 	"tassa" Adv @PRED
 "<inuusuttut>"
-	"inuusup" Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
+	"inuusup" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<15-16-inik>"
 	"15-16" Num Ins Pl @i->N
 "<ukiullit>"
-	"ukioq" LIK Der/nn N Abs Pl @N<
+	"ukioq" LIK Der/nn N Abs Pl %AmbiguøsN @N<
 "<10.>"
 	"10." Num Gram/Ord @>N
 "<klassimi>"
@@ -19973,7 +19978,7 @@
 "<inattualerpaa>"
 	"inap" Gram/TV TUAR Der/vv LIR Der/vv Gram/TV V Ind 3Sg 3SgO @PRED
 "<Suulukkut>"
-	"Suulut" Sem/Mask Sem/Hum KKUT Der/nn Prop Rel Pl @POSS>
+	"Suulut" Sem/Mask Sem/Hum KKUT Der/nn Prop Rel Pl %AmbiguøsN @POSS>
 "<radiortaavat>"
 	"radio" OLang/DAN TAAQ Der/nn Orth/Alt N Abs Sg 3PlPoss %ContHypotagme @OBJ>
 "<takusaqqullugu>"
@@ -20002,7 +20007,7 @@
 
 <ssbIKrnuHz6QmOdyk7U3RQxvevRo-0>
 "<Uangattaaq>"
-	"uanga" Gram/Pers Pron Abs 1Sg TTAAQ @ADVL>
+	"uanga" Gram/Pers Pron Abs 1Sg TTAAQ %AmbiguøsN @ADVL>
 "<artorsartorsuupput>"
 	"artorsar" Gram/IV TUQ Der/vn SUAQ Der/nn U Der/nv Gram/IV V Ind 3Pl @PRED
 "<ippassaani>"
@@ -20021,7 +20026,7 @@
 "<Taamaattumik>"
 	"taamaattumik" Adv @CL-ADVL>
 "<amerlanerit>"
-	"amerla" Gram/IV NIQ Der/vn N Abs Pl @SUBJ>
+	"amerla" Gram/IV NIQ Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<sininneqarpiarsimanngikkaluarlutik>"
 	"sinip" Gram/IV NIQ Der/vn QAR Der/nv Gram/IV PIAR Der/vv SIMA Der/vv NNGIT Der/vv GALUAR Der/vv Gram/IV Sem/Temporal V Cont 4Pl @PRED2
 "<ataaserluunniit>"
@@ -20066,7 +20071,7 @@
 "<aamma>"
 	"aamma" Adv @ADVL>
 "<uanga>"
-	"uanga" Gram/Pers Pron Abs 1Sg @SUBJ>
+	"uanga" Gram/Pers Pron Abs 1Sg %AmbiguøsN @SUBJ>
 "<ikiuuttariaqarpunga>"
 	"ikiuup" Gram/IV TARIAQAR Der/vv Gram/IV V Ind 1Sg @PRED
 "<,>"
@@ -20158,7 +20163,7 @@
 "<pingaartumik>"
 	"pingaartumik" Adv @ADVL>
 "<kalaaliinnangajaat>"
-	"kalaaleq" INNAQ Der/nn NGAJAK Der/nn N Abs Pl @SUBJ>
+	"kalaaleq" INNAQ Der/nn NGAJAK Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<akornaniissagaanni>"
 	"akunneq" N Lok Sg 3SgPoss Hyb/1-2 @ADVL>
 "<issagaanni>"
@@ -20169,7 +20174,7 @@
 
 <sso9y4dVvBNKn4hhTRznxzQOEg6w-0>
 "<scenit>"
-	"scene" OLang/DAN Err/Sub N Rel Pl @POSS>
+	"scene" OLang/DAN Err/Sub N Rel Pl %AmbiguøsN @POSS>
 "<pingajuanni>"
 	"pingajoq" Gram/Ord N Lok Sg 3PlPoss @ADVL>
 "<isiginnaartitsivoq>"
@@ -20180,7 +20185,7 @@
 
 <ssp7XhDsXCRRcxPl5OtYbjR2x8xg-0>
 "<kamaakkaluit>"
-	"kamaap" Gram/IV GALUAQ Der/vn N Abs Pl @HNOUN
+	"kamaap" Gram/IV GALUAQ Der/vn N Abs Pl %AmbiguøsN @HNOUN
 "<.>"
 	"." CLB
 </s>
@@ -20196,19 +20201,19 @@
 
 <sssQpAvmGrbTWIjWmrRbxxrnGquk-0>
 "<øritaat>"
-	"øre" OLang/DAN Sem/Unit TAAQ Der/nn N Abs Pl @SUBJ>
-	"øre" OLang/DAN Sem/Unit TAQ Der/nn N Abs Pl 3PlPoss @SUBJ>
-	"øre" OLang/DAN TAAQ Der/nn N Abs Pl @SUBJ>
-	"øre" OLang/DAN TAQ Der/nn N Abs Pl 3PlPoss @SUBJ>
+	"øre" OLang/DAN Sem/Unit TAAQ Der/nn N Abs Pl %AmbiguøsN @SUBJ>
+	"øre" OLang/DAN Sem/Unit TAQ Der/nn N Abs Pl 3PlPoss %AmbiguøsN @SUBJ>
+	"øre" OLang/DAN TAAQ Der/nn N Abs Pl %AmbiguøsN @SUBJ>
+	"øre" OLang/DAN TAQ Der/nn N Abs Pl 3PlPoss %AmbiguøsN @SUBJ>
 "<kitserliugaapput>"
 	"kitserlior" Gram/TV TAQ Der/vn U Der/nv Gram/IV V Ind 3Pl @PRED
 </s>
 
 <sstRgQpdkqaYHXoLBOk2FKCicL74-0>
 "<qimmit>"
-	"qimmeq" N Abs Pl @OBJ>
+	"qimmeq" N Abs Pl %AmbiguøsN @OBJ>
 "<ikku>"
-	"innga" Gram/Dem Pron Abs Pl @N<
+	"innga" Gram/Dem Pron Abs Pl %AmbiguøsN @N<
 "<ersigaakka>"
 	"ersige" Gram/TV V Ind 1Sg 3PlO @PRED
 "<.>"
@@ -20217,7 +20222,7 @@
 
 <ssuA6JmOjogZNpY3oGYd8V3qvca0-0>
 "<illit>"
-	"illit" Gram/Pers Pron Abs 2Sg @SUBJ>
+	"illit" Gram/Pers Pron Abs 2Sg %AmbiguøsN @SUBJ>
 "<tassaavutit>"
 	"tassa" U Der/nv Gram/IV V Ind 2Sg @PRED
 "<ernera>"
@@ -20303,7 +20308,7 @@
 
 <st46Z9jpR8SQ59oq0spDQtEm1iUg-0>
 "<Ukiut>"
-	"ukioq" N Abs Pl @CL-ADVL>
+	"ukioq" N Abs Pl %AmbiguøsN @CL-ADVL>
 "<ajortut>"
 	"ajor" Gram/IV V Par 3Pl @PRED
 "<.>"
@@ -20387,7 +20392,7 @@
 "<taama>"
 	"taama" Adv @i-ADVL>
 "<oqaluttut>"
-	"oqalup" Gram/IV TUQ Der/vn N Abs Pl @OBJ>
+	"oqalup" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @OBJ>
 "<tassaanerarpai>"
 	"tassa" U Der/nv Gram/IV NIRAR Der/vv Gram/TV V Ind 3Sg 3PlO %VerbalInderivering @PRED
 "<“>"
@@ -20395,7 +20400,7 @@
 "<uungatsiaannarmut>"
 	"uungatsiaannarmut" Adv @i-ADVL>
 "<isigisut>"
-	"isige" Gram/IV TUQ Der/vn N Abs Pl @i-N<
+	"isige" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @i-N<
 "<”>"
 	"”" PUNCT RIGHT
 "<.>"
@@ -20441,9 +20446,9 @@
 
 <stVmVwSLxE3vCX3vAsSvxOx8vCH8-0>
 "<Politiit>"
-	"politeeq" N Rel Pl @SUBJ>
+	"politeeq" N Rel Pl %AmbiguøsN @SUBJ>
 "<arlallit>"
-	"arlaq" LIK Der/nn N Rel Pl @N<
+	"arlaq" LIK Der/nn N Rel Pl %AmbiguøsN @N<
 "<sakkulersorsimallutik>"
 	"sakkoq" LIRSUR Der/nv Gram/IV SIMA Der/vv Gram/IV V Cont 4Pl @ADVL>
 "<arnap>"
@@ -20455,9 +20460,9 @@
 "<inissiarsuarmilu>"
 	"inissiarsuaq" Gram/Conj-encl N Lok Sg LU @i-ADVL>
 "<najugallit>"
-	"najor" Gram/TV TAQ Der/vn LIK Der/nn N Abs Pl @OBJ>
+	"najor" Gram/TV TAQ Der/vn LIK Der/nn N Abs Pl %AmbiguøsN @OBJ>
 "<allat>"
-	"alla" N Abs Pl @N<
+	"alla" N Abs Pl %AmbiguøsN @N<
 "<isersimaannarnissaannik>"
 	"iser" Gram/IV SIMA Der/vv INNAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Ins Sg 3PlPoss @ADVL>
 "<qinnuigalugit>"
@@ -20529,7 +20534,7 @@
 
 <stf1VxeWrawib5wU4ROODEnkJGpA-0>
 "<Atuakkiortut>"
-	"atuakkior" Gram/IV TUQ Der/vn N Rel Pl @POSS>
+	"atuakkior" Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<peqatigiiffiata>"
 	"peqat" GIIP Der/nv Gram/IV VIK Der/vn N Rel Sg 3PlPoss @POSS>
 "<siulittaasua>"
@@ -20539,7 +20544,7 @@
 "<Lyngep>"
 	"Lynge" Sem/Hum Prop Rel Sg @SUBJ>
 "<Islandermiut>"
-	"Island" Sem/Geo iProp MIU Der/nn N Rel Pl @POSS>
+	"Island" Sem/Geo iProp MIU Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<unamminernut>"
 	"unammineq" N Trm Pl @i-ADVL>
 "<peqataajuartarnerannut>"
@@ -20547,7 +20552,7 @@
 "<pissutaanerarpaa>"
 	"pissut" U Der/nv Gram/IV NIRAR Der/vv Gram/TV V Ind 3Sg 3SgO %VerbalInderivering @PRED
 "<Islandermiut>"
-	"Island" Sem/Geo iProp MIU Der/nn N Abs Pl @OBJ>
+	"Island" Sem/Geo iProp MIU Der/nn N Abs Pl %AmbiguøsN @OBJ>
 "<nunanut>"
 	"nuna" N Trm Pl @ADVL>
 "<allanut>"
@@ -20654,7 +20659,7 @@
 
 <stwOMUsm41TcV6kofE5TN27cQjwM-0>
 "<Ilulissat>"
-	"Ilulissat" Sem/Geo Prop Rel Pl @POSS>
+	"Ilulissat" Sem/Geo Prop Rel Pl %AmbiguøsN @POSS>
 "<Kangerluat>"
 	"Kangerluk" Orth/Copy Prop Abs Sg 3PlPoss Orth/Copy @SUBJ>
 "<40>"
@@ -20682,17 +20687,17 @@
 
 <stxEc2Iw7UBgmFBGAA0IWBfXWu3A-0>
 "<Tamakkuli>"
-	"manna" Prefix/TA Gram/Dem Gram/Conj-encl Pron Abs Pl LI @OBJ>
+	"manna" Prefix/TA Gram/Dem Gram/Conj-encl Pron Abs Pl LI %AmbiguøsN @OBJ>
 "<tamaasa>"
 	"tamaq" N Gram/Cong Akk 3Pl @N<
 "<ikinngutigiit>"
-	"ikinngut" GIIT Der/nn N Rel Pl @SUBJ>
+	"ikinngut" GIIT Der/nn N Rel Pl %AmbiguøsN @SUBJ>
 "<tikerlaat>"
-	"tikip" Gram/IV RLAAQ Der/vn N Abs Pl @N<
+	"tikip" Gram/IV RLAAQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<sinnartoorsimasut>"
-	"sinnartoor" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"sinnartoor" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<isiginngitsutut>"
-	"isige" Gram/TV NNGIT Der/vv Gram/TV TUQ Der/vn N Aeq Sg @ADVL>
+	"isige" Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Aeq Sg @ADVL>
 "<ippaat>"
 	"ip" Gram/TV V Ind 3Pl 3PlO @PRED
 "<.>"
@@ -20715,7 +20720,7 @@
 "<->"
 	"-" PUNCT DIRTALESTART
 "<Uanga>"
-	"uanga" Gram/Pers Pron Abs 1Sg
+	"uanga" Gram/Pers Pron Abs 1Sg %AmbiguøsN
 "<anaanagaarma>"
 	"anaana" GE Der/nv Gram/TV V Ind 2Sg 1SgO @PRED
 "<,>"
@@ -20739,7 +20744,7 @@
 
 <su7qPbC4hp5xTQ7zjqf5gp1tRUJw-0>
 "<Uagummi>"
-	"uanga" Gram/Pers Pron Abs 1Pl MI @SUBJ>
+	"uanga" Gram/Pers Pron Abs 1Pl MI %AmbiguøsN @SUBJ>
 "<aamma>"
 	"aamma" Adv @ADVL>
 "<pulaartoqartussaagatta>"
@@ -20789,7 +20794,7 @@
 "<anillakkami>"
 	"ani" Gram/IV LLAP Der/vv Gram/IV V Cau 4Sg @CAU
 "<nerisassat>"
-	"neri" Gram/TV TAQ Der/vn SSAQ Der/nn N Rel Pl @POSS>
+	"neri" Gram/TV TAQ Der/vn SSAQ Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<sinnikui>"
 	"sinneq" KUQ Der/nn N Abs Pl 3PlPoss @OBJ>
 "<katersornialerai>"
@@ -20810,7 +20815,7 @@
 
 <suO9HBJxNd55upaABDQ1tCRUpshg-0>
 "<Paamiut>"
-	"Paamiut" Sem/Geo Prop Rel Pl @POSS>
+	"Paamiut" Sem/Geo Prop Rel Pl %AmbiguøsN @POSS>
 "<tungaannut>"
 	"tunge" N Trm Sg 3PlPoss @ADVL>
 "<sikorsuaqarpoq>"
@@ -20824,7 +20829,7 @@
 "<->"
 	"-" PUNCT DIRTALESTART
 "<Eqqarsaatit>"
-	"eqqarsar" UTE Der/vn N Abs Pl @SUBJ>
+	"eqqarsar" UTE Der/vn N Abs Pl %AmbiguøsN @SUBJ>
 "<tamarmik>"
 	"tamaq" N Gram/Cong Nom 4Pl @N<
 "<oqaluttuarisariaqanngillat>"
@@ -20950,7 +20955,7 @@
 "<tigorusunngilluinnarpaa>"
 	"tigu" Gram/TV GUSUP Der/vv NNGIT Der/vv LLUINNAR Der/vv Gram/TV V Ind 3Sg 3SgO @PRED
 "<nammineq>"
-	"nammineq" Gram/Coref Pron Abs 4Sg @SUBJ>
+	"nammineq" Gram/Coref Pron Abs 4Sg %AmbiguøsN @SUBJ>
 "<suliffeqarami>"
 	"suli" Gram/IV VIK Der/vn QAR Der/nv Gram/IV V Cau 4Sg @CAU
 "<.>"
@@ -20984,15 +20989,15 @@
 "<,>"
 	"," CLB
 "<æbleskivit>"
-	"æbleskive" OLang/DAN N Abs Pl @SUBJ>
+	"æbleskive" OLang/DAN N Abs Pl %AmbiguøsN @SUBJ>
 "<,>"
 	"," CLB
 "<kaageeqqat>"
-	"kaagi" ARAQ Der/nn N Abs Pl @SUBJ>
+	"kaagi" ARAQ Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<aamma>"
 	"aamma" Conj @CONJ
 "<mamakujuit>"
-	"mamakujuk" N Abs Pl @SUBJ>
+	"mamakujuk" N Abs Pl %AmbiguøsN @SUBJ>
 "<sassaalliutigineqarput>"
 	"sassaalliutige" Gram/TV NIQAR Der/vv Gram/IV V Ind 3Pl @PRED
 "<.>"
@@ -21117,11 +21122,11 @@
 "<Folketingimi>"
 	"Folketinget" Sem/Hum Prop Lok Sg @ADVL>
 "<arnat>"
-	"arnaq" N Rel Pl @POSS>
+	"arnaq" N Rel Pl %AmbiguøsN @POSS>
 "<qinersisinnaatitaalerneranniit>"
 	"qiner" Gram/TV HTR Der/vv Gram/IV SINNAA Der/vv TIP Der/vv Gram/TV TAQ Der/vn U Der/nv Gram/IV LIR Der/vv Gram/IV NIQ Der/vn N Abl Sg 3PlPoss @i-ADVL>
 "<ukiut>"
-	"ukioq" N Rel Pl @POSS>
+	"ukioq" N Rel Pl %AmbiguøsN @POSS>
 "<100-nngornerat>"
 	"100" iNum NNGUR Der/nv Gram/IV NIQ Der/vn N Abs Sg 3PlPoss @SUBJ>
 "<nalliuttorsiutigineqarpoq>"
@@ -21231,7 +21236,7 @@
 	"pisussaaffige" Gram/TV V Par 4Pl 3SgO @CL-<CIT
 	"pisussaaffik" GE Der/nv Gram/TV V Par 4Pl 3SgO @CL-<CIT
 "<unnerluussisullu>"
-	"unnerluussisoq" Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"unnerluussisoq" Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<isumaqarlutik>"
 	"isuma" QAR Der/nv Gram/IV V Cont 4Pl @PRED
 "<taamaaliorneq>"
@@ -21301,8 +21306,8 @@
 "<Paasiuminaatsumik>"
 	"paasi" Gram/TV GUMINAR Der/vv IT Der/vv TUQ Der/vn N Ins Sg @ADVL>
 "<sunnertikkaanni>"
-	"sunner" Gram/IV TIP Der/vv Orth/Alt Gram/TV V Par 4Sg 3PlO @CL-ADVL>
-	"sunner" Gram/IV TIP Der/vv Orth/Alt Gram/TV V Par 4Sg 3SgO @CL-ADVL>
+	"sunner" Gram/IV TIP Der/vv Orth/Alt Gram/TV Gram/Gaanni Gram/Gaanni V Par 4Sg 3PlO @CL-ADVL>
+	"sunner" Gram/IV TIP Der/vv Orth/Alt Gram/TV Gram/Gaanni Gram/Gaanni V Par 4Sg 3SgO @CL-ADVL>
 "<akuersinnginnissaq>"
 	"akuere" Gram/TV HTR Der/vv Gram/IV NNGIT Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg @SUBJ>
 "<ajornartarpoq>"
@@ -21442,9 +21447,9 @@
 "<Taamatullu>"
 	"taamatut" Gram/Adv-encl Adv LU @i-ADVL>
 "<isumallit>"
-	"isuma" LIK Der/nn N Rel Pl @POSS>
+	"isuma" LIK Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<ilaat>"
-	"ila" N Abs Sg 3PlPoss @SUBJ>
+	"ila" N Abs Sg 3PlPoss %AmbiguøsN @SUBJ>
 "<,>"
 	"," CLB
 "<siulersuisuunerni>"
@@ -21460,8 +21465,8 @@
 "<siulersuisuunerni>"
 	"siulersor" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn U Der/nv Gram/IV NIQ Der/vn N Lok Pl @i-ADVL>
 "<amerlanerussuteqartut>"
-	"amerla" Gram/IV NIRU Der/vv Gram/IV UTE Der/vn QAR Der/nv Gram/IV TUQ Der/vn N Rel Pl @POSS>
-	"amerla" NIRU Der/vv UTE Der/vn QAR Der/nv Gram/IV TUQ Der/vn N Rel Pl @POSS>
+	"amerla" Gram/IV NIRU Der/vv Gram/IV UTE Der/vn QAR Der/nv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @POSS>
+	"amerla" NIRU Der/vv UTE Der/vn QAR Der/nv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<isummernerat>"
 	"isuma" LIR Der/nv Gram/IV Gram/TV Gram/Pass NIQ Der/vn N Abs Sg 3PlPoss %ContHypotagme @OBJ>
 "<ataqqissallugu>"
@@ -21472,7 +21477,7 @@
 
 <swQyotTqwh8SNaQSsrZZzM4Bq8Ac-0>
 "<Ullut>"
-	"ulloq" N Rel Pl %TidHypotagme @POSS>
+	"ulloq" N Rel Pl %TidHypotagme %AmbiguøsN @POSS>
 "<ilaanni>"
 	"ila" N Lok Sg 3PlPoss %TidHypotagme @ADVL>
 "<Marti>"
@@ -21560,7 +21565,7 @@
 "<naak>"
 	"naak" Conj @CONJ
 "<raajat>"
-	"raaja" N Abs Pl @SUBJ>
+	"raaja" N Abs Pl %AmbiguøsN @SUBJ>
 "<akii>"
 	"aki" N Abs Sg 4SgPoss Orth/Arch @<ADVL
 "<suli>"
@@ -21589,7 +21594,7 @@
 
 <swepV26VE2wVyQ7Vz1K066a07gbk-0>
 "<nunaqarfiillu>"
-	"nuna" QAR Der/nv Gram/IV VIK Der/vn Gram/Conj-encl N Abs Pl LU @OBJ>
+	"nuna" QAR Der/nv Gram/IV VIK Der/vn Gram/Conj-encl N Abs Pl LU %AmbiguøsN @OBJ>
 "<tamaasa>"
 	"tamaq" N Gram/Cong Akk 3Pl @N<
 "<soorunami>"
@@ -21610,14 +21615,14 @@
 "<qaatigut>"
 	"qaaq" N Via Sg 3SgPoss @i-ADVL>
 "<atisat>"
-	"ati" Gram/TV TAQ Der/vn N Abs Pl @HNOUN
+	"ati" Gram/TV TAQ Der/vn N Abs Pl %AmbiguøsN @HNOUN
 "<.>"
 	"." CLB
 
 "<iluatigut>"
 	"ilu" N Via Sg 3SgPoss @i-ADVL>
 "<atisat>"
-	"ati" Gram/TV TAQ Der/vn N Abs Pl @HNOUN
+	"ati" Gram/TV TAQ Der/vn N Abs Pl %AmbiguøsN @HNOUN
 "<.>"
 	"." CLB
 </s>
@@ -21783,7 +21788,7 @@
 
 <swzuZHvLEpri0NYV3nlkGKoA2Imw-0>
 "<illit-una>"
-	"illit" Gram/Pers Pron Abs 2Sg UNA @FOC
+	"illit" Gram/Pers Pron Abs 2Sg UNA %AmbiguøsN @FOC
 "<?>"
 	"?" CLB
 </s>
@@ -21834,9 +21839,9 @@
 "<Christianshavnstorvilu>"
 	"Christianshavnstorv" Sem/Geo Gram/Conj-encl Prop Abs Sg LU @OBJ>
 "<kalaallit>"
-	"kalaaleq" N Rel Pl @SUBJ>
+	"kalaaleq" N Rel Pl %AmbiguøsN @SUBJ>
 "<aalakoortut>"
-	"aalakoor" Gram/IV TUQ Der/vn N Rel Pl @N<
+	"aalakoor" Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @N<
 "<inigigajukkaat>"
 	"ini" GE Der/nv Gram/TV GAJUP Der/vv Gram/TV V Par 3Pl 3PlO @CL-<CIT
 "<,>"
@@ -21844,7 +21849,7 @@
 "<taamaattumillu>"
 	"taamaattumik" Gram/Conj-encl Adv LU @CL-ADVL>
 "<taakku>"
-	"una" Prefix/TA Gram/Dem Pron Abs Pl @OBJ>
+	"una" Prefix/TA Gram/Dem Pron Abs Pl %AmbiguøsN @OBJ>
 "<sapinngisaminik>"
 	"sapinngisaq" N Ins Sg 4SgPoss @ADVL>
 "<tikinnaveersaartarpai>"
@@ -21857,7 +21862,7 @@
 "<Panimma>"
 	"panik" N Rel Sg 1SgPoss @SUBJ>
 "<tuluit>"
-	"tuluk" N Abs Pl @OBJ>
+	"tuluk" N Abs Pl %AmbiguøsN @OBJ>
 "<Nuummi>"
 	"Nuuk" Sem/Geo Prop Lok Sg @ADVL>
 "<naapippai>"
@@ -21962,9 +21967,9 @@
 
 <sxH2i59dOvxHtJLRAztp89nSrcxs-0>
 "<Inuppassuit>"
-	"inuk" PAK Der/nn SUAQ Der/nn N Abs Pl @OBJ>
+	"inuk" PAK Der/nn SUAQ Der/nn N Abs Pl %AmbiguøsN @OBJ>
 "<ammassiat>"
-	"ammassiaq" N Abs Pl %ContHypotagme @N<
+	"ammassiaq" N Abs Pl %ContHypotagme %AmbiguøsN @N<
 "<takuleraluarlugit>"
 	"taku" Gram/TV LIR Der/vv GALUAR Der/vv Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<Biina>"
@@ -21998,7 +22003,7 @@
 
 <sxJCLTw6JqIX0xcQtLQmKcLevRAc-0>
 "<kapitalit>"
-	"kapitel" OLang/DAN Orth/Alt N Rel Pl @POSS>
+	"kapitel" OLang/DAN Orth/Alt N Rel Pl %AmbiguøsN @POSS>
 "<pingajuanniippoq>"
 	"pingajoq" Gram/Ord N Lok Sg 3PlPoss Hyb/1-2 @ADVL>
 "<ippoq>"
@@ -22029,7 +22034,7 @@
 "<,>"
 	"," CLB
 "<uangami>"
-	"uanga" Gram/Pers Pron Rel 1Sg MI @SUBJ>
+	"uanga" Gram/Pers Pron Rel 1Sg MI %AmbiguøsN @SUBJ>
 "<ajortorujussuarnik>"
 	"ajor" Gram/IV TUQ Der/vn RUJUK Der/nn SUAQ Der/nn N Ins Pl @i-ADVL>
 "<eqqunngitsunik>"
@@ -22046,9 +22051,9 @@
 "<Manup>"
 	"Manu" Dial/Vgr Sem/Mask Sem/Hum Prop Rel Sg @SUBJ>
 "<meeqqat>"
-	"meeraq" N Abs Pl @OBJ>
+	"meeraq" N Abs Pl %AmbiguøsN @OBJ>
 "<majuartut>"
-	"majuar" Gram/IV TUQ Der/vn N Abs Pl @N<
+	"majuar" Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<malippai>"
 	"malip" Gram/TV V Ind 3Sg 3PlO @PRED
 "<.>"
@@ -22085,7 +22090,7 @@
 "<aatsaat>"
 	"aatsaat" Adv @ADVL>
 "<nammineq>"
-	"nammineq" Gram/Coref Pron Rel 4Sg @SUBJ>
+	"nammineq" Gram/Coref Pron Rel 4Sg %AmbiguøsN @SUBJ>
 "<nalunaarfigereeruniuk>"
 	"nalunaarfige" Gram/TV RIIR Der/vv Gram/TV V Con 4Sg 3SgO @CON
 "<aggerumaartoq>"
@@ -22117,13 +22122,13 @@
 
 <sxRsQdcVzS5HcqmcT5xSlKoPsqlU-0>
 "<Niviarsiaqqat>"
-	"niviarsiaraq" N Abs Pl @OBJ>
+	"niviarsiaraq" N Abs Pl %AmbiguøsN @OBJ>
 "<marluk>"
-	"marluk" Num Abs Pl @N<
+	"marluk" Num Abs Pl %AmbiguøsN @N<
 "<børnehaviliaatereeraangamigit>"
 	"børnehave" OLang/DAN LIAR Der/nv Gram/IV UTE Der/vv Gram/TV RIIR Der/vv Gram/TV V IteCau 4Sg 3PlO @CL-ADVL>
 "<pisiassat>"
-	"pisiaq" SSAQ Der/nn N Abs Pl @OBJ>
+	"pisiaq" SSAQ Der/nn N Abs Pl %AmbiguøsN @OBJ>
 "<isumagisarpai>"
 	"isuma" GE Der/nv Gram/TV TAR Der/vv Gram/TV V Ind 3Sg 3PlO @PRED
 "<.>"
@@ -22182,9 +22187,9 @@
 
 <sxUtExHnwk5crwe7sJvlHM7eFJys-0>
 "<Angallateeqqat>"
-	"angallat" ARAQ Der/nn N Abs Pl @SUBJ>
+	"angallat" ARAQ Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<kutterillu>"
-	"kutter" OLang/DAN Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"kutter" OLang/DAN Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<usingianngikkunik>"
 	"usingiar" Gram/IV NNGIT Der/vv Gram/IV V Con 4Pl @CON
 "<usilersortut>"
@@ -22194,9 +22199,9 @@
 
 <sxVGJh2OsMaO4uf3hamFG5USOVLQ-0>
 "<Namminermi>"
-	"nammineq" Gram/Coref Pron Abs 4Sg MI @HNOUN
+	"nammineq" Gram/Coref Pron Abs 4Sg MI %AmbiguøsN @HNOUN
 	"nammineq" Gram/Coref Pron Lok Sg @HNOUN
-	"nammineq" Gram/Coref Pron Rel 4Sg MI @HNOUN
+	"nammineq" Gram/Coref Pron Rel 4Sg MI %AmbiguøsN @HNOUN
 "<?>"
 	"?" CLB
 </s>
@@ -22224,15 +22229,15 @@
 
 <sxXF0wRxHw5odRMNJZITD5zZPQAo-0>
 "<Ilaqutariit>"
-	"ilaqutaq" GIIT Der/nn N Abs Pl @OBJ>
+	"ilaqutaq" GIIT Der/nn N Abs Pl %AmbiguøsN @OBJ>
 "<ataatsimik>"
 	"ataaseq" Num Ins Sg @i->N
 "<kontollit>"
-	"konto" OLang/DAN Err/Sub LIK Der/nn N Abs Pl @N<
+	"konto" OLang/DAN Err/Sub LIK Der/nn N Abs Pl %AmbiguøsN @N<
 "<25.000>"
 	"25.000" Num Abs Sg @>N
 "<kronet>"
-	"krone" OLang/DAN Sem/Unit Err/Sub N Abs Pl %ContHypotagme @OBJ>
+	"krone" OLang/DAN Sem/Unit Err/Sub N Abs Pl %ContHypotagme %AmbiguøsN @OBJ>
 "<sinnerlugit>"
 	"sinner" Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<bankimi>"
@@ -22259,11 +22264,11 @@
 
 <sxYr4lmxO2fn7OZZVhrotTbVmv4E-0>
 "<Arnat>"
-	"arnaq" N Rel Pl @SUBJ>
+	"arnaq" N Rel Pl %AmbiguøsN @SUBJ>
 "<meerannguit>"
-	"meeraq" NNGUAQ Der/nn N Abs Pl @OBJ>
+	"meeraq" NNGUAQ Der/nn N Abs Pl %AmbiguøsN @OBJ>
 "<taakku>"
-	"una" Prefix/TA Gram/Dem Pron Abs Pl @N<
+	"una" Prefix/TA Gram/Dem Pron Abs Pl %AmbiguøsN @N<
 "<paasitinniaraluarpaat>"
 	"paasi" Gram/TV TIP Der/vv Gram/Db NIAR Der/vv GALUAR Der/vv Gram/TV V Ind 3Pl 3PlO @PRED
 "<ataataat>"
@@ -22277,9 +22282,9 @@
 "<ajornaqaarli>"
 	"ajor" Gram/IV NAR Der/vv QE Der/vv Gram/IV V Ind 3Sg LI @PRED
 "<meerannguit>"
-	"meeraq" NNGUAQ Der/nn N Rel Pl @POSS>
+	"meeraq" NNGUAQ Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<taakku>"
-	"una" Prefix/TA Gram/Dem Pron Rel Pl @N<
+	"una" Prefix/TA Gram/Dem Pron Rel Pl %AmbiguøsN @N<
 "<ataataartorlutik>"
 	"ataataartor" Gram/IV V Cont 4Pl @i-ADVL>
 "<qianerat>"
@@ -22322,9 +22327,9 @@
 "<,>"
 	"," CLB DIRTALEMIDDLE
 "<nunallu>"
-	"nuna" Gram/Conj-encl N Abs Pl LU @SUBJ>
+	"nuna" Gram/Conj-encl N Abs Pl LU %AmbiguøsN @SUBJ>
 "<allat>"
-	"alla" N Abs Pl @N<
+	"alla" N Abs Pl %AmbiguøsN @N<
 "<nunatsinni>"
 	"nuna" N Lok Sg 1PlPoss @i-ADVL>
 "<sakkutooqarfeqarnermi>"
@@ -22403,7 +22408,7 @@
 "<->"
 	"-" PUNCT DIRTALESTART
 "<Immiaaqqat>"
-	"immiaq" ARAQ Der/nn N Rel Pl @POSS>
+	"immiaq" ARAQ Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<puukui>"
 	"pooq" KUQ Der/nn N Abs Pl 3PlPoss @SUBJ>
 "<ataatsimut>"
@@ -22451,7 +22456,7 @@
 "<maanna>"
 	"maanna" Adv @ADVL>
 "<ernermi>"
-	"erneq" N Rel Sg 4SgPoss @POSS>
+	"erneq" N Rel Sg 4SgPoss %AmbiguøsN @POSS>
 "<najugaanut>"
 	"najor" Gram/TV TAQ Der/vn N Trm Sg 3SgPoss @MIK-OBJ>
 "<,>"
@@ -22495,11 +22500,11 @@
 
 <sxohZ4lTEhIxp4n4wCHjxEvpWG8A-0>
 "<Inatsisartut>"
-	"Inatsisartut" Sem/Hum Prop Rel Pl @POSS>
+	"Inatsisartut" Sem/Hum Prop Rel Pl %AmbiguøsN @POSS>
 "<kaffisortarfianni>"
 	"kaffi" TUR Der/nv Gram/IV TAR Der/vv Gram/IV VIK Der/vn N Lok Sg 3PlPoss @ADVL>
 "<kalaallit>"
-	"kalaaleq" N Rel Pl @POSS>
+	"kalaaleq" N Rel Pl %AmbiguøsN @POSS>
 "<kaagiannik>"
 	"kaagi" N Ins Sg 3PlPoss @i->N
 "<sassaallertoqassaaq>"
@@ -22563,13 +22568,13 @@
 
 <sxtKZLELFlXwVSxP9raYQd0IHMEo-0>
 "<Tuluit>"
-	"tuluk" N Abs Pl @SUBJ>
+	"tuluk" N Abs Pl %AmbiguøsN @SUBJ>
 "<paninnik>"
 	"panik" N Ins Pl @i-MIK-OBJ>
 "<Nuummi>"
 	"Nuuk" Sem/Geo Prop Lok Sg @i-ADVL>
 "<naapitsisut>"
-	"naapip" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
+	"naapip" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN @N<
 "<kingorna>"
 	"kingorna" Pali @CL-ADVL>
 "<Sisimiuliarput>"
@@ -22603,7 +22608,7 @@
 "<aamma>"
 	"aamma" Conj @CONJ
 "<aasat>"
-	"aasaq" N Abs Pl @CL-ADVL>
+	"aasaq" N Abs Pl %AmbiguøsN @CL-ADVL>
 "<tamaasa>"
 	"tamaq" N Gram/Cong Akk 3Pl @N<
 "<kuanninik>"
@@ -22643,7 +22648,7 @@
 "<aniagamik>"
 	"ania" Gram/IV V Cau 4Pl @i-ADVL>
 "<nuannaaqisut>"
-	"nuannaar" Gram/IV QE Der/vv Gram/IV TUQ Der/vn N Rel Pl @POSS>
+	"nuannaar" Gram/IV QE Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN @POSS>
 "<ilinniartitsisuata>"
 	"ilinniar" Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Rel Sg 3PlPoss @SUBJ>
 "<malugisinnaavai>"
@@ -22704,9 +22709,9 @@
 "<Taamaattumik>"
 	"taamaattumik" Adv @CL-ADVL>
 "<aanami>"
-	"aanaq" N Rel Sg 4SgPoss @SUBJ>
+	"aanaq" N Rel Sg 4SgPoss %AmbiguøsN @SUBJ>
 "<aatamilu>"
-	"aataq" Gram/Conj-encl N Rel Sg 4SgPoss LU @SUBJ>
+	"aataq" Gram/Conj-encl N Rel Sg 4SgPoss LU %AmbiguøsN @SUBJ>
 "<politiinit>"
 	"politeeq" N Abl Pl @ADVL>
 "<allagarsisimallutik>"
@@ -22779,7 +22784,7 @@
 "<oqaluttuarisara>"
 	"oqaluttuaq" GE Der/nv Gram/TV TAQ Der/vn N Abs Sg 1SgPoss @OBJ>
 "<illit>"
-	"illit" Gram/Pers Pron Abs 2Sg @SUBJ>
+	"illit" Gram/Pers Pron Abs 2Sg %AmbiguøsN @SUBJ>
 "<kisivit>"
 	"kisi" N Gram/Cong Akk 2Sg @N<
 "<piginagu>"
@@ -22851,7 +22856,7 @@
 
 <syF6vXhdrBWV7O6FbwoitV6FdL6w-0>
 "<Arlallit>"
-	"arlaq" LIK Der/nn N Abs Pl @SUBJ>
+	"arlaq" LIK Der/nn N Abs Pl %AmbiguøsN @SUBJ>
 "<natermi>"
 	"nateq" N Lok Sg @ADVL>
 "<issiapput>"
@@ -22887,7 +22892,7 @@
 "<umiarsuaq>"
 	"umiarsuaq" N Abs Sg @SUBJ>
 "<Tuluit>"
-	"Tuluk" Orth/Copy Prop Rel Pl Orth/Copy @i-POSS>
+	"Tuluk" Orth/Copy Prop Rel Pl %AmbiguøsN Orth/Copy @i-POSS>
 "<Nunaaliartussaavoq>"
 	"Nuna" iProp Sem/Geo iSg i3PlPoss LIAR Der/nv Gram/IV TUQ Der/vn SSAQ Der/nn U Der/nv Gram/IV V Ind 3Sg @PRED
 </s>
@@ -22929,7 +22934,7 @@
 
 <syXFYxnfxt5InmNzncT2Vfll9vzQ-0>
 "<Juullisioriat>"
-	"juullisioriaq" N Abs Pl @SUBJ>
+	"juullisioriaq" N Abs Pl %AmbiguøsN @SUBJ>
 "<timmisartumut>"
 	"timmi" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Trm Sg @ADVL>
 "<ilaallutik>"
@@ -22937,8 +22942,8 @@
 "<angalasut>"
 	"angala" Gram/IV Sem/Temporal V Par 3Pl @PRED2
 "<kingulliit>"
-	"kingulleeq" N Abs Pl @SUBJ>
-	"kingulleq" N Abs Pl @SUBJ>
+	"kingulleeq" N Abs Pl %AmbiguøsN @SUBJ>
+	"kingulleq" N Abs Pl %AmbiguøsN @SUBJ>
 "<maannakkorluinnaq>"
 	"maannakkorluinnaq" Adv @ADVL>
 "<Ilulissaniit>"
@@ -22954,13 +22959,13 @@
 "<unnugu>"
 	"unnugu" Pali @i-ADVL>
 "<arfineq pingasut>"
-	"arfineq pingasut" Num Rel Pl @POSS>
+	"arfineq pingasut" Num Rel Pl %AmbiguøsN @POSS>
 "<missaanni>"
 	"misse" N Lok Sg 3PlPoss %NumPossessum @ADVL>
 "<Nuummut>"
 	"Nuuk" Sem/Geo Prop Trm Sg @i-ADVL>
 "<tikinnissaat>"
-	"tikip" Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss @SUBJ>
+	"tikip" Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss @<SUBJ
 "<,>"
 	"," CLB
 "<Air Greenlandip>"
@@ -23196,7 +23201,7 @@
 
 <sz8cT05rRiuTZR42GofUYe6BxX5c-0>
 "<Anaanami>"
-	"anaana" N Rel Sg 4SgPoss @POSS>
+	"anaana" N Rel Sg 4SgPoss %AmbiguøsN @POSS>
 "<kissaatigisaa>"
 	"kissar" UTE Der/vn GE Der/nv Gram/TV TAQ Der/vn N Abs Sg 3SgPoss %ContHypotagme @OBJ>
 "<malillugu>"
@@ -23254,7 +23259,7 @@
 
 <szAalJu9iax9wYITRjFK8lBZF7uc-0>
 "<Tamakkuli>"
-	"manna" Prefix/TA Gram/Dem Gram/Conj-encl Pron Abs Pl LI @SUBJ>
+	"manna" Prefix/TA Gram/Dem Gram/Conj-encl Pron Abs Pl LI %AmbiguøsN @SUBJ>
 "<nassuiaatissaqarput>"
 	"nassuiar" UTE Der/vn SSAQ Der/nn QAR Der/nv Gram/IV V Ind 3Pl @PRED
 "<.>"
@@ -23322,9 +23327,9 @@
 
 <szU8aDk9xCWHCVuOxpgiW7PVgGxE-0>
 "<nalunaaquttap-akunneri>"
-	"akunneq" Sem/Unit N Abs Pl 3SgPoss @CL-ADVL>
+	"akunneq" Sem/Unit N Abs Pl 3SgPoss %AmbiguøsN @CL-ADVL>
 "<23-t>"
-	"23" Num Abs Pl @N<
+	"23" Num Abs Pl %AmbiguøsN @N<
 "<sulisarpoq>"
 	"suli" Gram/IV TAR Der/vv Gram/IV V Ind 3Sg @PRED
 "<.>"
@@ -23394,7 +23399,7 @@
 "<1000>"
 	"1000" Num Abs Sg @>N
 "<kronit>"
-	"krone" OLang/DAN Sem/Unit N Abs Pl @OBJ>
+	"krone" OLang/DAN Sem/Unit N Abs Pl %AmbiguøsN @OBJ>
 "<tunniuppai>"
 	"tunniup" Gram/TV V Ind 3Sg 3PlO @PRED
 "<.>"
@@ -23410,7 +23415,7 @@
 	"?" CLB
 
 "<uanga>"
-	"uanga" Gram/Pers Pron Abs 1Sg @HNOUN
+	"uanga" Gram/Pers Pron Abs 1Sg %AmbiguøsN @HNOUN
 "<!>"
 	"!" CLB
 </s>
@@ -23436,7 +23441,7 @@
 "<oqarpoq>"
 	"oqar" Gram/IV V Ind 3Sg @PRED
 "<kunngikkormiut>"
-	"kunngi" KKUT Der/nn MIU Der/nn N Rel Pl @POSS>
+	"kunngi" KKUT Der/nn MIU Der/nn N Rel Pl %AmbiguøsN @POSS>
 "<atertaavi>"
 	"ateq" TAAQ Der/nn N Abs Pl 3PlPoss Err/Sub @OBJ>
 "<assut>"
@@ -23446,7 +23451,7 @@
 "<,>"
 	"," CLB
 "<namminermi>"
-	"nammineq" Gram/Coref Pron Rel 4Sg MI @POSS>
+	"nammineq" Gram/Coref Pron Rel 4Sg MI %AmbiguøsN @POSS>
 "<atiisa>"
 	"ateq" N Rel Pl 3SgPoss @SUBJ>
 "<Ivalo>"
@@ -23486,9 +23491,9 @@
 	"annertooq" N Ins Sg @MIK-OBJ>
 	"annertooq" N Ins Sg @i-ADVL>
 "<sodavandit>"
-	"sodavand" OLang/DAN N Abs Pl @OBJ>
+	"sodavand" OLang/DAN N Abs Pl %AmbiguøsN @OBJ>
 "<imigassartallit>"
-	"imer" Gram/TV TAQ Der/vn SSAQ Der/nn TAQ Der/nn LIK Der/nn N Abs Pl %ContHypotagme @N<
+	"imer" Gram/TV TAQ Der/vn SSAQ Der/nn TAQ Der/nn LIK Der/nn N Abs Pl %ContHypotagme %AmbiguøsN @N<
 "<qaffaavigeqqullugit>"
 	"qaffar" Gram/TV HTR Der/vv VIK Der/vn GE Der/nv Gram/TV QQU Der/vv Gram/Db Gram/TV V Cont 3PlO %ContHypotagme @CL-<CIT
 "<.>"
@@ -23556,7 +23561,7 @@
 
 <szvcavIijkiYB8jqIyGMteQIaiOE-0>
 "<Ilaat>"
-	"ila" N Abs Pl 3PlPoss @SUBJ>
+	"ila" N Abs Pl 3PlPoss %AmbiguøsN @SUBJ>
 "<taamaalaanngualereerlutik>"
 	"taama" IP Der/nv Gram/IV LAAR Der/vv NNGUAR Der/vv LIR Der/vv RIIR Der/vv Gram/IV V Cont 4Pl @ADVL>
 "<iserput>"
