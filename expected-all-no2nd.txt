@@ -1634,16 +1634,13 @@
 "<annertuneq>"
 	"anneq" TU NIQ N Abs Sg @N<
 "<ujaasinermut>"
-	"ujaasineq" N Trm Sg @ADVL>
 	"ujar" HTR SI NIQ N Trm Sg @ADVL>
 "<atussallutigu>"
 	"ator" SSA V Cont 1Pl 3SgO @ADVL>
 "<allakkalli>"
-	"allap" TAQ N Rel Pl LI @POSS>
+	"allap" TAQ N Abs Pl LI @OBJ>
 "<annikitsuinnaat>"
-	"anneq" KIP TUQ INNAQ N Abs Pl %ContHypotagme
-	"anneq" KIP TUQ INNAQ N Abs Pl 3PlPoss %ContHypotagme
-	"anneq" KIP TUQ INNAQ N Abs Sg 3PlPoss
+	"anneq" KIP TUQ INNAQ N Abs Pl %ContHypotagme @N<
 "<pissarsiaralugit>"
 	"pissaq" SIAQ GE V Cont 3PlO %ContHypotagme @<CONT_TASSA
 	"pissarsiaq" GE V Cont 3PlO %ContHypotagme @<CONT_TASSA
@@ -4052,7 +4049,7 @@
 "<seqineq>"
 	"seqineq" N Abs Sg @OBJ>
 "<tarrittoq>"
-	"tarrittoq" N Abs Sg %ContHypotagme @N<
+	"tarrip" TUQ N Abs Sg %ContHypotagme @N<
 "<isiginnaarlugu>"
 	"isiginnaar" V Cont 3SgO %ContHypotagme @ADVL>
 "<nuannertaqigami>"
@@ -5261,7 +5258,7 @@
 "<Tasiilami>"
 	"Tasiilaq" Prop Lok Sg @ADVL>
 "<ukiut>"
-	"ukioq" N Abs Pl @SUBJ>
+	"ukioq" N Abs Pl @OBJ>
 "<siulliit>"
 	"siulleq" N Abs Pl %ContHypotagme @N<
 "<assersuutigalugit>"
@@ -5624,6 +5621,27 @@
 	"assik" N Ins Sg 3SgPoss @i->N
 "<tigumiaaqarpoq>"
 	"tigumiaq" QAR V Ind 3Sg @PRED
+"<.>"
+	"." CLB
+</s>
+
+<sPXxe8gJgs4LMroxBJ3Y6CKMDfoo-0>
+"<Taamaakkaluartorli>"
+	"taama" IP GALUAR V Par 3Sg LI @PRED2
+"<innuttaasut>"
+	"innuttaq" U TUQ N Rel Pl @POSS>
+"<ilitsersuutigineqartunik>"
+	"ilitsersor" UTE GE NIQAR TUQ N Ins Pl @i-MIK-OBJ>
+"<malinninnissaat>"
+	"malip" HTR NIQ SSAQ N Abs Sg 3PlPoss @SUBJ>
+"<pingaaruteqarpoq>"
+	"pingaar" UTE QAR V Ind 3Sg @PRED
+"<,>"
+	"," CLB
+"<siulittaasoq>"
+	"siulittar" HTR TUQ N Abs Sg @SUBJ>
+"<oqarpoq>"
+	"oqar" V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
