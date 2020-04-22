@@ -1670,7 +1670,7 @@
 "<allat>"
 	"alla" N Rel Pl @N<
 "<hunnorujut>"
-	"hundrede" OLang/DAN Err/Sub Num Abs Pl @i->N
+	"hundrede" OLang/DAN Err/Sub Num Rel Pl @N<
 "<tuusintillillu>"
 	"tusind" OLang/DAN Err/Sub iNum LIK Der/nn Gram/Conj-encl N Rel Pl LU @N<
 "<assingat>"
@@ -3530,9 +3530,9 @@
 "<akiitsut>"
 	"akiip" TUQ Der/vn N Abs Pl @SUBJ>
 "<56>"
-	"56" Num Abs Sg @>N
+	"56" Num Abs Sg @i-MWE>N
 "<millioni>"
-	"million" iNum Err/Sub Num Abs Pl @i-MWE>N
+	"million" Orth/Alt Num Abs Sg @i-MWE>N
 "<koruuniupput>"
 	"krone" OLang/DAN Sem/Unit Err/Sub Orth/Arch U Der/nv Gram/IV V Ind 3Pl @PRED
 "<.>"
@@ -3613,10 +3613,9 @@
 "<,>"
 	"," CLB
 "<6,6>"
-	"6,6" Num Abs Sg @i->N
+	"6,6" Num Abs Sg @i-MWE>N
 "<millioninillu>"
 	"million" Gram/Conj-encl Num Ins Pl LU @ADVL>
-	"million" iNum Err/Sub Gram/Conj-encl Num Ins Pl LU @ADVL>
 "<taakku>"
 	"una" Prefix/TA Gram/Dem Pron Abs Pl @SUBJ>
 "<maanna>"
@@ -6185,7 +6184,7 @@
 "<akiitsut>"
 	"akiip" TUQ Der/vn N Abs Pl @SUBJ>
 "<56>"
-	"56" Num Abs Sg @>N
+	"56" Num Abs Sg @i-MWE>N
 "<million>"
 	"million" Num Abs Pl @i-MWE>N
 "<kroniupput>"
@@ -6601,7 +6600,8 @@
 "<KNI-miit>"
 	"KNI" N Gram/ACR Abl Sg @AGENS
 "<bachelorinngortuni>"
-	"bachelor" OLang/DAN NNGUR Der/nv Gram/IV Gram/IV TUQ Der/vn N Lok Pl @i-ADVL>
+	"bachelor" OLang/DAN NNGUR Der/nv Gram/IV TUQ Der/vn N Lok Pl @i-ADVL>
+	"bachelor" OLang/DAN NNGUR Der/nv Gram/TV Gram/Pass TUQ Der/vn N Lok Pl @i-ADVL>
 "<angusarissaarnerpaatut>"
 	"angu" Gram/TV TAQ Der/vn GISSAAR Der/nv Gram/IV NIRPAAQ Der/vn N Aeq Sg @ADVL>
 "<nersornaaserneqarpoq>"
@@ -9289,6 +9289,31 @@
 	"eqqarsar" UTE Der/vn GE Der/nv Gram/TV SIMA Der/vv Gram/TV V Cont 3SgO %ContHypotagme @PRED
 "<:>"
 	":" CLB DIRTALESTART
+</s>
+
+<sfpGsV8Aj8WR3RVaBXwFxyIkrxxw-0>
+"<Tamatuma>"
+	"manna" Prefix/TA Gram/Dem Pron Rel Sg @POSS>
+"<kingorna>"
+	"kinguneq" N Abs Sg 3SgPoss @ADVL>
+"<angallatip>"
+	"angallat" N Rel Sg @POSS>
+"<qanoq>"
+	"qanoq" Adv @i-ADVL>
+"<ittuunissaanut>"
+	"ip" Gram/IV TUQ Der/vn U Der/nv Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Sg 3SgPoss @ADVL>
+"<,>"
+	"," CLB
+"<angissusissaanut>"
+	"angi" Gram/IV SSUSIQ Der/vn SSAQ Der/nn N Trm Sg 3SgPoss @i-ADVL>N
+"<akissaanullu>"
+	"aki" SSAQ Der/nn Gram/Conj-encl N Trm Sg 3SgPoss LU @i-ADVL>N
+"<pisariaqartitat>"
+	"pi" TARIAQAR Der/vv Gram/IV TIP Der/vv Gram/TV TAQ Der/vn N Abs Pl @SUBJ>
+"<inissinneqassapput>"
+	"inissip" Gram/TV NIQAR Der/vv Gram/IV SSA Der/vv Gram/IV V Ind 3Pl @PRED
+"<.>"
+	"." CLB
 </s>
 
 <sg9M4Ii5L9CM8JdJHfRuztRbIZls-0>
@@ -12334,7 +12359,6 @@
 "<nunaat>"
 	"nuna" N Abs Sg 3PlPoss @SUBJ>
 "<naalagaaffiuvoq>"
-	"naalagaaffik" U Der/nv Gram/IV V Ind 3Sg @PRED
 	"naalagaq" U Der/nv Gram/IV VIK Der/vn U Der/nv Gram/IV V Ind 3Sg @PRED
 "<nalunartulik>"
 	"nalu" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn LIK Der/nn N Abs Sg @i-N<
@@ -12748,7 +12772,7 @@
 "<allat>"
 	"alla" N Rel Pl @N<
 "<hunnorujut>"
-	"hundrede" OLang/DAN Err/Sub Num Abs Pl @i->N
+	"hundrede" OLang/DAN Err/Sub Num Rel Pl @N<
 "<tuusintillillu>"
 	"tusind" OLang/DAN Err/Sub iNum LIK Der/nn Gram/Conj-encl N Rel Pl LU @N<
 "<assingat>"
