@@ -9617,9 +9617,10 @@
 "<katillugit>"
 	"katip" Gram/TV V Cont 3PlO
 "<50-it>"
+	"50" Num Rel Pl %AmbiguøsN
 	"50" Orth/Append Num Rel Pl
 "<missaanni>"
-	"misse" N Lok Sg 3PlPoss
+	"misse" N Lok Sg 3PlPoss %NumPossessum
 "<pisarineqarput>"
 	"pi" Gram/TV TAQ Der/vn GE Der/nv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Pl
 "<.>"
@@ -10841,13 +10842,16 @@
 
 <sVNP0mFnJMplqZKqYlxFykNVXNZo-0>
 "<Qitigissat>"
-	"qitigiaq" N Abs Pl
+	"qitigiaq" N Abs Pl %AmbiguøsN
 "<rockit>"
-	"rock" OLang/DAN N Abs Pl
+	"rock" OLang/DAN N Abs Pl %AmbiguøsN
+	"rock" OLang/DAN N Rel Pl %AmbiguøsN
 "<nutaajunerpaat>"
-	"nutaaq" U Der/nv Gram/IV NIRPAAQ Der/vn N Abs Pl
+	"nutaaq" U Der/nv Gram/IV NIRPAAQ Der/vn N Abs Pl %AmbiguøsN
+	"nutaaq" U Der/nv Gram/IV NIRPAAQ Der/vn N Rel Pl %AmbiguøsN
 "<nipitoorujussuarmik>"
-	"nipitooq" RUJUK Der/nn SUAQ Der/nn N Ins Sg
+	"nipi" Orth/Arch Gram/IV TUUQ Der/vn RUJUK Der/nn SUAQ Der/nn N Ins Sg Orth/Arch
+	"nipitooq" RUJUK Der/nn SUAQ Der/nn N Ins Sg Orth/Arch
 "<kipissaanngitsumillu>"
 	"kipissaa" Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Ins Sg LU
 "<båndini>"
@@ -10858,9 +10862,9 @@
 "<aammalu>"
 	"aamma" Conj LU
 "<oqallittut>"
-	"oqallittoq" N Abs Pl
+	"oqallittoq" N Abs Pl %AmbiguøsN
 "<illartullu>"
-	"illar" Gram/IV TUQ Der/vn N Abs Pl LU
+	"illar" Gram/IV TUQ Der/vn N Abs Pl LU %AmbiguøsN
 "<nipangissanatik>"
 	"nipanger" Gram/IV SSA Der/vv Gram/IV V ContNeg 4Pl
 "<,>"
@@ -11367,9 +11371,10 @@
 "<ullut>"
 	"ulloq" N Rel Pl %AmbiguøsN
 "<14-t>"
+	"14" Err/Sub Num Rel Pl %AmbiguøsN
 	"14" Orth/Append Num Rel Pl
 "<missaat>"
-	"misse" N Abs Pl 3PlPoss
+	"misse" N Abs Pl 3PlPoss %NumPossessum
 "<qaangiuppata>"
 	"qaangiup" Gram/IV V Con 3Pl
 </s>
