@@ -1804,7 +1804,7 @@
 "<eqqartueqatigeereerluta>"
 	"eqqartor" Gram/TV HTR Der/vv Gram/IV QATE Der/vn GIIP Der/nv Gram/IV RIIR Der/vv Gram/IV V Cont 1Pl @ADVL>
 "<isumaqatigiissutigaarput>"
-	"isuma" QATE Der/nn GIIP Der/nv Gram/IV UTE Der/vn GE Der/nv Gram/TV V Ind 1Pl 3SgO @PRED
+	"isuma" Gram/IV QATIGIIP Der/vv Gram/Reci Gram/IV UTE Der/vn GE Der/nv Gram/TV V Ind 1Pl 3SgO @PRED
 "<mailikkut>"
 	"mail" OLang/DAN N Via Sg @i-ADVL>
 "<allagarisartakkatta>"
@@ -1831,7 +1831,7 @@
 "<annikitsuinnaat>"
 	"angi" Gram/IV NIQ Der/vn KIP Der/nv TUQ Der/vn INNAQ Der/nn N Abs Pl %ContHypotagme @N<
 "<pissarsiaralugit>"
-	"pissaq" SIAQ Der/nn GE Der/nv Gram/TV V Cont 3PlO %ContHypotagme @<CONT_TASSA
+	"pissaq" SIAQ Der/nn GE Der/nv Gram/TV V Cont 3PlO %ContHypotagme @CL-<CIT
 "<.>"
 	"." CLB
 </s>
@@ -3453,11 +3453,11 @@
 "<,>"
 	"," CLB
 "<nunanut>"
-	"nuna" N Trm Pl @i-ADVL>N
+	"nuna" N Trm Pl @i-ADVL>
 "<allanut>"
 	"alla" N Trm Pl @N<
 "<tunngasunut>"
-	"tunnga" Gram/IV TUQ Der/vn N Trm Pl @N<
+	"tunnga" Gram/IV TUQ Der/vn N Trm Pl @i-ADVL>N
 "<ministeriusimasoq>"
 	"minister" OLang/DAN U Der/nv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Sg @>N
 "<,>"
@@ -6123,7 +6123,7 @@
 "<Siumukkullu>"
 	"Siumut" Sem/Hum KKUT Der/nn Gram/Conj-encl Prop Rel Pl LU @POSS>
 "<isumaqatigiissutitta>"
-	"isuma" QATE Der/nn GIIP Der/nv Gram/IV UTE Der/vn N Rel Pl 1PlPoss @POSS>
+	"isuma" Gram/IV QATIGIIP Der/vv Gram/Reci Gram/IV UTE Der/vn N Rel Pl 1PlPoss @POSS>
 "<saniatigut>"
 	"sani" N Via Sg 3PlPoss @HNOUN
 "<.>"
@@ -14842,6 +14842,63 @@
 	"arnaq" N Trm Sg 4SgPoss @ADVL>
 "<pulaarussimagaluarai>"
 	"pulaarup" Gram/TV SIMA Der/vv GALUAR Der/vv Gram/TV Sem/Concessive V Par 3Sg 3PlO @PRED2
+"<.>"
+	"." CLB
+</s>
+
+<sxk7n7aiwYtwRFYF3TsaIf2a5P2k-0>
+"<Bundgarnilerfissarput>"
+	"bundgarn" OLang/DAN LIR Der/nv Gram/IV VIK Der/vn SSAQ Der/nn N Abs Sg 1PlPoss @OBJ>
+	"bundgarn" OLang/DAN R Der/nv Gram/IV LIR Der/vv Gram/IV VIK Der/vn SSAQ Der/nn N Abs Sg 1PlPoss @OBJ>
+"<iterlassimaninnguaq>"
+	"iterlassimaneq+Orht/Alt" NNGUAQ Der/nn N Abs Sg @N<
+"<kimmut>"
+	"kite" N Trm Sg @i-ADVL>
+"<sammisoq>"
+	"sammi" Gram/IV TUQ Der/vn N Abs Sg @N<
+"<sikorsuaalunnguit>"
+	"sikorsuaq" ALUK Der/nn NNGUAQ Der/nn N Rel Pl @SUBJ>
+"<tippuffigisimagaat>"
+	"tippup" Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV SIMA Der/vv Gram/TV Sem/Temporal V Par 3Pl 3SgO @PRED2
+"<pujortuleeqqamik>"
+	"pujortuleeraq" N Ins Sg @ADVL>
+"<aportarlugit>"
+	"apor" Gram/TV TAR Der/vv Gram/TV V Cont 3PlO @i-ADVL>
+"<avalakaatillugit>"
+	"avalap" Gram/TV KAA Der/vv TIP Der/vv Gram/Db Gram/TV V Cont 3PlO @ADVL>
+"<kangimut>"
+	"kangi" N Trm Sg @OBJ-DOTR>
+"<qimmussorteriarlugit>"
+	"qimmussor" Gram/TV TIP Der/vv Gram/Db RIAR Der/vv Gram/TV V Cont 3PlO @ADVL>
+"<–>"
+	"–" PUNCT
+"<nuliara>"
+	"nuliaq" N Abs Sg 1SgPoss @OBJ>
+"<meeqqavullu>"
+	"meeraq" Gram/Conj-encl N Abs Pl 1PlPoss LU @OBJ>
+"<nunamut>"
+	"nuna" N Trm Sg @ADVL>
+"<nioriarlugit>"
+	"nior" Gram/TV RIAR Der/vv Gram/TV V Cont 3PlO @<ADVL
+	"niu" Gram/TV RIAR Der/vv Gram/TV V Cont 3PlO @<ADVL
+"<,>"
+	"," CLB
+"<pujortuleerarlu>"
+	"pujortuleeraq" Gram/Conj-encl N Abs Sg LU %ContHypotagme @OBJ>
+"<kisarteriarlugu>"
+	"kisar" Gram/IV TIP Der/vv Gram/TV RIAR Der/vv Gram/TV V Cont 3SgO %ContHypotagme @ADVL>
+"<–>"
+	"–" PUNCT
+"<umiaasamik>"
+	"umiaasaq" N Ins Sg @ADVL>
+"<angallatinni>"
+	"angallat" N Lok Sg 1SgPoss @i-ADVL>
+"<ilagisartagaralu>"
+	"ila" GE Der/nv Gram/TV TAR Der/vv TAR Der/vv Gram/TV TAQ Der/vn Gram/Conj-encl N Abs Sg 1SgPoss LU @POSS>
+"<bundgarnivut>"
+	"bundgarn" OLang/DAN N Abs Pl 1PlPoss @OBJ>
+"<ninginnialerpavut>"
+	"ningip" Gram/TV NIAR Der/vv LIR Der/vv Gram/TV V Ind 1Pl 3PlO @PRED
 "<.>"
 	"." CLB
 </s>
