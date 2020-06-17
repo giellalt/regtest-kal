@@ -45,7 +45,7 @@
 "<suliniut>"
 	"suli" NIUTE N Abs Sg @SUBJ>
 "<nunarsuarmi>"
-	"nunarsuaq" N Lok Sg @ADVL>
+	"nunarsuaq" Prop Lok Sg @ADVL>
 "<zinkinik>"
 	"zink" N Ins Pl @i->N
 "<aqerlunik>"
@@ -737,7 +737,7 @@
 "<Inatsisartunut>"
 	"Inatsisartut" Prop Trm Pl @i-ADVL>
 "<ilaasortat>"
-	"ila" U TUQ TAQ N Abs Pl @N<
+	"ila" U TUQ TAQ N Abs Pl @>N
 "<Doris>"
 	"Doris" Prop Abs Sg @PROP>
 "<Jakobsen>"
@@ -1609,7 +1609,7 @@
 "<aviisit>"
 	"aviisi" N Rel Pl @POSS>
 "<nunarsuaq>"
-	"nunarsuaq" N Abs Sg %ContHypotagme @OBJ>
+	"nunarsuaq" Prop Abs Sg %ContHypotagme @OBJ>
 "<tamakkerlugu>"
 	"tamakker" V Cont 3SgO %ContHypotagme @i-ADVL>
 "<peqatigiiffiata>"
@@ -1619,7 +1619,7 @@
 "<aamma>"
 	"aamma" Conj @CONJ
 "<nunarsuaq>"
-	"nunarsuaq" N Abs Sg %ContHypotagme @OBJ>
+	"nunarsuaq" Prop Abs Sg %ContHypotagme @OBJ>
 "<tamakkerlugu>"
 	"tamakker" V Cont 3SgO %ContHypotagme @i-ADVL>
 "<peqatigiiffiata>"
@@ -1910,6 +1910,25 @@
 	"tassa" Adv @PRED
 "<Emilie>"
 	"Emilie" Prop Abs Sg @SUBJ_COMP
+"<.>"
+	"." CLB
+</s>
+
+<s2zXsTXU45xZzFNi1O8rKa2tVx6Q-0>
+"<Hans-Paviap>"
+	"Hans-Pavia" Prop Rel Sg @SUBJ>
+"<nipini>"
+	"nipi" N Abs Sg 4SgPoss @OBJ>
+"<politikkimi>"
+	"politik" N Lok Sg @ADVL>
+"<,>"
+	"," CLB
+"<isiginnaartitsivimmi>"
+	"isiginnaartitsivik" N Lok Sg @ADVL>
+"<erinarsoqatigiinnilu>"
+	"erinarsor" QATE GIIT N Lok Pl LU @ADVL>
+"<tusartittarsimavaa>"
+	"tusar" TIP TAR SIMA V Ind 3Sg 3SgO @PRED
 "<.>"
 	"." CLB
 </s>
@@ -2524,7 +2543,7 @@
 "<kisianni>"
 	"kisianni" Conj @CONJ
 "<nunarsuaq>"
-	"nunarsuaq" N Abs Sg %ContHypotagme @OBJ>
+	"nunarsuaq" Prop Abs Sg %ContHypotagme @OBJ>
 "<tamakkerlugu>"
 	"tamakker" V Cont 3SgO %ContHypotagme @ADVL>
 "<aningaasarsiorneq>"
@@ -2536,7 +2555,7 @@
 "<,>"
 	"," CLB
 "<nunarsuarmi>"
-	"nunarsuaq" N Lok Sg @i-ADVL>
+	"nunarsuaq" Prop Lok Sg @i-ADVL>
 "<aningaasat>"
 	"aningaasaq" N Rel Pl @SUBJ>
 "<kaaviiaartut>"
@@ -5119,7 +5138,7 @@
 "<eqqartuussissuserisuni>"
 	"eqqartuup" HTR UTE LIRI TUQ N Abs Sg 4SgPoss @OBJ>
 "<danskeq>"
-	"dansker" N Abs Sg @N<
+	"danskeq" N Abs Sg @N<
 "<innersuuppaa>"
 	"innersor" UTE V Ind 3Sg 3SgO @PRED
 "<,>"
@@ -6085,8 +6104,7 @@
 "<,>"
 	"," CLB
 "<danskit>"
-	"dansk" N Rel Pl @POSS>>
-	"dansker" N Rel Pl @POSS>>
+	"danskeq" N Rel Pl @POSS>>
 "<nunavissuup>"
 	"nunavissuaq" N Rel Sg @POSS>
 "<aariaanik>"
@@ -9645,6 +9663,35 @@
 	"." CLB
 </s>
 
+<sd74gdRrezxzf3xhgO6Ej9b5eg8U-0>
+"<Hans-Pavia>"
+	"Hans-Pavia" Prop Abs Sg @PROP>
+"<Rosing>"
+	"Rosing" Prop Abs Sg @OBJ>
+"<seminariami>"
+	"seminaria" N Lok Sg @i-ADVL>
+"<ilinniartitsisuusimasup>"
+	"ilinniar" TIP HTR TUQ U SIMA TUQ N Rel Sg @>N
+"<Folketingimullu>"
+	"Folketinget" Prop Trm Sg LU @i-ADVL>
+"<ilaasortaasimasup>"
+	"ila" U TUQ TAQ U SIMA TUQ N Rel Sg @>N
+"<Nikolaj>"
+	"Nikolaj" Prop Abs Sg @PROP>
+"<Rosingip>"
+	"Rosing" Prop Rel Sg @SUBJ>
+"<nuliatalu>"
+	"nuliaq" N Rel Sg 3SgPoss LU @SUBJ>
+"<Marie>"
+	"Marie" Prop Abs Sg @PROP>
+"<Rosingip>"
+	"Rosing" Prop Rel Sg @<APPOS
+"<erneraat>"
+	"erneq" GE V Ind 3Pl 3SgO @PRED
+"<.>"
+	"." CLB
+</s>
+
 <sd8w0Y0nGZhYqtopfxeCsqfxlAOs-0>
 "<„>"
 	"„" PUNCT LEFT DIRTALESTART
@@ -9751,7 +9798,7 @@
 "<,>"
 	"," CLB
 "<nunarsuarmi>"
-	"nunarsuaq" N Lok Sg @ADVL>
+	"nunarsuaq" Prop Lok Sg @<APPOS
 "<,>"
 	"," CLB
 "<ataqqinartuaraqarpoq>"
@@ -11295,7 +11342,7 @@
 "<,>"
 	"," CLB
 "<nunarsuarmi>"
-	"nunarsuaq" N Lok Sg @ADVL>
+	"nunarsuaq" Prop Lok Sg @<APPOS
 "<,>"
 	"," CLB
 "<ataqqinartuaraqarpoq>"
@@ -11921,7 +11968,6 @@
 "<Apeqqutaavoq>"
 	"apeqqut" U V Ind 3Sg @PRED
 "<sinilluarsimanersunga>"
-	"sinilluar" SIMA NIR V Par 1Sg @CL-<CIT
 	"sinip" LLUAR SIMA NIR V Par 1Sg @CL-<CIT
 </s>
 
@@ -12757,7 +12803,7 @@
 "<Nukappissat>"
 	"nukappiaq" N Rel Pl @SUBJ>
 "<namminneq>"
-	"nammineq" Pron Rel 4Pl @SUBJ>
+	"nammineq" Pron Rel 4Pl @N<
 "<takuaat>"
 	"taku" V Ind 3Pl 3SgO @PRED
 "<timersullammanngussagaanni>"
@@ -13017,7 +13063,7 @@
 "<naasumik>"
 	"naasoq" N Ins Sg @i-N<
 "<nunarsuarmi>"
-	"nunarsuaq" N Lok Sg @i-ADVL>
+	"nunarsuaq" Prop Lok Sg @i-ADVL>
 "<asseqanngitsumik>"
 	"assi" QAR NNGIT TUQ N Ins Sg @N<
 "<ullaallu>"
@@ -13639,7 +13685,7 @@
 "<soorlu>"
 	"soorlu" Pali @FOC>N
 "<nunarsuup>"
-	"nunarsuaq" N Rel Sg @<APPOS
+	"nunarsuaq" Prop Rel Sg @<APPOS
 "<,>"
 	"," CLB
 "<Jupiterip>"
@@ -14039,7 +14085,7 @@
 "<,>"
 	"," CLB
 "<nunarsuarmi>"
-	"nunarsuaq" N Lok Sg @ADVL>
+	"nunarsuaq" Prop Lok Sg @<APPOS
 "<,>"
 	"," CLB
 "<ataqqinartuaraqarpoq>"
@@ -14403,8 +14449,7 @@
 "<CIA-mit>"
 	"CIA" Prop Abl Sg @AGENS
 "<danskit>"
-	"dansk" N Rel Pl @POSS>
-	"dansker" N Rel Pl @POSS>
+	"danskeq" N Rel Pl @POSS>
 "<inatsisaasa>"
 	"inatsit" N Rel Pl 3PlPoss @POSS>
 "<ataqqineqarnissaat>"
