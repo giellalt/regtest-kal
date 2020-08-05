@@ -161,9 +161,9 @@
 "<ilaasussat>"
 	"ila" U TUQ SSAQ N Abs Pl @OBJ>
 "<900-t>"
-	"900" Num Rel Pl @i-POSS>
-"<missaanniittut>"
-	"misse" N Lok Sg 3PlPoss %NumPossessum @i-ADVL>
+	"900" Num Lok Pl @ADVL>
+"<miss>"
+	"miss." Adv @i-ADVL>
 "<ittut>"
 	"IP" TUQ N Abs Pl @N<
 "<kinguaattooqqasut>"
@@ -201,9 +201,9 @@
 "<pissiariilluunniit>"
 	"pissiaq" GIIT N Abs Pl LUUNNIIT @SUBJ>
 "<40.000-it>"
-	"40.000" Num Rel Pl @i-POSS>
-"<missaanniittut>"
-	"misse" N Lok Sg 3PlPoss %NumPossessum @i-ADVL>
+	"40.000" Num Lok Pl @ADVL>
+"<miss>"
+	"miss." Adv @i-ADVL>
 "<ittut>"
 	"IP" TUQ N Abs Pl @N<
 "<ilaqutariittut>"
@@ -229,13 +229,13 @@
 "<takornarissat>"
 	"takornariaq" N Abs Pl @SUBJ>
 "<ukiumut>"
-	"ukioq" N Trm Sg @ADVL>
+	"ukioq" N Trm Sg @>N
 "<24.000-it>"
-	"24.000" Num Rel Pl @i-POSS>
-"<missaanniittartut>"
-	"misse" N Lok Sg 3PlPoss %NumPossessum @i-ADVL>
+	"24.000" Num Lok Pl @ADVL>
+"<miss>"
+	"miss." Adv @ADVL>
 "<ittartut>"
-	"IP" TAR TUQ N Abs Pl @N<
+	"IP" TAR V Par 3Pl @PRED2
 "<tamarmik>"
 	"tamaq" N Nom 4Pl @N<
 "<525>"
@@ -336,9 +336,9 @@
 "<sivisunerumaat>"
 	"sivisunerumaaq" N Abs Pl @N<
 "<qulit>"
-	"qulit" Num Rel Pl @i-POSS>
-"<missaanniittut>"
-	"misse" N Lok Sg 3PlPoss %NumPossessum @i-ADVL>
+	"qulit" Num $1 Pl
+"<miss>"
+	"miss." Adv @i-ADVL>
 "<ittut>"
 	"IP" TUQ N Abs Pl @N<
 "<takutinneqarput>"
@@ -428,9 +428,9 @@
 "<->"
 	"-" PUNCT DIRTALESTART
 "<145-it>"
-	"145" Num Rel Pl @POSS>
-"<missaanni>"
-	"misse" N Lok Sg 3PlPoss %NumPossessum @ADVL>
+	"145" Num Lok Pl @ADVL>
+"<miss>"
+	"miss." Adv @N<
 "<ukioq>"
 	"ukioq" N Abs Sg %ContHypotagme @OBJ>
 "<naallugu>"
@@ -558,9 +558,9 @@
 "<meerartaat>"
 	"meeraq" TAQ N Abs Sg 3PlPoss @SUBJ>
 "<1.000-it>"
-	"1.000" Num Rel Pl @POSS>
-"<missaanniittut>"
-	"misse" N Lok Sg 3PlPoss %NumPossessum @i-ADVL>
+	"1.000" Num Lok Pl @ADVL>
+"<miss>"
+	"miss." Adv @i-ADVL>
 "<ittut>"
 	"IP" TUQ N Abs Pl @SUBJ>
 "<inooqatigiinnikkut>"
@@ -678,9 +678,9 @@
 "<ullumikkut>"
 	"ullumikkut" Adv @ADVL>
 "<300>"
-	"300" Num Rel Pl @i-POSS>
-"<missaanniittut>"
-	"misse" N Lok Sg 3PlPoss @i-ADVL>
+	"300" Num Lok Sg @ADVL>
+"<miss>"
+	"miss." Adv @i-ADVL>
 "<ittut>"
 	"IP" TUQ N Abs Pl %ContHypotagme @N<
 "<ikilisarniarlugit>"
@@ -714,7 +714,7 @@
 "<siunnersuuteqarput>"
 	"siunnersor" UTE QAR V Ind 3Pl @PRED
 "<naalakkersuisut>"
-	"naalagaq" LIRSUR HTR TUQ N Rel Pl
+	"naalagaq" LIRSUR HTR TUQ N Rel Pl @SUBJ>
 "<piumaffigineqassasut>"
 	"piumaffik" GE NIQAR SSA V Par 3Pl @CL-<CIT
 "<Danmarkimi>"
@@ -858,10 +858,9 @@
 "<nal.>"
 	"nalunaaqutaq" N @>N
 "<2>"
-	"2" Num Rel Pl @POSS>
-"<miss.>"
-	"missaa" N @ADVL>
-	"misse" N Lok Sg 3SgPoss @ADVL>
+	"2" Num Abs Sg @ADVL>
+"<miss>"
+	"miss." Adv @N<
 "<aggissaanga>"
 	"agger" SSA V Ind 1Sg @PRED
 "<.>"
@@ -1639,9 +1638,9 @@
 "<30>"
 	"30" Num Abs Sg @>N
 "<gradit>"
-	"grad" N Rel Pl @POSS>
-"<missaanni>"
-	"misse" N Lok Sg 3PlPoss @HNOUN
+	"grad" N Lok Pl
+"<miss>"
+	"miss." Adv @N<
 "<.>"
 	"." CLB
 </s>
@@ -2233,7 +2232,7 @@
 "<ingerlaneranni>"
 	"ingerla" NIQ N Lok Sg 3PlPoss %TidHypotagme @ADVL>
 "<ineqarnermut>"
-	"ini" QAR NIQ N Trm Sg @i-ADVL>
+	"ini" QAR NIQ N Trm Sg @i->N
 "<akiitsullit>"
 	"akiip" TUQ LIK N Abs Pl @SUBJ>
 "<5.000-ngorsimapput>"
@@ -2464,9 +2463,9 @@
 "<unnuakkut>"
 	"unnuaq" N Via Sg @ADVL>
 "<01-p>"
-	"01" Num Rel Sg @POSS>
-"<missaani>"
-	"misse" N Lok Sg 3SgPoss @ADVL>
+	"01" Num Lok Sg @ADVL>
+"<miss>"
+	"miss." Adv @N<
 "<apuullutit>"
 	"apuup" V Cont 2Sg @<CONT_TASSA
 "<.>"
@@ -2845,9 +2844,9 @@
 
 <s7igOXbEzxWLcCdozGeLRJ8v6uX0-0>
 "<50-it>"
-	"50" Num Rel Pl @POSS>
-"<missaanni>"
-	"misse" N Lok Sg 3PlPoss %NumPossessum @HNOUN
+	"50" Num Lok Pl
+"<miss>"
+	"miss." Adv @N<
 "<.>"
 	"." CLB
 </s>
@@ -3240,9 +3239,9 @@
 "<30>"
 	"30" Num Abs Sg @>N
 "<gradip>"
-	"grad" N Rel Sg @POSS>
-"<missaaniikkaluartoq>"
-	"misse" N Lok Sg 3SgPoss @ADVL>
+	"grad" N Lok Sg @ADVL>
+"<miss>"
+	"miss." Adv @ADVL>
 "<ikkaluartoq>"
 	"IP" GALUAR V Par 3Sg @PRED2
 "<suli>"
@@ -3441,9 +3440,9 @@
 "<30>"
 	"30" Num Abs Sg @>N
 "<gradet>"
-	"grad" N Rel Pl @POSS>
-"<missaanniikkaluartoq>"
-	"misse" N Lok Sg 3PlPoss @ADVL>
+	"grad" N Lok Pl @ADVL>
+"<miss>"
+	"miss." Adv @ADVL>
 "<ikkaluartoq>"
 	"IP" GALUAR V Par 3Sg @PRED2
 "<suli>"
@@ -3506,7 +3505,7 @@
 "<akornanni>"
 	"akunneq" N Lok Sg 3PlPoss @ADVL>
 "<6,6>"
-	"6,6" Num Abs Sg @i-MWE>N
+	"6,6" Num Abs Sg @>N
 "<millionit>"
 	"million" Num Rel Pl @SUBJ>
 "<suliffitsik>"
@@ -3779,39 +3778,6 @@
 	"." CLB
 </s>
 
-<sAqstoE6Hpv87j5keZNGbaUemP2Q-0>
-"<Christian>"
-	"Christian" Prop Abs Sg @PROP>
-"<Keldsen>"
-	"Keldsen" Prop Abs Sg @SUBJ>
-"<siunnersuinermi>"
-	"siunnersor" HTR NIQ N Lok Sg @i-ADVL>
-"<ingerlatsivimmik>"
-	"ingerlap" HTR VIK N Ins Sg @MIK-OBJ>
-"<Visiobox Consulting ApS-imik>"
-	"Visiobox Consulting ApS" Prop Ins Sg @<APPOS
-"<ukiut>"
-	"ukioq" N Abs Pl @CL-ADVL>
-"<tallimat>"
-	"tallimat" Num Abs Pl @N<
-"<matuma>"
-	"matu" N Rel Pl 1SgPoss
-"<siornatigut>"
-	"siornatigut" Pali @i-ADVL>
-"<aallartitseqataavoq>"
-	"aallar" TIP HTR QATE U V Ind 3Sg @PRED
-"<,>"
-	"," CLB
-"<tassanilu>"
-	"tass" Adv Lok LU @ADVL>
-"<maannamut>"
-	"maannamut" Adv @ADVL>
-"<sulilluni>"
-	"suli" V Cont 4Sg @PRED
-"<.>"
-	"." CLB
-</s>
-
 <sAsbQxjkCqHYSG4AqXDHkEXmLcL4-0>
 "<->"
 	"-" PUNCT DIRTALESTART
@@ -4033,7 +3999,7 @@
 "<akiitsut>"
 	"akiip" TUQ N Abs Pl @SUBJ>
 "<56>"
-	"56" Num Abs Sg @i-MWE>N
+	"56" Num Abs Sg @>N
 "<millioni>"
 	"million" Num Abs Sg @i-MWE>N
 "<koruuniupput>"
@@ -4110,13 +4076,13 @@
 "<ingerlaneranni>"
 	"ingerla" NIQ N Lok Sg 3PlPoss @ADVL>
 "<10>"
-	"10" Num Abs Sg @i-MWE>N
+	"10" Num Abs Sg @>N
 "<millioniupput>"
 	"million" U V Ind 3Pl @PRED
 "<,>"
 	"," CLB
 "<6,6>"
-	"6,6" Num Abs Sg @i-MWE>N
+	"6,6" Num Abs Sg @>N
 "<millioninillu>"
 	"million" Num Ins Pl LU @ADVL>
 "<taakku>"
@@ -4419,25 +4385,25 @@
 "<imartaani>"
 	"imaq" TAQ N Lok Sg 3SgPoss @ADVL>
 "<timmissat>"
-	"timmiaq" N Abs Pl @SUBJ>
+	"timmiaq" N Rel Pl @POSS>
 "<umiarsuarnut>"
 	"umiarsuaq" N Trm Pl @i-ADVL>
 "<aporartartut>"
-	"apor" RAR TAR TUQ N Abs Pl @N<
+	"apor" RAR TAR TUQ N Rel Pl @N<
 "<2000-it>"
-	"2000" Num Rel Pl @i-POSS>
-"<missaanniinnerat>"
-	"misse" N Lok Sg 3PlPoss %NumPossessum @i-ADVL>
+	"2000" Num Lok Pl @i-ADVL>
+"<miss>"
+	"miss." Adv @i-ADVL>
 "<innerat>"
 	"IP" NIQ N Abs Sg 3PlPoss @SUBJ>
 "<eqqoriaarujussuarluni>"
-	"eqqor" RIAR HTR RUJUP SUAR V Cont 4Sg @PRED
-"<missingiineruvoq>"
-	"missinger" HTR NIQ U V Ind 3Sg @PRED
+	"eqqor" RIAR HTR RUJUP SUAR V Cont 4Sg @PRED2
+"<miss>"
+	"miss." Adv @N<
 "<,>"
 	"," CLB
-"<missingiineq>"
-	"missinger" HTR NIQ N Abs Sg @SUBJ>
+"<miss>"
+	"miss." Adv @N<
 "<apeqqutini>"
 	"apeqqut" N Lok Pl @ADVL>
 "<immersugassani>"
@@ -4461,9 +4427,9 @@
 "<nalinginnaasumik>"
 	"nalinginnaq" U TUQ N Ins Sg @i-ADVL>
 "<angalasarnerannit>"
-	"angala" TAR NIQ N Abl Sg 3PlPoss @i-ADVL>
+	"angala" TAR NIQ N Abl Sg 3PlPoss @ADVL>
 "<paasissutissani>"
-	"paasi" UTE SSAQ N Lok Pl @i-ADVL>
+	"paasi" UTE SSAQ N Lok Pl @ADVL>
 "<pissarsiarisinnaasatsinni>"
 	"pissaq" SIAQ GE SINNAA TAQ N Lok Pl 1PlPoss @N<
 "<naatsorsuinermeersuupput>"
@@ -4876,9 +4842,9 @@
 "<30>"
 	"30" Num Abs Sg @>N
 "<gradip>"
-	"grad" N Rel Sg @POSS>
-"<missaaniikkaluartoq>"
-	"misse" N Lok Sg 3SgPoss @ADVL>
+	"grad" N Lok Sg @ADVL>
+"<miss>"
+	"miss." Adv @ADVL>
 "<ikkaluartoq>"
 	"IP" GALUAR V Par 3Sg @PRED2
 "<suli>"
@@ -5010,47 +4976,14 @@
 	"." CLB
 </s>
 
-<sGhdEoVDxM6DMzjYz2rtF2vdmSdk-0>
-"<2005-imilu>"
-	"2005" Num Lok Sg LU @ADVL>
-"<KNI>"
-	"KNI" N Abs @>N
-"<A/S-imi>"
-	"A/S" N Lok Sg @i-ADVL>N
-"<pisortaanertut>"
-	"pisortaq" U NIQ N Aeq Sg @ADVL>
-"<atorfinippoq>"
-	"ator" VIK NIP V Ind 3Sg @PRED
-"<,>"
-	"," CLB
-"<ukiorli>"
-	"ukioq" N Abs Sg LI @SUBJ>
-"<ataaseq>"
-	"ataaseq" Num Abs Sg @N<
-"<qaangiuttoq>"
-	"qaangiup" V Par 3Sg @PRED2
-"<aningaasaqarnikkut>"
-	"aningaasaq" QAR NIQ N Via Sg @i-ADVL>
-"<inerneqarnerlunnera>"
-	"iner" NIQAR NIRLUP NIQ N Abs Sg 3SgPoss %ContHypotagme @OBJ>
-"<pissutigalugu>"
-	"pissut" GE V Cont 3SgO %ContHypotagme @ADVL>
-"<atorfik>"
-	"ator" VIK N Abs Sg %ContHypotagme @OBJ>
-"<qimattariaqarlugu>"
-	"qimap" TARIAQAR V Cont 3SgO %ContHypotagme @PRED
-"<.>"
-	"." CLB
-</s>
-
 <sGmrq4JetCd7uSxS4bLZXiQ5pqZ8-0>
 "<Nal.>"
+	"Nal" Prop @>N
 	"nalunaaqutaq" N @>N
 "<2>"
-	"2" Num Rel Pl @POSS>
-"<miss.>"
-	"missaa" N @ADVL>
-	"misse" N Lok Sg 3SgPoss @ADVL>
+	"2" Num Abs Sg @ADVL>
+"<miss>"
+	"miss." Adv @N<
 "<aggissaanga>"
 	"agger" SSA V Ind 1Sg @PRED
 "<.>"
@@ -5648,11 +5581,10 @@
 
 <sJxxMaMGzpOhpvKUywvClaANfxLI-0>
 "<Nal.>"
+	"Nal" Prop @>N
 	"nalunaaqutaq" N @>N
 "<ataaseq>"
-	"ataaseq" Num Rel Sg @POSS>
-"<miss.>"
-	"misse" N Lok Sg 3SgPoss @HNOUN
+	"ataaseq" Num Abs Sg
 </s>
 
 <sK0irrMxRCiYdtSW23Rr5dUH032Q-0>
@@ -6256,9 +6188,9 @@
 "<unnuakkut>"
 	"unnuaq" N Via Sg @ADVL>
 "<01>"
-	"01" Num Rel Sg @POSS>
-"<miss.>"
-	"misse" N Lok Sg 3SgPoss @ADVL>
+	"01" Num Abs Sg @ADVL>
+"<miss>"
+	"miss." Adv @N<
 "<apuullutit>"
 	"apuup" V Cont 2Sg @<CONT_TASSA
 "<.>"
@@ -6273,7 +6205,7 @@
 "<ulluisa>"
 	"ulloq" N Rel Pl 3SgPoss @POSS>
 "<14-ianni>"
-	"14" Num Lok Sg 3PlPoss @i-ADVL>
+	"14" Num Lok Sg 3PlPoss @ADVL>
 "<ilisimatusarnermut>"
 	"ilisimatusar" NIQ N Trm Sg @i-ADVL>N
 "<ministeri>"
@@ -6416,11 +6348,11 @@
 "<Qallaserpat>"
 	"qallaser" V Con 3Sg @CON
 "<akunnerup>"
-	"akunneq" N Rel Sg @POSS>
+	"akunneq" N Rel Sg @ADVL>
 "<ataatsip>"
-	"ataaseq" Num Rel Sg @N<
-"<miss.>"
-	"misse" N Lok Sg 3SgPoss @i-ADVL>
+	"ataaseq" Num Abs Sg @N<
+"<miss>"
+	"miss." Adv @N<
 "<sakkukitsumik>"
 	"sakkoq" KIP TUQ N Ins Sg @ADVL>
 "<qalaartinneqassaaq>"
@@ -7266,9 +7198,9 @@
 "<katillugit>"
 	"katip" V Cont 3PlO @ADVL>
 "<50-it>"
-	"50" Num Rel Pl @POSS>
-"<missaanni>"
-	"misse" N Lok Sg 3PlPoss %NumPossessum @ADVL>
+	"50" Num Lok Pl @ADVL>
+"<miss>"
+	"miss." Adv @N<
 "<pisarineqarput>"
 	"pi" TAQ GE NIQAR V Ind 3Pl @PRED
 "<.>"
@@ -7371,7 +7303,7 @@
 "<akiitsut>"
 	"akiip" TUQ N Abs Pl @SUBJ>
 "<56>"
-	"56" Num Abs Sg @i-MWE>N
+	"56" Num Abs Sg @>N
 "<million>"
 	"million" Num Abs Pl @i-MWE>N
 "<kroniupput>"
@@ -9203,9 +9135,9 @@
 "<Angut>"
 	"angut" N Abs Sg @SUBJ>
 "<17-init>"
-	"17" Num Rel Pl @POSS>
-"<missaannik>"
-	"misse" N Ins Sg 3PlPoss @i->N
+	"17" Num Abs Pl @i->N
+"<miss>"
+	"miss." Adv @N<
 "<ukiulik>"
 	"ukioq" LIK N Abs Sg @N<
 "<170-175>"
@@ -9383,25 +9315,25 @@
 "<mio.>"
 	"mio" N @>N
 "<kr.-nit>"
-	"kr" N Pl Rel @POSS>
-"<missarpiaannik>"
-	"misse" PIAQ N Ins Sg 3PlPoss @i->N
+	"kr" N Pl Ins @i->N
+"<miss>"
+	"miss." PIAQ Adv @N<
 "<amigartooruteqarpoq>"
 	"amigartoorut" QAR V Ind 3Sg @PRED
 "<,>"
 	"," CLB
-"<missingersuutigineqarsimagaluarluni>"
-	"missingersuutige" NIQAR SIMA GALUAR V Cont 4Sg @ADVL>
+"<miss>"
+	"miss." Adv @N<
 "<2>"
 	"2" Num Abs Sg @>N
 "<mio.>"
 	"mio" N @>N
 "<kr.-nit>"
-	"kr" N Pl Rel @POSS>
-"<missarpiaannik>"
-	"misse" PIAQ N Ins Sg 3PlPoss @i->N
+	"kr" N Pl Ins @i->N
+"<miss>"
+	"miss." PIAQ Adv @N<
 "<sinneqartooruteqartoqassasoq>"
-	"sinneqartoorut" QAR TUQ QAR SSA V Par 3Sg @CL-<CIT
+	"sinneqartoorut" QAR TUQ QAR SSA V Par 3Sg @PRED2
 "<.>"
 	"." CLB
 </s>
@@ -9451,9 +9383,9 @@
 "<30>"
 	"30" Num Abs Sg @>N
 "<gradit>"
-	"grad" N Rel Pl @POSS>
-"<missaanniikkaluartoq>"
-	"misse" N Lok Sg 3PlPoss @ADVL>
+	"grad" N Lok Pl @ADVL>
+"<miss>"
+	"miss." Adv @ADVL>
 "<ikkaluartoq>"
 	"IP" GALUAR V Par 3Sg @PRED2
 "<suli>"
@@ -9576,11 +9508,12 @@
 
 <saLxWClJXwMTqoKF3mhOeeRfxVxM-0>
 "<Nal.>"
+	"Nal" Prop @>N
 	"nalunaaqutaq" N @>N
 "<01>"
-	"01" Num Rel Sg @POSS>
-"<miss.>"
-	"misse" N Lok Sg 3SgPoss @ADVL>
+	"01" Num Abs Sg @ADVL>
+"<miss>"
+	"miss." Adv @N<
 "<aggissaanga>"
 	"agger" SSA V Ind 1Sg @PRED
 "<.>"
@@ -9916,9 +9849,7 @@
 "<Nal.>"
 	"nalunaaqutaq" N @>N
 "<marluk>"
-	"marluk" Num Rel Pl @POSS>
-"<miss.>"
-	"misse" N Lok Sg 3PlPoss @HNOUN
+	"marluk" Num Abs Pl
 </s>
 
 <sbyfibpUuvqylKxustw0cgng2yQw-0>
@@ -11304,7 +11235,7 @@
 "<akornanni>"
 	"akunneq" N Lok Sg 3PlPoss @ADVL>
 "<6,6>"
-	"6,6" Num Abs Sg @i-MWE>N
+	"6,6" Num Abs Sg @>N
 "<millionit>"
 	"million" Num Rel Pl @SUBJ>
 "<suliffitsik>"
@@ -11485,7 +11416,7 @@
 "<ukiumut>"
 	"ukioq" N Trm Sg @>N
 "<25,2>"
-	"25,2" Num Abs Sg @i-MWE>N
+	"25,2" Num Abs Sg @>N
 "<millionit>"
 	"million" Num Abs Pl @>N
 "<koruunit>"
@@ -11671,9 +11602,9 @@
 "<30>"
 	"30" Num Abs Sg @>N
 "<grade>"
-	"grad" N Rel Sg @POSS>
-"<missaaniikkaluartoq>"
-	"misse" N Lok Sg 3SgPoss @ADVL>
+	"grad" N Lok Sg @ADVL>
+"<miss>"
+	"miss." Adv @ADVL>
 "<ikkaluartoq>"
 	"IP" GALUAR V Par 3Sg @PRED2
 "<suli>"
@@ -11791,9 +11722,9 @@
 "<Angut>"
 	"angut" N Abs Sg @SUBJ>
 "<18-it>"
-	"18" Num Rel Pl @POSS>
-"<missaannik>"
-	"misse" N Ins Sg 3PlPoss %NumPossessum @i->N
+	"18" Num Ins Pl @i->N
+"<miss>"
+	"miss." Adv @N<
 "<ukiulik>"
 	"ukioq" LIK N Abs Sg @N<
 "<,>"
@@ -11801,9 +11732,10 @@
 "<175-180>"
 	"175-180" Num Abs Sg @>N
 "<cm>"
-	"centimeter" N Rel Sg @POSS>
-"<missaanni>"
-	"misse" N Lok Sg 3PlPoss @i->N
+	"centimeter" N @i->N
+	"centimeter" N Lok Sg @i->N
+"<miss>"
+	"miss." Adv @N<
 "<angissusilik>"
 	"angi" SSUSIQ LIK N Abs Sg @N<
 "<,>"
@@ -11953,7 +11885,7 @@
 "<ingerlaneranni>"
 	"ingerla" NIQ N Lok Sg 3PlPoss %TidHypotagme @ADVL>
 "<ineqarnermut>"
-	"ini" QAR NIQ N Trm Sg @i-ADVL>
+	"ini" QAR NIQ N Trm Sg @i->N
 "<akiitsullit>"
 	"akiip" TUQ LIK N Abs Pl @SUBJ>
 "<5.000-nngorsimapput>"
@@ -13344,9 +13276,9 @@
 "<unnuakkut>"
 	"unnuaq" N Via Sg @ADVL>
 "<01>"
-	"01" Num Rel Sg @POSS>
-"<missaani>"
-	"misse" N Lok Sg 3SgPoss @ADVL>
+	"01" Num Lok Sg @ADVL>
+"<miss>"
+	"miss." Adv @N<
 "<apuullutit>"
 	"apuup" V Cont 2Sg @<CONT_TASSA
 "<.>"
@@ -13610,9 +13542,9 @@
 "<akunnerata>"
 	"akunneq" N Rel Sg 3SgPoss @POSS>
 "<affaata>"
-	"affaq" N Rel Sg 3SgPoss
-"<miss.>"
-	"missaa" N @ADVL>
+	"affaq" N Abs Sg 3SgPoss @ADVL>
+"<miss>"
+	"miss." Adv @N<
 "<uninngatinneqassaaq>"
 	"uninnga" TIP NIQAR SSA V Ind 3Sg @PRED
 "<.>"
@@ -14310,29 +14242,6 @@
 "<tassa>"
 	"tassa" Adv @PRED
 	"tassa" Interj @PRED
-"<.>"
-	"." CLB
-</s>
-
-<sttwS7fKgFALYt1PxK2DDmJvxTYg-0>
-"<Ilisimatuut>"
-	"ilisima" TUUQ N Rel Pl @SUBJ>
-"<oqaatigaat>"
-	"oqar" UTE GE V Ind 3Pl 3SgO @PRED
-"<,>"
-	"," CLB
-"<Kalaallit Nunaanni>"
-	"Kalaallit Nunaat" Prop Lok Sg 3PlPoss @ADVL>
-"<appat>"
-	"appa" N Rel Pl @SUBJ>
-"<upernaakkut>"
-	"upernaaq" N Via Sg @i-ADVL>
-"<aasamilu>"
-	"aasaq" N Lok Sg LU @i-ADVL>
-"<piniarneqartarnertik>"
-	"piniar" NIQAR TAR NIQ N Abs Sg 4PlPoss @OBJ>
-"<nungukkiartuutigigaat>"
-	"nungup" GIARTUR UTE GE V Par 3Pl 3SgO @CL-<CIT
 "<.>"
 	"." CLB
 </s>
@@ -15132,9 +15041,9 @@
 "<Angut>"
 	"angut" N Abs Sg @SUBJ>
 "<20-25-it>"
-	"20-25" Num Rel Pl @POSS>
-"<missaanni>"
-	"misse" N Lok Sg 3PlPoss %NumPossessum @i->N
+	"20-25" Num Lok Pl @i->N
+"<miss>"
+	"miss." Adv @N<
 "<ukiulik>"
 	"ukioq" LIK N Abs Sg @N<
 "<,>"
@@ -15142,9 +15051,10 @@
 "<165-170>"
 	"165-170" Num Abs Sg @>N
 "<cm>"
-	"centimeter" N Rel Sg @POSS>
-"<missaanni>"
-	"misse" N Lok Sg 3PlPoss @i->N
+	"centimeter" N @i->N
+	"centimeter" N Lok Sg @i->N
+"<miss>"
+	"miss." Adv @N<
 "<angissusilik>"
 	"angi" SSUSIQ LIK N Abs Sg @N<
 "<,>"
@@ -15842,40 +15752,11 @@
 	"." CLB
 </s>
 
-<szWcPetP7iPykUIz3g8NQqg1VxVo-0>
-"<Inuiaqatigiinni>"
-	"inuiaqat" GIIT N Lok Pl @ADVL>
-"<nutaaliaasuni>"
-	"nutaaq" LIAQ U TUQ N Lok Pl @N<
-"<assigiinngitsorpassuarnillu>"
-	"assi" GIIP NNGIT TUQ PAK SUAQ N Ins Pl LU @i->N
-"<kulturilinni>"
-	"kultur" LIK N Lok Pl @N<
-"<inuuvugut>"
-	"inuk" U V Ind 1Pl @PRED
-"<,>"
-	"," CLB
-"<upperisat>"
-	"uppere" TAQ N Abs Pl @SUBJ>
-"<allatulli>"
-	"alla" N Aeq Pl LI @ADVL>
-"<tamanisut>"
-	"tamaq" N Lok Pl Aeq @ADVL>
-"<ataavartumik>"
-	"ataavartoq" N Ins Sg @ADVL>
-"<takkussuullutik>"
-	"takkussuup" V Cont 4Pl @PRED
-"<.>"
-	"." CLB
-</s>
-
 <szhItExKHbFKvoUPwxxNMhFwiHgc-0>
 "<nal.>"
 	"nalunaaqutaq" N @>N
 "<marluk>"
-	"marluk" Num Rel Pl @POSS>
-"<miss.>"
-	"misse" N Lok Sg 3PlPoss @HNOUN
+	"marluk" Num Abs Pl
 </s>
 
 <szprSMXFvTQoMrkGalIGyyY2jxwA-0>
