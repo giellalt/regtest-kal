@@ -413,7 +413,7 @@
 "<aalisartullu>"
 	"aalisar" TUQ N Rel Pl LU @POSS>
 "<300-it>"
-	"300" Num Rel Pl @N<
+	"300" Num Rel Pl @POSS>
 "<320-illu>"
 	"320" Num Rel Pl LU @i-POSS>
 "<akornanniittut>"
@@ -1251,7 +1251,7 @@
 "<aalisarnermik>"
 	"aalisar" NIQ N Ins Sg @i->N
 "<inuussutissarsiortunut>"
-	"inuk" U UTE SSAQ SIUR TUQ N Trm Pl @i-MIK-OBJ>
+	"inuk" U UTE SSAQ SIUR TUQ N Trm Pl @MIK-OBJ>
 "<unammillernartoqartitsingaatsiarput>"
 	"unammiller" NAR TUQ QAR TIP HTR NGAAR TSIAR V Ind 3Pl @PRED
 "<,>"
@@ -5663,7 +5663,7 @@
 
 <sH6VZK7OOVRTSU2v9q5ubkG6EwF0-0>
 "<Ullugissaarisi>"
-	"ulloq" GISSAAR V Imp 2Pl @PRED
+	"ulloq" GISSAAR GI V Imp 2Pl @PRED
 "<sulilluarisilu>"
 	"suli" LLUAR GI V Imp 2Pl LU @PRED
 "<.>"
@@ -6293,37 +6293,6 @@
 	"." CLB
 </s>
 
-<sKVAYYoCCKN7GpuPFPSNs9fELHHA-0>
-"<Uumasut>"
-	"uuma" TUQ N Rel Pl @POSS>
-"<ilarpassui>"
-	"ila" PAK SUAQ N Abs Pl 3PlPoss @SUBJ>
-"<Canadap>"
-	"Canada" Prop Rel Sg @POSS>
-"<Alaskallu>"
-	"Alaska" Prop Rel Sg LU @SUBJ>
-"<issittorni>"
-	"issittor" N Lok Pl @ADVL>
-"<ingerlaartarput>"
-	"ingerlaar" TAR V Ind 3Pl @PRED
-"<,>"
-	"," CLB
-"<tuttullu>"
-	"tuttu" N Rel Pl LU @POSS>
-"<siunissaat>"
-	"siuneq" SSAQ N Abs Sg 3PlPoss @OBJ>
-"<nunap>"
-	"nuna" N Rel Sg @POSS>
-"<inoqqaavisa>"
-	"inoqqaaq" N Rel Pl 3SgPoss @SUBJ>
-"<pingaartumik>"
-	"pingaartumik" Adv @ADVL>
-"<ernumassutigaat>"
-	"ernumassutige" V Ind 3Pl 3SgO @PRED
-"<.>"
-	"." CLB
-</s>
-
 <sKW2tLv0neCtOT4YVbaJPzzJRhew-0>
 "<Ammasumik>"
 	"amma" TUQ N Ins Sg @i-ADVL>
@@ -6660,7 +6629,7 @@
 "<ilinniartitsisunngortut>"
 	"ilinniar" TIP HTR TUQ NNGUR TUQ N Abs Pl @SUBJ>
 "<meeqqat>"
-	"meeraq" N Rel Pl @N<
+	"meeraq" N Rel Pl @POSS>
 "<atuarfiannik>"
 	"atuar" VIK N Ins Sg 3PlPoss @ADVL>
 "<ineriartortitseqataajumaartut>"
@@ -9159,7 +9128,7 @@
 
 <sVzqy4ugfJlJA5LuhUyV26SeK8xY-0>
 "<Tuttut>"
-	"tuttu" N Abs Pl @SUBJ>
+	"tuttu" N Rel Pl @POSS>
 "<230.000-it>"
 	"230.000" Num Rel Pl @i-POSS>
 "<missaanniittut>"
@@ -9173,7 +9142,7 @@
 "<Inuppiaat>"
 	"inuk" PIAQ N Abs Sg 3PlPoss
 "<Inuvialuillu>"
-	"Inuvialuillu" Prop Abs Sg @<APPOS
+	"Inuvialuit" Prop Rel Pl LU @POSS>
 "<nerisassaqarniarnerannut>"
 	"neri" TAQ SSAQ QAR NIAR NIQ N Trm Sg 3PlPoss @i-ADVL>
 "<,>"
@@ -9688,7 +9657,7 @@
 "<,>"
 	"," CLB
 "<pisinnaasaa>"
-	"pisinnaasaq" N Abs Sg 3SgPoss @CL-ADVL>
+	"pi" SINNAA TAQ N Abs Sg 3SgPoss @CL-ADVL>
 "<tamaat>"
 	"tamaq" N Akk 3Sg @N<
 "<naajartortinneqassaaq>"
@@ -10555,7 +10524,7 @@
 "<Alaskap>"
 	"Alaska" Prop Rel Sg @POSS>
 "<avannamut>"
-	"avannaq" N Trm Sg @i-OBJ-DOTR>
+	"avannaq" N Trm Sg @>N
 "<kangisinnerusortaani>"
 	"kangisip" NIRU TUQ TAQ N Lok Sg 3SgPoss @ADVL>
 "<,>"
@@ -10567,7 +10536,7 @@
 "<gassimillu>"
 	"gas" N Ins Sg LU @i-MIK-OBJ>
 "<misissuinissamut>"
-	"misissor" HTR NIQ SSAQ N Trm Sg @i-OBJ-DOTR>
+	"misissor" HTR NIQ SSAQ N Trm Sg @i-MIK-OBJ>
 "<pisinnaatitsissutinik>"
 	"pi" SINNAA TIP HTR UTE N Ins Pl @ADVL>
 "<sapaatip>"
@@ -10740,7 +10709,7 @@
 "<meeqqat>"
 	"meeraq" N Abs Pl @OBJ>
 "<pisinnaatitaaffiilu>"
-	"pisinnaatitaaffik" N Abs Pl 3PlPoss LU %ContHypotagme @OBJ>
+	"pi" SINNAA TIP TAQ U VIK N Abs Pl 3PlPoss LU %ContHypotagme @OBJ>
 "<pillugit>"
 	"pi" V Cont 3PlO %ContHypotagme @<ADVL
 "<.>"
@@ -14721,6 +14690,37 @@
 	"." CLB
 </s>
 
+<spKhhlUYXQoMy4mU1lK764jWsxas-0>
+"<Uumasut>"
+	"uuma" TUQ N Rel Pl @POSS>
+"<ilarpassui>"
+	"ila" PAK SUAQ N Abs Pl 3PlPoss @SUBJ>
+"<Canadap>"
+	"Canada" Prop Rel Sg @POSS>
+"<Alaskallu>"
+	"Alaska" Prop Rel Sg LU @POSS>
+"<issittuanni>"
+	"issip" TUQ N Lok Sg 3PlPoss @ADVL>
+"<ingerlaartarput>"
+	"ingerlaar" TAR V Ind 3Pl @PRED
+"<,>"
+	"," CLB
+"<tuttullu>"
+	"tuttu" N Rel Pl LU @POSS>
+"<siunissaat>"
+	"siuneq" SSAQ N Abs Sg 3PlPoss @OBJ>
+"<nunap>"
+	"nuna" N Rel Sg @POSS>
+"<inoqqaavisa>"
+	"inoqqaaq" N Rel Pl 3SgPoss @SUBJ>
+"<pingaartumik>"
+	"pingaartumik" Adv @ADVL>
+"<ernumassutigaat>"
+	"ernumassutige" V Ind 3Pl 3SgO @PRED
+"<.>"
+	"." CLB
+</s>
+
 <spL3ZEx9o7PhCBneqgDBRDGrpcTU-0>
 "<Umiarsualivippassuit>"
 	"umiarsualivik" PAK SUAQ N Abs Pl @SUBJ>
@@ -14762,7 +14762,7 @@
 "<meeqqat>"
 	"meeraq" N Rel Pl @POSS>
 "<pisinnaatitaaffii>"
-	"pisinnaatitaaffik" N Abs Pl 3PlPoss %ContHypotagme @OBJ>
+	"pi" SINNAA TIP TAQ U VIK N Abs Pl 3PlPoss %ContHypotagme @OBJ>
 "<pillugit>"
 	"pi" V Cont 3PlO %ContHypotagme @i-ADVL>
 "<oqaluttuarnissamut>"
@@ -14953,11 +14953,11 @@
 "<immikkoortuani>"
 	"immikkoor" TUQ N Lok Sg 3SgPoss @i-ADVL>
 "<uuliamik>"
-	"uulia" N Ins Sg @i-ADVL>
+	"uulia" N Ins Sg @i-MIK-OBJ>
 "<gassimillu>"
-	"gas" N Ins Sg LU @i-ADVL>
+	"gas" N Ins Sg LU @i-MIK-OBJ>
 "<qalluinissap>"
-	"qalluinissa" N Rel Sg @N<
+	"qallor" HTR NIQ SSAQ N Rel Sg @POSS>
 "<pinngitsoortinneqarnissaanut>"
 	"pinngitsoor" TIP NIQAR NIQ SSAQ N Trm Sg 3SgPoss @i-ADVL>
 "<akerliussutsimik>"
@@ -15264,7 +15264,7 @@
 "<meeqqat>"
 	"meeraq" N Rel Pl @POSS>
 "<pisinnaatitaaffiinik>"
-	"pisinnaatitaaffik" N Ins Pl 3PlPoss @i-MIK-OBJ>
+	"pi" SINNAA TIP TAQ U VIK N Ins Pl 3PlPoss @i-MIK-OBJ>
 "<sullissivik>"
 	"sullip" HTR VIK N Abs Sg @SUBJ>
 "<MIO>"
