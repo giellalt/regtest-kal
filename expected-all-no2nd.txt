@@ -2343,7 +2343,6 @@
 "<aningaasat>"
 	"aningaasaq" N Rel Pl @SUBJ>
 "<kaaviiaartut>"
-	"kaaviiaar" TUQ N Abs Pl @N<
 	"kaaviiaar" TUQ N Rel Pl @N<
 "<ilamininnguaannaraat>"
 	"ila" MINIQ NNGUAQ INNAQ GE V Ind 3Pl 3PlO @PRED
@@ -3236,7 +3235,7 @@
 "<isertitat>"
 	"iser" TIP TAQ N Abs Pl @i-N<
 "<nunatta>"
-	"nuna" N Rel Sg 1PlPoss @>N
+	"nuna" N Rel Sg 1PlPoss @POSS>
 "<Danmarkillu>"
 	"Danmark" Prop Rel Sg LU @POSS>
 "<akornanni>"
@@ -5507,15 +5506,15 @@
 "<præsidentip>"
 	"præsident" N Rel Sg @POSS>
 "<illorsuata>"
-	"illu" SUAQ N Rel Sg 3SgPoss @SUBJ>
+	"illu" SUAQ N Rel Sg 3SgPoss @POSS>
 "<Det Hvide Husip>"
 	"Det Hvide Hus" Prop Rel Sg @<APPOS
 "<oqaaseqartartuata>"
-	"oqaaseq" QAR TAR TUQ N Rel Sg 3SgPoss @N<
+	"oqaaseq" QAR TAR TUQ N Rel Sg 3SgPoss @SUBJ>
 "<Judd>"
 	"Judd" Prop Abs Sg @PROP>
 "<Deerep>"
-	"Deere" Prop Rel Sg @SUBJ>
+	"Deere" Prop Rel Sg @<APPOS
 "<oqaatigaa>"
 	"oqaatige" V Ind 3Sg 3SgO @PRED
 "<.>"
@@ -9225,7 +9224,7 @@
 "<peqqinnissaqarfimmilu>"
 	"peqqip" NIQ SSAQ QAR VIK N Lok Sg LU @i-ADVL>
 "<sulisut>"
-	"suli" TUQ N Rel Pl @N<
+	"suli" TUQ N Rel Pl @SUBJ>
 "<oqaatigaat>"
 	"oqaatige" V Ind 3Pl 3SgO @PRED
 "<.>"
@@ -12144,7 +12143,7 @@
 "<Jørgen>"
 	"Jørgen" Prop Abs Sg @PROP>
 "<Petersenip>"
-	"Petersen" Prop Rel Sg @N<
+	"Petersen" Prop Rel Sg @<APPOS
 "<piumasariniarpaa>"
 	"pi" GUMA TAQ GE NIAR V Ind 3Sg 3SgO @PRED
 "<.>"
@@ -12455,6 +12454,39 @@
 	"nuannare" V Ind 3Sg 3PlO @PRED
 "<.>"
 	"." CLB
+</s>
+
+<sehuwJ1RUITxJynS1LR33Fsty8Z0-0>
+"<->"
+	"-" PUNCT DIRTALESTART
+"<Matumani>"
+	"manna" Pron Lok Sg @CL-ADVL>
+"<inuit>"
+	"inuk" N Rel Pl @POSS>
+"<illoqarfinnut>"
+	"illu" QAR VIK N Trm Pl @i-ADVL>
+"<qajassuussamik>"
+	"qajassuussaq" N Ins Sg @i-ADVL>
+"<,>"
+	"," CLB
+"<silatusaartumik>"
+	"silatusaar" TUQ N Ins Sg @i-ADVL>
+"<nuutsinneqarnerannut>"
+	"nuutsip" NIQAR NIQ N Trm Sg 3PlPoss @ADVL>
+"<qulakkeereqataassaagut>"
+	"qulakkeer" HTR QATE U SSA V Ind 1Pl @PRED
+"<,>"
+	"," CLB
+"<pitsaanerusumillu>"
+	"pitsak" U NIRU TUQ N Ins Sg LU @MIK-OBJ>
+"<atugassarissaarnissaannik>"
+	"ator" TAQ SSAQ GISSAAR NIQ SSAQ N Ins Sg 3PlPoss @N<
+"<qulakkeerillutalu>"
+	"qulakkeer" HTR V Cont 1Pl LU @CL-CIT>
+"<neriorsuissaagut>"
+	"neriorsor" HTR SSA V Ind 1Pl @PRED
+"<.>"
+	"." CLB DIRTALEMIDDLE
 </s>
 
 <sekcLVJCuXE9lfmoubxjYdRdwGKo-0>
@@ -16099,7 +16131,7 @@
 
 <sqYIYg9OM6TQG6l6phkGv6f2aypQ-0>
 "<Tamatumanili>"
-	"manna" Pron Lok Sg LI @ADVL>
+	"manna" Pron Lok Sg LI @CL-ADVL>
 "<Oqaasileriffimmit>"
 	"Oqaasileriffik" Prop Abl Sg @AGENS
 "<eqqumaffigineqanngitsoorsimavoq>"
@@ -16608,6 +16640,25 @@
 	"Pedersen" Prop Abs Sg @SUBJ>
 "<tikkuaavoq>"
 	"tikkuar" HTR V Ind 3Sg @PRED
+</s>
+
+<ssNIgPTTzvU7fl5OkMqtHQkrn6bM-0>
+"<->"
+	"-" PUNCT DIRTALESTART
+"<Matumani>"
+	"manna" Pron Lok Sg @CL-ADVL>
+"<inuit>"
+	"inuk" N Rel Pl @POSS>
+"<illoqarfinnut>"
+	"illu" QAR VIK N Trm Pl @i-ADVL>
+"<silatusaartumik>"
+	"silatusaar" TUQ N Ins Sg @i-ADVL>
+"<nuutsinneqarnerannut>"
+	"nuutsip" NIQAR NIQ N Trm Sg 3PlPoss @ADVL>
+"<qulakkeereqataassaagut>"
+	"qulakkeere" QATE U SSA V Ind 1Pl @PRED
+"<.>"
+	"." CLB DIRTALEMIDDLE
 </s>
 
 <ssQDu1oQhovxI8xIdqk48swsGW84-0>
@@ -17322,7 +17373,7 @@
 "<eqqaani>"
 	"eqqaq" N Lok Sg 3SgPoss @i-ADVL>
 "<napparsimmavimmi>"
-	"napparsimmavik" N Lok Sg @N<
+	"napparsimmavik" N Lok Sg @i-ADVL>
 "<Walter Reed Medical Centerimi>"
 	"Walter Reed Medical Center" Prop Lok Sg @<APPOS
 "<uninngasoq>"
@@ -18071,6 +18122,35 @@
 	"baobab" TUR TAR V Int 3Pl @PRED
 "<?>"
 	"?" CLB DIRTALESLUT
+</s>
+
+<sx2x0yt74NlosvxwjV7A6x0p5s74-0>
+"<Suleriaatsimi>"
+	"suli" RIAR USIQ N Lok Sg @ADVL>
+"<§>"
+	"§" N Symbol @>N
+"<3>"
+	"3" Num Abs Sg %ContHypotagme @OBJ>
+"<naapertorlugu>"
+	"naapertor" V Cont 3SgO %ContHypotagme @ADVL>
+"<pissusissamisoortumik>"
+	"pissusissamisoortoq" N Ins Sg @i-ADVL>
+"<ataatsimiigiaqqusisoqareerpat>"
+	"ataatsimiip" GIAR QQU HTR TUQ QAR RIIR V Con 3Sg @CON
+"<Oqaasiliortut>"
+	"Oqaasiliortut" Prop Abs Pl @SUBJ>
+"<aalajangiisinnaapput>"
+	"aalajanger" HTR SINNAA V Ind 3Pl @PRED
+"<ilaasortat>"
+	"ilaa" TUQ TAQ N Abs Pl @SUBJ>
+"<ikinnerpaamik>"
+	"ikinnerpaamik" Adv @ADVL>
+"<pingasut>"
+	"pingasut" Num Abs Pl @N<
+"<ataatsimeeqataappata>"
+	"ataatsimiip" QATE U V Con 3Pl @CON
+"<.>"
+	"." CLB
 </s>
 
 <sx90Oafds7VYr8kqyxy8fm0q7XF0-0>
