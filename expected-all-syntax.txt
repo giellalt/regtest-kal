@@ -9127,7 +9127,6 @@
 	"sisi" MIU Der/nn N Abs Pl MI @SUBJ>
 "<talittarfigissaarpoq>"
 	"talip" Gram/IV TAR Der/vv Gram/IV VIK Der/vn GISSAAR Der/nv Gram/IV V Ind 3Sg @PRED
-	"talittarfik" GISSAAR Der/nv Gram/IV V Ind 3Sg @PRED
 "<,>"
 	"," CLB
 "<Arctic Circle Businessillu>"
@@ -10207,6 +10206,21 @@
 	"allip" Gram/IV NNGIT Der/vv Gram/IV NIQ Der/vn N Lok Sg 4PlPoss @<ADVL
 "<.>"
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE
+</s>
+
+<sVkGZS3HKc4iqcm9rMhixPD2x5dw-0>
+"<Taamaaliorniarlusi>"
+	"taamaalior" Gram/IV NIAR Der/vv Gram/IV V Cont 2Pl @CL-CIT>
+"<aalajangerussi>"
+	"aalajanger" Gram/IV V Con 2Pl @CON
+"<atuartitasi>"
+	"atuar" Gram/HV TIP Der/vv Gram/TV TAQ Der/vn N Abs Pl 2PlPoss @OBJ>
+"<nammineerlusi>"
+	"nammineer" Gram/IV V Cont 2Pl @ADVL>
+"<ilisimatilaarumaarpasi>"
+	"ilisima" Gram/TV TIP Der/vv Gram/Db LAAR Der/vv GUMAAR Der/vv Gram/TV V Ind 2Pl 3PlO @PRED
+"<.>"
+	"." CLB
 </s>
 
 <sVkVs1mn1OeP9vQVwb2mM62kxg2s-0>
@@ -11293,10 +11307,10 @@
 	"a" N Gram/Abbr @HNOUN
 	"a" N Gram/Abbr Abs Sg @HNOUN
 "<:>"
-	":" CLB DIRTALESTART
+	":" CLB
 
 "<Angut>"
-	"angut" N Abs Sg @SUBJ>
+	"angut" N Abs Sg @HNOUN
 "<17-init>"
 	"17" Orth/Append Num Rel Pl @POSS>
 "<missaannik>"
@@ -11307,13 +11321,12 @@
 	"170-175" Num Abs Sg @>N
 "<cm>"
 	"centimeter" Gram/Abbr N Abs Sg @i->N
-	"centimeter" N Gram/Abbr @i->N
 "<angissusilik>"
 	"angi" Gram/IV SSUSIQ Der/vn LIK Der/nn N Abs Sg @N<
 "<,>"
 	"," CLB
 "<tuattoq>"
-	"tuap" Gram/IV V Par 3Sg @PRED
+	"tuattoq" N Abs Sg @HNOUN
 "<,>"
 	"," CLB
 "<sakiaani>"
@@ -11323,15 +11336,15 @@
 "<nasartalimmik>"
 	"nasaq" TAQ Der/nn LIK Der/nn N Ins Sg @i->N
 "<tujuululik>"
-	"tujuuluk" LIK Der/nn N Abs Sg @<SUBJ
+	"tujuuluk" LIK Der/nn N Abs Sg @N<
 "<,>"
 	"," CLB
 "<koorpunik>"
 	"koorpu" N Ins Pl @i->N
 "<qarlilik>"
-	"qarlik" LIK Der/nn N Abs Sg @<SUBJ
+	"qarlik" LIK Der/nn N Abs Sg @HNOUN
 "<.>"
-	"." CLB DIRTALEMIDDLE
+	"." CLB
 </s>
 
 <sZMxstVtKxXmrvqRFkZpExVcD8O8-0>
@@ -14569,10 +14582,10 @@
 	"b" N Gram/Abbr @HNOUN
 	"b" N Gram/Abbr Abs Sg @HNOUN
 "<:>"
-	":" CLB DIRTALESTART
+	":" CLB
 
 "<Angut>"
-	"angut" N Abs Sg @SUBJ>
+	"angut" N Abs Sg @HNOUN
 "<18-it>"
 	"18" Num Rel Pl @POSS>
 "<missaannik>"
@@ -14592,7 +14605,8 @@
 "<,>"
 	"," CLB
 "<tuattoq>"
-	"tuap" Gram/IV Sem/Temporal V Par 3Sg @PRED2
+	"tuap" Gram/IV TUQ Der/vn N Abs Sg @HNOUN
+	"tuattoq" N Abs Sg @HNOUN
 "<sakiaatigut>"
 	"sakiak" N Via Sg 3SgPoss @i-ADVL>
 "<allannertalimmik>"
@@ -14600,9 +14614,9 @@
 "<nasartalimmik>"
 	"nasaq" TAQ Der/nn LIK Der/nn N Ins Sg @i->N
 "<tujuululik>"
-	"tujuuluk" LIK Der/nn N Abs Sg @<SUBJ
+	"tujuuluk" LIK Der/nn N Abs Sg @N<
 "<.>"
-	"." CLB DIRTALEMIDDLE
+	"." CLB
 </s>
 
 <sjATojIxNI4XJHxllKq1yTnLAauk-0>
@@ -19066,10 +19080,10 @@
 	"c" N Gram/Abbr @HNOUN
 	"c" N Gram/Abbr Abs Sg @HNOUN
 "<:>"
-	":" CLB DIRTALESTART
+	":" CLB
 
 "<Angut>"
-	"angut" N Abs Sg @SUBJ>
+	"angut" N Abs Sg @HNOUN
 "<20-25-it>"
 	"20-25" Err/Sub Num Rel Pl @POSS>
 "<missaanni>"
@@ -19089,7 +19103,7 @@
 "<,>"
 	"," CLB
 "<nerinnattoq>"
-	"nerinnap" Gram/IV V Par 3Sg @PRED
+	"nerinnap" Gram/IV TUQ Der/vn N Abs Sg @N<
 "<,>"
 	"," CLB
 "<naatsunik>"
@@ -19097,7 +19111,7 @@
 "<kajortunik>"
 	"kajortoq" N Ins Pl @N<
 "<nujalik>"
-	"nujaq" LIK Der/nn N Abs Sg @<SUBJ
+	"nujaq" LIK Der/nn N Abs Sg @N<
 "<,>"
 	"," CLB
 "<tujuulummik>"
@@ -19107,17 +19121,17 @@
 "<allannertalimmik>"
 	"allap" Gram/IV NIQ Der/vn TAQ Der/nn LIK Der/nn N Ins Sg @N<
 "<qernertumik>"
-	"qernertoq" N Ins Sg @N<
+	"qernertoq" N Ins Sg @i-N<
 "<atortoq>"
-	"ator" Gram/IV TUQ Der/vn N Abs Sg @N<
+	"ator" Gram/IV TUQ Der/vn N Abs Sg @HNOUN
 "<,>"
 	"," CLB
 "<koorpunillu>"
 	"koorpu" Gram/Conj-encl N Ins Pl LU @i->N
 "<qarlilik>"
-	"qarlik" LIK Der/nn N Abs Sg @<SUBJ
+	"qarlik" LIK Der/nn N Abs Sg @HNOUN
 "<.>"
-	"." CLB DIRTALEMIDDLE
+	"." CLB
 </s>
 
 <sxNTgJ7TqmAjXhM2yh1iAorTtasQ-0>

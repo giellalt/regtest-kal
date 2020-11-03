@@ -9104,7 +9104,6 @@
 	"sisi" MIU N Abs Pl MI @SUBJ>
 "<talittarfigissaarpoq>"
 	"talip" TAR VIK GISSAAR V Ind 3Sg @PRED
-	"talittarfik" GISSAAR V Ind 3Sg @PRED
 "<,>"
 	"," CLB
 "<Arctic Circle Businessillu>"
@@ -10184,6 +10183,21 @@
 	"allip" NNGIT NIQ N Lok Sg 4PlPoss @<ADVL
 "<.>"
 	"." CLB DIRTALEMIDDLE
+</s>
+
+<sVkGZS3HKc4iqcm9rMhixPD2x5dw-0>
+"<Taamaaliorniarlusi>"
+	"taamaalior" NIAR V Cont 2Pl @CL-CIT>
+"<aalajangerussi>"
+	"aalajanger" V Con 2Pl @CON
+"<atuartitasi>"
+	"atuar" TIP TAQ N Abs Pl 2PlPoss @OBJ>
+"<nammineerlusi>"
+	"nammineer" V Cont 2Pl @ADVL>
+"<ilisimatilaarumaarpasi>"
+	"ilisima" TIP LAAR GUMAAR V Ind 2Pl 3PlO @PRED
+"<.>"
+	"." CLB
 </s>
 
 <sVkVs1mn1OeP9vQVwb2mM62kxg2s-0>
@@ -11269,10 +11283,10 @@
 	"a" N @HNOUN
 	"a" N Abs Sg @HNOUN
 "<:>"
-	":" CLB DIRTALESTART
+	":" CLB
 
 "<Angut>"
-	"angut" N Abs Sg @SUBJ>
+	"angut" N Abs Sg @HNOUN
 "<17-init>"
 	"17" Num Rel Pl @POSS>
 "<missaannik>"
@@ -11282,14 +11296,13 @@
 "<170-175>"
 	"170-175" Num Abs Sg @>N
 "<cm>"
-	"centimeter" N @i->N
 	"centimeter" N Abs Sg @i->N
 "<angissusilik>"
 	"angi" SSUSIQ LIK N Abs Sg @N<
 "<,>"
 	"," CLB
 "<tuattoq>"
-	"tuap" V Par 3Sg @PRED
+	"tuattoq" N Abs Sg @HNOUN
 "<,>"
 	"," CLB
 "<sakiaani>"
@@ -11299,15 +11312,15 @@
 "<nasartalimmik>"
 	"nasaq" TAQ LIK N Ins Sg @i->N
 "<tujuululik>"
-	"tujuuluk" LIK N Abs Sg @<SUBJ
+	"tujuuluk" LIK N Abs Sg @N<
 "<,>"
 	"," CLB
 "<koorpunik>"
 	"koorpu" N Ins Pl @i->N
 "<qarlilik>"
-	"qarlik" LIK N Abs Sg @<SUBJ
+	"qarlik" LIK N Abs Sg @HNOUN
 "<.>"
-	"." CLB DIRTALEMIDDLE
+	"." CLB
 </s>
 
 <sZMxstVtKxXmrvqRFkZpExVcD8O8-0>
@@ -14533,10 +14546,10 @@
 	"b" N @HNOUN
 	"b" N Abs Sg @HNOUN
 "<:>"
-	":" CLB DIRTALESTART
+	":" CLB
 
 "<Angut>"
-	"angut" N Abs Sg @SUBJ>
+	"angut" N Abs Sg @HNOUN
 "<18-it>"
 	"18" Num Rel Pl @POSS>
 "<missaannik>"
@@ -14556,7 +14569,8 @@
 "<,>"
 	"," CLB
 "<tuattoq>"
-	"tuap" V Par 3Sg @PRED2
+	"tuap" TUQ N Abs Sg @HNOUN
+	"tuattoq" N Abs Sg @HNOUN
 "<sakiaatigut>"
 	"sakiak" N Via Sg 3SgPoss @i-ADVL>
 "<allannertalimmik>"
@@ -14564,9 +14578,9 @@
 "<nasartalimmik>"
 	"nasaq" TAQ LIK N Ins Sg @i->N
 "<tujuululik>"
-	"tujuuluk" LIK N Abs Sg @<SUBJ
+	"tujuuluk" LIK N Abs Sg @N<
 "<.>"
-	"." CLB DIRTALEMIDDLE
+	"." CLB
 </s>
 
 <sjATojIxNI4XJHxllKq1yTnLAauk-0>
@@ -19023,10 +19037,10 @@
 	"c" N @HNOUN
 	"c" N Abs Sg @HNOUN
 "<:>"
-	":" CLB DIRTALESTART
+	":" CLB
 
 "<Angut>"
-	"angut" N Abs Sg @SUBJ>
+	"angut" N Abs Sg @HNOUN
 "<20-25-it>"
 	"20-25" Num Rel Pl @POSS>
 "<missaanni>"
@@ -19046,7 +19060,7 @@
 "<,>"
 	"," CLB
 "<nerinnattoq>"
-	"nerinnap" V Par 3Sg @PRED
+	"nerinnap" TUQ N Abs Sg @N<
 "<,>"
 	"," CLB
 "<naatsunik>"
@@ -19054,7 +19068,7 @@
 "<kajortunik>"
 	"kajortoq" N Ins Pl @N<
 "<nujalik>"
-	"nujaq" LIK N Abs Sg @<SUBJ
+	"nujaq" LIK N Abs Sg @N<
 "<,>"
 	"," CLB
 "<tujuulummik>"
@@ -19064,17 +19078,17 @@
 "<allannertalimmik>"
 	"allap" NIQ TAQ LIK N Ins Sg @N<
 "<qernertumik>"
-	"qernertoq" N Ins Sg @N<
+	"qernertoq" N Ins Sg @i-N<
 "<atortoq>"
-	"ator" TUQ N Abs Sg @N<
+	"ator" TUQ N Abs Sg @HNOUN
 "<,>"
 	"," CLB
 "<koorpunillu>"
 	"koorpu" N Ins Pl LU @i->N
 "<qarlilik>"
-	"qarlik" LIK N Abs Sg @<SUBJ
+	"qarlik" LIK N Abs Sg @HNOUN
 "<.>"
-	"." CLB DIRTALEMIDDLE
+	"." CLB
 </s>
 
 <sxNTgJ7TqmAjXhM2yh1iAorTtasQ-0>
