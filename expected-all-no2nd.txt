@@ -3426,9 +3426,9 @@
 "<suleqatigiissitami>"
 	"suli" QATIGIIP TIP TAQ N Lok Sg @i-ADVL>
 "<ilaasortaasut>"
-	"ilaa" TUQ TAQ U TUQ N Abs Pl @OBJ>
+	"ilaa" TUQ TAQ U TUQ N Rel Pl @N<
 "<akueriuminaatsippaat>"
-	"akuere" GUMINAR IT TIP V Ind 3Pl 3PlO @PRED
+	"akuere" GUMINAR IT TIP V Ind 3Pl 3SgO @PRED
 "<,>"
 	"," CLB
 "<tassami>"
@@ -3436,7 +3436,7 @@
 "<siunnersuutaammat>"
 	"siunnersor" UTE U V Cau 3Sg @CAU
 "<isertitat>"
-	"iser" TIP TAQ N Abs Pl @i-N<
+	"iser" TIP TAQ N Abs Pl @SUBJ>
 "<nunatta>"
 	"nuna" N Rel Sg 1PlPoss @POSS>
 "<Danmarkillu>"
@@ -4691,7 +4691,7 @@
 "<siunnersuutaa>"
 	"siunnersor" UTE N Abs Sg 3SgPoss @OBJ>
 "<folketingip>"
-	"folketing" N Rel Sg @POSS>
+	"folketing" N Rel Sg @POSS>>
 "<kalaallit>"
 	"kalaaleq" N Rel Pl @POSS>
 "<nunaat>"
@@ -5189,6 +5189,23 @@
 	"ilaatigut" Adv @ADVL>
 "<aalajangissavaa>"
 	"aalajanger" SSA V Ind 3Sg 3SgO @PRED
+"<.>"
+	"." CLB
+</s>
+
+<sCd3QdGjcCxupgRZxtaqfJsozrzo-0>
+"<Tatsit>"
+	"taseq" N Rel Pl @POSS>
+"<tarajuusut>"
+	"tarajoq" U TUQ N Rel Pl @N<
+"<eqqaanni>"
+	"eqqaq" N Lok Sg 3PlPoss @ADVL>N
+"<aqqusernit>"
+	"aqqusineq" N Abs Pl @SUBJ>
+"<marlunngorlutik>"
+	"marluk" NNGUR V Cont 4Pl @ADVL>
+"<avissapput>"
+	"avip" SSA V Ind 3Pl @PRED
 "<.>"
 	"." CLB
 </s>
@@ -7148,11 +7165,11 @@
 "<siuariartorfiusuni>"
 	"siuar" GIARTUR VIK U TUQ N Lok Pl @N<
 "<noorarfiusunilu>"
-	"nuup" RAR VIK U TUQ N Abs Sg 4SgPoss LU @OBJ>
+	"nuup" RAR VIK U TUQ N Lok Pl LU @N<
 "<sanaartornissamut>"
 	"sanaartor" NIQ SSAQ N Trm Sg @i-ADVL>
 "<nangaassuteqarnerat>"
-	"nangaa" UTE QAR NIQ N Abs Sg 3PlPoss @N<
+	"nangaa" UTE QAR NIQ N Abs Sg 3PlPoss @OBJ>
 "<pillugu>"
 	"pi" V Cont 3SgO @ADVL>
 "<isornartorsiorpai>"
@@ -7212,7 +7229,6 @@
 
 "<Uppiasuupput>"
 	"uppia" TUQ U V Ind 3Pl @PRED
-	"uppip" JA TUQ U V Ind 3Pl @PRED
 "<.>"
 	"." CLB
 
@@ -13573,7 +13589,7 @@
 "<illoqarfinnut>"
 	"illu" QAR VIK N Trm Pl @i-ADVL>
 "<qajassuussamik>"
-	"qajassuussaq" N Ins Sg @i-ADVL>
+	"qajassuup" TAQ N Ins Sg @i-ADVL>
 "<,>"
 	"," CLB
 "<silatusaartumik>"
@@ -14956,7 +14972,6 @@
 "<,>"
 	"," CLB
 "<kattuffiit>"
-	"kattuffik" N Abs Pl @SUBJ>
 	"kattuffik" N Rel Pl @POSS>
 "<pisortallu>"
 	"pisortaq" N Rel Pl LU @POSS>
@@ -20389,9 +20404,9 @@
 "<ukiulik>"
 	"ukioq" LIK N Abs Sg @i-ADVL>
 "<angusarissaarnerit>"
-	"angu" TAQ GISSAAR NIQ N Abs Pl @SUBJ>
+	"angu" TAQ GISSAAR NIQ N Rel Pl @POSS>
 "<qulit>"
-	"qulit" Num Rel Pl @POSS>
+	"qulit" Num Rel Pl @N<
 "<akornanniissasoq>"
 	"akunneq" N Lok Sg 3PlPoss @ADVL>
 "<issasoq>"
