@@ -7160,7 +7160,7 @@
 "<ilami>"
 	"ilami" Adv @ADVL>
 "<ikiortigisaleramiuk>"
-	"ikior" TE GE TAR LIR V Cau 4Sg 3SgO @<CAU
+	"ikior" TE GE TAR LIR V Cau 4Sg 3SgO @PRED
 "<.>"
 	"." CLB
 </s>
@@ -9855,7 +9855,7 @@
 "<Tassagooq>"
 	"tassa" Adv GUUQ @PRED
 "<feeriarmat>"
-	"feeriar" V Cau 3Sg @CL-<CIT
+	"feeriar" V Cau 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -10049,13 +10049,11 @@
 	"." CLB
 
 "<Tamakkuninnga>"
-	"manna" Pron Ins Pl @i-ADVL>N
+	"manna" Pron Ins Pl @ADVL>
 "<oqaluttuaraangami>"
 	"oqalup" TUAR V IteCau 4Sg @CL-ADVL>
-	"oqaluttuaq" GE V Ind 3Sg 1SgO MI @PRED
-	"oqaluttuaq" GE V Int 2Sg 1SgO MI @PRED
 "<taamaattarami>"
-	"taama" IP TAR V Cau 4Sg @CL-<ADVL
+	"taama" IP TAR V Cau 4Sg
 "<,>"
 	"," CLB
 "<nammineq>"
@@ -10067,8 +10065,7 @@
 "<eqqaaleraangamigit>"
 	"eqqaa" LIR V IteCau 4Sg 3PlO @CL-ADVL>
 "<sinissaaruttartunnguakasiugami>"
-	"sinik" SSAQ IRUTE TAR TUQ NNGUAQ KASIK U V Cau 4Sg @PRED2
-	"sinissaarup" TAR TUQ NNGUAQ KASIK U V Cau 4Sg @PRED2
+	"sinik" SSAQ IRUTE TAR TUQ NNGUAQ KASIK U V Cau 4Sg @<CAU
 "<.>"
 	"." CLB
 </s>
@@ -11327,7 +11324,7 @@
 "<Tanngassimaarpungalu>"
 	"tanngap" SIMAAR V Ind 1Sg LU @PRED
 "<oqaluttuussinnaagakku>"
-	"oqaluttuar" UTE SINNAA V Cau 1Sg 3SgO @CAU
+	"oqaluttuar" UTE SINNAA V Cau 1Sg 3SgO @<CAU
 "<timmisartorsinnaallunga>"
 	"timmisartor" SINNAA V Cont 1Sg @CL-<CIT
 "<.>"
@@ -12451,7 +12448,7 @@
 "<uiguuteqarluartut>"
 	"uiguut" QAR LLUAR TUQ N Abs Pl @N<
 "<ajornartorsiutigimmagit>"
-	"ajor" NAR TUQ SIUT GE V Cau 3Sg 3PlO @CAU
+	"ajor" NAR TUQ SIUT GE V Cau 3Sg 3PlO @<CAU
 "<taamaammallu>"
 	"taamaammat" Adv LU @ADVL>
 "<uiguuteqatigiit>"
@@ -14572,7 +14569,7 @@
 "<ilami>"
 	"ilami" Adv @ADVL>
 "<allaannginnami>"
-	"alla" U NNGIT V Cau 4Sg @CAU
+	"alla" U NNGIT V Cau 4Sg @PRED
 "<ilunni>"
 	"ilu" N Lok Sg 1SgPoss @i-ADVL>
 "<qatsortitassaanngivissumik>"
@@ -17916,7 +17913,7 @@
 "<,>"
 	"," CLB
 "<tupaqqangaarama>"
-	"tupap" QQA NGAAR V Cau 1Sg @CAU
+	"tupap" QQA NGAAR V Cau 1Sg @<CAU
 "<isikka>"
 	"isi" N Abs Pl 1SgPoss @OBJ>
 "<anillatsingajallugit>"
@@ -21063,6 +21060,7 @@
 	"sanileq" N Abs Sg 4SgPoss LU @OBJ>
 "<isersimasorigaangamiuk>"
 	"iser" SIMA SURE V IteCau 4Sg 3SgO %VerbalInderivering @CL-ADVL>
+	"iser" SIMA SURE V IteCau 4Sg 3SgO @CL-ADVL>
 	"iser" SIMA TUQ GE V IteCau 4Sg 3SgO @CL-ADVL>
 "<oqaloqatigiissutissaqarluartarput>"
 	"oqaloqatigiissut" SSAQ QAR LLUAR TAR V Ind 3Pl @PRED
@@ -21120,11 +21118,11 @@
 "<ilikkarsimalluni>"
 	"ilikkar" SIMA V Cont 4Sg @ADVL>
 "<inuusuttuulluni>"
-	"inuusup" TUQ U V Cont 4Sg @ADVL>
+	"inuusup" TUQ U V Cont 4Sg @PRED2
 "<qallunaani>"
 	"qallunaaq" N Lok Pl @ADVL>
 "<kiffaanikuugami>"
-	"kiffaq" U NIKUU V Cau 4Sg @CAU
+	"kiffaq" U NIKUU V Cau 4Sg @<CAU
 "<.>"
 	"." CLB
 </s>
