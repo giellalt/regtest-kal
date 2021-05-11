@@ -848,9 +848,9 @@
 "<nal.>"
 	"nalunaaqutaq" N Gram/Abbr @>N
 "<2>"
-	"2" Orth/Append Num Rel Pl @POSS>
+	"2" Err/Sub Num Rel Pl @POSS>
 "<miss.>"
-	"misse" Orth/Append N Lok Sg 3SgPoss @ADVL>
+	"misse" N Lok Sg 3PlPoss @ADVL>
 "<aggissaanga>"
 	"agger" Gram/IV SSA Der/vv Gram/IV V Ind 1Sg @PRED
 "<.>"
@@ -7609,9 +7609,9 @@
 "<Nal.>"
 	"nalunaaqutaq" N Gram/Abbr @>N
 "<2>"
-	"2" Orth/Append Num Rel Pl @POSS>
+	"2" Err/Sub Num Rel Pl @POSS>
 "<miss.>"
-	"misse" Orth/Append N Lok Sg 3SgPoss @ADVL>
+	"misse" N Lok Sg 3PlPoss @ADVL>
 "<aggissaanga>"
 	"agger" Gram/IV SSA Der/vv Gram/IV V Ind 1Sg @PRED
 "<.>"
@@ -18603,23 +18603,6 @@
 	"”" PUNCT RIGHT DIRTALESTART
 </s>
 
-<sikjJHb7xkAVR1N9dqHDOxgtb0wY-0>
-"<30>"
-	"30" Num Abs Sg @>N
-"<grade>"
-	"grad" Orth/Append Sem/Unit N Rel Sg @POSS>
-"<missaaniikkaluartoq>"
-	"misse" N Lok Sg 3SgPoss Hyb/1-2 @ADVL>
-"<ikkaluartoq>"
-	"IP" Gram/IV GALUAR Der/vv Gram/IV Sem/Temporal V Par 3Sg Hyb/2-2 @PRED2
-"<suli>"
-	"suli" Adv @ADVL>
-"<kianneroqaaq>"
-	"kiap" Gram/IV NIRU Der/vv QE Der/vv Gram/IV V Ind 3Sg @PRED
-"<.>"
-	"." CLB
-</s>
-
 <silbqGTUzY5nRxH4QfMafUHp50xk-0>
 "<Gwich'in>"
 	"Gwich'in" Sem/Hum Prop Abs Sg @SUBJ>
@@ -18772,7 +18755,7 @@
 "<175-180>"
 	"175-180" Num Abs Sg @>N
 "<cm>"
-	"centimeter" Orth/Append Sem/Unit N Rel Sg @POSS>
+	"cm" OLang/DAN N Sem/Unit Rel Pl @POSS>
 "<missaanni>"
 	"misse" N Lok Sg 3PlPoss @i->N
 "<angissusilik>"
@@ -18785,7 +18768,7 @@
 "<sakiaatigut>"
 	"sakiak" N Via Sg 3SgPoss @i-ADVL>
 "<allannertalimmik>"
-	"allap" Gram/IV NIQ Der/vn TAQ Der/nn LIK Der/nn N Ins Sg @i->N
+	"allap" Gram/HV Gram/IV NIQ Der/vn TAQ Der/nn LIK Der/nn N Ins Sg @i->N
 "<nasartalimmik>"
 	"nasaq" TAQ Der/nn LIK Der/nn N Ins Sg @i->N
 "<tujuululik>"
@@ -21551,6 +21534,23 @@
 	"apriili" N Abs Sg @i-ADVL>
 "<atorfininnissaminik>"
 	"ator" Gram/IV VIK Der/vn NIP Der/nv Gram/IV NIQ Der/vn SSAQ Der/nn N Ins Sg 4SgPoss @CL-<ADVL
+"<.>"
+	"." CLB
+</s>
+
+<spuAKYYQZVTh1QYdAG6xO5v37A5w-0>
+"<30>"
+	"30" Num Abs Sg @>N
+"<gradit>"
+	"grad" OLang/DAN Sem/Unit N Abs Pl @HNOUN
+"<missaaniikkaluartoq>"
+	"misse" N Lok Sg 3SgPoss Hyb/1-2 @i-ADVL>
+"<ikkaluartoq>"
+	"IP" Gram/IV GALUAR Der/vv Gram/IV TUQ Der/vn N Abs Sg Hyb/2-2 @SUBJ>
+"<suli>"
+	"suli" Adv @ADVL>
+"<kianneroqaaq>"
+	"kiap" Gram/IV NIRU Der/vv QE Der/vv Gram/IV V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -24838,7 +24838,7 @@
 "<165-170>"
 	"165-170" Num Abs Sg @>N
 "<cm>"
-	"centimeter" Orth/Append Sem/Unit N Rel Sg @POSS>
+	"cm" OLang/DAN N Sem/Unit Rel Pl @POSS>
 "<missaanni>"
 	"misse" N Lok Sg 3PlPoss @i->N
 "<angissusilik>"
@@ -24862,7 +24862,7 @@
 "<sakiaatigut>"
 	"sakiak" N Via Sg 3SgPoss @i-ADVL>
 "<allannertalimmik>"
-	"allap" Gram/IV NIQ Der/vn TAQ Der/nn LIK Der/nn N Ins Sg @N<
+	"allap" Gram/HV Gram/IV NIQ Der/vn TAQ Der/nn LIK Der/nn N Ins Sg @N<
 "<qernertumik>"
 	"qernertoq" N Ins Sg @N<
 "<atortoq>"
