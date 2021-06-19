@@ -710,7 +710,7 @@
 "<imminnut>"
 	"immi" Gram/Coref Pron Trm Pl
 "<ittoorilaartutut>"
-	"ittoore" Gram/TV LAAR Der/vv Gram/Refl TUQ Der/vn N Aeq Sg
+	"ittoore" Gram/TV LAAR Der/vv Gram/Refl TUQ Der/vn N Aeq Pl
 "<pilerput>"
 	"pi" LIR Der/vv Gram/IV V Ind 3Pl
 "<.>"
@@ -1963,7 +1963,7 @@
 "<,>"
 	"," CLB
 "<umiartortullu>"
-	"umiartor" Gram/IV TUQ Der/vn N Abs Pl LU %AmbiguøsN
+	"umiartor" Gram/IV TUQ Der/vn N Abs Pl CONJ-LU %AmbiguøsN
 "<assigiinngitsutigut>"
 	"assi" GIIP Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Via Pl
 "<isumagineqartalerput>"
@@ -1990,7 +1990,7 @@
 "<,>"
 	"," CLB
 "<inuttulluunniit>"
-	"inuk" N Aeq Sg LUUNNIIT
+	"inuk" N Aeq Pl ADV-LUUNNIIT
 "<ajornartorsioraangamik>"
 	"ajor" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn SIUR Der/nv Gram/IV V IteCau 4Pl
 "<oqaloqatigineqartarlutik>"
@@ -2056,7 +2056,7 @@
 "<Inuppassuit>"
 	"inuk" PAK Der/nn SUAQ Der/nn N Abs Pl %AmbiguøsN
 "<uniaaluttut>"
-	"uniaaluk" N Aeq Sg
+	"uniaaluk" N Aeq Pl
 "<ulapitsigalutik>"
 	"ulapip" Gram/IV TIGE Der/vv Gram/IV V Cont 4Pl
 "<ingerlarsortut>"
@@ -3953,11 +3953,11 @@
 
 <sBYtciqeOl6eVYFxuKLtGjt7P3ns-0>
 "<Upernaarli>"
-	"upernaaq" N Abs Sg LI
+	"upernaaq" N Abs Sg ADV-LI
 "<manna>"
 	"manna" Gram/Dem Pron Abs Sg
 "<allaasutut>"
-	"alla" U Der/nv Gram/IV TUQ Der/vn N Aeq Sg
+	"alla" U Der/nv Gram/IV TUQ Der/vn N Aeq Pl
 "<misigisimasaminnik>"
 	"misige" Gram/TV SIMA Der/vv Gram/TV TAQ Der/vn N Ins Sg 4PlPoss
 "<imminnut>"
@@ -3967,7 +3967,7 @@
 "<,>"
 	"," CLB
 "<inuusuttunngulernerup>"
-	"inuusup" Gram/IV TUQ Der/vn NNGUR Der/nv Gram/IV LIR Der/vv Gram/IV NIQ Der/vn N Rel Sg
+	"inuusup" Gram/IV TUQ Der/vn NNGUR Der/nv Gram/IV LIR Der/vv Gram/IV NIQ Der/vn N Rel Sg %PossOblique
 "<nassataanik>"
 	"nassar" Gram/TV TAQ Der/vn N Ins Sg 3SgPoss
 	"nassar" TAQ Der/vn N Ins Sg 3SgPoss
@@ -13151,7 +13151,7 @@
 "<tamaasa>"
 	"tamaq" N Gram/Cong Akk 3Pl
 "<puiortutut>"
-	"puior" Gram/TV TUQ Der/vn N Aeq Sg
+	"puiortoq" N Aeq Pl
 "<illugit>"
 	"ip" Gram/TV V Cont 3PlO
 "<aqissit>"
@@ -13309,7 +13309,7 @@
 
 <scG11d7mA140SuNVRu7uzqqbqnvU-0>
 "<Ilaqartuartarsimagamilli>"
-	"ila" QAR Der/nv Gram/IV TUAR Der/vv TAR Der/vv SIMA Der/vv Gram/IV V Cau 4Pl LI
+	"ila" QAR Der/nv Gram/IV TUAR Der/vv TAR Der/vv SIMA Der/vv Gram/IV V Cau 4Pl ADV-LI
 "<maanna>"
 	"maanna" Adv
 "<kisimiileramik>"
@@ -13317,8 +13317,12 @@
 "<qanoq>"
 	"qanoq" Adv
 "<iliusissaaruttutut>"
-	"ili" Gram/IV USIQ Der/vn SSAQ Der/nn IRUTE Der/nv Gram/IV TUQ Der/vn N Aeq Sg
-	"ili" Gram/TV Gram/Refl Gram/IV USIQ Der/vn SSAQ Der/nn IRUTE Der/nv Gram/IV TUQ Der/vn N Aeq Sg
+	"ili" Gram/IV USIQ Der/vn SSAQ Der/nn IRUTE Der/nv Gram/IV TUQ Der/vn N Aeq Pl
+	"ili" Gram/IV USIQ Der/vn SSAQ Der/nn IRUTE Der/nv Gram/TV Gram/Pass TUQ Der/vn N Aeq Pl
+	"ili" Gram/IV USIQ Der/vn SSAQ Der/nn IRUTE Der/nv Gram/TV Gram/Refl TUQ Der/vn N Aeq Pl
+	"ili" Gram/TV Gram/Refl Gram/IV USIQ Der/vn SSAQ Der/nn IRUTE Der/nv Gram/IV TUQ Der/vn N Aeq Pl
+	"ili" Gram/TV Gram/Refl Gram/IV USIQ Der/vn SSAQ Der/nn IRUTE Der/nv Gram/TV Gram/Pass TUQ Der/vn N Aeq Pl
+	"ili" Gram/TV Gram/Refl Gram/IV USIQ Der/vn SSAQ Der/nn IRUTE Der/nv Gram/TV Gram/Refl TUQ Der/vn N Aeq Pl
 "<ipput>"
 	"ip" V Ind 3Pl
 "<,>"
@@ -13332,7 +13336,7 @@
 "<,>"
 	"," CLB
 "<uffalu>"
-	"uffa" Conj LU
+	"uffa" Conj CONJ-LU
 "<aamma>"
 	"aamma" Adv
 "<unnummut>"
