@@ -4745,7 +4745,7 @@
 "<Danmarkimi>"
 	"Danmark" Sem/Geo Prop Lok Sg @ADVL>
 "<allaaneruvoq>"
-	"alla" U Der/nv Gram/IV NIRU Der/vv Gram/IV V Ind 3Sg @PRED
+	"alla" Sem/H U Der/nv Gram/IV NIRU Der/vv Gram/IV V Ind 3Sg @PRED
 "<:>"
 	":" CLB DIRTALESTART
 
@@ -5707,7 +5707,7 @@
 "<kaaviiaartut>"
 	"kaaviiaar" Gram/IV TUQ Der/vn N Abs Pl @N<
 "<amerlanerulissapput>"
-	"amerla" Gram/IV NIQ Der/vn U Der/nv Gram/IV LIR Der/vv SSA Der/vv Gram/IV V Ind 3Pl @PRED
+	"amerla" Gram/IV NIRU Der/vv LIR Der/vv SSA Der/vv Gram/IV V Ind 3Pl @PRED
 "<nunallu>"
 	"nuna" Gram/Conj-encl N Rel Sg LU @POSS>
 "<inui>"
@@ -9008,7 +9008,7 @@
 
 <sIOF2sWRD281qW9Ol98KLso0xyYU-0>
 "<Tunngaviusumik>"
-	"tunngavik" U Der/nv Gram/IV TUQ Der/vn N Ins Sg @ADVL>
+	"tunngavik" U Der/nv Gram/IV TUQ Der/vn N Ins Sg @i->N
 "<inassutigineqarpoq>"
 	"inassutige" Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg @PRED
 "<inissiami>"
@@ -9016,7 +9016,8 @@
 "<immikkoortumi>"
 	"immikkoor" Gram/IV TUQ Der/vn N Lok Sg @N<
 "<angerlarsimaannarnissat>"
-	"angerlar" Gram/IV SIMA Der/vv INNAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 2SgPoss @<SUBJ
+	"angerlar" Gram/IV SIMA Der/vv INNAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Pl @i-N<
+	"angerlar" Gram/IV SIMA Der/vv INNAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 2SgPoss @i-N<
 "<.>"
 	"." CLB
 </s>
@@ -14718,14 +14719,16 @@
 "<Angerlarsimaannassaatit>"
 	"angerlar" Gram/IV SIMA Der/vv INNAR Der/vv SSA Der/vv Gram/IV V Ind 2Sg @PRED
 "<inuit>"
-	"inuk" N Abs Pl @OBJ>
+	"inuk" N Abs Pl @N<
 "<COVID-19-imik>"
-	"COVID-19" Num Ins Sg @i-ADVL>
+	"COVID-19" Num Ins Sg @i-OBJ-DOTR>
 "<tunillatsissimasutut>"
+	"tunillap" Gram/TV TIP Der/vv Gram/Pass Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Aeq Pl @i-ADVL>
 	"tunillap" Gram/TV TIP Der/vv Gram/Pass Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Aeq Sg @i-ADVL>
 "<paasineqartut>"
 	"paasi" Gram/TV NIQAR Der/vv Gram/IV TUQ Der/vn N Abs Pl @N<
 "<qanillisimagukkit>"
+	"qanilli" Gram/TV SIMA Der/vv Gram/TV V Con 1Sg 3PlO @CON
 	"qanilli" Gram/TV SIMA Der/vv Gram/TV V Con 2Sg 3PlO @CON
 "<.>"
 	"." CLB
@@ -21629,6 +21632,7 @@
 "<inuunermik>"
 	"inuk" U Der/nv Gram/IV NIQ Der/vn N Rel Sg 4PlPoss @POSS>
 "<annersaanik>"
+	"angi" NIRSAQ Der/vn N Ins Pl 3SgPoss @MIK-OBJ>
 	"angi" NIRSAQ Der/vn N Ins Sg 3SgPoss @MIK-OBJ>
 "<naammagisimaarinnittarput>"
 	"naammagisimaare" Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV V Ind 3Pl @PRED
@@ -27921,7 +27925,7 @@
 "<tamanna>"
 	"manna" Prefix/TA Gram/Dem Pron Abs Sg @N<
 "<meeqqanut>"
-	"meeraq" N Trm Pl @ADVL>
+	"meeraq" N Trm Pl @i-OBJ-DOTR>
 "<nunami>"
 	"nuna" N Lok Sg @i-ADVL>
 "<maani>"

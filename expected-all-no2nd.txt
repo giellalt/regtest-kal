@@ -5699,7 +5699,7 @@
 "<kaaviiaartut>"
 	"kaaviiaar" TUQ N Abs Pl @N<
 "<amerlanerulissapput>"
-	"amerla" NIQ U LIR SSA V Ind 3Pl @PRED
+	"amerla" NIRU LIR SSA V Ind 3Pl @PRED
 "<nunallu>"
 	"nuna" N Rel Sg LU @POSS>
 "<inui>"
@@ -8993,7 +8993,7 @@
 
 <sIOF2sWRD281qW9Ol98KLso0xyYU-0>
 "<Tunngaviusumik>"
-	"tunngavik" U TUQ N Ins Sg @ADVL>
+	"tunngavik" U TUQ N Ins Sg @i->N
 "<inassutigineqarpoq>"
 	"inassutige" NIQAR V Ind 3Sg @PRED
 "<inissiami>"
@@ -9001,7 +9001,8 @@
 "<immikkoortumi>"
 	"immikkoor" TUQ N Lok Sg @N<
 "<angerlarsimaannarnissat>"
-	"angerlar" SIMA INNAR NIQ SSAQ N Abs Sg 2SgPoss @<SUBJ
+	"angerlar" SIMA INNAR NIQ SSAQ N Abs Pl @i-N<
+	"angerlar" SIMA INNAR NIQ SSAQ N Abs Sg 2SgPoss @i-N<
 "<.>"
 	"." CLB
 </s>
@@ -14698,14 +14699,16 @@
 "<Angerlarsimaannassaatit>"
 	"angerlar" SIMA INNAR SSA V Ind 2Sg @PRED
 "<inuit>"
-	"inuk" N Abs Pl @OBJ>
+	"inuk" N Abs Pl @N<
 "<COVID-19-imik>"
-	"COVID-19" Num Ins Sg @i-ADVL>
+	"COVID-19" Num Ins Sg @i-OBJ-DOTR>
 "<tunillatsissimasutut>"
+	"tunillap" TIP SIMA TUQ N Aeq Pl @i-ADVL>
 	"tunillap" TIP SIMA TUQ N Aeq Sg @i-ADVL>
 "<paasineqartut>"
 	"paasi" NIQAR TUQ N Abs Pl @N<
 "<qanillisimagukkit>"
+	"qanilli" SIMA V Con 1Sg 3PlO @CON
 	"qanilli" SIMA V Con 2Sg 3PlO @CON
 "<.>"
 	"." CLB
@@ -21597,6 +21600,7 @@
 "<inuunermik>"
 	"inuk" U NIQ N Rel Sg 4PlPoss @POSS>
 "<annersaanik>"
+	"angi" NIRSAQ N Ins Pl 3SgPoss @MIK-OBJ>
 	"angi" NIRSAQ N Ins Sg 3SgPoss @MIK-OBJ>
 "<naammagisimaarinnittarput>"
 	"naammagisimaare" HTR TAR V Ind 3Pl @PRED
@@ -27884,7 +27888,7 @@
 "<tamanna>"
 	"manna" Pron Abs Sg @N<
 "<meeqqanut>"
-	"meeraq" N Trm Pl @ADVL>
+	"meeraq" N Trm Pl @i-OBJ-DOTR>
 "<nunami>"
 	"nuna" N Lok Sg @i-ADVL>
 "<maani>"
