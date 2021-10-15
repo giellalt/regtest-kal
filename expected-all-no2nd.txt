@@ -6359,7 +6359,7 @@
 "<syndrom>"
 	"syndrom" N Abs Sg @SUBJ>
 "<tassaasoq>"
-	"tassa" U V Par 3Sg @FOC>N
+	"tassa" U V Par 3Sg @PRED
 "<ingasattumik>"
 	"ingasattoq" N Ins Sg @i->N
 "<pissusilik>"
@@ -6369,7 +6369,7 @@
 "<avatangiisit>"
 	"avatangiisi" N Abs Pl @OBJ>
 "<isiginngitsutut>"
-	"isige" NNGIT TUQ N Aeq Sg @ADVL>
+	"isige" NNGIT TUQ N Aeq Pl @ADVL>
 "<illugit>"
 	"ip" V Cont 3PlO @i-ADVL>
 "<periuseqartarneq>"
@@ -10009,7 +10009,7 @@
 "<eqqaamasai>"
 	"eqqaama" TAQ N Abs Pl 3SgPoss @SUBJ>
 "<soqutiginartuusut>"
-	"soqutiginartoq" U V Par 3Pl @CL-<CIT
+	"soqut" GE NAR TUQ U V Par 3Pl @CL-<CIT
 "<,>"
 	"," CLB
 "<taava>"
@@ -14535,6 +14535,27 @@
 	"." CLB
 </s>
 
+<sVlcwMke7wNbcBIBPrIYRbTFBxkc-0>
+"<Kalaallisut>"
+	"kalaaleq" N Aeq Sg @>N
+"<oqaatsit>"
+	"oqaaseq" N Abs Pl @OBJ>
+"<meeraaninniilli>"
+	"meeraq" U NIQ N Abl Sg 1SgPoss LI @i-ADVL>
+"<alapernaaserfigiuaannarnikuuakka>"
+	"alapernaaser" VIK GE TUAR INNAR NIKUU V Ind 1Sg 3PlO @PRED
+"<eqqarsaatersuutillu>"
+	"eqqarsaatersor" UTE N Abs Pl LU @OBJ>
+"<taakkununnga>"
+	"una" Pron Trm Pl @i-ADVL>
+"<tunngasut>"
+	"tunnga" TUQ N Abs Pl @N<
+"<pigiuaannarnikuullugit>"
+	"pi" GE TUAR INNAR NIKUU V Cont 3PlO @PRED
+"<.>"
+	"." CLB
+</s>
+
 <sVxztjFqRxkJFxMM1q2idUxECIr4-0>
 "<Unnerluussutigineqarpoq>"
 	"unnerluussut" GE NIQAR V Ind 3Sg @PRED
@@ -14688,7 +14709,7 @@
 "<aqqutissaata>"
 	"aqqut" SSAQ N Rel Sg 3SgPoss @POSS>
 "<sinaani>"
-	"sini" N Lok Sg 3SgPoss @i-ADVL>N
+	"sini" N Lok Sg 3SgPoss @ADVL>
 "<nassaassaavoq>"
 	"nassaaq" SSAQ U V Ind 3Sg @PRED
 "<,>"
@@ -17574,6 +17595,27 @@
 	"." CLB
 </s>
 
+<sd75qFld8nviMeRGfD7tCgQcrnr0-0>
+"<Tamatuma>"
+	"manna" Pron Rel Sg @POSS>
+"<saniatigut>"
+	"sani" N Via Sg 3SgPoss @ADVL>
+"<pingaartittarpara>"
+	"pi" NGAAR TIP TAR V Ind 1Sg 3SgO @PRED
+"<ullormut>"
+	"ulloq" N Trm Sg @i-ADVL>
+"<angusaqartutut>"
+	"angu" TAQ QAR TUQ N Aeq Sg @ADVL>
+"<misigisimallunga>"
+	"misige" SIMA V Cont 1Sg @CL-<CIT
+"<naammagisimaarlungalu>"
+	"naammage" SIMAAR V Cont 1Sg LU @PRED
+"<innassallunga>"
+	"innar" SSA V Cont 1Sg @CL-<CIT
+"<.>"
+	"." CLB
+</s>
+
 <sd8w0Y0nGZhYqtopfxeCsqfxlAOs-0>
 "<„>"
 	"„" PUNCT LEFT DIRTALESTART
@@ -18140,7 +18182,7 @@
 "<paasiniassallugu>"
 	"paasi" NIAR SSA V Cont 3SgO @ADVL>
 "<periarfissarseriasaarpunga>"
-	"periar" VIK SSAQ SI RIATAAR V Ind 1Sg @PRED
+	"periarfissaq" SI RIATAAR V Ind 1Sg @PRED
 "<,>"
 	"," CLB
 "<aperigasuarparalu>"
@@ -25990,7 +26032,7 @@
 "<Qinersinissap>"
 	"qiner" HTR NIQ SSAQ N Rel Sg @POSS>
 "<suaarutigineqannginnerani>"
-	"suaarutige" NIQAR NNGIT NIQ N Lok Sg 3SgPoss @CL-ADVL>
+	"suaar" UTE GE NIQAR NNGIT NIQ N Lok Sg 3SgPoss @CL-ADVL>
 "<aatsitassarsiornissamut>"
 	"aap" TIP TAQ SSAQ SIUR NIQ SSAQ N Trm Sg @i-ADVL>
 "<suliniutip>"
