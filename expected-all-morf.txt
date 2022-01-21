@@ -203,26 +203,26 @@
 "<,>"
 	"," CLB
 "<takornarissat>"
-	"takornariaq" Err/Sub N Abs Pl %AmbiguøsN
-	"takornariaq" Err/Sub N Rel Pl %AmbiguøsN
+	"takornariaq" N Abs Pl Err/Sub %AmbiguøsN
+	"takornariaq" N Rel Pl Err/Sub %AmbiguøsN
 "<ukiumut>"
 	"ukioq" N Trm Sg
 "<24.000-it>"
 	"24.000" Num Rel Pl %NumPossessum %AmbiguøsN %PossOblique
 "<missaanniittartut>"
-	"misse" N Lok Sg 3PlPoss Hyb/1-2 %NumPossessum
+	"misse" N Lok Sg 3PlPoss Hyb/1-2 %NumPossessum %PossOblique
 "<ittartut>"
 	"IP" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 %AmbiguøsN
 "<tamarmik>"
 	"tamaq" N Gram/Cong Nom 4Pl
 "<525>"
-	"525" Num Abs Sg %AmbiguøsN
+	"525" Num Abs Pl %AmbiguøsN
 "<koruuninik>"
 	"krone" OLang/DAN Sem/Unit Err/Sub Orth/Arch N Ins Pl
 "<Nunatta>"
 	"Nuna" Prop Sem/Geo Rel Sg 1PlPoss %PossOblique
 "<karsianut>"
-	"karsi" N Trm Sg 3SgPoss
+	"karsi" N Trm Sg 3SgPoss %PossOblique
 "<akiliissapput>"
 	"akiler" Gram/TV HTR Der/vv Gram/IV SSA Der/vv Gram/IV V Ind 3Pl
 "<.>"
@@ -6587,9 +6587,9 @@
 "<marluk>"
 	"marluk" Num Rel Pl %AmbiguøsN %PossOblique
 "<ingerlaneranni>"
-	"ingerla" Gram/IV NIQ Der/vn N Lok Sg 3PlPoss %Othertime
+	"ingerla" Gram/IV NIQ Der/vn N Lok Sg 3PlPoss %Othertime %PossOblique
 "<10>"
-	"10" Num Abs Sg %AmbiguøsN
+	"10" Num Abs Pl %AmbiguøsN
 "<millioniupput>"
 	"million" U Der/nv Gram/IV V Ind 3Pl
 "<,>"
@@ -7585,13 +7585,13 @@
 "<,>"
 	"," CLB
 "<kilumullu>"
-	"kilo" Err/Sub Sem/Unit N Trm Sg CONJ-LU
+	"kilo" OLang/DAN Sem/Unit N Trm Sg CONJ-LU
 "<agguaqatigiissillugu>"
 	"agguaqatigiissip" Gram/TV V Cont 3SgO
 "<akii>"
 	"aki" N Abs Pl 3SgPoss
 "<13,2>"
-	"13,2" Num Abs Sg %AmbiguøsN
+	"13,2" Num Abs Pl %AmbiguøsN
 "<procentimik>"
 	"procent" OLang/DAN N Ins Sg
 "<apparsimallutik>"
@@ -7906,7 +7906,7 @@
 "<sanilliullugit>"
 	"sanilliup" Gram/TV V Cont 3PlO
 "<3>"
-	"3" Num Abs Sg %AmbiguøsN
+	"3" Num Abs Pl %AmbiguøsN
 "<mio.>"
 	"mio" N Gram/Abbr
 "<kr.-inik>"
@@ -12294,7 +12294,7 @@
 "<mittarfissualiornernut>"
 	"mip" Gram/IV TAR Der/vv Gram/IV VIK Der/vn SUAQ Der/nn LIUR Der/nv Gram/IV NIQ Der/vn N Trm Pl
 "<900>"
-	"900" Num Abs Sg %AmbiguøsN
+	"900" Num Abs Pl %AmbiguøsN
 "<millionit>"
 	"million" Num Abs Pl %AmbiguøsN
 "<koruuninik>"
@@ -16903,7 +16903,7 @@
 "<qalerallit>"
 	"qaleralik" N Abs Pl %AmbiguøsN
 "<200>"
-	"200" Num Abs Sg %AmbiguøsN
+	"200" Num Abs Pl %AmbiguøsN
 "<tonsit>"
 	"ton" OLang/DAN Sem/Unit Orth/Alt N Abs Pl %AmbiguøsN
 "<nunaqarfinnut>"
@@ -20026,7 +20026,7 @@
 "<katillugit>"
 	"katip" Gram/TV V Cont 3PlO %ContHypotagme
 "<1.908>"
-	"1.908" Num Abs Sg %AmbiguøsN
+	"1.908" Num Abs Pl %AmbiguøsN
 "<mio.>"
 	"mio" N Gram/Abbr
 "<kr.-usimapput>"
@@ -21080,7 +21080,7 @@
 "<ukiumut>"
 	"ukioq" N Trm Sg
 "<25,2>"
-	"25,2" Num Abs Sg %AmbiguøsN
+	"25,2" Num Abs Pl %AmbiguøsN
 "<millionit>"
 	"million" Num Abs Pl %AmbiguøsN
 "<koruunit>"
@@ -23735,9 +23735,9 @@
 "<Pingajorarterutingajaat>"
 	"pingajorarterut" NGAJAK Der/nn N Abs Pl 3PlPoss %AmbiguøsN
 "<tassalu>"
-	"tassa" Adv LU
+	"tassa" Adv CONJ-LU
 "<31>"
-	"31" Num Abs Sg %AmbiguøsN
+	"31" Num Abs Pl %AmbiguøsN
 "<procentit>"
 	"procent" OLang/DAN N Abs Pl %AmbiguøsN
 "<isumaqarput>"
@@ -24763,7 +24763,7 @@
 "<qaammammut>"
 	"qaammat" N Trm Sg
 "<8.000>"
-	"8.000" Num Abs Sg %AmbiguøsN
+	"8.000" Num Abs Pl %AmbiguøsN
 "<kroniupput>"
 	"krone" OLang/DAN Sem/Unit U Der/nv Gram/IV V Ind 3Pl
 "<.>"
@@ -25181,7 +25181,7 @@
 "<ingerlanerini>"
 	"ingerla" Gram/IV NIQ Der/vn N Lok Pl 3PlPoss %PossOblique
 "<9,2>"
-	"9,2" Num Abs Sg %AmbiguøsN
+	"9,2" Num Abs Pl %AmbiguøsN
 "<pct.-imik>"
 	"pct." OLang/DAN N Ins Sg
 "<qaffallutik>"
@@ -28865,10 +28865,10 @@
 "<ingerlatsinngitsut>"
 	"ingerlap" HTR Der/vv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
 "<suliffeqanngitsulluunniit>"
-	"suli" Gram/IV VIK Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl LUUNNIIT %AmbiguøsN
-	"suli" Gram/IV VIK Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Rel Sg LUUNNIIT %AmbiguøsN
+	"suli" Gram/IV VIK Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl CONJ-LUUNNIIT %AmbiguøsN
+	"suli" Gram/IV VIK Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Rel Sg CONJ-LUUNNIIT %AmbiguøsN
 "<33>"
-	"33" Num Abs Sg %AmbiguøsN
+	"33" Num Abs Pl %AmbiguøsN
 "<pct.-inik>"
 	"pct." OLang/DAN N Ins Pl
 "<annertussuseqarput>"
