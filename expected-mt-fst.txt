@@ -333,6 +333,7 @@
 	"siuar" Gram/TV TIP Der/vv Gram/Db Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SSA Der/vv Gram/IV V Ind 3Sg
 	"siuar" Gram/TV TIP Der/vv Gram/Db Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SSA Der/vv Gram/IV V Ind 3Sg
 	"siuar" Gram/TV TIP Der/vv Gram/Db NIQAR Der/vv Gram/IV SSA Der/vv Gram/IV V Ind 3Sg
+	"siuar" Gram/TV TIP Der/vv Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SSA Der/vv Gram/IV V Ind 3Sg
 "<.>"
 	"." CLB
 </s>
@@ -951,7 +952,7 @@
 	"quiasaar" Gram/TV V Cont 4SgO
 "<atisalersorsimavoq>"
 	"ati" Gram/TV TAQ Der/vn LIRSUR Der/nv Gram/IV SIMA Der/vv Gram/IV V Ind 3Sg
-	"ati" Gram/TV TAQ Der/vn LIRSUR Der/nv Gram/Refl Gram/IV SIMA Der/vv Gram/IV V Ind 3Sg
+	"ati" Gram/TV TAQ Der/vn LIRSUR Der/nv Gram/TV SIMA Der/vv Gram/Pass Gram/IV V Ind 3Sg
 	"ati" Gram/TV TAQ Der/vn LIRSUR Der/nv Gram/TV SIMA Der/vv Gram/Refl Gram/IV V Ind 3Sg
 "<.>"
 	"." CLB
@@ -1171,7 +1172,6 @@
 	"ilar" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn TAQ Der/nn N Aeq Sg
 "<tunuarpoq>"
 	"tunuar" Gram/IV V Ind 3Sg
-	"tunuar" Gram/TV Gram/Refl V Ind 3Sg
 "<,>"
 	"," CLB
 "<oqarporli>"
@@ -1191,6 +1191,9 @@
 "<qinigassanngorteqqinniarluni>"
 	"qiner" Gram/TV TAQ Der/vn SSAQ Der/nn NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV QQIP Der/vv NIAR Der/vv Gram/Refl V Cont 4Sg
 	"qiner" Gram/TV TAQ Der/vn SSAQ Der/nn NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV QQIP Der/vv NIAR Der/vv Gram/TV V Cont 4SgO
+	"qiner" Gram/TV TAQ Der/vn SSAQ Der/nn NNGUR Der/nv Gram/TV TIP Der/vv Gram/Db QQIP Der/vv NIAR Der/vv Gram/Refl V Cont 4Sg
+	"qiner" Gram/TV TAQ Der/vn SSAQ Der/nn NNGUR Der/nv Gram/TV TIP Der/vv Gram/Db QQIP Der/vv NIAR Der/vv Gram/TV V Cont 4SgO
+	"qiner" Gram/TV TAQ Der/vn SSAQ Der/nn NNGUR Der/nv Gram/TV TIP Der/vv Gram/Refl QQIP Der/vv NIAR Der/vv Gram/IV V Cont 4Sg
 "<.>"
 	"." CLB
 </s>
@@ -1474,7 +1477,6 @@
 	"ma" Gram/Dem Interj
 	"massa" Conj
 "<ilaat>"
-	"IP" Gram/IV LAAR Der/vv V Ind 3Pl Gram/Exclm
 	"ila" N Abs Pl 3PlPoss
 	"ila" N Abs Sg 3PlPoss
 	"ila" UTE Der/nn N Abs Sg
@@ -1490,9 +1492,11 @@
 	"kunik" SUAQ Der/nn U Der/nv Gram/IV TIP Der/vv Gram/TV KUJUP Der/vv Gram/TV Gram/Pass TUQ Der/vn N Abs Sg 2SgPoss
 	"kunik" SUAQ Der/nn U Der/nv Gram/IV TIP Der/vv Gram/TV KUJUP Der/vv Gram/TV Gram/Pass TUQ Der/vn N Rel Pl
 	"kunissuup" Gram/Reci Gram/IV KUJUP Der/vv Gram/IV TUQ Der/vn N Abs Pl
+	"kunissuup" Gram/Reci Gram/IV KUJUP Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
 	"kunissuup" Gram/Reci Gram/IV KUJUP Der/vv Gram/IV TUQ Der/vn N Rel Pl
 	"kunissuup" Gram/Reci Gram/IV KUJUP Der/vv Gram/IV V Par 3Pl
 	"kunissuup" Gram/Reci Gram/IV TIP Der/vv Gram/TV KUJUP Der/vv Gram/Refl TUQ Der/vn N Abs Pl
+	"kunissuup" Gram/Reci Gram/IV TIP Der/vv Gram/TV KUJUP Der/vv Gram/Refl TUQ Der/vn N Abs Sg 2SgPoss
 	"kunissuup" Gram/Reci Gram/IV TIP Der/vv Gram/TV KUJUP Der/vv Gram/Refl TUQ Der/vn N Rel Pl
 	"kunissuup" Gram/Reci Gram/IV TIP Der/vv Gram/TV KUJUP Der/vv Gram/Refl V Par 3Pl
 	"kunissuup" Gram/Reci Gram/IV TIP Der/vv Gram/TV KUJUP Der/vv Gram/TV Gram/Pass TUQ Der/vn N Abs Pl
@@ -1649,6 +1653,7 @@
 	"nateq" N Trm Sg 3SgPoss
 "<tussimavoq>"
 	"tup" Gram/IV SIMA Der/vv Gram/IV V Ind 3Sg
+	"tup" Gram/TV SIMA Der/vv Gram/Pass Gram/IV V Ind 3Sg
 	"tup" Gram/TV SIMA Der/vv Gram/Refl Gram/IV V Ind 3Sg
 "<niumi>"
 	"niu" N Abs Sg MI
@@ -2819,9 +2824,9 @@
 
 <s4YUWgMAQxe4Qe7LUD19FoS58KpY-0>
 "<Naalakkersuisut>"
-	"Naalakkersuisoq" Orth/Alt N Abs Pl
-	"Naalakkersuisoq" Orth/Alt N Abs Sg 2SgPoss
-	"Naalakkersuisoq" Orth/Alt N Rel Pl
+	"Naalakkersuisoq" N Abs Pl
+	"Naalakkersuisoq" N Abs Sg 2SgPoss
+	"Naalakkersuisoq" N Rel Pl
 	"Naalakkersuisut" Sem/Hum Prop Abs Pl
 	"Naalakkersuisut" Sem/Hum Prop Rel Pl
 	"naalagaq" LIR Der/nv Gram/IV TUQ Der/vn N Aeq Pl 3SgPoss
@@ -2884,6 +2889,10 @@
 	"ili" Gram/IV SIMA Der/vv Gram/IV TUUQ Der/vn N Abs Sg 2SgPoss LU
 	"ili" Gram/IV SIMA Der/vv Gram/IV TUUQ Der/vn N Rel Pl LU
 	"ili" Gram/IV SIMA Der/vv Gram/IV TUUQ Der/vn N Rel Sg LU
+	"ili" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUUQ Der/vn N Abs Pl LU
+	"ili" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUUQ Der/vn N Abs Sg 2SgPoss LU
+	"ili" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUUQ Der/vn N Rel Pl LU
+	"ili" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUUQ Der/vn N Rel Sg LU
 	"ili" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUUQ Der/vn N Abs Pl LU
 	"ili" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUUQ Der/vn N Abs Sg 2SgPoss LU
 	"ili" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUUQ Der/vn N Rel Pl LU
@@ -2917,8 +2926,8 @@
 	"suli" Gram/IV QATE Der/vn GE Der/nv Gram/TV GUSUP Der/vv NIRAR Der/vv Gram/TV V Ind 3Sg 3PlO
 	"sup" Orth/Arch Gram/IV LIR Der/vv Gram/IV QATE Der/vn GE Der/nv Gram/TV GUSUP Der/vv NIRAR Der/vv Gram/TV V Ind 3Pl 3PlO Orth/Alt
 	"sup" Orth/Arch Gram/IV LIR Der/vv Gram/IV QATE Der/vn GE Der/nv Gram/TV GUSUP Der/vv NIRAR Der/vv Gram/TV V Ind 3Sg 3PlO
-	"sup" Orth/Arch Gram/TV LIR Der/vv Gram/Refl QATE Der/vn GE Der/nv Gram/TV GUSUP Der/vv NIRAR Der/vv Gram/TV V Ind 3Pl 3PlO Orth/Alt
-	"sup" Orth/Arch Gram/TV LIR Der/vv Gram/Refl QATE Der/vn GE Der/nv Gram/TV GUSUP Der/vv NIRAR Der/vv Gram/TV V Ind 3Sg 3PlO
+	"sup" Orth/Arch Gram/TV LIR Der/vv Gram/Refl Gram/IV QATE Der/vn GE Der/nv Gram/TV GUSUP Der/vv NIRAR Der/vv Gram/TV V Ind 3Pl 3PlO Orth/Alt
+	"sup" Orth/Arch Gram/TV LIR Der/vv Gram/Refl Gram/IV QATE Der/vn GE Der/nv Gram/TV GUSUP Der/vv NIRAR Der/vv Gram/TV V Ind 3Sg 3PlO
 "<.>"
 	"." CLB
 </s>
@@ -3601,6 +3610,7 @@
 "<palasi>"
 	"palasi" N Abs Sg
 "<nulialu>"
+	"nuleq" Orth/Arch N Abs Sg 3SgPoss Orth/Youth LU
 	"nuliaq" N Abs Sg 3SgPoss LU
 "<paniallu>"
 	"panik" N Abs Sg 3PlPoss LU
@@ -4178,6 +4188,8 @@
 	"ati" Gram/IV PALUP Der/vv LIR Der/vv Gram/IV V Par 3Sg
 	"ati" Gram/TV Gram/Refl Gram/IV PALUK Der/vn LIR Der/nv Gram/TV Gram/Refl Gram/IV TUQ Der/vn N Abs Sg
 	"ati" Gram/TV Gram/Refl Gram/IV PALUK Der/vn LIR Der/nv Gram/TV Gram/Refl Gram/IV V Par 3Sg
+	"ati" Gram/TV PALUP Der/vv LIR Der/vv Gram/Refl Gram/IV TUQ Der/vn N Abs Sg
+	"ati" Gram/TV PALUP Der/vv LIR Der/vv Gram/Refl Gram/IV V Par 3Sg
 "<,>"
 	"," CLB
 "<imminut>"
@@ -4461,6 +4473,7 @@
 	"uanga" Gram/Pers Pron Trm 1Pl
 "<ilisimatitsivoq>"
 	"ili" Gram/IV SIMA Der/vv TIP Der/vv Gram/TV HTR Der/vv Gram/IV V Ind 3Sg
+	"ili" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV V Ind 3Sg
 	"ili" Gram/TV SIMA Der/vv TIP Der/vv Gram/Db HTR Der/vv Gram/IV V Ind 3Sg
 	"ilip" Orth/Arch Gram/TV SIMA Der/vv Orth/Arch TIP Der/vv Gram/Db HTR Der/vv Gram/IV V Ind 3Sg
 	"ilisima" Gram/TV TIP Der/vv Gram/Db HTR Der/vv Gram/IV V Ind 3Sg
@@ -5870,8 +5883,8 @@
 "<Allatut>"
 	"Allaq" Sem/Fem Sem/Hum Prop Aeq Sg
 	"Allaq" Sem/Mask Sem/Hum Prop Aeq Sg
-	"alla" N Aeq Pl
-	"alla" N Aeq Sg
+	"alla" Sem/H N Aeq Pl
+	"alla" Sem/H N Aeq Sg
 	"allaq" N Aeq Pl
 	"allaq" N Aeq Sg
 "<ajornartumik>"
@@ -5882,20 +5895,19 @@
 	"ajor" Gram/TV NAR Der/vv Gram/IV TUQ Der/vn N Rel Pl 4PlPoss
 	"ajor" Gram/TV NAR Der/vv Gram/IV TUQ Der/vn N Rel Sg 4PlPoss
 "<allamik>"
-	"alla" N Ins Sg
-	"alla" N Rel Pl 4PlPoss
-	"alla" N Rel Sg 4PlPoss
+	"alla" Sem/H N Ins Sg
+	"alla" Sem/H N Rel Pl 4PlPoss
+	"alla" Sem/H N Rel Sg 4PlPoss
 	"allak" N Rel Pl 4PlPoss
 	"allaq" N Ins Sg
 	"allaq" N Rel Pl 4PlPoss
 	"allaq" N Rel Sg 4PlPoss
 "<sammisassarsiortariaqarsimavunga>"
+	"sammi" Gram/TV TAQ Der/vn SSAQ Der/nn SIUR Der/nv Gram/IV TARIAQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV V Ind 1Sg
 	"sammi" Gram/TV TAQ Der/vn SSAQ Der/nn SIUR Der/nv Gram/IV TARIAQAR Der/vv SIMA Der/vv Gram/IV V Ind 1Sg
 "<,>"
 	"," CLB
 "<timmisartunillu>"
-	"timmi" Gram/IV SAR Der/vv Gram/Refl Gram/IV TUQ Der/vn N Abl Pl LU
-	"timmi" Gram/IV SAR Der/vv Gram/Refl Gram/IV TUQ Der/vn N Ins Pl LU
 	"timmi" Gram/IV SAR Der/vv Gram/TV Gram/Pass TUQ Der/vn N Abl Pl LU
 	"timmi" Gram/IV SAR Der/vv Gram/TV Gram/Pass TUQ Der/vn N Ins Pl LU
 	"timmi" Gram/IV SAR Der/vv Gram/TV Gram/Refl TUQ Der/vn N Abl Pl LU
@@ -6121,6 +6133,7 @@
 	"nuap" Gram/TV NIRLUP Der/vv Gram/TV INNAR Der/vv Gram/Refl TUQ Der/vn N Ins Pl
 	"nuap" Gram/TV NIRLUP Der/vv Gram/TV INNAR Der/vv Gram/TV Gram/Pass TUQ Der/vn N Ins Pl
 "<ulikkaartoq>"
+	"uli" KKAAR Der/nv Gram/TV Gram/Refl TUQ Der/vn N Abs Sg
 	"ulik" KKAAR Der/nv Gram/TV Gram/Pass TUQ Der/vn N Abs Sg
 	"ulik" KKAAR Der/nv Gram/TV Gram/Refl TUQ Der/vn N Abs Sg
 	"ulik" KKAAR Der/nv Gram/TV Gram/Refl V Par 3Sg
@@ -6319,8 +6332,8 @@
 "<manna>"
 	"manna" Gram/Dem Pron Abs Sg
 "<allaasutut>"
-	"alla" U Der/nv Gram/IV TUQ Der/vn N Aeq Pl
-	"alla" U Der/nv Gram/IV TUQ Der/vn N Aeq Sg
+	"alla" Sem/H U Der/nv Gram/IV TUQ Der/vn N Aeq Pl
+	"alla" Sem/H U Der/nv Gram/IV TUQ Der/vn N Aeq Sg
 	"allak" U Der/nv Gram/IV TUQ Der/vn N Aeq Pl
 	"allak" U Der/nv Gram/IV TUQ Der/vn N Aeq Sg
 	"allaq" U Der/nv Gram/IV TUQ Der/vn N Aeq Pl
@@ -6331,9 +6344,11 @@
 "<imminnut>"
 	"immi" Gram/Coref Pron Trm Pl
 "<qaninniakujulersimapput>"
+	"qanip" Gram/IV NIAQ Der/vn KUJUK Der/nn LIR Der/nv Gram/TV SIMA Der/vv Gram/Pass Gram/IV V Ind 3Pl
 	"qanip" Gram/IV NIAQ Der/vn KUJUK Der/nn LIR Der/nv Gram/TV SIMA Der/vv Gram/Refl Gram/IV V Ind 3Pl
 	"qanip" Gram/IV NIAQ Der/vn KUJUK Der/nn LIR Der/nv Orth/Alt Gram/IV SIMA Der/vv Gram/IV V Ind 3Pl
 	"qanip" Gram/IV NIAR Der/vv KUJUP Der/vv LIR Der/vv SIMA Der/vv Gram/IV V Ind 3Pl
+	"qanip" Gram/TV Gram/Refl NIAQ Der/vn KUJUK Der/nn LIR Der/nv Gram/TV SIMA Der/vv Gram/Pass Gram/IV V Ind 3Pl
 	"qanip" Gram/TV Gram/Refl NIAQ Der/vn KUJUK Der/nn LIR Der/nv Gram/TV SIMA Der/vv Gram/Refl Gram/IV V Ind 3Pl
 	"qanip" Gram/TV Gram/Refl NIAQ Der/vn KUJUK Der/nn LIR Der/nv Orth/Alt Gram/IV SIMA Der/vv Gram/IV V Ind 3Pl
 	"qanip" Gram/TV NIAR Der/vv KUJUP Der/vv LIR Der/vv SIMA Der/vv Gram/Refl Gram/IV V Ind 3Pl
@@ -6341,13 +6356,11 @@
 	"," CLB
 "<inuusuttunngulernerup>"
 	"inuusup" Gram/IV TUQ Der/vn NNGUR Der/nv Gram/IV LIR Der/vv Gram/IV NIQ Der/vn N Rel Sg
-	"inuusup" Gram/IV TUQ Der/vn NNGUR Der/nv Gram/TV LIR Der/vv Gram/Refl NIQ Der/vn N Rel Sg
+	"inuusup" Gram/IV TUQ Der/vn NNGUR Der/nv Gram/TV LIR Der/vv Gram/Refl Gram/IV NIQ Der/vn N Rel Sg
 	"inuusup" Gram/IV TUQ Der/vn NNGUR Der/nv Gram/TV LIR Der/vv Gram/TV Gram/Pass NIQ Der/vn N Rel Sg
 "<nassataanik>"
 	"nassar" Gram/TV TAQ Der/vn N Ins Pl 3SgPoss
 	"nassar" Gram/TV TAQ Der/vn N Ins Sg 3SgPoss
-	"nassar" TAQ Der/vn N Ins Pl 3SgPoss
-	"nassar" TAQ Der/vn N Ins Sg 3SgPoss
 "<misigisaqalersimallutik>"
 	"misige" Gram/TV TAQ Der/vn QAR Der/nv Gram/IV LIR Der/vv SIMA Der/vv Gram/IV V Cont 4Pl
 "<.>"
@@ -6401,27 +6414,18 @@
 "<pinerluuteqarsimasunut>"
 	"pinerlup" UTE Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Trm Pl
 "<inissiisarfimmiitinneqarpoq>"
-	"ini" Orth/Alt SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
-	"ini" Orth/Alt SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
-	"ini" Orth/Alt SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg
 	"ini" Orth/Alt SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"ini" Orth/Alt SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"ini" Orth/Alt SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg
 	"ini" Orth/Alt SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"ini" Orth/Alt SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"ini" Orth/Alt SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg
-	"ini" SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
-	"ini" SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
-	"ini" SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg
 	"ini" SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"ini" SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"ini" SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg
 	"ini" SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"ini" SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"ini" SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg
-	"inissip" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
-	"inissip" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
-	"inissip" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg
 	"inissip" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"inissip" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"inissip" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg
@@ -6434,26 +6438,21 @@
 	"2001" N Lok Sg LI
 	"2001" Num Lok Sg LI
 "<inissiisarfimmiitilluni>"
-	"ini" Orth/Alt SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl V Cont 4Sg
-	"ini" Orth/Alt SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV V Cont 4SgO
 	"ini" Orth/Alt SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl V Cont 4Sg
 	"ini" Orth/Alt SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV V Cont 4SgO
 	"ini" Orth/Alt SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl V Cont 4Sg
 	"ini" Orth/Alt SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV V Cont 4SgO
-	"ini" SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl V Cont 4Sg
-	"ini" SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV V Cont 4SgO
 	"ini" SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl V Cont 4Sg
 	"ini" SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV V Cont 4SgO
 	"ini" SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl V Cont 4Sg
 	"ini" SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV V Cont 4SgO
-	"inissip" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl V Cont 4Sg
-	"inissip" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV V Cont 4SgO
 	"inissip" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl V Cont 4Sg
 	"inissip" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV Gram/Refl VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV V Cont 4SgO
 	"inissip" Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV Gram/Refl V Cont 4Sg
 	"inissip" Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV VIK Der/vn iN iLok iSg Gram/Hyb IP Gram/IV TIP Der/vv Gram/TV V Cont 4SgO
 "<inooqamminut>"
 	"inuk" U Der/nv Gram/IV QATE Der/vn N Trm Sg 4SgPoss
+	"inuup" Gram/IV QATE Der/vn N Trm Sg 4SgPoss
 "<politiinullu>"
 	"politeeq" N Trm Pl LU
 	"politi" OLang/DAN N Trm Pl LU
@@ -6462,6 +6461,8 @@
 	"siorar" Gram/TV SAAR Der/vv Gram/TV HTR Der/vv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Aeq Sg
 	"siorasaar" Gram/TV HTR Der/vv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Aeq Pl
 	"siorasaar" Gram/TV HTR Der/vv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Aeq Sg
+	"siorasaare" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Aeq Pl
+	"siorasaare" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Aeq Sg
 	"siorasaare" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUQ Der/vn N Aeq Pl
 	"siorasaare" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUQ Der/vn N Aeq Sg
 	"siorasaare" Gram/TV SIMA Der/vv Gram/TV TUQ Der/vn N Aeq Sg
@@ -6524,6 +6525,7 @@
 	"Kalaallit Nunaat" Sem/Geo Prop Trm Sg 3PlPoss
 "<ilisimatitsisarnissaa>"
 	"ili" Gram/IV SIMA Der/vv TIP Der/vv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3SgPoss
+	"ili" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3SgPoss
 	"ili" Gram/TV SIMA Der/vv TIP Der/vv Gram/Db HTR Der/vv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3SgPoss
 	"ilip" Orth/Arch Gram/TV SIMA Der/vv Orth/Arch TIP Der/vv Gram/Db HTR Der/vv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3SgPoss
 	"ilisima" Gram/TV TIP Der/vv Gram/Db HTR Der/vv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3SgPoss
@@ -6646,6 +6648,7 @@
 "<2000>"
 	"2000" Err/Sub Num Rel Pl
 	"2000" N Abs Sg
+	"2000" Num Abs Pl
 	"2000" Num Abs Sg
 "<kronit>"
 	"krone" OLang/DAN Sem/Unit N Abs Pl
@@ -6870,7 +6873,7 @@
 	"Gertrud" Sem/Fem Sem/Hum Prop Rel Sg
 "<nalornerpalulluni>"
 	"nalorni" Gram/IV PALUP Der/vv Gram/IV V Cont 4Sg
-	"nalorni" PALUP Der/vv Gram/TV V Cont 4SgO
+	"nalorni" Gram/TV PALUP Der/vv Gram/TV V Cont 4SgO
 "<Pauli>"
 	"Paul" Sem/Mask Sem/Hum Prop Abs Sg Orth/Alt
 	"Pauli" Sem/Mask Sem/Hum Prop Abs Sg
@@ -7173,6 +7176,8 @@
 "<soqutiginagilli>"
 	"soqut" GE Der/nv Gram/TV V ContNeg 3PlO LI
 "<qitiutigalutik>"
+	"qiteq" Sem/an U Der/nv Gram/IV TIGE Der/vv Gram/IV V Cont 4Pl
+	"qiteq" Sem/an UTE Der/nn GE Der/nv Gram/TV Gram/Refl Gram/IV V Cont 4Pl
 	"qiteq" U Der/nv Gram/IV TIGE Der/vv Gram/IV V Cont 4Pl
 	"qiteq" UTE Der/nn GE Der/nv Gram/TV Gram/Refl Gram/IV V Cont 4Pl
 	"qitip" Gram/IV UTIGE Der/vv Gram/IV V Cont 4Pl
@@ -8281,6 +8286,10 @@
 	"iner" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
 	"iner" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl
 	"iner" Gram/IV SIMA Der/vv Gram/IV V Par 3Pl
+	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Abs Pl
+	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
+	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Rel Pl
+	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV V Par 3Pl
 	"iner" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUQ Der/vn N Abs Pl
 	"iner" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
 	"iner" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUQ Der/vn N Rel Pl
@@ -8454,6 +8463,7 @@
 	"tullersorti" N Abs Sg 3SgPoss
 "<Mike>"
 	"Mike" Dial/Vgr Sem/Mask Sem/Hum Prop Abs Sg
+	"Mike" Sem/inst Sem/Hum Prop Abs Sg
 "<Pence>"
 	"Pence" Sem/Hum Prop Abs Sg
 "<oqarpoq>"
@@ -8630,6 +8640,7 @@
 	"tullersorti" N Abs Sg 3SgPoss
 "<Mike>"
 	"Mike" Dial/Vgr Sem/Mask Sem/Hum Prop Abs Sg
+	"Mike" Sem/inst Sem/Hum Prop Abs Sg
 "<Pence>"
 	"Pence" Sem/Hum Prop Abs Sg
 "<,>"
@@ -8639,7 +8650,7 @@
 	"USA" Sem/Geo Prop Rel Sg Orth/Alt
 "<avataarsuanut>"
 	"avat" ARSUK Der/nn N Trm Sg 3SgPoss
-	"avataaq" SUAQ Der/nn N Trm Sg 3SgPoss
+	"avataaq" Orth/Arch SUAQ Der/nn N Trm Sg 3SgPoss
 	"avataq" ARSUK Der/nn N Trm Sg 3SgPoss
 "<tunngasunut>"
 	"tunnga" Gram/IV TUQ Der/vn N Trm Pl
@@ -8856,9 +8867,11 @@
 	"Oqaasileriffik" Sem/inst Sem/Hum Prop Lok Sg
 	"oqaaseq" LIRI Der/nv Gram/IV VIK Der/vn N Abs Sg MI
 	"oqaaseq" LIRI Der/nv Gram/IV VIK Der/vn N Lok Sg
+	"oqaaseq" LIRI Der/nv Gram/IV VIK Der/vn N Rel Pl 4SgPoss
 	"oqaaseq" LIRI Der/nv Gram/IV VIK Der/vn N Rel Sg 4SgPoss
 	"oqar" Gram/IV USIQ Der/vn LIRI Der/nv Gram/IV VIK Der/vn N Abs Sg MI
 	"oqar" Gram/IV USIQ Der/vn LIRI Der/nv Gram/IV VIK Der/vn N Lok Sg
+	"oqar" Gram/IV USIQ Der/vn LIRI Der/nv Gram/IV VIK Der/vn N Rel Pl 4SgPoss
 	"oqar" Gram/IV USIQ Der/vn LIRI Der/nv Gram/IV VIK Der/vn N Rel Sg 4SgPoss
 "<nal.>"
 	"nalunaaqutaq" N Abs Sg
@@ -8886,9 +8899,12 @@
 "<,>"
 	"," CLB
 "<naapilerpugut>"
+	"naaper" Orth/Arch LIR Der/vv Gram/Refl Gram/IV V Ind 1Pl
+	"naaper" Orth/Arch LIR Der/vv Gram/Refl Gram/IV V Int 1Pl
 	"naapip" Gram/IV LIR Der/vv Gram/IV V Ind 1Pl
 	"naapip" Gram/IV LIR Der/vv Gram/IV V Int 1Pl
-	"naapip" Gram/TV LIR Der/vv Gram/Refl V Ind 1Pl
+	"naapip" Gram/TV LIR Der/vv Gram/Refl Gram/IV V Ind 1Pl
+	"naapip" Gram/TV LIR Der/vv Gram/Refl Gram/IV V Int 1Pl
 "<.>"
 	"." CLB
 </s>
@@ -9469,10 +9485,10 @@
 	"Avataaq" Dial/Vgr Sem/Mask Sem/Hum SUAQ Der/nn LIAR Der/nv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
 	"Avataaq" Dial/Vgr Sem/Mask Sem/Hum SUAQ Der/nn LIAR Der/nv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Rel Pl
 	"Avataaq" Dial/Vgr Sem/Mask Sem/Hum SUAQ Der/nn LIAR Der/nv Gram/IV TAR Der/vv Gram/IV V Par 3Pl
-	"avataaq" SUAQ Der/nn LIAR Der/nv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl
-	"avataaq" SUAQ Der/nn LIAR Der/nv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
-	"avataaq" SUAQ Der/nn LIAR Der/nv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Rel Pl
-	"avataaq" SUAQ Der/nn LIAR Der/nv Gram/IV TAR Der/vv Gram/IV V Par 3Pl
+	"avataaq" Orth/Arch SUAQ Der/nn LIAR Der/nv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl
+	"avataaq" Orth/Arch SUAQ Der/nn LIAR Der/nv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
+	"avataaq" Orth/Arch SUAQ Der/nn LIAR Der/nv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Rel Pl
+	"avataaq" Orth/Arch SUAQ Der/nn LIAR Der/nv Gram/IV TAR Der/vv Gram/IV V Par 3Pl
 	"avataarsualiar" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Pl
 	"avataarsualiar" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
 	"avataarsualiar" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Rel Pl
@@ -9498,9 +9514,9 @@
 "<,>"
 	"," CLB
 "<allaallumi>"
-	"alla" N Abs Pl 3PlPoss LU MI
-	"alla" N Abs Sg 3PlPoss LU MI
-	"alla" UTE Der/nn N Abs Sg LU MI
+	"alla" Sem/H N Abs Pl 3PlPoss LU MI
+	"alla" Sem/H N Abs Sg 3PlPoss LU MI
+	"alla" Sem/H UTE Der/nn N Abs Sg LU MI
 	"allaat" Adv LU MI
 	"allak" N Abs Pl 3PlPoss LU MI
 	"allak" N Abs Pl LU MI
@@ -9546,6 +9562,9 @@
 	"suli" Gram/IV UTE Der/vn GE Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn ARAQ Der/nn UTE Der/nn N Abs Sg
 	"suli" Gram/IV UTE Der/vn GE Der/nv Gram/TV NIAR Der/vv Gram/TV V Par 3Pl 3PlO
 	"suli" Gram/IV UTE Der/vn GE Der/nv Gram/TV NIAR Der/vv Gram/TV V Par 3Pl 3SgO
+	"suli" Gram/IV UTE Der/vn GE Der/nv Gram/TV NIQ Der/vn Gram/TransverbNIQ ARAQ Der/nn N Abs Pl 3PlPoss
+	"suli" Gram/IV UTE Der/vn GE Der/nv Gram/TV NIQ Der/vn Gram/TransverbNIQ ARAQ Der/nn N Abs Sg 3PlPoss
+	"suli" Gram/IV UTE Der/vn GE Der/nv Gram/TV NIQ Der/vn Gram/TransverbNIQ ARAQ Der/nn UTE Der/nn N Abs Sg
 "<,>"
 	"," CLB
 "<arlaleriarluni>"
@@ -9556,6 +9575,9 @@
 	"oqaatige" Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV NIKUQ Der/vn U Der/nv Gram/IV V Ind 3Sg
 	"oqaatige" Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV NIKUU Der/vv Gram/IV V Ind 3Sg
 	"oqaatige" Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV NIQ Der/vn KUQ Der/nn U Der/nv Gram/IV V Ind 3Sg
+	"oqaatige" Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV NIKUQ Der/vn U Der/nv Gram/IV V Ind 3Sg
+	"oqaatige" Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV NIKUU Der/vv Gram/IV V Ind 3Sg
+	"oqaatige" Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV NIQ Der/vn KUQ Der/nn U Der/nv Gram/IV V Ind 3Sg
 	"oqaatige" Gram/TV NIQAR Der/vv Gram/IV NIKUQ Der/vn U Der/nv Gram/IV V Ind 3Sg
 	"oqaatige" Gram/TV NIQAR Der/vv Gram/IV NIKUU Der/vv Gram/IV V Ind 3Sg
 	"oqaatige" Gram/TV NIQAR Der/vv Gram/IV NIQ Der/vn KUQ Der/nn U Der/nv Gram/IV V Ind 3Sg
@@ -9565,6 +9587,9 @@
 	"oqaq" UTE Der/nn GE Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV NIKUQ Der/vn U Der/nv Gram/IV V Ind 3Sg
 	"oqaq" UTE Der/nn GE Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV NIKUU Der/vv Gram/IV V Ind 3Sg
 	"oqaq" UTE Der/nn GE Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV NIQ Der/vn KUQ Der/nn U Der/nv Gram/IV V Ind 3Sg
+	"oqaq" UTE Der/nn GE Der/nv Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV NIKUQ Der/vn U Der/nv Gram/IV V Ind 3Sg
+	"oqaq" UTE Der/nn GE Der/nv Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV NIKUU Der/vv Gram/IV V Ind 3Sg
+	"oqaq" UTE Der/nn GE Der/nv Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV NIQ Der/vn KUQ Der/nn U Der/nv Gram/IV V Ind 3Sg
 	"oqaq" UTE Der/nn GE Der/nv Gram/TV NIQAR Der/vv Gram/IV NIKUQ Der/vn U Der/nv Gram/IV V Ind 3Sg
 	"oqaq" UTE Der/nn GE Der/nv Gram/TV NIQAR Der/vv Gram/IV NIKUU Der/vv Gram/IV V Ind 3Sg
 	"oqaq" UTE Der/nn GE Der/nv Gram/TV NIQAR Der/vv Gram/IV NIQ Der/vn KUQ Der/nn U Der/nv Gram/IV V Ind 3Sg
@@ -9660,7 +9685,7 @@
 
 <sGSrhXWiU3eHLeeMkfY13YkeMaZY-0>
 "<allaanngilaq>"
-	"alla" U Der/nv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Sg
+	"alla" Sem/H U Der/nv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Sg
 	"allak" U Der/nv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Sg
 	"allaq" U Der/nv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Sg
 "<illoqarfeeraq>"
@@ -10595,6 +10620,18 @@
 	"nuna" N Lok Pl 1PlPoss
 	"nuna" N Lok Sg 1PlPoss
 "<timersoqatigiiffiit>"
+	"time" OLang/DAN Sem/Unit Err/Sub RSUR Der/nv Gram/IV QATE Der/vn GIIP Der/nv Gram/IV VIK Der/vn N Abs Pl
+	"time" OLang/DAN Sem/Unit Err/Sub RSUR Der/nv Gram/IV QATE Der/vn GIIP Der/nv Gram/IV VIK Der/vn N Abs Sg 2SgPoss
+	"time" OLang/DAN Sem/Unit Err/Sub RSUR Der/nv Gram/IV QATE Der/vn GIIP Der/nv Gram/IV VIK Der/vn N Rel Pl
+	"time" OLang/DAN Sem/Unit Err/Sub RSUR Der/nv Gram/IV QATIGIIP Der/vv Gram/Reci Gram/IV VIK Der/vn N Abs Pl
+	"time" OLang/DAN Sem/Unit Err/Sub RSUR Der/nv Gram/IV QATIGIIP Der/vv Gram/Reci Gram/IV VIK Der/vn N Abs Sg 2SgPoss
+	"time" OLang/DAN Sem/Unit Err/Sub RSUR Der/nv Gram/IV QATIGIIP Der/vv Gram/Reci Gram/IV VIK Der/vn N Rel Pl
+	"time" OLang/DAN Sem/Unit RSUR Der/nv Gram/IV QATE Der/vn GIIP Der/nv Gram/IV VIK Der/vn N Abs Pl
+	"time" OLang/DAN Sem/Unit RSUR Der/nv Gram/IV QATE Der/vn GIIP Der/nv Gram/IV VIK Der/vn N Abs Sg 2SgPoss
+	"time" OLang/DAN Sem/Unit RSUR Der/nv Gram/IV QATE Der/vn GIIP Der/nv Gram/IV VIK Der/vn N Rel Pl
+	"time" OLang/DAN Sem/Unit RSUR Der/nv Gram/IV QATIGIIP Der/vv Gram/Reci Gram/IV VIK Der/vn N Abs Pl
+	"time" OLang/DAN Sem/Unit RSUR Der/nv Gram/IV QATIGIIP Der/vv Gram/Reci Gram/IV VIK Der/vn N Abs Sg 2SgPoss
+	"time" OLang/DAN Sem/Unit RSUR Der/nv Gram/IV QATIGIIP Der/vv Gram/Reci Gram/IV VIK Der/vn N Rel Pl
 	"timersoqatigiiffik" N Abs Pl
 	"timersoqatigiiffik" N Abs Sg 2SgPoss
 	"timersoqatigiiffik" N Rel Pl
@@ -10604,6 +10641,12 @@
 	"timersor" Gram/IV QATIGIIP Der/vv Gram/Reci Gram/IV VIK Der/vn N Abs Pl
 	"timersor" Gram/IV QATIGIIP Der/vv Gram/Reci Gram/IV VIK Der/vn N Abs Sg 2SgPoss
 	"timersor" Gram/IV QATIGIIP Der/vv Gram/Reci Gram/IV VIK Der/vn N Rel Pl
+	"timi" RSUR Der/nv Gram/IV QATE Der/vn GIIP Der/nv Gram/IV VIK Der/vn N Abs Pl
+	"timi" RSUR Der/nv Gram/IV QATE Der/vn GIIP Der/nv Gram/IV VIK Der/vn N Abs Sg 2SgPoss
+	"timi" RSUR Der/nv Gram/IV QATE Der/vn GIIP Der/nv Gram/IV VIK Der/vn N Rel Pl
+	"timi" RSUR Der/nv Gram/IV QATIGIIP Der/vv Gram/Reci Gram/IV VIK Der/vn N Abs Pl
+	"timi" RSUR Der/nv Gram/IV QATIGIIP Der/vv Gram/Reci Gram/IV VIK Der/vn N Abs Sg 2SgPoss
+	"timi" RSUR Der/nv Gram/IV QATIGIIP Der/vv Gram/Reci Gram/IV VIK Der/vn N Rel Pl
 "<kattuffianni>"
 	"kattuffik" N Lok Sg 3PlPoss
 	"kattup" Gram/TV Gram/Refl VIK Der/vn N Lok Sg 3PlPoss
@@ -11181,7 +11224,6 @@
 
 <sK7Iu0541ZSeD5qRwixYNWDAJ4eo-0>
 "<igalaaq>"
-	"iga" Gram/HV LAAR Der/vv V Ind Gram/Exclm
 	"iga" LAAQ Der/nn N Abs Sg
 	"igalaaq" N Abs Sg
 	"igaq" LAAQ Der/nn N Abs Sg
@@ -11398,7 +11440,9 @@
 	"iluaq" Orth/Arch SI Der/nv Gram/IV GIARTUR Der/vv LIR Der/vv Gram/IV V Ind 3Sg
 	"iluaq" Orth/Arch SIAQ Der/nn TU Der/nv Gram/IV LIR Der/vv Gram/IV V Ind 3Sg
 	"iluaq" Orth/Arch SIAQ Der/nn TUR Der/nv Gram/IV LIR Der/vv Gram/IV V Ind 3Sg
+	"iluar" Gram/IV SI Der/vv GIARTUR Der/vv LIR Der/vv Gram/IV V Ind 3Sg
 	"iluarsi" Gram/IV GIARTUR Der/vv LIR Der/vv Gram/IV V Ind 3Sg
+	"iluarsi" Gram/TV GIARTUR Der/vv LIR Der/vv Gram/Refl Gram/IV V Ind 3Sg
 	"iluarsi" Gram/TV GIARTUR Der/vv LIR Der/vv Gram/Refl V Ind 3Sg
 "<.>"
 	"." CLB
@@ -11837,7 +11881,7 @@
 <sLeJgEYDcxrBTegvFGJhsflWYMlw-0>
 "<Avataarsualiartartunik>"
 	"Avataaq" Dial/Vgr Sem/Mask Sem/Hum SUAQ Der/nn LIAR Der/nv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Ins Pl
-	"avataaq" SUAQ Der/nn LIAR Der/nv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Ins Pl
+	"avataaq" Orth/Arch SUAQ Der/nn LIAR Der/nv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Ins Pl
 	"avataarsualiar" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Ins Pl
 "<ukiut>"
 	"ukioq" N Abs Pl
@@ -11852,9 +11896,13 @@
 "<ingerlannginnerini>"
 	"ingerla" Gram/IV NNGIT Der/vv Gram/IV NIQ Der/vn N Lok Pl 3PlPoss
 	"ingerla" Gram/IV NNGIT Der/vv Gram/IV NIQ Der/vn N Lok Pl 3SgPoss
+	"ingerla" Gram/TV NNGIT Der/vv Gram/TV NIQ Der/vn Gram/TransverbNIQ N Lok Pl 3PlPoss
+	"ingerla" Gram/TV NNGIT Der/vv Gram/TV NIQ Der/vn Gram/TransverbNIQ N Lok Pl 3SgPoss
 	"ingerla" Gram/TV NNGIT Der/vv Gram/TV NIQ Der/vn N Lok Pl 3PlPoss
 	"ingerla" Gram/TV NNGIT Der/vv Gram/TV NIQ Der/vn N Lok Pl 3SgPoss
 	"ingerla" Gram/TV NNGIT Der/vv NIR Der/vv Gram/TV V Par 4Sg 3PlO
+	"ingerlap" Gram/TV NNGIT Der/vv Orth/Alt Gram/TV NIQ Der/vn Gram/TransverbNIQ N Lok Pl 3PlPoss
+	"ingerlap" Gram/TV NNGIT Der/vv Orth/Alt Gram/TV NIQ Der/vn Gram/TransverbNIQ N Lok Pl 3SgPoss
 	"ingerlap" Gram/TV NNGIT Der/vv Orth/Alt Gram/TV NIQ Der/vn N Lok Pl 3PlPoss
 	"ingerlap" Gram/TV NNGIT Der/vv Orth/Alt Gram/TV NIQ Der/vn N Lok Pl 3SgPoss
 	"ingerlap" Gram/TV NNGIT Der/vv Orth/Alt NIR Der/vv Gram/TV V Par 4Sg 3PlO
@@ -12085,8 +12133,11 @@
 	"tup" Gram/TV Gram/Refl V Cont 4Sg
 	"tup" Gram/TV V Cont 4SgO
 "<ingerlanneqartariaqarpoq>"
+	"ingerlap" Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV TARIAQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"ingerlap" Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV TARIAQAR Der/vv Gram/IV V Ind 3Sg
+	"ingerlap" Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV TARIAQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"ingerlap" Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV TARIAQAR Der/vv Gram/IV V Ind 3Sg
+	"ingerlap" Gram/TV NIQAR Der/vv Gram/IV TARIAQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"ingerlap" Gram/TV NIQAR Der/vv Gram/IV TARIAQAR Der/vv Gram/IV V Ind 3Sg
 "<,>"
 	"," CLB
@@ -12415,7 +12466,6 @@
 "<akornanni>"
 	"akunneq" N Lok Sg 3PlPoss
 "<angallassisuuvoq>"
-	"angala" UTE Der/vv Gram/IV SI Der/vv Gram/IV TUQ Der/vn U Der/nv Gram/IV V Ind 3Sg
 	"angallap" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn U Der/nv Gram/IV V Ind 3Sg
 	"angallat" SI Der/nv Orth/Alt Gram/IV TUQ Der/vn U Der/nv Gram/IV V Ind 3Sg
 "<.>"
@@ -14186,6 +14236,7 @@
 <sP8FdvOonwQGaRKgEdwwxxqIn6SE-0>
 "<savimmik>"
 	"savik" N Ins Sg
+	"savik" N Rel Pl 4PlPoss
 	"savik" N Rel Sg 4PlPoss
 "<ammarpara>"
 	"ammar" Gram/TV V Ind 1Sg 3SgO
@@ -14412,6 +14463,13 @@
 <sPSLlfsNvTue6U41K6w1t27lvvsU-0>
 "<HF-ikkut>"
 	"HF" N Gram/ACR Via
+	"HF" OLang/DAN Err/Sub KKUT Der/nn Gram/PlurTant N Abs Pl
+	"HF" OLang/DAN Err/Sub KKUT Der/nn Gram/PlurTant N Rel Pl
+	"HF" OLang/DAN Err/Sub N Via Pl 1SgPoss
+	"HF" OLang/DAN Err/Sub N Via Pl 2SgPoss
+	"HF" OLang/DAN Err/Sub N Via Sg
+	"HF" OLang/DAN Err/Sub N Via Sg 1SgPoss
+	"HF" OLang/DAN Err/Sub N Via Sg 2SgPoss
 "<aqqusaartitaavoq>"
 	"aqqup" Gram/TV SAAR Der/vv Gram/TV TIP Der/vv Gram/Db TAQ Der/vn U Der/nv Gram/IV V Ind 3Sg
 	"aqqup" Gram/TV SAAR Der/vv TIP Der/vv Gram/Db TAQ Der/vn U Der/nv Gram/IV V Ind 3Sg
@@ -14756,6 +14814,10 @@
 	"iner" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
 	"iner" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl
 	"iner" Gram/IV SIMA Der/vv Gram/IV V Par 3Pl
+	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Abs Pl
+	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
+	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Rel Pl
+	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV V Par 3Pl
 	"iner" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUQ Der/vn N Abs Pl
 	"iner" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
 	"iner" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUQ Der/vn N Rel Pl
@@ -15164,6 +15226,7 @@
 <sR9FgqYJM4i3KAoah8d9q8Pokgg4-0>
 "<napparsimavit>"
 	"nappar" Gram/IV SIMA Der/vv Gram/IV V Int 2Sg
+	"nappar" Gram/TV SIMA Der/vv Gram/Pass Gram/IV V Int 2Sg
 	"nappar" Gram/TV SIMA Der/vv Gram/Refl Gram/IV V Int 2Sg
 	"napparsima" Gram/IV V Int 2Sg
 "<?>"
@@ -15615,7 +15678,6 @@
 	"ate" N Lok Pl
 	"ateq" N Abs Pl 4SgPoss
 	"ateq" N Abs Sg 4SgPoss
-	"ateq" N Lok Pl
 	"ateq" N Lok Pl Orth/Alt
 "<Ningaaq>"
 	"Ningaaq" Sem/Mask Sem/Hum Prop Abs Sg
@@ -15766,6 +15828,7 @@
 	"misse" N Lok Sg 3PlPoss
 "<pisarineqarput>"
 	"pi" Gram/TV TAQ Der/vn GE Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Pl
+	"pi" Gram/TV TAQ Der/vn GE Der/nv Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV V Ind 3Pl
 	"pi" Gram/TV TAQ Der/vn GE Der/nv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Pl
 "<.>"
 	"." CLB
@@ -16306,8 +16369,8 @@
 "<taarsilersoq>"
 	"taaq" SI Der/nv Gram/IV LIR Der/vv Gram/IV TUQ Der/vn N Abs Sg
 	"taaq" SI Der/nv Gram/IV LIR Der/vv Gram/IV V Par 3Sg
-	"taarser" Gram/Refl Gram/IV LIR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"taarser" Gram/Refl Gram/IV LIR Der/vv Gram/IV V Par 3Sg
+	"taarser" Gram/TV LIR Der/vv Gram/Refl Gram/IV TUQ Der/vn N Abs Sg
+	"taarser" Gram/TV LIR Der/vv Gram/Refl Gram/IV V Par 3Sg
 	"taarsi" Gram/IV LIR Der/vv Gram/IV TUQ Der/vn N Abs Sg
 	"taarsi" Gram/IV LIR Der/vv Gram/IV V Par 3Sg
 "<angerlarpunga>"
@@ -16381,7 +16444,6 @@
 	"uanga" Gram/Pers Pron Abs 1Sg
 	"uanga" Gram/Pers Pron Rel 1Sg
 "<timmisartora>"
-	"timmi" Gram/IV SAR Der/vv Gram/Refl Gram/IV TUQ Der/vn N Abs Sg 1SgPoss
 	"timmi" Gram/IV SAR Der/vv Gram/TV Gram/Pass TUQ Der/vn N Abs Sg 1SgPoss
 	"timmi" Gram/IV SAR Der/vv Gram/TV Gram/Refl TUQ Der/vn N Abs Sg 1SgPoss
 	"timmi" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Abs Sg 1SgPoss
@@ -16923,6 +16985,10 @@
 	"alla" Sem/H NNGUR Der/nv Gram/TV SIMA Der/vv GALUAR Der/vv Gram/Refl TUQ Der/vn N Abs Sg
 	"alla" Sem/H NNGUR Der/nv Gram/TV SIMA Der/vv GALUAR Der/vv Gram/Refl V Par 3Sg
 	"alla" Sem/H NNGUR Der/nv Gram/TV SIMA Der/vv GALUAR Der/vv Gram/TV Gram/Pass TUQ Der/vn N Abs Sg
+	"alla" Sem/H NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Pass Gram/IV GALUAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
+	"alla" Sem/H NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Pass Gram/IV GALUAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
+	"alla" Sem/H NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Pass Gram/IV GALUAR Der/vv Gram/IV TUQ Der/vn N Abs Sg
+	"alla" Sem/H NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Pass Gram/IV GALUAR Der/vv Gram/IV V Par 3Sg
 	"alla" Sem/H NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Refl Gram/IV GALUAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
 	"alla" Sem/H NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Refl Gram/IV GALUAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
 	"allak" NNGUR Der/nv Gram/IV SIMA Der/vv GALUAR Der/vv Gram/IV TUQ Der/vn N Abs Sg
@@ -16932,6 +16998,10 @@
 	"allak" NNGUR Der/nv Gram/TV SIMA Der/vv GALUAR Der/vv Gram/Refl TUQ Der/vn N Abs Sg
 	"allak" NNGUR Der/nv Gram/TV SIMA Der/vv GALUAR Der/vv Gram/Refl V Par 3Sg
 	"allak" NNGUR Der/nv Gram/TV SIMA Der/vv GALUAR Der/vv Gram/TV Gram/Pass TUQ Der/vn N Abs Sg
+	"allak" NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Pass Gram/IV GALUAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
+	"allak" NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Pass Gram/IV GALUAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
+	"allak" NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Pass Gram/IV GALUAR Der/vv Gram/IV TUQ Der/vn N Abs Sg
+	"allak" NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Pass Gram/IV GALUAR Der/vv Gram/IV V Par 3Sg
 	"allak" NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Refl Gram/IV GALUAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
 	"allak" NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Refl Gram/IV GALUAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
 	"allaq" NNGUR Der/nv Gram/IV SIMA Der/vv GALUAR Der/vv Gram/IV TUQ Der/vn N Abs Sg
@@ -16941,6 +17011,10 @@
 	"allaq" NNGUR Der/nv Gram/TV SIMA Der/vv GALUAR Der/vv Gram/Refl TUQ Der/vn N Abs Sg
 	"allaq" NNGUR Der/nv Gram/TV SIMA Der/vv GALUAR Der/vv Gram/Refl V Par 3Sg
 	"allaq" NNGUR Der/nv Gram/TV SIMA Der/vv GALUAR Der/vv Gram/TV Gram/Pass TUQ Der/vn N Abs Sg
+	"allaq" NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Pass Gram/IV GALUAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
+	"allaq" NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Pass Gram/IV GALUAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
+	"allaq" NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Pass Gram/IV GALUAR Der/vv Gram/IV TUQ Der/vn N Abs Sg
+	"allaq" NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Pass Gram/IV GALUAR Der/vv Gram/IV V Par 3Sg
 	"allaq" NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Refl Gram/IV GALUAQ Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
 	"allaq" NNGUR Der/nv Gram/TV SIMA Der/vv Gram/Refl Gram/IV GALUAQ Der/vn TUR Der/nv Gram/IV V Ind Gram/Exclm
 "<aserortoqanngilluinnarsimavoq>"
@@ -17792,6 +17866,7 @@
 	"manna" Gram/Dem Pron Via Sg
 "<ilisimatippara>"
 	"ili" Gram/IV SIMA Der/vv TIP Der/vv Gram/TV V Ind 1Sg 3SgO
+	"ili" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TIP Der/vv Gram/TV V Ind 1Sg 3SgO
 	"ili" Gram/TV SIMA Der/vv TIP Der/vv Gram/Db Gram/TV V Ind 1Sg 3SgO
 	"ilip" Orth/Arch Gram/TV SIMA Der/vv Orth/Arch TIP Der/vv Gram/Db Gram/TV V Ind 1Sg 3SgO
 	"ilisima" Gram/TV TIP Der/vv Gram/Db Gram/TV V Ind 1Sg 3SgO
@@ -17847,11 +17922,9 @@
 	"bånd" OLang/DAN N Abs Sg 4SgPoss
 	"bånd" OLang/DAN N Lok Pl
 "<kaavitinneqarmata>"
-	"kaavip" Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Cau 3Pl
-	"kaavip" Gram/IV TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Cau 3Pl
-	"kaavip" Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV V Cau 3Pl
 	"kaavip" Gram/TV TIP Der/vv Gram/Db Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Cau 3Pl
 	"kaavip" Gram/TV TIP Der/vv Gram/Db Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Cau 3Pl
+	"kaavip" Gram/TV TIP Der/vv Gram/Db NIQAR Der/vv Gram/IV V Cau 3Pl
 "<aammalu>"
 	"aak" N Rel Pl 1SgPoss Orth/Alt LU
 	"aak" N Rel Sg 1SgPoss LU
@@ -17862,9 +17935,15 @@
 	"aaq" N Rel Pl 1SgPoss Orth/Alt LU
 "<oqallittut>"
 	"oqallip" Gram/IV TUQ Der/vn N Abs Pl
+	"oqallip" Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
 	"oqallip" Gram/IV TUQ Der/vn N Rel Pl
 	"oqallip" Gram/IV V Par 3Pl
 "<illartullu>"
+	"IP" Gram/IV LLAR Der/vv Gram/IV TUQ Der/vn N Abs Pl LU
+	"IP" Gram/IV LLAR Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss LU
+	"IP" Gram/IV LLAR Der/vv Gram/IV TUQ Der/vn N Rel Pl LU
+	"IP" Gram/IV LLAR Der/vv Gram/IV TUQ Der/vn N Rel Sg LU
+	"IP" Gram/IV LLAR Der/vv Gram/IV V Par 3Pl LU
 	"illar" Gram/IV TUQ Der/vn N Abs Pl LU
 	"illar" Gram/IV TUQ Der/vn N Abs Sg 2SgPoss LU
 	"illar" Gram/IV TUQ Der/vn N Rel Pl LU
@@ -17950,6 +18029,7 @@
 "<ajortippoq>"
 	"ajor" Gram/IV TIP Der/vv Gram/TV Gram/Refl V Ind 3Sg
 	"ajor" Gram/TV TIP Der/vv Gram/Db Gram/Refl V Ind 3Sg
+	"ajor" Gram/TV TIP Der/vv Gram/Refl Gram/IV V Ind 3Sg
 "<.>"
 	"." CLB
 </s>
@@ -18208,6 +18288,10 @@
 "<inilersoq>"
 	"iner" Gram/IV LIR Der/vv Gram/IV TUQ Der/vn N Abs Sg
 	"iner" Gram/IV LIR Der/vv Gram/IV V Par 3Sg
+	"iner" Gram/TV LIR Der/vv Gram/Refl Gram/IV TUQ Der/vn N Abs Sg
+	"iner" Gram/TV LIR Der/vv Gram/Refl Gram/IV V Par 3Sg
+	"ini" Gram/TV LIR Der/vv Gram/Refl Gram/IV TUQ Der/vn N Abs Sg
+	"ini" Gram/TV LIR Der/vv Gram/Refl Gram/IV V Par 3Sg
 	"ini" LIR Der/nv Gram/IV TUQ Der/vn N Abs Sg
 	"ini" LIR Der/nv Gram/IV V Par 3Sg
 	"ini" LIR Der/nv Gram/TV Gram/Refl Gram/IV TUQ Der/vn N Abs Sg
@@ -18452,6 +18536,10 @@
 	"iner" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
 	"iner" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl
 	"iner" Gram/IV SIMA Der/vv Gram/IV V Par 3Pl
+	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Abs Pl
+	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
+	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Rel Pl
+	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV V Par 3Pl
 	"iner" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUQ Der/vn N Abs Pl
 	"iner" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
 	"iner" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUQ Der/vn N Rel Pl
@@ -18468,12 +18556,20 @@
 "<,>"
 	"," CLB
 "<nassuiaassiuaannartariaqarnerlu>"
+	"nassu" Orth/Arch IAR Der/nv UTE Der/vn SI Der/nv Orth/Alt Gram/IV TUAR Der/vv INNAR Der/vv Gram/IV TARIAQ Der/vn QAR Der/nv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp LU
+	"nassu" Orth/Arch IAR Der/nv UTE Der/vn SI Der/nv Orth/Alt Gram/IV TUAR Der/vv INNAR Der/vv Gram/IV TARIAQ Der/vn QAR Der/nv Gram/IV NIQ Der/vn N Abs Sg LU
 	"nassu" Orth/Arch IAR Der/nv UTE Der/vn SI Der/nv Orth/Alt Gram/IV TUAR Der/vv INNAR Der/vv TARIAQAR Der/vv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp LU
 	"nassu" Orth/Arch IAR Der/nv UTE Der/vn SI Der/nv Orth/Alt Gram/IV TUAR Der/vv INNAR Der/vv TARIAQAR Der/vv Gram/IV NIQ Der/vn N Abs Sg LU
+	"nassuiar" Gram/TV UTE Der/vv Gram/Db Gram/TV HTR Der/vv Gram/IV TUAR Der/vv INNAR Der/vv Gram/IV TARIAQ Der/vn QAR Der/nv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp LU
+	"nassuiar" Gram/TV UTE Der/vv Gram/Db Gram/TV HTR Der/vv Gram/IV TUAR Der/vv INNAR Der/vv Gram/IV TARIAQ Der/vn QAR Der/nv Gram/IV NIQ Der/vn N Abs Sg LU
 	"nassuiar" Gram/TV UTE Der/vv Gram/Db Gram/TV HTR Der/vv Gram/IV TUAR Der/vv INNAR Der/vv TARIAQAR Der/vv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp LU
 	"nassuiar" Gram/TV UTE Der/vv Gram/Db Gram/TV HTR Der/vv Gram/IV TUAR Der/vv INNAR Der/vv TARIAQAR Der/vv Gram/IV NIQ Der/vn N Abs Sg LU
+	"nassuiar" UTE Der/vn SI Der/nv Orth/Alt Gram/IV TUAR Der/vv INNAR Der/vv Gram/IV TARIAQ Der/vn QAR Der/nv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp LU
+	"nassuiar" UTE Der/vn SI Der/nv Orth/Alt Gram/IV TUAR Der/vv INNAR Der/vv Gram/IV TARIAQ Der/vn QAR Der/nv Gram/IV NIQ Der/vn N Abs Sg LU
 	"nassuiar" UTE Der/vn SI Der/nv Orth/Alt Gram/IV TUAR Der/vv INNAR Der/vv TARIAQAR Der/vv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp LU
 	"nassuiar" UTE Der/vn SI Der/nv Orth/Alt Gram/IV TUAR Der/vv INNAR Der/vv TARIAQAR Der/vv Gram/IV NIQ Der/vn N Abs Sg LU
+	"nassuk" IAR Der/nv UTE Der/vn SI Der/nv Orth/Alt Gram/IV TUAR Der/vv INNAR Der/vv Gram/IV TARIAQ Der/vn QAR Der/nv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp LU
+	"nassuk" IAR Der/nv UTE Der/vn SI Der/nv Orth/Alt Gram/IV TUAR Der/vv INNAR Der/vv Gram/IV TARIAQ Der/vn QAR Der/nv Gram/IV NIQ Der/vn N Abs Sg LU
 	"nassuk" IAR Der/nv UTE Der/vn SI Der/nv Orth/Alt Gram/IV TUAR Der/vv INNAR Der/vv TARIAQAR Der/vv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp LU
 	"nassuk" IAR Der/nv UTE Der/vn SI Der/nv Orth/Alt Gram/IV TUAR Der/vv INNAR Der/vv TARIAQAR Der/vv Gram/IV NIQ Der/vn N Abs Sg LU
 "<meeqqanut>"
@@ -18837,6 +18933,7 @@
 	"kisi" N Gram/Cong Nom 1Sg
 "<inuusimavunga>"
 	"inuk" U Der/nv Gram/IV SIMA Der/vv Gram/IV V Ind 1Sg
+	"inuup" Gram/IV SIMA Der/vv Orth/Arch Gram/IV V Ind 1Sg
 "<,>"
 	"," CLB
 "<iluamik>"
@@ -19043,10 +19140,10 @@
 	"sup" Orth/Arch Gram/IV LIR Der/vv Gram/IV QATE Der/vn GIIP Der/nv Gram/IV V Ind Pl Gram/Exclm
 	"sup" Orth/Arch Gram/IV LIR Der/vv Gram/IV QATE Der/vn GIIT Der/nn N Abs Pl
 	"sup" Orth/Arch Gram/IV LIR Der/vv Gram/IV QATE Der/vn GIIT Der/nn N Rel Pl
-	"sup" Orth/Arch Gram/TV LIR Der/vv Gram/Refl QATE Der/vn GE Der/nv Gram/TV Gram/Refl Gram/IV V Imp 2Sg
-	"sup" Orth/Arch Gram/TV LIR Der/vv Gram/Refl QATE Der/vn GIIP Der/nv Gram/IV V Ind Pl Gram/Exclm
-	"sup" Orth/Arch Gram/TV LIR Der/vv Gram/Refl QATE Der/vn GIIT Der/nn N Abs Pl
-	"sup" Orth/Arch Gram/TV LIR Der/vv Gram/Refl QATE Der/vn GIIT Der/nn N Rel Pl
+	"sup" Orth/Arch Gram/TV LIR Der/vv Gram/Refl Gram/IV QATE Der/vn GE Der/nv Gram/TV Gram/Refl Gram/IV V Imp 2Sg
+	"sup" Orth/Arch Gram/TV LIR Der/vv Gram/Refl Gram/IV QATE Der/vn GIIP Der/nv Gram/IV V Ind Pl Gram/Exclm
+	"sup" Orth/Arch Gram/TV LIR Der/vv Gram/Refl Gram/IV QATE Der/vn GIIT Der/nn N Abs Pl
+	"sup" Orth/Arch Gram/TV LIR Der/vv Gram/Refl Gram/IV QATE Der/vn GIIT Der/nn N Rel Pl
 "<imminnut>"
 	"immi" Gram/Coref Pron Trm Pl
 "<akaareqatigiinngillat>"
@@ -20341,7 +20438,6 @@
 	"eqqaa" Gram/IV UTE Der/vn SSAQ Der/nn LIUR Der/nv Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"eqqaa" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSAQ Der/nn LIUR Der/nv Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"eqqaassut" SSAQ Der/nn LIUR Der/nv Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
-	"eqqaassutissior" Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"eqqaassutissior" Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"eqqaassutissior" Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"eqqaassutissior" Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg
@@ -20892,7 +20988,6 @@
 	"tallimaq" Gram/Ord N Ins Pl
 	"tallimat" Num Ins Pl
 "<sulisarpugut>"
-	"suli" Gram/IV SAR Der/vv Gram/Refl Gram/IV V Ind 1Pl
 	"suli" Gram/IV SAR Der/vv Gram/TV Gram/Refl V Ind 1Pl
 	"suli" Gram/IV TAR Der/vv Gram/IV V Ind 1Pl
 "<.>"
@@ -21176,15 +21271,8 @@
 	"piviu" Gram/IV TUQ Der/vn NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV NIAR Der/vv Gram/TV V Cont 3PlO
 	"piviu" Gram/IV TUQ Der/vn NNGUR Der/nv Gram/TV TIP Der/vv Gram/Db Gram/Refl NIAQ Der/vn LUP Der/nv Gram/IV V Imp 2Sg
 	"piviu" Gram/IV TUQ Der/vn NNGUR Der/nv Gram/TV TIP Der/vv Gram/Db NIAR Der/vv Gram/TV V Cont 3PlO
+	"piviu" Gram/IV TUQ Der/vn NNGUR Der/nv Gram/TV TIP Der/vv Gram/Refl Gram/IV NIAQ Der/vn LUP Der/nv Gram/IV V Imp 2Sg
 "<isumasioqatigiit>"
-	"isuma" Orth/Youth SIUR Der/nv Gram/IV QATE Der/vn GE Der/nv Gram/TV Gram/Refl Gram/IV V Imp 2Sg
-	"isuma" Orth/Youth SIUR Der/nv Gram/IV QATE Der/vn GIIP Der/nv Gram/IV V Ind Pl Gram/Exclm
-	"isuma" Orth/Youth SIUR Der/nv Gram/IV QATE Der/vn GIIT Der/nn N Abs Pl
-	"isuma" Orth/Youth SIUR Der/nv Gram/IV QATE Der/vn GIIT Der/nn N Rel Pl
-	"isuma" Orth/Youth SIUR Der/nv Orth/Arch Gram/IV QATE Der/vn GE Der/nv Gram/TV Gram/Refl Gram/IV V Imp 2Sg
-	"isuma" Orth/Youth SIUR Der/nv Orth/Arch Gram/IV QATE Der/vn GIIP Der/nv Gram/IV V Ind Pl Gram/Exclm
-	"isuma" Orth/Youth SIUR Der/nv Orth/Arch Gram/IV QATE Der/vn GIIT Der/nn N Abs Pl
-	"isuma" Orth/Youth SIUR Der/nv Orth/Arch Gram/IV QATE Der/vn GIIT Der/nn N Rel Pl
 	"isuma" SIUR Der/nv Gram/IV QATE Der/vn GE Der/nv Gram/TV Gram/Refl Gram/IV V Imp 2Sg
 	"isuma" SIUR Der/nv Gram/IV QATE Der/vn GIIP Der/nv Gram/IV V Ind Pl Gram/Exclm
 	"isuma" SIUR Der/nv Gram/IV QATE Der/vn GIIT Der/nn N Abs Pl
@@ -21193,10 +21281,6 @@
 	"isuma" SIUR Der/nv Gram/TV Gram/Refl QATE Der/vn GIIP Der/nv Gram/IV V Ind Pl Gram/Exclm
 	"isuma" SIUR Der/nv Gram/TV Gram/Refl QATE Der/vn GIIT Der/nn N Abs Pl
 	"isuma" SIUR Der/nv Gram/TV Gram/Refl QATE Der/vn GIIT Der/nn N Rel Pl
-	"isuma" SIUR Der/nv Orth/Arch Gram/IV QATE Der/vn GE Der/nv Gram/TV Gram/Refl Gram/IV V Imp 2Sg
-	"isuma" SIUR Der/nv Orth/Arch Gram/IV QATE Der/vn GIIP Der/nv Gram/IV V Ind Pl Gram/Exclm
-	"isuma" SIUR Der/nv Orth/Arch Gram/IV QATE Der/vn GIIT Der/nn N Abs Pl
-	"isuma" SIUR Der/nv Orth/Arch Gram/IV QATE Der/vn GIIT Der/nn N Rel Pl
 "<aningaasassaqartinneqassasut>"
 	"aningaasaq" SSAQ Der/nn QAR Der/nv Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SSA Der/vv Gram/IV TUQ Der/vn N Abs Pl
 	"aningaasaq" SSAQ Der/nn QAR Der/nv Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SSA Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
@@ -21932,6 +22016,8 @@
 "<qiteqatigiissimallutik>"
 	"qiteq" QATE Der/nn GIIP Der/nv Gram/IV SIMA Der/vv Gram/IV V Cont 4Pl
 	"qiteq" QATIGIIP Der/nv Gram/IV SIMA Der/vv Gram/IV V Cont 4Pl
+	"qiteq" Sem/an QATE Der/nn GIIP Der/nv Gram/IV SIMA Der/vv Gram/IV V Cont 4Pl
+	"qiteq" Sem/an QATIGIIP Der/nv Gram/IV SIMA Der/vv Gram/IV V Cont 4Pl
 	"qitip" Gram/IV QATE Der/vn GIIP Der/nv Gram/IV SIMA Der/vv Gram/IV V Cont 4Pl
 	"qitip" Gram/IV QATIGIIP Der/vv Gram/Reci SIMA Der/vv Gram/IV V Cont 4Pl
 "<,>"
@@ -22084,6 +22170,7 @@
 "<tillitsippoq>"
 	"tillip" Gram/IV TIP Der/vv Gram/TV Gram/Refl V Ind 3Sg
 	"tillip" Gram/TV TIP Der/vv Gram/Db Gram/Refl V Ind 3Sg
+	"tillip" Gram/TV TIP Der/vv Gram/Refl Gram/IV V Ind 3Sg
 "<.>"
 	"." CLB
 </s>
@@ -22272,7 +22359,6 @@
 	"ulloq" N Abs Pl
 	"ulloq" N Abs Sg 2SgPoss
 	"ulloq" N Rel Pl
-	"ullor" Gram/IV V Ind 3Pl Gram/Exclm
 "<tamangajaasa>"
 	"tamaq" NGAJAK Der/nn N Gram/Cong Akk 3Pl
 "<meeqqatulli>"
@@ -22286,6 +22372,7 @@
 "<takusarsimapput>"
 	"taku" Gram/HV TAR Der/vv SIMA Der/vv Gram/IV V Ind 3Pl
 	"taku" Gram/TV TAR Der/vv SIMA Der/vv Gram/Refl Gram/IV V Ind 3Pl
+	"taku" SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV V Ind 3Pl
 	"taku" SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV V Ind 3Pl
 "<,>"
 	"," CLB
@@ -22456,6 +22543,7 @@
 "<4>"
 	"4" Err/Sub Num Rel Pl
 	"4" N Abs Sg
+	"4" Num Abs Pl
 	"4" Num Abs Sg
 "<gange>"
 	"gang" OLang/DAN Err/Sub N Abs Pl
@@ -22463,6 +22551,7 @@
 "<3>"
 	"3" Err/Sub Num Rel Pl
 	"3" N Abs Sg
+	"3" Num Abs Pl
 	"3" Num Abs Sg
 "<meterinik>"
 	"meter" OLang/DAN Sem/Unit N Ins Pl
@@ -22681,7 +22770,6 @@
 <sdHemS6cHQCUHuJ95BeUgWbTB2bs-0>
 "<„>"
 	"„" PUNCT LEFT
-	"„" Symbol N
 "<Illit>"
 	"IP" Gram/IV V Opt 3Pl
 	"illip" Gram/IV V Ind Pl Gram/Exclm
@@ -22803,6 +22891,7 @@
 	"neriorsor" UTE Der/vn PAK Der/nn SUAQ Der/nn N Rel Pl
 "<pisarsimammata>"
 	"pi" Gram/IV TAR Der/vv Gram/IV SIMA Der/vv Gram/IV V Cau 3Pl
+	"pisar" Gram/TV SIMA Der/vv Gram/Pass Gram/IV V Cau 3Pl
 	"pisar" Gram/TV SIMA Der/vv Gram/Refl Gram/IV V Cau 3Pl
 "<atuarfiup>"
 	"atuar" Gram/HV Gram/IV VIK Der/vn N Rel Sg
@@ -22994,6 +23083,10 @@
 	"iner" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
 	"iner" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl
 	"iner" Gram/IV SIMA Der/vv Gram/IV V Par 3Pl
+	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Abs Pl
+	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
+	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Rel Pl
+	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV V Par 3Pl
 	"iner" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUQ Der/vn N Abs Pl
 	"iner" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
 	"iner" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUQ Der/vn N Rel Pl
@@ -23306,9 +23399,6 @@
 	"juuni" N Rel Pl 4SgPoss
 	"juuni" N Rel Sg 4SgPoss
 "<akiligassat>"
-	"aki" Gram/TV LIR Der/vv Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Pl
-	"aki" Gram/TV LIR Der/vv Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Sg 2SgPoss
-	"aki" Gram/TV LIR Der/vv Gram/TV TAQ Der/vn SSAQ Der/nn N Rel Pl
 	"aki" LIR Der/nv Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Pl
 	"aki" LIR Der/nv Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Sg 2SgPoss
 	"aki" LIR Der/nv Gram/TV TAQ Der/vn SSAQ Der/nn N Rel Pl
@@ -23318,9 +23408,6 @@
 	"akiler" Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Pl
 	"akiler" Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Sg 2SgPoss
 	"akiler" Gram/TV TAQ Der/vn SSAQ Der/nn N Rel Pl
-	"akip" Orth/Arch Gram/TV LIR Der/vv Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Pl
-	"akip" Orth/Arch Gram/TV LIR Der/vv Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Sg 2SgPoss
-	"akip" Orth/Arch Gram/TV LIR Der/vv Gram/TV TAQ Der/vn SSAQ Der/nn N Rel Pl
 "<juunimiit>"
 	"juuni" N Abl Sg
 "<decembarimut>"
@@ -23627,6 +23714,7 @@
 	"imer" Gram/TV TAR Der/vv Gram/Refl VIK Der/vn N Ins Sg 1SgPoss LU
 	"imer" Gram/TV TAR Der/vv Gram/Refl VIK Der/vn N Ins Sg 2SgPoss LU
 "<ulikkaartup>"
+	"uli" KKAAR Der/nv Gram/TV Gram/Refl TUQ Der/vn N Rel Sg
 	"ulik" KKAAR Der/nv Gram/TV Gram/Pass TUQ Der/vn N Rel Sg
 	"ulik" KKAAR Der/nv Gram/TV Gram/Refl TUQ Der/vn N Rel Sg
 	"ulikkaar" Gram/IV TUQ Der/vn N Rel Sg
@@ -23741,6 +23829,10 @@
 
 <seeTVxuIMxIQYsrtayxfIzzK2Nmw-0>
 "<Inuusuttut>"
+	"Inuit" Sem/Hum iProp U Der/nv Gram/IV TUQ Der/vn N Aeq Pl 1SgPoss
+	"Inuit" Sem/Hum iProp U Der/nv Gram/IV TUQ Der/vn N Aeq Pl 2SgPoss
+	"Inuit" Sem/Hum iProp U Der/nv Gram/IV TUQ Der/vn N Aeq Sg 1SgPoss
+	"Inuit" Sem/Hum iProp U Der/nv Gram/IV TUQ Der/vn N Aeq Sg 2SgPoss
 	"Inuk" Dial/Vgr Sem/Fem Sem/Hum iProp U Der/nv Gram/IV TUQ Der/vn N Aeq Pl 1SgPoss
 	"Inuk" Dial/Vgr Sem/Fem Sem/Hum iProp U Der/nv Gram/IV TUQ Der/vn N Aeq Pl 2SgPoss
 	"Inuk" Dial/Vgr Sem/Fem Sem/Hum iProp U Der/nv Gram/IV TUQ Der/vn N Aeq Sg 1SgPoss
@@ -23821,10 +23913,10 @@
 
 <sepFT3xMgFDQ0dBe5CWlHSIzlVVk-0>
 "<Paasissutissiisarsimanerit>"
-	"paa" SI Der/nv Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
-	"paa" SI Der/nv Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Abs Pl
-	"paa" SI Der/nv Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
-	"paa" SI Der/nv Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Rel Pl
+	"paa" SI Der/nv Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
+	"paa" SI Der/nv Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Abs Pl
+	"paa" SI Der/nv Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
+	"paa" SI Der/nv Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Rel Pl
 	"paa" SI Der/nv Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
 	"paa" SI Der/nv Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn N Abs Pl
 	"paa" SI Der/nv Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
@@ -23843,10 +23935,10 @@
 	"paa" SI Der/nv Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Abs Pl
 	"paa" SI Der/nv Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
 	"paa" SI Der/nv Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Rel Pl
-	"paa" SI Der/nv Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
-	"paa" SI Der/nv Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Abs Pl
-	"paa" SI Der/nv Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
-	"paa" SI Der/nv Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Rel Pl
+	"paa" SI Der/nv Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
+	"paa" SI Der/nv Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Abs Pl
+	"paa" SI Der/nv Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
+	"paa" SI Der/nv Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Rel Pl
 	"paa" SI Der/nv Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
 	"paa" SI Der/nv Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn N Abs Pl
 	"paa" SI Der/nv Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
@@ -23865,10 +23957,10 @@
 	"paa" SI Der/nv Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Abs Pl
 	"paa" SI Der/nv Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
 	"paa" SI Der/nv Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Rel Pl
-	"paasi" Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
-	"paasi" Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Abs Pl
-	"paasi" Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
-	"paasi" Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Rel Pl
+	"paasi" Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
+	"paasi" Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Abs Pl
+	"paasi" Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
+	"paasi" Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Rel Pl
 	"paasi" Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
 	"paasi" Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn N Abs Pl
 	"paasi" Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
@@ -23887,10 +23979,10 @@
 	"paasi" Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Abs Pl
 	"paasi" Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
 	"paasi" Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Rel Pl
-	"paasi" Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
-	"paasi" Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Abs Pl
-	"paasi" Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
-	"paasi" Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Rel Pl
+	"paasi" Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
+	"paasi" Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Abs Pl
+	"paasi" Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
+	"paasi" Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Rel Pl
 	"paasi" Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
 	"paasi" Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn N Abs Pl
 	"paasi" Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
@@ -23909,10 +24001,10 @@
 	"paasi" Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Abs Pl
 	"paasi" Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
 	"paasi" Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Rel Pl
-	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
-	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Abs Pl
-	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
-	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Rel Pl
+	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
+	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Abs Pl
+	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
+	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Rel Pl
 	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
 	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn N Abs Pl
 	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
@@ -23931,10 +24023,10 @@
 	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Abs Pl
 	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
 	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Rel Pl
-	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
-	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Abs Pl
-	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
-	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Rel Pl
+	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
+	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Abs Pl
+	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
+	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Rel Pl
 	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
 	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn N Abs Pl
 	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
@@ -23953,28 +24045,6 @@
 	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Abs Pl
 	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
 	"paasi" Gram/TV Gram/Refl Gram/IV UTE Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Rel Pl
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Abs Pl
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/Refl Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Rel Pl
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn N Abs Pl
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn N Rel Pl
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/TV Gram/Pass NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/TV Gram/Pass NIQ Der/vn N Abs Pl
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/TV Gram/Pass NIQ Der/vn N Abs Sg 2SgPoss
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/TV Gram/Pass NIQ Der/vn N Rel Pl
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/TV NIQ Der/vn Gram/TransverbNIQ GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/TV NIQ Der/vn Gram/TransverbNIQ N Abs Pl
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/TV NIQ Der/vn Gram/TransverbNIQ N Abs Sg 2SgPoss
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv Gram/TV NIQ Der/vn Gram/TransverbNIQ N Rel Pl
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv NIR Der/vv Gram/Refl Gram/IV V Imp 2Sg
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV SIMA Der/vv NIR Der/vv Gram/TV V Par 2Sg 3SgO
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Abs Pl
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
-	"paasissutisser" Gram/TV HTR Der/vv Gram/IV TAR Der/vv SIMA Der/vv Gram/IV NIQ Der/vn N Rel Pl
 "<kukkusut>"
 	"kukku" Gram/IV TUQ Der/vn N Abs Pl
 	"kukku" Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
@@ -24000,7 +24070,6 @@
 	"tamalaaq" N Abs Pl
 	"tamalaaq" N Abs Sg 2SgPoss
 	"tamalaaq" N Rel Pl
-	"tamap" Orth/Arch Gram/IV LAAR Der/vv V Ind 3Pl Gram/Exclm
 "<paasitikkusuppai>"
 	"paa" SI Der/nv Gram/IV TIP Der/vv Orth/Alt Gram/TV GUSUP Der/vv Gram/TV V Ind 3Pl 3PlO Orth/Alt
 	"paa" SI Der/nv Gram/IV TIP Der/vv Orth/Alt Gram/TV GUSUP Der/vv Gram/TV V Ind 3Sg 3PlO
@@ -24433,18 +24502,12 @@
 	"su" V Opt 3Sg
 	"suli" Adv
 "<atsiunneqanngitsoq>"
-	"atser" Gram/TV UTE Der/vv Gram/Db Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"atser" Gram/TV UTE Der/vv Gram/Db Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV V Par 3Sg
-	"atser" Gram/TV UTE Der/vv Gram/Db Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"atser" Gram/TV UTE Der/vv Gram/Db Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV V Par 3Sg
-	"atser" Gram/TV UTE Der/vv Gram/Db Gram/TV NIQAR Der/vv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"atser" Gram/TV UTE Der/vv Gram/Db Gram/TV NIQAR Der/vv Gram/IV NNGIT Der/vv Gram/IV V Par 3Sg
-	"atser" Gram/TV UTE Gram/Db Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"atser" Gram/TV UTE Gram/Db Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV V Par 3Sg
-	"atser" Gram/TV UTE Gram/Db Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"atser" Gram/TV UTE Gram/Db Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV V Par 3Sg
-	"atser" Gram/TV UTE Gram/Db Gram/TV NIQAR Der/vv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"atser" Gram/TV UTE Gram/Db Gram/TV NIQAR Der/vv Gram/IV NNGIT Der/vv Gram/IV V Par 3Sg
+	"atser" Sem/CognitiveMaking Gram/TV UTE Der/vv Gram/Db Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Sg
+	"atser" Sem/CognitiveMaking Gram/TV UTE Der/vv Gram/Db Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV V Par 3Sg
+	"atser" Sem/CognitiveMaking Gram/TV UTE Der/vv Gram/Db Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Sg
+	"atser" Sem/CognitiveMaking Gram/TV UTE Der/vv Gram/Db Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV V Par 3Sg
+	"atser" Sem/CognitiveMaking Gram/TV UTE Der/vv Gram/Db Gram/TV NIQAR Der/vv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Sg
+	"atser" Sem/CognitiveMaking Gram/TV UTE Der/vv Gram/Db Gram/TV NIQAR Der/vv Gram/IV NNGIT Der/vv Gram/IV V Par 3Sg
 </s>
 
 <sf7w8J7YaK9gd9x2wQb6fx2kGGXo-0>
@@ -25089,10 +25152,6 @@
 
 <sfhRLsuzxpvuxnoQ7pBLmyCdupE0-0>
 "<nipilersorneq>"
-	"nipi" LIRSUR Der/nv Gram/IV Gram/IV NIQ Der/vn N Abs Sg
-	"nipi" LIRSUR Der/nv Gram/IV Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-	"nipi" LIRSUR Der/nv Gram/Refl Gram/IV NIQ Der/vn N Abs Sg
-	"nipi" LIRSUR Der/nv Gram/Refl Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
 	"nipi" LIRSUR Der/nv Gram/TV Gram/Pass NIQ Der/vn N Abs Sg
 	"nipi" LIRSUR Der/nv Gram/TV Gram/Refl NIQ Der/vn N Abs Sg
 	"nipi" LIRSUR Der/nv Gram/TV Gram/Refl NIQ Der/vn N Abs Sg Gram/Comp
@@ -25727,10 +25786,9 @@
 
 <sgX7hOjZGtFwQbzz7E0LuCfwbH60-0>
 "<nakorsatut>"
-	"nakorsaq" N Aeq Pl
-	"nakorsaq" N Aeq Sg
+	"nakorsaq" Sem/Hprof N Aeq Pl
+	"nakorsaq" Sem/Hprof N Aeq Sg
 "<sulisarpoq>"
-	"suli" Gram/IV SAR Der/vv Gram/Refl Gram/IV V Ind 3Sg
 	"suli" Gram/IV SAR Der/vv Gram/TV Gram/Refl V Ind 3Sg
 	"suli" Gram/IV TAR Der/vv Gram/IV V Ind 3Sg
 "<.>"
@@ -25814,6 +25872,7 @@
 	"kaa" Interj LI
 "<savimmik>"
 	"savik" N Ins Sg
+	"savik" N Rel Pl 4PlPoss
 	"savik" N Rel Sg 4PlPoss
 "<tuneqquaa>"
 	"tun" OLang/DAN R Der/nv Gram/IV QQU Der/vv Gram/TV V Ind 3Sg 3SgO
@@ -25928,7 +25987,6 @@
 	"ukioq" N Abs Pl
 	"ukioq" N Abs Sg 2SgPoss
 	"ukioq" N Rel Pl
-	"ukior" Gram/IV V Ind 3Pl Gram/Exclm
 "<tallimat>"
 	"tallimaq" Gram/Ord N Abs Pl
 	"tallimaq" Gram/Ord N Abs Sg 2SgPoss
@@ -25969,6 +26027,7 @@
 	"," CLB
 "<Mike>"
 	"Mike" Dial/Vgr Sem/Mask Sem/Hum Prop Abs Sg
+	"Mike" Sem/inst Sem/Hum Prop Abs Sg
 "<Pence>"
 	"Pence" Sem/Hum Prop Abs Sg
 "<,>"
@@ -26296,6 +26355,7 @@
 	"nassaq" Orth/Arch NGAATSIAQ Der/nn LIR Der/nv Gram/IV V Cau 4Sg
 	"nassaq" Orth/Arch NGAATSIAQ Der/nn LIR Der/nv Gram/TV Gram/Refl Gram/IV V Cau 4Sg
 	"nassar" Gram/HV NGAAR Der/vv TSIAR Der/vv LIR Der/vv Gram/IV V Cau 4Sg
+	"nassar" Gram/TV NGAAR Der/vv TSIAR Der/vv LIR Der/vv Gram/Refl Gram/IV V Cau 4Sg
 	"nassar" Gram/TV NGAAR Der/vv TSIAR Der/vv LIR Der/vv Gram/Refl V Cau 4Sg
 "<Eriup>"
 	"Eric" Sem/Mask Sem/Hum Prop Rel Sg
@@ -26447,10 +26507,6 @@
 	"useq" LIRSUR Der/nv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
 	"useq" LIRSUR Der/nv Gram/IV TUQ Der/vn N Rel Pl
 	"useq" LIRSUR Der/nv Gram/IV V Par 3Pl
-	"useq" LIRSUR Der/nv Gram/Refl Gram/IV TUQ Der/vn N Abs Pl
-	"useq" LIRSUR Der/nv Gram/Refl Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
-	"useq" LIRSUR Der/nv Gram/Refl Gram/IV TUQ Der/vn N Rel Pl
-	"useq" LIRSUR Der/nv Gram/Refl Gram/IV V Par 3Pl
 	"useq" LIRSUR Der/nv Gram/TV Gram/Pass TUQ Der/vn N Abs Pl
 	"useq" LIRSUR Der/nv Gram/TV Gram/Pass TUQ Der/vn N Abs Sg 2SgPoss
 	"useq" LIRSUR Der/nv Gram/TV Gram/Pass TUQ Der/vn N Rel Pl
@@ -26462,10 +26518,6 @@
 	"usi" LIRSUR Der/nv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
 	"usi" LIRSUR Der/nv Gram/IV TUQ Der/vn N Rel Pl
 	"usi" LIRSUR Der/nv Gram/IV V Par 3Pl
-	"usi" LIRSUR Der/nv Gram/Refl Gram/IV TUQ Der/vn N Abs Pl
-	"usi" LIRSUR Der/nv Gram/Refl Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
-	"usi" LIRSUR Der/nv Gram/Refl Gram/IV TUQ Der/vn N Rel Pl
-	"usi" LIRSUR Der/nv Gram/Refl Gram/IV V Par 3Pl
 	"usi" LIRSUR Der/nv Gram/TV Gram/Pass TUQ Der/vn N Abs Pl
 	"usi" LIRSUR Der/nv Gram/TV Gram/Pass TUQ Der/vn N Abs Sg 2SgPoss
 	"usi" LIRSUR Der/nv Gram/TV Gram/Pass TUQ Der/vn N Rel Pl
@@ -26973,6 +27025,7 @@
 	"oqalup" Gram/IV TUQ Der/vn U Der/nv Gram/IV TIP Der/vv Gram/TV QATTAAR Der/vv UTIGE Der/vv Gram/Refl Gram/IV V Cont 4Pl
 	"oqaluttuar" Gram/IV UTE Der/vv Gram/TV QATTAAR Der/vv UTIGE Der/vv Gram/Refl Gram/IV V Cont 4Pl
 "<illartorujussuupput>"
+	"IP" Gram/IV LLAR Der/vv Gram/IV TUQ Der/vn RUJUK Der/nn SUAQ Der/nn U Der/nv Gram/IV V Ind 3Pl
 	"illar" Gram/IV TUQ Der/vn RUJUK Der/nn SUAQ Der/nn U Der/nv Gram/IV V Ind 3Pl
 "<.>"
 	"." CLB
@@ -27312,6 +27365,7 @@
 	"nappar" Gram/IV SIMA Der/vv GALUAR Der/vv Gram/IV V Cont 4Sg
 	"nappar" Gram/TV SIMA Der/vv GALUAR Der/vv Gram/Refl V Cont 4Sg
 	"nappar" Gram/TV SIMA Der/vv GALUAR Der/vv Gram/TV V Cont 4SgO
+	"nappar" Gram/TV SIMA Der/vv Gram/Pass Gram/IV GALUAR Der/vv Gram/IV V Cont 4Sg
 	"napparsima" Gram/IV GALUAR Der/vv Gram/IV V Cont 4Sg
 "<suliartorpoq>"
 	"suli" Gram/IV GIARTUR Der/vv Gram/IV V Ind 3Sg
@@ -27534,8 +27588,10 @@
 	"angajoqqaaq" N Rel Pl 3SgPoss
 "<avissimanerat>"
 	"avip" Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn N Abs Sg 3PlPoss
+	"avip" Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn N Abs Sg 3PlPoss
 	"avip" Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn N Abs Sg 3PlPoss
 	"avip" Gram/TV SIMA Der/vv Gram/TV Gram/Pass NIQ Der/vn N Abs Sg 3PlPoss
+	"avip" Gram/TV SIMA Der/vv Gram/TV NIQ Der/vn Gram/TransverbNIQ N Abs Sg 3PlPoss
 "<meeraqataasa>"
 	"meer" Gram/IV RAR Der/vv Gram/IV QATE Der/vn N Rel Pl 3PlPoss
 	"meer" Gram/IV RAR Der/vv Gram/IV QATE Der/vn N Rel Pl 3SgPoss
@@ -27728,9 +27784,11 @@
 	"Kangia" Sem/Geo Prop Ins Sg 3SgPoss
 	"kangi" N Ins Sg 3SgPoss
 "<niueqateqarpoq>"
+	"ni" U Der/nv Gram/IV IT Der/vv Gram/IV QATE Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"ni" U Der/nv Gram/IV VIP Der/vv Gram/IV QATE Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"nior" Gram/IV VIP Der/vv Gram/IV QATE Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"nior" Gram/TV VIP Der/vv Gram/Refl QATE Der/vn QAR Der/nv Gram/IV V Ind 3Sg
+	"niu" Gram/IV IT Der/vv Gram/IV QATE Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"niu" Gram/IV VIP Der/vv Gram/IV QATE Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"niu" Gram/TV VIP Der/vv Gram/Refl QATE Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"niuer" Gram/IV QATE Der/vn QAR Der/nv Gram/IV V Ind 3Sg
@@ -28068,7 +28126,7 @@
 "<,>"
 	"," CLB
 "<allamit>"
-	"alla" N Abl Sg
+	"alla" Sem/H N Abl Sg
 	"allaq" N Abl Sg
 "<atorneqarniarmat>"
 	"ator" Gram/IV NIQ Der/vn QAR Der/nv Gram/IV NIAR Der/vv Gram/IV V Cau 3Sg
@@ -28100,9 +28158,9 @@
 
 <sjRSkPzBdA0E8lnOpZy0RZpIXio4-0>
 "<Naalakkersuisut>"
-	"Naalakkersuisoq" Orth/Alt N Abs Pl
-	"Naalakkersuisoq" Orth/Alt N Abs Sg 2SgPoss
-	"Naalakkersuisoq" Orth/Alt N Rel Pl
+	"Naalakkersuisoq" N Abs Pl
+	"Naalakkersuisoq" N Abs Sg 2SgPoss
+	"Naalakkersuisoq" N Rel Pl
 	"Naalakkersuisut" Sem/Hum Prop Abs Pl
 	"Naalakkersuisut" Sem/Hum Prop Rel Pl
 	"naalagaq" LIR Der/nv Gram/IV TUQ Der/vn N Aeq Pl 3SgPoss
@@ -28641,6 +28699,8 @@
 	"Qeqertarsuaq" Sem/Geo Prop Abl Sg
 	"qeqertaq" SUAQ Der/nn N Abl Sg
 "<ilaaqatiga>"
+	"IP" Gram/IV LAAR Der/vv Gram/IV QATE Der/vn N Abs Sg 1SgPoss
+	"ila" Gram/IV IT Der/vv Gram/IV QATE Der/vn N Abs Sg 1SgPoss
 	"ila" U Der/nv Gram/IV QATE Der/vn N Abs Sg 1SgPoss
 	"ilaa" Gram/IV QATE Der/vn N Abs Sg 1SgPoss
 	"ilaaq" QATE Der/nn N Abs Sg 1SgPoss
@@ -28933,6 +28993,7 @@
 	"sioraq" N Trm Pl
 	"sioraq" Orth/Youth N Trm Pl
 "<innarpunga>"
+	"IP" Gram/IV NAR Der/vv Gram/IV V Ind 1Sg
 	"innar" Gram/IV V Ind 1Sg
 "<inoqarfimmut>"
 	"inuk" QAR Der/nv Gram/IV VIK Der/vn N Trm Sg
@@ -29060,9 +29121,14 @@
 	"ukioq" TAAQ Der/nn N Abl Sg
 "<inerteqqutigineqalissallutik>"
 	"iner" Gram/IV TIR Der/vv QQU Der/vv Gram/TV TIGE Der/vv Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV LIR Der/vv SSA Der/vv Gram/IV V Cont 4Pl
+	"iner" Gram/IV TIR Der/vv QQU Der/vv Gram/TV TIGE Der/vv Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV LIR Der/vv SSA Der/vv Gram/IV V Cont 4Pl
+	"iner" Gram/TV TIP Der/vv Gram/Refl QQU Der/vv Gram/TV TIGE Der/vv Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV LIR Der/vv SSA Der/vv Gram/IV V Cont 4Pl
+	"iner" Gram/TV TIP Der/vv Gram/Refl QQU Der/vv Gram/TV TIGE Der/vv Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV LIR Der/vv SSA Der/vv Gram/IV V Cont 4Pl
 	"inerteqqut" GE Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV LIR Der/vv SSA Der/vv Gram/IV V Cont 4Pl
+	"inerteqqut" GE Der/nv Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV LIR Der/vv SSA Der/vv Gram/IV V Cont 4Pl
 	"inerteqqut" GE Der/nv Gram/TV NIQAR Der/vv Gram/IV LIR Der/vv SSA Der/vv Gram/IV V Cont 4Pl
 	"inerteqqutige" Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV LIR Der/vv SSA Der/vv Gram/IV V Cont 4Pl
+	"inerteqqutige" Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV LIR Der/vv SSA Der/vv Gram/IV V Cont 4Pl
 	"inerteqqutige" Gram/TV NIQAR Der/vv Gram/IV LIR Der/vv SSA Der/vv Gram/IV V Cont 4Pl
 "<.>"
 	"." CLB
@@ -29608,7 +29674,6 @@
 	"nuna" N Abs Pl
 	"nuna" N Abs Sg 2SgPoss
 	"nuna" N Rel Pl
-	"nunar" Gram/IV V Ind 3Pl Gram/Exclm
 "<killiit>"
 	"killeq" N Abs Pl
 	"killeq" N Abs Sg 2SgPoss
@@ -30683,6 +30748,7 @@
 	"assak" N Abs Sg 3SgPoss
 	"assaq" Orth/Arch N Abs Sg 3SgPoss
 "<illuartippaa>"
+	"IP" Gram/IV LLUAR Der/vv TIP Der/vv Gram/TV V Ind 3Sg 3SgO
 	"illuar" Gram/IV TIP Der/vv Gram/TV V Ind 3Sg 3SgO
 	"illuar" Gram/TV TIP Der/vv Gram/Db Gram/TV V Ind 3Sg 3SgO
 "<.>"
@@ -31104,7 +31170,6 @@
 "<uteqattaarpoq>"
 	"uter" Gram/IV QATTAAR Der/vv Gram/IV V Ind 3Sg
 	"uter" Gram/TV QATTAAR Der/vv Gram/Refl V Ind 3Sg
-	"uter" QATTAAR Der/vv Gram/IV V Ind 3Sg
 	"uter" QATTAAR Der/vv Gram/TV Gram/Refl V Ind 3Sg
 	"uti" Gram/IV QATTAAR Der/vv Gram/IV V Ind 3Sg
 	"utip" Gram/TV QATTAAR Der/vv Gram/Refl V Ind 3Sg
@@ -31250,7 +31315,7 @@
 	"aasiit" Interj
 	"aasiit" Pali
 "<misigisimavunga>"
-	"misige" Gram/IV SIMA Der/vv Gram/IV V Ind 1Sg
+	"misige" Gram/TV SIMA Der/vv Gram/Pass Gram/IV V Ind 1Sg
 	"misige" Gram/TV SIMA Der/vv Gram/Refl Gram/IV V Ind 1Sg
 "<.>"
 	"." CLB
@@ -31573,6 +31638,8 @@
 "<Danmarkiliarnini>"
 	"Danmark" Sem/Geo iProp LIAR Der/nv Gram/IV NIQ Der/vn N Abs Pl 4SgPoss
 	"Danmark" Sem/Geo iProp LIAR Der/nv Gram/IV NIQ Der/vn N Abs Sg 4SgPoss
+	"Danmark" Sem/Hum LIAR Der/nv Gram/IV NIQ Der/vn N Abs Pl 4SgPoss
+	"Danmark" Sem/Hum LIAR Der/nv Gram/IV NIQ Der/vn N Abs Sg 4SgPoss
 "<Islandikkoornermik>"
 	"Island" Sem/Geo iProp iVia iSg Gram/Hyb UR Gram/IV NIQ Der/vn N Ins Sg
 	"Island" Sem/Geo iProp iVia iSg Gram/Hyb UR Gram/IV NIQ Der/vn N Rel Pl 4PlPoss
@@ -31763,6 +31830,7 @@
 	"inuk" N Aeq Sg
 	"inuk" N Aeq Sg 1SgPoss
 	"inuk" N Aeq Sg 2SgPoss
+	"inuttor" Gram/IV V Ind 3Pl Gram/Exclm
 "<angitigivoq>"
 	"angi" Gram/IV TIGE Der/vv Gram/IV V Ind 3Sg Orth/Alt
 "<.>"
@@ -32399,6 +32467,7 @@
 	"naammap" Gram/IV TUQ Der/vn N Ins Pl
 	"naammattoq" N Ins Pl
 "<pisisimagamik>"
+	"pi" SI Der/nv Gram/TV SIMA Der/vv Gram/Pass Gram/IV V Cau 4Pl
 	"pi" SI Der/nv Gram/TV SIMA Der/vv Gram/Refl Gram/IV V Cau 4Pl
 	"pisi" Gram/HV SIMA Der/vv Gram/IV V Cau 4Pl
 	"pisip" Gram/IV SIMA Der/vv Gram/IV V Cau 4Pl
@@ -32532,8 +32601,8 @@
 	"apere" Gram/TV SSA Der/vv Gram/Refl Gram/IV V Cont 4Sg
 	"apere" Gram/TV SSA Der/vv Gram/TV V Cont 4SgO
 "<pisariaqanngilaq>"
-	"pi" TARIAQAR Der/vv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Sg
-	"pi" TARIAQAR Der/vv Gram/TV NNGIT Der/vv Gram/Refl Gram/IV V Ind 3Sg Gram/Refl
+	"pi" Gram/IV TARIAQAR Der/vv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Sg
+	"pi" Gram/TV TARIAQAR Der/vv Gram/TV NNGIT Der/vv Gram/Refl Gram/IV V Ind 3Sg Gram/Refl
 "<.>"
 	"." CLB
 </s>
@@ -32589,9 +32658,9 @@
 	"pi" SSUSIQ Der/vn LIR Der/nv Gram/IV TUQ Der/vn N Abs Sg 1PlPoss
 	"pi" SSUSIQ Der/vn LIR Der/nv Gram/TV Gram/Refl Gram/IV TUQ Der/vn N Abs Sg 1PlPoss
 	"pi" SSUSIQ Der/vn LIRSUR Der/nv Gram/IV Gram/IV V Ind 3Pl
-	"pi" SSUSIQ Der/vn LIRSUR Der/nv Gram/Refl Gram/IV V Ind 3Pl
 	"pi" SSUSIQ Der/vn LIRSUR Der/nv Gram/TV Gram/Refl V Ind 3Pl
 	"pissut" LIR Der/nv Gram/IV LIR Der/vv Gram/IV TUQ Der/vn N Abs Sg 1PlPoss
+	"pissut" LIR Der/nv Gram/TV LIR Der/vv Gram/Refl Gram/IV TUQ Der/vn N Abs Sg 1PlPoss
 "<.>"
 	"." CLB
 </s>
@@ -33176,6 +33245,7 @@
 	"soraarut" iN iAbl iSg Gram/Hyb IR Gram/IV NIQ Der/vn SIUR Der/nv Gram/IV V Cont 4Pl
 "<nuannassuataartut>"
 	"nuannap" Gram/IV SUATAAR Der/vv Gram/IV TUQ Der/vn N Abs Pl
+	"nuannap" Gram/IV SUATAAR Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
 	"nuannap" Gram/IV SUATAAR Der/vv Gram/IV TUQ Der/vn N Rel Pl
 	"nuannap" Gram/IV SUATAAR Der/vv Gram/IV V Par 3Pl
 "<.>"
@@ -33745,6 +33815,7 @@
 "<immikkut>"
 	"immikkut" Adv
 "<ittuuvoq>"
+	"IP" Gram/IV TUQ Der/vn U Der/nv Gram/IV V Ind 3Sg
 	"ip" Gram/IV TUQ Der/vn U Der/nv Gram/IV V Ind 3Sg
 	"ip" Gram/Refl TUQ Der/vn U Der/nv Gram/IV V Ind 3Sg
 	"ip" Gram/TV Gram/Pass TUQ Der/vn U Der/nv Gram/IV V Ind 3Sg
@@ -33941,7 +34012,7 @@
 <stXZMe8Eix8a67xOz7kxXuDtq7N4-0>
 "<Evamukaapput>"
 	"Eva" Sem/Fem Sem/Hum iProp iTrm iSg Gram/Hyb KAA Der/nv Gram/IV V Ind 3Pl
-	"Eva" Sem/Fem Sem/Hum iProp iTrm iSg Gram/Hyb KAR Der/nv UTE Der/vv Gram/Refl V Ind 3Pl
+	"Eva" Sem/Fem Sem/Hum iProp iTrm iSg Gram/Hyb KAR Der/nv UTE Der/vv Gram/TV Gram/Refl V Ind 3Pl
 "<.>"
 	"." CLB
 </s>
@@ -34491,7 +34562,6 @@
 <suO9HBJxNd55upaABDQ1tCRUpshg-0>
 "<Paamiut>"
 	"Paamiut" Sem/Geo Prop Abs Pl
-	"Paamiut" Sem/Geo Prop Abs Sg
 	"Paamiut" Sem/Geo Prop Rel Pl
 	"paa" MIU Der/nn N Abs Pl
 	"paa" MIU Der/nn N Abs Sg 2SgPoss
@@ -34988,6 +35058,7 @@
 "<nalliuttorsiutigineqarpoq>"
 	"nalliup" Gram/IV TUQ Der/vn SI Der/nv Gram/IV UTIGE Der/vv Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 	"nalliup" Gram/IV TUQ Der/vn SIUT Der/nn GE Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
+	"nalliup" Gram/IV TUQ Der/vn SIUT Der/nn GE Der/nv Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV V Ind 3Sg
 	"nalliup" Gram/IV TUQ Der/vn SIUT Der/nn GE Der/nv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg
 "<.>"
 	"." CLB
@@ -35244,14 +35315,14 @@
 	"paasi" Gram/IV GUMINAR Der/vv IT Der/vv TUQ Der/vn N Ins Sg
 	"paasi" Gram/IV GUMINAR Der/vv IT Der/vv TUQ Der/vn N Rel Pl 4PlPoss
 	"paasi" Gram/IV GUMINAR Der/vv IT Der/vv TUQ Der/vn N Rel Sg 4PlPoss
-	"paasi" Gram/TV GUMINAR Der/vv IT Der/vv TUQ Der/vn N Ins Sg
-	"paasi" Gram/TV GUMINAR Der/vv IT Der/vv TUQ Der/vn N Rel Pl 4PlPoss
-	"paasi" Gram/TV GUMINAR Der/vv IT Der/vv TUQ Der/vn N Rel Sg 4PlPoss
+	"paasi" Gram/TV GUMINAR Der/vv IT Der/vv Gram/IV TUQ Der/vn N Ins Sg
+	"paasi" Gram/TV GUMINAR Der/vv IT Der/vv Gram/IV TUQ Der/vn N Rel Pl 4PlPoss
+	"paasi" Gram/TV GUMINAR Der/vv IT Der/vv Gram/IV TUQ Der/vn N Rel Sg 4PlPoss
 "<sunnertikkaanni>"
-	"sunner" Gram/TV TIP Der/vv Gram/Db Orth/Alt Gram/Refl V Par 4Sg
-	"sunner" Gram/TV TIP Der/vv Gram/Db Orth/Alt Gram/TV V Par 3Pl 4SgO
-	"sunner" Gram/TV TIP Der/vv Gram/Db Orth/Alt Gram/TV V Par 4Sg 3PlO
-	"sunner" Gram/TV TIP Der/vv Gram/Db Orth/Alt Gram/TV V Par 4Sg 3SgO
+	"sunner" Gram/TV TIP Der/vv Gram/Db Gram/Refl V Par 4Sg
+	"sunner" Gram/TV TIP Der/vv Gram/Db Gram/TV V Par 3Pl 4SgO
+	"sunner" Gram/TV TIP Der/vv Gram/Db Gram/TV V Par 4Sg 3PlO
+	"sunner" Gram/TV TIP Der/vv Gram/Db Gram/TV V Par 4Sg 3SgO
 "<akuersinnginnissaq>"
 	"akoq" IRSIR Der/nv Gram/IV NNGIT Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg
 	"aku" IRSIR Der/nv Gram/IV NNGIT Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg
@@ -35819,9 +35890,11 @@
 	"Pituffik" Sem/Geo Prop Lok Sg
 	"pitup" Gram/IV VIK Der/vn N Abs Sg MI
 	"pitup" Gram/IV VIK Der/vn N Lok Sg
+	"pitup" Gram/IV VIK Der/vn N Rel Pl 4SgPoss
 	"pitup" Gram/IV VIK Der/vn N Rel Sg 4SgPoss
 	"pitup" Gram/TV Gram/Refl VIK Der/vn N Abs Sg MI
 	"pitup" Gram/TV Gram/Refl VIK Der/vn N Lok Sg
+	"pitup" Gram/TV Gram/Refl VIK Der/vn N Rel Pl 4SgPoss
 	"pitup" Gram/TV Gram/Refl VIK Der/vn N Rel Sg 4SgPoss
 "<radareqarfik>"
 	"radar" OLang/DAN QAR Der/nv Gram/IV VIK Der/vn N Abs Sg
@@ -36150,12 +36223,9 @@
 "<kalaallisut>"
 	"kalaaleq" N Aeq Pl
 	"kalaaleq" N Aeq Sg
-	"kalaallisut" Pali
 "<paasisarpunga>"
-	"paa" SI Der/nv Gram/IV SAR Der/vv Gram/Refl Gram/IV V Ind 1Sg
 	"paa" SI Der/nv Gram/IV SAR Der/vv Gram/TV Gram/Refl V Ind 1Sg
 	"paa" SI Der/nv Gram/IV TAR Der/vv Gram/IV V Ind 1Sg
-	"paasi" Gram/IV SAR Der/vv Gram/Refl Gram/IV V Ind 1Sg
 	"paasi" Gram/IV SAR Der/vv Gram/TV Gram/Refl V Ind 1Sg
 	"paasi" Gram/IV TAR Der/vv Gram/IV V Ind 1Sg
 	"paasi" Gram/TV TAR Der/vv Gram/Refl V Ind 1Sg
@@ -36351,6 +36421,7 @@
 
 <sxJCLTw6JqIX0xcQtLQmKcLevRAc-0>
 "<kapitalit>"
+	"kapitak" LIR Der/nv Orth/Alt Gram/IV V Ind 3Pl Gram/Exclm
 	"kapital" OLang/DAN N Abs Pl
 	"kapital" OLang/DAN N Abs Sg 2SgPoss
 	"kapital" OLang/DAN N Rel Pl
@@ -36468,6 +36539,8 @@
 "<Danmarkiliarnissaminut>"
 	"Danmark" Sem/Geo iProp LIAR Der/nv Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Pl 4SgPoss
 	"Danmark" Sem/Geo iProp LIAR Der/nv Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Sg 4SgPoss
+	"Danmark" Sem/Hum LIAR Der/nv Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Pl 4SgPoss
+	"Danmark" Sem/Hum LIAR Der/nv Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Sg 4SgPoss
 "<akissanik>"
 	"aki" SSAQ Der/nn N Ins Pl
 	"akik" SSAQ Der/nn N Ins Pl
@@ -36475,6 +36548,7 @@
 	"," CLB
 "<ilisimatilluguli>"
 	"ili" Gram/IV SIMA Der/vv TIP Der/vv Gram/TV V Cont 3SgO LI
+	"ili" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TIP Der/vv Gram/TV V Cont 3SgO LI
 	"ili" Gram/TV SIMA Der/vv TIP Der/vv Gram/Db Gram/TV V Cont 3SgO LI
 	"ilip" Orth/Arch Gram/TV SIMA Der/vv Orth/Arch TIP Der/vv Gram/Db Gram/TV V Cont 3SgO LI
 	"ilisima" Gram/TV TIP Der/vv Gram/Db Gram/TV V Cont 3SgO LI
@@ -36930,6 +37004,9 @@
 	"ili" Gram/IV SIMA Der/vv TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
 	"ili" Gram/IV SIMA Der/vv TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
 	"ili" Gram/IV SIMA Der/vv TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
+	"ili" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
+	"ili" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
+	"ili" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
 	"ili" Gram/TV SIMA Der/vv TIP Der/vv Gram/Db Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
 	"ili" Gram/TV SIMA Der/vv TIP Der/vv Gram/Db Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
 	"ili" Gram/TV SIMA Der/vv TIP Der/vv Gram/Db NIQAR Der/vv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
@@ -36950,7 +37027,6 @@
 	"nuna" N Abs Sg 2SgPoss LU
 	"nuna" N Rel Pl LU
 	"nuna" N Rel Sg LU
-	"nunar" Gram/IV V Ind 3Pl Gram/Exclm LU
 "<allat>"
 	"alla" Sem/H N Abs Pl
 	"alla" Sem/H N Abs Sg 2SgPoss
@@ -36982,6 +37058,9 @@
 	"ili" Gram/IV SIMA Der/vv TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
 	"ili" Gram/IV SIMA Der/vv TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
 	"ili" Gram/IV SIMA Der/vv TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
+	"ili" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
+	"ili" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
+	"ili" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
 	"ili" Gram/TV SIMA Der/vv TIP Der/vv Gram/Db Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
 	"ili" Gram/TV SIMA Der/vv TIP Der/vv Gram/Db Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
 	"ili" Gram/TV SIMA Der/vv TIP Der/vv Gram/Db NIQAR Der/vv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 1PlPoss
@@ -37181,6 +37260,8 @@
 	"pulaar" Gram/IV SIMA Der/vv NNGIT Der/vv TAR Der/vv INNAR Der/vv Gram/IV V Cau 4Sg
 	"pulaar" Gram/IV SIMA Der/vv NNGIT Der/vv TAR Der/vv INNAR Der/vv Gram/Refl V Cau 4Sg
 	"pulaar" Gram/IV SIMA Der/vv NNGIT Der/vv TAR Der/vv Orth/Arch Gram/IV INNAQ Der/vn N Abs Sg 1SgPoss MI
+	"pulaar" Gram/TV SIMA Der/vv Gram/Pass Gram/IV NNGIT Der/vv TAR Der/vv INNAR Der/vv Gram/IV V Cau 4Sg
+	"pulaar" Gram/TV SIMA Der/vv Gram/Pass Gram/IV NNGIT Der/vv TAR Der/vv Orth/Arch Gram/IV INNAQ Der/vn N Abs Sg 1SgPoss MI
 	"pulaar" Gram/TV SIMA Der/vv NNGIT Der/vv TAQ Der/vn INNAQ Der/nn N Abs Sg 1SgPoss MI
 	"pulaar" Gram/TV SIMA Der/vv NNGIT Der/vv TAR Der/vv INNAR Der/vv Gram/Refl V Cau 4Sg
 	"pulaar" Gram/TV SIMA Der/vv NNGIT Der/vv TAR Der/vv Orth/Arch Gram/Refl INNAQ Der/vn N Abs Sg 1SgPoss MI
@@ -37206,6 +37287,7 @@
 	"arnaq" N Trm Sg 4SgPoss
 "<pulaarussimagaluarai>"
 	"pulaarup" Gram/TV SIMA Der/vv GALUAR Der/vv Gram/TV V Par 3Sg 3PlO
+	"pulaarup" Gram/TV SIMA Der/vv Gram/Pass Gram/IV GALUAQ Der/vn GE Der/nv Gram/TV V Ind 3Sg 3PlO
 	"pulaarup" Gram/TV SIMA Der/vv Gram/Refl Gram/IV GALUAQ Der/vn GE Der/nv Gram/TV V Ind 3Sg 3PlO
 "<.>"
 	"." CLB
@@ -37927,6 +38009,7 @@
 "<immiaarartorput>"
 	"immiaarartor" Gram/IV V Ind 3Pl
 	"immiaq" ARAQ Der/nn TUR Der/nv Gram/IV V Ind 3Pl
+	"immiaq" U Der/nv Gram/IV RAR Der/vv Gram/IV TUQ Der/vn N Abs Sg 1PlPoss
 "<kasuuttaqattaajutigalutik>"
 	"kasuup" Gram/Reci Gram/IV TAR Der/vv QATTAAR Der/vv UTIGE Der/vv Gram/IV V Cont 4Pl
 	"kasuup" Gram/TV TAR Der/vv QATTAAR Der/vv UTIGE Der/vv Gram/Refl Gram/IV V Cont 4Pl
@@ -38274,6 +38357,8 @@
 "<angusimasoq>"
 	"angu" Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Sg
 	"angu" Gram/IV SIMA Der/vv Gram/IV V Par 3Sg
+	"angu" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Abs Sg
+	"angu" Gram/TV SIMA Der/vv Gram/Pass Gram/IV V Par 3Sg
 	"angu" Gram/TV SIMA Der/vv Gram/Refl Gram/IV TUQ Der/vn N Abs Sg
 	"angu" Gram/TV SIMA Der/vv Gram/Refl Gram/IV V Par 3Sg
 "<.>"
@@ -38937,7 +39022,6 @@
 
 <szvcavIijkiYB8jqIyGMteQIaiOE-0>
 "<Ilaat>"
-	"IP" Gram/IV LAAR Der/vv V Ind 3Pl Gram/Exclm
 	"ila" N Abs Pl 3PlPoss
 	"ila" N Abs Sg 3PlPoss
 	"ila" UTE Der/nn N Abs Sg
