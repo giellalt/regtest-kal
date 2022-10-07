@@ -375,7 +375,7 @@
 "<ippoq>"
 	"IP" V Ind 3Sg @PRED
 "<ukiunut>"
-	"ukioq" N Trm Pl @i-ADVL>
+	"ukioq" N Trm Pl @ADVL>
 "<tulliuttunut>"
 	"tulliup" TUQ N Trm Pl @N<
 "<siunissarlu>"
@@ -1491,7 +1491,7 @@
 "<qinersinissap>"
 	"qiner" HTR NIQ SSAQ N Rel Sg @POSS>
 "<eqqarsaatigineqalerneranut>"
-	"eqqarsar" UTE GE NIQAR LIR NIQ N Trm Sg 3SgPoss @ADVL>
+	"eqqarsar" UTE GE NIQAR LIR NIQ N Trm Sg 3SgPoss @MIK-OBJ>
 "<aallartitsivoq>"
 	"aallar" TIP HTR V Ind 3Sg @PRED
 "<,>"
@@ -1770,16 +1770,12 @@
 	"," CLB
 "<taavalu>"
 	"taava" Adv CONJ-LU @CL-ADVL>
-"<Amerika>"
-	"Amerika" Prop Abs Sg @i-PROP>
-"<Kujallermiut>"
-	"Kujalleq" MIU N Abs Pl @SUBJ>
+"<Amerika Kujallermiut>"
+	"Amerika Kujalleq" MIU N Abs Pl @SUBJ>
 "<pereeraangata>"
 	"pereer" V IteCau 3Pl @CL-ADVL>
-"<Amerika>"
-	"Amerika" Prop Abs Sg @i-PROP>
-"<Avannarlermiut>"
-	"avannarleq" MIU N Abs Pl @SUBJ>
+"<Amerika Avannarlermiut>"
+	"Amerika Avannarleq" MIU N Abs Pl @SUBJ>
 "<kingullerpaasarlutik>"
 	"kingu" LLIQ PAAQ U TAR V Cont 4Pl @PRED
 "<.>"
@@ -3021,7 +3017,7 @@
 "<tallimani>"
 	"tallimat" Num Lok Pl @N<
 "<kingullerni>"
-	"kingulleq" N Lok Pl @ADVL>
+	"kingulleq" N Lok Pl @N<
 "<agguaqatigiissillugu>"
 	"agguaqatigiissip" V Cont 3SgO @ADVL>
 "<peqassusiusartunut>"
@@ -12276,7 +12272,7 @@
 "<Demokraatillu>"
 	"Demokraatit" Prop Abs Pl CONJ-LU @SUBJ>
 "<aatsitassarsiulersaarnermut>"
-	"aatsitassaq" SIUR LIRSAAR NIQ N Trm Sg @ADVL>
+	"aatsitassaq" SIUR LIRSAAR NIQ N Trm Sg @MIK-OBJ>
 "<tapersersuisuupput>"
 	"tapersersor" HTR TUQ U V Ind 3Pl @PRED
 "<,>"
@@ -14934,6 +14930,43 @@
 	"." CLB
 </s>
 
+<sVl279xuVVDzxyCez0a908scbtVo-0>
+"<Gwich'in>"
+	"Gwich'in" Prop Abs Sg @SUBJ>
+"<(>"
+	"(" PUNCT LEFT
+"<nunap inoqqaavinit>"
+	"nunap inoqqaavi" N Abl Pl 3SgPoss @ADVL>
+"<aaqq.>"
+	"aaqq" N
+"<)>"
+	")" PUNCT RIGHT
+"<iligisani>"
+	"ilik" GE TAQ N Abs Pl 4SgPoss @OBJ>
+"<tamaasa>"
+	"tamaq" N Akk 3Pl @N<
+"<peqatigalugit>"
+	"peqat" GE V Cont 3PlO @ADVL>
+"<sapinngisamik>"
+	"sapinngisaq" N Ins Sg @i-ADVL>
+"<pilersaarummik>"
+	"pilersaar" UTE N Ins Sg @N<
+"<kinguartitsiniassaaq>"
+	"kinguar" TIP HTR NIAR SSA V Ind 3Sg @PRED
+"<,>"
+	"," CLB
+"<Bobbie>"
+	"Bobbie" Prop Abs Sg @PROP>
+"<Jo-Greenland>"
+	"Jo-Greenland" Prop Abs Sg @SUBJ>
+"<CBC North-imut>"
+	"CBC North" Prop Trm Sg @ADVL>
+"<oqarpoq>"
+	"oqar" V Ind 3Sg @PRED
+"<.>"
+	"." CLB
+</s>
+
 <sVlcwMke7wNbcBIBPrIYRbTFBxkc-0>
 "<Kalaallisut>"
 	"kalaaleq" N Aeq Sg @>N
@@ -16159,29 +16192,6 @@
 	"." CLB
 </s>
 
-<sY6Hn7FD6LlMkGsFIv8Ya1hhWOCw-0>
-"<Inuit Ataqatigiinnit>"
-	"Inuit Ataqatigiit" Prop Abl Pl @i-ADVL>
-"<politikerip>"
-	"politiker" N Rel Sg @SUBJ>
-"<siunnersuut>"
-	"siunnersor" UTE N Abs Sg @SUBJ>
-"<nunaqarfinnik>"
-	"nuna" QAR VIK N Ins Pl @i-MIK-OBJ>
-"<matusinermut>"
-	"matu" HTR NIQ N Trm Sg @ADVL>
-"<sammisamut>"
-	"sammi" TAQ N Trm Sg @N<
-"<mianernartumut>"
-	"mianernar" TUQ N Trm Sg @N<
-"<eqquisoq>"
-	"eqqor" HTR V Par 3Sg @CL-CIT>
-"<nassuerutigaa>"
-	"nassuerutige" V Ind 3Sg 3SgO @PRED
-"<.>"
-	"." CLB
-</s>
-
 <sY771KxNOgZ0fW8pvo4RxumLdkRo-0>
 "<Assersuutigalugu>"
 	"assersuutige" V Cont 3SgO @ADVL>
@@ -16507,7 +16517,7 @@
 "<aatsitassarsiornermut>"
 	"aap" TIP TAQ SSAQ SIUR NIQ N Trm Sg @i-ADVL>
 "<suliniummut>"
-	"suli" NIUTE N Trm Sg @ADVL>
+	"suli" NIUTE N Trm Sg @MIK-OBJ>
 "<tapersersuisuugaluartoq>"
 	"tapersersor" HTR TUQ U GALUAR V Par 3Sg @PRED2
 "<.>"
@@ -17290,7 +17300,7 @@
 "<Margrethe>"
 	"Margrethe" Prop Abs Sg @SUBJ>
 "<arnanut>"
-	"arnaq" N Trm Pl @ADVL>
+	"arnaq" N Trm Pl @i-MIK-OBJ>
 "<qitornartaarniartunut>"
 	"qitornaq" TAAR NIAR TUQ N Trm Pl @N<
 "<illersuisunngorpoq>"
@@ -17784,7 +17794,7 @@
 "<Nukap>"
 	"Nuka" Prop Rel Sg @POSS>
 "<inuuneranut>"
-	"inuk" U NIQ N Trm Sg 3SgPoss @ADVL>
+	"inuk" U NIQ N Trm Sg 3SgPoss @MIK-OBJ>
 "<allannguisoq>"
 	"alla" NNGUR HTR V Par 3Sg @PRED
 "<.>"
@@ -18246,6 +18256,29 @@
 
 "<">"
 	""" PUNCT DIRTALESTART DIRTALESLUT
+</s>
+
+<sdKvxGJZpHA29UMeTIl7xH3RHI2k-0>
+"<Inuit Ataqatigiinnit>"
+	"Inuit Ataqatigiit" Prop Abl Pl @i-ADVL>
+"<politikerip>"
+	"politiker" N Rel Sg @SUBJ>
+"<nunaqarfinnik>"
+	"nuna" QAR VIK N Ins Pl @i-MIK-OBJ>
+"<matusinissamik>"
+	"matu" HTR NIQ SSAQ N Ins Sg @i-ADVL>
+"<siunnersuut>"
+	"siunnersor" UTE N Abs Sg @SUBJ>
+"<sammisamik>"
+	"sammi" TAQ N Ins Sg @MIK-OBJ>
+"<mianernartumik>"
+	"mianernar" TUQ N Ins Sg @N<
+"<eqquisoq>"
+	"eqqor" HTR V Par 3Sg @CL-CIT>
+"<nassuerutigaa>"
+	"nassuerutige" V Ind 3Sg 3SgO @PRED
+"<.>"
+	"." CLB
 </s>
 
 <sdMVEp5AKuOf1bwXO6pcZCcH8gpc-0>
@@ -20864,43 +20897,6 @@
 	"." CLB
 </s>
 
-<silbqGTUzY5nRxH4QfMafUHp50xk-0>
-"<Gwich'in>"
-	"Gwich'in" Prop Abs Sg @SUBJ>
-"<(>"
-	"(" PUNCT LEFT
-"<nunap inoqqaavinit>"
-	"nunap inoqqaavi" N Abl Pl 3SgPoss @ADVL>
-"<aaqq.>"
-	"aaqq" N
-"<)>"
-	")" PUNCT RIGHT
-"<iligisani>"
-	"ilik" GE TAQ N Abs Pl 4SgPoss @OBJ>
-"<tamaasa>"
-	"tamaq" N Akk 3Pl @N<
-"<peqatigalugit>"
-	"peqat" GE V Cont 3PlO @ADVL>
-"<sapinngisamik>"
-	"sapinngisaq" N Ins Sg @ADVL>
-"<pilersaarummut>"
-	"pilersaar" UTE N Trm Sg @ADVL>
-"<kinguartitsiniassaaq>"
-	"kinguar" TIP HTR NIAR SSA V Ind 3Sg @PRED
-"<,>"
-	"," CLB
-"<Bobbie>"
-	"Bobbie" Prop Abs Sg @PROP>
-"<Jo-Greenland>"
-	"Jo-Greenland" Prop Abs Sg @SUBJ>
-"<CBC North-imut>"
-	"CBC North" Prop Trm Sg @ADVL>
-"<oqarpoq>"
-	"oqar" V Ind 3Sg @PRED
-"<.>"
-	"." CLB
-</s>
-
 <sinxykiNrBjbEDnLc41xDJSrxoqw-0>
 "<Tatsinit>"
 	"taseq" N Abl Pl @i-ADVL>
@@ -23278,7 +23274,7 @@
 "<Hans>"
 	"Hans" Prop Abs Sg @PROP>
 "<Møllerimut>"
-	"Møller" Prop Trm Sg @ADVL>
+	"Møller" Prop Trm Sg @MIK-OBJ>
 "<kajumissaariinnartoq>"
 	"kajumissaar" HTR INNAR V Par 3Sg @PRED
 "<.>"
@@ -24741,7 +24737,7 @@
 "<nunatsinni>"
 	"nuna" N Lok Sg 1PlPoss @i-ADVL>
 "<suliffeqarfinnut>"
-	"suli" VIK QAR VIK N Trm Pl @ADVL>
+	"suli" VIK QAR VIK N Trm Pl @MIK-OBJ>
 "<eqquipput>"
 	"eqqor" HTR V Ind 3Pl @PRED
 "<,>"
@@ -25232,7 +25228,7 @@
 "<taakkunani>"
 	"una" Pron Lok Pl @i-ADVL>N
 "<aningaasartuutinut>"
-	"aningaasartuut" N Trm Pl @ADVL>
+	"aningaasartuut" N Trm Pl @MIK-OBJ>
 "<matussusiisinnaassaaq>"
 	"matussut" LIR HTR SINNAA SSA V Ind 3Sg @PRED
 "<,>"
@@ -27553,7 +27549,7 @@
 "<,>"
 	"," CLB
 "<takulaarniariuk>"
-	"taku" LAAR NIAR V Imp 2Sg 3SgO @PRED
+	"taku" LAAR NIAR GI V Imp 2Sg 3SgO @PRED
 "<piukkunnarsinnaammat>"
 	"piukkup" NAR SINNAA V Cau 3Sg @<CAU
 "<.>"
@@ -27820,7 +27816,7 @@
 "<KNR-ip>"
 	"KNR" Prop Rel Sg @POSS>
 "<tusagassiortuanut>"
-	"tusar" TAQ SSAQ LIUR TUQ N Trm Sg 3SgPoss @ADVL>
+	"tusar" TAQ SSAQ LIUR TUQ N Trm Sg 3SgPoss @MIK-OBJ>
 "<pisoqarfiusumiittumut>"
 	"pi" TUQ QAR VIK U TUQ N Lok Sg @i-ADVL>
 "<ittumut>"
@@ -28847,7 +28843,7 @@
 "<ajornartorsiutaasut>"
 	"ajor" NAR TUQ SIUT U TUQ N Rel Pl @POSS>
 "<iluarsineqarnissaannut>"
-	"iluarsi" NIQAR NIQ SSAQ N Trm Sg 3PlPoss @ADVL>
+	"iluarsi" NIQAR NIQ SSAQ N Trm Sg 3PlPoss @MIK-OBJ>
 "<aningaasaliillutillu>"
 	"aningaasaq" LIR HTR V Cont 4Pl ADV-LU @ADVL>
 "<immikkut>"
