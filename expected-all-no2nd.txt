@@ -412,7 +412,7 @@
 "<Amerikamiut>"
 	"Amerika" MIU N Rel Pl @POSS>
 "<atomreaktoriliornissaanut>"
-	"atomreaktor" LIUR NIQ SSAQ N Trm Sg 3SgPoss @i-ADVL>
+	"atomreaktor" LIUR NIQ SSAQ N Trm Sg 3SgPoss @i-ADVL>N
 "<pilersaarutaannik>"
 	"pilersaar" UTE N Ins Sg 3PlPoss @MIK-OBJ>
 "<saqqummiussiffigineqarput>"
@@ -970,10 +970,8 @@
 	"," CLB
 "<nunatsinniinnaq>"
 	"nuna" N Lok Sg 1PlPoss INNAQ @ADVL>
-"<nalliuttorsiutigineqarneq>"
-	"nalliup" TUQ SIUT GE NIQAR NIQ N Abs Sg @>V
-"<ajorpoq>"
-	"ajor" V Ind 3Sg @PRED
+"<nalliuttorsiutigineqarneq ajorpoq>"
+	"nalliup" TUQ SIUT GE NIQAR NIQ_AJUR V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -2002,8 +2000,6 @@
 	"qaangiup" V Cau 3Sg @CAU
 "<ilisarisimalerakkit>"
 	"ilisare" SIMA LIR V Cau 1Sg 2SgO @CAU
-	"ilisare" SIMA LIR V Cau 1Sg 3PlO @CAU
-	"ilisare" SIMA LIR V Cau 2Sg 3PlO @CAU
 "<maani>"
 	"ma" Adv Lok @ADVL>
 "<kiserrappit>"
@@ -2061,7 +2057,7 @@
 "<tungaanut>"
 	"tunge" N Trm Sg 3SgPoss @ADVL>
 "<inerteqqutigineqarallassasut>"
-	"inerteqqutige" NIQAR GALLAR SSA V Par 3Pl @CL-<CIT
+	"inerteqqut" GE NIQAR GALLAR SSA V Par 3Pl @CL-<CIT
 "<.>"
 	"." CLB
 </s>
@@ -2750,7 +2746,7 @@
 "<sassaalliutigineqartarnerilu>"
 	"sassaalliutige" NIQAR TAR NIQ N Abs Pl 3PlPoss CONJ-LU @SUBJ>
 "<inerteqqutigineqarallassasut>"
-	"inerteqqutige" NIQAR GALLAR SSA V Par 3Pl @CL-<CIT
+	"inerteqqut" GE NIQAR GALLAR SSA V Par 3Pl @CL-<CIT
 "<.>"
 	"." CLB
 </s>
@@ -5814,7 +5810,7 @@
 "<selskabip>"
 	"selskab" N Rel Sg @POSS>
 "<upalungaarsimanermut>"
-	"upalungaar" SIMA NIQ N Trm Sg @i-ADVL>
+	"upalungaar" SIMA NIQ N Trm Sg @i-ADVL>N
 "<pilersaarutiminik>"
 	"pilersaar" UTE N Ins Sg 4SgPoss @i-MIK-OBJ>
 "<tamanut>"
@@ -6009,7 +6005,7 @@
 "<tungaanut>"
 	"tunge" N Trm Sg 3SgPoss @ADVL>
 "<inerteqqutigineqalerput>"
-	"inerteqqutige" NIQAR LIR V Ind 3Pl @PRED
+	"inerteqqut" GE NIQAR LIR V Ind 3Pl @PRED
 "<.>"
 	"." CLB
 </s>
@@ -8161,7 +8157,7 @@
 "<49-t>"
 	"49" Num Abs Pl @N<
 "<suliunnaarsinneqarnissaannut>"
-	"suli" GUNNAIR TIP NIQAR NIQ SSAQ N Trm Sg 3PlPoss @i-ADVL>
+	"suli" GUNNAIR TIP NIQAR NIQ SSAQ N Trm Sg 3PlPoss @i-ADVL>N
 "<pilersaarummik>"
 	"pilersaar" UTE N Ins Sg @ADVL>
 "<ilisimatippai>"
@@ -14717,10 +14713,8 @@
 <sVJkRhvidNxPcjJfdvCBu61HZJr4-0>
 "<Aalisagartorlungalu>"
 	"aalisagaq" TUR V Cont 1Sg CONJ-LU @PRED
-"<neqitorneq>"
-	"neqi" TUR NIQ N Abs Sg @>V
-"<ajorpunga>"
-	"ajor" V Ind 1Sg @PRED
+"<neqitorneq ajorpunga>"
+	"neqi" TUR NIQ_AJUR V Ind 1Sg @PRED
 "<.>"
 	"." CLB
 </s>
@@ -20781,7 +20775,7 @@
 	"suli" NIAQ QATE U V Cont 4Pl @ADVL>
 	"suli" NIAR QATE U V Cont 4Pl @ADVL>
 "<periuusissanut>"
-	"periup" USIQ SSAQ N Trm Pl @i-ADVL>
+	"periup" USIQ SSAQ N Trm Pl @i-ADVL>N
 "<pilersaarutinik>"
 	"pilersaar" UTE N Ins Pl @i->N
 "<suliaqarput>"
@@ -21706,7 +21700,7 @@
 "<iluartoq>"
 	"iluar" TUQ N Abs Sg @N<
 "<pillugu>"
-	"pi" V Cont 3SgO @i-ADVL>
+	"pi" V Cont 3SgO @i-ADVL>N
 "<oqaluttuatoqaqarpoq>"
 	"oqaluttuaq" TUQAQ QAR V Ind 3Sg @PRED
 "<imaattumik>"
@@ -22242,10 +22236,8 @@
 	"tiger" N Abs Pl CONJ-LU @SUBJ>
 "<aamma>"
 	"aamma" Adv @ADVL>
-"<naasortorneq>"
-	"naasoq" TUR NIQ N Abs Sg @>V
-"<ajorput>"
-	"ajor" V Ind 3Pl @PRED
+"<naasortorneq ajorput>"
+	"naasoq" TUR NIQ_AJUR V Ind 3Pl @PRED
 "<.>"
 	"." CLB
 </s>
@@ -23079,7 +23071,7 @@
 "<peqataaffigineqartut>"
 	"peqat" U VIK GE NIQAR TUQ N Rel Pl @N<
 "<inerteqqutigineqarnissaat>"
-	"inerteqqutige" NIQAR NIQ SSAQ N Abs Sg 3PlPoss @SUBJ>
+	"inerteqqut" GE NIQAR NIQ SSAQ N Abs Sg 3PlPoss @SUBJ>
 "<pilersaarutaanngilaq>"
 	"pilersaar" UTE U NNGIT V Ind 3Sg @PRED
 "<,>"
@@ -25048,11 +25040,11 @@
 "<Aasianni>"
 	"Aasiaat" Prop Lok Pl @i-ADVL>N
 "<politiit>"
-	"politeeq" N Rel Pl @SUBJ>
+	"politeeq" N Abs Pl @OBJ>
 "<inuttallu>"
-	"inuk" TAQ N Rel Pl CONJ-LU @SUBJ>
+	"inuk" TAQ N Abs Pl CONJ-LU @OBJ>
 "<sungiusalissavaat>"
-	"sungiusar" LIR SSA V Ind 3Pl 3SgO @PRED
+	"sungiusar" LIR SSA V Ind 3Pl 3PlO @PRED
 "<.>"
 	"." CLB
 </s>
@@ -28133,7 +28125,7 @@
 "<Ulloq>"
 	"ulloq" N Abs Sg @OBJ>
 "<atorluarisiuttoq>"
-	"atorluar" V Imp 2Pl 3SgO TUQ @PRED
+	"atorluar" GI V Imp 2Pl 3SgO TUQ @PRED
 "<.>"
 	"." CLB
 </s>
@@ -29105,10 +29097,8 @@
 	"najor" TAQ QAR TUQ N Trm Pl @N<
 "<tupinnaraluartumik>"
 	"tupinnar" GALUAR TUQ N Ins Sg @ADVL>
-"<apeqqutigineqarneq>"
-	"apeqqut" GE NIQAR NIQ N Abs Sg @>V
-"<ajorpoq>"
-	"ajor" V Ind 3Sg @PRED
+"<apeqqutigineqarneq ajorpoq>"
+	"apeqqut" GE NIQAR NIQ_AJUR V Ind 3Sg @PRED
 "<.>"
 	"." CLB
 </s>
