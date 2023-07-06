@@ -7367,9 +7367,9 @@
 "<naqqani>"
 	"nateq" N Lok Sg 3SgPoss %PossOblique
 "<ilisarnaatit>"
-	"ilisarnar" UTE Der/vn N Abs Pl %AmbiguøsN
-	"ilisarnar" UTE Der/vn N Abs Sg 2SgPoss %AmbiguøsN
-	"ilisarnar" UTE Der/vn N Rel Pl %AmbiguøsN
+	"ilisarnar" Gram/IV UTE Der/vn N Abs Pl %AmbiguøsN
+	"ilisarnar" Gram/IV UTE Der/vn N Abs Sg 2SgPoss %AmbiguøsN
+	"ilisarnar" Gram/IV UTE Der/vn N Rel Pl %AmbiguøsN
 "<pingaarnerusut>"
 	"pi" NGAAR Der/vv Gram/IV NIQ Der/vn U Der/nv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
 	"pi" NGAAR Der/vv Gram/IV NIQ Der/vn U Der/nv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
@@ -7378,22 +7378,22 @@
 	"pi" NGAAR Der/vv Gram/IV NIRU Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
 	"pi" NGAAR Der/vv Gram/IV NIRU Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
 	"pi" NGAAR Der/vv Gram/IV NIRU Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
-	"pi" NGAAR Der/vv Gram/IV NIRU Der/vv Gram/IV V Par 3Pl %AmbiguøsPar
+	"pi" NGAAR Der/vv Gram/IV NIRU Der/vv V Par 3Pl %AmbiguøsPar
 "<ilisimaneqaratik>"
-	"ili" Gram/IV SIMA Der/vv Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V ContNeg 4Pl
+	"ili" Gram/IV SIMA Der/vv NIQ Der/vn QAR Der/nv Gram/IV V ContNeg 4Pl
 	"ili" Gram/TV SIMA Der/vv Gram/Pass Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V ContNeg 4Pl
-	"ili" Gram/TV SIMA Der/vv Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V ContNeg 4Pl
+	"ili" Gram/TV SIMA Der/vv Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V ContNeg 4Pl
 	"ili" Gram/TV SIMA Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V ContNeg 4Pl
 	"ili" Gram/TV SIMA Der/vv Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV V ContNeg 4Pl
 	"ili" Gram/TV SIMA Der/vv NIQAR Der/vv Gram/IV V ContNeg 4Pl
-	"ilip" Gram/IV SIMA Der/vv Orth/Arch Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V ContNeg 4Pl
-	"ilip" Orth/Arch Gram/TV SIMA Der/vv Orth/Arch Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V ContNeg 4Pl
+	"ilip" Gram/IV SIMA Der/vv Orth/Arch NIQ Der/vn QAR Der/nv Gram/IV V ContNeg 4Pl
+	"ilip" Orth/Arch Gram/TV SIMA Der/vv Orth/Arch Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V ContNeg 4Pl
 	"ilip" Orth/Arch Gram/TV SIMA Der/vv Orth/Arch Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V ContNeg 4Pl
 	"ilip" Orth/Arch Gram/TV SIMA Der/vv Orth/Arch Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV V ContNeg 4Pl
 	"ilip" Orth/Arch Gram/TV SIMA Der/vv Orth/Arch NIQAR Der/vv Gram/IV V ContNeg 4Pl
 	"ilisima" Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V ContNeg 4Pl
 	"ilisima" Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V ContNeg 4Pl
-	"ilisima" Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V ContNeg 4Pl
+	"ilisima" Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V ContNeg 4Pl
 	"ilisima" Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV V ContNeg 4Pl
 	"ilisima" Gram/TV NIQAR Der/vv Gram/IV V ContNeg 4Pl
 "<.>"
@@ -10924,12 +10924,8 @@
 	"suna" Gram/Int Pron Ins Sg LUUNNIIT
 	"suna" LUUNNIIT Gram/Indef Pron Abl Sg
 	"suna" LUUNNIIT Gram/Indef Pron Ins Sg
-"<ajoqutissarsineq>"
-	"ajoqut" SSAQ Der/nn SI Der/nv Gram/IV NIQ Der/vn N Abs Sg
-	"ajoqut" SSAQ Der/nn SI Der/nv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-"<ajorput>"
-	"ajor" Gram/IV V Ind 3Pl
-	"ajor" Gram/TV Gram/Refl V Ind 3Pl
+"<ajoqutissarsineq ajorput>"
+	"ajoqut" SSAQ Der/nn SI Der/nv Gram/IV NIQ_AJUR Der/vv V Ind 3Pl
 "<.>"
 	"." CLB
 </s>
@@ -22820,30 +22816,30 @@
 	"angi" Gram/IV NIQ Der/vn N Rel Pl %AmbiguøsN
 	"anner" Gram/IV V Imp 2Sg
 "<atserneqarsimasut>"
-	"atser" Sem/CognitiveMaking Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
-	"atser" Sem/CognitiveMaking Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
-	"atser" Sem/CognitiveMaking Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
-	"atser" Sem/CognitiveMaking Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV V Par 3Pl %AmbiguøsPar
-	"atser" Sem/CognitiveMaking Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
-	"atser" Sem/CognitiveMaking Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
-	"atser" Sem/CognitiveMaking Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
-	"atser" Sem/CognitiveMaking Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV V Par 3Pl %AmbiguøsPar
-	"atser" Sem/CognitiveMaking Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
-	"atser" Sem/CognitiveMaking Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
-	"atser" Sem/CognitiveMaking Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
-	"atser" Sem/CognitiveMaking Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv Gram/IV V Par 3Pl %AmbiguøsPar
-	"atser" Sem/Remove Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
-	"atser" Sem/Remove Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
-	"atser" Sem/Remove Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
-	"atser" Sem/Remove Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV V Par 3Pl %AmbiguøsPar
-	"atser" Sem/Remove Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
-	"atser" Sem/Remove Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
-	"atser" Sem/Remove Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
-	"atser" Sem/Remove Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv Gram/IV V Par 3Pl %AmbiguøsPar
-	"atser" Sem/Remove Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
-	"atser" Sem/Remove Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
-	"atser" Sem/Remove Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
-	"atser" Sem/Remove Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv Gram/IV V Par 3Pl %AmbiguøsPar
+	"atser" Sem/CognitiveMaking Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv TUQ Der/vn N Abs Pl %AmbiguøsN
+	"atser" Sem/CognitiveMaking Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
+	"atser" Sem/CognitiveMaking Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv TUQ Der/vn N Rel Pl %AmbiguøsN
+	"atser" Sem/CognitiveMaking Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv V Par 3Pl %AmbiguøsPar
+	"atser" Sem/CognitiveMaking Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv TUQ Der/vn N Abs Pl %AmbiguøsN
+	"atser" Sem/CognitiveMaking Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
+	"atser" Sem/CognitiveMaking Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv TUQ Der/vn N Rel Pl %AmbiguøsN
+	"atser" Sem/CognitiveMaking Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv V Par 3Pl %AmbiguøsPar
+	"atser" Sem/CognitiveMaking Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv TUQ Der/vn N Abs Pl %AmbiguøsN
+	"atser" Sem/CognitiveMaking Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
+	"atser" Sem/CognitiveMaking Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv TUQ Der/vn N Rel Pl %AmbiguøsN
+	"atser" Sem/CognitiveMaking Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv V Par 3Pl %AmbiguøsPar
+	"atser" Sem/Remove Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv TUQ Der/vn N Abs Pl %AmbiguøsN
+	"atser" Sem/Remove Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
+	"atser" Sem/Remove Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv TUQ Der/vn N Rel Pl %AmbiguøsN
+	"atser" Sem/Remove Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv V Par 3Pl %AmbiguøsPar
+	"atser" Sem/Remove Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv TUQ Der/vn N Abs Pl %AmbiguøsN
+	"atser" Sem/Remove Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
+	"atser" Sem/Remove Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv TUQ Der/vn N Rel Pl %AmbiguøsN
+	"atser" Sem/Remove Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SIMA Der/vv V Par 3Pl %AmbiguøsPar
+	"atser" Sem/Remove Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv TUQ Der/vn N Abs Pl %AmbiguøsN
+	"atser" Sem/Remove Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
+	"atser" Sem/Remove Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv TUQ Der/vn N Rel Pl %AmbiguøsN
+	"atser" Sem/Remove Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv V Par 3Pl %AmbiguøsPar
 "<,>"
 	"," CLB
 "<soorlu>"
@@ -22878,7 +22874,7 @@
 	"hundrede" OLang/DAN Err/Sub iNum LIK Der/nn N Ins Sg 1SgPoss
 	"hundrede" OLang/DAN Err/Sub iNum LIK Der/nn N Ins Sg 2SgPoss
 "<allanik>"
-	"alla" Sem/H N Ins Pl
+	"alla" N Ins Pl
 	"allaq" N Ins Pl
 "<ulloriaqarmat>"
 	"ulloriaq" QAR Der/nv Gram/IV V Cau 3Sg
@@ -22904,14 +22900,14 @@
 	"qinngut" SUAQ Der/nn N Ins Sg LUUNNIIT
 	"qinngut" SUAQ Der/nn N Rel Sg 4PlPoss LUUNNIIT
 "<takuneqarsinnaanngingajattut>"
-	"taku" Gram/HV Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
-	"taku" Gram/HV Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
-	"taku" Gram/HV Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
-	"taku" Gram/HV Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV V Par 3Pl %AmbiguøsPar
-	"taku" Gram/HV Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
-	"taku" Gram/HV Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
-	"taku" Gram/HV Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
-	"taku" Gram/HV Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV V Par 3Pl %AmbiguøsPar
+	"taku" Gram/HV NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
+	"taku" Gram/HV NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
+	"taku" Gram/HV NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
+	"taku" Gram/HV NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV V Par 3Pl %AmbiguøsPar
+	"taku" Gram/HV NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
+	"taku" Gram/HV NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
+	"taku" Gram/HV NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
+	"taku" Gram/HV NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV V Par 3Pl %AmbiguøsPar
 	"taku" Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
 	"taku" Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
 	"taku" Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
@@ -22920,14 +22916,14 @@
 	"taku" Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
 	"taku" Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
 	"taku" Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV V Par 3Pl %AmbiguøsPar
-	"taku" Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
-	"taku" Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
-	"taku" Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
-	"taku" Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV V Par 3Pl %AmbiguøsPar
-	"taku" Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
-	"taku" Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
-	"taku" Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
-	"taku" Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV V Par 3Pl %AmbiguøsPar
+	"taku" Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
+	"taku" Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
+	"taku" Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
+	"taku" Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV V Par 3Pl %AmbiguøsPar
+	"taku" Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
+	"taku" Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
+	"taku" Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
+	"taku" Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV SINNAAQ Der/vn NNGIR Der/nv Gram/IV NGAJAP Der/vv Gram/IV V Par 3Pl %AmbiguøsPar
 	"taku" Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Pl %AmbiguøsN
 	"taku" Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
 	"taku" Gram/TV NIQ Der/vn Gram/TransverbNIQ QAR Der/nv Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
@@ -53726,19 +53722,13 @@
 
 <svwEpgXHv4xcrqipH0j77eCnDDm8-0>
 "<Aappaluttoq>"
-	"aak" PALUK Der/nn TU Der/nv Gram/IV V Ind Gram/Exclm
 	"aak" PALUP Der/nv Gram/IV TUQ Der/vn N Abs Sg
 	"aak" PALUP Der/nv Gram/IV V Par 3Sg %AmbiguøsPar
-	"aap" Gram/IV PALUK Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
 	"aap" Gram/IV PALUP Der/vv Gram/IV TUQ Der/vn N Abs Sg
 	"aap" Gram/IV PALUP Der/vv Gram/IV V Par 3Sg %AmbiguøsPar
-	"aap" Gram/TV Gram/Refl PALUK Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
-	"aap" Gram/TV PALUK Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
 	"aap" Gram/TV PALUP Der/vv Gram/Refl TUQ Der/vn N Abs Sg
 	"aap" Gram/TV PALUP Der/vv Gram/Refl V Par 3Sg %AmbiguøsPar
 	"aap" Gram/TV PALUP Der/vv Gram/TV Gram/Pass TUQ Der/vn N Abs Sg
-	"aap" Orth/Arch Gram/TV Gram/Refl PALUK Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
-	"aap" Orth/Arch Gram/TV PALUK Der/vn TU Der/nv Gram/IV V Ind Gram/Exclm
 	"aap" Orth/Arch Gram/TV PALUP Der/vv Gram/Refl TUQ Der/vn N Abs Sg
 	"aap" Orth/Arch Gram/TV PALUP Der/vv Gram/Refl V Par 3Sg %AmbiguøsPar
 	"aap" Orth/Arch Gram/TV PALUP Der/vv Gram/TV Gram/Pass TUQ Der/vn N Abs Sg
