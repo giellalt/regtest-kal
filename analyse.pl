@@ -16,14 +16,11 @@ use FindBin qw($Bin);
 use lib "$Bin/";
 use Helpers;
 
-my $runner = "$Bin/../nutserut/regtest/runner.pl";
-if (! -e $runner) {
-   $runner = "$Bin/regtest/runner.pl";
-}
+my $runner = "$Bin/../regtest/runner.pl";
 system $runner, (@ARGV, '-b', "$Bin/kal.pl", '-f', $Bin);
 
 if ($@) {
-   die("Error: Regtest couldn't be run - run Nutserut's setup script!\n");
+   die("Error: Regtest couldn't be run - run setup script!\n");
 }
 
 my @fs = glob("$Bin/output-*-fst.txt");

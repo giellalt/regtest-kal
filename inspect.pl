@@ -8,10 +8,7 @@ if (@ARGV && $ARGV[0] !~ /^-/) {
    @ARGV = ('-c', $ARGV[0]);
 }
 
-my $regtest = "$Bin/../nutserut/regtest/inspect.pl";
-if (! -e $regtest) {
-   $regtest = "$Bin/regtest/inspect.pl";
-}
+my $regtest = "$Bin/../regtest/inspect.pl";
 system $regtest, (@ARGV, '-b', "$Bin/kal.pl");
 
 if ($@) {
