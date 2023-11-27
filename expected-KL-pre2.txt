@@ -4615,7 +4615,6 @@
 	"kaffe" OLang/DAN N Trm Sg
 	"kaffi" N Trm Sg
 "<sukkulertarpit>"
-	"sukkoq" LIR Der/nv Gram/IV TAR Der/vv Gram/IV V Int 2Sg
 	"sukkoq" LIR Der/nv Gram/TV TAR Der/vv Gram/Refl V Int 2Sg
 	"sukkor" Gram/IV LIR Der/vv TAR Der/vv Gram/IV V Int 2Sg
 	"sukku" LIR Der/nv Gram/IV TAR Der/vv Gram/IV V Int 2Sg
@@ -4630,7 +4629,6 @@
 "<,>"
 	"," CLB
 "<sukkulertarpunga>"
-	"sukkoq" LIR Der/nv Gram/IV TAR Der/vv Gram/IV V Ind 1Sg
 	"sukkoq" LIR Der/nv Gram/TV TAR Der/vv Gram/Refl V Ind 1Sg
 	"sukkor" Gram/IV LIR Der/vv TAR Der/vv Gram/IV V Ind 1Sg
 	"sukku" LIR Der/nv Gram/IV TAR Der/vv Gram/IV V Ind 1Sg
@@ -4646,6 +4644,7 @@
 	"naaq" N Rel Sg 4PlPoss
 "<immulerneq ajorpunga>"
 	"immuk" LIR Der/nv Orth/Alt Gram/IV NIQ_AJUR Der/vv V Ind 1Sg
+	"immuler" Gram/IV NIQ_AJUR Der/vv V Ind 1Sg
 "<.>"
 	"." CLB
 </s>
@@ -11797,16 +11796,10 @@
 "<atuarfimmiit>"
 	"atuar" Gram/HV Gram/IV VIK Der/vn N Abl Sg
 	"atuar" Gram/TV Gram/Refl VIK Der/vn N Abl Sg
-"<soraarummeerneq>"
-	"soraar" Gram/IV UTE Der/vn iN iAbl iSg Gram/Hyb IR Gram/IV NIQ Der/vn N Abs Sg
-	"soraar" Gram/IV UTE Der/vn iN iAbl iSg Gram/Hyb IR Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-	"soraarummeer" Gram/IV NIQ Der/vn N Abs Sg
-	"soraarummeer" Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-	"soraarut" iN iAbl iSg Gram/Hyb IR Gram/IV NIQ Der/vn N Abs Sg
-	"soraarut" iN iAbl iSg Gram/Hyb IR Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-"<ajorput>"
-	"ajor" Gram/IV V Ind 3Pl
-	"ajor" Gram/TV Gram/Refl V Ind 3Pl
+"<soraarummeerneq ajorput>"
+	"soraar" Gram/IV UTE Der/vn iN iAbl iSg Gram/Hyb IR Gram/IV NIQ_AJUR Der/vv V Ind 3Pl
+	"soraarummeer" Gram/IV NIQ_AJUR Der/vv V Ind 3Pl
+	"soraarut" iN iAbl iSg Gram/Hyb IR Gram/IV NIQ_AJUR Der/vv V Ind 3Pl
 "<.>"
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE
 </s>
@@ -19230,25 +19223,8 @@
 "<Jaaku>"
 	"Jaaku" Sem/Mask Sem/Hum Prop Abs Sg
 	"ja" Interj UKU
-"<sukkulerneq>"
-	"sukkoq" LIR Der/nv Gram/IV NIQ Der/vn N Abs Sg
-	"sukkoq" LIR Der/nv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-	"sukkoq" LIR Der/nv Gram/TV Gram/Pass NIQ Der/vn N Abs Sg
-	"sukkoq" LIR Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn N Abs Sg
-	"sukkoq" LIR Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-	"sukkoq" LIR Der/nv Gram/TV NIQ Der/vn N Abs Sg Gram/Comp
-	"sukkor" Gram/IV LIR Der/vv Gram/IV NIQ Der/vn N Abs Sg
-	"sukkor" Gram/IV LIR Der/vv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-	"sukku" LIR Der/nv Gram/IV NIQ Der/vn N Abs Sg
-	"sukku" LIR Der/nv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-	"sukku" LIR Der/nv Gram/TV Gram/Pass NIQ Der/vn N Abs Sg
-	"sukku" LIR Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn N Abs Sg
-	"sukku" LIR Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-	"sukku" LIR Der/nv Gram/TV NIQ Der/vn N Abs Sg Gram/Comp
-	"sukkulerneq" N Abs Sg
-"<ajorpoq>"
-	"ajor" Gram/IV V Ind 3Sg
-	"ajor" Gram/TV Gram/Refl V Ind 3Sg
+"<sukkulerneq ajorpoq>"
+	"sukku" LIR Der/nv Gram/IV NIQ_AJUR Der/vv V Ind 3Sg
 "<->"
 	"-" PUNCT DIRTALESTART
 "<qallunaajugami>"
@@ -19259,7 +19235,7 @@
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE
 
 "<Asuki>"
-	"Asuki" Sem/inst Prop Abs Sg
+	"Asuki" Prop Abs Sg
 	"asukiaq" Interj
 "<,>"
 	"," CLB
@@ -19287,7 +19263,6 @@
 	"una" Prefix/TA Gram/Dem Pron Abs Sg
 "<Brugsenip>"
 	"Brugseni" Sem/inst Prop Rel Sg %PossOblique
-	"brugsen" OLang/DAN N Rel Sg %PossOblique
 "<eqqaaniittoq>"
 	"eqqaq" N Lok Pl 3SgPoss Hyb/1-2 %PossOblique
 	"eqqaq" N Lok Sg 3SgPoss Hyb/1-2 %PossOblique
@@ -46888,7 +46863,6 @@
 	"." CLB
 
 "<Sukkulertarpisi>"
-	"sukkoq" LIR Der/nv Gram/IV TAR Der/vv Gram/IV V Int 2Pl
 	"sukkoq" LIR Der/nv Gram/TV TAR Der/vv Gram/Refl V Int 2Pl
 	"sukkor" Gram/IV LIR Der/vv TAR Der/vv Gram/IV V Int 2Pl
 	"sukku" LIR Der/nv Gram/IV TAR Der/vv Gram/IV V Int 2Pl
@@ -46899,25 +46873,8 @@
 "<Jaaku>"
 	"Jaaku" Sem/Mask Sem/Hum Prop Abs Sg
 	"ja" Interj UKU
-"<sukkulerneq>"
-	"sukkoq" LIR Der/nv Gram/IV NIQ Der/vn N Abs Sg
-	"sukkoq" LIR Der/nv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-	"sukkoq" LIR Der/nv Gram/TV Gram/Pass NIQ Der/vn N Abs Sg
-	"sukkoq" LIR Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn N Abs Sg
-	"sukkoq" LIR Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-	"sukkoq" LIR Der/nv Gram/TV NIQ Der/vn N Abs Sg Gram/Comp
-	"sukkor" Gram/IV LIR Der/vv Gram/IV NIQ Der/vn N Abs Sg
-	"sukkor" Gram/IV LIR Der/vv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-	"sukku" LIR Der/nv Gram/IV NIQ Der/vn N Abs Sg
-	"sukku" LIR Der/nv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-	"sukku" LIR Der/nv Gram/TV Gram/Pass NIQ Der/vn N Abs Sg
-	"sukku" LIR Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn N Abs Sg
-	"sukku" LIR Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-	"sukku" LIR Der/nv Gram/TV NIQ Der/vn N Abs Sg Gram/Comp
-	"sukkulerneq" N Abs Sg
-"<ajorpoq>"
-	"ajor" Gram/IV V Ind 3Sg
-	"ajor" Gram/TV Gram/Refl V Ind 3Sg
+"<sukkulerneq ajorpoq>"
+	"sukku" LIR Der/nv Gram/IV NIQ_AJUR Der/vv V Ind 3Sg
 "<->"
 	"-" PUNCT DIRTALESTART
 "<qallunaajugami>"
@@ -46933,7 +46890,6 @@
 	"uanga" Gram/Pers Pron Abs 1Sg %AmbiguøsN
 	"uanga" Gram/Pers Pron Rel 1Sg %AmbiguøsN
 "<sukkulertarpunga>"
-	"sukkoq" LIR Der/nv Gram/IV TAR Der/vv Gram/IV V Ind 1Sg
 	"sukkoq" LIR Der/nv Gram/TV TAR Der/vv Gram/Refl V Ind 1Sg
 	"sukkor" Gram/IV LIR Der/vv TAR Der/vv Gram/IV V Ind 1Sg
 	"sukku" LIR Der/nv Gram/IV TAR Der/vv Gram/IV V Ind 1Sg
@@ -47031,6 +46987,7 @@
 "<,>"
 	"," CLB
 "<inersuaq>"
+	"iner" Gram/IV SUAR Der/vv V Ind Gram/Exclm
 	"ini" SUAQ Der/nn N Abs Sg
 "<ineeraq>"
 	"ini" ARAQ Der/nn N Abs Sg
@@ -48968,6 +48925,7 @@
 	"naaq" N Rel Sg 4PlPoss
 "<immulerneq ajorpunga>"
 	"immuk" LIR Der/nv Orth/Alt Gram/IV NIQ_AJUR Der/vv V Ind 1Sg
+	"immuler" Gram/IV NIQ_AJUR Der/vv V Ind 1Sg
 "<.>"
 	"." CLB
 </s>
@@ -52635,7 +52593,7 @@
 
 <svBeAmzcjTPxt8Tn87bMu5xJrsiM-0>
 "<Nunatsinnut>"
-	"Nuna" Prop Sem/Geo Trm Sg 1PlPoss
+	"Nuna" Sem/Geo Prop Trm Sg 1PlPoss
 	"nuna" N Trm Pl 1PlPoss
 	"nuna" N Trm Sg 1PlPoss
 "<takornariaqanngikkaangat>"
@@ -52653,12 +52611,8 @@
 	"takornar" Gram/TV RIAR Der/vv TIP Der/vv HTR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn INNAQ Der/nn N Rel Pl %AmbiguøsN
 "<aningaasatigut>"
 	"aningaasaq" N Via Pl
-"<eqqugaaneq>"
-	"eqqor" Gram/TV TAQ Der/vn U Der/nv Gram/IV NIQ Der/vn N Abs Sg
-	"eqqor" Gram/TV TAQ Der/vn U Der/nv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-"<ajorput>"
-	"ajor" Gram/IV V Ind 3Pl
-	"ajor" Gram/TV Gram/Refl V Ind 3Pl
+"<eqqugaaneq ajorput>"
+	"eqqor" Gram/TV TAQ Der/vn U Der/nv Gram/IV NIQ_AJUR Der/vv V Ind 3Pl
 "<.>"
 	"." CLB
 </s>
