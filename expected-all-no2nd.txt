@@ -1021,7 +1021,7 @@
 "<tassaapput>"
 	"tassa" U V Ind 3Pl @PRED #4->0
 "<meeqqat>"
-	"meeraq" N Abs Pl @i-N< #5->4
+	"meeraq" N Abs Pl @i-SUBJ_COMP< #5->4
 "<,>"
 	"," CLB #6->6
 "<taakkumi>"
@@ -1207,9 +1207,9 @@
 "<Mianersoqqussutaavorli>"
 	"mianersor" QQU UTE U V Ind 3Sg CONJ-LI @PRED #1->0
 "<aamma>"
-	"aamma" Adv @ADVL> #2->2
+	"aamma" Adv @ADVL> #2->3
 "<asuliinnaanngitsoq>"
-	"asuliinnaq" U NNGIT TUQ N Abs Sg @i-N< #3->1
+	"asuliinnaq" U NNGIT V Par 3Sg @CL-<CIT #3->1
 "<.>"
 	"." CLB #4->4
 
@@ -2156,7 +2156,7 @@
 "<tassaaginnarputit>"
 	"tassa" U INNAR V Ind 2Sg @PRED #4->0
 "<nukappiaraaraq>"
-	"nukappiaraq" ARAQ N Abs Sg @i-N< #5->4
+	"nukappiaraq" ARAQ N Abs Sg @i-SUBJ_COMP< #5->4
 "<nukappiaraaqqat>"
 	"nukappiaraq" ARAQ N Rel Pl @POSS> #6->10
 "<allat>"
@@ -2166,7 +2166,7 @@
 "<tuusintillillu>"
 	"tusind" LIK N Rel Pl CONJ-LU @N< #9->7
 "<assingat>"
-	"assik" N Abs Sg 3PlPoss @N< #10->10
+	"assik" N Abs Sg 3PlPoss @N< #10->5
 "<.>"
 	"." CLB #11->11
 </s>
@@ -2225,7 +2225,7 @@
 "<tassa>"
 	"tassa" Adv @PRED #2->0
 "<Emilie>"
-	"Emilie" Prop Abs Sg @i-N< #3->2
+	"Emilie" Prop Abs Sg @i-SUBJ_COMP< #3->2
 "<.>"
 	"." CLB #4->4
 </s>
@@ -3492,7 +3492,7 @@
 "<allannissamut>"
 	"allap" NIQ SSAQ N Trm Sg @i-ADVL> #15->16
 "<ilitsersuut>"
-	"ilitsersor" UTE N Abs Sg @i-N< #16->16
+	"ilitsersor" UTE N Abs Sg @i-SUBJ_COMP< #16->12
 "<.>"
 	"." CLB #17->17
 </s>
@@ -4566,7 +4566,7 @@
 "<baobabit>"
 	"baobab" N Rel Pl @POSS> #3->4
 "<naatsiiassartaat>"
-	"naatsiiaq" SSAQ TAQ N Abs Pl 3PlPoss @i-N< #4->2
+	"naatsiiaq" SSAQ TAQ N Abs Pl 3PlPoss @i-SUBJ_COMP< #4->2
 "<.>"
 	"." CLB #5->5
 
@@ -6107,7 +6107,7 @@
 "<ingasattumik>"
 	"ingasap" TUQ N Ins Sg @i-ADVL> #4->5
 "<pissusilik>"
-	"pi" SSUSIQ LIK N Abs Sg @i-N< #5->3
+	"pi" SSUSIQ LIK N Abs Sg @i-SUBJ_COMP< #5->3
 "<aammalu>"
 	"aamma" Conj CONJ-LU @CONJ #6->7
 "<avatangiisit>"
@@ -6117,7 +6117,7 @@
 "<illugit>"
 	"ip" V Cont 3PlO @i-ADVL> #9->10
 "<periuseqartarneq>"
-	"periuseq" QAR TAR NIQ N Abs Sg @i-N< #10->10
+	"periuseq" QAR TAR NIQ N Abs Sg @i-SUBJ_COMP< #10->3
 "<.>"
 	"." CLB #11->11
 </s>
@@ -7381,7 +7381,7 @@
 "<nunaqavissutut>"
 	"nuna" QAR VIP TUQ N Aeq Pl @i-ADVL> #27->28
 "<isigineqarsinnaasut>"
-	"isige" NIQAR SINNAA TUQ N Abs Pl @i-N< #28->28
+	"isige" NIQAR SINNAA TUQ N Abs Pl @i-SUBJ_COMP< #28->10
 "<,>"
 	"," CLB #29->29
 "<Jakob>"
@@ -7838,7 +7838,7 @@
 "<pingaarutilinnik>"
 	"pi" NGAAR UTE LIK N Ins Pl @i-ADVL> #5->6
 "<oqaluttuarsinnaasut>"
-	"oqalup" TUAR SINNAA TUQ N Abs Pl @i-N< #6->2
+	"oqalup" TUAR SINNAA TUQ N Abs Pl @i-SUBJ_COMP< #6->2
 "<.>"
 	"." CLB #7->7
 </s>
@@ -8531,7 +8531,7 @@
 "<Angutaavungami>"
 	"angut" U V Ind 1Sg MI @PRED #1->0
 "<ilungersortoq>"
-	"ilungersor" TUQ N Abs Sg @i-N< #2->1
+	"ilungersor" TUQ N Abs Sg @i-SUBJ_COMP< #2->1
 "<!>"
 	"!" CLB #3->3
 
@@ -9496,7 +9496,7 @@
 "<Tassa>"
 	"tassa" Adv @PRED #1->0
 "<Anna>"
-	"Anna" Prop Abs Sg @i-N< #2->2
+	"Anna" Prop Abs Sg @i-SUBJ_COMP< #2->1
 "<,>"
 	"," CLB #3->3
 "<taassuma>"
@@ -9565,7 +9565,7 @@
 "<naalakkersuinikkut>"
 	"naalagaq" LIRSUR HTR NIQ N Via Sg @i-ADVL> #9->10
 "<kissaateqarneq>"
-	"kissar" UTE QAR NIQ N Abs Sg @i-N< #10->10
+	"kissar" UTE QAR NIQ N Abs Sg @i-SUBJ_COMP< #10->3
 "<.>"
 	"." CLB #11->11
 </s>
@@ -11069,19 +11069,19 @@
 "<tassaapput>"
 	"tassa" U V Ind 3Pl @PRED #2->0
 "<saarullernat>"
-	"saarullernaq" N Abs Pl @i-N< #3->2
+	"saarullernaq" N Abs Pl @i-SUBJ_COMP< #3->2
 "<,>"
 	"," CLB #4->4
 "<norskit>"
 	"norskeq" N Rel Pl @POSS> #5->6
 "<ammassassui>"
-	"ammassak" SUAQ N Abs Pl 3PlPoss @i-N< #6->6
+	"ammassak" SUAQ N Abs Pl 3PlPoss @i-SUBJ_COMP< #6->2
 "<,>"
 	"," CLB #7->7
 "<makrelit>"
-	"makrel" N Abs Pl @i-N< #8->8
+	"makrel" N Abs Pl @i-SUBJ_COMP< #8->2
 "<ammassallu>"
-	"ammassaq" N Abs Pl CONJ-LU @i-N< #9->9
+	"ammassaq" N Abs Pl CONJ-LU @i-SUBJ_COMP< #9->2
 "<,>"
 	"," CLB #10->10
 "<tamaani>"
@@ -11568,7 +11568,7 @@
 "<'>"
 	"'" PUNCT #7->7
 "<meerapalaaq>"
-	"meeraq" PALAAQ N Abs Sg @i-N< #8->6
+	"meeraq" PALAAQ N Abs Sg @i-SUBJ_COMP< #8->6
 "<'>"
 	"'" PUNCT #9->9
 "<.>"
@@ -12812,7 +12812,7 @@
 "<immaqa>"
 	"immaqa" Adv #3->3
 "<angaani>"
-	"angaaq" N Abs Sg 4SgPoss @i-N< #4->4
+	"angaaq" N Abs Sg 4SgPoss @i-SUBJ_COMP< #4->2
 "<Ole>"
 	"Ole" Prop Abs Sg @<APPOS #5->4
 "<.>"
@@ -12840,9 +12840,10 @@
 
 <sRhvGxjQYBniEQQaSyZJhT24S1HI-0>
 "<Tassa>"
-	"tassa" Adv @PRED #1->0
+	"tassa" Adv @PRED #1->1
 "<ajortoq>"
-	"ajor" TUQ N Abs Sg @i-N< #2->2
+	"ajor" TUQ N Abs Sg @i-SUBJ_COMP< #2->1
+	"ajor" V Par 3Sg @PRED2 #2->1
 "<.>"
 	"." CLB #3->3
 </s>
@@ -13418,13 +13419,13 @@
 "<tassaapput>"
 	"tassa" U V Ind 3Pl @PRED #5->0
 "<inequnarluinnarnera>"
-	"inequnar" LLUINNAR NIQ N Abs Sg 3SgPoss @i-N< #6->5
+	"inequnar" LLUINNAR NIQ N Abs Sg 3SgPoss @i-SUBJ_COMP< #6->5
 "<,>"
 	"," CLB #7->7
 "<illartarnera>"
-	"illar" TAR NIQ N Abs Sg 3SgPoss @i-N< #8->8
+	"illar" TAR NIQ N Abs Sg 3SgPoss @i-SUBJ_COMP< #8->5
 "<savaatitaarusunneralu>"
-	"sava" UTE TAAR GUSUP NIQ N Abs Sg 3SgPoss CONJ-LU @i-N< #9->9
+	"sava" UTE TAAR GUSUP NIQ N Abs Sg 3SgPoss CONJ-LU @i-SUBJ_COMP< #9->5
 "<;>"
 	";" CLB #10->10
 
@@ -13891,29 +13892,29 @@
 "<tassaapput>"
 	"tassa" U V Ind 3Pl @PRED #4->0
 "<Canada>"
-	"Canada" Prop Abs Sg @i-N< #5->4
+	"Canada" Prop Abs Sg @i-SUBJ_COMP< #5->4
 "<,>"
 	"," CLB #6->6
 "<Frankrig>"
-	"Frankrig" Prop Abs Sg @i-N< #7->7
+	"Frankrig" Prop Abs Sg @i-SUBJ_COMP< #7->4
 "<,>"
 	"," CLB #8->8
 "<Italia>"
-	"Italien" Prop Abs Sg @i-N< #9->9
+	"Italien" Prop Abs Sg @i-SUBJ_COMP< #9->4
 "<,>"
 	"," CLB #10->10
 "<Japan>"
-	"Japan" Prop Abs Sg @i-N< #11->11
+	"Japan" Prop Abs Sg @i-SUBJ_COMP< #11->4
 "<,>"
 	"," CLB #12->12
 "<Tuluit Nunaat>"
-	"Tuluit Nunaat" Prop Abs Sg 3PlPoss @i-N< #13->13
+	"Tuluit Nunaat" Prop Abs Sg 3PlPoss @i-SUBJ_COMP< #13->4
 "<,>"
 	"," CLB #14->14
 "<Tyskland>"
-	"Tyskland" Prop Abs Sg @i-N< #15->15
+	"Tyskland" Prop Abs Sg @i-SUBJ_COMP< #15->4
 "<USA-lu>"
-	"USA" Prop Abs Sg CONJ-LU @i-N< #16->16
+	"USA" Prop Abs Sg CONJ-LU @i-SUBJ_COMP< #16->4
 "<.>"
 	"." CLB #17->17
 </s>
@@ -15272,7 +15273,7 @@
 "<inersimasut>"
 	"iner" SIMA TUQ N Rel Pl @POSS> #2->3
 "<ileqquat>"
-	"ileqqoq" N Abs Sg 3PlPoss @i-N< #3->3
+	"ileqqoq" N Abs Sg 3PlPoss @i-SUBJ_COMP< #3->1
 "<.>"
 	"." CLB #4->4
 </s>
@@ -15725,7 +15726,7 @@
 "<baobabit>"
 	"baobab" N Rel Pl @POSS> #3->4
 "<naatsiiassartaat>"
-	"naatsiiaq" SSAQ TAQ N Abs Pl 3PlPoss @i-N< #4->2
+	"naatsiiaq" SSAQ TAQ N Abs Pl 3PlPoss @i-SUBJ_COMP< #4->2
 "<.>"
 	"." CLB #5->5
 
@@ -15908,7 +15909,7 @@
 "<tassaanerusut>"
 	"tassa" U NIRU TUQ N Abs Pl @<APPOS #10->6
 "<taxat>"
-	"taxa" N Abs Pl @i-N< #11->11
+	"taxa" N Abs Pl @N< #11->10
 "<,>"
 	"," CLB #12->12
 "<Sisimiut>"
@@ -16092,9 +16093,9 @@
 "<Statsministerip>"
 	"Statsminister" Prop Rel Sg @SUBJ> #1->6
 "<ammaanersiornermi>"
-	"ammar" HTR NIQ SIUR NIQ N Lok Sg @ADVL> #2->6
+	"ammar" HTR NIQ SIUR NIQ N Lok Sg @i-ADVL> #2->3
 "<oqalugiaammini>"
-	"oqalugiar" UTE N Lok Sg 4SgPoss @N< #3->2
+	"oqalugiar" UTE N Lok Sg 4SgPoss @ADVL> #3->6
 "<kalaallit>"
 	"kalaaleq" N Abs Pl @OBJ> #4->6
 "<innuttaasut>"
@@ -17234,13 +17235,13 @@
 "<piiarneqartumit>"
 	"piiar" NIQAR TUQ N Abl Sg @N< #11->10
 "<sinnikut>"
-	"sinneq" KUQ N Abs Pl @i-N< #12->7
+	"sinneq" KUQ N Abs Pl @i-SUBJ_COMP< #12->7
 "<)>"
 	")" PUNCT RIGHT #13->13
 "<111>"
 	"111" Num Abs Pl @>N #14->15
 "<millionit>"
-	"million" Num Abs Pl @N< #15->7
+	"million" Num Abs Pl @i-SUBJ_COMP< #15->7
 "<tonsiussalluni>"
 	"ton" U SSA V Cont 4Sg @PRED #16->0
 "<.>"
@@ -17315,7 +17316,7 @@
 "<Tassalu>"
 	"tassa" Adv CONJ-LU @PRED #1->0
 "<Eskild>"
-	"Eskild" Prop Abs Sg @i-N< #2->0
+	"Eskild" Prop Abs Sg @i-SUBJ_COMP< #2->1
 "<.>"
 	"." CLB #3->3
 </s>
@@ -17889,47 +17890,6 @@
 	"." CLB #9->9
 </s>
 
-<scxJCbVN3eDSSBTz0b5xrJu4uIp4-0>
-"<KNI-p>"
-	"KNI" N Rel Sg @POSS> #1->3
-"<taamani>"
-	"taamani" Adv @i-ADVL> #2->3
-"<kukkunersiuisui>"
-	"kukkunersiuisoq" N Abs Pl 3SgPoss @SUBJ> #3->18
-"<Deloittemeersut>"
-	"Deloitte" Prop Abl Sg @i-ADVL> #4->5
-"<IR>"
-	"IR" TUQ N Abs Pl @N< #5->3
-"<,>"
-	"," CLB #6->6
-"<Peter>"
-	"Peter" Prop Abs Sg @PROP> #7->9
-"<A.>"
-	"A" N @PROP> #8->9
-"<Wistoft>"
-	"Wistoft" Prop Abs Sg @<APPOS #9->9
-"<Claus>"
-	"Claus" Prop Abs Sg @PROP> #10->12
-"<Bechilu>"
-	"Bech" Prop Abs Sg CONJ-LU @<APPOS #11->9
-"<,>"
-	"," CLB #12->12
-"<ingerlatseqatigiiffissuup>"
-	"ingerlap" HTR QATE GIIP VIK SUAQ N Rel Sg @POSS> #13->15
-"<2008-mi>"
-	"2008" N Lok Sg @i-ADVL> #14->15
-"<naatsorsuutaani>"
-	"naatsorsor" UTE N Lok Pl 3SgPoss @i-ADVL> #15->16
-"<uppernarsiinerminni>"
-	"uppernarsi" HTR NIQ N Lok Sg 4PlPoss @ADVL> #16->18
-"<ima>"
-	"ima" Adv @ADVL> #17->18
-"<allapput>"
-	"allap" V Ind 3Pl @PRED #18->0
-"<:>"
-	":" CLB DIRTALESTART #19->19
-</s>
-
 <sd4FzgAJPKPHz82LoNaazMVKFVhA-0>
 "<Maannakkut>"
 	"maannakkut" Adv @CL-ADVL> #1->4
@@ -18094,7 +18054,7 @@
 "<tassa>"
 	"tassa" Adv @PRED #3->0
 "<meerapalaaq>"
-	"meeraq" PALAAQ N Abs Sg @i-N< #4->4
+	"meeraq" PALAAQ N Abs Sg @i-SUBJ_COMP< #4->3
 "<!>"
 	"!" CLB DIRTALESLUT #5->5
 
@@ -18985,7 +18945,7 @@
 "<tassa>"
 	"tassa" Adv @PRED #2->0
 "<kunngertik>"
-	"kunngi" N Abs Sg 4PlPoss @SUBJ> #3->5
+	"kunngi" N Abs Sg 4PlPoss @SUBJ> #3->4
 "<pitsaasuullunilu>"
 	"pitsak" U TUQ U V Cont 4Sg CONJ-LU @CL-<CIT #4->4
 "<uppertuummat>"
@@ -19590,7 +19550,7 @@
 "<baobabit>"
 	"baobab" N Rel Pl @POSS> #3->4
 "<naatsiiassartaat>"
-	"naatsiiaq" SSAQ TAQ N Abs Pl 3PlPoss @i-N< #4->2
+	"naatsiiaq" SSAQ TAQ N Abs Pl 3PlPoss @i-SUBJ_COMP< #4->2
 "<.>"
 	"." CLB #5->5
 </s>
@@ -19769,7 +19729,7 @@
 "<oqaluffittut>"
 	"oqalup" VIK N Aeq Sg @i->V #6->7
 "<portutigisut>"
-	"portu" TIGE TUQ N Abs Pl @i-N< #7->5
+	"portu" TIGE TUQ N Abs Pl @i-SUBJ_COMP< #7->5
 "<allaalluunniit>"
 	"allaat" Adv LUUNNIIT @ADVL> #8->10
 "<nagguaatsorpassuarnik>"
@@ -20669,7 +20629,7 @@
 "<baobabip>"
 	"baobab" N Rel Sg @POSS> #3->4
 "<naatsiiassartaa>"
-	"naatsiiaq" SSAQ TAQ N Abs Sg 3SgPoss @i-N< #4->2
+	"naatsiiaq" SSAQ TAQ N Abs Sg 3SgPoss @i-SUBJ_COMP< #4->2
 "<.>"
 	"." CLB #5->5
 </s>
@@ -21558,7 +21518,7 @@
 "<baobabit>"
 	"baobab" N Rel Pl @POSS> #2->3
 "<ilagisaat>"
-	"ila" GE TAQ N Abs Sg 3PlPoss @i-N< #3->1
+	"ila" GE TAQ N Abs Sg 3PlPoss @i-SUBJ_COMP< #3->1
 "<nutaaq>"
 	"nutaaq" N Abs Sg @N< #4->3
 "<.>"
@@ -22826,7 +22786,7 @@
 "<amerlanerpaartaannik>"
 	"amerla" NIRPAAQ TAQ N Ins Pl 3PlPoss @i-MIK-OBJ> #8->9
 "<piiaaffissat>"
-	"piiar" HTR VIK SSAQ N Abs Pl @i-N< #9->6
+	"piiar" HTR VIK SSAQ N Abs Pl @i-SUBJ_COMP< #9->6
 "<,>"
 	"," CLB #10->10
 "<aqqusinniassamut>"
@@ -22855,7 +22815,7 @@
 "<44-nik>"
 	"44" Num Ins Pl @i->N #8->9
 "<ukiulik>"
-	"ukioq" LIK N Abs Sg @i-N< #9->7
+	"ukioq" LIK N Abs Sg @i-SUBJ_COMP< #9->7
 "<Christian>"
 	"Christian" Prop Abs Sg @PROP> #10->11
 "<Keldsen>"
@@ -23603,7 +23563,7 @@
 "<quianaannartutut>"
 	"quianaannartoq" N Aeq Sg @i-ADVL> #3->4
 "<isiginngisara>"
-	"isige" NNGIT TAQ N Abs Sg 1SgPoss @i-N< #4->1
+	"isige" NNGIT TAQ N Abs Sg 1SgPoss @i-SUBJ_COMP< #4->1
 "<.>"
 	"." CLB #5->5
 </s>
@@ -24126,7 +24086,7 @@
 "<DTU Byg-imut>"
 	"DTU Byg" Prop Trm Sg @i-ADVL> #13->14
 "<atasoq>"
-	"ata" TUQ N Abs Sg @i-N< #14->11
+	"ata" TUQ N Abs Sg @i-SUBJ_COMP< #14->11
 "<.>"
 	"." CLB #15->15
 </s>
@@ -24384,7 +24344,7 @@
 "<’>"
 	"’" PUNCT RIGHT #7->7
 "<alataq>"
-	"alataq" N Abs Sg @i-N< #8->8
+	"alataq" N Abs Sg @i-SUBJ_COMP< #8->6
 "<’>"
 	"’" PUNCT RIGHT #9->9
 "<,>"
@@ -24424,7 +24384,7 @@
 "<Tassa>"
 	"tassa" Adv @PRED #1->0
 "<Emilie>"
-	"Emilie" Prop Abs Sg @i-N< #2->0
+	"Emilie" Prop Abs Sg @i-SUBJ_COMP< #2->1
 "<.>"
 	"." CLB #3->3
 </s>
@@ -25222,7 +25182,7 @@
 "<Tassa>"
 	"tassa" Adv @PRED #1->0
 "<inuusuttut>"
-	"inuusup" TUQ N Abs Pl @SUBJ> #2->7
+	"inuusup" TUQ N Abs Pl @i-SUBJ_COMP< #2->1
 "<15-16-inik>"
 	"15-16" Num Ins Pl @i->N #3->4
 "<ukiullit>"
@@ -25234,7 +25194,7 @@
 "<soraarummeernersiorlutik>"
 	"soraarummeer" NIQ SIUR V Cont 4Pl @i-ADVL> #7->8
 "<nuannassuataartut>"
-	"nuannap" SUATAAR TUQ N Abs Pl @i-N< #8->8
+	"nuannap" SUATAAR TUQ N Abs Pl @N< #8->2
 "<.>"
 	"." CLB #9->9
 </s>
@@ -26029,7 +25989,7 @@
 "<inatsisillu>"
 	"inatsit" N Rel Pl CONJ-LU @POSS> #15->16
 "<oqaasertaat>"
-	"oqaaseq" TAQ N Abs Pl 3PlPoss @i-N< #16->16
+	"oqaaseq" TAQ N Abs Pl 3PlPoss @i-SUBJ_COMP< #16->5
 "<.>"
 	"." CLB #17->17
 </s>
@@ -26455,7 +26415,7 @@
 "<allatat>"
 	"alla" TAQ N Rel Pl @POSS> #13->14
 "<kukkuneqakkajunnerujussuat>"
-	"kukku" NIQ QAR GAJUP NIQ RUJUK SUAQ N Abs Sg 3PlPoss @i-N< #14->7
+	"kukku" NIQ QAR GAJUP NIQ RUJUK SUAQ N Abs Sg 3PlPoss @i-SUBJ_COMP< #14->7
 "<.>"
 	"." CLB #15->15
 </s>
@@ -26799,7 +26759,7 @@
 "<naalagaaffiuvoq>"
 	"naalagaq" U VIK U V Ind 3Sg @PRED #3->0
 "<nalunartulik>"
-	"nalu" NAR TUQ LIK N Abs Sg @i-N< #4->3
+	"nalu" NAR TUQ LIK N Abs Sg @i-SUBJ_COMP< #4->3
 "<.>"
 	"." CLB #5->5
 </s>
@@ -27065,7 +27025,7 @@
 "<akerliussutsimik>"
 	"akerleq" U SSUSIQ N Ins Sg @i-MIK-OBJ> #11->12
 "<takutitsineq>"
-	"taku" TIP HTR NIQ N Abs Sg @i-N< #12->12
+	"taku" TIP HTR NIQ N Abs Sg @i-SUBJ_COMP< #12->7
 "<.>"
 	"." CLB #13->13
 </s>
@@ -27257,7 +27217,7 @@
 "<tassaasoq>"
 	"tassa" U V Par 3Sg @PRED #6->0
 "<oquutaq>"
-	"oquutaq" N Abs Sg @i-N< #7->6
+	"oquutaq" N Abs Sg @i-SUBJ_COMP< #7->6
 "<akunik>"
 	"aku" N Ins Pl @i-ADVL> #8->9
 "<immigaq>"
@@ -27367,7 +27327,7 @@
 "<tassani>"
 	"tass" Adv Lok @N< #5->4
 "<naalagaasoq>"
-	"naalagaq" U TUQ N Abs Sg @i-N< #6->2
+	"naalagaq" U TUQ N Abs Sg @i-SUBJ_COMP< #6->2
 "<.>"
 	"." CLB #7->7
 </s>
@@ -28297,7 +28257,7 @@
 "<fru>"
 	"fru" N Abs Sg @>N #2->3
 "<Jensen>"
-	"Jensen" Prop Abs Sg @i-N< #3->3
+	"Jensen" Prop Abs Sg @SUBJ> #3->11
 "<maanna>"
 	"maanna" Adv @ADVL> #4->11
 "<ernermi>"
@@ -28895,7 +28855,7 @@
 "<oqaluffittut>"
 	"oqalup" VIK N Aeq Sg @i->V #5->6
 "<portutigisut>"
-	"portu" TIGE TUQ N Abs Pl @i-N< #6->4
+	"portu" TIGE TUQ N Abs Pl @i-SUBJ_COMP< #6->4
 "<allaalluunniit>"
 	"allaat" Adv LUUNNIIT @ADVL> #7->9
 "<nagguaatsorpassuarnik>"
