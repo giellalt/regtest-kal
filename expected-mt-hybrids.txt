@@ -6232,8 +6232,8 @@
 	"tupip" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn N Rel Pl 4PlPoss
 	"tupip" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn N Rel Sg 4PlPoss
 "<takuvunga>"
-	"taku" Gram/HV Gram/IV V Ind 1Sg
-	"taku" Gram/TV Gram/Refl Gram/IV V Ind 1Sg
+	"taku" Gram/HV V Ind 1Sg
+	"taku" Gram/TV Gram/Refl V Ind 1Sg
 "<kiattup>"
 	"kiap" Gram/IV TUQ Der/vn N Rel Sg
 "<orpippassui>"
@@ -6241,8 +6241,8 @@
 	"orpik" PAK Der/nn SUAQ Der/nn N Abs Pl 3SgPoss
 "<pillugit>"
 	"pi" Gram/TV V Cont 3PlO
-	"pillup" Gram/IV V Imp 2Sg
-	"pillup" Gram/TV Gram/Refl V Imp 2Sg
+	"pillup" Gram/IV V Imp 2Sg Gram/ImpPos
+	"pillup" Gram/TV Gram/Refl V Imp 2Sg Gram/ImpPos
 "<atuakkiami>"
 	"atuakkiaq" N Lok Sg
 	"atuakkiaq" N Rel Pl 4SgPoss
@@ -6265,8 +6265,8 @@
 	"ateq" N Rel Pl 2SgPoss MI
 	"ati" Gram/IV V Opt 3Pl MI
 	"ati" Gram/IV V Opt 3Pl Orth/Alt MI
-	"ati" Gram/TV Gram/Refl Gram/IV V Opt 3Pl MI
-	"ati" Gram/TV Gram/Refl Gram/IV V Opt 3Pl Orth/Alt MI
+	"ati" Gram/TV Gram/Refl V Opt 3Pl MI
+	"ati" Gram/TV Gram/Refl V Opt 3Pl Orth/Alt MI
 "<”>"
 	"”" PUNCT RIGHT
 "<Oqaluttuat ilumoortut>"
@@ -26294,10 +26294,7 @@
 	"qeqertaq" N Abs Sg 2SgPoss
 	"qeqertaq" N Rel Pl
 "<saneqqutilikkavut>"
-	"saneqqup" Gram/IV TIP Der/vv Gram/TV LIR Der/vv Gram/TV TAQ Der/vn N Abs Pl 1PlPoss
 	"saneqqup" Gram/TV LIR Der/vv Gram/TV TAQ Der/vn N Abs Pl 1PlPoss
-	"saner" Gram/IV QQU Der/vv Gram/TV TIP Der/vv Gram/Db LIR Der/vv TAQ Der/vn N Abs Pl 1PlPoss
-	"saner" Gram/IV QQU Der/vv Gram/TV TIR Der/vv Gram/TV LIR Der/vv Gram/TV TAQ Der/vn N Abs Pl 1PlPoss
 "<ateqarput>"
 	"ate" QAR Der/nv Gram/IV V Ind 3Pl
 	"ateq" QAR Der/nv Gram/IV V Ind 3Pl
@@ -38931,7 +38928,7 @@
 	"assut" Adv
 	"assut" Interj
 "<tulluusimaarutigalugit>"
-	"tulluup" SIMAAR Der/vv UTE Der/vn GE Der/nv Gram/TV V Cont 3PlO
+	"tulluup" Gram/IV SIMAAR Der/vv Gram/IV UTE Der/vn GE Der/nv Gram/TV V Cont 3PlO
 "<,>"
 	"," CLB
 "<namminermi>"
@@ -38949,6 +38946,8 @@
 	"nammineq" Gram/Coref Pron Rel 4Pl Orth/Alt MI
 	"nammineq" Gram/Coref Pron Rel 4Sg MI
 "<atiisa>"
+	"ate" N Rel Pl 3PlPoss Err/Sub
+	"ate" N Rel Pl 3SgPoss Err/Sub
 	"ateq" N Rel Pl 3SgPoss Orth/Youth
 "<Ivalo>"
 	"Ivalo" Dial/Ngr Sem/Fem Sem/Hum Prop Abs Sg
