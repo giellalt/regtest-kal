@@ -1502,13 +1502,13 @@
 "<,>"
 	"," CLB
 "<Eriup>"
-	"Erik" Sem/Mask Sem/Hum Prop Rel Sg @POSS>
+	"Erik" Sem/Mask Sem/Hum Prop Rel Sg %PossOblique @POSS>
 "<nuliaminit>"
 	"nuliaq" N Abl Sg 4SgPoss @i-ADVL>
 "<siullermit>"
 	"siulleq" N Abl Sg @N<
 "<erneranik>"
-	"erneq" N Ins Sg 3SgPoss @N<
+	"erneq" N Ins Sg 3SgPoss %PossOblique @N<
 "<ernutaqaraluarpoq>"
 	"ernutaq" QAR Der/nv Gram/IV GALUAR Der/vv Gram/IV V Ind 3Sg @PRED
 "<.>"
@@ -6547,9 +6547,9 @@
 "<Oqaatigineqarpoq>"
 	"oqaatige" Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg @PRED
 "<iginneq>"
-	"igip" Gram/IV NIQ Der/vn N Abs Sg @OBJ>
+	"igip" Gram/IV NIQ Der/vn N Abs Sg %ContHypotagme @OBJ>
 "<qajuusaasanngorlugu>"
-	"qajuusaq" USAQ Der/nn NNGUR Der/nv Gram/TV V Cont 3SgO @i-ADVL>
+	"qajuusaq" USAQ Der/nn NNGUR Der/nv Gram/TV V Cont 3SgO %ContHypotagme @i-ADVL>
 "<panertitaq>"
 	"paner" Gram/IV TIP Der/vv Gram/TV TAQ Der/vn N Abs Sg @N<
 "<iffiassanut>"
@@ -6621,9 +6621,9 @@
 "<Kommunillu>"
 	"kommune" OLang/DAN Gram/Conj-encl N Rel Sg CONJ-LU @POSS>>
 "<sapaatip>"
-	"sapaat" N Rel Sg @POSS>
+	"sapaat" N Rel Sg %PossOblique @POSS>
 "<akunneranut>"
-	"akunneq" N Trm Sg 3SgPoss @ADVL>
+	"akunneq" N Trm Sg 3SgPoss %PossOblique @ADVL>
 "<marloriarluni>"
 	"marluk" RIAR Der/nv Gram/IV V Cont 4Sg @i-ADVL>
 "<aggersittagaanik>"
@@ -7184,17 +7184,17 @@
 "<Aataakkut>"
 	"aataa" KKUT Der/nn Gram/PlurTant N Abs Pl @SUBJ>
 "<asimi>"
-	"asi" N Lok Sg @ADVL>
+	"asi" N Lok Sg @ADVL>N
 "<illuaraanni>"
-	"illu" ARAQ Der/nn N Lok Sg 3PlPoss @N<
+	"illu" ARAQ Der/nn N Lok Sg 3PlPoss @ADVL>
 "<,>"
 	"," CLB
 "<ilaanni>"
 	"ilaanni" Adv @ADVL>
 "<ullut>"
-	"ulloq" N Abs Pl @OBJ>
+	"ulloq" N Abs Pl %ContHypotagme @OBJ>
 "<arlerlugit>"
-	"arler" Gram/TV V Cont 3PlO @ADVL>
+	"arler" Gram/TV V Cont 3PlO %ContHypotagme @ADVL>
 "<illoqarfimmut>"
 	"illu" QAR Der/nv Gram/IV VIK Der/vn N Trm Sg @ADVL>
 "<najukkaminnut>"
@@ -12814,11 +12814,11 @@
 "<ilaasortat>"
 	"ilaa" Gram/IV TUQ Der/vn TAQ Der/nn N Abs Pl @SUBJ>
 "<sulinerput>"
-	"suli" Gram/IV NIQ Der/vn N Abs Sg 1PlPoss @OBJ>
+	"suli" Gram/IV NIQ Der/vn N Abs Sg 1PlPoss %ContHypotagme @OBJ>
 "<pillugu>"
-	"pi" Gram/TV V Cont 3SgO @i-ADVL>
+	"pi" Gram/TV V Cont 3SgO %ContHypotagme @i-ADVL>
 "<pisinnaatillutik>"
-	"pi" SINNAA Der/vv Gram/IV TIP Der/vv Gram/TV Gram/Refl V Cont 4Pl @i-ADVL>
+	"pi" Gram/IV SINNAA Der/vv Gram/IV TIP Der/vv Gram/TV Gram/Refl V Cont 4Pl @i-ADVL>
 "<oqaluttuarnissaminnut>"
 	"oqalup" Gram/IV TUAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Sg 4PlPoss @ADVL>
 "<pisussaaffeqarput>"
@@ -19491,9 +19491,9 @@
 "<Anette>"
 	"Anette" Sem/Fem Sem/Hum Prop Abs Sg @SUBJ>
 "<Emiliep>"
-	"Emilie" Sem/Fem Sem/Hum Prop Rel Sg @POSS>
+	"Emilie" Sem/Fem Sem/Hum Prop Rel Sg %PossOblique @POSS>
 "<ukioqataanik>"
-	"ukioq" QATE Der/nn N Ins Pl 3SgPoss @i->N
+	"ukioq" QATE Der/nn N Ins Pl 3SgPoss %PossOblique @i->N
 "<,>"
 	"," CLB
 "<Janemik>"
