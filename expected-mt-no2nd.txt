@@ -2296,31 +2296,6 @@
 	"." CLB #4->4
 </s>
 
-<s6CSMAFyDaEZlxJxjyduVLTBGYwg-0>
-"<Silassorippasigisannik>"
-	"silassorip" PASIP GE TAQ N Ins Sg 1SgPoss @MIK-OBJ> #1->2
-"<naapitsigaangama>"
-	"naapip" HTR V IteCau 1Sg @CL-ADVL> #2->10
-"<titartagara>"
-	"titartar" TAQ N Abs Sg 1SgPoss @OBJ> #3->9
-"<siulleq>"
-	"siulleq" N Abs Sg @N< #4->3
-"<,>"
-	"," CLB #5->5
-"<taamanili>"
-	"taamani" Adv CONJ-LI @i-ADVL> #6->7
-"<toqqortarisimasara>"
-	"toqqor" TAQ GE SIMA TAQ N Abs Sg 1SgPoss @N< #7->4
-"<,>"
-	"," CLB #8->8
-"<atorlugu>"
-	"ator" V Cont 3SgO @ADVL> #9->10
-"<misilittaasarpunga>"
-	"misilittar" HTR TAR V Ind 1Sg @PRED #10->0
-"<.>"
-	"." CLB #11->11
-</s>
-
 <s6F7RxPy3wQ0nfA4ORdBujgijssU-0>
 "<Piitaq>"
 	"Piitaq" Prop Abs Sg @OBJ> #1->3
@@ -8907,7 +8882,7 @@
 "<ammasulluunniit>"
 	"amma" TUQ N Rel Pl CONJ-LUUNNIIT @N< #10->7
 "<titartarnissaat>"
-	"titar" TAR NIQ SSAQ N Abs Sg 3PlPoss @OBJ> #11->13
+	"titartar" NIQ SSAQ N Abs Sg 3PlPoss @OBJ> #11->13
 "<kisiat>"
 	"kisi" N Akk 3Sg @N< #12->11
 "<ilikkarsimavara>"
@@ -22229,7 +22204,11 @@
 
 <sy1nzA2VLxfJ6huvydyuoK3qoEDg-0>
 "<Aasarissisimammat>"
+<<<<<<< HEAD
 	"aasarik" SI SIMA V Cau 3Sg @CAU> #1->4
+=======
+	"aasarik" SI SIMA V Cau 3Sg @CL-ADVL> #1->1
+>>>>>>> 5066c7d8 (Regression nu ren efter smårettelser i functions og dependency)
 "<juuni>"
 	"juuni" N Abs Sg @SUBJ> #2->4
 "<qaammat>"
