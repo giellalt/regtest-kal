@@ -3135,9 +3135,9 @@
 "<(>"
 	"(" PUNCT LEFT
 "<SIK-p>"
-	"SIK" Sem/Hum Prop Rel Sg Err/Sub @POSS>
+	"SIK" Sem/Hum Prop Rel Sg Err/Sub %PossOblique @POSS>
 "<immikkoortortaqarfianut>"
-	"immikkoor" Gram/IV TUQ Der/vn TAQ Der/nn QAR Der/nv Gram/IV VIK Der/vn N Trm Sg 3SgPoss @<APPOS
+	"immikkoor" Gram/IV TUQ Der/vn TAQ Der/nn QAR Der/nv Gram/IV VIK Der/vn N Trm Sg 3SgPoss %PossOblique @<APPOS
 "<)>"
 	")" PUNCT RIGHT
 "<saaffiginnissinnaavutit>"
@@ -3145,9 +3145,9 @@
 "<ilaasortanngornissamullu>"
 	"ilaa" Gram/IV TUQ Der/vn TAQ Der/nn NNGUR Der/nv Gram/IV NIQ Der/vn SSAQ Der/nn Gram/Conj-encl N Trm Sg CONJ-LU @i-ADVL>
 "<immersugassaq>"
-	"immersor" Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Sg @OBJ>
+	"immersor" Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Sg %ContHypotagme @OBJ>
 "<immersorlugu>"
-	"immersor" Gram/TV V Cont 3SgO @PRED
+	"immersor" Gram/TV V Cont 3SgO %ContHypotagme @PRED
 "<.>"
 	"." CLB
 </s>
@@ -7512,9 +7512,9 @@
 
 <sGCuwnRaJraEHdNliPcOfuXJdjcE-0>
 "<Nunaqarfinni>"
-	"nuna" QAR Der/nv Gram/IV VIK Der/vn N Lok Pl @i-ADVL>
+	"nuna" QAR Der/nv Gram/IV VIK Der/vn N Lok Pl @ADVL>
 "<meeqqanut>"
-	"meeraq" N Trm Pl @i-ADVL>
+	"meeraq" N Trm Pl @i-MIK-OBJ>
 "<atornerluinerpassuarnut>"
 	"ator" Gram/TV NIRLUP Der/vv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn PAK Der/nn SUAQ Der/nn N Trm Pl @ADVL>
 "<pisimasunut>"
@@ -9837,19 +9837,19 @@
 
 <sLQ1pXnMTOdqfCkfkZxqYLIEMt08-0>
 "<2019-ip>"
-	"2019" N Rel Sg @POSS>
+	"2019" N Rel Sg %PossOblique @POSS>
 "<naanerani>"
-	"naa" Gram/IV NIQ Der/vn N Lok Sg 3SgPoss @ADVL>
+	"naa" Gram/IV NIQ Der/vn N Lok Sg 3SgPoss %PossOblique @ADVL>
 "<Kalaallit Nunaanni>"
-	"Kalaallit Nunaat" Sem/Geo Prop Lok Sg 3PlPoss @i-ADVL>
+	"Kalaallit Nunaat" Sem/Geo Prop Lok Sg 3PlPoss %PossOblique @i-ADVL>
 "<inuusuttut>"
 	"inuusup" Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
 "<16-it>"
 	"16" Num Rel Pl @POSS>
 "<25-llu>"
-	"25" Gram/Conj-encl Num Rel Pl CONJ-LU @POSS>
+	"25" Gram/Conj-encl Num Rel Pl CONJ-LU %PossOblique @POSS>
 "<akornanni>"
-	"akunneq" N Lok Sg 3PlPoss @i-ADVL>
+	"akunneq" N Lok Sg 3PlPoss %PossOblique @i-ADVL>
 "<ukiullit>"
 	"ukioq" LIK Der/nn N Abs Pl @N<
 "<5.268-it>"
@@ -9859,7 +9859,7 @@
 "<67>"
 	"67" Num Abs Sg @>N
 "<pct.-ii>"
-	"pct." OLang/DAN N Abs Pl 3PlPoss @N<
+	"pct." OLang/DAN N Abs Pl 3PlPoss @SUBJ>
 "<ilinniarfinnut>"
 	"ilinniar" Gram/IV VIK Der/vn N Trm Pl @ADVL>
 "<suliffeqarfinnulluunniit>"
@@ -9872,9 +9872,9 @@
 "<Siumukkullu>"
 	"Siumut" Sem/Hum KKUT Der/nn Gram/Conj-encl Prop Abs Pl CONJ-LU @POSS>
 "<isumaqatigiissutitta>"
-	"isuma" QATE Der/nn GIIP Der/nv Gram/Reci Gram/IV UTE Der/vn N Rel Sg 1PlPoss @POSS>
+	"isuma" QATE Der/nn GIIP Der/nv Gram/Reci Gram/IV UTE Der/vn N Rel Sg 1PlPoss %PossOblique @POSS>
 "<saniatigut>"
-	"sani" N Via Sg 3PlPoss @HNOUN
+	"sani" N Via Sg 3PlPoss %PossOblique @HNOUN
 "<.>"
 	"." CLB
 </s>
@@ -10030,9 +10030,9 @@
 "<2006-imi>"
 	"2006" N Lok Sg @i-ADVL>
 "<imigassaq>"
-	"imer" Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Sg @SUBJ>
+	"imer" Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Sg %ContHypotagme @SUBJ>
 "<katillugu>"
-	"katip" Gram/TV V Cont 3SgO @ADVL>
+	"katip" Gram/TV V Cont 3SgO %ContHypotagme @ADVL>
 "<7.733>"
 	"7.733" Num Abs Sg @>N
 "<liiteri>"
@@ -12692,7 +12692,7 @@
 "<matumani>"
 	"manna" Gram/Dem Pron Lok Sg @N<
 "<Kalaallit Nunaanni>"
-	"Kalaallit Nunaat" Sem/Geo Prop Lok Sg 3PlPoss @i-ADVL>
+	"Kalaallit Nunaat" Sem/Geo Prop Lok Sg 3PlPoss %PossOblique @i-ADVL>
 "<inuusuttut>"
 	"inuusup" Gram/IV TUQ Der/vn N Rel Pl @POSS>
 "<suliffeqarnerat>"
@@ -13556,7 +13556,7 @@
 "<Issittorlu>"
 	"Issittoq" Sem/Geo Gram/Conj-encl Prop Abs Sg CONJ-LU @SUBJ>
 "<eqqartorneqartussanut>"
-	"eqqartor" Gram/TV NIQAR Der/vv Gram/IV TUQ Der/vn SSAQ Der/nn N Trm Pl @i-ADVL>
+	"eqqartor" Gram/TV NIQAR Der/vv Gram/IV TUQ Der/vn SSAQ Der/nn N Trm Pl @ADVL>
 "<ilaasut>"
 	"ilaa" Gram/IV V Par 3Pl @CL-<CIT
 "<,>"
@@ -28868,7 +28868,7 @@
 
 <sxvNwsQ38TiboROEpmILHxu527CU-0>
 "<Inunnullu>"
-	"inuk" Gram/Conj-encl N Trm Pl CONJ-LU @ADVL>
+	"inuk" Gram/Conj-encl N Trm Pl CONJ-LU @i-ADVL>
 "<pineqartunut>"
 	"pi" Gram/TV NIQAR Der/vv Gram/IV TUQ Der/vn N Trm Pl @N<
 "<sunniutigisinnaasaat>"
