@@ -8,8 +8,10 @@ if (@ARGV && $ARGV[0] !~ /^-/) {
    @ARGV = ('-c', $ARGV[0]);
 }
 
-my $regtest = "$Bin/../regtest/regtest.pl";
-system $regtest, (@ARGV, '-b', "$Bin/kal.pl", '-f', $Bin);
+chdir($Bin);
+
+my $regtest = "../regtest/regtest.pl";
+system $regtest, (@ARGV, '-b', "./kal.pl", '-f', './');
 
 if ($@) {
    die("Error: Regtest couldn't be run - run Nutserut's setup script!\n");
