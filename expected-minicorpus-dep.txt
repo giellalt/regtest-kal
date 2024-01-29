@@ -1418,11 +1418,11 @@
 "<Naalakkersuisut>"
 	"Naalakkersuisut" Sem/inst Sem/Hum Prop Rel Pl @POSS> #11->12
 "<Siulittaasuat>"
-	"siulittar" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg 3PlPoss @>N #12->14
+	"siulittar" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg 3PlPoss @SUBJ> #12->16
 "<Kim>"
 	"Kim" Sem/Mask Sem/Hum Prop Abs Sg @PROP> #13->14
 "<Kielsen>"
-	"Kielsen" Sem/Hum Prop Abs Sg @SUBJ> #14->16
+	"Kielsen" Sem/Hum Prop Abs Sg @<APPOS #14->12
 "<taama>"
 	"taama" Adv @ADVL> #15->16
 "<oqarpoq>"
@@ -2513,23 +2513,23 @@
 "<tassa>"
 	"tassa" Adv @FOC>N #4->5
 "<majimi>"
-	"maj" OLang/DAN N Lok Sg @N< #5->5
+	"maj" OLang/DAN N Lok Sg @N< #5->3
 "<,>"
 	"," CLB #6->6
 "<juunimi>"
-	"juuni" N Lok Sg @N< #7->7
+	"juuni" N Lok Sg @N< #7->3
 "<,>"
 	"," CLB #8->8
 "<juulimi>"
-	"juuli" N Lok Sg @N< #9->9
+	"juuli" N Lok Sg @N< #9->3
 "<,>"
 	"," CLB #10->10
 "<aggustimi>"
-	"aggusti" N Lok Sg @N< #11->11
+	"aggusti" N Lok Sg @N< #11->3
 "<kiisalu>"
 	"kiisalu" Conj @CONJ #12->13
 "<septembarimi>"
-	"septembari" N Lok Sg @N< #13->13
+	"septembari" N Lok Sg @N< #13->3
 "<SAS>"
 	"SAS" Sem/Hum Prop Abs Sg @SUBJ> #14->17
 "<sapaatip-akunneranut>"
@@ -3008,11 +3008,11 @@
 "<naalakkersuisoqarfimmiit>"
 	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn N Abl Sg @i-ADVL> #3->4
 "<naalakkersuisup>"
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Rel Sg @>N #4->6
+	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Rel Sg @POSS> #4->7
 "<Erik>"
 	"Erik" Sem/Mask Sem/Hum Prop Abs Sg @PROP> #5->6
 "<Jensenip>"
-	"Jensen" Sem/Hum Prop Rel Sg @POSS> #6->7
+	"Jensen" Sem/Hum Prop Rel Sg @<APPOS #6->4
 "<akisussaaffigisaanut>"
 	"aki" Gram/IV TUSSAA Der/vv Gram/IV VIK Der/vn GE Der/nv Gram/TV TAQ Der/vn N Trm Sg 3SgPoss @ADVL> #7->8
 "<oqaaseqartitsiniaraluarpoq>"
@@ -4408,7 +4408,7 @@
 	"sila" SIUR Der/nv Gram/IV VIK Der/vn N Abs Sg @OBJ> #7->9
 	"silasior" Gram/IV VIK Der/vn N Abs Sg @OBJ> #7->9
 "<DMI>"
-	"DMI" Sem/inst Sem/Hum Prop Abs Sg @<APPOS #8->9
+	"DMI" Sem/inst Sem/Hum Prop Abs Sg @<APPOS #8->7
 "<malillugu>"
 	"malip" Gram/TV V Cont 3SgO @ADVL> #9->14
 "<anori>"
@@ -5295,7 +5295,7 @@
 "<atiannit>"
 	"ateq" N Abl Sg 3PlPoss Orth/Youth @ADVL> #4->11
 "<Alatannguamit>"
-	"Alatannguaq" Sem/Fem Sem/Hum Prop Abl Sg @N< #5->4
+	"Alatannguaq" Sem/Fem Sem/Hum Prop Abl Sg @<APPOS #5->4
 "<(>"
 	"(" PUNCT LEFT #6->6
 "<Alatannguaq>"
@@ -5550,11 +5550,11 @@
 "<Folketingimut>"
 	"Folketinget" Sem/Hum Prop Trm Sg @i-ADVL> #6->7
 "<ilaasortap>"
-	"ilaa" Gram/IV TUQ Der/vn TAQ Der/nn N Rel Sg @>N #7->9
+	"ilaa" Gram/IV TUQ Der/vn TAQ Der/nn N Rel Sg @SUBJ> #7->10
 "<Aleqa>"
 	"Aleqa" Dial/Vgr Sem/Fem Sem/Hum Prop Abs Sg @PROP> #8->9
 "<Hammondip>"
-	"Hammond" Sem/Hum Prop Rel Sg @SUBJ> #9->10
+	"Hammond" Sem/Hum Prop Rel Sg @<APPOS #9->7
 "<isornartorsiorpaa>"
 	"isornartorsior" Gram/TV V Ind 3Sg 3SgO @PRED #10->0
 "<.>"
@@ -5596,9 +5596,9 @@
 "<Angut>"
 	"angut" N Abs Sg @SUBJ> #1->7
 "<Ukrainemiu>"
-	"Ukraine" Sem/Geo iProp MIU Der/nn N Abs Sg @<APPOS #2->10
+	"Ukraine" Sem/Geo iProp MIU Der/nn N Abs Sg @<APPOS #2->1
 "<nammineq>"
-	"nammineq" Gram/Coref Pron Rel 4Sg @POSS> #3->3
+	"nammineq" Gram/Coref Pron Rel 4Sg @POSS> #3->4
 "<kissaateqarnini>"
 	"kissar" Gram/IV UTE Der/vn QAR Der/nv Gram/IV NIQ Der/vn N Abs Sg 4SgPoss @OBJ> #4->5
 "<naapertorlugulu>"
@@ -7053,13 +7053,13 @@
 "<ACU-mi>"
 	"ACU" Sem/Hum Prop Lok Sg Orth/Alt @i-ADVL> #12->13
 "<siulittaasoq>"
-	"siulittar" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg @>N #13->16
+	"siulittar" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg @SUBJ> #13->17
 "<Anders>"
 	"Anders" Sem/Mask Sem/Hum Prop Abs Sg @PROP> #14->15
 "<Mark>"
 	"Mark" Sem/Mask Sem/Hum Prop Abs Sg @PROP> #15->16
 "<Jensen>"
-	"Jensen" Sem/Hum Prop Abs Sg @SUBJ> #16->17
+	"Jensen" Sem/Hum Prop Abs Sg @<APPOS #16->13
 "<paasissutissiivoq>"
 	"paasi" Gram/IV UTE Der/vn SSAQ Der/nn LIR Der/nv Gram/TV HTR Der/vv Gram/IV V Ind 3Sg @PRED #17->0
 "<,>"
@@ -7372,11 +7372,11 @@
 "<Oqaasileriffimmi>"
 	"Oqaasileriffik" Sem/inst Sem/Hum Prop Lok Sg @i-ADVL> #3->4
 "<pisortamit>"
-	"pisortaq" N Abl Sg @>N #4->6
+	"pisortaq" N Abl Sg @i-AGENS #4->9
 "<Katti>"
 	"Katti" Sem/Fem Sem/Hum Prop Abs Sg @PROP> #5->6
 "<Frederiksenimit>"
-	"Frederiksen" Sem/Hum Prop Abl Sg @i-AGENS #6->9
+	"Frederiksen" Sem/Hum Prop Abl Sg @<APPOS #6->4
 "<allaganngorlugit>"
 	"allap" Gram/TV TAQ Der/vn NNGUR Der/nv Gram/TV V Cont 3PlO @i-ADVL> #7->13
 "<Oqaasiliortunut>"
