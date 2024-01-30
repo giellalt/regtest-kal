@@ -37,11 +37,17 @@ foreach my $f (@fs) {
       print $err."\n";
       print "\n";
    }
+}
 
-   @errs = ($fst =~ m/(\t"[^\n]+?" \?)/g);
+@fs = glob("$Bin/output-*-pre2.txt");
+foreach my $f (@fs) {
+   my ($bn) = ($f =~ m@output-(\S+?)-@);
+
+   my $fst = file_get_contents($f);
+   my @errs = ($fst =~ m/(\t"[^\n]+?" \?)/g);
    if (@errs) {
       my $err = join("\n", @errs);
-      print "ERROR in $bn: FST could not provide analysis for:\n";
+      print "ERROR in $bn: Neither FST nor heuristics provided analysis for:\n";
       print $err."\n";
       print "\n";
    }
