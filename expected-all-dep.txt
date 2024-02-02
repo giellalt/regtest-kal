@@ -2114,10 +2114,9 @@
 "<Suleqatigiit>"
 	"suli" Gram/IV QATE Der/vn GIIT Der/nn N Rel Pl @SUBJ> #1->1
 "<eqqartueqatigeereerluta>"
-	"eqqartor" Gram/TV HTR Der/vv Gram/IV QATE Der/vn GIIP Der/nv Der/vv Gram/Reci RIIR Der/vv Gram/IV V Cont 1Pl @ADVL> #2->3
 	"eqqartor" Gram/TV HTR Der/vv Gram/IV QATE Der/vn GIIP Der/nv Gram/Reci Gram/IV RIIR Der/vv Gram/IV V Cont 1Pl @ADVL> #2->3
 "<isumaqatigiissutigaarput>"
-	"isuma" Gram/IV QATE Der/vn GIIP Der/nv Gram/Reci UTE Der/vn GE Der/nv Gram/TV V Ind 1Pl 3SgO @PRED #3->0
+	"isuma" QATE Der/nn GIIP Der/nv Gram/Reci Gram/IV UTE Der/vn GE Der/nv Gram/TV V Ind 1Pl 3SgO @PRED #3->0
 "<mailikkut>"
 	"mail" OLang/DAN N Via Sg @i-ADVL> #4->5
 "<allagarisartakkatta>"
@@ -2144,7 +2143,7 @@
 "<annikitsuinnaat>"
 	"angi" Gram/IV NIQ Der/vn KIP Der/nv Gram/IV TUQ Der/vn INNAQ Der/nn N Abs Pl @N< #7->6
 "<pissarsiaralugit>"
-	"pissaq" SIAQ Der/nn GE Der/nv Gram/TV V Cont 3PlO @CL-<CIT #8->8
+	"pissaq" SIAQ Der/nn GE Der/nv Gram/TV V Cont 3PlO @CL-<CIT #8->1
 "<.>"
 	"." CLB #9->9
 </s>
@@ -2424,7 +2423,7 @@
 	"." CLB #15->15
 
 "<Tassagooq>"
-	"tassa" Adv GUUQ @PRED #1->0
+	"tassa" Adv GUUQ @ADVL> #1->2
 "<feeriarmat>"
 	"feeriar" Gram/IV V Cau 3Sg @PRED #2->0
 "<.>"
@@ -2673,7 +2672,7 @@
 "<taakkua>"
 	"una" Prefix/TA Gram/Dem Pron Abs Pl @OBJ> #11->15
 "<nunarsuarmi>"
-	"nuna" SUAQ Der/nn N Lok Sg @i-ADVL> #12->14
+	"nuna" SUAQ Der/nn N Lok Sg @ADVL>N #12->13
 "<aningaasat>"
 	"aningaasaq" N Rel Pl @SUBJ> #13->15
 "<kaaviiaartut>"
@@ -2709,7 +2708,7 @@
 "<naammattusaarniassagunikkit>"
 	"naammattusaar" Gram/TV NIAR Der/vv SSA Der/vv Gram/TV V Con 4Pl 3PlO @CON> #3->4
 "<imernikillisariaqarluni>"
-	"imernikilli" Gram/IV TARIAQAR Der/vv Gram/IV V Cont 4Sg @CL-<CIT #4->4
+	"imernikilli" Gram/IV TARIAQAR Der/vv Gram/IV V Cont 4Sg @CL-<CIT #4->1
 "<.>"
 	"." CLB #5->5
 </s>
@@ -3284,7 +3283,7 @@
 
 <s4x2cb2OBU1o5DfT4x5Asexh6Jqw-0>
 "<Tassa>"
-	"tassa" Adv @CL-ADVL> #1->2
+	"tassa" Adv @ADVL> #1->2
 "<imaappoq>"
 	"imaap" Gram/IV V Ind 3Sg @PRED #2->0
 "<,>"
@@ -3366,7 +3365,7 @@
 "<,>"
 	"," CLB #12->12
 "<nunarsuarmi>"
-	"nuna" SUAQ Der/nn N Lok Sg @i-ADVL> #13->15
+	"nuna" SUAQ Der/nn N Lok Sg @ADVL>N #13->14
 "<aningaasat>"
 	"aningaasaq" N Rel Pl @SUBJ> #14->16
 "<kaaviiaartut>"
@@ -4255,7 +4254,7 @@
 
 <s7l9iFqfUwxgzoX1R9obWKI3zFCg-0>
 "<Tassa>"
-	"tassa" Adv @PRED #1->0
+	"tassa" Adv @CL-ADVL> #1->5
 "<ualikkut>"
 	"ualeq" N Via Sg @ADVL> #2->4
 "<14.-ni>"
@@ -4263,7 +4262,7 @@
 "<aaniarlunga>"
 	"aa" Gram/TV NIAR Der/vv Gram/TV V Cont 1SgO @CL-CIT> #4->5
 "<allakkami>"
-	"allap" Gram/HV Gram/IV V Cau 4Sg @<CAU #5->1
+	"allap" Gram/HV Gram/IV V Cau 4Sg @PRED #5->0
 "<,>"
 	"," CLB #6->6
 "<DHL>"
@@ -4273,13 +4272,13 @@
 "<pisuttussanut>"
 	"pisup" Gram/IV TUQ Der/vn SSAQ Der/nn N Trm Pl @ADVL> #9->10
 "<ilanngussimagaminga>"
-	"ilanngup" Gram/TV SIMA Der/vv Gram/TV V Cau 4Sg 1SgO @<CAU #10->1
+	"ilanngup" Gram/TV SIMA Der/vv Gram/TV V Cau 4Sg 1SgO @CAU> #10->13
 "<ualikkut>"
 	"ualeq" N Via Sg @ADVL> #11->13
 "<16:45>"
 	"16:45" Num Abs Sg @ADVL> #12->13
 "<aaniarlunga>"
-	"aa" Gram/TV NIAR Der/vv Gram/TV V Cont 1SgO @PRED #13->0
+	"aa" Gram/TV NIAR Der/vv Gram/TV V Cont 1SgO @CL-<CIT #13->5
 "<.>"
 	"." CLB #14->14
 </s>
@@ -4313,7 +4312,7 @@
 "<kalaallit>"
 	"kalaaleq" N Rel Pl @SUBJ> #2->5
 "<suleqatigiissitami>"
-	"suli" Gram/IV QATE Der/vn GIIP Der/nv Der/vv Gram/Reci TIP Der/vv Gram/TV TAQ Der/vn N Lok Sg @i-ADVL> #3->4
+	"suli" Gram/IV QATE Der/vn GIIP Der/nv Gram/Reci Gram/IV TIP Der/vv Gram/TV TAQ Der/vn N Lok Sg @i-ADVL> #3->4
 "<ilaasortaasut>"
 	"ilaa" Gram/IV TUQ Der/vn TAQ Der/nn U Der/nv Gram/IV TUQ Der/vn N Rel Pl @N< #4->2
 "<akueriuminaatsippaat>"
@@ -4321,7 +4320,7 @@
 "<,>"
 	"," CLB #6->6
 "<tassami>"
-	"tassa" Adv MI @CL-ADVL> #7->8
+	"tassa" Adv MI @ADVL> #7->8
 "<siunnersuutaammat>"
 	"siunnersor" Gram/TV UTE Der/vn U Der/nv Gram/IV V Cau 3Sg @<CAU #8->5
 "<isertitat>"
@@ -4584,7 +4583,7 @@
 	"..." CLB #1->1
 
 "<Tassalu>"
-	"tassa" Gram/Conj-encl Adv CONJ-LU @CL-ADVL> #1->5
+	"tassa" Gram/Conj-encl Adv CONJ-LU @ADVL> #1->5
 "<baobabit>"
 	"baobab" OLang/DAN OLang/DAN N Rel Pl @POSS> #2->3
 "<orpii>"
@@ -5528,13 +5527,13 @@
 
 <sAWnWhTxW4VCTFUQZXgjnyjTbpOU-0>
 "<Tassa>"
-	"tassa" Adv @PRED #1->0
+	"tassa" Adv @ADVL> #1->4
 "<marlunnik>"
 	"marluk" Num Ins Pl @i->N #2->4
 "<innermik>"
 	"inneq" N Ins Sg @i-MIK-OBJ> #3->4
 "<anitsisartuuteqarami>"
-	"anip" Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn UTE Der/nn QAR Der/nv Gram/IV V Cau 4Sg @<CAU #4->1
+	"anip" Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn UTE Der/nn QAR Der/nv Gram/IV V Cau 4Sg @PRED #4->0
 "<suli>"
 	"suli" Adv @i-ADVL> #5->7
 "<maannamut>"
@@ -6475,7 +6474,7 @@
 "<,>"
 	"," CLB #4->4
 "<tassa>"
-	"tassa" Adv @CL-ADVL> #5->14
+	"tassa" Adv @ADVL> #5->16
 "<peqqissaanermi>"
 	"peqqip" Gram/IV SAR Der/vv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Lok Sg @i-ADVL> #6->8
 "<isumaginninnermilu>"
@@ -8978,7 +8977,7 @@
 "<,>"
 	"," CLB #3->3
 "<tassa>"
-	"tassa" Adv @CL-ADVL> #4->8
+	"tassa" Adv @ADVL> #4->8
 "<ulloq>"
 	"ulloq" N Abs Sg @CL-ADVL> #5->14
 "<taanna>"
@@ -9235,7 +9234,7 @@
 "<,>"
 	"," CLB #3->3
 "<tassa>"
-	"tassa" Adv @CL-ADVL> #4->8
+	"tassa" Adv @ADVL> #4->8
 "<ulloq>"
 	"ulloq" N Abs Sg @CL-ADVL> #5->14
 "<taanna>"
@@ -14411,7 +14410,7 @@
 "<unnuaqeqqanut>"
 	"unnuaqeqqa" N Trm Pl @i-ADVL> #7->8
 "<naalagiarnermi>"
-	"naalagiarneq" N Lok Sg @i-ADVL> #8->11
+	"naalagiarneq" N Lok Sg @ADVL> #8->17
 "<pattagiarsuup>"
 	"pattagiarsuaq" N Rel Sg @POSS> #9->10
 "<erinaa>"
@@ -15376,7 +15375,7 @@
 
 <sXQ4C5k4WZGfqP92HzghSaNJI7Cg-0>
 "<Tassa>"
-	"tassa" Adv @CL-ADVL> #1->4
+	"tassa" Adv @ADVL> #1->9
 "<apersortinnissap>"
 	"apersor" Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn SSAQ Der/nn N Rel Sg @POSS> #2->3
 "<eqqarsaatigeqqajaanera>"
@@ -15663,7 +15662,7 @@
 	"." CLB #5->5
 
 "<Tassalu>"
-	"tassa" Gram/Conj-encl Adv CONJ-LU @CL-ADVL> #1->5
+	"tassa" Gram/Conj-encl Adv CONJ-LU @ADVL> #1->5
 "<baobabit>"
 	"baobab" OLang/DAN OLang/DAN N Rel Pl @POSS> #2->3
 "<orpii>"
@@ -16469,7 +16468,7 @@
 "<Mittarfimmili>"
 	"mip" Gram/IV TAR Der/vv Gram/IV VIK Der/vn Gram/Conj-encl N Lok Sg CONJ-LI @ADVL> #1->7
 "<kimmut>"
-	"kite" N Trm Sg @i-ADVL> #2->6
+	"kite" N Trm Sg @ADVL>N #2->4
 "<250>"
 	"250" Num Abs Sg @>N #3->4
 "<meterit>"
@@ -17967,7 +17966,7 @@
 
 <sdKvxGJZpHA29UMeTIl7xH3RHI2k-0>
 "<Inuit Ataqatigiinnit>"
-	"Inuit Ataqatigiit" Prop Abl Pl @i-ADVL> #1->3
+	"Inuit Ataqatigiit" Prop Abl Pl @ADVL>N #1->2
 "<politikerip>"
 	"politiker" OLang/DAN N Rel Sg @SUBJ> #2->9
 "<nunaqarfinnik>"
@@ -23189,7 +23188,7 @@
 "<ingerlaneranni>"
 	"ingerla" Gram/IV NIQ Der/vn N Lok Sg 3PlPoss @CL-ADVL> #5->10
 "<Nuummi>"
-	"Nuuk" Sem/Geo Prop Lok Sg @i-ADVL> #6->9
+	"Nuuk" Sem/Geo Prop Lok Sg @ADVL> #6->10
 "<corona>"
 	"corona" OLang/DAN N Abs Sg @SUBJ> #7->10
 "<sukkasuumik>"
@@ -23201,7 +23200,7 @@
 "<,>"
 	"," CLB #11->11
 "<nakorsaaneq>"
-	"nakorsaq" Sem/Hprof U Der/nv Gram/IV NIQ Der/vn N Abs Sg @SUBJ> #12->16
+	"nakorsaq" U Der/nv Gram/IV NIQ Der/vn N Abs Sg @SUBJ> #12->16
 "<Henrik>"
 	"Henrik" Sem/Mask Sem/Hum Prop Abs Sg @PROP> #13->15
 "<L.>"
@@ -26656,7 +26655,7 @@
 
 <svK13mixR6YxSoTZVgKxalvYrbtU-0>
 "<Tassami>"
-	"tassa" Adv MI @CL-ADVL> #1->2
+	"tassa" Adv MI @ADVL> #1->2
 "<nalugamikku>"
 	"nalu" Gram/TV V Cau 4Pl 3SgO @PRED #2->2
 "<qanoq>"
@@ -28147,7 +28146,7 @@
 
 <sxh8rNxx8xMPAOonx1x5d27IqBmw-0>
 "<Tassa>"
-	"tassa" Adv @PRED #1->0
+	"tassa" Adv @ADVL> #1->11
 "<fru>"
 	"fru" OLang/DAN N Abs Sg @>N #2->3
 "<Jensen>"
@@ -28167,7 +28166,7 @@
 "<najugariuarsimasaanut>"
 	"najor" Gram/TV TAQ Der/vn GE Der/nv Gram/TV TUAR Der/vv SIMA Der/vv Gram/TV TAQ Der/vn N Trm Sg 3SgPoss @MIK-OBJ> #10->11
 "<pulaarsimanngisaannarami>"
-	"pulaar" Gram/IV SIMA Der/vv NNGIT Der/vv TAR Der/vv INNAR Der/vv Gram/IV V Cau 4Sg @<CAU #11->1
+	"pulaar" Gram/IV SIMA Der/vv NNGIT Der/vv TAR Der/vv INNAR Der/vv Gram/IV V Cau 4Sg @PRED #11->0
 "<,>"
 	"," CLB #12->12
 "<uffa>"
@@ -28183,7 +28182,7 @@
 "<arnaminut>"
 	"arnaq" N Trm Sg 4SgPoss @ADVL> #18->19
 "<pulaarussimagaluarai>"
-	"pulaarup" Gram/TV SIMA Der/vv GALUAR Der/vv Gram/TV Sem/Concessive V Par 3Sg 3PlO @PRED2 #19->1
+	"pulaarup" Gram/TV SIMA Der/vv GALUAR Der/vv Gram/TV Sem/Concessive V Par 3Sg 3PlO @PRED2 #19->11
 "<.>"
 	"." CLB #20->20
 </s>
