@@ -5506,7 +5506,7 @@
 "<->"
 	"-" PUNCT DIRTALESTART #1->1
 "<Meretennguaq>"
-	"Merete" NNGUAQ Prop Abs Sg @VOK #2->2
+	"Merete" NNGUAQ Prop Abs Sg @VOK #2->0
 "<,>"
 	"," CLB #3->3
 "<tamanna>"
@@ -10509,6 +10509,7 @@
 "<qernernerat>"
 	"qerner" NIQ N Abs Sg 3PlPoss @OBJ> #2->5
 "<amiatalu>"
+	"ameq" N Rel Sg 3PlPoss CONJ-LU @POSS> #3->4
 	"ameq" N Rel Sg 3SgPoss CONJ-LU @POSS> #3->4
 "<similaarnera>"
 	"simer" LAAR NIQ N Abs Sg 3SgPoss @OBJ> #4->5
@@ -10577,7 +10578,7 @@
 "<soorlu>"
 	"soorlu" Adv @i-ADVL> #6->7
 "<nunasiaanermi>"
-	"nunasiaq" U NIQ N Lok Sg @i-ADVL> #7->8
+	"nuna" SIAQ U NIQ N Lok Sg @i-ADVL> #7->8
 "<eqqarsariaatsit>"
 	"eqqarsar" RIAR USIQ N Abs Pl @OBJ> #8->9
 "<kaanngarsimannginnerarpai>"
@@ -18305,6 +18306,7 @@
 "<malittaraarput>"
 	"malittare" V Ind 1Pl 3SgO @PRED #13->0
 "<1900-qarnerata>"
+	"1900" QAR NIQ N Rel Sg 3PlPoss @POSS> #14->16
 	"1900" QAR NIQ N Rel Sg 3SgPoss @POSS> #14->16
 "<ukiuisa>"
 	"ukioq" N Rel Pl 3SgPoss @POSS> #15->16

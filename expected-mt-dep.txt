@@ -5519,7 +5519,7 @@
 "<->"
 	"-" PUNCT DIRTALESTART #1->1
 "<Meretennguaq>"
-	"Merete" Sem/Fem Sem/Hum NNGUAQ Der/nn Sem/Hum Prop Abs Sg @VOK #2->2
+	"Merete" Sem/Fem Sem/Hum NNGUAQ Der/nn Sem/Hum Prop Abs Sg @VOK #2->0
 "<,>"
 	"," CLB #3->3
 "<tamanna>"
@@ -10535,9 +10535,11 @@
 "<qernernerat>"
 	"qerner" Gram/IV NIQ Der/vn N Abs Sg 3PlPoss @OBJ> #2->5
 "<amiatalu>"
+	"ameq" Gram/Conj-encl N Rel Sg 3PlPoss CONJ-LU @POSS> #3->4
 	"ameq" Gram/Conj-encl N Rel Sg 3SgPoss CONJ-LU @POSS> #3->4
 "<similaarnera>"
 	"simer" Gram/IV LAAR Der/vv Gram/IV NIQ Der/vn N Abs Sg 3SgPoss @OBJ> #4->5
+	"simer" Gram/TV LAAR Der/vv Gram/TV Gram/Pass NIQ Der/vn N Abs Sg 3SgPoss @OBJ> #4->5
 "<eqqaassanngikkaanni>"
 	"eqqaa" Gram/TV SSA Der/vv NNGIT Der/vv Gram/TV Gram/Gaanni Gram/Gaanni V Par 4Sg 3SgO @CL-ADVL> #5->6
 "<qallunaajusorineqarsinnaavoq>"
@@ -10591,7 +10593,7 @@
 
 <sVHVQigI0cp3jrc4VvmkpJVfKbI4-0>
 "<Nunatsinni>"
-	"Nuna" Prop Sem/Geo Lok Sg 1PlPoss @ADVL> #1->2
+	"Nuna" Sem/Geo Prop Lok Sg 1PlPoss @ADVL> #1->2
 "<taamaattoqanngimmat>"
 	"taama" IP Der/nv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV V Cau 3Sg @CAU> #2->4
 "<qaangerniagassat>"
@@ -10603,7 +10605,7 @@
 "<soorlu>"
 	"soorlu" Adv @i-ADVL> #6->7
 "<nunasiaanermi>"
-	"nunasiaq" U Der/nv Gram/IV NIQ Der/vn N Lok Sg @i-ADVL> #7->8
+	"nuna" SIAQ Der/nn U Der/nv Gram/IV NIQ Der/vn N Lok Sg @i-ADVL> #7->8
 "<eqqarsariaatsit>"
 	"eqqarsar" Gram/IV RIAR Der/vv Gram/IV USIQ Der/vn N Abs Pl @OBJ> #8->9
 "<kaanngarsimannginnerarpai>"
@@ -18347,6 +18349,7 @@
 "<malittaraarput>"
 	"malittare" Gram/TV V Ind 1Pl 3SgO @PRED #13->0
 "<1900-qarnerata>"
+	"1900" iNum QAR Der/nv Gram/IV NIQ Der/vn N Rel Sg 3PlPoss @POSS> #14->16
 	"1900" iNum QAR Der/nv Gram/IV NIQ Der/vn N Rel Sg 3SgPoss @POSS> #14->16
 "<ukiuisa>"
 	"ukioq" N Rel Pl 3SgPoss @POSS> #15->16
