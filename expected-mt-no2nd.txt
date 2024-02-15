@@ -329,7 +329,7 @@
 "<allaanngilaq>"
 	"alla" U NNGIT V Ind 3Sg @PRED #6->0
 "<Nunatsinni>"
-	"Nuna" Prop Lok Sg 1PlPoss @ADVL> #7->11
+	"Nuna" Prop Lok Sg 1PlPoss @ADVL> #7->12
 "<Atassutip>"
 	"Atassut" Prop Rel Sg @POSS> #8->9
 "<immikkoortortaqarfii>"
@@ -4547,11 +4547,11 @@
 "<Palle>"
 	"Palle" Prop Abs Sg @PROP> #8->9
 "<Christiansen>"
-	"Christiansen" Prop Abs Sg @SUBJ> #9->16
+	"Christiansen" Prop Abs Sg @<OBJ #9->7
 "<inuillu>"
-	"inuk" VIK N Abs Sg CONJ-LU @SUBJ> #10->16
+	"inuk" VIK N Abs Sg CONJ-LU @<OBJ #10->7
 "<allat>"
-	"alla" N Abs Pl @SUBJ> #11->16
+	"alla" N Abs Pl @<OBJ #11->7
 "<marluk>"
 	"marluk" Num Abs Pl @N< #12->11
 "<Siumup>"
@@ -4559,9 +4559,9 @@
 "<ataatsimiittarfiata>"
 	"ataatsimiip" TAR VIK N Rel Sg 3SgPoss @POSS> #14->15
 "<silataani>"
-	"silate" N Lok Sg 3SgPoss @ADVL> #15->16
+	"silate" N Lok Sg 3SgPoss @i-ADVL> #15->16
 "<nikorfasut>"
-	"nikorfa" V Par 3Pl @CL-<CIT #16->7
+	"nikorfa" TUQ N Abs Pl @N< #16->11
 "<.>"
 	"." CLB #17->17
 </s>
@@ -4664,6 +4664,8 @@
 "<suliamik>"
 	"suliaq" N Ins Sg @i-MIK-OBJ> #11->13
 "<asuli>"
+	"asu" Adv CONJ-LI @i-ADVL> #12->13
+	"asu" Interj CONJ-LI @INTERJ #12->13
 	"asuli" Adv @i-ADVL> #12->13
 "<kinguarsaaniarnermik>"
 	"kinguar" SAR HTR NIAR NIQ N Ins Sg @N< #13->13
@@ -4676,7 +4678,7 @@
 "<oqallittoqarnissaanik>"
 	"oqallip" TUQ QAR NIQ SSAQ N Ins Sg 3SgPoss @i->N #17->18
 "<kissaateqaannarluni>"
-	"kissar" UTE QAR INNAR V Cont 4Sg @<ADVL #18->9
+	"kissar" UTE QAR INNAR V Cont 4Sg @PRED #18->0
 "<,>"
 	"," CLB #19->19
 "<Enok>"
@@ -4700,7 +4702,7 @@
 "<,>"
 	"," CLB #29->29
 "<qanittukkullu>"
-	"qanip" TUQ N Via Sg CONJ-LU @ADVL> #30->36
+	"qanip" TUQ N Via Sg CONJ-LU @i-ADVL> #30->32
 "<Siumumut>"
 	"Siumut" Prop Trm Sg @i-ADVL> #31->32
 "<nuuttoq>"
@@ -5466,7 +5468,7 @@
 "<–>"
 	"–" PUNCT #13->13
 "<inuusuttut>"
-	"inuusup" TUQ N Abs Pl @<OBJ #14->2
+	"inuusup" TUQ N Abs Pl @SUBJ> #14->17
 "<pingaartumik>"
 	"pingaartumik" Adv @i-ADVL> #15->16
 "<ilinniagallit>"
@@ -15503,9 +15505,9 @@
 "<kutterillu>"
 	"kutter" N Abs Pl CONJ-LU @SUBJ> #2->3
 "<usingianngikkunik>"
-	"usingiar" NNGIT V Con 4Pl @i-ADVL> #3->5
+	"usingiar" NNGIT V Con 4Pl @CON> #3->5
 "<usilersortut>"
-	"useq" LIRSUR TUQ N Abs Pl @N< #4->5
+	"useq" LIRSUR TUQ N Abs Pl @SUBJ> #4->5
 	"usilersortoq" N Abs Pl @SUBJ> #4->5
 "<takussaapput>"
 	"takussaa" V Ind 3Pl @PRED #5->0
