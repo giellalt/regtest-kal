@@ -14,16 +14,23 @@ use feature 'unicode_strings';
 
 use FindBin qw($Bin);
 use lib "$Bin/";
-use Helpers;
 
-my $runner = "$Bin/../regtest/runner.pl";
-system $runner, (@ARGV, '-b', "$Bin/kal.pl", '-f', $Bin);
+sub file_get_contents {
+   my ($fname) = @_;
+   local $/ = undef;
+   open FILE, '<:encoding(UTF-8)', $fname or die "Could not open ${fname}: $!\n";
+   my $data = <FILE>;
+   close FILE;
+   return $data;
+}
+
+system("$Bin/../regtest/runner.py", @ARGV);
 
 if ($@) {
    die("Error: Regtest couldn't be run - run setup script!\n");
 }
 
-my @fs = glob("$Bin/output-*-fst.txt");
+my @fs = glob("$Bin/output/kal/*/output-*-fst.txt");
 foreach my $f (@fs) {
    my ($bn) = ($f =~ m@output-(\S+?)-@);
 
@@ -39,7 +46,7 @@ foreach my $f (@fs) {
    }
 }
 
-@fs = glob("$Bin/output-*-pre2.txt");
+@fs = glob("$Bin/output/kal/*/output-*-pre2.txt");
 foreach my $f (@fs) {
    my ($bn) = ($f =~ m@output-(\S+?)-@);
 

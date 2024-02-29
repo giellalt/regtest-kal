@@ -1,0 +1,99 @@
+{
+	steps: {
+		fst: {
+			cmd: '~/langtech/kal/tools/shellscripts/kal-tokenise ~/langtech/kal/tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst | cg-sort',
+		},
+		pre1: {
+			cmd: 'vislcg3 -g ~/langtech/kal/src/cg3/kal-pre1.cg3',
+			type: 'cg',
+		},
+		hybrids: {
+			cmd: '~/langtech/kal/tools/shellscripts/kal-hybrid-split ~/langtech/kal/src/fst/generator-gt-desc.hfstol | cg-sort',
+		},
+		pre: {
+			cmd: '~/langtech/kal/tools/shellscripts/kal-tokenise ~/langtech/kal/tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst | vislcg3 -g ~/langtech/kal/src/cg3/kal-pre1.cg3 | ~/langtech/kal/tools/shellscripts/kal-hybrid-split ~/langtech/kal/src/fst/generator-gt-desc.hfstol | cg-sort',
+		},
+		'sems-l': {
+			cmd: '~/langtech/katersat/apply-sems.py --last',
+			type: 'cg',
+		},
+		'sems-f': {
+			cmd: '~/langtech/katersat/apply-sems.py',
+			type: 'cg',
+		},
+		pre2: {
+			cmd: 'vislcg3 -g ~/langtech/kal/src/cg3/kal-pre2.cg3',
+			type: 'cg',
+		},
+		morf: {
+			cmd: 'vislcg3 -g ~/langtech/kal/src/cg3/disambiguator.cg3',
+			type: 'cg',
+		},
+		'morf-c': {
+			cmd: '~/langtech/kal/tools/shellscripts/kal-tokenise ~/langtech/kal/tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst | vislcg3 -g ~/langtech/kal/src/cg3/kal-pre1.cg3 | ~/langtech/kal/tools/shellscripts/kal-hybrid-split ~/langtech/kal/src/fst/generator-gt-desc.hfstol | vislcg3 -g ~/langtech/kal/src/cg3/kal-pre2.cg3 | vislcg3 -g ~/langtech/kal/src/cg3/disambiguator.cg3 | cg-sort',
+		},
+		lu: {
+			cmd: '~/langtech/kal/tools/shellscripts/kal-lu-prefix ~/langtech/kal/src/fst/generator-gt-desc.hfstol | cg-sort',
+		},
+		syntax: {
+			cmd: 'vislcg3 -g ~/langtech/kal/src/cg3/functions.cg3',
+			type: 'cg',
+		},
+		dep: {
+			cmd: 'vislcg3 -g ~/langtech/kal/src/cg3/dependency.cg3',
+			type: 'cg',
+		},
+		no2nd: {
+			cmd: "perl -wpne 's~ [^/\\s]+/[^/\\s]+~~g; s~ i[A-Z\\d]\\w*~~g; s~\\x{E020}~\\x{20}~g; while(s~( DIRTALE[A-Z]+)\\1~$1~g){}' | cg-sort",
+		},
+		'no2nd-s': {
+			cmd: "perl -wpne 's~ (?!i?Sem)[^/\\s]+/[^/\\s]+~~g; s~ i(?!Sem)[A-Z\\d]\\w*~~g; s~\\x{E020}~\\x{20}~g; while(s~( DIRTALE[A-Z]+)\\1~$1~g){}' | cg-sort",
+		},
+	},
+	pipes: {
+		kal: ['fst', 'pre1', 'hybrids', 'pre2', 'morf', 'syntax', 'dep', 'no2nd'],
+		'kal-sems-l': ['pre', 'sems-l', 'pre2', 'morf', 'syntax', 'dep', 'no2nd-s'],
+		'kal-lu': ['morf-c', 'lu', 'syntax', 'dep', 'no2nd'],
+		'gloss-k2d': '~/langtech/gloss/kal2dan/kal2dan.pl --regtest --cmd',
+		'gloss-k2e': '~/langtech/gloss/kal2eng/kal2eng.pl --regtest --cmd',
+	},
+	corpora: {
+		all: ['*'],
+		gloss: ['KW'],
+	},
+	defaults: {
+		pipe: 'kal',
+		test: 'kal',
+		corpora: ['all'],
+		gold: false,
+		git: true,
+		env: [],
+	},
+	tests: {
+		kal: {
+			desc: 'Default Kalaalisut analysis pipe',
+		},
+		'kal-lu': {
+			desc: 'Split LU/LI/etc to their own token (dynamic corpus)',
+			pipe: 'kal-lu',
+			env: ['KAL_LU_PREFIX=1'],
+			grep: ' (CONJ|ADV)-L',
+		},
+		'kal-sems-l': {
+			desc: 'Semantic annotation, only final semantics',
+			pipe: 'kal-sems-l',
+		},
+		'gloss-k2d': {
+			desc: 'Gloss kal2dan',
+			pipe: 'gloss-k2d',
+			corpora: ['gloss'],
+			gold: true,
+		},
+		'gloss-k2e': {
+			desc: 'Gloss kal2eng',
+			pipe: 'gloss-k2e',
+			corpora: ['gloss'],
+			gold: true,
+		},
+	},
+}
