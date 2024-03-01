@@ -38,11 +38,11 @@
 "<Erik>"
 	"Erik" Sem/Mask Sem/Hum Prop Abs Sg @SUBJ> #1->2
 "<suliunnaarsimavoq>"
-	"suli" Gram/IV GUNNAIR Der/vv SIMA Der/vv V Ind 3Sg @PRED #2->0
+	"suli" Gram/IV GUNNAIR Der/vv Gram/IV SIMA Der/vv V Ind 3Sg @PRED #2->0
 "<qitilulersimanini>"
-	"qiteq" Sem/Location LUP Der/nv Gram/IV LIR Der/vv SIMA Der/vv NIQ Der/vn N Abs Sg 4SgPoss @OBJ> #3->4
+	"qiteq" LUP Der/nv Gram/IV LIR Der/vv Gram/IV SIMA Der/vv NIQ Der/vn N Abs Sg 4SgPoss @OBJ> #3->4
 "<pissutigalugu>"
-	"pissut" GE Der/nv Gram/TV V Cont 3SgO @<ADVL #4->4
+	"pissut" GE Der/nv Gram/TV V Cont 3SgO @<ADVL #4->2
 "<.>"
 	"." CLB #5->5
 </s>
@@ -2545,7 +2545,7 @@
 "<niviarsiaraq>"
 	"niviarsiaraq" N Abs Sg @OBJ> #6->7
 "<tigujumaratarpaa>"
-	"tigu" Gram/TV GUMA Der/vv RATAR Der/vv Orth/Alt Gram/TV V Ind 3Sg 3SgO @PRED #7->0
+	"tigu" Gram/TV GUMA Der/vv Gram/TV RATAR Der/vv Orth/Alt Gram/TV V Ind 3Sg 3SgO @PRED #7->0
 "<,>"
 	"," CLB #8->8
 "<uffa>"
@@ -2565,7 +2565,7 @@
 "<anaanagigalua>"
 	"anaana" GE Der/nv Gram/TV GALUAQ Der/vn N Abs Sg 3SgPoss @OBJ> #16->17
 "<nuannarinngippallaaqigamiuk>"
-	"nuannare" Gram/TV NNGIT Der/vv VALLAAR Der/vv QE Der/vv Gram/TV V Cau 4Sg 3SgO @<CAU #17->7
+	"nuannare" Gram/TV NNGIT Der/vv Gram/TV VALLAAR Der/vv Gram/TV QE Der/vv Gram/TV V Cau 4Sg 3SgO @<CAU #17->7
 "<.>"
 	"." CLB #18->18
 </s>
@@ -3141,11 +3141,11 @@
 "<ilisaralugu>"
 	"ili" Gram/TV TAQ Der/vn GE Der/nv Gram/TV V Cont 3SgO @CL-<CIT #15->15
 "<nilliarusaalerpoq>"
-	"niller" Gram/IV A Der/vv Gram/IV RUSAAR Der/vv LIR Der/vv Gram/IV V Ind 3Sg @PRED #16->0
+	"niller" Gram/IV A Der/vv Gram/IV RUSAAR Der/vv Gram/IV LIR Der/vv Gram/IV V Ind 3Sg @PRED #16->0
 "<qungujulanermit>"
 	"qungujula" Gram/IV NIQ Der/vn N Abl Sg @ADVL> #17->18
 "<suunani>"
-	"su" U Der/nv Gram/IV V ContNeg 4Sg @<ADVL #18->18
+	"su" U Der/nv Gram/IV V ContNeg 4Sg @<ADVL #18->16
 "<.>"
 	"." CLB #19->19
 </s>
@@ -5303,7 +5303,7 @@
 "<tigusinissani>"
 	"tigu" Gram/TV HTR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 4SgPoss @OBJ> #12->13
 "<merseralugu>"
-	"mersere" Gram/TV V Cont 3SgO @<ADVL #13->13
+	"mersere" Gram/TV V Cont 3SgO @<ADVL #13->4
 "<.>"
 	"." CLB #14->14
 </s>
@@ -5732,11 +5732,11 @@
 "<siunissami>"
 	"siuneq" SSAQ Der/nn N Lok Sg @ADVL> #3->4
 "<akileeqataasalissaaq>"
-	"akiler" Gram/TV HTR Der/vv Gram/IV QATE Der/vn U Der/nv Gram/IV TAR Der/vv LIR Der/vv SSA Der/vv Gram/IV V Ind 3Sg @PRED #4->0
+	"akiler" Gram/TV HTR Der/vv Gram/IV QATE Der/vn U Der/nv Gram/IV TAR Der/vv Gram/IV LIR Der/vv Gram/IV SSA Der/vv Gram/IV V Ind 3Sg @PRED #4->0
 "<nakkutilliineq>"
 	"nakkutiller" HTR Der/vv Gram/IV NIQ Der/vn N Abs Sg @OBJ> #5->6
 "<eqqarsaatigalugu>"
-	"eqqarsar" Gram/IV UTE Der/vn GE Der/nv Gram/TV V Cont 3SgO @<ADVL #6->6
+	"eqqarsar" Gram/IV UTE Der/vn GE Der/nv Gram/TV V Cont 3SgO @<ADVL #6->4
 "<.>"
 	"." CLB #7->7
 </s>
@@ -6354,7 +6354,7 @@
 "<IR>"
 	"IR" Gram/IV TUQ Der/vn N Abs Sg Hyb/2-2 @N< #18->13
 "<najoqqutaralugu>"
-	"najoqqutaq" GE Der/nv Gram/TV V Cont 3SgO @<ADVL #19->19
+	"najoqqutaq" GE Der/nv Gram/TV V Cont 3SgO @<ADVL #19->4
 "<.>"
 	"." CLB #20->20
 </s>
@@ -11311,7 +11311,6 @@
 	"paasi" Gram/TV Gram/Refl QATE Der/vn GE Der/nv Gram/TV SINNAA Der/vv Gram/TV TAQ Der/vn N Ins Pl 1SgPoss @i->N #6->7
 "<oqaluussassaqarnanga>"
 	"oqalup" UTE Der/vv Gram/TV TAQ Der/vn SSAQ Der/nn QAR Der/nv Gram/IV V ContNeg 1Sg @<ADVL #7->3
-	"oqaluussaq" SSAQ Der/nn QAR Der/nv Gram/IV V ContNeg 1Sg @<ADVL #7->3
 "<,>"
 	"," CLB #8->8
 "<ukiut>"
@@ -15041,7 +15040,7 @@
 "<120.000-t>"
 	"120.000" Num Abs Pl @OBJ> #18->19
 "<pisiarisinnaagaluarlugit>"
-	"pisiaq" GE Der/nv Gram/TV SINNAA Der/vv GALUAR Der/vv Gram/TV V Cont 3PlO @PRED #19->0
+	"pisiaq" GE Der/nv Gram/TV SINNAA Der/vv Gram/TV GALUAR Der/vv Gram/TV V Cont 3PlO @PRED #19->0
 "<.>"
 	"." CLB #20->20
 </s>
@@ -20936,7 +20935,7 @@
 "<isummernerat>"
 	"isummer" Gram/IV NIQ Der/vn N Abs Sg 3PlPoss @OBJ> #12->13
 "<ataqqissallugu>"
-	"ataqqi" Gram/TV SSA Der/vv Gram/TV V Cont 3SgO @<ADVL #13->13
+	"ataqqi" Gram/TV SSA Der/vv Gram/TV V Cont 3SgO @<ADVL #13->9
 "<.>"
 	"." CLB #14->14
 </s>
