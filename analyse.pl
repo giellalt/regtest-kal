@@ -14,6 +14,7 @@ use feature 'unicode_strings';
 
 use FindBin qw($Bin);
 use lib "$Bin/";
+chdir($Bin);
 
 sub file_get_contents {
    my ($fname) = @_;
