@@ -10,6 +10,9 @@
 		hybrids: {
 			cmd: '~/langtech/kal/tools/shellscripts/kal-hybrid-split ~/langtech/kal/src/fst/generator-gt-desc.hfstol | cg-sort',
 		},
+		heur: {
+			cmd: '~/langtech/kal/tools/shellscripts/kal-spell-heur | cg-sort',
+		},
 		pre: {
 			cmd: '~/langtech/kal/tools/shellscripts/kal-tokenise ~/langtech/kal/tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst | vislcg3 -g ~/langtech/kal/src/cg3/kal-pre1.cg3 | ~/langtech/kal/tools/shellscripts/kal-hybrid-split ~/langtech/kal/src/fst/generator-gt-desc.hfstol | cg-sort',
 		},
@@ -54,12 +57,14 @@
 		kal: ['fst', 'pre1', 'hybrids', 'pre2', 'morf', 'syntax', 'dep', 'no2nd'],
 		'kal-sems-l': ['pre', 'sems-l', 'pre2', 'morf', 'syntax', 'dep', 'no2nd-s'],
 		'kal-lu': ['morf-c', 'lu', 'syntax', 'dep', 'no2nd'],
+		heur: ['fst', 'pre1', 'heur'],
 		'gloss-k2d': '~/langtech/gloss/kal2dan/kal2dan.pl --regtest --cmd',
 		'gloss-k2e': '~/langtech/gloss/kal2eng/kal2eng.pl --regtest --cmd',
 	},
 	corpora: {
 		all: ['*'],
 		gloss: ['KW'],
+		heur: ['JD'],
 	},
 	defaults: {
 		pipe: 'kal',
@@ -82,6 +87,11 @@
 		'kal-sems-l': {
 			desc: 'Semantic annotation, only final semantics',
 			pipe: 'kal-sems-l',
+		},
+		'heur': {
+			desc: 'Speller and heuristic analysis of unknown words',
+			pipe: 'heur',
+			corpora: ['heur'],
 		},
 		'gloss-k2d': {
 			desc: 'Gloss kal2dan',
