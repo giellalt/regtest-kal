@@ -1938,7 +1938,7 @@
 "<kinguaariinnut>"
 	"descendant" iSem/Hfam iN <tr> GIIT Der/nn N Trm Pl @i-ADVL> #5->6
 "<kingornuttagaasimanissaa>"
-	"kingornup" Gram/TV TAR Der/vv Gram/TV iSem/do "what has been" iSem/occur_dynamic iV <tr> "be" iSem/be_copula iV <tr> SIMA Der/vv NIQ Der/vn "future" Sem/event Adj <tr> N Abs Sg 3SgPoss @<OBJ #6->2
+	"kingornup" Gram/TV TAR Der/vv Gram/TV iSem/do "what has been" iSem/occur_dynamic iV <tr> "be" iSem/be_copula iV <tr> SIMA Der/vv NIQ Der/vn "future" Sem/event Adj <tr> N Abs Sg 3SgPoss @N< #6->3
 "<.>"
 	"." CLB #7->6
 </s>
@@ -2012,7 +2012,7 @@
 	"." CLB #7->6
 
 "<taamaakkaluartoq>"
-	"be so" Sem/be_like iV <tr> "actually" iAdv <tr> V Par 3Sg @CL-CIT> #1->2
+	"be so" Sem/be_like iV <tr> "actually" iAdv <tr> V Par 3Sg @PRED2 #1->2
 "<nalunngilara>"
 	"know" Sem/know iV <tr> V Ind 1Sg 3SgO @PRED #2->0
 "<Fariusoq>"
@@ -3700,7 +3700,7 @@
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->0
 "<ammaleriallaraa>"
-	"open" iSem/open iV <tr> "begin" iSem/begin iV <tr> RIAR Der/vv Gram/TV LLAR Der/vv Gram/TV Sem/Temporal V Par 3Sg 3SgO @PRED2 #2->7
+	"open" iSem/open iV <tr> "begin" iSem/begin iV <tr> RIAR Der/vv Gram/TV LLAR Der/vv Gram/TV V Par 3Sg 3SgO @PRED #2->0
 "<Arsugap>"
 	"Arsugaq" Err/Sub Sem/Fem Sem/Hum Prop Rel Sg @POSS> #3->5
 "<atuarfimmi>"
@@ -3710,15 +3710,15 @@
 "<iganut>"
 	"pot" Sem/con iN <tr> N Trm Pl @ADVL>N #6->7
 "<allequt>"
-	"mat" iN <tr> N Abs Sg @HNOUN #7->0
+	"mat" iN <tr> N Abs Sg @N< #7->5
 "<,>"
 	"," CLB #8->7
 "<kappoqqutit>"
-	"pin" iN <tr> N Abs Pl @HNOUN #9->0
+	"pin" iN <tr> N Abs Pl #9->8
 "<liimmernikunik>"
 	"glue" iV <tr> NIQ Der/vn KUQ Der/nn N Ins Pl @i-ADVL> #10->11
 "<ammalortuliaq>"
-	"round" iSem/f Adj <tr> LIAQ Der/nn N Abs Sg @N< #11->9
+	"round" iSem/f Adj <tr> LIAQ Der/nn N Abs Sg @N< #11->5
 "<,>"
 	"," CLB #12->11
 "<qaavatigut>"
@@ -3726,11 +3726,11 @@
 "<orangeamik>"
 	"orange" Err/Sub OLang/DAN Sem/col N Ins Sg @i->N #14->15
 "<qalipaatilimmik>"
-	"coloured" Sem/f-surf Adj <tr> N Ins Sg @>N #15->16
+	"coloured" Sem/f-surf Adj <tr> N Ins Sg @i-ADVL> #15->17
 "<annoraaminermik>"
-	"cotton material" Sem/mat-cloth iN <tr> N Ins Sg @i-ADVL> #16->17
+	"cotton material" Sem/mat-cloth iN <tr> N Ins Sg @N< #16->15
 "<qalligaq>"
-	"paint over" Sem/colouring iV <tr> "what has been" Sem/occur_dynamic iV <tr> N Abs Sg @N< #17->9
+	"paint over" Sem/colouring iV <tr> "what has been" Sem/occur_dynamic iV <tr> N Abs Sg @N< #17->5
 "<.>"
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #18->17
 </s>
@@ -4443,7 +4443,7 @@
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #4->3
 
 "<Nakkakaatitsinaveersaarlusi>"
-	"fall down" iSem/collapse iV <tr> KAA Der/vv Gram/IV TIP Der/vv Gram/TV iSem/cause HTR Der/vv Gram/IV iSem/cause NAVIIRSAAR Der/vv Gram/IV V Cont 2Pl @PRED #1->0
+	"fall down" iSem/collapse iV <tr> TIP Der/vv Gram/TV iSem/cause HTR Der/vv Gram/IV iSem/cause NAVIIRSAAR Der/vv Gram/IV V Cont 2Pl @PRED #1->0
 "<!>"
 	"!" CLB #2->1
 
@@ -5455,7 +5455,6 @@
 
 <s id="uSxXzsX1MFqF6xOiMadknaOQR9I">
 "<Neriffissanngungajalermat>"
-	"mealtime" iSem/temp iN <tr> "become" iSem/become iV <tr> NGAJAP Der/vv Gram/IV iSem/be_like "begin" Sem/begin iV <tr> V Cau 3Sg @CAU> #1->9
 	"mealtime" iSem/temp iN <tr> "become" iSem/become iV <tr> NGAJAP Der/vv Gram/IV iSem/be_like LIR Der/vv Gram/IV Sem/be_like V Cau 3Sg @CAU> #1->9
 	"mealtime" iSem/temp iN <tr> "become" iSem/become iV <tr> NGAJAP Der/vv Gram/IV iSem/be_like LIR Der/vv Gram/IV Sem/move_dir V Cau 3Sg @CAU> #1->9
 "<,>"
@@ -5712,9 +5711,9 @@
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->0
 "<Ammaleriallaraa>"
-	"open" iSem/open iV <tr> "begin" iSem/begin iV <tr> RIAR Der/vv Gram/TV LLAR Der/vv Gram/TV Sem/Temporal V Par 3Sg 3SgO @PRED2 #2->3
+	"open" iSem/open iV <tr> "begin" iSem/begin iV <tr> RIAR Der/vv Gram/TV LLAR Der/vv Gram/TV V Par 3Sg 3SgO @PRED #2->0
 "<qimmiaraq>"
-	"puppy" Sem/Azo iN <tr> N Abs Sg @HNOUN #3->0
+	"puppy" Sem/Azo iN <tr> N Abs Sg @<OBJ #3->2
 "<.>"
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #4->3
 </s>
