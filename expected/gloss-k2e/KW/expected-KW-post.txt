@@ -488,12 +488,7 @@
 "<anernera>"
 	"breath" Sem/cm-gas iN N Abs Sg "my" @OBJ> #2->3
 "<aqussinnaanngingajappara>"
-	"aqup" iSem/handle "can" iSem/can iV "not" iAdv NGAJAP Sem/be_like V Ind "I" @PRED #3->0
-	"aqup" iSem/handle SINNAA iSem/confront "not" iAdv NGAJAP Sem/be_like V Ind "I" @PRED #3->0
-	"aqup" iSem/run_obj "can" iSem/can iV "not" iAdv NGAJAP Sem/be_like V Ind "I" @PRED #3->0
-	"aqup" iSem/run_obj SINNAA iSem/confront "not" iAdv NGAJAP Sem/be_like V Ind "I" @PRED #3->0
-	"aqup" iSem/steer "can" iSem/can iV "not" iAdv NGAJAP Sem/be_like V Ind "I" @PRED #3->0
-	"aqup" iSem/steer SINNAA iSem/confront "not" iAdv NGAJAP Sem/be_like V Ind "I" @PRED #3->0
+	"have control over" iSem/handle iV "not" iAdv NGAJAP Sem/be_like V Ind "I" @PRED #3->0
 "<.>"
 	"." CLB #4->3
 </s>
@@ -648,7 +643,7 @@
 "<soorlumi>"
 	"like" Part "as you know" @ADVL> #1->3
 "<kisimi>"
-	"kisi" N Nom @SUBJ> #2->3
+	"only" iAdv N Nom @SUBJ> #2->3
 "<takoqqusoq>"
 	"see" iSem/see iV QQU "oneself" V Par @PRED #3->0
 "<.>"
@@ -1220,8 +1215,8 @@
 	"room" iSem/Lh iN SSIP iSem/integrate NIQAR V "when/if" "I" @CON> #5->6
 	"room" iSem/Lh iN SSIP iSem/moveO NIQAR V "when/if" "I" @CON> #5->6
 "<pitsaanerpaassasoq>"
+	"be good" iSem/be_attribute iV NIRPAAQ "be" iSem/be_copula iV SSA Sem/must V "he/she/it" "that" #6->2
 	"excellent" iSem/f Adj "be" iSem/be_copula iV NIRPAAQ "be" iSem/be_copula iV SSA Sem/must V "he/she/it" "that" #6->2
-	"excellent" iSem/f Adj U iSem/be_attribute NIRPAAQ "be" iSem/be_copula iV SSA Sem/must V "he/she/it" "that" #6->2
 "<.>"
 	"." CLB #7->6
 </s>
@@ -1353,7 +1348,7 @@
 	"." CLB #4->3
 
 "<qamanngaannerujussuarlu>"
-	"qam" iAdv "from" RUJUK SUAQ "and" @ADVL> #1->2
+	"from out there" iAdv iAdv "from" RUJUK SUAQ "and" @ADVL> #1->2
 "<qialerpunga>"
 	"cry" Sem/show_emot iV "begin" Sem/begin iV V Ind "I" @PRED #2->0
 "<.>"
@@ -1601,7 +1596,6 @@
 "<oqaasii>"
 	"word" Sem/ac iN N Abs Pl "his/her/its" @OBJ> #6->8
 "<paasisinnaaneq>"
-	"understand" iSem/comprehend iV "can" iSem/can iV NIQ N Abs Sg @>V #7->8
 	"understand" iSem/comprehend iV SINNAA "oneself" NIQ N Abs Sg @>V #7->8
 "<ajorpai>"
 	"ajor" Sem/refrain V Ind @PRED #8->0
@@ -1618,7 +1612,7 @@
 	"." CLB #3->2
 
 "<Assorujussuaq>"
-	"assut" RUJUK SUAQ Interj @INTERJ #1->0
+	"very much" Adv Interj @INTERJ #1->0
 "<.>"
 	"." CLB #2->1
 </s>
@@ -1641,12 +1635,7 @@
 "<,>"
 	"," CLB #8->7
 "<aqussinnaanngisannik>"
-	"aqup" iSem/handle "can" Sem/can iV "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #9->13
-	"aqup" iSem/handle SINNAA iSem/confront "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #9->13
-	"aqup" iSem/run_obj "can" Sem/can iV "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #9->13
-	"aqup" iSem/run_obj SINNAA iSem/confront "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #9->13
-	"aqup" iSem/steer "can" Sem/can iV "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #9->13
-	"aqup" iSem/steer SINNAA iSem/confront "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #9->13
+	"have control over" Sem/handle iV "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #9->13
 "<qulliikka>"
 	"tear" Sem/cm-liq iN N Abs Pl "my" "when" @SUBJ> #10->13
 "<ulussakkut>"
@@ -2587,7 +2576,7 @@
 "<tusaasaqarsorigama>"
 	"hear" iSem/hear iV "what has been" iSem/occur_dynamic iV "have" iSem/have iV SURE "myself" V "when/because" "I" @CAU> #2->5
 "<taqqamunga>"
-	"qam" Prefix/TA Adv "to" @ADVL> #3->5
+	"out there" iAdv Adv "to" @ADVL> #3->5
 "<ilummut>"
 	"iluk" "to" @A< #4->3
 "<aallarpunga>"
@@ -2676,7 +2665,6 @@
 
 <s id="Nsg2qvEI0jwjAXSxm70pKob1fo4">
 "<Paasisinnaaneq>"
-	"understand" iSem/comprehend iV "can" iSem/can iV NIQ N Abs Sg @>V #1->2
 	"understand" iSem/comprehend iV SINNAA "oneself" NIQ N Abs Sg @>V #1->2
 "<ajorpara>"
 	"ajor" Sem/refrain V Ind "I" "him/her/it" @PRED #2->0
@@ -2884,12 +2872,7 @@
 "<Ilaanneeriarlunga>"
 	"ilaanneeriar" V Cont @CL-ADVL> #1->5
 "<aqussinnaanngisannik>"
-	"aqup" iSem/handle "can" Sem/can iV "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #2->5
-	"aqup" iSem/handle SINNAA iSem/confront "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #2->5
-	"aqup" iSem/run_obj "can" Sem/can iV "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #2->5
-	"aqup" iSem/run_obj SINNAA iSem/confront "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #2->5
-	"aqup" iSem/steer "can" Sem/can iV "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #2->5
-	"aqup" iSem/steer SINNAA iSem/confront "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #2->5
+	"have control over" Sem/handle iV "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #2->5
 "<meeqqannut>"
 	"child" Sem/H iN N "to" Sg "my" @ADVL> #3->5
 "<sakkortuumik>"
@@ -3000,7 +2983,7 @@
 "<Eqqara>"
 	"proximity" Sem/am iN N Abs Sg "my" @SUBJ> #1->4
 "<tamarmi>"
-	"tamaq" Sem/quant N Nom @N< #2->1
+	"all" Sem/am iN N Nom @N< #2->1
 "<aappaluttumik>"
 	"blood" iSem/cm-liq iN "be like" iSem/be_like iV Sem/f-phys N "-ly" @i->N #3->4
 	"red" Sem/col Adj N Ins Sg @i->N #3->4
@@ -3282,12 +3265,7 @@
 
 <s id="Ss8RB8V1Nz6xXJxFqg6aMJ5xc0M">
 "<Aqussinnaanngisannik>"
-	"aqup" iSem/handle "can" Sem/can iV "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #1->4
-	"aqup" iSem/handle SINNAA iSem/confront "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #1->4
-	"aqup" iSem/run_obj "can" Sem/can iV "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #1->4
-	"aqup" iSem/run_obj SINNAA iSem/confront "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #1->4
-	"aqup" iSem/steer "can" Sem/can iV "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #1->4
-	"aqup" iSem/steer SINNAA iSem/confront "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #1->4
+	"have control over" Sem/handle iV "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #1->4
 "<timera>"
 	"body" Sem/anmov iN N Abs Sg "my" @SUBJ> #2->4
 "<allatut>"
@@ -4594,7 +4572,7 @@
 "<anipallannissarli>"
 	"go out" iSem/leave iV PALLAP NIQ "future" Sem/event Adj N Abs Sg "but" @SUBJ> #1->4
 "<kisimi>"
-	"kisi" N Nom @N< #2->1
+	"only" iAdv N Nom @N< #2->1
 "<soorlu>"
 	"like" Part Adv @ADVL> #3->4
 "<siunertarineqartoq>"
@@ -4635,8 +4613,6 @@
 "<eqqaani>"
 	"proximity" Sem/am iN N "in" Sg "his/her/its" @i-ADVL> #3->4
 "<utaqqisartussaq>"
-	"wait" iSem/linger iV SAR "become" "one who" Sem/H iN "future" Sem/event Adj N Abs Sg @HNOUN #4->0
-	"wait" iSem/linger iV SAR "become" "that which" Sem/cc iN "future" Sem/event Adj N Abs Sg @HNOUN #4->0
 	"wait" iSem/linger iV TAR iSem/do "one who" Sem/H iN "future" Sem/event Adj N Abs Sg @HNOUN #4->0
 	"wait" iSem/linger iV TAR iSem/do "that which" Sem/cc iN "future" Sem/event Adj N Abs Sg @HNOUN #4->0
 "<.>"
@@ -4802,7 +4778,7 @@
 "<Arsugaq>"
 	"Arsugaq" Sem/Fem Sem/Hum Prop Abs Sg @SUBJ> #2->4
 "<kisimi>"
-	"kisi" N Nom @N< #3->2
+	"only" iAdv N Nom @N< #3->2
 "<issiavoq>"
 	"sit" Sem/bodystate iV V Ind @PRED #4->0
 "<.>"
@@ -5278,12 +5254,7 @@
 "<timinni>"
 	"body" Sem/anmov iN N "in" Sg "my" @i-ADVL> #4->5
 "<aqussinnaanngisannik>"
-	"aqup" iSem/handle "can" Sem/can iV "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #5->6
-	"aqup" iSem/handle SINNAA iSem/confront "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #5->6
-	"aqup" iSem/run_obj "can" Sem/can iV "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #5->6
-	"aqup" iSem/run_obj SINNAA iSem/confront "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #5->6
-	"aqup" iSem/steer "can" Sem/can iV "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #5->6
-	"aqup" iSem/steer SINNAA iSem/confront "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #5->6
+	"have control over" Sem/handle iV "not" iAdv "what has been" Sem/occur_dynamic iV N Ins Sg "my" @ADVL> #5->6
 "<pisoqartoq>"
 	"happen" iSem/occur iV TUQ iSem/geom-line "be" Sem/be_copula iV V "he/she/it" "that" #6->3
 	"happened" iN "be" Sem/be_copula iV V "he/she/it" "that" #6->3
@@ -5331,12 +5302,7 @@
 "<imminut>"
 	"oneself" iPron Pron "to" Sg @ADVL> #2->3
 "<aqussinnaajunnaarlunga>"
-	"aqup" iSem/handle "can" iSem/can iV GUNNAIR "oneself" V Cont @ADVL> #3->4
-	"aqup" iSem/handle SINNAA iSem/confront GUNNAIR "oneself" V Cont @ADVL> #3->4
-	"aqup" iSem/run_obj "can" iSem/can iV GUNNAIR "oneself" V Cont @ADVL> #3->4
-	"aqup" iSem/run_obj SINNAA iSem/confront GUNNAIR "oneself" V Cont @ADVL> #3->4
-	"aqup" iSem/steer "can" iSem/can iV GUNNAIR "oneself" V Cont @ADVL> #3->4
-	"aqup" iSem/steer SINNAA iSem/confront GUNNAIR "oneself" V Cont @ADVL> #3->4
+	"have control over" iSem/handle iV GUNNAIR "oneself" V Cont @ADVL> #3->4
 "<nilliaatigalunga>"
 	"shout" iSem/speak_mnr iV V "while" "I" @<ADVL #4->1
 "<.>"
@@ -5599,7 +5565,6 @@
 	"unammi" iSem/fight TAR iSem/do "again and again" iAdv NIQ Sem/occ N "to" Pl @ADVL> #1->2
 "<tiguarteqqangaaramik>"
 	"conquer" iSem/vanquish iV "let" iSem/allow iV QQA "much" iAdv V "when/because" "they" @CAU> #2->4
-	"tiguar" iSem/steal "let" iSem/allow iV QQA "much" iAdv V "when/because" "they" @CAU> #2->4
 "<inuuissiortorluunniit>"
 	"birthday person" Sem/H iN N Abs Sg "at all" @OBJ> #3->4
 	"birthday" iSem/occ iN SIUR iSem/do_leisure iSem/occ "that which" Sem/cc iN N Abs Sg "at all" @OBJ> #3->4
