@@ -53,6 +53,26 @@
 	"." CLB #4->3
 </s>
 
+<s id="0FGlmBKn1sc3xZXpcgy8VVSkEAo">
+"<Alliguma>"
+	"grow" Sem/grow iV V "when/if" "I" @CON> #1->3
+"<imigassamut>"
+	"drink" Sem/drink-c-h iN N "to" Sg @ADVL> #2->3
+"<nakkaatissaanga>"
+	"fall down" iSem/collapse iV TIP iSem/cause SSA "myself" V Ind "I" @PRED #3->0
+"<,>"
+	"," CLB #4->3
+"<.>"
+	"." CLB #5->4
+
+"<inuunera>"
+	"life" Sem/ac iN N Abs Sg "my" @OBJ> #1->2
+"<annaariaannanngussavara>"
+	"annaar" RIAR INNAQ "become" iSem/become iV SSA Sem/must V Ind "I" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
 <s id="0fshx7w06ksbcxRIdmufkW5MwEY">
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->0
@@ -114,6 +134,67 @@
 	"tunniup" Sem/send V Cont "him/her/it" @PRED #2->0
 "<.>"
 	"." CLB #3->2
+</s>
+
+<s id="0u4UjpYkCSDgdjFT5zMxDZ4EFoE">
+"<Qallunaaq>"
+	"Dane" Sem/Hnat iN N Abs Sg @SUBJ> #1->3
+"<alla>"
+	"another" Sem/f iPron N Abs Sg @N< #2->1
+"<aniniarpaluppoq>"
+	"go out" iSem/leave iV NIAR iSem/try_to "be audible that" Sem/sound_emission iV V Ind @PRED #3->0
+"<,>"
+	"," CLB #4->3
+"<.>"
+	"." CLB #5->4
+
+"<aappaatalu>"
+	"fellow" Sem/Hprof Adj N Rel Sg "his/her/its" "and" @SUBJ> #1->4
+"<qallunaap>"
+	"Dane" Sem/Hnat iN N Rel Sg @N< #2->1
+"<angutip>"
+	"man" Sem/H iN N Rel Sg @N< #3->2
+"<oqarfigerpallappaa>"
+	"say to" iSem/say iV PALLAP V Ind @PRED #4->0
+	"say" iSem/say iV "place" iSem/L iN GE iSem/tell PALLAP V Ind @PRED #4->0
+	"say" iSem/say iV "time" iSem/ac iN GE iSem/tell PALLAP V Ind @PRED #4->0
+"<malissallugu>"
+	"follow" iSem/chase iV SSA Sem/must V "he/she/it" "him/her/it" "that" #5->4
+"<.>"
+	"." CLB #6->5
+</s>
+
+<s id="0uSaxizjO38pT1uV49vMDz3i5sc">
+"<Angigivaa>"
+	"be too large for" Sem/regard_as iV V Ind "he/she/it" "him/her/it" @PRED #1->0
+"<,>"
+	"," CLB #2->1
+"<.>"
+	"." CLB #3->2
+
+"<tulluarpallaarnanilu>"
+	"tulluar" iSem/be_attribute VALLAAR V ContNeg "he/she/it" "and" @PRED #1->0
+	"tulluar" iSem/future_having VALLAAR V ContNeg "he/she/it" "and" @PRED #1->0
+"<qarliinut>"
+	"trousers" Sem/cloH iN N "to" Pl "his/her/its" @<ADVL #2->1
+"<koorpunut>"
+	"cowboy" Sem/Hprof iN N "to" Pl @N< #3->2
+"<,>"
+	"," CLB #4->3
+"<atukut>"
+	"atukoq" N Abs Pl #5->4
+"<qarsornikut>"
+	"bleach" iSem/colouring iV NIKUQ N Abs Pl @N< #6->5
+"<,>"
+	"," CLB #7->6
+"<seeqquatigut>"
+	"knee" Sem/anmov iN N "through" Sg "his/her/its" @<ADVL #8->1
+"<illuttut>"
+	"on both sides" Adv Adv @i-ADVL> #9->10
+"<alittornikut>"
+	"be tattered" iSem/be_attribute iV NIKUQ N Abs Pl @N< #10->5
+"<.>"
+	"." CLB #11->10
 </s>
 
 <s id="0xsx73TKJJvvUpiYc4vAyP7O5r4">
@@ -202,6 +283,21 @@
 	"." CLB #3->2
 </s>
 
+<s id="1uic5zISX12Hn9wb5Eur4UczVJk">
+"<Uippunga>"
+	"open one's eyes" Sem/see iV V Ind "I" @PRED #1->0
+"<massiimeriarlungalu>"
+	"rise" iSem/change_body_pos iV UMI V "after" "I" "and" @ADVL> #2->5
+"<isaatigut>"
+	"eye" Sem/anorg iN N "through" Sg "his/her/its" @ADVL> #3->5
+"<toqqarlugu>"
+	"choose" Sem/choose iV V Cont "him/her/it" @ADVL> #4->5
+"<isigilerlugu>"
+	"look at" Sem/watch iV "begin" Sem/begin iV V Cont "him/her/it" @PRED #5->0
+"<.>"
+	"." CLB #6->5
+</s>
+
 <s id="1xGVxssk1xnXdxBp3SA0x5IB7OU">
 "<Tulleriiaqqanik>"
 	"row" Sem/ac iN "little" Sem/f-psych Adj N Ins Pl @i->N #1->3
@@ -264,6 +360,35 @@
 	"”" PUNCT RIGHT DIRTALESTART #1->0
 </s>
 
+<s id="39NLLxFuEZswqzXz420hGRlb2Cc">
+"<Imminut>"
+	"oneself" iPron Pron "to" Sg @i-ADVL> #1->2
+"<toqukkusunnera>"
+	"kill" iSem/kill iV GUSUP "oneself" NIQ N Abs Sg "my" @OBJ> #2->3
+"<qaangersinnaanngilara>"
+	"qaanger" iSem/exceed "can" Sem/can iV "not" iAdv V Ind "I" @PRED #3->0
+	"qaanger" iSem/improve "can" Sem/can iV "not" iAdv V Ind "I" @PRED #3->0
+"<.>"
+	"." CLB #4->3
+</s>
+
+<s id="3GBdW8YUHKoDvTDzdKxqXG5eDr4">
+"<Qulissimagami>"
+	"wash hair" iSem/body_care iV SIMA V "when/because" "he/she/it" @CAU> #1->6
+"<nujai>"
+	"hair" Sem/f-an iN N Abs Pl "his/her/its" @SUBJ> #2->6
+"<tunummut>"
+	"tunuk" "to" @i-ADVL> #3->4
+"<sukangasumik>"
+	"be tight" iSem/be_attribute iV Sem/f N "-ly" #4->6
+"<tamarmik>"
+	"all" Sem/am iN N Nom @N< #5->2
+"<qilersimapput>"
+	"qiler" SIMA V Ind @PRED #6->0
+"<.>"
+	"." CLB #7->6
+</s>
+
 <s id="3N9hcyGKxeiC78VmPKyLYOhXly0">
 "<Tigussanngilasi>"
 	"take" iSem/take iV SSA iSem/must "not" iAdv V Ind "you" "them" @PRED #1->0
@@ -302,6 +427,50 @@
 	"take" iSem/take iV SSA iSem/must "not" iAdv V Ind "you" @PRED #2->0
 "<...>"
 	"..." CLB #3->2
+</s>
+
+<s id="3NMXGJsmtAOKQUQDfTe8cIy05XY">
+"<Sapiillisaavillunga>"
+	"sapiillisaar" "completely" Sem/jdegree Adj V Cont @ADVL> #1->2
+"<oqarfigivara>"
+	"say to" Sem/say iV V Ind "I" "him/her/it" @PRED #2->0
+	"say" iSem/say iV "place" iSem/L iN GE Sem/tell V Ind "I" "him/her/it" @PRED #2->0
+	"say" iSem/say iV "time" iSem/ac iN GE Sem/tell V Ind "I" "him/her/it" @PRED #2->0
+"<:>"
+	":" CLB DIRTALESTART #3->2
+
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART #1->0
+"<Jeg>"
+	"Jeg" Prop Abs Sg Heur/Prop @HNOUN #2->0
+"<skriger>"
+	"skriger" ? #3->2
+"<.>"
+	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #4->3
+
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART #1->0
+"<Qanilleqqimmat>"
+	"qanilli" iSem/move_dir "again" iAdv V "when/because" "he/she/it" @CAU> #2->3
+	"qanilli" iSem/reach "again" iAdv V "when/because" "he/she/it" @CAU> #2->3
+"<oqaatigeqqippara>"
+	"denounce" iV "again" iAdv V Ind "I" "him/her/it" @PRED #3->0
+	"mention" Sem/hint iV "again" iAdv V Ind "I" "him/her/it" @PRED #3->0
+	"say about" Sem/say iV "again" iAdv V Ind "I" "him/her/it" @PRED #3->0
+"<:>"
+	":" CLB DIRTALESTART #4->3
+
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART #1->0
+"<Jeg>"
+	"Jeg" Prop Abs Sg Heur/Prop @HNOUN #2->0
+"<skriger>"
+	"skriger" ? #3->2
+"<!>"
+	"!" CLB DIRTALESLUT DIRTALESLUT #4->3
+
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART #1->0
 </s>
 
 <s id="3USuLwLLPgF6n7ZwdplIEDq0OWo">
@@ -405,6 +574,53 @@
 	"." CLB #3->2
 </s>
 
+<s id="4HabAyYXDLcHom4xHRO4pVJKymA">
+"<Suliffik>"
+	"work" iSem/work iV VIK Sem/HH N Abs Sg @OBJ> #1->2
+	"working time" Sem/per iN N Abs Sg @OBJ> #1->2
+	"workplace" Sem/Lh iN N Abs Sg @OBJ> #1->2
+"<immineerlugu>"
+	"immineer" V Cont @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<imminut>"
+	"oneself" iPron Pron "to" Sg @ADVL> #1->2
+"<soqutigiunnaarluni>"
+	"care for" iSem/mind iV GUNNAIR "himself/herself/itself" V Cont "he/she/it" @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<inigisamut>"
+	"home" Sem/Lh iN N "to" Sg @MIK-OBJ> #1->2
+"<akiliissanani>"
+	"pay" iSem/pay iV SSA Sem/must V ContNeg "he/she/it" @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<sumi>"
+	"where" iInterj Pron "in" Sg @>N #1->2
+"<tamaani>"
+	"here" iAdv Adv "in" @ADVL> #2->3
+"<siniffissarsioqattaaginnartarluni>"
+	"bed" iSem/furn iN "future" iSem/event Adj SIUR iSem/be_place iSem/sit "again and again" iAdv "only" iAdv TAR Sem/do V Cont "he/she/it" @PRED #3->0
+"<.>"
+	"." CLB #4->3
+
+"<Imiinnartarlunga>"
+	"drink" iSem/vdrink iV "only" iAdv TAR Sem/do V Cont "I" @PRED #1->0
+"<nuannaarlungalu>"
+	"be happy" Sem/emote iV V Cont "I" "and" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
 <s id="4OUZr4AO7VT65fSZKRhO0bQUPCg">
 "<Tassaniittarput>"
 	"there" iAdv Adv "in" @ADVL> #1->2
@@ -440,6 +656,15 @@
 	"ajor" iSem/refrain "begin" Sem/begin iV "actually" iAdv V Cont @PRED #3->0
 "<.>"
 	"." CLB #4->3
+</s>
+
+<s id="4UrnpARaPS9zWjtuNuDYJpT04fs">
+"<Anaanaga>"
+	"mother" Sem/Hfam iN N Abs Sg "my" @SUBJ> #1->2
+"<atuarunnaarsimavoq>"
+	"read" iSem/read iV "no longer" iAdv SIMA V Ind @PRED #2->0
+"<.>"
+	"." CLB #3->2
 </s>
 
 <s id="4YPzOfUu67ltDIYNErdF1xH1PxI">
@@ -495,7 +720,7 @@
 
 <s id="4fs0X7hJJjXWllkMRQI6U94CdCQ">
 "<Sussallutit>"
-	"su" SSA Sem/must V "that" #1->2
+	"do what" iSem/do iV SSA Sem/must V "that" #1->2
 "<aalajangissaviuk>"
 	"decide" iSem/decide iV SSA Sem/must V Int "you" @PRED #2->0
 "<...>"
@@ -535,6 +760,64 @@
 	"..." CLB #2->1
 </s>
 
+<s id="4ilILgkXxgwrFF04v1xEvbtfJJw">
+"<Inuit>"
+	"human being" Sem/H iN N Abs Pl @HNOUN #1->0
+"<uku>"
+	"this one" iPron Pron Abs Pl @N< #2->1
+"<anaanannut>"
+	"mother" Sem/Hfam iN N "to" Sg "my" @i-ADVL> #3->5
+"<naggammik>"
+	"for the last time" iAdv N Ins Sg @i-ADVL> #4->5
+"<qaniuisut>"
+	"follow" iSem/chase iV HTR "one who" Sem/H iN N Abs Pl @N< #5->1
+"<,>"
+	"," CLB #6->5
+"<inuunerat>"
+	"life" Sem/ac iN N Abs Sg "their" @SUBJ> #7->9
+"<qanormita>"
+	"yes" Sem/act-s Part TA @>V #8->9
+"<oqitsigaa>"
+	"be light" iSem/be_attribute iV "as" V Int @PRED #9->0
+"<.>"
+	"." CLB #10->9
+</s>
+
+<s id="4ixIxBrsrLzhAlSixh99wYyo8PA">
+"<Nangaarianngivillunga>"
+	"hesitate" iV "not" iAdv "completely" Sem/jdegree Adj V "after" "I" @ADVL> #1->2
+"<tiguara>"
+	"take" Sem/take iV V Ind "I" "him/her/it" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
+<s id="4xk24cxEe9yiVlDW2rWs3CSbV14">
+"<Sanianiippoq>"
+	"side" Sem/L iN N "in" Sg "his/her/its" @ADVL> #1->2
+"<ippoq>"
+	"be" Sem/be_place iV V Ind @PRED #2->0
+"<angut>"
+	"man" Sem/H iN N Abs Sg @<SUBJ #3->2
+"<,>"
+	"," CLB #4->3
+"<.>"
+	"." CLB #5->4
+
+"<qiviaannarlugu>"
+	"look towards" Sem/watch iV "only" iAdv V Cont "him/her/it" @ADVL> #1->2
+"<ilimatsaatiinnarpara>"
+	"ilimatsaap" "only" iAdv V Ind "I" @PRED #2->0
+"<kavaajani>"
+	"jacket" Sem/cloH iN N Abs Sg "his/her/its" @OBJ> #3->5
+"<kusanarnerpaaq>"
+	"be attractive" iSem/be_attribute iV NIRPAAQ N Abs Sg @N< #4->3
+"<atisimagaa>"
+	"put on" iSem/dress iV SIMA V "he/she/it" "that" #5->2
+"<.>"
+	"." CLB #6->5
+</s>
+
 <s id="5dv8Nxr8PujiNq7WjY8dzTLsDpc">
 "<Eqqarsaatigereerparalu>"
 	"consider" Sem/think iV "already" iAdv V Ind "I" "and" @PRED #1->0
@@ -562,6 +845,24 @@
 	"be small" iSem/be_attribute iV TUQ Sem/f N Abs Sg @i-SUBJ_COMP< #3->2
 "<.>"
 	"." CLB #4->3
+</s>
+
+<s id="5zRLrFLxoVvYABHob53MJx1pvN0">
+"<Kigaatsumik>"
+	"slow" Sem/f Adj N Ins Sg @ADVL> #1->3
+"<matu>"
+	"door" Sem/Ldoor iN N Abs Sg @OBJ> #2->3
+"<tunullugu>"
+	"turn away from" Sem/orient iV V Cont @ADVL> #3->5
+"<natermut>"
+	"floor" Sem/Lsurf iN N "to" Sg @ADVL> #4->5
+"<ingippunga>"
+	"sit down" Sem/change_body_pos iV V Ind "I" @PRED #5->0
+"<aquillunga>"
+	"aquip" Sem/excrete V Cont @<ADVL #6->5
+	"squat" iV V Cont @<ADVL #6->5
+"<.>"
+	"." CLB #7->6
 </s>
 
 <s id="64iZ5zvdkcbS55FUISVNUxDE4gs">
@@ -656,6 +957,58 @@
 	"spoiled" Sem/Hfam Adj N Abs Sg @HNOUN #1->0
 "<pujoralaallu>"
 	"dust" Sem/cm iN N Abs Pl "and" @HNOUN #2->0
+</s>
+
+<s id="6v7VcLvGhcTDugxLxg28IF0NTy4">
+"<Suli>"
+	"still" Adv Adv @ADVL> #1->2
+"<inuugaluarlutik>"
+	"live" Sem/persist iV "actually" iAdv V Cont "they" @i-ADVL> #2->3
+"<inuunerminnik>"
+	"life" Sem/ac iN N Ins Sg "their" @i-ADVL> #3->4
+"<tunniutiinnareersut>"
+	"give" iSem/give iV "only" iAdv RIIR "oneself" "one who" Sem/H iN N Abs Pl @OBJ> #4->5
+	"give" iSem/give iV "only" iAdv RIIR "oneself" "that which" Sem/cc iN N Abs Pl @OBJ> #4->5
+	"tunniup" iSem/send "only" iAdv RIIR "oneself" "one who" Sem/H iN N Abs Pl @OBJ> #4->5
+	"tunniup" iSem/send "only" iAdv RIIR "oneself" "that which" Sem/cc iN N Abs Pl @OBJ> #4->5
+"<tupigisaqaakka>"
+	"be surprised" iSem/marvel iV TAR iSem/do QE V Ind "I" @PRED #5->0
+"<.>"
+	"." CLB #6->5
+</s>
+
+<s id="6xrA3rn4SVgIc4710qmcpykwh5Q">
+"<Ataataata>"
+	"father" Sem/Hfam iN N Rel Sg "his/her/its" @SUBJ> #1->5
+"<angerlarsimaffiup>"
+	"home" Sem/Lh iN N Sg "of" #2->3
+"<iluani>"
+	"inside" Sem/Lh iN N "in" Sg "his/her/its" @ADVL> #3->5
+"<savilerluni>"
+	"knife" iSem/tool-cut iN LIR Sem/supply V Cont @ADVL> #4->5
+"<malersortarsimavaa>"
+	"chase" iSem/chase iV TAR iSem/do SIMA V Ind "him/her/it" @PRED #5->0
+"<,>"
+	"," CLB #6->5
+"<.>"
+	"." CLB #7->6
+
+"<qujanartumilli>"
+	"fortunately" iAdv N Ins Sg "but" @i-ADVL> #1->3
+"<ukiorpassuarni>"
+	"year" iSem/dur iN PAK "large" Sem/f Adj N "in" Pl @i-ADVL> #2->3
+"<aalisapilunnerup>"
+	"fish" iSem/berry iV PILUP NIQ N Sg "of" #3->4
+"<kingunerinik>"
+	"result" Sem/ac iN N Ins Pl "his/her/its" @ADVL> #4->5
+"<pitsorlulerluni>"
+	"walk badly" Sem/body_moveSC iV "begin" Sem/begin iV V Cont @ADVL> #5->7
+"<timaa>"
+	"body" Sem/anmov iN N Abs Sg "his/her/its" @SUBJ> #6->7
+"<sukkavallaarunnaarsimavoq>"
+	"be quick" iV VALLAAR "no longer" iAdv SIMA V Ind @PRED #7->0
+"<.>"
+	"." CLB #8->7
 </s>
 
 <s id="76nFfq42ZChE2mkofr8IT18fa14">
@@ -793,9 +1146,18 @@
 	"drop" iSem/lower iV QQU iSem/beg "actually" iAdv V Cont "himself/herself/itself" @ADVL> #2->3
 	"drop" iSem/lower iV QQU iSem/order "actually" iAdv V Cont "himself/herself/itself" @ADVL> #2->3
 "<akersuukkaluarpoq>"
-	"akersuup" iSem/fight "actually" iAdv V Ind @PRED #3->0
+	"resist" Sem/resist iV "actually" iAdv V Ind @PRED #3->0
 "<.>"
 	"." CLB #4->3
+</s>
+
+<s id="7xgcgx9H4opx0JfEUd92QCTYscs">
+"<Iluamik>"
+	"properly" Adv Adv @ADVL> #1->2
+"<eqqarsarsinnaanngilanga>"
+	"think" Sem/think iV "can" Sem/can iV "not" iAdv V Ind "I" @PRED #2->0
+"<.>"
+	"." CLB #3->2
 </s>
 
 <s id="80ldJwMAIkz882zydelXRkw7Phs">
@@ -854,6 +1216,23 @@
 	"understand" Sem/comprehend iV "can" Sem/can iV "not" iAdv V Ind "he/she/it" @PRED #3->0
 "<.>"
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #4->3
+</s>
+
+<s id="8Ku82lNxHKlsrpHHXBciF2QhI9M">
+"<Ataatsimilluunniit>"
+	"one" Sem/unit iNum Num Ins Sg "at all" @i->N #1->2
+"<annoraaqartoqanngilaq>"
+	"anorak" Sem/cloH iN "be" Sem/be_copula iV "one who" Sem/H iN "be" Sem/be_copula iV "not" iAdv V Ind "he/she/it" @PRED #2->0
+	"anorak" Sem/cloH iN "be" Sem/be_copula iV "that which" Sem/cc iN "be" Sem/be_copula iV "not" iAdv V Ind "he/she/it" @PRED #2->0
+"<!>"
+	"!" CLB #3->2
+</s>
+
+<s id="8ah2gmBKXvgOYmZnYQjIqiQV7H4">
+"<Ikumatiinnarsinnaavara>"
+	"be lighted" iSem/light_emission iV TIP iSem/cause "only" iAdv "can" Sem/can iV V Ind "I" "him/her/it" @PRED #1->0
+"<.>"
+	"." CLB #2->1
 </s>
 
 <s id="8mowU6ZTstXQ3LLvugW57dFh9C0">
@@ -926,7 +1305,7 @@
 "<,>"
 	"," CLB #4->3
 "<nuluini>"
-	"buttock" Sem/anmov iN N "in" Pl "his/her/its" @ADVL> #5->7
+	"butt" Sem/f-phys iN N "in" Pl "his/her/its" @ADVL> #5->7
 "<eqisaluttuni>"
 	"be wrinkled" iSem/be_attribute iV TUQ Sem/f N "in" Pl @N< #6->5
 "<angalaartarlutik>"
@@ -1016,6 +1395,16 @@
 	"." CLB #11->10
 </s>
 
+<s id="9dAgxX04c8vnqehjciJqUVVqNig">
+"<Eqqarsaatinnut>"
+	"thought" Sem/sem-c iN N "to" Sg "my" @ADVL> #1->2
+"<qimaavunga>"
+	"flee" Sem/leave iV V Ind "I" @PRED #2->0
+	"qimaa" Sem/forget V Ind "I" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
 <s id="9sWGwC5vIKGSMmbtfqsv05qZ26I">
 "<Radio>"
 	"radio" Sem/cc-h iN N Abs Sg @OBJ> #1->2
@@ -1099,6 +1488,39 @@
 	"dark" Sem/f Adj "just" iAdv "be" Sem/be_copula iV V Ind @PRED #3->0
 "<.>"
 	"." CLB #4->3
+</s>
+
+<s id="AAQzsULhHNQu2QYjpbABLJz7B8Q">
+"<Skaavimmi>"
+	"closet" Sem/furn iN N "in" Sg @ADVL> #1->2
+"<ujaasilerpunga>"
+	"search" Sem/search iV "begin" Sem/begin iV V Ind "I" @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<anniaatiga>"
+	"pain" Sem/percep-f iN N Abs Sg "my" @OBJ> #1->2
+"<qaangerusuppara>"
+	"qaanger" iSem/exceed "want to" Sem/wish iV V Ind "I" @PRED #2->0
+	"qaanger" iSem/improve "want to" Sem/wish iV V Ind "I" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+
+"<Massakkut>"
+	"now" Adv Adv @HNOUN #1->0
+"<.>"
+	"." CLB #2->1
+</s>
+
+<s id="ABE0rf5MNVmgPDrdnFCawzxFweU">
+"<Kamappunga>"
+	"be angry" Sem/emote iV V Ind "I" @PRED #1->0
+"<annilaangallungalu>"
+	"be afraid" Sem/be_attribute iV V Cont "I" "and" @PRED #2->0
+"<.>"
+	"." CLB #3->2
 </s>
 
 <s id="AMMfdVUIhzfID1eAfCTOn1xqxPQ">
@@ -1221,6 +1643,20 @@
 	"." CLB #7->6
 </s>
 
+<s id="Ap9qw0gEFf59ZjbUF3Wxb1Kcc8o">
+"<Artulersimavoraasiit>"
+	"faint" iSem/change_bodystate iV SIMA V Ind "he/she/it" "as usual" @PRED #1->0
+"<.>"
+	"." CLB #2->1
+</s>
+
+<s id="B3qfXfZXbcHBjAUVDhlLNXlQjdc">
+"<Annaanneqarsinnaanngilanga>"
+	"save" iSem/help iV NIQAR iSem/help "can" Sem/can iV "not" iAdv V Ind "I" @PRED #1->0
+"<.>"
+	"." CLB #2->1
+</s>
+
 <s id="B4dpKMQXdPFaYO1RJz81bxbVCwQ">
 "<Matu>"
 	"door" Sem/Ldoor iN N Abs Sg @OBJ> #1->2
@@ -1268,7 +1704,7 @@
 "<nalunngisannik>"
 	"acquaintance" Sem/H iN N Ins Sg "my" @i->N #5->6
 "<oqaloqateqanngilanga>"
-	"oqalup" iSem/talk QATE QAR iSem/talk "not" iAdv V Ind "I" @PRED #6->0
+	"have a conversation" Sem/vtalk iV "not" iAdv V Ind "I" @PRED #6->0
 "<.>"
 	"." CLB #7->6
 </s>
@@ -1317,6 +1753,51 @@
 	"choice" Sem/act iN "have" Sem/have iV V "I" "that" #2->1
 "<.>"
 	"." CLB #3->2
+</s>
+
+<s id="BMmN2ltNIyHQOwpOFIeKSvImF8A">
+"<Angutip>"
+	"man" Sem/H iN N Sg "of" #1->2
+"<aappaa>"
+	"fellow" Sem/Hprof Adj N Abs Sg "his/her/its" "when" @SUBJ> #2->3
+"<anerpaluinnartoq>"
+	"go out" Sem/leave iV "be audible that" Sem/sound_emission iV "only" iAdv V Par #3->9
+"<,>"
+	"," CLB #4->3
+"<angutip>"
+	"man" Sem/H iN N Rel Sg @SUBJ> #5->9
+"<kiserngoruttup>"
+	"be left behind" Sem/linger iV "one who" Sem/H iN N Rel Sg @N< #6->5
+"<anaanaga>"
+	"mother" Sem/Hfam iN N Abs Sg "my" @OBJ> #7->9
+"<artuleqqasoq>"
+	"faint" iSem/change_bodystate iV QQA "one who" Sem/H iN N Abs Sg @N< #8->7
+"<itersarpalulerpaa>"
+	"wake up" Sem/change_bodystate iV "be audible that" Sem/sound_emission iV "begin" Sem/begin iV V Ind @PRED #9->0
+"<.>"
+	"." CLB #10->9
+</s>
+
+<s id="BOJPCrQVClmrGwCJFY2ORKgyRZo">
+"<Uummatima>"
+	"heart" Sem/anorg iN N Sg "my" "of" #1->2
+"<kassunnera>"
+	"beat" iSem/moveS_local iV NIQ N Abs Sg "his/her/its" @SUBJ> #2->5
+"<aammik>"
+	"blood" Sem/cm-liq iN N Ins Sg @MIK-OBJ> #3->5
+"<timinni>"
+	"body" Sem/anmov iN N "in" Sg "my" @ADVL> #4->5
+"<ingerlarsortitsivoq>"
+	"rush" iSem/rush iV TIP iSem/cause HTR Sem/cause V Ind @PRED #5->0
+"<,>"
+	"," CLB #6->5
+"<annaanneqarsinnaanngitsunik>"
+	"save" iSem/help iV NIQAR iSem/help "can" Sem/can iV "not" iAdv "one who" Sem/H iN N Ins Pl @MIK-OBJ> #7->8
+	"save" iSem/help iV NIQAR iSem/help "can" Sem/can iV "not" iAdv "that which" Sem/cc iN N Ins Pl @MIK-OBJ> #7->8
+"<annaassiniaraluarluni>"
+	"save" iSem/help iV HTR iSem/help NIAR iSem/try_to "actually" iAdv V Cont @<ADVL #8->5
+"<.>"
+	"." CLB #9->8
 </s>
 
 <s id="BaaIYpnjMPdhuwvZUtPy8FIKGHE">
@@ -1465,6 +1946,25 @@
 	"?" CLB #3->2
 </s>
 
+<s id="DgjRVNepMY9tR3i3gxjTrS5Ed0g">
+"<Kavaajani>"
+	"jacket" Sem/cloH iN N Abs Pl "his/her/its" @OBJ> #1->5
+"<gummersuanilu>"
+	"rubber boot" Sem/cloH-shoe iN "large" Sem/f Adj N Abs Pl "his/her/its" "and" @OBJ> #2->5
+"<natermiittut>"
+	"floor" Sem/Lsurf iN N "in" Sg @i-ADVL> #3->4
+"<ittut>"
+	"be" Sem/be_place iV "that which" Sem/cc iN N Abs Pl @N< #4->2
+"<tigugamigit>"
+	"take" Sem/take iV V "when/because" "he/she/it" @CAU> #5->7
+"<sinittarfinniit>"
+	"bedroom" Sem/Lh iN N "from" Pl @ADVL> #6->7
+"<anivoq>"
+	"go out" Sem/leave iV V Ind "he/she/it" @PRED #7->0
+"<.>"
+	"." CLB #8->7
+</s>
+
 <s id="Dkpa85OD0vNwjNedFowZvTW3Ptc">
 "<Louisa>"
 	"Louisa" Sem/Fem Sem/Hum Prop Abs Sg @VOK #1->0
@@ -1528,6 +2028,19 @@
 	"answer" iV V Ind "him/her/it" @PRED #3->0
 "<.>"
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #4->3
+</s>
+
+<s id="DpiWTUxrFG0ox5wz9R2ZM2BVNHs">
+"<Naalliunnerup>"
+	"suffering" Sem/f iN N Sg "of" #1->2
+"<pianik>"
+	"possession" Sem/ac iN N Ins Sg "his/her/its" @i-ADVL> #2->3
+"<eqqarsaatikka>"
+	"thought" Sem/sem-c iN N Abs Pl "my" @OBJ> #3->4
+"<aqussinnaajunnaarpakka>"
+	"have lost control over" Sem/handle iV V Ind "I" @PRED #4->0
+"<.>"
+	"." CLB #5->4
 </s>
 
 <s id="DuPDzOdqVOnsBoOrEjt1ayhzdmg">
@@ -1603,6 +2116,16 @@
 	"." CLB #9->8
 </s>
 
+<s id="EVhxW9YcTMYFA2eKhnoae2CNZVU">
+"<Takissusissaa>"
+	"be long" iSem/be_attribute iV SSUSIQ iSem/geom-line "future" Sem/event Adj N Abs Sg "his/her/its" @OBJ> #1->2
+	"length" Sem/ac iN "future" Sem/event Adj N Abs Sg "his/her/its" @OBJ> #1->2
+"<naatsorsorpara>"
+	"figure out" Sem/deduce iV V Ind "I" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
 <s id="Eg4jsLXtzCq198EBa1nP8yvvqG4">
 "<Meeqqakka>"
 	"child" Sem/H iN N Abs Pl "my" @OBJ> #1->2
@@ -1675,6 +2198,20 @@
 	"." CLB #12->11
 </s>
 
+<s id="FV5Io8mkB2Svo7B6ZsdKW7IMxsE">
+"<Naallioqili>"
+	"suffer" iSem/suffer iV QE V Opt "he/she/it" @PRED #1->0
+"<.>"
+	"." CLB #2->1
+
+"<Inuunini>"
+	"life" Sem/ac iN N Abs Sg "his/her/its" @OBJ> #1->2
+"<artorsaatigeqiliuk>"
+	"worry" iSem/f-psych iN GE iSem/affect_exp iSem/have QE V Opt "he/she/it" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
 <s id="FVqVXD8f9fM9fxxb5Ut4hntMUgs">
 "<Anaanaga>"
 	"mother" Sem/Hfam iN N Abs Sg "my" @VOK #1->0
@@ -1687,6 +2224,30 @@
 	"." CLB #2->1
 </s>
 
+<s id="FbgvrOCXiBzcSpB5HxBFutxeYww">
+"<Tassani>"
+	"there" iAdv Adv "in" @CL-ADVL> #1->2
+"<nivingavunga>"
+	"hang" iV V Ind "I" @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<malugilerparalu>"
+	"notice" Sem/notice iV "begin" Sem/begin iV V Ind "I" "and" @PRED #1->0
+"<anniaatiga>"
+	"pain" Sem/percep-f iN N Abs Sg "my" @OBJ> #2->5
+"<aliasuutigalu>"
+	"mourn" iSem/show_emot iV UTE Sem/ac N Abs Sg "my" "and" @OBJ> #3->5
+"<timera>"
+	"body" Sem/anmov iN N Abs Sg "my" @N< #4->3
+"<qimakkiartuleraat>"
+	"leave" Sem/leave iV "go to" Sem/move_dir iV "begin" Sem/begin iV V "they" "that" #5->1
+"<.>"
+	"." CLB #6->5
+</s>
+
 <s id="FcSHWxtt6ENJHXUotU1pLnp87F4">
 "<Oqaaseqatigiilli>"
 	"sentence" Sem/ac-cat iN N Abs Pl "but" @OBJ> #1->2
@@ -1694,6 +2255,31 @@
 	"end" Sem/end iV "can" Sem/can iV "not" iAdv V Ind "I" @PRED #2->0
 "<.>"
 	"." CLB #3->2
+</s>
+
+<s id="FwO5NxKB7DCd5R12EpHxe1ugrro">
+"<Nipilersuut>"
+	"music" Sem/sem-l iN N Abs Sg @SUBJ> #1->3
+"<nipikinngitsumik>"
+	"be quiet" Sem/speak_mnr iV "not" iAdv Sem/H iN N "-ly" #2->3
+	"be quiet" Sem/speak_mnr iV "not" iAdv Sem/cc iN N "-ly" #2->3
+"<appinneqarpoq>"
+	"appip" NIQAR V Ind @PRED #3->0
+"<,>"
+	"," CLB #4->3
+"<.>"
+	"." CLB #5->4
+
+"<oqallittullu>"
+	"discuss" Sem/discuss iV "one who" Sem/H iN N Abs Pl "and" @SUBJ> #1->2
+	"discuss" Sem/discuss iV "that which" Sem/cc iN N Abs Pl "and" @SUBJ> #1->2
+"<nipituneqqusaatiinnavillutik>"
+	"nipituneqqusaap" "only" iAdv "completely" Sem/jdegree Adj V Cont @ADVL> #2->3
+"<aallartillutik>"
+	"aallartip" Sem/start V Cont "they" @PRED #3->0
+	"begin" Sem/begin iV V Cont "they" @PRED #3->0
+"<.>"
+	"." CLB #4->3
 </s>
 
 <s id="G8m4ohqe90nZfakxdpNqBykllng">
@@ -1747,6 +2333,24 @@
 	"." CLB #6->5
 </s>
 
+<s id="GIYUOhKHnllWR9xDLoiFMlXQOrc">
+"<Uanni>"
+	"uanga" Sem/ac Pron "in" @ADVL> #1->2
+"<angutaassuseqanngillat>"
+	"man" iSem/H iN "be" iSem/be_copula iV SSUSIQ "have" Sem/have iV "not" iAdv V Ind "they" @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<isumaqanngitsunik>"
+	"absurdity" Sem/ac iN N Ins Pl @i->N #1->2
+"<najoqqagassaataannalissuupput>"
+	"drink" iSem/drink-c-h iN UTE "just" iAdv LIK "large" Sem/f Adj "be" Sem/be_copula iV V Ind "they" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
 <s id="GMDMP9dILAdzny3PolPZbeCM8uc">
 "<Angutipalaarsuaq>"
 	"man" iSem/H iN PALAAQ "large" Sem/f Adj N Abs Sg @HNOUN #1->0
@@ -1777,6 +2381,24 @@
 	"." CLB #2->1
 </s>
 
+<s id="GjU2HtorgYJxbYC1L9sGncNcDyc">
+"<Tusarniitsumik>"
+	"sound bad" Sem/stimulus_subj iV Sem/H iN N "-ly" @i->N #1->2
+	"sound bad" Sem/stimulus_subj iV Sem/cc iN N "-ly" @i->N #1->2
+"<nipeqalertarpoq>"
+	"sound" iSem/percep-l iN QAR iSem/sound_biocom "begin" iSem/begin iV TAR Sem/do V Ind "he/she/it" @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<nammineq>"
+	"oneself" iPron Pron Abs "he/she/it" @SUBJ> #4->6
+"<niperinngisaminik>"
+	"niperinngisaminik" ? #5->4
+"<nipinittarluni>"
+	"sound" iSem/percep-l iN NIP iSem/get TAR Sem/do V Cont @<ADVL #6->2
+"<.>"
+	"." CLB #7->6
+</s>
+
 <s id="GsSUqFhX8xbKnVWNx0qiZpH1VKs">
 "<Sunarpiaq>"
 	"what" iPron PIAQ Pron Abs Sg @OBJ> #1->2
@@ -1797,6 +2419,68 @@
 	"ajor" Sem/refrain V Ind "I" "him/her/it" @PRED #5->0
 "<.>"
 	"." CLB #6->5
+</s>
+
+<s id="Gx7IQ6VWytkcxiaGSaqlO2HYCmw">
+"<Skaavik>"
+	"closet" Sem/furn iN N Abs Sg @OBJ> #1->3
+"<sukujuusivik>"
+	"sup" iSem/capture KUJUP USIQ VIK Sem/con N Abs Sg @N< #2->1
+"<ammarpara>"
+	"open" Sem/open iV V Ind "I" @PRED #3->0
+"<,>"
+	"," CLB #4->3
+"<.>"
+	"." CLB #5->4
+
+"<allunaasarlu>"
+	"rope" Sem/cc-cord iN N Abs Sg "and" @OBJ> #1->3
+"<atorneqarsinnaasoq>"
+	"use" iSem/use iV NIQAR "can" Sem/can iV "that which" Sem/cc iN N Abs Sg @N< #2->1
+"<nanillugu>"
+	"find" Sem/discover iV V Cont @PRED #3->0
+"<.>"
+	"." CLB #4->3
+</s>
+
+<s id="H1JeI7HCMzObNqggHGVy3OJ8BxE">
+"<Ataasiarnanga>"
+	"do once" Sem/do iV V ContNeg @ADVL> #1->2
+"<misigisarpara>"
+	"feel" iSem/notice iV TAR Sem/do V Ind "I" @PRED #2->0
+"<unnuami>"
+	"night" Sem/temp iN N "in" Sg @ADVL> #3->7
+"<putsumik>"
+	"smoke" Sem/cm-gas iN N Ins Sg @i-ADVL> #4->6
+"<tipersuarmillu>"
+	"smell" iN "large" Sem/f Adj N Ins Sg "and" @i-ADVL> #5->6
+"<ipilerninnik>"
+	"choke" iSem/kill_method iV N "because of" Sg "my" @ADVL> #6->7
+"<itertitaallunga>"
+	"wake up" Sem/change_bodystate iV "what has been" Sem/occur_dynamic iV "be" Sem/be_copula iV V "I" "that" #7->2
+"<.>"
+	"." CLB #8->7
+
+"<Pujoq>"
+	"smoke" Sem/cm-gas iN N Abs Sg @HNOUN #1->0
+"<qernerujulluni>"
+	"be black" iV RUJUP V Cont "he/she/it" @i-ADVL> #2->3
+"<qaserujuttoq>"
+	"be grey" iV RUJUP TUQ Sem/col N Abs Sg @N< #3->1
+"<,>"
+	"," CLB #4->3
+"<akulerukkiartulersimalluni>"
+	"akulerup" "go to" iSem/move_dir iV "begin" iSem/begin iV SIMA V Cont "he/she/it" @i-ADVL> #5->9
+"<qilaaniit>"
+	"sky" Sem/Ltop iN N "from" Sg "his/her/its" @ADVL> #6->8
+"<naqqanut>"
+	"floor" Sem/Lsurf iN N "to" Sg "his/her/its" @ADVL> #7->8
+"<annertusiartuutigaluni>"
+	"be of large extent" iSem/be_attribute iV SI "go to" iSem/move_dir iV V "while" "he/she/it" @i-ADVL> #8->9
+"<morsukkiartulersoq>"
+	"morsup" "go to" Sem/move_dir iV "begin" Sem/begin iV "that which" Sem/cc iN N Abs Sg @N< #9->1
+"<.>"
+	"." CLB #10->9
 </s>
 
 <s id="H3JeIuyqJGKwq9P6KjkHuNJ48Ho">
@@ -1842,6 +2526,42 @@
 	"." CLB #9->8
 </s>
 
+<s id="HFW7yUUZ1b7BDO4HlWGrf8KjsfA">
+"<Anerpaluinnartoq>"
+	"go out" Sem/leave iV "be audible that" Sem/sound_emission iV "only" iAdv V Par "he/she/it" "when" #1->5
+"<tuaviinnaq>"
+	"quickly" Adv Adv @ADVL> #2->5
+"<matu>"
+	"door" Sem/Ldoor iN N Abs Sg @OBJ> #3->5
+"<silarleq>"
+	"hall" Sem/Lh iN N Abs Sg @N< #4->3
+"<parnaariartorpara>"
+	"lock" Sem/fasten iV "go to" Sem/move_dir iV V Ind "I" @PRED #5->0
+"<,>"
+	"," CLB #6->5
+"<.>"
+	"." CLB #7->6
+
+"<parnaareerlugulu>"
+	"lock" Sem/fasten iV "already" iAdv V Cont "him/her/it" "and" @CAU #1->2
+"<uterama>"
+	"return" Sem/reach iV V "when/because" "I" @CAU> #2->6
+"<ineeqqat>"
+	"room" Sem/Lh iN N Abs Pl @OBJ> #3->5
+"<tamaasa>"
+	"all" Sem/am iN N Akk @N< #4->3
+"<aqqusaaqattaarlugit>"
+	"call at" Sem/reach iV "again and again" iAdv V Cont @ADVL> #5->6
+"<misissorlugit>"
+	"investigate" Sem/investigate iV V Cont "them" @PRED #6->0
+"<allanik>"
+	"another" Sem/f iPron N Ins Pl @i->N #7->8
+"<inoqarnersut>"
+	"human being" iSem/H iN "have" iSem/have iV V Par "they" @CL-<CIT #8->6
+"<.>"
+	"." CLB #9->8
+</s>
+
 <s id="HNnFdLiM2cnMgQ5assfUaKCisZA">
 "<Angerlamut>"
 	"homewards" Adv Adv @ADVL> #1->2
@@ -1867,6 +2587,35 @@
 	"be at home" Sem/be_attribute iV V "when/because" "he/she/it" @<CAU #11->10
 "<.>"
 	"." CLB #12->11
+</s>
+
+<s id="HaAFFFR0wYw8Hq8Ri0Ux8LHYvv4">
+"<Takusinnaavara>"
+	"see" Sem/see iV "can" Sem/can iV V Ind "I" @PRED #1->0
+"<paasigaa>"
+	"understand" Sem/comprehend iV V "he/she/it" "that" #2->1
+"<suna>"
+	"what" iPron Pron Abs Sg @>N #3->4
+"<tamaat>"
+	"all" Sem/am iN N Akk @OBJ> #4->5
+"<angullugu>"
+	"reach" Sem/reach iV V Cont @ADVL> #5->6
+"<akersuutissamaartunga>"
+	"resist" iSem/resist iV SSAMAAR Sem/plan V "I" "that" #6->2
+"<.>"
+	"." CLB #7->6
+</s>
+
+<s id="Hj5dCfRW9OuLLvIRpB252lElxVE">
+"<Nikippaluttarneri>"
+	"move" iSem/moveS_local iV "be audible that" iSem/sound_emission iV TAR iSem/do NIQ N Abs Pl "his/her/its" @OBJ> #1->3
+	"move" iSem/moveS_local iV "be audible that" iSem/sound_emission iV TAR iSem/do NIQ N Abs Pl "their" @OBJ> #1->3
+"<tamaasa>"
+	"all" Sem/am iN N Akk @N< #2->1
+"<tusaasinnaavakka>"
+	"hear" Sem/hear iV "can" Sem/can iV V Ind "I" @PRED #3->0
+"<.>"
+	"." CLB #4->3
 </s>
 
 <s id="HoNoPFJpn0kFMZF4ir4kS3lIxVo">
@@ -1911,6 +2660,17 @@
 	"." CLB #3->2
 </s>
 
+<s id="HokKQkkVxKyhIxYgbVoSDdaTxZw">
+"<Uangalu>"
+	"uanga" iSem/ac Pron Rel "and" @SUBJ> #1->3
+"<aqagu>"
+	"tomorrow" Sem/future Adv Adv @ADVL> #2->3
+"<asaassuttussaavakka>"
+	"wash" iSem/clean iV HTR iSem/clean UTE TUSSAA V Ind "I" "them" @PRED #3->0
+"<.>"
+	"." CLB #4->3
+</s>
+
 <s id="Hp5ytxFJY6GLX594LMxdHtYWeuw">
 "<Nakorsap>"
 	"doctor" Sem/Hprof iN N Rel Sg @SUBJ> #1->2
@@ -1919,13 +2679,74 @@
 "<qasusooqqanera>"
 	"depression" Sem/sick iN N Abs Sg "my" @<OBJ #3->2
 "<kinguaariinniit>"
-	"descendant" iSem/Hfam iN GIIT N "from" Pl "my" @i-ADVL> #4->6
+	"generation" Sem/HH iN N "from" Pl "my" @i-ADVL> #4->6
 "<kinguaariinnut>"
-	"descendant" iSem/Hfam iN GIIT N "to" Pl @i-ADVL> #5->6
+	"generation" Sem/HH iN N "to" Pl @i-ADVL> #5->6
 "<kingornuttagaasimanissaa>"
 	"kingornup" TAR iSem/do "what has been" iSem/occur_dynamic iV "be" iSem/be_copula iV SIMA NIQ "future" Sem/event Adj N Abs Sg "his/her/its" @N< #6->3
 "<.>"
 	"." CLB #7->6
+</s>
+
+<s id="HrkYKBxtEYDXCGEZ6qAjnuw9jRI">
+"<Aalajangiussimasara>"
+	"maintain" iSem/declare iV SIMA "what has been" Sem/occur_dynamic iV N Abs Sg "my" @OBJ> #1->2
+"<piviusunngortinngitsuussagukku>"
+	"make real" iSem/implement iV "not" iAdv TUUR SSA Sem/must V "when/if" "I" @CON> #2->6
+"<inuunerma>"
+	"life" Sem/ac iN N Sg "my" "of" #3->4
+"<sinnera>"
+	"rest" Sem/amount iN N Abs Sg "his/her/its" @CL-ADVL> #4->6
+"<imminut>"
+	"oneself" iPron Pron "to" Sg @ADVL> #5->6
+"<isumakkeerfiginavianngilanga>"
+	"forgive" iSem/exonerate iV NAVIAR NNGIT "myself" V Ind "I" "myself" @PRED #6->0
+"<.>"
+	"." CLB #7->6
+</s>
+
+<s id="HvsoeZVhr2PQsCwQwNGltvRzDQ0">
+"<Ukiuni>"
+	"year" Sem/dur iN N "in" Pl @CL-ADVL> #1->5
+"<amerlavallaartuni>"
+	"be many" iSem/be_attribute iV VALLAAR "that which" Sem/cc iN N "in" Pl @N< #2->1
+"<nipi>"
+	"sound" Sem/percep-l iN N Abs Sg @OBJ> #3->5
+"<taanna>"
+	"this one" iPron Pron Abs Sg @N< #4->3
+"<tusaasimavara>"
+	"hear" iSem/hear iV SIMA V Ind "I" @PRED #5->0
+"<.>"
+	"." CLB #6->5
+</s>
+
+<s id="ICffaZgAdWUjeLApuYGknpycD9A">
+"<Angutip>"
+	"man" Sem/H iN N Sg "of" #1->2
+"<najoqqagaanik>"
+	"drink" Sem/vdrink iV "what has been" Sem/occur_dynamic iV N Ins Sg "his/her/its" @MIK-OBJ> #2->3
+"<aarlorusserusuummeraluarpunga>"
+	"gulp" iV HTR iSem/swallow "want to" iSem/wish iV UMMIR "actually" iAdv V Ind "I" @PRED #3->0
+"<.>"
+	"." CLB #4->3
+
+"<Taakkunasulli>"
+	"Taakkunasu" Prop Rel Sg "but" Heur/Prop #1->0
+"<inuuginnarusunneq>"
+	"live" iSem/persist iV "only" iAdv "want to" iSem/wish iV NIQ N Abs Sg @HNOUN #2->0
+"<.>"
+	"." CLB #3->2
+
+"<Nakkaannarusunneq>"
+	"fall down" iSem/collapse iV "only" iAdv "want to" iSem/wish iV NIQ N Abs Sg @HNOUN #1->0
+"<.>"
+	"." CLB #2->1
+
+"<Tunniutiinnarusunneq>"
+	"give" iSem/give iV "only" iAdv "want to" iSem/wish iV NIQ N Abs Sg @HNOUN #1->0
+	"tunniup" iSem/send "only" iAdv "want to" iSem/wish iV NIQ N Abs Sg @HNOUN #1->0
+"<.>"
+	"." CLB #2->1
 </s>
 
 <s id="IJQE7xUJc6Yne5IHDZKXZGLEHcE">
@@ -2004,6 +2825,19 @@
 	"Fari" Sem/Mask Sem/Hum iProp "be" Sem/be_copula iV V "he/she/it" "that" #3->2
 "<.>"
 	"." CLB #4->3
+</s>
+
+<s id="IXXHTNrAzggrnygqixOgtQWGUpM">
+"<Qallunaat>"
+	"Dane" Sem/Hnat iN N Abs Pl @OBJ> #1->4
+"<angutit>"
+	"man" Sem/H iN N Abs Pl @N< #2->1
+"<marluk>"
+	"two" Sem/ac-sign iNum Num Abs Pl @N< #3->2
+"<tusaasinnaavakka>"
+	"hear" Sem/hear iV "can" Sem/can iV V Ind "I" @PRED #4->0
+"<.>"
+	"." CLB #5->4
 </s>
 
 <s id="IZORgUx0Fywce5c6iGiH2ICX3yA">
@@ -2092,6 +2926,24 @@
 	"." CLB #3->2
 </s>
 
+<s id="JI1wnKV4p0s84eoJKDGymRBzqGo">
+"<Annoraaqartoqarani>"
+	"anorak" Sem/cloH iN "have" Sem/have iV "one who" Sem/H iN "have" Sem/have iV V ContNeg @PRED2 #1->4
+	"anorak" Sem/cloH iN "have" Sem/have iV "that which" Sem/cc iN "have" Sem/have iV V ContNeg @PRED2 #1->4
+"<taamaattorli>"
+	"still" iAdv Adv "but" @CL-ADVL> #2->4
+"<angigisarsuarminnik>"
+	"be too large for" Sem/regard_as iV "what has been" Sem/occur_dynamic iV "large" Sem/f Adj N Ins Sg "their" @i->N #3->4
+"<kavaajalersuussimapput>"
+	"jacket" iSem/cloH iN LIRSUR UTE SIMA "become" V Ind "they" @PRED #4->0
+"<najoqqagassaminnik>"
+	"drink" Sem/drink-c-h iN N Ins Sg "their" @i->N #5->6
+"<imaqalaarsinnaaniassammata>"
+	"content" iSem/am iN "have" iSem/have iV LAAR "can" iSem/can iV NIAR iSem/try_to SSA Sem/must V "when/because" "they" @<CAU #6->4
+"<.>"
+	"." CLB #7->6
+</s>
+
 <s id="JN1kyjpbOvJNHTgdxLs2uH87dEo">
 "<Fjernsynip>"
 	"television" Sem/sem-w iN N Sg "of" #1->4
@@ -2145,6 +2997,33 @@
 	"look towards" Sem/watch iV V Ind "he/she/it" "him/her/it" @PRED #4->0
 "<.>"
 	"." CLB #5->4
+</s>
+
+<s id="K99EcqxdDCVQN2qQBKoxPXxZGq4">
+"<Ulluinnaasoq>"
+	"weekday" Sem/temp iN "be" Sem/be_copula iV V Par "he/she/it" "when" #1->11
+"<ilimagereerlugu>"
+	"expect" Sem/assume iV "already" iAdv V Cont @<ADVL #2->1
+"<imerniartarfiup>"
+	"pub" Sem/inst iN N Sg "of" #3->4
+"<matunnginnerani>"
+	"be closed" iSem/be_attribute iV "not" iAdv NIQ N "in" Sg "his/her/its" @ADVL> #4->5
+"<aniumaartoq>"
+	"go out" iSem/leave iV GUMAAR V "he/she/it" "that" #5->2
+"<,>"
+	"," CLB #6->5
+"<aarimmi>"
+	"predictably" Adv Adv @ADVL> #7->10
+"<aqqarnup>"
+	"eleven" iNum Num Sg "of" #8->9
+"<eqqaani>"
+	"proximity" Sem/am iN N "in" Sg "his/her/its" @ADVL> #9->10
+"<anissalluni>"
+	"go out" iSem/leave iV SSA Sem/must V Cont @ADVL> #10->11
+"<pikerpaluleqaaq>"
+	"prepare oneself" iSem/prepare iV "be audible that" iSem/sound_emission iV "begin" iSem/begin iV QE V Ind "he/she/it" @PRED #11->0
+"<.>"
+	"." CLB #12->11
 </s>
 
 <s id="KCoSL9UrnDGxIiUL94yVfixrRIc">
@@ -2286,6 +3165,31 @@
 	"." CLB #7->6
 </s>
 
+<s id="KpE8who1sguWcy5pF1v7MUjER48">
+"<Iserami>"
+	"go in" Sem/enter iV V "when/because" "he/she/it" @CAU> #1->8
+"<tunginnut>"
+	"direction" Sem/dir iN N "to" Sg "my" @ADVL> #2->3
+"<aallassalluni>"
+	"move" iSem/moveS_local iV SSA Sem/must V Cont @ADVL> #3->8
+"<kavaajani>"
+	"jacket" Sem/cloH iN N Abs Pl "his/her/its" @OBJ> #4->8
+"<gummersuanilu>"
+	"rubber boot" Sem/cloH-shoe iN "large" Sem/f Adj N Abs Pl "his/her/its" "and" @OBJ> #5->8
+"<nipaarsaarluni>"
+	"try to be silent" Sem/sound_emission iV V Cont @ADVL> #6->8
+"<natermut>"
+	"floor" Sem/Lsurf iN N "to" Sg @ADVL> #7->8
+"<ilivai>"
+	"put" Sem/put iV V Ind "he/she/it" @PRED #8->0
+"<,>"
+	"," CLB #9->8
+"<itertinnaveersaarlunga>"
+	"wake up" iSem/change_bodystate iV NAVIIRSAAR V Cont "me" @<ADVL #10->8
+"<.>"
+	"." CLB #11->10
+</s>
+
 <s id="KqeaCn1d1e1MXBzFiwGJYAwtsAM">
 "<Sooruna>"
 	"why" Interj UNA @CL-ADVL> #1->4
@@ -2397,6 +3301,39 @@
 	"." CLB #3->2
 </s>
 
+<s id="L0Wx7LuN0DYtHjjvGLVcWDZqxAY">
+"<Nilliasinnaavunga>"
+	"shout" Sem/speak_mnr iV "can" Sem/can iV V Ind "I" @PRED #1->0
+"<,>"
+	"," CLB #2->1
+"<.>"
+	"." CLB #3->2
+
+"<akiuussinnaavunga>"
+	"akiuup" iSem/spatial_conf "can" Sem/can iV V Ind "I" @PRED #1->0
+	"resist" Sem/resist iV "can" Sem/can iV V Ind "I" @PRED #1->0
+"<,>"
+	"," CLB #2->1
+"<.>"
+	"." CLB #3->2
+
+"<kimmaasinnaavunga>"
+	"bite into" iSem/chew iV HTR "can" Sem/can iV V Ind "I" @PRED #1->0
+"<,>"
+	"," CLB #2->1
+"<.>"
+	"." CLB #3->2
+
+"<tukkaasinnaavunga>"
+	"kick against" iSem/hit_goal iV HTR "can" Sem/can iV V Ind "I" @PRED #1->0
+"<allarpassuillu>"
+	"another" iSem/f iPron PAK "large" Sem/f Adj N Abs Pl "and" @OBJ> #2->3
+"<sakkugisinnaavakka>"
+	"weapon" Sem/cc-h iN "have as" Sem/have iV "can" Sem/can iV V Ind "I" @PRED #3->0
+"<.>"
+	"." CLB #4->3
+</s>
+
 <s id="L2IIuPZdxP0yXEcNeP3mImxUg78">
 "<Takorloorsinnaanngisaannarnikuuara>"
 	"imagine" iSem/think iV "can" iSem/can iV "do never" iSem/persist iV NIKUU V Ind "I" @PRED #1->0
@@ -2406,6 +3343,30 @@
 	"do so" iSem/do iV "can" iSem/can iV NIQ "future" Sem/event Adj N Abs Sg "his/her/its" @<OBJ #3->1
 "<.>"
 	"." CLB #4->3
+</s>
+
+<s id="L3IdaNHKL0OC10MBs4ma7wYDvUI">
+"<Inimut>"
+	"room" Sem/Lh iN N "to" Sg @ADVL> #1->2
+"<issaallutik>"
+	"sit down" Sem/change_body_pos iV V Cont @ADVL> #2->3
+"<imerpalulerput>"
+	"drink" Sem/vdrink iV "be audible that" Sem/sound_emission iV "begin" Sem/begin iV V Ind "they" @PRED #3->0
+"<,>"
+	"," CLB #4->3
+"<.>"
+	"." CLB #5->4
+
+"<tusaasinnaavaralu>"
+	"hear" Sem/hear iV "can" Sem/can iV V Ind "I" "and" @PRED #1->0
+"<skuutik>"
+	"shoe" Sem/cloH-shoe iN N Abs Pl "their" @OBJ> #2->3
+"<atuinnarlugit>"
+	"use" Sem/use iV "only" iAdv V Cont @ADVL> #3->4
+"<isaarpaluttut>"
+	"stream in" Sem/move_dir iV "be audible that" Sem/sound_emission iV V "they" "that" #4->1
+"<.>"
+	"." CLB #5->4
 </s>
 
 <s id="L5xsxDdhGudImjYuD8JG2HUzsG8">
@@ -2424,8 +3385,8 @@
 	"how" Adv Adv @>V #2->3
 "<kamaatsigineriga>"
 	"be angry with" iSem/emote_obj iV "as" V Par "I" @PRED #3->0
+	"fight with" iSem/vfight iV "as" V Par "I" @PRED #3->0
 	"kamaap" "as" V Par "I" @PRED #3->0
-	"kamaap" iSem/fight "as" V Par "I" @PRED #3->0
 "<,>"
 	"," CLB #4->3
 "<.>"
@@ -2437,8 +3398,8 @@
 	"how" Adv Adv @>V #2->3
 "<kamaatsigineriga>"
 	"be angry with" iSem/emote_obj iV "as" V Par "I" @PRED #3->0
+	"fight with" iSem/vfight iV "as" V Par "I" @PRED #3->0
 	"kamaap" "as" V Par "I" @PRED #3->0
-	"kamaap" iSem/fight "as" V Par "I" @PRED #3->0
 "<.>"
 	"." CLB #4->3
 
@@ -2476,6 +3437,42 @@
 	"." CLB #3->2
 </s>
 
+<s id="LKAomIkbc5gnPjCoQxnZRjxtwKk">
+"<Sinissimanerminit>"
+	"sleep" iSem/bodystate iV SIMA N "because of" Sg "his/her/its" @ADVL> #1->5
+"<nujai>"
+	"hair" Sem/f-an iN N Abs Pl "his/her/its" @SUBJ> #2->5
+"<suli>"
+	"still" Adv Adv @ADVL> #3->5
+"<taamatut>"
+	"so" Adv Adv @ADVL> #4->5
+"<inisseqqapput>"
+	"fall into place" iSem/reach iV QQA V Ind @PRED #5->0
+	"room" iSem/Lh iN SSIP iSem/lodge QQA V Ind @PRED #5->0
+"<.>"
+	"." CLB #6->5
+</s>
+
+<s id="LOgbYjcwMNxMSbxvJc8JTkJCREg">
+"<Immiartorfiatalu>"
+	"beer glass" Sem/con Sem/drink-h iN N Sg "his/her/its" "and" "of" #1->2
+	"beer" iSem/drink-c-h iN "consume" iSem/eat iV VIK iSem/con N Sg "his/her/its" "and" "of" #1->2
+	"beer" iSem/drink-c-h iN TUR iSem/consume VIK iSem/con N Sg "his/her/its" "and" "of" #1->2
+	"immiaq" iSem/drink TUR iSem/consume VIK iSem/con N Sg "his/her/its" "and" "of" #1->2
+	"stake" iSem/mon-c iN "consume" iSem/eat iV VIK iSem/con N Sg "his/her/its" "and" "of" #1->2
+	"stake" iSem/mon-c iN TUR iSem/consume VIK iSem/con N Sg "his/her/its" "and" "of" #1->2
+"<ilerpaluttarneranit>"
+	"put" iSem/put iV "be audible that" iSem/sound_emission iV TAR "become" iSem/do N "because of" Sg "his/her/its" @ADVL> #2->3
+"<tusaasinnaavara>"
+	"hear" Sem/hear iV "can" Sem/can iV V Ind "I" @PRED #3->0
+"<qanoq>"
+	"how" Adv Adv @>V #4->5
+"<silatusaarniartigigaluarnersoq>"
+	"behave sensibly" iSem/behave iV NIAR iSem/try_to "as" "actually" iAdv V Par "he/she/it" @CL-<CIT #5->3
+"<.>"
+	"." CLB #6->5
+</s>
+
 <s id="Lh3DMnS3Q1VQKLDmNGTOWwp0roI">
 "<Arsugaq>"
 	"Arsugaq" Sem/Fem Sem/Hum Prop Abs Sg "when/because" @SUBJ> #1->5
@@ -2501,6 +3498,32 @@
 	"watch" Sem/watch iV "begin" Sem/begin iV V Ind "he/she/it" @PRED #10->0
 "<.>"
 	"." CLB #11->10
+</s>
+
+<s id="Lw0nuVQpLhtoDb7uWkNEGzByAyw">
+"<Anniaatiga>"
+	"pain" Sem/percep-f iN N Abs Sg "my" @SUBJ> #1->4
+"<,>"
+	"," CLB #2->1
+"<aliasuutiga>"
+	"mourn" iSem/show_emot iV UTE Sem/ac N Abs Sg "my" @SUBJ> #3->4
+"<inituallaarpoq>"
+	"be extensive" iSem/be_attribute iV VALLAAR V Ind @PRED #4->0
+"<,>"
+	"," CLB #5->4
+"<.>"
+	"." CLB #6->5
+
+"<massakkoqqissaarlu>"
+	"now" iAdv iAdv QQISSAAQ Adv "and" @ADVL> #1->2
+"<tiguaqqallunga>"
+	"conquer" iSem/vanquish iV QQA V Cont "me" @ADVL> #2->3
+"<aquppaanga>"
+	"aqup" Sem/handle V Ind "he/she/it" "me" @PRED #3->0
+	"aqup" Sem/run_obj V Ind "he/she/it" "me" @PRED #3->0
+	"aqup" Sem/steer V Ind "he/she/it" "me" @PRED #3->0
+"<.>"
+	"." CLB #4->3
 </s>
 
 <s id="MCzM5GNmx0Bm2FT9NUT02hlZ8JI">
@@ -2570,6 +3593,15 @@
 	"." CLB #13->12
 </s>
 
+<s id="MHoIx8d1PBG6ioKKifx8De6UX4U">
+"<Ugguarnissaq>"
+	"be annoyed" iSem/emote iV NIQ iSem/f-psych "future" Sem/event Adj N Abs Sg @SUBJ> #1->2
+"<inortuereerpoq>"
+	"be too late" iSem/delay iV RIIR Sem/delay V Ind @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
 <s id="MSFi6lC0ZiFbwTXtBpTIIOtVi8k">
 "<Sinittarfimmiit>"
 	"bedroom" Sem/Lh iN N "from" Sg @ADVL> #1->2
@@ -2583,6 +3615,74 @@
 	"move" Sem/moveS_local iV V Ind "I" @PRED #5->0
 "<.>"
 	"." CLB #6->5
+</s>
+
+<s id="Mj49BMEPXezwxvro45fJIELtOo4">
+"<Ilaanni>"
+	"sometimes" Adv Adv @CL-ADVL> #1->6
+"<arfininngornerup>"
+	"Saturday" Sem/temp iN N Sg "of" #2->3
+"<unnuaani>"
+	"night" Sem/temp iN N "in" Sg "his/her/its" @ADVL> #3->5
+"<inuit>"
+	"human being" Sem/H iN N Abs Pl @SUBJ> #4->6
+"<ikippalugatik>"
+	"be few" Sem/be_attribute iV "be audible that" Sem/sound_emission iV V ContNeg @ADVL> #5->6
+"<isaarpalulerput>"
+	"stream in" Sem/move_dir iV "be audible that" Sem/sound_emission iV "begin" Sem/begin iV V Ind @PRED #6->0
+"<.>"
+	"." CLB #7->6
+</s>
+
+<s id="NDtDrg8i3mx2lyVeydLguDxTDQM">
+"<Isumaluummerpunga>"
+	"be grumpy" iSem/show_emot iV UMMIR V Ind "I" @PRED #1->0
+"<.>"
+	"." CLB #2->1
+</s>
+
+<s id="NL5Ap81jufaoYSVWYUxrzHKBsxE">
+"<Illarpaluk>"
+	"laugh" iSem/show_emot iV PALUK N Abs Sg @SUBJ> #1->7
+"<,>"
+	"," CLB #2->1
+"<quiasaariniarpaluk>"
+	"quiasaar" HTR NIAR iSem/try_to PALUK N Abs Sg @SUBJ> #3->7
+"<,>"
+	"," CLB #4->3
+"<ingasaallugulu>"
+	"exaggerate" Sem/exaggerate iV V Cont "him/her/it" "and" @i-ADVL> #5->6
+"<illaatiginninniarpaluk>"
+	"illaatige" iSem/show_emot HTR NIAR iSem/try_to PALUK N Abs Sg @SUBJ> #6->7
+"<tusarsaapput>"
+	"be audible" Sem/be_attribute iV V Ind @PRED #7->0
+"<.>"
+	"." CLB #8->7
+</s>
+
+<s id="NObO7t8VA2X76QJLaYB74isTOm4">
+"<Toqunissaanut>"
+	"death" Sem/event iN "future" Sem/event Adj N "to" Sg "his/her/its" @ADVL> #1->2
+"<ikiussagaluarukku>"
+	"help" iSem/help iV SSA iSem/must "actually" iAdv V "when/if" "I" "him/her/it" @CON> #2->7
+"<,>"
+	"," CLB #3->2
+"<inuunermini>"
+	"life" Sem/ac iN N "in" Sg "his/her/its" @ADVL>N #4->5
+"<naalliuutai>"
+	"suffering" Sem/f iN N Abs Pl "his/her/its" @OBJ> #5->7
+"<tamaanga>"
+	"to here" iAdv Adv "to" @ADVL> #6->7
+"<kipiinnassagakkit>"
+	"cut off" iSem/cut iV "only" iAdv SSA Sem/must V "when/because" "I" @CAU> #7->10
+"<,>"
+	"," CLB #8->7
+"<taamatullu>"
+	"so" iAdv Adv "and" @ADVL> #9->10
+"<ikiorusunngilara>"
+	"help" Sem/help iV "want to" Sem/wish iV "not" iAdv V Ind "I" "him/her/it" @PRED #10->0
+"<.>"
+	"." CLB #11->10
 </s>
 
 <s id="NWOJgfrG8GHCx9w9xCPhGxWPnro">
@@ -2678,6 +3778,32 @@
 	"." CLB #6->5
 </s>
 
+<s id="NwUvt84d1cOVu2aMqpz77nmd02E">
+"<Tuattunnguaq>"
+	"be slender" iSem/be_attribute iV TUQ iSem/f-phys-h "little" Sem/f Adj N Abs Sg @HNOUN #1->0
+"<nallinnartorlu>"
+	"nallip" iSem/help "be" iSem/be_copula iV TUQ Sem/Hprof N Abs Sg "and" @N< #2->1
+"<,>"
+	"," CLB #3->2
+"<anaanama>"
+	"mother" Sem/Hfam iN N Sg "my" "of" #4->5
+"<inuunerani>"
+	"life" Sem/ac iN N "in" Sg "his/her/its" @i-ADVL> #5->7
+"<angutipalaanut>"
+	"man" iSem/H iN PALAAQ N "to" Pl @i-ADVL> #6->8
+"<ilaasimasunut>"
+	"accompany" iSem/accompany iV SIMA "one who" Sem/H iN N "to" Pl @N< #7->6
+	"be part of" iSem/be_part iV SIMA "one who" Sem/H iN N "to" Pl @N< #7->6
+"<pilliutigiuminartoq>"
+	"pilliut" iSem/ac GE iSem/renounce iSem/contribute "be easy" Sem/be_attribute iV "that which" Sem/cc iN N Abs Sg @N< #8->2
+	"pilliut" iSem/ac GE iSem/supply "be easy" Sem/be_attribute iV "that which" Sem/cc iN N Abs Sg @N< #8->2
+	"pilliutige" iSem/renounce iSem/contribute "be easy" Sem/be_attribute iV "that which" Sem/cc iN N Abs Sg @N< #8->2
+	"pilliutige" iSem/supply "be easy" Sem/be_attribute iV "that which" Sem/cc iN N Abs Sg @N< #8->2
+	"sacrifice" Sem/renounce iV "be easy" Sem/be_attribute iV "that which" Sem/cc iN N Abs Sg @N< #8->2
+"<.>"
+	"." CLB #9->8
+</s>
+
 <s id="NxSZM8Zk4gvo2C4QpXjpSGqIJKc">
 "<Nalunngilarali>"
 	"know" Sem/know iV V Ind "I" "but" @PRED #1->0
@@ -2688,9 +3814,37 @@
 "<nakorsaq>"
 	"doctor" Sem/Hprof iN N Abs Sg @OBJ> #4->5
 "<oqaloqatigisussaallugu>"
-	"talk to" iSem/talk iV TUSSAA V "I" "that" #5->1
+	"talk to" iSem/vtalk iV TUSSAA V "I" "that" #5->1
 "<.>"
 	"." CLB #6->5
+</s>
+
+<s id="O6EbDoKuDWQ6lf4UOexH8E3w4uI">
+"<Kalaallisuuma>"
+	"Greenlandic women costume" Sem/cloH iN N Rel Pl "my" @SUBJ> #1->6
+"<oqortut>"
+	"hot" Sem/f-phys Adj N Rel Pl @N< #2->1
+"<,>"
+	"," CLB #3->2
+"<nuilarmiorsuisa>"
+	"beaded collar" Sem/part-clo iN "large" Sem/f Adj N Rel Pl "their" @SUBJ> #4->6
+"<oqimaatsut>"
+	"heavy" Sem/Hprof Adj N Rel Pl @N< #5->4
+"<ipianngutilerpaannga>"
+	"feel suffocating" Sem/breathe iV "cause to" Sem/cause iV V Ind "me" @PRED #6->0
+	"feel suffocating" iSem/breathe iV TIP iSem/cause LIR Sem/become_be V Ind "me" @PRED #6->0
+"<,>"
+	"," CLB #7->6
+"<eqqarsaatikka>"
+	"thought" Sem/sem-c iN N Abs Pl "my" #8->7
+"<amerlasuut>"
+	"many" Sem/amount Adj N Abs Pl @N< #9->8
+"<tujorminartut>"
+	"be unpleasant" Sem/be_attribute iV "that which" Sem/cc iN N Abs Pl @N< #10->8
+"<kiaguummertittarlunga>"
+	"sweat" iV UMMIR TIP iSem/cause TAR Sem/do V Cont "they" "me" @<ADVL #11->6
+"<.>"
+	"." CLB #12->11
 </s>
 
 <s id="ODBz6C7OxW1JijNUIrz5xhQWdVI">
@@ -2707,6 +3861,45 @@
 	"relax" iV V Cont "you" @PRED #2->0
 "<.>"
 	"." CLB #3->2
+</s>
+
+<s id="OKpQeqm7owCNr0u4GiF78QYu558">
+"<Nalunngilara>"
+	"know" Sem/know iV V Ind "I" @PRED #1->0
+"<susoqarsinnaasoq>"
+	"susoq" iSem/ac-cat "be" Sem/be_copula iV "can" Sem/can iV V "he/she/it" "that" #2->1
+	"susoq" iSem/ac-cat "have" Sem/have iV "can" Sem/can iV V "he/she/it" "that" #2->1
+"<.>"
+	"." CLB #3->2
+</s>
+
+<s id="OOOJPxaZCh1KpeiOpXDxYVJHGtM">
+"<Timera>"
+	"body" Sem/anmov iN N Abs Sg "my" @SUBJ> #1->2
+"<nalornivoq>"
+	"be in doubt" Sem/assume iV V Ind @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<suli>"
+	"still" Adv Adv @ADVL> #1->2
+"<uumarusuppoq>"
+	"live" Sem/persist iV "want to" Sem/wish iV V Ind "he/she/it" @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<sunali>"
+	"what" iPron Pron Abs Sg "but" @>N #1->2
+"<tamarmi>"
+	"all" Sem/am iN N Nom @SUBJ> #2->3
+"<taartippoq>"
+	"faint" Sem/change_bodystate iV V Ind @PRED #3->0
+"<.>"
+	"." CLB #4->3
 </s>
 
 <s id="OPxMSlrrn20NF7I1GKXqoXm1a3E">
@@ -2834,7 +4027,7 @@
 
 <s id="OzAE7Ox6DNO1Rx0oxVLm3asJZMQ">
 "<Siggui>"
-	"beak" Sem/anzo iN N Abs Pl "his/her/its" @SUBJ> #1->4
+	"mouth" Sem/f-an iN N Abs Pl "his/her/its" @SUBJ> #1->4
 "<aappaluttut>"
 	"blood" iSem/cm-liq iN "be like" iSem/be_like iV TUQ Sem/f-phys N Abs Pl @N< #2->1
 	"red" Sem/col Adj N Abs Pl @N< #2->1
@@ -2883,11 +4076,59 @@
 	"." CLB #6->5
 </s>
 
+<s id="P7E9irmWIMJhgDUYZLXojyLxXi4">
+"<Nalunngilara>"
+	"know" Sem/know iV V Ind "I" "him/her/it" @PRED #1->0
+"<suna>"
+	"what" iPron Pron Abs Sg @OBJ> #2->3
+"<siunertaralugu>"
+	"front" iSem/ac iN TAQ iSem/am "have as" Sem/have iV V Cont @ADVL> #3->1
+	"front" iSem/ac iN TAQ iSem/sem-c "have as" Sem/have iV V Cont @ADVL> #3->1
+	"goal" Sem/ac iN "have as" Sem/have iV V Cont @ADVL> #3->1
+	"siuneq" iSem/f-an TAQ iSem/am "have as" Sem/have iV V Cont @ADVL> #3->1
+	"siuneq" iSem/f-an TAQ iSem/sem-c "have as" Sem/have iV V Cont @ADVL> #3->1
+	"siuneq" iSem/per TAQ iSem/am "have as" Sem/have iV V Cont @ADVL> #3->1
+	"siuneq" iSem/per TAQ iSem/sem-c "have as" Sem/have iV V Cont @ADVL> #3->1
+"<itersaraluarneraa>"
+	"wake up" iSem/change_bodystate iV "actually" iAdv V Par "he/she/it" "him/her/it" @CL-<CIT #4->3
+"<.>"
+	"." CLB #5->4
+</s>
+
+<s id="PIr1oSfkHNpsk4x5lT9W60711JY">
+"<Anaanaga>"
+	"mother" Sem/Hfam iN N Abs Sg "my" @SUBJ> #1->2
+"<malussataarneruleriarami>"
+	"malussataar" NIRU "begin" iSem/begin iV V "as soon as" @CAU> #2->3
+"<nippakkaluttuinnarpoq>"
+	"get louder" iSem/sound_emission iV GALUTTUAR "only" iAdv V Ind "he/she/it" @PRED #3->0
+"<.>"
+	"." CLB #4->3
+</s>
+
 <s id="PNwxr7jEIit6fCIVFZHJ3Bxxizc">
 "<Ambulancet>"
 	"ambulance" OLang/DAN Err/Sub Sem/Vground N Abs Pl @SUBJ> #1->2
 "<apuupput>"
 	"arrive" Sem/reach iV V Ind @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
+<s id="POLa1Rnj8iimRpsUjnKnMT8PtpE">
+"<Anaanaga>"
+	"mother" Sem/Hfam iN N Abs Sg "my" @OBJ> #1->2
+"<tusaasinnaanngilara>"
+	"hear" Sem/hear iV "can" Sem/can iV "not" iAdv V Ind "I" @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<immaqa>"
+	"perhaps" Part Adv @ADVL> #1->2
+"<artulersimavoq>"
+	"faint" iSem/change_bodystate iV SIMA V Ind "he/she/it" @PRED #2->0
 "<.>"
 	"." CLB #3->2
 </s>
@@ -2912,7 +4153,7 @@
 "<Allorarnikka>"
 	"march" iSem/run iV NIQ N Abs Pl "my" @OBJ> #1->2
 "<kiserujoortarlugit>"
-	"kisip" RUJUUR TAR Sem/do V Cont @PRED #2->0
+	"count" iSem/math iV RUJUUR TAR Sem/do V Cont @PRED #2->0
 "<.>"
 	"." CLB #3->2
 </s>
@@ -2937,6 +4178,26 @@
 	"be tired" iSem/be_attribute iV TUUR SIMA V Par "I" @PRED #1->0
 "<.>"
 	"." CLB DIRTALEMIDDLE #2->1
+</s>
+
+<s id="PpO1xUlFjs51NdPsuYXimzArzxg">
+"<Uunnaavik>"
+	"kettle" Sem/cc-h iN N Abs Sg @OBJ> #1->2
+"<ikumatiinnassanerlugu>"
+	"be lighted" iSem/light_emission iV TIP iSem/cause "only" iAdv SSA iSem/must V Cont @i-ADVL> #2->3
+"<eqqarsarsuataarninni>"
+	"think" iSem/think iV SUATAAR NIQ N "in" Sg "my" @ADVL> #3->7
+"<suut>"
+	"what" iPron Pron Abs Pl @OBJ> #4->7
+"<kingumut>"
+	"again" iAdv N "to" Sg @i-ADVL> #5->6
+"<pisimasut>"
+	"event" Sem/occ iN N Abs Pl @N< #6->4
+"<eqqaanngitsoornerpakka>"
+	"eqqaa" iSem/say "not" iAdv TUUR V Ind "I" @PRED #7->0
+	"remember" iSem/remember iV "not" iAdv TUUR V Ind "I" @PRED #7->0
+"<.>"
+	"." CLB #8->7
 </s>
 
 <s id="PqWboStrLxwVEi54AZodMw8CJQk">
@@ -3027,7 +4288,7 @@
 "<Ineeqqamiit>"
 	"room" Sem/Lh iN N "from" Sg @ADVL> #1->3
 "<politiit>"
-	"police" Sem/inst iN N Rel Pl @SUBJ> #2->3
+	"police officer" Sem/Hprof iN N Rel Pl @SUBJ> #2->3
 "<annikkaminnga>"
 	"go out with" Sem/take iV V "when/because" "me" @CAU> #3->6
 "<talikkut>"
@@ -3099,7 +4360,7 @@
 	"acquaintance" Sem/H iN N "to" Pl "his/her/its" "but" @ADVL> #1->2
 "<oqaannartarpoq>"
 	"say" iSem/say iV "only" iAdv TAR Sem/do V Ind "he/she/it" @PRED #2->0
-	"say" iSem/say iV INNAR iSem/talk TAR Sem/do V Ind "he/she/it" @PRED #2->0
+	"say" iSem/say iV INNAR iSem/vtalk TAR Sem/do V Ind "he/she/it" @PRED #2->0
 "<:>"
 	":" CLB DIRTALESTART #3->2
 
@@ -3114,16 +4375,69 @@
 	"”" PUNCT RIGHT DIRTALESTART #1->0
 </s>
 
+<s id="QeQkh6LJgSchNhKpqYJi2s3wL4A">
+"<Qanilligakku>"
+	"come close to" Sem/reach iV V "when/because" "I" "him/her/it" @CAU> #1->2
+"<paasivara>"
+	"understand" Sem/comprehend iV V Ind "I" @PRED #2->0
+"<igaassanik>"
+	"raw material" Sem/food-c iN N Ins Pl @MIK-OBJ> #3->4
+"<ikkussisimariarluni>"
+	"ikkup" iSem/connect HTR SIMA V "after" "he/she/it" @ADVL> #4->5
+	"ikkup" iSem/put HTR SIMA V "after" "he/she/it" @ADVL> #4->5
+	"plant" iSem/put_deposit iV HTR SIMA V "after" "he/she/it" @ADVL> #4->5
+"<artulersimasoq>"
+	"faint" iSem/change_bodystate iV SIMA V "he/she/it" "that" #5->2
+"<,>"
+	"," CLB #6->5
+"<taavaana>"
+	"then" Adv UNA @CL-ADVL> #7->9
+"<saanikorsuit>"
+	"sparerib" Sem/food-c iN N Abs Pl @SUBJ> #8->9
+"<imertaarullutik>"
+	"water" iSem/cm-liq iN TAQ "have no more" Sem/lose iV V Cont @ADVL> #9->10
+"<ililluinnarlutik>"
+	"be burnt" Sem/worsen iV "entirely" iAdv V Cont @ADVL> #10->11
+"<nunguttut>"
+	"nungup" Sem/end V "they" "that" #11->2
+"<.>"
+	"." CLB #12->11
+</s>
+
 <s id="QhAapFoClsiruu8CjgK00Ti2p8w">
 "<Anaanaa>"
 	"mother" Sem/Hfam iN N Abs Sg "his/her/its" @SUBJ> #1->3
 "<tupaqqarsuaarluni>"
 	"startle" iSem/affect_exp iV QQA SUAR V Cont @ADVL> #2->3
 "<oqaasissaaruteqqavoq>"
-	"word" iSem/ac iN "future" iSem/event Adj IRUTE iSem/talk QQA V Ind @PRED #3->0
+	"word" iSem/ac iN "future" iSem/event Adj IRUTE iSem/vtalk QQA V Ind @PRED #3->0
 	"word" iSem/ac iN "lack" iSem/lack iV QQA V Ind @PRED #3->0
 "<.>"
 	"." CLB #4->3
+</s>
+
+<s id="QxvuVQcu2cjGNxQEQfz8YB3E35U">
+"<Igaffimmut>"
+	"kitchen" Sem/Lh iN N "to" Sg @ADVL> #1->2
+"<aallarama>"
+	"move" Sem/moveS_local iV V "when/because" "I" @CAU> #2->6
+"<toqqaannaq>"
+	"direct" Adj N Abs Sg #3->2
+"<kissaaviup>"
+	"oven" Sem/furn iN N Sg "of" #4->5
+"<tungaanut>"
+	"direction" Sem/dir iN N "to" Sg "his/her/its" @ADVL> #5->6
+"<aallarpunga>"
+	"move" Sem/moveS_local iV V Ind "I" @PRED #6->0
+"<.>"
+	"." CLB #7->6
+</s>
+
+<s id="QzmCyU4YLCFylhNL5jgROqD51dU">
+"<Aqqusaarusunngilara>"
+	"call at" Sem/reach iV "want to" Sem/wish iV "not" iAdv V Ind "I" "him/her/it" @PRED #1->0
+"<.>"
+	"." CLB #2->1
 </s>
 
 <s id="REudWIMJ6P01LQKjVdbj9bEDCrM">
@@ -3173,7 +4487,7 @@
 "<Takusinnaavaralu>"
 	"see" Sem/see iV "can" Sem/can iV V Ind "I" "and" @PRED #1->0
 "<sunersut>"
-	"su" V Par "they" @CL-<CIT #2->1
+	"do what" iSem/do iV V Par "they" @CL-<CIT #2->1
 "<.>"
 	"." CLB #3->2
 </s>
@@ -3208,6 +4522,21 @@
 	"." CLB #8->7
 </s>
 
+<s id="RcxyII3o5Ih2Aq7bXPla95fxGeg">
+"<Quersoriarmat>"
+	"cough" iSem/breathe iV V "as soon as" "he/she/it" @CAU> #1->2
+"<takuakka>"
+	"see" Sem/see iV V Ind "I" @PRED #2->0
+"<kigutai>"
+	"tooth" Sem/f-an iN N Abs Pl "his/her/its" @<OBJ #3->2
+"<ukiorpassuit>"
+	"year" iSem/dur iN PAK "large" Sem/f Adj N Abs Pl @i-ADVL> #4->5
+"<kigutigissarneqarsimanngitsut>"
+	"brush" iSem/wipe iV NIQAR SIMA "not" iAdv "that which" Sem/cc iN N Abs Pl @N< #5->3
+"<.>"
+	"." CLB #6->5
+</s>
+
 <s id="Rs2sxIUmxxU3lxxUrxA2QEwnWv4">
 "<Isini>"
 	"eye" Sem/anorg iN N Abs Pl "his/her/its" @OBJ> #1->3
@@ -3222,6 +4551,25 @@
 	"wipe" Sem/alter iV V Ind "he/she/it" "them" @PRED #4->0
 "<.>"
 	"." CLB #5->4
+</s>
+
+<s id="RsacJVTQYhBu6Ui8XLSIez5evY8">
+"<Arnap>"
+	"woman" Sem/H iN N Rel Sg @POSS>> #1->6
+"<ataatsip>"
+	"one" Sem/unit iNum Num Rel Sg @N< #2->1
+"<saninniittup>"
+	"side" Sem/L iN N "in" Sg "my" @i-ADVL> #3->4
+"<ittup>"
+	"be" Sem/be_place iV "one who" Sem/H iN N Rel Sg @N< #4->2
+"<imminut>"
+	"oneself" iPron Pron "to" Sg @i-ADVL> #5->6
+"<isumagisimanera>"
+	"take care of" iSem/contribute iV SIMA "oneself" NIQ N Abs Sg "his/her/its" @SUBJ> #6->7
+"<malunnarpoq>"
+	"malunnar" Sem/stimulus_subj V Ind @PRED #7->0
+"<.>"
+	"." CLB #8->7
 </s>
 
 <s id="SChfozxt0PJxhwn9raJn3VDCpgc">
@@ -3239,6 +4587,63 @@
 	"stop" Sem/stop iV V Ind @PRED #6->0
 "<.>"
 	"." CLB #7->6
+</s>
+
+<s id="SLAOBtxuX9hmiukx0UI0xa6gdEk">
+"<Nipi>"
+	"sound" Sem/percep-l iN N Abs Sg @OBJ> #1->3
+"<taanna>"
+	"this one" iPron Pron Abs Sg @N< #2->1
+"<tusaassallugu>"
+	"hear" iSem/hear iV SSA Sem/must V Cont @i-ADVL> #3->4
+"<inuuninni>"
+	"life" Sem/ac iN N "in" Sg "my" @ADVL> #4->5
+"<nuannarinnginnerpaavara>"
+	"like" iSem/like iV "not" iAdv NIRPAA V Ind "I" "him/her/it" @PRED #5->0
+"<.>"
+	"." CLB #6->5
+
+"<Nipi>"
+	"sound" Sem/percep-l iN N Abs Sg @HNOUN #1->0
+"<mamarisaminik>"
+	"favourite dish" Sem/food iN N Ins Sg "his/her/its" @MIK-OBJ> #2->3
+"<najorsisimariarluni>"
+	"imbibe" iSem/breathe iV HTR iSem/lodge SIMA V "after" "he/she/it" @i-ADVL> #3->4
+"<allanngortartoq>"
+	"another" iSem/f iPron "become" iSem/become iV TAR iSem/do "that which" Sem/cc iN N Abs Sg @N< #4->1
+	"change" iSem/changeS iV TAR iSem/do "that which" Sem/cc iN N Abs Sg @N< #4->1
+"<.>"
+	"." CLB #5->4
+
+"<Nipi>"
+	"sound" Sem/percep-l iN N Abs Sg @HNOUN #1->0
+"<pitsaasaartumik>"
+	"excellent" iSem/f Adj USAAR iSem/cheat iSem/imitate Sem/H iN N "-ly" @i->N #2->3
+	"excellent" iSem/f Adj USAAR iSem/cheat iSem/imitate Sem/cc iN N "-ly" @i->N #2->3
+	"flatter" Sem/speak_affect iV Sem/H iN N "-ly" @i->N #2->3
+	"flatter" Sem/speak_affect iV Sem/cc iN N "-ly" @i->N #2->3
+"<nipeqalertartoq>"
+	"sound" iSem/percep-l iN QAR iSem/sound_biocom "begin" iSem/begin iV TAR iSem/do "that which" Sem/cc iN N Abs Sg @N< #3->1
+"<.>"
+	"." CLB #4->3
+
+"<Nipi>"
+	"sound" Sem/percep-l iN N Abs Sg @HNOUN #1->0
+"<soorlu>"
+	"like" Part Adv @FOC>N #2->4
+"<sapigaarunnerup>"
+	"can't handle" iSem/can iV "what has been" iSem/occur_dynamic iV "have no more" iSem/lose iV NIQ N Sg "of" #3->4
+"<nipaa>"
+	"sound" Sem/percep-l iN N Abs Sg "his/her/its" @N< #4->1
+"<.>"
+	"." CLB #5->4
+
+"<Nipi>"
+	"sound" Sem/percep-l iN N Abs Sg @HNOUN #1->0
+"<kiinarpalik>"
+	"mask" iSem/Lcover iN LIK N Abs Sg @N< #2->1
+"<.>"
+	"." CLB #3->2
 </s>
 
 <s id="SQsyRjwuPW4Pm8u6uaMxsR3hQ7M">
@@ -3299,6 +4704,20 @@
 	"." CLB #5->4
 </s>
 
+<s id="TE3zcxsfZ5uwasneGTB1v72QO1o">
+"<Allunaasaq>"
+	"rope" Sem/cc-cord iN N Abs Sg @OBJ> #1->4
+"<kigaatsumik>"
+	"slow" Sem/f Adj N Ins Sg @ADVL> #2->4
+"<qungasinnut>"
+	"neck" Sem/anmov iN N "to" Sg "my" @ADVL> #3->4
+	"qungaseq" Sem/food N "to" Sg "my" @ADVL> #3->4
+"<kaajallatsippara>"
+	"wind" Sem/coil iV V Ind "I" @PRED #4->0
+"<.>"
+	"." CLB #5->4
+</s>
+
 <s id="TESAkNFBDhEaNmktNi0j5T5CBPk">
 "<Qanormita>"
 	"yes" Sem/act-s Part TA @ADVL> #1->2
@@ -3317,6 +4736,77 @@
 	"test" iSem/test iV GUMAAR V Ind "I" @PRED #4->0
 "<.>"
 	"." CLB #5->4
+</s>
+
+<s id="TT1RDfdcTMx5VydW6UhVuTQUNMc">
+"<Ataataata>"
+	"father" Sem/Hfam iN N Rel Sg "his/her/its" @SUBJ> #1->5
+"<ernini>"
+	"son" Sem/Hfam iN N Abs Pl "his/her/its" @OBJ> #2->5
+"<tamaasa>"
+	"all" Sem/am iN N Akk @N< #3->2
+"<aalisartussatut>"
+	"fisherman" Sem/Hprof iN "future" Sem/event Adj N "like" Sg @ADVL> #4->5
+"<perorsarsimavai>"
+	"raise" iV SIMA V Ind @PRED #5->0
+"<.>"
+	"." CLB #6->5
+
+"<Ataatamisulli>"
+	"father" Sem/Hfam iN N "like" Pl "his/her/its" "but" @ADVL> #1->2
+"<aalisartunngortussaammatagooq>"
+	"fisherman" iSem/Hprof iN "become" iSem/become iV TUSSAA "themselves" V "when/because" "they" GUUQ @PRED #2->0
+"<.>"
+	"." CLB #3->2
+
+"<Panituanilu>"
+	"daughter" iSem/Hfam iN TUAQ N Abs Sg "his/her/its" "and" @OBJ> #1->3
+"<ajoqutaannartut>"
+	"obstacle" Sem/ac iN "just" iAdv N "like" Sg @ADVL> #2->3
+"<isigisarsimallugu>"
+	"see" iSem/see iV TAR iSem/do SIMA V Cont @PRED #3->0
+"<.>"
+	"." CLB #4->3
+
+"<Atorfissaqanngitsutut>"
+	"miserable" Sem/juse Adj N "like" Sg @HNOUN #1->0
+"<.>"
+	"." CLB #2->1
+</s>
+
+<s id="TeevFQPoUYlhqSxl9ezOpwp2JVA">
+"<Ukiut>"
+	"year" Sem/dur iN N Abs Pl "when" @SUBJ> #1->3
+"<arlallit>"
+	"quite a few" Sem/quant iN N Abs Pl @N< #2->1
+"<qaangiutereersut>"
+	"pass" Sem/continue iV "already" iAdv V Par #3->10
+	"qaangiup" iSem/be_after "already" iAdv V Par #3->10
+"<unnuk>"
+	"evening" Sem/temp iN N Abs Sg @OBJ> #4->6
+"<taanna>"
+	"this one" iPron Pron Abs Sg @N< #5->4
+"<eqqaagaangakku>"
+	"eqqaa" Sem/say V "whenever" "I" @CL-ADVL> #6->10
+	"remember" Sem/remember iV V "whenever" "I" @CL-ADVL> #6->10
+"<–>"
+	"–" PUNCT #7->6
+"<allarpassuillumi>"
+	"another" iSem/f iPron PAK "large" Sem/f Adj N Abs Pl "and" "as you know" @<OBJ #8->6
+"<–>"
+	"–" PUNCT #9->8
+"<tupigusuutigisarpara>"
+	"wonder about" iSem/marvel iV TAR Sem/do V Ind "I" @PRED #10->0
+"<qanoq>"
+	"how" Adv Adv @i->V #11->12
+"<sapiissuseqarsimatiginera>"
+	"courage" iSem/f-psych iN "have" iSem/have iV SIMA "as" NIQ N Abs Sg "my" @<OBJ #12->10
+"<taamatullu>"
+	"so" iAdv Adv "and" @i-ADVL> #13->14
+"<piumassuseqarsimatiginera>"
+	"demand" iSem/ac iN "have" iSem/have iV SIMA "as" NIQ N Abs Sg "my" @<OBJ #14->10
+"<.>"
+	"." CLB #15->14
 </s>
 
 <s id="UAFxAFSHk6mv8vxWt720YnbHCUI">
@@ -3339,6 +4829,18 @@
 	"." CLB #8->7
 </s>
 
+<s id="UCDHCzxpZYIS4lGcRV9xDC9MPTM">
+"<Arlaatigullu>"
+	"one of them" iPron N "through" Sg "his/her/its" "and" @ADVL> #1->3
+"<pisussaq>"
+	"get" iSem/get iV TUQ iSem/geom-line "future" Sem/event Adj N Abs Sg @OBJ> #2->3
+	"happened" iN "future" Sem/event Adj N Abs Sg @OBJ> #2->3
+"<pinngitsoortittariaqarpara>"
+	"prevent" Sem/hinder iV "must" Sem/must iV V Ind "I" @PRED #3->0
+"<.>"
+	"." CLB #4->3
+</s>
+
 <s id="UWnzYu7wgxgIZhEZzsxTRnhHm9Y">
 "<Gangersuarmi>"
 	"hall" Sem/Lh iN "large" Sem/f Adj N "in" Sg @ADVL> #1->2
@@ -3351,8 +4853,8 @@
 "<kisima>"
 	"I alone" Sem/jquant iN N Nom #5->4
 "<nipangissananga>"
+	"be silent" iSem/vtalk iV SSA Sem/must V ContNeg "I" @i-ADVL> #6->7
 	"nipanger" iSem/decrease SSA Sem/must V ContNeg "I" @i-ADVL> #6->7
-	"nipanger" iSem/talk SSA Sem/must V ContNeg "I" @i-ADVL> #6->7
 "<nipikitsumik>"
 	"low-voiced" Sem/cc-h Adj N Ins Sg @i-ADVL> #7->9
 "<niaqunniittut>"
@@ -3365,7 +4867,7 @@
 	"strange" Adj N Abs Pl @N< #11->10
 "<oqaluuterujoortalerlugit>"
 	"oqalup" UTE iSem/speak_affect RUJUUR TAR iSem/do "begin" Sem/begin iV V Cont @<ADVL #12->2
-	"oqalup" UTE iSem/talk RUJUUR TAR iSem/do "begin" Sem/begin iV V Cont @<ADVL #12->2
+	"talk to" iSem/vtalk iV RUJUUR TAR iSem/do "begin" Sem/begin iV V Cont @<ADVL #12->2
 "<.>"
 	"." CLB #13->12
 </s>
@@ -3400,7 +4902,7 @@
 	"." CLB #5->4
 
 "<politiillu>"
-	"police officer" Sem/Hprof iN N Rel Sg "and" @SUBJ> #1->4
+	"police officer" Sem/Hprof iN N Rel Pl "and" @SUBJ> #1->4
 "<aaliangerlunga>"
 	"fix" Sem/fasten iV V Cont "they" "me" @ADVL> #2->4
 "<napparsimavimmiit>"
@@ -3438,6 +4940,19 @@
 	"." CLB #4->3
 </s>
 
+<s id="V6MYMHZQZy4IPgFtBTGNUZeQV6A">
+"<Isigisakka>"
+	"look at" iSem/watch iV TAQ Sem/percep-w N Abs Pl "my" @SUBJ> #1->3
+"<aalaaluttunik>"
+	"move" iSem/moveS_local iV ALUP "one who" Sem/H iN N Ins Pl @i->N #2->3
+	"move" iSem/moveS_local iV ALUP "that which" Sem/cc iN N Ins Pl @i->N #2->3
+"<qaqortuararpassuaqalerput>"
+	"be white" iV "one who" iSem/H iN "little" iSem/f-psych Adj PAK "large" Sem/f Adj "have" Sem/have iV "begin" Sem/begin iV V Ind @PRED #3->0
+	"be white" iV "that which" iSem/cc iN "little" iSem/f-psych Adj PAK "large" Sem/f Adj "have" Sem/have iV "begin" Sem/begin iV V Ind @PRED #3->0
+"<.>"
+	"." CLB #4->3
+</s>
+
 <s id="VEpgD3VXdvcZ0CgtiBdyJJwxx1k">
 "<Eqissimapput>"
 	"shrivel" iV SIMA V Ind "they" @PRED #1->0
@@ -3446,7 +4961,7 @@
 "<imminnut>"
 	"oneself" iPron Pron "to" Pl @ADVL> #3->4
 "<nermullutik>"
-	"nermup" "oneself" V Cont @PRED2 #4->1
+	"wind" Sem/coil iV V Cont @PRED2 #4->1
 "<,>"
 	"," CLB #5->4
 "<.>"
@@ -3460,6 +4975,42 @@
 	"." CLB #3->2
 </s>
 
+<s id="VF6pGo23mfmlCSxPa7ckKKbjIOo">
+"<Qanorli>"
+	"how" iAdv Adv "but" @ADVL> #1->2
+"<nakkaateqatigiinnarlugit>"
+	"fall down" Sem/collapse iV "let" Sem/allow iV "do together with" Sem/be_part iV "only" iAdv V Cont "them" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+
+"<Maanngaanniit>"
+	"from here" iAdv Adv "from" @ADVL> #1->2
+"<ingerlaqatigiinnarlugit>"
+	"travel companion" iSem/Hprof iN GE iSem/be_part "only" iAdv V Cont "them" @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<imeqatigiinnarlugit>"
+	"drink" Sem/vdrink iV "do together with" Sem/be_part iV "only" iAdv V Cont "them" @PRED #1->0
+"<,>"
+	"," CLB #2->1
+"<.>"
+	"." CLB #3->2
+
+"<siunissaq>"
+	"future" Sem/temp iN N Abs Sg @ADVL> #1->4
+"<sussaq>"
+	"sussaq" Interj @INTERJ #2->1
+"<imigassamik>"
+	"drink" Sem/drink-c-h iN N Ins Sg @i->N #3->4
+"<inuuneqaannarluni>"
+	"life" Sem/ac iN "have" Sem/have iV "only" iAdv V Cont "he/she/it" @PRED #4->0
+"<.>"
+	"." CLB #5->4
+</s>
+
 <s id="VMDTzObdPNjzJUuGY5tRRREjALw">
 "<Nalunngilaa>"
 	"know" Sem/know iV V Ind "he/she/it" @PRED #1->0
@@ -3469,6 +5020,15 @@
 	"archive" Sem/Lh iN "be" Sem/be_copula iV V Par #3->1
 "<.>"
 	"." CLB #4->3
+</s>
+
+<s id="VTxxzupjqMnmpIeXPsdg5hhHp8w">
+"<Kialluunniit>"
+	"whoever" iPron Pron Rel Sg @SUBJ> #1->2
+"<innarlissanngilaanga>"
+	"molest" iSem/affect_exp iV SSA iSem/must "not" iAdv V Ind "me" @PRED #2->0
+"<.>"
+	"." CLB #3->2
 </s>
 
 <s id="VWLFWBbKXExEAOnG9s5BISMFxO0">
@@ -3579,6 +5139,48 @@
 	"." CLB #7->6
 </s>
 
+<s id="WFbatYi1lJDe1DnXfSwdYHRz398">
+"<Silammut>"
+	"space outside something" Sem/L iN N "to" Sg @ADVL> #1->2
+"<aallariartormat>"
+	"move" Sem/moveS_local iV "go to" Sem/move_dir iV V "when/because" "he/she/it" @CAU> #2->4
+"<qamuuna>"
+	"inside" iAdv Adv "through" @ADVL> #3->4
+"<toqqissiallakkaluartungalu>"
+	"calm down" iSem/change_bodystate iV ALLAP "actually" iAdv V Par "I" ADV-LU "when" #4->5
+"<tusaalerpara>"
+	"hear" Sem/hear iV "begin" Sem/begin iV V Ind "I" @PRED #5->0
+"<inip>"
+	"room" Sem/Lh iN N Sg "of" #6->7
+"<tungaanut>"
+	"direction" Sem/dir iN N "to" Sg "his/her/its" @ADVL> #7->9
+"<nipaarsaarnerulluni>"
+	"try to be silent" iSem/sound_emission iV NIRU V Cont @ADVL> #8->9
+"<aallaqqippaluttoq>"
+	"move" Sem/moveS_local iV "again" iAdv "be audible that" Sem/sound_emission iV V "he/she/it" "that" #9->5
+"<.>"
+	"." CLB #10->9
+</s>
+
+<s id="WM7lhx8BFuqCxHx2Hn6Sf6HmHYQ">
+"<Nalunngilarami>"
+	"know" Sem/know iV V Ind "I" "as you know" @PRED #1->0
+"<arnaassusera>"
+	"mother" iSem/Hfam iN "be" iSem/be_copula iV SSUSIQ N Abs Sg "my" "that" "when/if" @SUBJ> #2->7
+"<,>"
+	"," CLB #3->2
+"<inuunera>"
+	"life" Sem/ac iN N Abs Sg "my" "that" "when/if" @SUBJ> #4->7
+"<siunissaralumi>"
+	"future" Sem/temp iN N Abs Sg "my" "and" "as you know" "that" "when/if" @SUBJ> #5->7
+"<pinngitsaalineqarsimagaluaruma>"
+	"rape" iSem/touch_exp iSem/hurt iV NIQAR SIMA "actually" iAdv V "I" @CON> #6->7
+"<sequmilluinnaqqissaartussaasut>"
+	"be broken into pieces" iSem/be_attribute iV "entirely" iAdv QQISSAAR TUSSAA V Par #7->1
+"<.>"
+	"." CLB #8->7
+</s>
+
 <s id="WlyIeI789K6vxQnLtotWBu2Mc8k">
 "<Naggataatigut>"
 	"full stop" Sem/ac-sign iN N "through" Sg "his/her/its" @CL-ADVL> #1->3
@@ -3586,7 +5188,7 @@
 "<nilliarsuataajutigaluni>"
 	"shout" iSem/speak_mnr iV SUATAAR V "while" "he/she/it" @ADVL> #2->3
 "<akersuuppoq>"
-	"akersuup" Sem/fight V Ind "he/she/it" @PRED #3->0
+	"resist" Sem/resist iV V Ind "he/she/it" @PRED #3->0
 "<.>"
 	"." CLB #4->3
 </s>
@@ -3614,6 +5216,135 @@
 	"." CLB #3->2
 </s>
 
+<s id="Wv6MFhDT8mzEXnwPx2YcuM2SbFc">
+"<Uunnaaviup>"
+	"kettle" Sem/cc-h iN N Rel Sg @i-POSS> #1->2
+"<sanianiittoq>"
+	"side" Sem/L iN N "in" Sg "his/her/its" @i-ADVL> #2->3
+"<ittoq>"
+	"be" Sem/be_place iV "that which" Sem/cc iN N Abs Sg @>N #3->4
+"<igalaaq>"
+	"window" Sem/Lopening iN N Abs Sg @OBJ> #4->5
+"<qiverseriarlugu>"
+	"open" iSem/open iV V "after" @ADVL> #5->7
+"<uunnaavik>"
+	"kettle" Sem/cc-h iN N Abs Sg @OBJ> #6->7
+"<qamissallugu>"
+	"turn off" iSem/deactivate iV SSA Sem/must Sem/Temporal V Cont @PRED2 #7->9
+"<,>"
+	"," CLB #8->7
+"<eqqarsaammerujussuarpunga>"
+	"think" iSem/think iV UMMIR RUJUP SUAR Sem/be_attribute V Ind "I" @PRED #9->0
+"<.>"
+	"." CLB #10->9
+</s>
+
+<s id="X2MzYLxPizxZCY41M3hGbMxL9yw">
+"<Sallaatsunnguamik>"
+	"be gentle" Sem/be_attribute iV Sem/H iN "little" Sem/f Adj N "-ly" #1->2
+	"be gentle" Sem/be_attribute iV Sem/cc iN "little" Sem/f Adj N "-ly" #1->2
+"<itersarpaluppaa>"
+	"wake up" Sem/change_bodystate iV "be audible that" Sem/sound_emission iV V Ind "he/she/it" "him/her/it" @PRED #2->0
+"<atia>"
+	"name" Sem/ac iN N Abs Sg "his/her/its" @OBJ> #3->4
+"<taasarlugu>"
+	"name" iSem/name iV TAR Sem/do V Cont @<ADVL #4->2
+"<.>"
+	"." CLB #5->4
+</s>
+
+<s id="XAQGy09xvHQAmrQZ9Rw5vzLdCyE">
+"<Sinittarfinnukarpunga>"
+	"bedroom" Sem/Lh iN N "to" Sg "my" @ADVL> #1->2
+"<KAR>"
+	"go to" Sem/move_dir iV V Ind "I" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+
+"<matullu>"
+	"door" Sem/Ldoor iN N Sg "and" "of" #1->2
+"<tigummivianut>"
+	"handle" Sem/cc-handle iN N "to" Sg "his/her/its" @ADVL> #2->4
+"<allunaasaq>"
+	"rope" Sem/cc-cord iN N Abs Sg @OBJ> #3->4
+"<qilersoqqissaarpara>"
+	"tie" iSem/fasten iV QQISSAAR V Ind "I" @PRED #4->0
+"<.>"
+	"." CLB #5->4
+</s>
+
+<s id="XMsvx01LoiZeZeZlRehziSUy4VI">
+"<Oqaluttuaatigaluni>"
+	"tell" iSem/tell iV V "while" "he/she/it" @ADVL> #1->2
+"<qiasinnaasarpoq>"
+	"cry" iSem/show_emot iV "can" iSem/can iV TAR Sem/do V Ind "he/she/it" @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<isaanilu>"
+	"eye" Sem/anorg iN N "in" Pl "his/her/its" "and" @ADVL> #1->2
+"<takusinnaasarpara>"
+	"see" iSem/see iV "can" iSem/can iV TAR Sem/do V Ind "I" @PRED #2->0
+"<utersaartartoq>"
+	"utersaar" TAR Sem/do V "he/she/it" "that" #3->2
+"<.>"
+	"." CLB #4->3
+</s>
+
+<s id="XRA9pmoePJAZS2t8kC3m2omxm4E">
+"<Itertissinnaannginnamiuk>"
+	"wake up" Sem/change_bodystate iV "can" Sem/can iV "not" iAdv V "when/because" "he/she/it" "him/her/it" @CAU> #1->3
+"<silammut>"
+	"space outside something" Sem/L iN N "to" Sg @ADVL> #2->3
+"<aallarpaluppoq>"
+	"move" Sem/moveS_local iV "be audible that" Sem/sound_emission iV V Ind "he/she/it" @PRED #3->0
+"<.>"
+	"." CLB #4->3
+
+"<Siutikka>"
+	"ear" Sem/B iN N Abs Pl "my" @OBJ> #1->5
+"<alliserujussuarlugit>"
+	"enlarge" iSem/increase iV RUJUP SUAR Sem/be_attribute V Cont "them" @ADVL> #2->5
+"<allortarneri>"
+	"step" iSem/run iV TAR iSem/do NIQ N Abs Pl "his/her/its" @OBJ> #3->5
+"<tamaasa>"
+	"all" Sem/am iN N Akk @N< #4->3
+"<tusarnaaqqissaarpakka>"
+	"listen to" iSem/listen iV QQISSAAR V Ind "I" @PRED #5->0
+"<.>"
+	"." CLB #6->5
+</s>
+
+<s id="XuxmA599mp0T58ppjVP5KYRGt4A">
+"<Qujavungalu>"
+	"thank" iV V Ind "I" "and" @PRED #1->0
+"<nuannaarpalummata>"
+	"be happy" Sem/emote iV "be audible that" Sem/sound_emission iV V "when/because" "they" @<CAU #2->1
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<annilaanganeralu>"
+	"be afraid" iSem/be_attribute iV NIQ N Abs Sg "my" "and" @SUBJ> #1->2
+"<annikilliallappoq>"
+	"decrease" iSem/decrease iV ALLAP V Ind @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<naak>"
+	"although" Conj Conj @CONJ #4->5
+"<paasigaluarlugu>"
+	"understand" Sem/comprehend iV "actually" iAdv V Cont "he/she/it" @<ADVL #5->2
+"<unnuassara>"
+	"night" Sem/temp iN "future" Sem/event Adj N Abs Sg "my" "that" @SUBJ> #6->7
+"<takissamaartoq>"
+	"be long" iSem/be_attribute iV SSAMAAR Sem/plan V Par #7->5
+"<.>"
+	"." CLB #8->7
+</s>
+
 <s id="Y09rPxGhsc6qMBn1s5xbvlRuxp0">
 "<Ilummut>"
 	"iluk" "to" @ADVL> #1->2
@@ -3632,6 +5363,108 @@
 	"be" Sem/be_place iV "not" iAdv V Ind "he/she/it" @PRED #2->0
 "<.>"
 	"." CLB #3->2
+</s>
+
+<s id="Y3W40k84RQlWSpzriIPJOdFySgs">
+"<Saperpara>"
+	"can't handle" Sem/can iV V Ind "I" "him/her/it" @PRED #1->0
+"<,>"
+	"," CLB #2->1
+"<anniaatiga>"
+	"pain" Sem/percep-f iN N Abs Sg "my" @HNOUN #3->0
+"<,>"
+	"," CLB #4->3
+"<.>"
+	"." CLB #5->4
+
+"<timima>"
+	"body" Sem/anmov iN N Rel Sg "my" @SUBJ> #1->2
+"<saperluinnarpaa>"
+	"can't handle" Sem/can iV "entirely" iAdv V Ind "him/her/it" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
+<s id="YA9Up5pfIyQiMfwVw6STxpNFdKg">
+"<Tupaqqallunga>"
+	"startle" iSem/affect_exp iV QQA V Cont @ADVL> #1->2
+"<makikkaangama>"
+	"get up" Sem/change_body_pos iV V "whenever" "I" @CL-ADVL> #2->0
+"<,>"
+	"," CLB #3->2
+"<nalullugu>"
+	"do not know" Sem/know iV V Cont @<ADVL #4->2
+"<ornitassara>"
+	"go to" iSem/reach iV "what has been" iSem/occur_dynamic iV SSAQ Sem/L N Abs Sg "my" @SUBJ> #5->6
+"<suunersoq>"
+	"be what" iSem/be_copula iV V Par @CL-<CIT #6->4
+"<,>"
+	"," CLB #7->6
+"<qanoq>"
+	"how" Adv Adv @ADVL> #8->9
+"<isikkoqarnersoq>"
+	"look" iSem/appear iV V Par "he/she/it" @CL-<CIT #9->4
+"<,>"
+	"," CLB #10->9
+"<qanoq>"
+	"how" Adv Adv @>V #11->12
+"<ilitsigisimanersoq>"
+	"be burnt" iSem/worsen iV "as" SIMA V Par "he/she/it" @CL-<CIT #12->4
+"<,>"
+	"," CLB #13->12
+"<qangami>"
+	"when" Adv "as you know" @ADVL> #14->13
+"<.>"
+	"." CLB #15->14
+
+"<pissanganartannguarsi>"
+	"be in suspense" iSem/emote iV "be" iSem/be_copula iV TAR NNGUARSI Interj @PRED #1->0
+	"pissaq" iSem/ac NGA iSem/be_like "be" iSem/be_copula iV TAR NNGUARSI Interj @PRED #1->0
+	"powerful" Adj NGA iSem/be_like "be" iSem/be_copula iV TAR NNGUARSI Interj @PRED #1->0
+"<.>"
+	"." CLB #2->1
+</s>
+
+<s id="YOJuHTisvY84peTaiLjBROWg9Vs">
+"<Ilaanni>"
+	"sometimes" Adv Adv @CL-ADVL> #1->4
+"<anaanaga>"
+	"mother" Sem/Hfam iN N Abs Sg "my" @SUBJ> #2->3
+"<aalakuuleriarluni>"
+	"be drunk" iSem/be_attribute iV LIR iSem/booze V "after" @ADVL> #3->4
+"<aggeqqusarpaanga>"
+	"send for" iSem/summon iV TAR Sem/do V Ind "he/she/it" "me" @PRED #4->0
+"<oqaluttuarfigisarlungalu>"
+	"tell" iSem/tell iV TAR Sem/do V Cont "me" "and" @PRED #5->0
+"<.>"
+	"." CLB #6->5
+</s>
+
+<s id="YUaoj4PnK8oJa71QrRpQEgzjLC4">
+"<Qaqikkakkilli>"
+	"take out" Sem/take iV V "when/because" "I" "them" ADV-LI @CAU> #1->3
+"<oqimaassusersuisa>"
+	"weight" Sem/ac iN "large" Sem/f Adj N Rel Pl "their" @SUBJ> #2->3
+"<misigitippaannga>"
+	"feel" iSem/notice iV TIP Sem/cause V Ind "me" @PRED #3->0
+"<nunama>"
+	"country" Sem/Lciv iN N Rel Sg "my" "that" @SUBJ> #4->6
+"<taamaallaat>"
+	"just" Adv Adv @ADVL> #5->6
+"<artukkertaraanga>"
+	"overburden" iSem/burden iV TAR Sem/do V Par "me" #6->3
+"<,>"
+	"," CLB #7->6
+"<inuiaqatima>"
+	"fellow citizen" Sem/Hnat iN N Pl "my" "of" #8->11
+"<qanoq>"
+	"how" Adv Adv @i-ADVL> #9->11
+"<uannut>"
+	"uanga" Sem/ac Pron "to" @i-ADVL> #10->11
+"<oqimaaloqutaatigineri>"
+	"burden" iSem/cc-h iN "be" iSem/be_copula iV "as" NIQ N Abs Pl "their" @<OBJ #11->3
+"<.>"
+	"." CLB #12->11
 </s>
 
 <s id="YVrxwK7Wl73x2XWEhS8fl7jvuHU">
@@ -3705,6 +5538,13 @@
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #18->17
 </s>
 
+<s id="YrNBLRKYapCpYl5Epm4qFEtXtQY">
+"<Anaana>"
+	"mother" Sem/Hfam iN N Abs Sg "when/because" @SUBJ> #1->2
+"<oqaasiinnaammat>"
+	"word" Sem/ac iN "just" iAdv "be" Sem/be_copula iV V @PRED #2->0
+</s>
+
 <s id="Ys7n8lwOCx8EfxJXK3cECNHFizE">
 "<Pineqaatissiissutigineqartoq>"
 	"sentence" iSem/ac iN "have as" iSem/have iV NIQAR "one who" Sem/H iN N Abs Sg @SUBJ> #1->2
@@ -3726,6 +5566,165 @@
 	"freedom" iSem/ac iN IAR iSem/remove HTR "that which" Sem/cc iN N Abs Pl @N< #3->1
 "<.>"
 	"." CLB #4->3
+</s>
+
+<s id="YxPxRqz4Wmqu39wWMqtVG4NngKQ">
+"<Nipaata>"
+	"sound" Sem/percep-l iN N Sg "his/her/its" "of" #1->2
+"<allanngorsimaneranit>"
+	"be changed" iSem/be_attribute iV N "because of" Sg "his/her/its" @ADVL> #2->3
+"<tusaasinnaavara>"
+	"hear" Sem/hear iV "can" Sem/can iV V Ind "I" @PRED #3->0
+"<qanoq>"
+	"how" Adv Adv @>V #4->5
+"<isumagissaartiginersoq>"
+	"be happy" iSem/emote iV "as" V Par "he/she/it" @CL-<CIT #5->3
+"<.>"
+	"." CLB #6->5
+</s>
+
+<s id="a2xoCkXTizONJAbk6pShG0MHYCA">
+"<Timiga>"
+	"body" Sem/anmov iN N Abs Sg "my" @SUBJ> #1->3
+"<kalaallisuunik>"
+	"Greenlandic women costume" Sem/cloH iN N Ins Pl @ADVL> #2->3
+"<poorneqarsimariarmat>"
+	"wrap up" iSem/cover iV NIQAR SIMA V "as soon as" @CAU> #3->5
+"<eqqarsaatinnillu>"
+	"thought" Sem/sem-c iN N "from" Sg "my" ADV-LU @AGENS #4->5
+"<ipianngutinneqalerpunga>"
+	"feel suffocating" iSem/breathe iV TIP iSem/cause NIQAR "begin" Sem/begin iV V Ind "I" @PRED #5->0
+"<.>"
+	"." CLB #6->5
+</s>
+
+<s id="a6PB7wrf3JXpKF6C0J4pNCyXxIM">
+"<Nalunngilarali>"
+	"know" Sem/know iV V Ind "I" "but" @PRED #1->0
+"<taamaaginnaruma>"
+	"be so" Sem/be_like iV "only" iAdv V "when/if" "I" @CON> #2->3
+"<iluaqutaanavianngitsoq>"
+	"be beneficial" iSem/be_attribute iV NAVIAR "not" iAdv V "he/she/it" "that" #3->1
+"<.>"
+	"." CLB #4->3
+</s>
+
+<s id="aGewxXToPAsWCXjX08XlAsPk7RI">
+"<Tillernera>"
+	"pulse" Sem/percep-t iN N Abs Sg "my" @SUBJ> #1->2
+"<qaffappoq>"
+	"rise" Sem/increase iV V Ind @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<aak>"
+	"blood" Sem/cm-liq iN N Abs Sg @SUBJ> #1->4
+"<annertuallaartoq>"
+	"be of large extent" iSem/be_attribute iV VALLAAR "that which" Sem/cc iN N Abs Sg @N< #2->1
+"<qaratsanni>"
+	"brain" Sem/anorg iN N "in" Sg "my" @ADVL> #3->4
+"<katersuussimavoq>"
+	"katersuup" SIMA "become" V Ind @PRED #4->0
+"<.>"
+	"." CLB #5->4
+</s>
+
+<s id="aNF138IQBeqIfjfaxZCxm09pLN8">
+"<Sallaatsumik>"
+	"be gentle" Sem/be_attribute iV Sem/H iN N "-ly" #1->3
+	"be gentle" Sem/be_attribute iV Sem/cc iN N "-ly" #1->3
+"<tunginnut>"
+	"direction" Sem/dir iN N "to" Sg "my" @ADVL> #2->3
+"<aallaatigaluni>"
+	"move" iSem/moveS_local iV V "while" "he/she/it" @ADVL> #3->5
+"<qitequssuani>"
+	"belt" Sem/cloH-beauty iN "large" Sem/f Adj N Abs Pl "his/her/its" @OBJ> #4->5
+"<peerniaatigileraalu>"
+	"remove" iSem/remove iV NIAR iSem/try_to "begin" Sem/begin iV V "he/she/it" ADV-LU "that" #5->9
+"<soorlu>"
+	"like" Part Adv @ADVL> #6->9
+"<aatsaat>"
+	"only now" Adv Adv @ADVL> #7->9
+"<iluamik>"
+	"properly" Adv Adv @ADVL> #8->9
+"<uppernarsilerlugu>"
+	"get confirmed" Sem/confirm iV "begin" Sem/begin iV V Cont @PRED #9->0
+"<suniarneraanga>"
+	"do what to" iSem/socializeO iSem/do iV NIAR iSem/try_to V Par "he/she/it" "me" @CL-<CIT #10->9
+"<.>"
+	"." CLB #11->10
+</s>
+
+<s id="aUGUX2vZs9ix8EIUeuAxP0ldwnU">
+"<Qanoq>"
+	"how" Adv Adv @ADVL> #1->3
+"<inuuneq>"
+	"life" Sem/ac iN N Abs Sg @SUBJ> #2->3
+"<oqik>"
+	"be light" Sem/be_attribute iV V Ind @PRED #3->0
+"<.>"
+	"." CLB #4->3
+
+"<Uumagaluarluni>"
+	"live" Sem/persist iV "actually" iAdv V Cont @ADVL> #1->2
+"<toqunikuulluni>"
+	"die" iSem/die iV NIKUU V Cont "he/she/it" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
+<s id="afibdJEHuQRruZcG0fCixxI5U7I">
+"<Allunaasaq>"
+	"rope" Sem/cc-cord iN N Abs Sg @SUBJ> #1->3
+"<qungatsinni>"
+	"neck" Sem/anmov iN N "in" Sg "my" @ADVL> #2->3
+	"qungaseq" Sem/food N "in" Sg "my" @ADVL> #2->3
+"<sukangavoq>"
+	"be tight" Sem/be_attribute iV V Ind @PRED #3->0
+"<,>"
+	"," CLB #4->3
+"<.>"
+	"." CLB #5->4
+
+"<nulukkalu>"
+	"nuluk" Err/Sub N Abs Pl "my" "and" @SUBJ> #1->3
+"<natermut>"
+	"floor" Sem/Lsurf iN N "to" Sg @ADVL> #2->3
+"<tunnganngilaarput>"
+	"lie on" iSem/spatial_conf iV "not" iAdv LAAR V Ind @PRED #3->0
+"<.>"
+	"." CLB #4->3
+</s>
+
+<s id="ahijlTSJqFc5fmk0XH0AhLJUMpc">
+"<Tunummut>"
+	"tunuk" "to" @ADVL> #1->2
+"<aallarluni>"
+	"move" Sem/moveS_local iV V Cont @ADVL> #2->3
+"<utilerpoq>"
+	"return" Sem/reach iV "begin" Sem/begin iV V Ind "he/she/it" @PRED #3->0
+"<”>"
+	"”" PUNCT RIGHT #4->3
+"<okay>"
+	"okay" Interj @INTERJ #5->4
+"<...>"
+	"..." CLB #6->5
+
+"<okay>"
+	"okay" Interj @INTERJ #1->0
+"<...>"
+	"..." CLB #2->1
+
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART #1->0
+"<oqaatigisaqattaajutigalugu>"
+	"denounce" iV TAR iSem/do "again and again" iAdv V "while" "him/her/it" @PRED #2->0
+	"mention" iSem/hint iV TAR iSem/do "again and again" iAdv V "while" "him/her/it" @PRED #2->0
+	"say about" iSem/say iV TAR iSem/do "again and again" iAdv V "while" "him/her/it" @PRED #2->0
+"<.>"
+	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #3->2
 </s>
 
 <s id="ai4RhsbFdSUuyGZ4A7Q6CRxhmv8">
@@ -3750,7 +5749,7 @@
 "<Uffa>"
 	"although" Conj Conj @CONJ #1->4
 "<namminikasik>"
-	"nammineq" KASIK Pron Sg @SUBJ> #2->4
+	"oneself" iPron KASIK Pron Sg @SUBJ> #2->4
 "<tamaasa>"
 	"all" Sem/am iN N Akk @OBJ> #3->4
 "<pisuussutigalugit>"
@@ -3982,6 +5981,22 @@
 	"." CLB #8->7
 </s>
 
+<s id="cJtXoxihueHQFdDmqik7YEg58b0">
+"<->"
+	"-" PUNCT DIRTALESTART #1->0
+"<Naamerluinnarli>"
+	"not at all" iAdv Interj "but" @INTERJ #2->0
+"<.>"
+	"." CLB #3->2
+
+"<Akuerisinnaanngilara>"
+	"approve" Sem/approve iV "can" Sem/can iV "not" iAdv V Ind "I" @PRED #1->0
+"<pinngitsaalineqarnissara>"
+	"rape" iSem/touch_exp iSem/hurt iV NIQAR NIQ "future" Sem/event Adj N Abs Sg "my" @<OBJ #2->1
+"<.>"
+	"." CLB #3->2
+</s>
+
 <s id="cMfsEAOK8fqU9v4jS6LwyfO4nrM">
 "<Tungaanut>"
 	"direction" Sem/dir iN N "to" Sg "his/her/its" @ADVL> #1->2
@@ -4024,6 +6039,22 @@
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #5->4
 </s>
 
+<s id="cjVBRKmS4sPPFpcazIxVz7kiLzk">
+"<Tupigisaqaakka>"
+	"be surprised" iSem/marvel iV TAR iSem/do QE V Ind "I" @PRED #1->0
+"<inuit>"
+	"human being" Sem/H iN N Abs Pl @<OBJ #2->1
+"<tunniutiinnareernikuugaluarlutik>"
+	"give" iSem/give iV "only" iAdv "already" iAdv NIQ KUQ "be" Sem/be_copula iV "actually" iAdv V Cont "they" @i-ADVL> #3->5
+	"tunniup" iSem/send "only" iAdv "already" iAdv NIQ KUQ "be" Sem/be_copula iV "actually" iAdv V Cont "they" @i-ADVL> #3->5
+"<suli>"
+	"still" Adv Adv @i-ADVL> #4->5
+"<uumasut>"
+	"live" iSem/persist iV TUQ Sem/AA N Abs Pl @N< #5->2
+"<.>"
+	"." CLB #6->5
+</s>
+
 <s id="ckw1S9hSXO5kYNXXD0UzqfiwOWw">
 "<Utaqqisugut>"
 	"wait" Sem/linger iV V Par "we" "when" #1->3
@@ -4035,13 +6066,99 @@
 	"." CLB #4->3
 </s>
 
+<s id="crmZvsgeN3Zo1asXqxvxaTPYarY">
+"<Akisinnik>"
+	"pillow" Sem/cc-h iN N Ins Sg "my" @ADVL> #1->3
+"<siutikka>"
+	"ear" Sem/B iN N Abs Pl "my" @OBJ> #2->3
+"<asseraluarakkit>"
+	"asser" iSem/close "actually" iAdv V "when/because" "I" @CAU> #3->4
+	"asser" iSem/combine "actually" iAdv V "when/because" "I" @CAU> #3->4
+	"cover" Sem/cover_ize iV "actually" iAdv V "when/because" "I" @CAU> #3->4
+"<iluaqutaanngilaq>"
+	"benefit" iN "be" iSem/be_copula iV NNGIT Sem/do_leisure V Ind "he/she/it" @PRED #4->0
+"<.>"
+	"." CLB #5->4
+</s>
+
+<s id="cwpT60PyZWkX2IgE7asuxWOJ6IY">
+"<Maani>"
+	"here" iAdv Adv "in" @CL-ADVL> #1->3
+"<naggammik>"
+	"for the last time" iAdv N Ins Sg @i-ADVL> #2->3
+"<inuulluaqqullutit>"
+	"say goodbye" Sem/politing iV V Cont "you" @i-ADVL> #3->4
+"<nikorfanitsinni>"
+	"stand" iSem/halt iV NIQ N "in" Sg "our" @ADVL> #4->8
+"<eqqarsaatikka>"
+	"thought" Sem/sem-c iN N Abs Pl "my" @SUBJ> #5->8
+"<maaniitsinneq>"
+	"here" iAdv Adv "in" @i-ADVL> #6->7
+"<itinneq>"
+	"be" iSem/be_place iV TIP iSem/cause NIQ N Abs Sg @>V #7->8
+"<sapernarput>"
+	"cannot" Sem/can iV "be" Sem/be_copula iV V Ind @PRED #8->0
+"<.>"
+	"." CLB #9->8
+</s>
+
+<s id="d1rjF5eolE1YmcMW2xeo0Kf6UuI">
+"<Pitsaaneruvoq>"
+	"be good" iSem/be_attribute iV NIRU V Ind "he/she/it" @PRED #1->0
+"<suut>"
+	"what" iPron Pron Abs Pl @>N #2->3
+"<tamaasa>"
+	"all" Sem/am iN N Akk @OBJ> #3->5
+"<tamaanga>"
+	"to here" iAdv Adv "to" @ADVL> #4->5
+"<kipitiinnarukkit>"
+	"cut off" iSem/cut iV TIP "only" iAdv V "when/if" "I" @<CON #5->1
+"<.>"
+	"." CLB #6->5
+</s>
+
+<s id="d83ke3r4mUqsJGQFrfW6MuNnqew">
+"<Qujanartumik>"
+	"fortunately" iAdv N Ins Sg @MIK-OBJ> #1->5
+"<amerlanertigut>"
+	"greater part" Sem/part iN N "through" Pl @ADVL> #2->5
+"<arlaanik>"
+	"one of them" iPron N Ins Pl "his/her/its" @MIK-OBJ> #3->5
+"<igaassanik>"
+	"raw material" Sem/food-c iN N Ins Pl @N< #4->3
+"<ikkussisimariarluni>"
+	"ikkup" iSem/connect HTR SIMA V "after" "he/she/it" @ADVL> #5->10
+	"ikkup" iSem/put HTR SIMA V "after" "he/she/it" @ADVL> #5->10
+	"plant" iSem/put_deposit iV HTR SIMA V "after" "he/she/it" @ADVL> #5->10
+"<artuliinnarsimasoq>"
+	"artor" iSem/refrain "begin" iSem/begin iV "only" iAdv SIMA "oneself" "one who" Sem/H iN N Abs Sg @HNOUN #6->0
+	"artor" iSem/refrain "begin" iSem/begin iV "only" iAdv SIMA "oneself" "that which" Sem/cc iN N Abs Sg @HNOUN #6->0
+"<,>"
+	"," CLB #7->6
+"<sunaaffa>"
+	"imagine that" Interj Adv @ADVL> #8->10
+"<igaavi>"
+	"food" Sem/food iN N Abs Pl "his/her/its" @SUBJ> #9->10
+"<ilillutik>"
+	"be burnt" Sem/worsen iV V Cont @PRED #10->7
+"<.>"
+	"." CLB #11->10
+
+"<nungulersut>"
+	"nungup" iSem/end "begin" Sem/begin iV V Par "they" @PRED #1->0
+"<itertartunga>"
+	"awake" iSem/change_bodystate iV TAR Sem/do V Par "I" "when" #2->1
+"<.>"
+	"." CLB #3->2
+</s>
+
 <s id="dUanDVdFl9AXn7DgocFvJWxbIYI">
 "<Atuarfiup>"
 	"school" Sem/inst iN N Sg "of" #1->2
 "<paarliani>"
 	"hall" Sem/Lh iN N "in" Sg "his/her/its" @ADVL> #2->4
 "<aaneqarnissaminut>"
-	"fetching" Sem/act iN "future" Sem/event Adj N "to" Sg "his/her/its" @MIK-OBJ> #3->4
+	"fetching" Sem/act iN "future" Sem/event Adj N "to" Sg "his/her/its" @ADVL> #3->4
 "<utaqqitilluni>"
 	"wait" Sem/linger iV "let" Sem/allow iV V Cont @PRED2 #4->8
 "<,>"
@@ -4117,6 +6234,19 @@
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #17->16
 </s>
 
+<s id="dqxkuxneu8Fy7odxJ8sHn2IgdZE">
+"<Iluamik>"
+	"properly" Adv Adv @ADVL> #1->2
+"<innarluarlunga>"
+	"go to bed" iSem/change_body_pos iV LLUAR V Cont @ADVL> #2->3
+"<sunngitsuusaaqqissaarlunga>"
+	"don't do anything" iSem/do iV "feign" iV QQISSAAR V Cont @ADVL> #3->4
+"<sinittuusaalerpunga>"
+	"sleep" Sem/bodystate iV "feign" iV "begin" Sem/begin iV V Ind "I" @PRED #4->0
+"<.>"
+	"." CLB #5->4
+</s>
+
 <s id="eHxLCxVxaoqQsvuQ6q5o6d0Lfg0">
 "<Suliffinniit>"
 	"work" iSem/work iV VIK Sem/HH N "from" Sg "my" @ADVL> #1->2
@@ -4151,6 +6281,33 @@
 	"snivel" iV V Cont "they" "and" @PRED #2->0
 "<.>"
 	"." CLB #3->2
+</s>
+
+<s id="eIigSrxjykspUna9VVVHLaCXOiY">
+"<Nuannaarnersoq>"
+	"be happy" iSem/emote iV V Par "he/she/it" @CL-CIT> #1->9
+"<,>"
+	"," CLB #2->1
+"<isumalunnersoq>"
+	"be grumpy" iSem/show_emot iV V Par "he/she/it" @CL-CIT> #3->9
+"<,>"
+	"," CLB #4->3
+"<allaammi>"
+	"even" Adv "as you know" @ADVL> #5->8
+"<unnuassaq>"
+	"night" Sem/temp iN "future" Sem/event Adj N Abs Sg "when" @SUBJ> #6->8
+"<qanoq>"
+	"how" Adv Adv @ADVL> #7->8
+"<ingerlassanersoq>"
+	"ingerla" iSem/continue SSA iSem/must V Par #8->9
+	"ingerla" iSem/function SSA iSem/must V Par #8->9
+	"ingerla" iSem/role_as SSA iSem/must V Par #8->9
+	"ingerla" iSem/run SSA iSem/must V Par #8->9
+	"run" iSem/vehicle iV SSA iSem/must V Par #8->9
+"<naatsorsoreersinnaasarpara>"
+	"figure out" iSem/deduce iV "already" iAdv "can" iSem/can iV TAR Sem/do V Ind "I" @PRED #9->0
+"<.>"
+	"." CLB #10->9
 </s>
 
 <s id="eMGvx5vTv81ruhWkMfdsXEuNUEo">
@@ -4214,6 +6371,18 @@
 	"." CLB #5->4
 </s>
 
+<s id="exwNGZ5YgMwQcxX1on3yskgIFx0">
+"<Angummik>"
+	"man" Sem/H iN N Ins Sg @i->N #1->3
+"<ataatsimilluunniit>"
+	"one" Sem/unit iNum Num Ins Sg "at all" @N< #2->1
+"<annoraaqartoqanngilaq>"
+	"anorak" Sem/cloH iN "be" Sem/be_copula iV "one who" Sem/H iN "be" Sem/be_copula iV "not" iAdv V Ind "he/she/it" @PRED #3->0
+	"anorak" Sem/cloH iN "be" Sem/be_copula iV "that which" Sem/cc iN "be" Sem/be_copula iV "not" iAdv V Ind "he/she/it" @PRED #3->0
+"<.>"
+	"." CLB #4->3
+</s>
+
 <s id="f9Y62T06o3Eintcg5jWgqMuOGvY">
 "<Akorninilu>"
 	"gap" Sem/L iN N "in" Pl "his/her/its" "and" @CL-ADVL> #1->5
@@ -4275,7 +6444,7 @@
 	"return to" iSem/orient iV NNGIT "oneself" "one who" Sem/H iN N "like" Sg @ADVL> #4->5
 	"return to" iSem/orient iV NNGIT "oneself" "that which" Sem/cc iN N "like" Sg @ADVL> #4->5
 "<ippunga>"
-	"ip" "myself" V Ind "I" @PRED #5->0
+	"be" Sem/be_copula iV V Ind "I" @PRED #5->0
 "<,>"
 	"," CLB #6->5
 "<.>"
@@ -4312,6 +6481,23 @@
 	"tanip" NIQAR SIMA "that which" Sem/cc iN N Abs Sg @N< #5->1
 "<.>"
 	"." CLB #6->5
+</s>
+
+<s id="fjJmStGAMxfA9LnIy3NQg5apBSA">
+"<Angut>"
+	"man" Sem/H iN N Abs Sg "that" @SUBJ> #1->6
+"<saninniittoq>"
+	"side" Sem/L iN N "in" Sg "my" @i-ADVL> #2->3
+"<ittoq>"
+	"be" Sem/be_place iV "one who" Sem/H iN N Abs Sg @N< #3->1
+"<takusinnaavara>"
+	"see" Sem/see iV "can" Sem/can iV V Ind "I" @PRED #4->0
+"<iteramili>"
+	"awake" Sem/change_bodystate iV V "when/because" "he/she/it" ADV-LI @CAU> #5->6
+"<uffarsimanngitsoq>"
+	"have a bath" iSem/body_care iV SIMA "not" iAdv V Par #6->4
+"<.>"
+	"." CLB #7->6
 </s>
 
 <s id="fk6KUtc8G8M7q8X6i9jOdvxzauo">
@@ -4431,6 +6617,27 @@
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #6->5
 </s>
 
+<s id="gPUgEfZpvHWFSmrOBxGfftk05No">
+"<Anniaatiga>"
+	"pain" Sem/percep-f iN N Abs Sg "my" @SUBJ> #1->2
+"<kiserngoruteqqavoq>"
+	"be left behind" iSem/linger iV QQA V Ind @PRED #2->0
+"<.>"
+	"." CLB #3->2
+
+"<Peerutiliivippoq>"
+	"be gone" Sem/disappear iV "soon" iAdv V Ind "he/she/it" @PRED #1->0
+"<.>"
+	"." CLB #2->1
+
+"<Erniinnannguaq>"
+	"very soon" Adv Adv @CL-ADVL> #1->2
+"<suerutissaaq>"
+	"be stripped of everything" iSem/disappear iV SSA Sem/must V Ind "he/she/it" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
 <s id="gVoAoNYxOl6AoGHpc5AW0B6Axgs">
 "<Immaqami>"
 	"perhaps" Part "as you know" @CL-ADVL> #1->2
@@ -4470,6 +6677,25 @@
 	"." CLB #3->2
 </s>
 
+<s id="gXqfUdOdAVp3xcxOMkO7WVXM0Mg">
+"<Ullut>"
+	"day" Sem/dur iN N Pl "of" #1->2
+"<ilaanniaasiit>"
+	"sometimes" Adv "as usual" @ADVL> #2->3
+"<mikisuusunga>"
+	"be small" iSem/be_attribute iV TUQ Sem/f "be" Sem/be_copula iV V Par "I" "when" #3->7
+"<,>"
+	"," CLB #4->3
+"<anaanaga>"
+	"mother" Sem/Hfam iN N Abs Sg "my" "when" @SUBJ> #5->6
+"<imertoq>"
+	"drink" Sem/vdrink iV V Par #6->7
+"<innarpunga>"
+	"go to bed" Sem/change_body_pos iV V Ind "I" @PRED #7->0
+"<.>"
+	"." CLB #8->7
+</s>
+
 <s id="gfLPQYHlWxp5GG9HwL2K9DE10CU">
 "<Anaanani>"
 	"mother" Sem/Hfam iN N Abs Sg "his/her/its" "when" @SUBJ> #1->2
@@ -4488,6 +6714,102 @@
 	"move" Sem/moveS_local iV V Cont "he/she/it" "and" @PRED #2->0
 "<.>"
 	"." CLB #3->2
+</s>
+
+<s id="gtCiHJKKVLYFcxwTIUxTQ0rtVZw">
+"<Ikumatiinnarlugu>"
+	"be lighted" iSem/light_emission iV TIP iSem/cause "only" iAdv V Cont "him/her/it" @ADVL> #1->2
+"<qimassinnaavara>"
+	"leave" Sem/leave iV "can" Sem/can iV V Ind "I" "him/her/it" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
+<s id="h4nDvcfpWV8ybBi9tBpTqLxcxzc">
+"<Ullaaq>"
+	"morning" Sem/temp iN N Abs Sg @ADVL> #1->4
+"<kalaallisuukka>"
+	"Greenlandic women costume" Sem/cloH iN N Abs Pl "my" @OBJ> #2->5
+"<puuaniit>"
+	"case" Sem/Lcover iN N "from" Sg "his/her/its" @ADVL> #3->4
+"<tigullugit>"
+	"take" Sem/take iV V Cont "them" @ADVL> #4->5
+"<qaqikkakkit>"
+	"take out" Sem/take iV V "when/because" "I" @CAU> #5->13
+"<,>"
+	"," CLB #6->5
+"<qalipaatigissusiisa>"
+	"colour" iSem/col iN GIP iSem/be_attribute SSUSIQ N Rel Pl "their" @SUBJ> #7->13
+"<nunannik>"
+	"country" Sem/Lciv iN N Ins Sg "my" @i-MIK-OBJ> #8->10
+"<qanoq>"
+	"how" Adv Adv @i->V #9->10
+"<asannitsigininnik>"
+	"be in love" iSem/socialize iV "as" N "because of" Sg "my" @ADVL> #10->13
+"<soorlulu>"
+	"like" Part Adv "and" @FOC>N #11->12
+"<misigissutsinnik>"
+	"feeling" Sem/f-psych iN N Ins Sg "my" @N< #12->8
+"<oqaluttuukkaannga>"
+	"tell" Sem/tell iV V Par "me" @PRED #13->0
+"<.>"
+	"." CLB #14->13
+
+"<Nuna>"
+	"country" Sem/Lciv iN N Abs Sg @SUBJ> #1->2
+"<erianaq>"
+	"be held dear" Sem/be_attribute iV V Ind @PRED #2->0
+"<.>"
+	"." CLB #3->2
+
+"<Qalipaatit>"
+	"colour" Sem/col iN N Abs Pl @HNOUN #1->0
+"<ersarissut>"
+	"be distinct" Sem/be_attribute iV "that which" Sem/cc iN N Abs Pl @N< #2->1
+"<,>"
+	"," CLB #3->2
+"<aalajangersimasunik>"
+	"regular" Sem/jreg Adj N Ins Pl @i->N #4->5
+"<qalipaatillit>"
+	"coloured" Sem/f-surf Adj N Abs Pl @N< #5->1
+"<.>"
+	"." CLB #6->5
+
+"<Qalipaatit>"
+	"colour" Sem/col iN N Abs Pl @HNOUN #1->0
+"<akimut>"
+	"the other side" Sem/Ltop iN N "to" Sg @i-ADVL> #2->3
+"<ersinngitsut>"
+	"be visible" Sem/see iV "not" iAdv "that which" Sem/cc iN N Abs Pl @N< #3->1
+"<,>"
+	"," CLB #4->3
+"<affaannarsunngitsullu>"
+	"half" iSem/amount iN INNAQ iSem/amount "consume" Sem/eat iV "not" iAdv "that which" Sem/cc iN N Abs Pl "and" @N< #5->3
+	"half" iSem/amount iN INNAQ iSem/amount TUR iSem/consume "not" iAdv "that which" Sem/cc iN N Abs Pl "and" @N< #5->3
+"<.>"
+	"." CLB #6->5
+
+"<Asanninnerup>"
+	"love" Sem/f-psych iN N Sg "of" #1->2
+"<qalipaataanik>"
+	"colour" Sem/col iN N Ins Sg "his/her/its" @i->N #2->3
+"<qalipaasersukkat>"
+	"colour" iSem/col iN LIRSUR iSem/colouring "what has been" Sem/occur_dynamic iV N Abs Pl @HNOUN #3->0
+"<,>"
+	"," CLB #4->3
+"<kissalaartup>"
+	"lukewarm" Adj N Sg "of" #5->6
+"<qalipaataanik>"
+	"colour" Sem/col iN N Ins Sg "his/her/its" @i-ADVL> #6->7
+"<taasartakkatsinnik>"
+	"name" iSem/name iV TAR iSem/do TAR iSem/do "what has been" Sem/occur_dynamic iV N Ins Sg "our" @N< #7->2
+	"pick" iSem/appoint iV TAR iSem/do TAR iSem/do "what has been" Sem/occur_dynamic iV N Ins Sg "our" @N< #7->2
+	"taa" iSem/characterize TAR iSem/do TAR iSem/do "what has been" Sem/occur_dynamic iV N Ins Sg "our" @N< #7->2
+	"taa" iSem/tell TAR iSem/do TAR iSem/do "what has been" Sem/occur_dynamic iV N Ins Sg "our" @N< #7->2
+"<qalipaatillit>"
+	"coloured" Sem/f-surf Adj N Abs Pl @N< #8->3
+"<.>"
+	"." CLB #9->8
 </s>
 
 <s id="hHuMvCuVB3k2IdFgB5EsIdOaPOk">
@@ -4511,6 +6833,23 @@
 	"fetch" iSem/take iV NIKUU V Par "me" #9->2
 "<.>"
 	"." CLB #10->9
+</s>
+
+<s id="hUxhJx174QQwO6q2Y5Sg62x6Qhg">
+"<Kavaajami>"
+	"jacket" Sem/cloH iN N Sg "his/her/its" "of" #1->2
+"<iluata>"
+	"inside" Sem/Lh iN N Sg "his/her/its" "of" #2->3
+"<kaasarfianiit>"
+	"pocket" Sem/f-phys iN N "from" Sg "his/her/its" @ADVL> #3->5
+"<snapseeraq>"
+	"schnaps" Sem/drink-h iN "little" Sem/f-psych Adj N Abs Sg @OBJ> #4->5
+"<tiguaa>"
+	"take" Sem/take iV V Ind "he/she/it" @PRED #5->0
+"<najorsillunilu>"
+	"imbibe" iSem/breathe iV HTR Sem/lodge V Cont "he/she/it" "and" @PRED #6->0
+"<.>"
+	"." CLB #7->6
 </s>
 
 <s id="hbG9D3UXb1mFxb8JrGRNHhxUxBc">
@@ -4585,6 +6924,17 @@
 	"siuneq" iSem/per TAQ iSem/sem-c "have as" iSem/have iV NIQAR V Par @PRED #4->0
 "<.>"
 	"." CLB #5->4
+</s>
+
+<s id="iHqWUpyPjjOG1WRa2YJQN1WExxM">
+"<Sinittarfimma>"
+	"bedroom" Sem/Lh iN N Sg "my" "of" #1->2
+"<tungaanut>"
+	"direction" Sem/dir iN N "to" Sg "his/her/its" @ADVL> #2->3
+"<aallarpaluppoq>"
+	"move" Sem/moveS_local iV "be audible that" Sem/sound_emission iV V Ind "he/she/it" @PRED #3->0
+"<.>"
+	"." CLB #4->3
 </s>
 
 <s id="iZjslEmIPwx3YFpuuEorJQkEJK8">
@@ -4698,6 +7048,34 @@
 	"." CLB #6->5
 </s>
 
+<s id="jDFQtKCkEW8nF6CaP0p8xo5QG04">
+"<Eqqissivillunga>"
+	"relax" iV "completely" Sem/jdegree Adj V Cont @ADVL> #1->3
+"<natermut>"
+	"floor" Sem/Lsurf iN N "to" Sg @ADVL> #2->3
+"<ingippunga>"
+	"sit down" Sem/change_body_pos iV V Ind "I" @PRED #3->0
+"<.>"
+	"." CLB #4->3
+</s>
+
+<s id="jUlT7tmhvk6AkQfS79u6F0OcW4U">
+"<Takusinnaavara>"
+	"see" Sem/see iV "can" Sem/can iV V Ind "I" @PRED #1->0
+"<angutip>"
+	"man" Sem/H iN N Rel Sg "that" @SUBJ> #2->4
+"<qallunaap>"
+	"Dane" Sem/Hnat iN N Rel Sg @N< #3->2
+"<takusinnaagaa>"
+	"see" Sem/see iV "can" Sem/can iV V Par "him/her/it" #4->1
+"<ilumoorlunga>"
+	"be true" Sem/be_attribute iV V Cont "I" @ADVL> #5->4
+"<oqaqattaartunga>"
+	"say" Sem/say iV "again and again" iAdv V "I" "that" #6->5
+"<.>"
+	"." CLB #7->6
+</s>
+
 <s id="jbWMSs3b8nHJAc5fXN8TjBu2EXY">
 "<Nunaannarmut>"
 	"land" Sem/Ltop iN N "to" Sg @ADVL> #1->2
@@ -4725,6 +7103,13 @@
 	"." CLB #12->11
 </s>
 
+<s id="k8eaxaJc1x0utbxuGSBtcNmaqwU">
+"<Sumunnassagamami>"
+	"go where" iSem/move_dir iV SSA Sem/must V "when/because" "I" "as you know" @PRED #1->0
+"<?>"
+	"?" CLB #2->1
+</s>
+
 <s id="kOZNMZbrlocnrnSC4hpC02wjwEM">
 "<Anernera>"
 	"breath" Sem/cm-gas iN N Abs Sg "my" @SUBJ> #1->2
@@ -4743,6 +7128,20 @@
 	"." CLB #3->2
 </s>
 
+<s id="kQxetzxxUfxGUWUaWeyWeS4BDz0">
+"<Avaanngusuppunga>"
+	"feel unwell" Sem/pain iV V Ind "I" @PRED #1->0
+"<eqqaniittut>"
+	"proximity" Sem/am iN N "in" Pl @i-ADVL> #2->3
+"<ittut>"
+	"be" Sem/be_place iV "one who" Sem/H iN N Abs Pl @SUBJ> #3->4
+	"be" Sem/be_place iV "that which" Sem/cc iN N Abs Pl @SUBJ> #3->4
+"<qaningaarmata>"
+	"be near" Sem/be_place iV "much" iAdv V "when/because" @<CAU #4->1
+"<.>"
+	"." CLB #5->4
+</s>
+
 <s id="kwitmHdkJ8lacKEmpoY45WSqdRM">
 "<Ullut>"
 	"day" Sem/dur iN N Pl "of" #1->2
@@ -4759,6 +7158,16 @@
 	"run" iSem/vehicle iV "already" iAdv SIMA V Par "they" @CL-<CIT #4->3
 "<.>"
 	"." CLB #5->4
+</s>
+
+<s id="lYLQx8Wwri0Tb4TR2B3r17iTfVc">
+"<Qungasera>"
+	"neck" Sem/anmov iN N Abs Sg "my" @SUBJ> #1->2
+	"qungaseq" Sem/food N Abs Sg "my" @SUBJ> #1->2
+"<qasilippoq>"
+	"sting" Sem/pain iV V Ind @PRED #2->0
+"<.>"
+	"." CLB #3->2
 </s>
 
 <s id="lon5ZVT2udC95iAXwqbxX8I6dWw">
@@ -4807,6 +7216,33 @@
 	"." CLB #2->1
 </s>
 
+<s id="m5hTxqDL6kVsL2up7Sax7M6Aavw">
+"<Sequnngerlunga>"
+	"close one's eyes" Sem/close Sem/body_moveO iV V Cont @ADVL> #1->2
+"<sininniaraluarpunga>"
+	"sleep" iSem/bodystate iV NIAR iSem/try_to "actually" iAdv V Ind "I" @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<tusarnaarniarnermilli>"
+	"listen" iSem/listen iV NIAR iSem/try_to Sem/activity N "because of" Sg "but" @ADVL> #1->2
+"<sinilersinnaanngilanga>"
+	"fall asleep" Sem/change_bodystate iV "can" Sem/can iV "not" iAdv V Ind "I" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
+<s id="mGpyKaQydhmn3PY1cbYFOe2kWxA">
+"<Anaana>"
+	"mother" Sem/Hfam iN N Abs Sg @SUBJ> #1->2
+"<oqaasiinnaavoq>"
+	"word" Sem/ac iN "just" iAdv "be" Sem/be_copula iV V Ind @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
 <s id="mHVA0UsrZi3xYHvigCLxdwqedYY">
 "<Taamaalluni>"
 	"be so" Sem/be_like iV V Cont @ADVL> #1->4
@@ -4818,6 +7254,15 @@
 	"soothe" iV "go to" Sem/move_dir iV V Ind "him/her/it" @PRED #4->0
 "<.>"
 	"." CLB #5->4
+</s>
+
+<s id="mT5JWxIDwOKbfMhuQIrzcdqRQXI">
+"<Aalajangerpunga>"
+	"decide" Sem/decide iV V Ind "I" @PRED #1->0
+"<qamiinnarniarlugu>"
+	"turn off" iSem/deactivate iV "only" iAdv NIAR Sem/try_to V "I" "him/her/it" "that" #2->1
+"<.>"
+	"." CLB #3->2
 </s>
 
 <s id="mdQrFKa1emGWNyLkTa16Dgcrqts">
@@ -4846,7 +7291,7 @@
 
 <s id="mx28jzyNJVE7UCa0JZhNnmsxDHY">
 "<Sussallungamita>"
-	"su" SSA iSem/must iV Cont "I" "as you know" TA @ADVL> #1->3
+	"do what" iSem/do iV SSA iSem/must iV Cont "I" "as you know" TA @ADVL> #1->3
 "<meeqqagut>"
 	"child" Sem/H iN N Abs Pl "our" @OBJ> #2->3
 "<isumagissavakka>"
@@ -4860,6 +7305,33 @@
 	"be drunk" iSem/be_attribute iV RUJUP SUAR iSem/be_attribute "again and again" iAdv "that which" Sem/cc iN "be" Sem/be_copula iV V "when/if" "I" @<CON #6->3
 "<!>"
 	"!" CLB #7->6
+</s>
+
+<s id="nMmdK7Ac0I1OLYxYhKqXcA3ZRxw">
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART #1->0
+"<Schh>"
+	"Schh" Prop Abs Sg Heur/Prop @SUBJ> #2->11
+"<..>"
+	".." CLB #3->2
+"<rolig>"
+	"rolig" ? #4->3
+"<..>"
+	".." CLB #5->4
+"<”>"
+	"”" PUNCT RIGHT #6->5
+"<assani>"
+	"hand" Sem/anmov iN N Abs Sg "his/her/its" @OBJ> #7->8
+"<isaatiutigalugu>"
+	"extend" iSem/shape iV V "while" "he/she/it" @ADVL> #8->11
+"<qanilliartorlunga>"
+	"come close to" Sem/reach iV "go to" Sem/move_dir iV V Cont "he/she/it" "me" @ADVL> #9->11
+"<nipikitsumik>"
+	"low-voiced" Sem/cc-h Adj N Ins Sg @ADVL> #10->11
+"<oqamisaarpoq>"
+	"indicate" iV V Ind @PRED #11->0
+"<.>"
+	"." CLB DIRTALEMIDDLE #12->11
 </s>
 
 <s id="npJxJSFhheWzEAsT85baWhqdxqw">
@@ -4935,6 +7407,58 @@
 	"." CLB #5->4
 </s>
 
+<s id="oFUqxZbVQpvz0ia3YCiY52DnBc4">
+"<Sunik>"
+	"what" iPron Pron Ins Pl @i->N #1->3
+"<oqimaatsunik>"
+	"heavy" Sem/Hprof Adj N Ins Pl @N< #2->1
+"<nammataqannguarnani>"
+	"burden" iSem/ac iN "have" iSem/have iV NNGUAR V ContNeg @ADVL> #3->4
+"<inuulluni>"
+	"live" Sem/persist iV V Cont "he/she/it" @PRED #4->0
+"<,>"
+	"," CLB #5->4
+"<.>"
+	"." CLB #6->5
+
+"<asuli>"
+	"aimlessly" Adv Adv @ADVL> #1->2
+"<inooqataarujuuginnaqaluni>"
+	"life partner" iSem/Hfam iN "be" iSem/be_copula iV RUJUUR "only" iAdv QE V Cont "he/she/it" @PRED #2->0
+	"life partner" iSem/Hfam iN U iSem/be_part RUJUUR "only" iAdv QE V Cont "he/she/it" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+
+"<Oqitsorsiortuuserujoorluni>"
+	"be light" iSem/be_attribute iV "one who" iSem/H iN SIUR iSem/do_leisure iSem/occ "one who" iSem/H iN UTE LIR iSem/supply RUJUUR V Cont "he/she/it" @PRED #1->0
+	"be light" iSem/be_attribute iV "one who" iSem/H iN SIUR iSem/do_leisure iSem/occ "that which" iSem/cc iN UTE LIR iSem/supply RUJUUR V Cont "he/she/it" @PRED #1->0
+	"be light" iSem/be_attribute iV "that which" iSem/cc iN SIUR iSem/do_leisure iSem/occ "one who" iSem/H iN UTE LIR iSem/supply RUJUUR V Cont "he/she/it" @PRED #1->0
+	"be light" iSem/be_attribute iV "that which" iSem/cc iN SIUR iSem/do_leisure iSem/occ "that which" iSem/cc iN UTE LIR iSem/supply RUJUUR V Cont "he/she/it" @PRED #1->0
+	"be light" iSem/be_attribute iV TUQ iSem/f-q SIUR iSem/do_leisure iSem/occ "one who" iSem/H iN UTE LIR iSem/supply RUJUUR V Cont "he/she/it" @PRED #1->0
+	"be light" iSem/be_attribute iV TUQ iSem/f-q SIUR iSem/do_leisure iSem/occ "that which" iSem/cc iN UTE LIR iSem/supply RUJUUR V Cont "he/she/it" @PRED #1->0
+"<.>"
+	"." CLB #2->1
+
+"<Inuiaqatit>"
+	"fellow citizen" Sem/Hnat iN N Abs Pl @OBJ> #1->2
+"<naatsorsuutigalugit>"
+	"rely on" Sem/rely iV V Cont @ADVL> #2->3
+"<inuuginnarluni>"
+	"live" Sem/persist iV "only" iAdv V Cont "he/she/it" @PRED #3->0
+"<.>"
+	"." CLB #4->3
+
+"<Sulerusussusillit>"
+	"work" iSem/work iV "want to" iSem/wish iV SSUSIQ iSem/state-h LIK N Abs Pl @OBJ> #1->0
+"<naatsorsuutigiinnarlugit>"
+	"reckon" Sem/assume iV "only" iAdv V Cont "them" @ADVL> #2->3
+	"rely on" Sem/rely iV "only" iAdv V Cont "them" @ADVL> #2->3
+"<inuulluni>"
+	"live" Sem/persist iV V Cont "he/she/it" @PRED #3->0
+"<.>"
+	"." CLB #4->3
+</s>
+
 <s id="oatD322HxogLflAqfXymYF5YvKY">
 "<Maqaasisaralu>"
 	"longing" Sem/ac iN N Abs Sg "my" "and" "when/because" @SUBJ> #1->2
@@ -5002,6 +7526,45 @@
 	"." CLB #5->4
 </s>
 
+<s id="pPZBGh0L6jlCQxjQJt0MgNprlFk">
+"<Pisuppalunneranit>"
+	"walk" iSem/run iV "be audible that" iSem/sound_emission iV N "because of" Sg "his/her/its" @ADVL> #1->2
+"<naatsorsorsinnaavara>"
+	"figure out" Sem/deduce iV "can" Sem/can iV V Ind "I" @PRED #2->0
+"<qanoq>"
+	"how" Adv Adv @>V #3->4
+"<aalakoortiginersoq>"
+	"be drunk" iSem/be_attribute iV "as" V Par "he/she/it" @CL-<CIT #4->2
+"<.>"
+	"." CLB #5->4
+
+"<Baajat>"
+	"beer" Sem/drink-c-h iN N Abs Pl @OBJ> #1->3
+"<qassit>"
+	"how many" iPron Pron Abs Pl @N< #2->1
+"<imersimanerai>"
+	"drink" iSem/vdrink iV SIMA V Par "he/she/it" @PRED #3->0
+"<.>"
+	"." CLB #4->3
+</s>
+
+<s id="pWJiGbF34ody7CdaYQCag8gFbvw">
+"<Ullaassat>"
+	"early morning" Sem/temp iN N Pl "of" #1->2
+"<ilaanni>"
+	"ila" Sem/tool N "in" Sg "their" @ADVL> #2->3
+"<iterpunga>"
+	"awake" Sem/change_bodystate iV V Ind "I" @PRED #3->0
+"<tipimik>"
+	"smell" iN N Ins Sg @ADVL> #4->6
+"<ikuallassunnimik>"
+	"burn" iSem/burn iV SUNNI Sem/percep-o N Ins Sg @N< #5->4
+"<naamallunga>"
+	"smell" Sem/sense iV V Cont @<ADVL #6->3
+"<.>"
+	"." CLB #7->6
+</s>
+
 <s id="padal4w74sWBxUXyIxvqxyVaoH8">
 "<Ungasianiillu>"
 	"from far away" iAdv N "from" Sg "his/her/its" "and" @ADVL> #1->3
@@ -5027,6 +7590,22 @@
 	"walk" iSem/run iV TAR Sem/do V "when/because" "he/she/it" @PRED #2->0
 "<.>"
 	"." CLB #3->2
+</s>
+
+<s id="pdiCVMkV92D9VJe52Pe2ElG5S9c">
+"<Naammanngilarmi>"
+	"not suffice" Sem/abound V "as you know" @PRED #1->0
+"<taamaaginnarniaruma>"
+	"be so" iSem/be_like iV "only" iAdv NIAR Sem/try_to V "when/if" "I" @<CON #2->1
+"<.>"
+	"." CLB #3->2
+</s>
+
+<s id="peCwvMo0blbBpa3R9jU6kAeUB7M">
+"<Kamaammeqaanga>"
+	"be angry" iSem/emote iV UMMIR iSem/affect_exp QE V Ind "I" @PRED #1->0
+"<.>"
+	"." CLB #2->1
 </s>
 
 <s id="pzleKSu2fZuwYSdWoDWRDCOMLNM">
@@ -5073,6 +7652,19 @@
 	"." CLB #4->3
 </s>
 
+<s id="quxuiYWKOOLijWu1BMiV7RL73tM">
+"<Kavaajaq>"
+	"jacket" Sem/cloH iN N Abs Sg @SUBJ> #1->3
+"<isikkumigut>"
+	"appearance" Sem/f-phys iN N "through" Sg "his/her/its" @ADVL> #2->3
+"<kusanarpallaarpoq>"
+	"be attractive" iSem/be_attribute iV VALLAAR V Ind @PRED #3->0
+"<ulluinnarsiutiginissaanut>"
+	"use every day" iSem/use iV NIQ "become" "future" Sem/event Adj N "to" Sg "his/her/its" @<ADVL #4->3
+"<.>"
+	"." CLB #5->4
+</s>
+
 <s id="qzMUeF4EIaGx9wAeu3IkXrbujMo">
 "<Tipigissarunnaarniarit>"
 	"smell" iN GIP SAR "no longer" iAdv NIAR "yourself" V Imp "you" @PRED #1->0
@@ -5113,6 +7705,29 @@
 	"miss" iSem/long iV UMMIR V Ind "I" @PRED #4->0
 "<.>"
 	"." CLB #5->4
+</s>
+
+<s id="rRyw08nAnQV4gxIelGTyKYBuIu8">
+"<Uernarnermik>"
+	"be sleepy" iSem/bodystate iV Sem/f-phys-h N "because of" Sg @ADVL> #1->2
+"<sinililaaqattaalersimagama>"
+	"fall asleep" iSem/change_bodystate iV LAAR "again and again" iAdv "begin" iSem/begin iV SIMA V "when/because" "I" @CAU> #2->4
+"<itillatsiarninni>"
+	"awake" iSem/change_bodystate iV LLATSIAR NIQ N "in" Sg "my" @ADVL> #3->4
+"<tusaasinnaavara>"
+	"hear" Sem/hear iV "can" Sem/can iV V Ind "I" @PRED #4->0
+"<taqqamani>"
+	"out there" Prefix/TA iAdv Adv "in" @ADVL> #5->8
+"<inimi>"
+	"room" Sem/Lh iN N "in" Sg @A< #6->5
+"<inuit>"
+	"human being" Sem/H iN N Abs Pl "that" @SUBJ> #7->8
+"<ikilisimasut>"
+	"become fewer" iSem/decrease iV SIMA V Par #8->4
+"<nipaannerulaalersimasullu>"
+	"be quiet" iSem/speak_mnr iV NIRU LAAR "begin" iSem/begin iV SIMA V "they" "and" "that" #9->4
+"<.>"
+	"." CLB #10->9
 </s>
 
 <s id="rowwjMJayBcxtZxk8NbX0dNrdg8">
@@ -5184,6 +7799,29 @@
 	"." CLB #7->6
 </s>
 
+<s id="sE2iGOquONmwd6IgXBmowslxfG4">
+"<Angummik>"
+	"man" Sem/H iN N Ins Sg @i->N #1->3
+"<ataasinnguamilluunniit>"
+	"ataaseq" iSem/cc "little" Sem/f Adj N Ins Sg "at all" @N< #2->1
+"<annoraaqartoqarsimasuugaluarpat>"
+	"anorak" iSem/cloH iN "be" iSem/be_copula iV "one who" iSem/H iN "be" iSem/be_copula iV SIMA "one who" Sem/H iN "be" Sem/be_copula iV "actually" iAdv V "when/if" "he/she/it" @CON> #3->7
+	"anorak" iSem/cloH iN "be" iSem/be_copula iV "one who" iSem/H iN "be" iSem/be_copula iV SIMA "that which" Sem/cc iN "be" Sem/be_copula iV "actually" iAdv V "when/if" "he/she/it" @CON> #3->7
+	"anorak" iSem/cloH iN "be" iSem/be_copula iV "that which" iSem/cc iN "be" iSem/be_copula iV SIMA "one who" Sem/H iN "be" Sem/be_copula iV "actually" iAdv V "when/if" "he/she/it" @CON> #3->7
+	"anorak" iSem/cloH iN "be" iSem/be_copula iV "that which" iSem/cc iN "be" iSem/be_copula iV SIMA "that which" Sem/cc iN "be" Sem/be_copula iV "actually" iAdv V "when/if" "he/she/it" @CON> #3->7
+"<,>"
+	"," CLB #4->3
+"<siunissaq>"
+	"future" Sem/temp iN N Abs Sg @SUBJ> #5->7
+"<takorluugara>"
+	"imagine" iSem/think iV TAQ Sem/sem-r N Abs Sg "my" @N< #6->5
+	"revelation" Sem/sem-c iN N Abs Sg "my" @N< #6->5
+"<qaamanerulaassagaluarpoq>"
+	"be bright" iSem/be_attribute iSem/jlight iV NIRU LAAR SSA iSem/must "actually" iAdv V Ind @PRED #7->0
+"<.>"
+	"." CLB #8->7
+</s>
+
 <s id="sgVKd0kEl0Kl6iZWXLrtFFcxN4A">
 "<Anaanapalaaq>"
 	"mother" iSem/Hfam iN PALAAQ N Abs Sg @VOK #1->0
@@ -5199,6 +7837,26 @@
 	"you alone" Sem/jquant iN N Nom @HNOUN #1->0
 "<!>"
 	"!" CLB #2->1
+</s>
+
+<s id="srfmxogfCZs7x9DxDVq7PIwfASE">
+"<Kikkummita>"
+	"who" iPron iPron Abs Pl "as you know" TA @SUBJ> #1->2
+"<artorsarneruppat>"
+	"have problems" iSem/suffer iV NIRU V Int @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<uanga>"
+	"uanga" Sem/ac Pron Abs #4->3
+"<taakkuluunniit>"
+	"this one" iPron Pron Abs Pl "or" @N< #5->4
+"<?>"
+	"?" CLB #6->5
+
+"<Nakkaateqatigiinnaqalugit>"
+	"fall down" iSem/collapse iV "let" iSem/allow iV "do together with" iSem/be_part iV "only" iAdv QE V Cont "them" @PRED #1->0
+"<.>"
+	"." CLB #2->1
 </s>
 
 <s id="tN5TmSzQJHfXQdfO9u8bZW4HlVw">
@@ -5223,6 +7881,21 @@
 	"." CLB #9->8
 </s>
 
+<s id="tRee9xkYDG5BNUoc51D3ka7Lp6s">
+"<Paaserusuppara>"
+	"understand" iSem/comprehend iV GUSUP Sem/beg V Ind "I" @PRED #1->0
+"<eqqissillunga>"
+	"relax" iV V Cont @ADVL> #2->5
+"<ullaassap>"
+	"early morning" Sem/temp iN N Sg "of" #3->4
+"<sinnera>"
+	"rest" Sem/amount iN N Abs Sg "his/her/its" @ADVL> #4->5
+"<sininniarsinnaanerlunga>"
+	"sleep" iSem/bodystate iV NIAR iSem/try_to "can" iSem/can iV V "I" #5->1
+"<.>"
+	"." CLB #6->5
+</s>
+
 <s id="tXcKxomNVryAEEUwo8DgnQsAQfM">
 "<Massakkut>"
 	"now" Adv Adv @ADVL> #1->2
@@ -5242,6 +7915,60 @@
 	"lose" Sem/lose iV "can" Sem/can iV "not" iAdv V Ind "I" @PRED #8->0
 "<.>"
 	"." CLB #9->8
+</s>
+
+<s id="talAC1BP8C3kyYtuNKOE4QxOG6c">
+"<Ikuallassimasugullu>"
+	"burn" iSem/burn iV SIMA V "we" "and" "that" #1->2
+"<tusaruniuk>"
+	"hear" Sem/hear iV V "when/if" "he/she/it" @CON> #2->12
+"<paasiniaalissalluni>"
+	"investigate" iSem/investigate iV "begin" iSem/begin iV SSA Sem/must V Cont @<ADVL #3->2
+"<unnuakkut>"
+	"night" Sem/temp iN N "through" Sg @ADVL> #4->5
+"<anigama>"
+	"go out" Sem/leave iV V "when/because" "I" @CAU> #5->9
+"<angerlarsimaffipput>"
+	"home" Sem/Lh iN N Abs Sg "our" @OBJ> #6->9
+"<qanoq>"
+	"how" Adv Adv @i-ADVL> #7->8
+"<ittoq>"
+	"be" Sem/be_copula iV "that which" Sem/cc iN N Abs Sg @N< #8->6
+"<qimassimaneriga>"
+	"leave" iSem/leave iV SIMA V Par "I" @CL-<CIT #9->3
+"<,>"
+	"," CLB #10->9
+"<qanoq>"
+	"how" Adv Adv @ADVL> #11->12
+"<akissagama>"
+	"answer" iSem/answer iV SSA Sem/must V "when/because" "I" @PRED #12->0
+"<?>"
+	"?" CLB #13->12
+</s>
+
+<s id="tkghdrNbW2nGUAzhllHa2wMIVKY">
+"<Isaani>"
+	"eye" Sem/anorg iN N "in" Pl "his/her/its" @ADVL> #1->2
+"<takusinnaavakka>"
+	"see" Sem/see iV "can" Sem/can iV V Ind "I" @PRED #2->0
+"<serpii>"
+	"sleep" Sem/f-h iN N Abs Pl "his/her/its" @<OBJ #3->2
+"<panertut>"
+	"dry" Sem/jsub iN N Abs Pl @N< #4->3
+"<,>"
+	"," CLB #5->4
+"<suli>"
+	"still" Adv Adv @ADVL> #6->7
+"<ermissimannginnami>"
+	"wash one's face" iSem/body_care iV SIMA "not" iAdv V "when/because" "he/she/it" @i-CAU> #7->10
+"<isaata>"
+	"eye" Sem/anorg iN N Sg "their" "of" #8->9
+"<teqeqquani>"
+	"corner" Sem/L iN N "in" Sg "his/her/its" @i-ADVL> #9->10
+"<ittut>"
+	"be" Sem/be_place iV "that which" Sem/cc iN N Abs Pl @N< #10->3
+"<.>"
+	"." CLB #11->10
 </s>
 
 <s id="tm7AnUK6BhVQSKM3T2usTWKvBtE">
@@ -5273,8 +8000,19 @@
 "<allamik>"
 	"another" Sem/f iPron N Ins Sg @i->N #2->3
 "<uangaqartoq>"
-	"uanga" "be" Sem/be_copula iV V Par "he/she/it" @PRED #3->0
-	"uanga" "have" Sem/have iV V Par "he/she/it" @PRED #3->0
+	"I" iPron "be" Sem/be_copula iV V Par "he/she/it" @PRED #3->0
+	"I" iPron "have" Sem/have iV V Par "he/she/it" @PRED #3->0
+"<.>"
+	"." CLB #4->3
+</s>
+
+<s id="tqNxypDSdqKxFVscqd4sRxAtHW0">
+"<Kisimiilluni>"
+	"be alone" Sem/be_attribute iV V Cont @ADVL> #1->3
+"<igaffimmi>"
+	"kitchen" Sem/Lh iN N "in" Sg @ADVL> #2->3
+"<imerpoq>"
+	"drink" Sem/vdrink iV V Ind "he/she/it" @PRED #3->0
 "<.>"
 	"." CLB #4->3
 </s>
@@ -5346,7 +8084,7 @@
 "<unnussuarmut>"
 	"evening" Sem/temp iN "large" Sem/f Adj N "to" Sg @ADVL> #2->6
 "<angajoqqaavisa>"
-	"parent" Sem/Hfam iN N Rel Pl "his/her/its" @SUBJ> #3->6
+	"parents" Sem/Hfam iN N Rel Pl "his/her/its" @SUBJ> #3->6
 "<sunik>"
 	"what" iPron Pron Ins Pl @>N #4->5
 "<tamanik>"
@@ -5400,11 +8138,18 @@
 	"." CLB #5->4
 </s>
 
+<s id="uNlKX1LDyL5czWpiwg143JzQxYI">
+"<Eqqarsarsuataalerpunga>"
+	"think" iSem/think iV SUATAAR "begin" Sem/begin iV V Ind "I" @PRED #1->0
+"<.>"
+	"." CLB #2->1
+</s>
+
 <s id="uR7BANpEShUXkUxvc3EoD9njx0o">
 "<Aammami>"
 	"also" Adv "as you know" @ADVL> #1->2
 "<oqaloqateqarusunngilanga>"
-	"oqalup" iSem/talk QATE QAR iSem/talk "want to" Sem/wish iV "not" iAdv V Ind "I" @PRED #2->0
+	"have a conversation" Sem/vtalk iV "want to" Sem/wish iV "not" iAdv V Ind "I" @PRED #2->0
 "<takusaqarusunnangalu>"
 	"see" iSem/see iV TAQ iSem/percep-w "have" Sem/have iV "want to" Sem/wish iV V ContNeg "I" "and" @PRED #3->0
 "<.>"
@@ -5454,6 +8199,13 @@
 
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->0
+</s>
+
+<s id="uaRm2d7FpoEIj7xQxixuzuxcqB0">
+"<Nilliaffigisarsimavaa>"
+	"shout at" iSem/speak_mnr iV TAR iSem/do SIMA V Ind "he/she/it" "him/her/it" @PRED #1->0
+"<.>"
+	"." CLB #2->1
 </s>
 
 <s id="ukxem3Xl9fdxFnxeHnGHxAJ4qS4">
@@ -5562,7 +8314,7 @@
 
 <s id="v4S0HYDwDurUr2xOFIAV6xrlqSs">
 "<Unammisaqattaarnernut>"
-	"unammi" iSem/fight TAR iSem/do "again and again" iAdv NIQ Sem/occ N "to" Pl @ADVL> #1->2
+	"unammi" iSem/vfight TAR iSem/do "again and again" iAdv NIQ Sem/occ N "to" Pl @ADVL> #1->2
 "<tiguarteqqangaaramik>"
 	"conquer" iSem/vanquish iV "let" iSem/allow iV QQA "much" iAdv V "when/because" "they" @CAU> #2->4
 "<inuuissiortorluunniit>"
@@ -5572,6 +8324,23 @@
 	"notice" Sem/notice iV "not" iAdv V Ind "they" @PRED #4->0
 "<.>"
 	"." CLB #5->4
+</s>
+
+<s id="v8fW6xtpp59Vsdm66gRLDJixnyo">
+"<Makeriarlunga>"
+	"get up" iSem/change_body_pos iV V "after" "I" @ADVL> #1->2
+"<anillakkama>"
+	"get out" Sem/leave iV V "when/because" "I" @CAU> #2->5
+"<pujorsuarmut>"
+	"fog" Sem/wea-m iN "large" Sem/f Adj N "to" Sg @i-ADVL> #3->4
+	"smoke" Sem/cm-gas iN "large" Sem/f Adj N "to" Sg @i-ADVL> #3->4
+"<isiginiarneq>"
+	"look at" iSem/watch iV NIAR iSem/try_to NIQ Sem/activity N Abs Sg @>V #4->5
+	"look" iSem/appear iV NIAR iSem/try_to NIQ Sem/activity N Abs Sg @>V #4->5
+"<sapernangajappoq>"
+	"cannot" iSem/can iV "be" iSem/be_copula iV NGAJAP Sem/be_like V Ind "he/she/it" @PRED #5->0
+"<.>"
+	"." CLB #6->5
 </s>
 
 <s id="vQObGcsdAgE9IB7QTbyXuxxif8c">
@@ -5610,6 +8379,60 @@
 	"." CLB #3->2
 </s>
 
+<s id="vVvmCeSw8gq0C7feFj86xr347n4">
+"<Maanngaanniit>"
+	"from here" iAdv Adv "from" @ADVL> #1->2
+"<ingerlaqatigiinnariarlugit>"
+	"travel companion" iSem/Hprof iN GE iSem/be_part "only" iAdv V "after" "them" @ADVL> #2->3
+"<imeriaqatigalugit>"
+	"drink" iSem/vdrink iV "do together with" Sem/be_part iV V "after" "them" @PRED #3->0
+"<,>"
+	"," CLB #4->3
+"<.>"
+	"." CLB #5->4
+
+"<siunissaq>"
+	"future" Sem/temp iN N Abs Sg @OBJ> #1->2
+"<eqqarsaatiginagu>"
+	"consider" Sem/think iV V ContNeg @ADVL> #2->4
+"<massakkuinnaq>"
+	"massakkut" INNAQ Adv @ADVL> #3->4
+"<inuulluni>"
+	"live" Sem/persist iV V Cont "he/she/it" @PRED #4->0
+"<.>"
+	"." CLB #5->4
+
+"<Sumilluunniit>"
+	"suna" "at all" Pron Ins Sg @ADVL> #1->2
+"<ernumassutissaqarnani>"
+	"be anxious" iSem/affect_exp iV UTE "future" Sem/event Adj "have" Sem/have iV V ContNeg "he/she/it" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+
+"<Inoqatikka>"
+	"fellow human being" Sem/Hprof iN N Abs Pl "my" @OBJ> #1->2
+	"human being" iSem/H iN QATE Sem/Hfam N Abs Pl "my" @OBJ> #1->2
+"<naatsorsuutigiinnartarlugit>"
+	"rely on" iSem/rely iV "only" iAdv TAR Sem/do V Cont @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
+<s id="vjXMYbVipxjVF5ZUgTzYpsuN530">
+"<Ingerlaannaq>"
+	"immediately" Adv Adv @CL-ADVL> #1->4
+"<matukkut>"
+	"door" Sem/Ldoor iN N "through" Sg @ADVL> #2->4
+"<silarlikkut>"
+	"hall" Sem/Lh iN N "through" Sg @N< #3->2
+"<anerpallattoq>"
+	"go out" iSem/leave iV PALLAP V "he/she/it" "that" #4->5
+"<tusaavara>"
+	"hear" Sem/hear iV V Ind "I" @PRED #5->0
+"<.>"
+	"." CLB #6->5
+</s>
+
 <s id="vs0ubmhosDanbfxoT6Bak13OORY">
 "<Akiseq>"
 	"pillow" Sem/cc-h iN N Abs Sg @OBJ> #1->2
@@ -5638,6 +8461,38 @@
 	"." CLB #5->4
 </s>
 
+<s id="w4PMVx8hoVk182KTltSc09xE71s">
+"<Nammineerluni>"
+	"be independent" Sem/be_attribute iV V Cont @ADVL> #1->2
+"<sapilerluinnalerunigit>"
+	"can't handle" iSem/can iV LIR iSem/refrain "entirely" iAdv "begin" Sem/begin iV V "when/if" "he/she/it" "them" @CON> #2->13
+"<,>"
+	"," CLB #3->2
+"<nammineerluni>"
+	"be independent" Sem/be_attribute iV V Cont @ADVL> #4->6
+"<inuunini>"
+	"life" Sem/ac iN N Abs Sg "his/her/its" @OBJ> #5->6
+"<kiperusulissaguniuk>"
+	"cut off" iSem/cut iV "want to" iSem/wish iV "begin" iSem/begin iV SSA Sem/must V "when/if" "he/she/it" @CON> #6->13
+"<,>"
+	"," CLB #7->6
+"<namminerpiaq>"
+	"namminerpiaq" Sem/am N Abs Sg @SUBJ> #8->10
+"<nukini>"
+	"muscle" Sem/anorg iN N Abs Pl "his/her/its" @OBJ> #9->10
+	"strength" Sem/am iN N Abs Pl "his/her/its" @OBJ> #9->10
+"<atorlugit>"
+	"use" Sem/use iV V Cont @ADVL> #10->13
+"<nammineq>"
+	"_"  iPron Pron Rel "he/she/it" #11->12 SUBSTITUTE:61:0301
+"<inuunini>"
+	"life" Sem/ac iN N "own" Abs Sg "his/her/its" @OBJ> #12->13
+"<kipillarumaarpaa>"
+	"cut off" iSem/cut iV LLAR GUMAAR V Ind "he/she/it" @PRED #13->0
+"<.>"
+	"." CLB #14->13
+</s>
+
 <s id="wJxJqjVU8coRC7LJTd4MzvBLU8k">
 "<Eqqarsaateqartarnermik>"
 	"thought" iSem/sem-c iN "have" iSem/have iV TAR iSem/do N "because of" Sg @ADVL> #1->3
@@ -5655,6 +8510,43 @@
 	"sleep" iSem/bodystate iV SUATAAR SIMA V "I" "that" #7->6
 "<.>"
 	"." CLB #8->7
+</s>
+
+<s id="wOxpmoUCIO41Gx25cR4yQzAQpmg">
+"<Atuartussaannginnerarlugu>"
+	"read" iV TUSSAA "not" iAdv NIRAR V Cont @PRED #1->0
+"<,>"
+	"," CLB #2->1
+"<qatanngutini>"
+	"sibling" Sem/Hfam iN N Abs Pl "his/her/its" "that" "when/because" @SUBJ> #3->6
+"<angutit>"
+	"man" Sem/H iN N Abs Pl @N< #4->3
+"<aalisartut>"
+	"fisherman" Sem/Hprof iN N Abs Pl @N< #5->4
+"<aningaasarsiorniarmata>"
+	"earn money" iSem/gain iV NIAR Sem/try_to V #6->1
+"<,>"
+	"," CLB #7->6
+"<nerisassai>"
+	"food" Sem/food iN N Abs Pl "his/her/its" @OBJ> #8->9
+"<isumagisassagai>"
+	"take care of" iSem/contribute iV TAR iSem/do SSA Sem/must V "he/she/it" "that" #9->1
+"<,>"
+	"," CLB #10->9
+"<atisai>"
+	"clothes" Sem/cloH iN N Abs Pl "his/her/its" @OBJ> #11->12
+"<errussagai>"
+	"wash" iSem/clean iV SSA Sem/must V "he/she/it" "that" #12->1
+"<,>"
+	"," CLB #13->12
+"<torersumillu>"
+	"tidy" Adj N Ins Sg "and" @i->N>N #14->15
+"<angerlarsimaffeqarnissaat>"
+	"home" iSem/Lh iN "have" iSem/have iV NIQ "future" Sem/event Adj N Abs Sg "their" @OBJ> #15->16
+"<isumagisassagaa>"
+	"take care of" iSem/contribute iV TAR iSem/do SSA Sem/must V "he/she/it" "that" #16->1
+"<.>"
+	"." CLB #17->16
 </s>
 
 <s id="wPj4xrqcQGQQ8sxbxwl9py1Eju8">
@@ -5675,6 +8567,47 @@
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #4->3
 </s>
 
+<s id="wmxuxVJo858d8lP6FsO5UBPD80A">
+"<Uannut>"
+	"uanga" Sem/ac Pron "to" @i-ADVL> #1->2
+"<iliuuserinikuusatit>"
+	"conduct" iSem/ac iN "have as" iSem/have iV NIKUU "what has been" Sem/occur_dynamic iV N Abs Pl "your" @OBJ> #2->5
+"<,>"
+	"," CLB #3->2
+"<iliuuserinikuunngisatillu>"
+	"conduct" iSem/ac iN "have as" iSem/have iV NIKUU "not" iAdv "what has been" Sem/occur_dynamic iV N Abs Pl "your" "and" @OBJ> #4->5
+"<eqqarsaatigeqqajaavakka>"
+	"consider" iSem/think iV QQAJAA V Ind "I" @PRED #5->0
+"<.>"
+	"." CLB #6->5
+</s>
+
+<s id="wxScafrL9xR6KyxHc5Q9Yj6Jxoc">
+"<Aanaannukarsinnaagaluarpunga>"
+	"grandmother" Sem/Hfam iN N "to" Sg "my" @ADVL> #1->2
+"<KAR>"
+	"go to" Sem/move_dir iV "can" Sem/can iV "actually" iAdv V Ind "I" @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<kisianni>"
+	"but" Part Conj @CONJ #1->3
+"<taava>"
+	"then" Adv Adv @CL-ADVL> #2->3
+"<apeqqutigissavaa>"
+	"ask" iSem/inquire iV SSA Sem/must V Ind "he/she/it" @PRED #3->0
+"<sooq>"
+	"why" Interj Adv @ADVL> #4->6
+"<unnuaannarmi>"
+	"middle of the night" Sem/per iN N "in" Sg @ADVL> #5->6
+"<aggernersunga>"
+	"approach" iSem/move_dir iV V Par "I" @CL-<CIT #6->3
+"<.>"
+	"." CLB #7->6
+</s>
+
 <s id="x25nbFIWAGyhGxcleD5WG2xRTxk">
 "<Silattulerpunga>"
 	"regain consciousness" Sem/change_bodystate iV "begin" Sem/begin iV V Ind "I" @PRED #1->0
@@ -5684,6 +8617,27 @@
 	"sit" Sem/bodystate iV V Cont @<ADVL #3->1
 "<.>"
 	"." CLB #4->3
+</s>
+
+<s id="x6LWU6iKemUYbyoPgs2ULxG07EA">
+"<Inimut>"
+	"room" Sem/Lh iN N "to" Sg @ADVL> #1->2
+"<appakaatiinnartunga>"
+	"slip through" Sem/reach iV "only" iAdv V Par "I" "when" #2->8
+"<ingerlaannaq>"
+	"immediately" Adv Adv @ADVL> #3->8
+"<anaanama>"
+	"mother" Sem/Hfam iN N Sg "my" "of" #4->5
+"<niui>"
+	"leg" Sem/anmov iN N Abs Pl "their" @OBJ> #5->8
+"<natermi>"
+	"floor" Sem/Lsurf iN N "in" Sg @i-ADVL> #6->7
+"<ersilaartut>"
+	"be visible" iSem/see iV LAAR "that which" Sem/cc iN N Abs Pl @N< #7->5
+"<takuakka>"
+	"see" Sem/see iV V Ind "I" @PRED #8->0
+"<.>"
+	"." CLB #9->8
 </s>
 
 <s id="xAdUvNaovB6Nx0qH5vgmvhK7Ejg">
@@ -5838,6 +8792,23 @@
 	"." CLB #14->13
 </s>
 
+<s id="xJmzAPg6FoTiJKaY09uWE6iFEio">
+"<Massakkut>"
+	"now" Adv Adv @CL-ADVL> #1->6
+"<maluginera>"
+	"sensation" Sem/act iN N Abs Sg "my" @SUBJ> #2->3
+"<annikimmat>"
+	"be small" Sem/be_attribute iV V "when/because" @CAU> #3->6
+"<,>"
+	"," CLB #4->3
+"<unnuassara>"
+	"night" Sem/temp iN "future" Sem/event Adj N Abs Sg "my" @OBJ> #5->6
+"<naatsorsoruminaatsippara>"
+	"short" Adj RSUR "be easy" iSem/be_attribute iV IT TIP Sem/cause V Ind "I" @PRED #6->0
+"<.>"
+	"." CLB #7->6
+</s>
+
 <s id="xQ4NRi5oJxZCcVecy5WgAZCPBT8">
 "<Anaanaga>"
 	"mother" Sem/Hfam iN N Abs Sg "my" @OBJ> #1->2
@@ -5887,6 +8858,25 @@
 	"." CLB #4->3
 </s>
 
+<s id="xZ834kzGxECG6tBDsxEjkjeyVu8">
+"<Ilassisarneraluunniit>"
+	"greet" iV TAR iSem/do NIQ N Abs Sg "his/her/its" "at all" @SUBJ> #1->3
+"<tamarmi>"
+	"all" Sem/am iN N Nom @N< #2->1
+"<allanngortarpoq>"
+	"another" iSem/f iPron "become" iSem/become iV TAR Sem/do V Ind @PRED #3->0
+	"change" iSem/changeS iV TAR Sem/do V Ind @PRED #3->0
+"<.>"
+	"." CLB #4->3
+
+"<->"
+	"-" PUNCT DIRTALESTART #1->0
+"<Hej>"
+	"hi" Interj Interj @INTERJ #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
 <s id="xZOb3fAgs8xWuxyGymsgNhZxFps">
 "<Tassanngaannaq>"
 	"suddenly" Adv Adv @CL-ADVL> #1->3
@@ -5902,7 +8892,7 @@
 	":" CLB DIRTALESTART #6->5
 
 "<sussallunipalaaq>"
-	"su" SSA Sem/must V Cont PALAAQ @ADVL> #1->3
+	"do what" iSem/do iV SSA Sem/must V Cont PALAAQ @ADVL> #1->3
 "<maaniissava>"
 	"here" iAdv Adv "in" @ADVL> #2->3
 "<issava>"
@@ -5941,7 +8931,7 @@
 	"slacken" iV "one who" Sem/H iN N "like" Pl @ADVL> #5->6
 	"slacken" iV "that which" Sem/cc iN N "like" Pl @ADVL> #5->6
 "<ittut>"
-	"ip" V Par @PRED #6->0
+	"be" Sem/be_copula iV V Par @PRED #6->0
 "<.>"
 	"." CLB #7->6
 
@@ -6010,6 +9000,18 @@
 	"." CLB #7->6
 </s>
 
+<s id="xicU37rWh5DOHf7pcCJY13hQb7g">
+"<Ingiitigalunga>"
+	"sit down" iSem/change_body_pos iV Err/Sub V "while" "I" @ADVL> #1->3
+"<niaquinnannik>"
+	"head" Sem/anmov iN "just" iAdv N Ins Sg "my" @ADVL> #2->3
+"<naameertulerpara>"
+	"say no" iSem/refuse iV "one who" iSem/H iN LIR Sem/supply V Ind "I" "him/her/it" @PRED #3->0
+	"say no" iSem/refuse iV "that which" iSem/cc iN LIR Sem/supply V Ind "I" "him/her/it" @PRED #3->0
+"<.>"
+	"." CLB #4->3
+</s>
+
 <s id="xnFxWgpNVmhArD9r54OfX9rtCUo">
 "<Akiligassaq>"
 	"debt" Sem/mon-m iN N Abs Sg @SUBJ> #1->3
@@ -6064,6 +9066,26 @@
 	"." CLB #14->13
 </s>
 
+<s id="xop8slFow3NckKSnSUmeT3gLFQA">
+"<Tupasunnippoq>"
+	"tobacco" iSem/cm-h iN SUNNIP Sem/stimulus_subj V Ind "he/she/it" @PRED #1->0
+"<,>"
+	"," CLB #2->1
+"<.>"
+	"." CLB #3->2
+
+"<assaatalu>"
+	"hand" Sem/anmov iN N Sg "his/her/its" "and" "of" #1->2
+"<kukii>"
+	"nail" Sem/f-an iN N Abs Pl "his/her/its" @SUBJ> #2->4
+"<sungaarujullutillu>"
+	"be yellow" iSem/be_attribute iV RUJUP V Cont "and" @ADVL> #3->4
+"<kajorujupput>"
+	"be brown" iV RUJUP V Ind @PRED #4->0
+"<.>"
+	"." CLB #5->4
+</s>
+
 <s id="xxxMxxhQSiHMsZ9cHjV2qBmpEig">
 "<Taamaallaat>"
 	"just" Adv Adv @CL-ADVL> #1->2
@@ -6105,9 +9127,28 @@
 	"." CLB #7->6
 
 "<politiillu>"
-	"police" Sem/inst iN N Abs Pl "and" @OBJ> #1->2
+	"police officer" Sem/Hprof iN N Abs Pl "and" @OBJ> #1->2
 "<kisimeeqatigilerpakka>"
 	"be alone" iSem/be_attribute iV "do together with" iSem/be_part iV LIR Sem/gain V Ind "I" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+</s>
+
+<s id="yNxzHJ9ewNIFOsrTVxRC4GKlZLY">
+"<Piaaralunga>"
+	"do on purpose" Sem/do iV V Cont @ADVL> #1->2
+"<naannerutilaarpara>"
+	"be short" iSem/be_attribute iV NIRU TIP iSem/cause LAAR V Ind "I" "him/her/it" @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<qungasinnullu>"
+	"neck" Sem/anmov iN N "to" Sg "my" "and" @ADVL> #1->2
+	"qungaseq" Sem/food N "to" Sg "my" "and" @ADVL> #1->2
+"<qilerlugu>"
+	"tie" Sem/fasten iV V Cont "him/her/it" @PRED #2->0
 "<.>"
 	"." CLB #3->2
 </s>
@@ -6142,6 +9183,27 @@
 	"." CLB #10->9
 </s>
 
+<s id="ytBURanYKNUb86GUmaePX4l5DjI">
+"<Tassuunaluunniit>"
+	"through this" iAdv Adv "through" "at all" @CL-ADVL> #1->4
+"<nukinnik>"
+	"muscle" Sem/anorg iN N Ins Sg "my" @ADVL> #2->4
+	"strength" Sem/am iN N Ins Sg "my" @ADVL> #2->4
+"<ataatsimilluunniit>"
+	"one" Sem/unit iNum Num Ins Sg "at all" @N< #3->2
+"<ikiorusunngilluinnarpara>"
+	"help" Sem/help iV "want to" Sem/wish iV "not" iAdv "entirely" iAdv V Ind "I" "him/her/it" @PRED #4->0
+"<.>"
+	"." CLB #5->4
+</s>
+
+<s id="zEMyhU36uzaPhKxV7Jxzy9SynjI">
+"<Artulilerpakka>"
+	"artor" iSem/refrain "begin" Sem/begin iV "begin" Sem/begin iV V Ind "I" "them" @PRED #1->0
+"<.>"
+	"." CLB #2->1
+</s>
+
 <s id="zFMdt5QI28ESHmjxzOsWxzGwyzA">
 "<Arsugap>"
 	"Arsugaq" Err/Sub Sem/Fem Sem/Hum Prop Rel Sg @SUBJ> #1->7
@@ -6159,6 +9221,45 @@
 	"day" iSem/dur iN SIUR iSem/do_leisure iSem/occ "do together with" iSem/be_part iV "want to" iSem/wish iV NIRU "actually" iAdv V Ind @PRED #7->0
 "<.>"
 	"." CLB #8->7
+</s>
+
+<s id="zHe5kSIRGtqxUicAONkrNAnmuVY">
+"<Imerniartarfik>"
+	"pub" Sem/inst iN N Abs Sg @OBJ> #1->2
+"<angumeriniassagamiuk>"
+	"succeed in meeting" iSem/succeed iV NIAR iSem/run iSem/reach SSA Sem/must V "when/because" "he/she/it" @CAU> #2->3
+	"succeed in meeting" iSem/succeed iV NIAR iSem/try_to SSA Sem/must V "when/because" "he/she/it" @CAU> #2->3
+"<tuaviutsappaluppoq>"
+	"hurry" iSem/rush iV TSAP iSem/start iSem/show_emot "be audible that" Sem/sound_emission iV V Ind "he/she/it" @PRED #3->0
+"<,>"
+	"," CLB #4->3
+"<naak>"
+	"although" Conj Conj @CONJ #5->8
+"<immaqa>"
+	"perhaps" Part Adv @ADVL> #6->8
+"<suli>"
+	"still" Adv Adv @ADVL> #7->8
+"<baajaateqalaaraluarluni>"
+	"beer" iSem/drink-c-h iN UTE "have" iSem/have iV LAAR "actually" iAdv V Cont @PRED2 #8->3
+"<.>"
+	"." CLB #9->8
+</s>
+
+<s id="zQxzoDxGDxNI2cT9dfTumtFet0A">
+"<Tusaasakka>"
+	"hear" Sem/hear iV "what has been" Sem/occur_dynamic iV N Abs Pl "my" @SUBJ> #1->3
+"<aanngariartortutut>"
+	"disappear" Sem/disappear iV "go to" Sem/move_dir iV "one who" Sem/H iN N "like" Pl @ADVL> #2->3
+	"disappear" Sem/disappear iV "go to" Sem/move_dir iV "that which" Sem/cc iN N "like" Pl @ADVL> #2->3
+"<ipput>"
+	"be" Sem/be_copula iV V Ind @PRED #3->0
+"<.>"
+	"." CLB #4->3
+
+"<Aanngalerput>"
+	"disappear" Sem/disappear iV "begin" Sem/begin iV V Ind "they" @PRED #1->0
+"<.>"
+	"." CLB #2->1
 </s>
 
 <s id="zVOyr4kyGlgxy49RWyY8sixb2u0">
@@ -6224,5 +9325,37 @@
 	"look towards" Sem/watch iV "go to" Sem/move_dir iV "begin" Sem/begin iV V Cont @PRED #2->0
 "<.>"
 	"." CLB #3->2
+</s>
+
+<s id="zzov9Tv2iCYETRPSX3C62OBq8bU">
+"<Ukiorpassuit>"
+	"year" iSem/dur iN PAK "large" Sem/f Adj N Abs Pl @OBJ> #1->4
+"<,>"
+	"," CLB #2->1
+"<unnuarpassuillu>"
+	"night" iSem/temp iN PAK "large" Sem/f Adj N Abs Pl "and" @OBJ> #3->4
+"<pikkorissarfigisarsimavakka>"
+	"practise" iV "place" iSem/L iN "have as" iSem/have iV TAR iSem/do SIMA V Ind "I" @PRED #4->0
+	"practise" iV "time" iSem/ac iN "have as" iSem/have iV TAR iSem/do SIMA V Ind "I" @PRED #4->0
+"<unnuamut>"
+	"night" Sem/temp iN N "to" Sg @ADVL> #5->13
+"<eqqissillunga>"
+	"relax" iV V Cont @ADVL> #6->7
+"<sinissinnaassanerlunga>"
+	"sleep" iSem/bodystate iV "can" iSem/can iV SSA iSem/must V Cont @<ADVL #7->4
+"<imaluunniit>"
+	"or" Part Conj @CONJ #8->7
+"<piareersimaannavillunga>"
+	"be ready with" iSem/prepare iV SIMA "become" "only" iAdv "completely" Sem/jdegree Adj V Cont @ADVL> #9->11
+"<iluamik>"
+	"properly" Adv Adv @ADVL> #10->11
+"<sinissinnaananga>"
+	"sleep" Sem/bodystate iV "can" Sem/can iV V ContNeg @<ADVL #11->4
+"<unnuaq>"
+	"night" Sem/temp iN N Abs Sg @OBJ> #12->13
+"<atussanerlugu>"
+	"use" iSem/use iV SSA iSem/must V Cont @<ADVL #13->4
+"<.>"
+	"." CLB #14->13
 </s>
 
