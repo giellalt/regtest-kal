@@ -1116,6 +1116,23 @@
 	"." CLB DIRTALEMIDDLE #4->4
 </s>
 
+<s id="8AqoPfBouk8jPxGT8X5932xtpKk">
+"<Nakorsap>"
+	"nakorsaq" N Rel Sg @SUBJ> #1->2
+"<ilimatsaappaa>"
+	"ilimatsaap" V Ind 3Sg 3SgO @PRED #2->0
+"<qasusooqqanerata>"
+	"qasu" TUUR QQA NIQ N Rel Sg 3SgPoss @POSS> #3->6
+"<kinguaariinniit>"
+	"kinguaaq" GIIT N Abl Pl 1SgPoss @i-AGENS #4->6
+"<kinguaariinnut>"
+	"kinguaaq" GIIT N Trm Pl @i-ADVL> #5->6
+"<kingornuttagaasimanissaa>"
+	"kingornup" TAR TAQ U SIMA NIQ SSAQ N Abs Sg 3SgPoss @<OBJ #6->2
+"<.>"
+	"." CLB #7->7
+</s>
+
 <s id="8Ku82lNxHKlsrpHHXBciF2QhI9M">
 "<Ataatsimilluunniit>"
 	"ataaseq" Num Ins Sg ADV-LUUNNIIT @i->N #1->2
@@ -2466,23 +2483,6 @@
 	"." CLB #4->4
 </s>
 
-<s id="Hp5ytxFJY6GLX594LMxdHtYWeuw">
-"<Nakorsap>"
-	"nakorsaq" N Rel Sg @SUBJ> #1->2
-"<ilimatsaappaa>"
-	"ilimatsaap" V Ind 3Sg 3SgO @PRED #2->0
-"<qasusooqqanera>"
-	"qasu" TUUR QQA NIQ N Abs Sg 1SgPoss @<OBJ #3->2
-"<kinguaariinniit>"
-	"kinguaaq" GIIT N Abl Pl 1SgPoss @i-AGENS #4->6
-"<kinguaariinnut>"
-	"kinguaaq" GIIT N Trm Pl @i-ADVL> #5->6
-"<kingornuttagaasimanissaa>"
-	"kingornup" TAR TAQ U SIMA NIQ SSAQ N Abs Sg 3SgPoss @N< #6->3
-"<.>"
-	"." CLB #7->7
-</s>
-
 <s id="HrkYKBxtEYDXCGEZ6qAjnuw9jRI">
 "<Aalajangiussimasara>"
 	"aalajanger" UTE SIMA TAQ N Abs Sg 1SgPoss @OBJ> #1->2
@@ -3511,6 +3511,52 @@
 	"oqalup" QATE GE TUSSAA V Cont 3SgO @CL-<CIT #5->1
 "<.>"
 	"." CLB #6->6
+</s>
+
+<s id="O4FmvuOzpV37iuF22wCpqmUFrPE">
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART #1->1
+"<Usimi>"
+	"usi" Interj MI @INTERJ #2->0
+"<!>"
+	"!" CLB DIRTALEMIDDLE #3->3
+
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART #1->1
+"<ammaleriallaraa>"
+	"ammar" LIR RIAR LLAR V Par 3Sg 3SgO @PRED #2->0
+"<Arsugap>"
+	"Arsugaq" Prop Rel Sg @POSS> #3->5
+"<atuarfimmi>"
+	"atuar" VIK N Lok Sg @i-ADVL> #4->5
+"<sanaarisimasaa>"
+	"sanaaq" GE SIMA TAQ N Abs Sg 3SgPoss @<OBJ #5->2
+"<iganut>"
+	"iga" N Trm Pl @ADVL>N #6->7
+"<allequt>"
+	"allequt" N Abs Sg @N< #7->5
+"<,>"
+	"," CLB #8->8
+"<kappoqqutinik>"
+	"kappoqqut" N Ins Pl @i-ADVL> #9->11
+"<liimmernikunik>"
+	"liimmer" NIQ KUQ N Ins Pl @i-ADVL> #10->11
+"<ammalortuliaq>"
+	"ammalor" TUQ LIAQ N Abs Sg @N< #11->5
+"<,>"
+	"," CLB #12->12
+"<qaavatigut>"
+	"qaaq" N Via Sg 3SgPoss @i-ADVL> #13->17
+"<orangeamik>"
+	"orange" N Ins Sg @i->N #14->15
+"<qalipaatilimmik>"
+	"qalipap" UTE LIK N Ins Sg @i-ADVL> #15->17
+"<annoraaminermik>"
+	"annoraamineq" N Ins Sg @N< #16->15
+"<qalligaq>"
+	"qaller" TAQ N Abs Sg @N< #17->5
+"<.>"
+	"." CLB DIRTALEMIDDLE #18->18
 </s>
 
 <s id="O6EbDoKuDWQ6lf4UOexH8E3w4uI">
@@ -5067,52 +5113,6 @@
 	"kuup" LIR V Par 3Sg @CL-<CIT #10->1
 "<.>"
 	"." CLB #11->11
-</s>
-
-<s id="YkQzDxYJyJdRRAj6a40sWecyoiM">
-"<”>"
-	"”" PUNCT RIGHT DIRTALESTART #1->1
-"<Usimi>"
-	"usi" Interj MI @INTERJ #2->0
-"<!>"
-	"!" CLB DIRTALEMIDDLE #3->3
-
-"<”>"
-	"”" PUNCT RIGHT DIRTALESTART #1->1
-"<ammaleriallaraa>"
-	"ammar" LIR RIAR LLAR V Par 3Sg 3SgO @PRED #2->0
-"<Arsugap>"
-	"Arsugaq" Prop Rel Sg @POSS> #3->5
-"<atuarfimmi>"
-	"atuar" VIK N Lok Sg @i-ADVL> #4->5
-"<sanaarisimasaa>"
-	"sanaaq" GE SIMA TAQ N Abs Sg 3SgPoss @<OBJ #5->2
-"<iganut>"
-	"iga" N Trm Pl @ADVL>N #6->7
-"<allequt>"
-	"allequt" N Abs Sg @N< #7->5
-"<,>"
-	"," CLB #8->8
-"<kappoqqutit>"
-	"kappoqqut" N Abs Pl #9->9
-"<liimmernikunik>"
-	"liimmer" NIQ KUQ N Ins Pl @i-ADVL> #10->11
-"<ammalortuliaq>"
-	"ammalor" TUQ LIAQ N Abs Sg @N< #11->5
-"<,>"
-	"," CLB #12->12
-"<qaavatigut>"
-	"qaaq" N Via Sg 3SgPoss @i-ADVL> #13->17
-"<orangeamik>"
-	"orange" N Ins Sg @i->N #14->15
-"<qalipaatilimmik>"
-	"qalipap" UTE LIK N Ins Sg @i-ADVL> #15->17
-"<annoraaminermik>"
-	"annoraamineq" N Ins Sg @N< #16->15
-"<qalligaq>"
-	"qaller" TAQ N Abs Sg @N< #17->5
-"<.>"
-	"." CLB DIRTALEMIDDLE #18->18
 </s>
 
 <s id="YrNBLRKYapCpYl5Epm4qFEtXtQY">
