@@ -389,45 +389,6 @@
 	"..." CLB #3->3
 </s>
 
-<s id="3NMXGJsmtAOKQUQDfTe8cIy05XY">
-"<Sapiillisaavillunga>"
-	"sapiillisaar" VIP V Cont 1Sg @ADVL> #1->2
-"<oqarfigivara>"
-	"oqar" VIK GE V Ind 1Sg 3SgO @PRED #2->0
-"<:>"
-	":" CLB DIRTALESTART #3->3
-
-"<”>"
-	"”" PUNCT RIGHT DIRTALESTART #1->1
-"<Jeg>"
-	"Jeg" Prop Abs Sg @HNOUN #2->0
-"<skriger>"
-	"skriger" ? #3->3
-"<.>"
-	"." CLB DIRTALEMIDDLE #4->4
-
-"<”>"
-	"”" PUNCT RIGHT DIRTALESTART #1->1
-"<Qanilleqqimmat>"
-	"qanilli" QQIP V Cau 3Sg @CAU> #2->3
-"<oqaatigeqqippara>"
-	"oqaatige" QQIP V Ind 1Sg 3SgO @PRED #3->0
-"<:>"
-	":" CLB DIRTALESTART #4->4
-
-"<”>"
-	"”" PUNCT RIGHT DIRTALESTART #1->1
-"<Jeg>"
-	"Jeg" Prop Abs Sg @HNOUN #2->0
-"<skriger>"
-	"skriger" ? #3->3
-"<!>"
-	"!" CLB DIRTALESLUT #4->4
-
-"<”>"
-	"”" PUNCT RIGHT DIRTALESTART #1->1
-</s>
-
 <s id="3USuLwLLPgF6n7ZwdplIEDq0OWo">
 "<Maanimi>"
 	"ma" Adv Lok MI @CL-ADVL> #1->4
@@ -2229,9 +2190,9 @@
 "<,>"
 	"," CLB #3->3
 "<nammineq>"
-	"nammineq" Pron Abs 4Sg @SUBJ> #4->6
+	"nammineq" Pron Rel 4Sg @POSS> #4->5
 "<niperinngisaminik>"
-	"niperinngisaminik" ? #5->5
+	"nipi" GE NNGIT TAQ N Ins Sg 4SgPoss @ADVL> #5->6
 "<nipinittarluni>"
 	"nipi" NIP TAR V Cont 4Sg @<ADVL #6->2
 "<.>"
@@ -2644,6 +2605,15 @@
 	"anaana" U LLUAR TUQ N Abs Sg @HNOUN #1->0
 "<.>"
 	"." CLB #2->2
+</s>
+
+<s id="Itg31eeoZCPGQe5LAkRh5NsVh3k">
+"<Sapiillisaavillunga>"
+	"sapiillisaar" VIP V Cont 1Sg @ADVL> #1->2
+"<oqarfigivara>"
+	"oqar" VIK GE V Ind 1Sg 3SgO @PRED #2->0
+"<:>"
+	":" CLB DIRTALESTART #3->3
 </s>
 
 <s id="Iv9N1XPb5nDZ7h2RM7hhnsJx8Es">
@@ -3071,6 +3041,15 @@
 	"sakku" GE SINNAA V Ind 1Sg 3PlO @PRED #9->0
 "<.>"
 	"." CLB #10->10
+</s>
+
+<s id="L0dhiD7KF03tRRw43xQGHxvkTYQ">
+"<Qanilleqqimmat>"
+	"qanilli" QQIP V Cau 3Sg @CAU> #1->2
+"<oqaatigeqqippara>"
+	"oqaatige" QQIP V Ind 1Sg 3SgO @PRED #2->0
+"<:>"
+	":" CLB DIRTALESTART #3->3
 </s>
 
 <s id="L2IIuPZdxP0yXEcNeP3mImxUg78">
@@ -6768,31 +6747,19 @@
 	"!" CLB #7->7
 </s>
 
-<s id="nMmdK7Ac0I1OLYxYhKqXcA3ZRxw">
-"<”>"
-	"”" PUNCT RIGHT DIRTALESTART #1->1
-"<Schh>"
-	"Schh" Prop Abs Sg @SUBJ> #2->11
-"<..>"
-	".." CLB #3->3
-"<rolig>"
-	"rolig" ? #4->4
-"<..>"
-	".." CLB #5->5
-"<”>"
-	"”" PUNCT RIGHT #6->6
+<s id="nl52cxRJ4eSmNG7aHV3YeFSyl2g">
 "<assani>"
-	"assak" N Abs Sg 4SgPoss @OBJ> #7->8
+	"assak" N Abs Sg 4SgPoss @OBJ> #1->2
 "<isaatiutigalugu>"
-	"isaap" UTIGE V Cont 3SgO @ADVL> #8->11
+	"isaap" UTIGE V Cont 3SgO @ADVL> #2->5
 "<qanilliartorlunga>"
-	"qanilli" GIARTUR V Cont 1SgO @ADVL> #9->11
+	"qanilli" GIARTUR V Cont 1SgO @ADVL> #3->5
 "<nipikitsumik>"
-	"nipi" KIP TUQ N Ins Sg @ADVL> #10->11
+	"nipi" KIP TUQ N Ins Sg @ADVL> #4->5
 "<oqamisaarpoq>"
-	"oqar" MISAAR V Ind 3Sg @PRED #11->0
+	"oqar" MISAAR V Ind 3Sg @PRED #5->0
 "<.>"
-	"." CLB DIRTALEMIDDLE #12->12
+	"." CLB #6->6
 </s>
 
 <s id="npJxJSFhheWzEAsT85baWhqdxqw">
