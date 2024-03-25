@@ -291,9 +291,9 @@
 "<massiimeriarlungalu>"
 	"rise" iSem/change_body_pos iV <tr> UMI Der/vv Gram/IV RIAR Der/vv Gram/IV Gram/Conj-encl V Cont 1Sg CONJ-LU @ADVL> #2->5
 "<isaatigut>"
-	"eye" Sem/anorg iN <tr> N Via Sg 3SgPoss @ADVL> #3->5
+	"eye" Sem/anorg iN <tr> N Via Sg 3SgPoss @ADVL> #3->4
 "<toqqarlugu>"
-	"choose" Sem/choose iV <tr> V Cont 3SgO @ADVL> #4->5
+	"directly" iAdv <tr> V Cont 3SgO @ADVL> #4->5
 "<isigilerlugu>"
 	"look at" Sem/watch iV <tr> "begin" Sem/begin iV <tr> V Cont 3SgO @PRED #5->0
 "<.>"
@@ -1218,6 +1218,23 @@
 	"understand" Sem/comprehend iV <tr> "can" Sem/can iV <tr> "not" iAdv <tr> V Ind 3Sg 3PlO @PRED #3->0
 "<.>"
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #4->3
+</s>
+
+<s id="8AqoPfBouk8jPxGT8X5932xtpKk">
+"<Nakorsap>"
+	"doctor" Sem/Hprof iN <tr> N Rel Sg @SUBJ> #1->2
+"<ilimatsaappaa>"
+	"ilimatsaap" Gram/TV V Ind 3Sg 3SgO @PRED #2->0
+"<qasusooqqanerata>"
+	"depression" Sem/sick iN <tr> N Rel Sg 3SgPoss @POSS> #3->6
+"<kinguaariinniit>"
+	"generation" Sem/HH iN <tr> N Abl Pl 1SgPoss @i-ADVL> #4->6
+"<kinguaariinnut>"
+	"generation" Sem/HH iN <tr> N Trm Pl @i-ADVL> #5->6
+"<kingornuttagaasimanissaa>"
+	"kingornup" Gram/TV TAR Der/vv Gram/TV iSem/do "what has been" iSem/occur_dynamic iV <tr> "be" iSem/be_copula iV <tr> SIMA Der/vv NIQ Der/vn "future" Sem/event Adj <tr> N Abs Sg 3SgPoss @<OBJ #6->2
+"<.>"
+	"." CLB #7->6
 </s>
 
 <s id="8Ku82lNxHKlsrpHHXBciF2QhI9M">
@@ -2387,16 +2404,15 @@
 
 <s id="GjU2HtorgYJxbYC1L9sGncNcDyc">
 "<Tusarniitsumik>"
-	"sound bad" Sem/stimulus_subj iV <tr> "one who" Sem/H iN <tr> N Ins Sg @i->N #1->2
 	"sound bad" Sem/stimulus_subj iV <tr> "that which" Sem/cc iN <tr> N Ins Sg @i->N #1->2
 "<nipeqalertarpoq>"
 	"sound" iSem/percep-l iN <tr> QAR Der/nv Gram/IV iSem/sound_biocom "begin" iSem/begin iV <tr> TAR Der/vv Gram/IV Sem/do V Ind 3Sg @PRED #2->0
 "<,>"
 	"," CLB #3->2
 "<nammineq>"
-	"oneself" iPron <tr> Pron Abs 4Sg @SUBJ> #4->6
+	"oneself" iPron <tr> Pron Rel 4Sg @POSS> #4->5
 "<niperinngisaminik>"
-	"niperinngisaminik" ? #5->4
+	"sound" Sem/percep-l iN <tr> "have as" Sem/have iV <tr> "not" iAdv <tr> "what has been" Sem/occur_dynamic iV <tr> N Ins Sg 4SgPoss @ADVL> #5->6
 "<nipinittarluni>"
 	"sound" iSem/percep-l iN <tr> NIP Der/nv Gram/IV iSem/get TAR Der/vv Gram/IV Sem/do V Cont 4Sg @<ADVL #6->2
 "<.>"
@@ -2860,6 +2876,17 @@
 	"mother" iSem/Hfam iN <tr> "be" iSem/be_copula iV <tr> LLUAR Der/vv Gram/IV "that which" Sem/cc iN <tr> N Abs Sg @HNOUN #1->0
 "<.>"
 	"." CLB #2->1
+</s>
+
+<s id="Itg31eeoZCPGQe5LAkRh5NsVh3k">
+"<Sapiillisaavillunga>"
+	"sapiillisaar" Gram/IV "completely" Sem/jdegree Adj <tr> V Cont 1Sg @ADVL> #1->2
+"<oqarfigivara>"
+	"say to" Sem/say iV <tr> V Ind 1Sg 3SgO Orth/Alt @PRED #2->0
+	"say" iSem/say iV <tr> "place" iSem/L iN <tr> GE Der/nv Gram/TV Sem/tell V Ind 1Sg 3SgO Orth/Alt @PRED #2->0
+	"say" iSem/say iV <tr> "time" iSem/ac iN <tr> GE Der/nv Gram/TV Sem/tell V Ind 1Sg 3SgO Orth/Alt @PRED #2->0
+"<:>"
+	":" CLB DIRTALESTART #3->2
 </s>
 
 <s id="Iv9N1XPb5nDZ7h2RM7hhnsJx8Es">
@@ -3337,6 +3364,18 @@
 	"weapon" Sem/cc-h iN <tr> "have as" Sem/have iV <tr> "can" Sem/can iV <tr> V Ind 1Sg 3PlO @PRED #3->0
 "<.>"
 	"." CLB #4->3
+</s>
+
+<s id="L0dhiD7KF03tRRw43xQGHxvkTYQ">
+"<Qanilleqqimmat>"
+	"qanilli" Gram/IV iSem/move_dir "again" iAdv <tr> V Cau 3Sg @CAU> #1->2
+	"qanilli" Gram/IV iSem/reach "again" iAdv <tr> V Cau 3Sg @CAU> #1->2
+"<oqaatigeqqippara>"
+	"denounce" iV <tr> "again" iAdv <tr> V Ind 1Sg 3SgO @PRED #2->0
+	"mention" Sem/hint iV <tr> "again" iAdv <tr> V Ind 1Sg 3SgO @PRED #2->0
+	"say about" Sem/say iV <tr> "again" iAdv <tr> V Ind 1Sg 3SgO @PRED #2->0
+"<:>"
+	":" CLB DIRTALESTART #3->2
 </s>
 
 <s id="L2IIuPZdxP0yXEcNeP3mImxUg78">
@@ -3822,6 +3861,52 @@
 	"talk to" iSem/vtalk iV <tr> TUSSAA Der/vv Gram/TV V Cont 3SgO @CL-<CIT #5->1
 "<.>"
 	"." CLB #6->5
+</s>
+
+<s id="O4FmvuOzpV37iuF22wCpqmUFrPE">
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART #1->0
+"<Usimi>"
+	"by the way" Interj <tr> MI @INTERJ #2->0
+"<!>"
+	"!" CLB DIRTALEMIDDLE DIRTALEMIDDLE #3->2
+
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART #1->0
+"<ammaleriallaraa>"
+	"open" iSem/open iV <tr> "begin" iSem/begin iV <tr> RIAR Der/vv Gram/TV LLAR Der/vv Gram/TV V Par 3Sg 3SgO @PRED #2->0
+"<Arsugap>"
+	"Arsugaq" Err/Sub Sem/Fem Sem/Hum Prop Rel Sg @POSS> #3->5
+"<atuarfimmi>"
+	"school" Sem/inst iN <tr> N Lok Sg @i-ADVL> #4->5
+"<sanaarisimasaa>"
+	"make" iSem/create iV <tr> SIMA Der/vv Gram/TV "what has been" Sem/occur_dynamic iV <tr> N Abs Sg 3SgPoss @<OBJ #5->2
+"<iganut>"
+	"pot" Sem/con iN <tr> N Trm Pl @ADVL>N #6->7
+"<allequt>"
+	"mat" iN <tr> N Abs Sg @N< #7->5
+"<,>"
+	"," CLB #8->7
+"<kappoqqutinik>"
+	"pin" iN <tr> N Ins Pl @i-ADVL> #9->11
+"<liimmernikunik>"
+	"glue" iV <tr> NIQ Der/vn KUQ Der/nn N Ins Pl @i-ADVL> #10->11
+"<ammalortuliaq>"
+	"round" iSem/f Adj <tr> LIAQ Der/nn N Abs Sg @N< #11->5
+"<,>"
+	"," CLB #12->11
+"<qaavatigut>"
+	"forehead" Sem/f-an iN <tr> N Via Sg 3SgPoss @i-ADVL> #13->17
+"<orangeamik>"
+	"orange" Err/Sub OLang/DAN Sem/col N Ins Sg @i->N #14->15
+"<qalipaatilimmik>"
+	"coloured" Sem/f-surf Adj <tr> N Ins Sg @i-ADVL> #15->17
+"<annoraaminermik>"
+	"cotton material" Sem/mat-cloth iN <tr> N Ins Sg @N< #16->15
+"<qalligaq>"
+	"paint over" Sem/colouring iV <tr> "what has been" Sem/occur_dynamic iV <tr> N Abs Sg @N< #17->5
+"<.>"
+	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #18->17
 </s>
 
 <s id="O6EbDoKuDWQ6lf4UOexH8E3w4uI">
@@ -7340,6 +7425,21 @@
 	"indicate" iV <tr> V Ind 3Sg @PRED #11->0
 "<.>"
 	"." CLB DIRTALEMIDDLE #12->11
+</s>
+
+<s id="nl52cxRJ4eSmNG7aHV3YeFSyl2g">
+"<assani>"
+	"hand" Sem/anmov iN <tr> N Abs Sg 4SgPoss @OBJ> #1->2
+"<isaatiutigalugu>"
+	"extend" iSem/shape iV <tr> UTIGE Der/vv Gram/TV V Cont 3SgO @ADVL> #2->5
+"<qanilliartorlunga>"
+	"come close to" Sem/reach iV <tr> "go to" Sem/move_dir iV <tr> V Cont 1SgO @ADVL> #3->5
+"<nipikitsumik>"
+	"low-voiced" Sem/cc-h Adj <tr> N Ins Sg @ADVL> #4->5
+"<oqamisaarpoq>"
+	"indicate" iV <tr> V Ind 3Sg @PRED #5->0
+"<.>"
+	"." CLB #6->5
 </s>
 
 <s id="npJxJSFhheWzEAsT85baWhqdxqw">

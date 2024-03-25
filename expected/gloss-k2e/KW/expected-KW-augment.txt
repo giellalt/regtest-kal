@@ -277,7 +277,7 @@
 "<isaatigut>"
 	"isi" Sem/anorg N Via Sg 3SgPoss @ADVL>
 "<toqqarlugu>"
-	"toqqar" Gram/TV Sem/choose V Cont 3SgO @ADVL>
+	"toqqar" Gram/TV Sem/move_dir V Cont 3SgO @ADVL>
 "<isigilerlugu>"
 	"isige" Gram/TV iSem/watch LIR Der/vv Gram/TV Sem/begin V Cont 3SgO @PRED
 "<.>"
@@ -1181,6 +1181,23 @@
 	"paasi" Gram/TV iSem/comprehend SINNAA Der/vv Gram/TV iSem/can NNGIT Der/vv Gram/TV V Ind 3Sg 3PlO @PRED
 "<.>"
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE
+</s>
+
+<s id="8AqoPfBouk8jPxGT8X5932xtpKk">
+"<Nakorsap>"
+	"nakorsaq" Sem/Hprof N Rel Sg @SUBJ>
+"<ilimatsaappaa>"
+	"ilimatsaap" Gram/TV V Ind 3Sg 3SgO @PRED
+"<qasusooqqanerata>"
+	"qasu" Gram/IV iSem/be_attribute TUUR Der/vv Gram/IV QQA Der/vv Gram/IV NIQ Der/vn Sem/sick N Rel Sg 3SgPoss @POSS>
+"<kinguaariinniit>"
+	"kinguaaq" iSem/Hfam GIIT Der/nn Sem/HH N Abl Pl 1SgPoss @i-ADVL>
+"<kinguaariinnut>"
+	"kinguaaq" iSem/Hfam GIIT Der/nn Sem/HH N Trm Pl @i-ADVL>
+"<kingornuttagaasimanissaa>"
+	"kingornup" Gram/TV TAR Der/vv Gram/TV iSem/do TAQ Der/vn iSem/ac U Der/nv Gram/IV iSem/be_copula SIMA Der/vv NIQ Der/vn SSAQ Der/nn Sem/temp N Abs Sg 3SgPoss @<OBJ
+"<.>"
+	"." CLB
 </s>
 
 <s id="8Ku82lNxHKlsrpHHXBciF2QhI9M">
@@ -2325,16 +2342,15 @@
 
 <s id="GjU2HtorgYJxbYC1L9sGncNcDyc">
 "<Tusarniitsumik>"
-	"tusarniip" Gram/IV iSem/stimulus_subj TUQ Der/vn Sem/H N Ins Sg @i->N
 	"tusarniip" Gram/IV iSem/stimulus_subj TUQ Der/vn Sem/cc N Ins Sg @i->N
 "<nipeqalertarpoq>"
 	"nipi" iSem/percep-l QAR Der/nv Gram/IV iSem/sound_biocom LIR Der/vv Gram/IV iSem/begin TAR Der/vv Gram/IV Sem/do V Ind 3Sg @PRED
 "<,>"
 	"," CLB
 "<nammineq>"
-	"nammineq" Gram/Coref Pron Abs 4Sg @SUBJ>
+	"nammineq" Gram/Coref Pron Rel 4Sg @POSS>
 "<niperinngisaminik>"
-	"niperinngisaminik" ?
+	"nipi" iSem/percep-l GE Der/nv Err/Sub Gram/TV iSem/have NNGIT Der/vv Gram/TV TAQ Der/vn Sem/ac N Ins Sg 4SgPoss @ADVL>
 "<nipinittarluni>"
 	"nipi" iSem/percep-l NIP Der/nv Gram/IV iSem/get TAR Der/vv Gram/IV Sem/do V Cont 4Sg @<ADVL
 "<.>"
@@ -2798,6 +2814,18 @@
 	"." CLB
 </s>
 
+<s id="Itg31eeoZCPGQe5LAkRh5NsVh3k">
+"<Sapiillisaavillunga>"
+	"sapiillisaar" Gram/IV VIP Der/vv Gram/IV V Cont 1Sg @ADVL>
+"<oqarfigivara>"
+	"oqar" Gram/IV iSem/say VIK Der/vn iSem/L GE Der/nv Gram/TV Sem/say V Ind 1Sg 3SgO Orth/Alt @PRED
+	"oqar" Gram/IV iSem/say VIK Der/vn iSem/L GE Der/nv Gram/TV Sem/tell V Ind 1Sg 3SgO Orth/Alt @PRED
+	"oqar" Gram/IV iSem/say VIK Der/vn iSem/temp GE Der/nv Gram/TV Sem/say V Ind 1Sg 3SgO Orth/Alt @PRED
+	"oqar" Gram/IV iSem/say VIK Der/vn iSem/temp GE Der/nv Gram/TV Sem/tell V Ind 1Sg 3SgO Orth/Alt @PRED
+"<:>"
+	":" CLB DIRTALESTART
+</s>
+
 <s id="Iv9N1XPb5nDZ7h2RM7hhnsJx8Es">
 "<->"
 	"-" PUNCT DIRTALESTART
@@ -3253,6 +3281,18 @@
 	"sakku" iSem/cc-h GE Der/nv Gram/TV iSem/have SINNAA Der/vv Gram/TV Sem/can V Ind 1Sg 3PlO @PRED
 "<.>"
 	"." CLB
+</s>
+
+<s id="L0dhiD7KF03tRRw43xQGHxvkTYQ">
+"<Qanilleqqimmat>"
+	"qanilli" Gram/IV iSem/move_dir QQIP Der/vv Gram/IV Sem/continue V Cau 3Sg @CAU>
+	"qanilli" Gram/IV iSem/reach QQIP Der/vv Gram/IV Sem/continue V Cau 3Sg @CAU>
+"<oqaatigeqqippara>"
+	"oqaatige" Gram/TV iSem/characterize QQIP Der/vv Gram/TV Sem/continue V Ind 1Sg 3SgO @PRED
+	"oqaatige" Gram/TV iSem/hint QQIP Der/vv Gram/TV Sem/continue V Ind 1Sg 3SgO @PRED
+	"oqaatige" Gram/TV iSem/say QQIP Der/vv Gram/TV Sem/continue V Ind 1Sg 3SgO @PRED
+"<:>"
+	":" CLB DIRTALESTART
 </s>
 
 <s id="L2IIuPZdxP0yXEcNeP3mImxUg78">
@@ -3729,6 +3769,54 @@
 	"oqalup" Gram/IV iSem/vtalk QATE Der/vn GE Der/nv Gram/TV iSem/discuss TUSSAA Der/vv Gram/TV V Cont 3SgO %ContHypotagme @CL-<CIT
 "<.>"
 	"." CLB
+</s>
+
+<s id="O4FmvuOzpV37iuF22wCpqmUFrPE">
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART
+"<Usimi>"
+	"usi" Sem/Lh Interj MI @INTERJ
+	"usi" Sem/ac Interj MI @INTERJ
+"<!>"
+	"!" CLB DIRTALEMIDDLE DIRTALEMIDDLE
+
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART
+"<ammaleriallaraa>"
+	"ammar" Gram/TV iSem/open LIR Der/vv Gram/TV iSem/begin RIAR Der/vv Gram/TV LLAR Der/vv Gram/TV V Par 3Sg 3SgO @PRED
+"<Arsugap>"
+	"Arsugaq" Err/Sub Sem/Fem Sem/Hum Prop Rel Sg @POSS>
+"<atuarfimmi>"
+	"atuar" Gram/HV Gram/IV iSem/read VIK Der/vn Sem/inst N Lok Sg @i-ADVL>
+"<sanaarisimasaa>"
+	"sanaaq" iSem/cc-h GE Der/nv Gram/TV iSem/make SIMA Der/vv Gram/TV TAQ Der/vn Sem/ac N Abs Sg 3SgPoss @<OBJ
+"<iganut>"
+	"iga" Sem/con N Trm Pl @ADVL>N
+"<allequt>"
+	"allequt" Sem/Lsurf N Abs Sg @N<
+"<,>"
+	"," CLB
+"<kappoqqutinik>"
+	"kappoqqut" Sem/cloH-beauty N Ins Pl @i-ADVL>
+"<liimmernikunik>"
+	"liimmer" Gram/TV Gram/Pass NIQ Der/vn KUQ Der/nn N Ins Pl @i-ADVL>
+"<ammalortuliaq>"
+	"ammalor" Gram/IV iSem/be_attribute TUQ Der/vn iSem/f-surf LIAQ Der/nn N Abs Sg @N<
+"<,>"
+	"," CLB
+"<qaavatigut>"
+	"qaaq" Sem/f-an N Via Sg 3SgPoss @i-ADVL>
+"<orangeamik>"
+	"orange" Err/Sub OLang/DAN Sem/col N Ins Sg @i->N
+"<qalipaatilimmik>"
+	"qalipap" Gram/TV iSem/colouring UTE Der/vn LIK Der/nn Sem/f-surf N Ins Sg @i-ADVL>
+"<annoraaminermik>"
+	"annoraamineq" Sem/mat-cloth N Ins Sg @N<
+	"annoraaq" iSem/cloH MINIQ Der/nn Sem/mat-cloth N Ins Sg @N<
+"<qalligaq>"
+	"qaller" Gram/TV iSem/colouring TAQ Der/vn Sem/ac N Abs Sg @N<
+"<.>"
+	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE
 </s>
 
 <s id="O6EbDoKuDWQ6lf4UOexH8E3w4uI">
@@ -7243,6 +7331,21 @@
 	"oqar" Gram/IV iSem/say MISAAR Der/vv Gram/IV V Ind 3Sg @PRED
 "<.>"
 	"." CLB DIRTALEMIDDLE
+</s>
+
+<s id="nl52cxRJ4eSmNG7aHV3YeFSyl2g">
+"<assani>"
+	"assak" Sem/anmov N Abs Sg 4SgPoss %ContHypotagme @OBJ>
+"<isaatiutigalugu>"
+	"isaap" Gram/TV UTIGE Der/vv Gram/TV V Cont 3SgO %ContHypotagme @ADVL>
+"<qanilliartorlunga>"
+	"qanilli" Gram/TV iSem/reach GIARTUR Der/vv Gram/TV Sem/move_dir V Cont 1SgO @ADVL>
+"<nipikitsumik>"
+	"nipi" iSem/f-phys-h KIP Der/nv Gram/IV TUQ Der/vn Sem/cc-h N Ins Sg @ADVL>
+"<oqamisaarpoq>"
+	"oqar" Gram/IV iSem/say MISAAR Der/vv Gram/IV V Ind 3Sg @PRED
+"<.>"
+	"." CLB
 </s>
 
 <s id="npJxJSFhheWzEAsT85baWhqdxqw">
