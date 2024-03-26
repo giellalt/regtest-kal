@@ -2254,13 +2254,13 @@
 "<malugilerparalu>"
 	"notice" Sem/notice iV "begin" Sem/begin iV V Ind "I" "and" @PRED #1->0
 "<anniaatiga>"
-	"pain" Sem/percep-f iN N Abs Sg "my" @OBJ> #2->5
+	"pain" Sem/percep-f iN N Abs Sg "my" "that" @SUBJ> #2->5
 "<aliasuutigalu>"
-	"mourn" iSem/show_emot iV UTE Sem/ac N Abs Sg "my" "and" @OBJ> #3->5
+	"mourn" iSem/show_emot iV UTE Sem/ac N Abs Sg "my" "and" "that" @SUBJ> #3->5
 "<timera>"
 	"body" Sem/anmov iN N Abs Sg "my" @N< #4->3
 "<qimakkiartuleraat>"
-	"leave" Sem/leave iV "go to" Sem/move_dir iV "begin" Sem/begin iV V "they" "that" #5->1
+	"leave" Sem/leave iV "go to" Sem/move_dir iV "begin" Sem/begin iV V Par "him/her/it" #5->1
 "<.>"
 	"." CLB #6->5
 </s>
@@ -2693,13 +2693,13 @@
 "<ilimatsaappaa>"
 	"ilimatsaap" V Ind @PRED #2->0
 "<qasusooqqanera>"
-	"depression" Sem/sick iN N Abs Sg "my" @<OBJ #3->2
+	"depression" Sem/sick iN N Abs Sg "my" @POSS> #3->6
 "<kinguaariinniit>"
 	"generation" Sem/HH iN N "from" Pl "my" @i-ADVL> #4->6
 "<kinguaariinnut>"
 	"generation" Sem/HH iN N "to" Pl @i-ADVL> #5->6
 "<kingornuttagaasimanissaa>"
-	"kingornup" TAR iSem/do "what has been" iSem/occur_dynamic iV "be" iSem/be_copula iV SIMA NIQ "future" Sem/event Adj N Abs Sg "his/her/its" @N< #6->3
+	"kingornup" TAR iSem/do "what has been" iSem/occur_dynamic iV "be" iSem/be_copula iV SIMA NIQ "future" Sem/event Adj N Abs Sg "his/her/its" @<OBJ #6->2
 "<.>"
 	"." CLB #7->6
 </s>
@@ -3921,13 +3921,13 @@
 "<,>"
 	"," CLB #7->6
 "<eqqarsaatikka>"
-	"thought" Sem/sem-c iN N Abs Pl "my" #8->7
+	"thought" Sem/sem-c iN N Abs Pl "my" @SUBJ> #8->11
 "<amerlasuut>"
 	"many" Sem/amount Adj N Abs Pl @N< #9->8
 "<tujorminartut>"
 	"be unpleasant" Sem/be_attribute iV "that which" Sem/cc iN N Abs Pl @N< #10->8
 "<kiaguummertittarlunga>"
-	"sweat" iV UMMIR TIP iSem/cause TAR Sem/do V Cont "they" "me" @<ADVL #11->6
+	"sweat" iV UMMIR TIP iSem/cause TAR Sem/do V Cont "me" @<ADVL #11->6
 "<.>"
 	"." CLB #12->11
 </s>
@@ -4695,7 +4695,6 @@
 "<najorsisimariarluni>"
 	"imbibe" iSem/breathe iV HTR iSem/lodge SIMA V "after" "he/she/it" @i-ADVL> #3->4
 "<allanngortartoq>"
-	"another" iSem/f iPron "become" iSem/become iV TAR iSem/do "that which" Sem/cc iN N Abs Sg @N< #4->1
 	"change" iSem/changeS iV TAR iSem/do "that which" Sem/cc iN N Abs Sg @N< #4->1
 "<.>"
 	"." CLB #5->4
@@ -6729,13 +6728,13 @@
 "<ilimagereersimasinnaassagaluarpara>"
 	"expect" iSem/assume iV "already" iAdv SIMA "can" iSem/can iV SSA iSem/must "actually" iAdv V Ind "I" @PRED #2->0
 "<anaanaga>"
-	"mother" Sem/Hfam iN N Abs Sg "my" @<OBJ #3->2
+	"mother" Sem/Hfam iN N Abs Sg "my" @POSS> #3->6
 "<uannut>"
 	"uanga" Sem/ac Pron "to" @i-ADVL> #4->6
 "<taamatut>"
 	"so" Adv Adv @i-ADVL> #5->6
 "<iliorsinnaanera>"
-	"do" iV "can" iSem/can iV NIQ N Abs Sg "my" @N< #6->3
+	"do" iV "can" iSem/can iV NIQ N Abs Sg "his/her/its" @<OBJ #6->2
 "<,>"
 	"," CLB #7->6
 "<kisianni>"
@@ -8964,7 +8963,6 @@
 "<tamarmi>"
 	"all" Sem/am iN N Nom @N< #2->1
 "<allanngortarpoq>"
-	"another" iSem/f iPron "become" iSem/become iV TAR Sem/do V Ind @PRED #3->0
 	"change" iSem/changeS iV TAR Sem/do V Ind @PRED #3->0
 "<.>"
 	"." CLB #4->3

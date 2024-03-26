@@ -2058,9 +2058,9 @@
 "<malugilerparalu>"
 	"maluge" Gram/TV LIR Der/vv Gram/TV Gram/Conj-encl V Ind 1Sg 3SgO CONJ-LU @PRED #4->0
 "<anniaatiga>"
-	"anniaat" N Abs Sg 1SgPoss @OBJ> #5->8
+	"anniaat" N Abs Sg 1SgPoss @SUBJ> #5->8
 "<aliasuutigalu>"
-	"aliasup" Gram/IV UTE Der/vn Gram/Conj-encl N Abs Sg 1SgPoss CONJ-LU @OBJ> #6->8
+	"aliasup" Gram/IV UTE Der/vn Gram/Conj-encl N Abs Sg 1SgPoss CONJ-LU @SUBJ> #6->8
 "<timera>"
 	"timi" Err/Sub N Abs Sg 1SgPoss @N< #7->6
 "<qimakkiartuleraat>"
@@ -3568,7 +3568,7 @@
 "<,>"
 	"," CLB #7->7
 "<eqqarsaatikka>"
-	"eqqarsar" Gram/IV UTE Der/vn N Abs Pl 1SgPoss #8->8
+	"eqqarsar" Gram/IV UTE Der/vn N Abs Pl 1SgPoss @SUBJ> #8->11
 "<amerlasuut>"
 	"amerlasooq" N Abs Pl @N< #9->8
 "<tujorminartut>"
@@ -6155,13 +6155,13 @@
 "<ilimagereersimasinnaassagaluarpara>"
 	"ilimage" Gram/TV RIIR Der/vv Gram/TV SIMA Der/vv SINNAA Der/vv SSA Der/vv GALUAR Der/vv Gram/TV V Ind 1Sg 3SgO @PRED #2->0
 "<anaanaga>"
-	"anaana" N Abs Sg 1SgPoss @<OBJ #3->2
+	"anaana" N Abs Sg 1SgPoss @POSS> #3->6
 "<uannut>"
 	"uanga" Gram/Pers Pron Trm 1Sg @i-ADVL> #4->6
 "<taamatut>"
 	"taama" Aeq Adv @i-ADVL> #5->6
 "<iliorsinnaanera>"
-	"ilior" Gram/IV SINNAA Der/vv Gram/IV NIQ Der/vn N Abs Sg 1SgPoss @N< #6->3
+	"ilior" Gram/IV SINNAA Der/vv Gram/IV NIQ Der/vn N Abs Sg 3SgPoss @<OBJ #6->2
 "<,>"
 	"," CLB #7->7
 "<kisianni>"
@@ -7873,7 +7873,7 @@
 "<,>"
 	"," CLB #7->7
 "<namminerpiaq>"
-	"namminerpiaq" N Abs Sg @SUBJ> #8->10
+	"namminerpiaq" N Abs Sg @OBJ> #8->13
 "<nukini>"
 	"nukik" N Abs Pl 4SgPoss @OBJ> #9->10
 "<atorlugit>"

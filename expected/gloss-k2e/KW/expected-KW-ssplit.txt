@@ -2301,9 +2301,9 @@
 "<malugilerparalu>"
 	"maluge" Gram/TV iSem/sense LIR Der/vv Gram/TV Sem/begin Gram/Conj-encl V Ind 1Sg 3SgO CONJ-LU @PRED #1->0
 "<anniaatiga>"
-	"anniaat" Sem/percep-f N Abs Sg 1SgPoss @OBJ> #2->5
+	"anniaat" Sem/percep-f N Abs Sg 1SgPoss @SUBJ> #2->5
 "<aliasuutigalu>"
-	"aliasup" Gram/IV iSem/show_emot UTE Der/vn Sem/ac Gram/Conj-encl N Abs Sg 1SgPoss CONJ-LU @OBJ> #3->5
+	"aliasup" Gram/IV iSem/show_emot UTE Der/vn Sem/ac Gram/Conj-encl N Abs Sg 1SgPoss CONJ-LU @SUBJ> #3->5
 "<timera>"
 	"timi" Err/Sub Sem/anmov N Abs Sg 1SgPoss @N< #4->3
 "<qimakkiartuleraat>"
@@ -2757,13 +2757,13 @@
 "<ilimatsaappaa>"
 	"ilimatsaap" Gram/TV V Ind 3Sg 3SgO @PRED #2->0
 "<qasusooqqanera>"
-	"qasu" Gram/IV iSem/be_attribute TUUR Der/vv Gram/IV QQA Der/vv Gram/IV NIQ Der/vn Sem/sick N Abs Sg 1SgPoss @<OBJ #3->2
+	"qasu" Gram/IV iSem/be_attribute TUUR Der/vv Gram/IV QQA Der/vv Gram/IV NIQ Der/vn Sem/sick N Abs Sg 1SgPoss @POSS> #3->6
 "<kinguaariinniit>"
 	"kinguaaq" iSem/Hfam GIIT Der/nn Sem/HH N Abl Pl 1SgPoss @i-ADVL> #4->6
 "<kinguaariinnut>"
 	"kinguaaq" iSem/Hfam GIIT Der/nn Sem/HH N Trm Pl @i-ADVL> #5->6
 "<kingornuttagaasimanissaa>"
-	"kingornup" Gram/TV TAR Der/vv Gram/TV iSem/do TAQ Der/vn iSem/ac U Der/nv Gram/IV iSem/be_copula SIMA Der/vv NIQ Der/vn SSAQ Der/nn Sem/temp N Abs Sg 3SgPoss @N< #6->3
+	"kingornup" Gram/TV TAR Der/vv Gram/TV iSem/do TAQ Der/vn iSem/ac U Der/nv Gram/IV iSem/be_copula SIMA Der/vv NIQ Der/vn SSAQ Der/nn Sem/temp N Abs Sg 3SgPoss @<OBJ #6->2
 "<.>"
 	"." CLB #7->6
 </s>
@@ -4008,7 +4008,7 @@
 "<,>"
 	"," CLB #7->6
 "<eqqarsaatikka>"
-	"eqqarsar" Gram/IV iSem/think UTE Der/vn Sem/sem-c N Abs Pl 1SgPoss #8->7
+	"eqqarsar" Gram/IV iSem/think UTE Der/vn Sem/sem-c N Abs Pl 1SgPoss @SUBJ> #8->11
 "<amerlasuut>"
 	"amerlasooq" Sem/amount N Abs Pl @N< #9->8
 "<tujorminartut>"
@@ -4812,7 +4812,6 @@
 "<najorsisimariarluni>"
 	"najor" Gram/TV iSem/breathe HTR Der/vv Gram/IV iSem/lodge SIMA Der/vv RIAR Der/vv Gram/IV V Cont 4Sg @i-ADVL> #3->4
 "<allanngortartoq>"
-	"alla" iSem/f NNGUR Der/nv Gram/IV iSem/become_be TAR Der/vv Gram/IV iSem/do TUQ Der/vn Sem/cc N Abs Sg @N< #4->1
 	"alla" iSem/f NNGUR Der/nv Gram/IV iSem/changeS TAR Der/vv Gram/IV iSem/do TUQ Der/vn Sem/cc N Abs Sg @N< #4->1
 "<.>"
 	"." CLB #5->4
@@ -6912,13 +6911,13 @@
 "<ilimagereersimasinnaassagaluarpara>"
 	"ilimage" Gram/TV iSem/assume RIIR Der/vv Gram/TV iSem/be_after SIMA Der/vv SINNAA Der/vv iSem/can SSA Der/vv iSem/must GALUAR Der/vv Gram/TV Sem/try_to V Ind 1Sg 3SgO @PRED #2->0
 "<anaanaga>"
-	"anaana" Sem/Hfam N Abs Sg 1SgPoss @<OBJ #3->2
+	"anaana" Sem/Hfam N Abs Sg 1SgPoss @POSS> #3->6
 "<uannut>"
 	"uanga" Gram/Pers Sem/ac Pron Trm 1Sg @i-ADVL> #4->6
 "<taamatut>"
 	"taama" Aeq Adv @i-ADVL> #5->6
 "<iliorsinnaanera>"
-	"ilior" Gram/IV SINNAA Der/vv Gram/IV iSem/can NIQ Der/vn N Abs Sg 1SgPoss @N< #6->3
+	"ilior" Gram/IV SINNAA Der/vv Gram/IV iSem/can NIQ Der/vn N Abs Sg 3SgPoss @<OBJ #6->2
 "<,>"
 	"," CLB #7->6
 "<kisianni>"
@@ -9220,7 +9219,6 @@
 "<tamarmi>"
 	"tamaq" Sem/quant N Gram/Cong Nom 4Sg @N< #2->1
 "<allanngortarpoq>"
-	"alla" iSem/f NNGUR Der/nv Gram/IV iSem/become_be TAR Der/vv Gram/IV Sem/do V Ind 3Sg @PRED #3->0
 	"alla" iSem/f NNGUR Der/nv Gram/IV iSem/changeS TAR Der/vv Gram/IV Sem/do V Ind 3Sg @PRED #3->0
 "<.>"
 	"." CLB #4->3

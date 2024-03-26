@@ -2258,9 +2258,9 @@
 "<malugilerparalu>"
 	"notice" Sem/notice iV <tr> "begin" Sem/begin iV <tr> V Ind 1Sg 3SgO CONJ-LU @PRED #1->0
 "<anniaatiga>"
-	"pain" Sem/percep-f iN <tr> N Abs Sg 1SgPoss @OBJ> #2->5
+	"pain" Sem/percep-f iN <tr> N Abs Sg 1SgPoss @SUBJ> #2->5
 "<aliasuutigalu>"
-	"mourn" iSem/show_emot iV <tr> UTE Der/vn Sem/ac Gram/Conj-encl N Abs Sg 1SgPoss CONJ-LU @OBJ> #3->5
+	"mourn" iSem/show_emot iV <tr> UTE Der/vn Sem/ac Gram/Conj-encl N Abs Sg 1SgPoss CONJ-LU @SUBJ> #3->5
 "<timera>"
 	"body" Sem/anmov iN <tr> N Abs Sg 1SgPoss @N< #4->3
 "<qimakkiartuleraat>"
@@ -2697,13 +2697,13 @@
 "<ilimatsaappaa>"
 	"ilimatsaap" Gram/TV V Ind 3Sg 3SgO @PRED #2->0
 "<qasusooqqanera>"
-	"depression" Sem/sick iN <tr> N Abs Sg 1SgPoss @<OBJ #3->2
+	"depression" Sem/sick iN <tr> N Abs Sg 1SgPoss @POSS> #3->6
 "<kinguaariinniit>"
 	"generation" Sem/HH iN <tr> N Abl Pl 1SgPoss @i-ADVL> #4->6
 "<kinguaariinnut>"
 	"generation" Sem/HH iN <tr> N Trm Pl @i-ADVL> #5->6
 "<kingornuttagaasimanissaa>"
-	"kingornup" Gram/TV TAR Der/vv Gram/TV iSem/do "what has been" iSem/occur_dynamic iV <tr> "be" iSem/be_copula iV <tr> SIMA Der/vv NIQ Der/vn "future" Sem/event Adj <tr> N Abs Sg 3SgPoss @N< #6->3
+	"kingornup" Gram/TV TAR Der/vv Gram/TV iSem/do "what has been" iSem/occur_dynamic iV <tr> "be" iSem/be_copula iV <tr> SIMA Der/vv NIQ Der/vn "future" Sem/event Adj <tr> N Abs Sg 3SgPoss @<OBJ #6->2
 "<.>"
 	"." CLB #7->6
 </s>
@@ -3926,7 +3926,7 @@
 "<,>"
 	"," CLB #7->6
 "<eqqarsaatikka>"
-	"thought" Sem/sem-c iN <tr> N Abs Pl 1SgPoss #8->7
+	"thought" Sem/sem-c iN <tr> N Abs Pl 1SgPoss @SUBJ> #8->11
 "<amerlasuut>"
 	"many" Sem/amount Adj <tr> N Abs Pl @N< #9->8
 "<tujorminartut>"
@@ -4700,7 +4700,6 @@
 "<najorsisimariarluni>"
 	"imbibe" iSem/breathe iV <tr> HTR Der/vv Gram/IV iSem/lodge SIMA Der/vv RIAR Der/vv Gram/IV V Cont 4Sg @i-ADVL> #3->4
 "<allanngortartoq>"
-	"another" iSem/f iPron <tr> "become" iSem/become iV <tr> TAR Der/vv Gram/IV iSem/do "that which" Sem/cc iN <tr> N Abs Sg @N< #4->1
 	"change" iSem/changeS iV <tr> TAR Der/vv Gram/IV iSem/do "that which" Sem/cc iN <tr> N Abs Sg @N< #4->1
 "<.>"
 	"." CLB #5->4
@@ -6737,13 +6736,13 @@
 "<ilimagereersimasinnaassagaluarpara>"
 	"expect" iSem/assume iV <tr> "already" iAdv <tr> SIMA Der/vv "can" iSem/can iV <tr> SSA Der/vv iSem/must "actually" iAdv <tr> V Ind 1Sg 3SgO @PRED #2->0
 "<anaanaga>"
-	"mother" Sem/Hfam iN <tr> N Abs Sg 1SgPoss @<OBJ #3->2
+	"mother" Sem/Hfam iN <tr> N Abs Sg 1SgPoss @POSS> #3->6
 "<uannut>"
 	"uanga" Gram/Pers Sem/ac Pron Trm 1Sg @i-ADVL> #4->6
 "<taamatut>"
 	"so" Adv <tr> Adv @i-ADVL> #5->6
 "<iliorsinnaanera>"
-	"do" iV <tr> "can" iSem/can iV <tr> NIQ Der/vn N Abs Sg 1SgPoss @N< #6->3
+	"do" iV <tr> "can" iSem/can iV <tr> NIQ Der/vn N Abs Sg 3SgPoss @<OBJ #6->2
 "<,>"
 	"," CLB #7->6
 "<kisianni>"
@@ -8972,7 +8971,6 @@
 "<tamarmi>"
 	"all" Sem/am iN <tr> N Gram/Cong Nom 4Sg @N< #2->1
 "<allanngortarpoq>"
-	"another" iSem/f iPron <tr> "become" iSem/become iV <tr> TAR Der/vv Gram/IV Sem/do V Ind 3Sg @PRED #3->0
 	"change" iSem/changeS iV <tr> TAR Der/vv Gram/IV Sem/do V Ind 3Sg @PRED #3->0
 "<.>"
 	"." CLB #4->3
