@@ -901,11 +901,11 @@
 
 <s id="6J6xod2Vxn6NPPapxLxZNdbm0HA">
 "<Aquutaa>"
-	"steering wheel" Sem/cc-h iN <tr> N Abs Sg 3SgPoss @SUBJ> #1->2
+	"steering wheel" Sem/cc-h iN <tr> N Abs Sg 3SgPoss @OBJ> #1->3
 "<assoroorluni>"
 	"strain" Sem/burden iV <tr> V Cont _x_4Sg @ADVL> #2->3
 "<paarivaa>"
-	"take care of" Sem/serve iV <tr> V Ind 3Sg 3SgO Orth/Alt @PRED #3->0
+	"take care of" Sem/serve iV <tr> V Ind 3Sg _x_3SgO Orth/Alt @PRED #3->0
 "<,>"
 	"," CLB #4->3
 "<.>"
@@ -1719,7 +1719,7 @@
 "<suli>"
 	"still" Adv <tr> Adv @ADVL> #3->4
 "<ataasiarlungaluunniit>"
-	"do once" Sem/do iV <tr> V Cont _x_1Sg CONJ-LUUNNIIT @ADVL> #4->6
+	"do once" Sem/do iV <tr> V Cont _x_1Sg ADV-LUUNNIIT @ADVL> #4->6
 "<nalunngisannik>"
 	"acquaintance" Sem/H iN <tr> N Ins Sg 1SgPoss @i->N #5->6
 "<oqaloqateqanngilanga>"
@@ -2262,9 +2262,9 @@
 "<aliasuutigalu>"
 	"mourn" iSem/show_emot iV <tr> UTE Der/vn Sem/ac Gram/Conj-encl N Abs Sg 1SgPoss CONJ-LU "that" @SUBJ> #3->5
 "<timera>"
-	"body" Sem/anmov iN <tr> N Abs Sg 1SgPoss @N< #4->3
+	"body" Sem/anmov iN <tr> N Abs Sg 1SgPoss @OBJ> #4->5
 "<qimakkiartuleraat>"
-	"leave" Sem/leave iV <tr> "go to" Sem/move_dir iV <tr> "begin" Sem/begin iV <tr> V Par _x_3Pl 3SgO #5->1
+	"leave" Sem/leave iV <tr> "go to" Sem/move_dir iV <tr> "begin" Sem/begin iV <tr> V Par _x_3Pl _x_3SgO #5->1
 "<.>"
 	"." CLB #6->5
 </s>
@@ -3020,13 +3020,13 @@
 
 <s id="JURXNs4l8EXq3lhj7hCgiqx2cOk">
 "<Anaanani>"
-	"mother" Sem/Hfam iN <tr> N Abs Sg 4SgPoss @SUBJ> #1->2
+	"mother" Sem/Hfam iN <tr> N Abs Sg 4SgPoss @OBJ> #1->4
 "<soqutigisaqarpasigani>"
 	"interest" iSem/ac iN <tr> "have" iSem/have iV <tr> PASIP Der/vv Gram/IV V ContNeg _x_4Sg @ADVL> #2->4
 "<qummut>"
 	"space above" Sem/L iN <tr> N Trm Sg @ADVL> #3->4
 "<qiviarpaa>"
-	"look towards" Sem/watch iV <tr> V Ind 3Sg 3SgO @PRED #4->0
+	"look towards" Sem/watch iV <tr> V Ind 3Sg _x_3SgO @PRED #4->0
 "<.>"
 	"." CLB #5->4
 </s>
@@ -3852,9 +3852,9 @@
 "<Nalunngilarali>"
 	"know" Sem/know iV <tr> V Ind 1Sg _x_3SgO CONJ-LI @PRED #1->0
 "<ulluni>"
-	"day" Sem/dur iN <tr> N Lok Pl @i-ADVL> #2->3
+	"day" Sem/dur iN <tr> N Lok Pl @ADVL> #2->5
 "<qaninnerni>"
-	"be near" iSem/be_place iV <tr> NIQ Der/vn N Lok Pl @i-ADVL> #3->4
+	"be near" iSem/be_place iV <tr> NIQ Der/vn N Lok Pl @N< #3->2
 "<nakorsaq>"
 	"doctor" Sem/Hprof iN <tr> N Abs Sg @OBJ> #4->5
 "<oqaloqatigisussaallugu>"
@@ -4981,7 +4981,7 @@
 
 <s id="Ujmz0D0TNMcrLlGPANAh2ThuqCI">
 "<Oqaatsit>"
-	"language" Sem/ling iN <tr> N Abs Pl @OBJ> #1->3
+	"word" Sem/ac iN <tr> N Abs Pl @OBJ> #1->3
 "<taakkua>"
 	"this one" iPron <tr> Pron Abs Pl @N< #2->1
 "<uteqattaarpakka>"
@@ -6841,7 +6841,7 @@
 "<soorlulu>"
 	"like" Part <tr> Adv CONJ-LU @FOC>N #11->12
 "<misigissutsinnik>"
-	"feeling" Sem/f-psych iN <tr> N Ins Sg 1SgPoss @N< #12->8
+	"feeling" Sem/f-psych iN <tr> N Ins Sg 1SgPoss @ADVL> #12->13
 "<oqaluttuukkaannga>"
 	"tell" Sem/tell iV <tr> V Par _x_3Pl 1SgO @PRED #13->0
 "<.>"
@@ -8355,8 +8355,8 @@
 "<,>"
 	"," CLB #2->1
 "<angutisunnitsoq>"
-	"man" iSem/H iN <tr> SUNNIP Der/nv iSem/stimulus_subj "one who" Sem/H iN <tr> N Abs Sg @OBJ> #3->4
-	"man" iSem/H iN <tr> SUNNIP Der/nv iSem/stimulus_subj "that which" Sem/cc iN <tr> N Abs Sg @OBJ> #3->4
+	"man" iSem/H iN <tr> SUNNIP Der/nv iSem/stimulus_subj "one who" Sem/H iN <tr> N Abs Sg @N< #3->1
+	"man" iSem/H iN <tr> SUNNIP Der/nv iSem/stimulus_subj "that which" Sem/cc iN <tr> N Abs Sg @N< #3->1
 "<naalluataangaarakku>"
 	"smell" iSem/sense iV <tr> LLUAR Der/vv Gram/TV TAAR Der/vv Gram/TV "much" iAdv <tr> V "when/because" 1Sg _x_3SgO @CAU> #4->6
 "<atia>"
@@ -9148,7 +9148,7 @@
 "<niuga>"
 	"leg" Sem/anmov iN <tr> N Abs Sg 1SgPoss @OBJ> #3->4
 "<nutsuaatigalugu>"
-	"nutsuar" Gram/TV Der/vv Gram/TV V "while" 3Sg _x_3SgO @i-ADVL> #4->5
+	"nutsuar" Gram/TV Der/vv Gram/TV V "while" 3Sg _x_3SgO @ADVL> #4->5
 "<tigoqqusoq>"
 	"take" iSem/take iV <tr> QQU Der/vv Gram/Db Gram/Refl Sem/Temporal V Par _x_3Sg #5->13
 "<,>"
@@ -9205,7 +9205,7 @@
 
 <s id="xyRdtGvUzarnpCS4cdIYnZuQqz8">
 "<Oqaatsit>"
-	"language" Sem/ling iN <tr> N Abs Pl @OBJ> #1->4
+	"word" Sem/ac iN <tr> N Abs Pl @OBJ> #1->4
 "<naatsut>"
 	"short" Adj <tr> N Abs Pl @N< #2->1
 "<paasinartullu>"

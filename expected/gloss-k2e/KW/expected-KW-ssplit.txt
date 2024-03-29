@@ -925,8 +925,8 @@
 
 <s id="6J6xod2Vxn6NPPapxLxZNdbm0HA">
 "<Aquutaa>"
-	"aquut" Sem/cc-h Sem/Vground N Abs Sg 3SgPoss @SUBJ> #1->2
-	"aquut" Sem/cc-h Sem/Vwater N Abs Sg 3SgPoss @SUBJ> #1->2
+	"aquut" Sem/cc-h Sem/Vground N Abs Sg 3SgPoss @OBJ> #1->3
+	"aquut" Sem/cc-h Sem/Vwater N Abs Sg 3SgPoss @OBJ> #1->3
 "<assoroorluni>"
 	"assoroor" Gram/IV Sem/try_to V Cont 4Sg @ADVL> #2->3
 "<paarivaa>"
@@ -1753,7 +1753,7 @@
 "<suli>"
 	"suli" Adv @ADVL> #3->4
 "<ataasiarlungaluunniit>"
-	"ataaseq" iSem/cc RIAR Der/nv Gram/IV Sem/do Gram/Conj-encl V Cont 1Sg CONJ-LUUNNIIT @ADVL> #4->6
+	"ataaseq" iSem/cc RIAR Der/nv Gram/IV Sem/do Gram/Adv-encl V Cont 1Sg ADV-LUUNNIIT @ADVL> #4->6
 "<nalunngisannik>"
 	"nalu" Gram/TV iSem/know NNGIT Der/vv Gram/TV TAQ Der/vn Sem/H N Ins Sg 1SgPoss @i->N #5->6
 "<oqaloqateqanngilanga>"
@@ -2305,7 +2305,7 @@
 "<aliasuutigalu>"
 	"aliasup" Gram/IV iSem/show_emot UTE Der/vn Sem/ac Gram/Conj-encl N Abs Sg 1SgPoss CONJ-LU @SUBJ> #3->5
 "<timera>"
-	"timi" Err/Sub Sem/anmov N Abs Sg 1SgPoss @N< #4->3
+	"timi" Err/Sub Sem/anmov N Abs Sg 1SgPoss @OBJ> #4->5
 "<qimakkiartuleraat>"
 	"qimap" Gram/TV iSem/leave GIARTUR Der/vv Gram/TV iSem/move_dir LIR Der/vv Gram/TV Sem/begin V Par 3Pl 3SgO @CL-<CIT #5->1
 "<.>"
@@ -3088,7 +3088,7 @@
 
 <s id="JURXNs4l8EXq3lhj7hCgiqx2cOk">
 "<Anaanani>"
-	"anaana" Sem/Hfam N Abs Sg 4SgPoss @SUBJ> #1->2
+	"anaana" Sem/Hfam N Abs Sg 4SgPoss @OBJ> #1->4
 "<soqutigisaqarpasigani>"
 	"soqut" GE Der/nv Gram/TV iSem/have TAQ Der/vn iSem/ac QAR Der/nv Gram/IV iSem/have PASIP Der/vv Gram/IV V ContNeg 4Sg @ADVL> #2->4
 "<qummut>"
@@ -3931,9 +3931,9 @@
 "<Nalunngilarali>"
 	"nalu" Gram/TV iSem/know NNGIT Der/vv Gram/TV Sem/know Gram/Conj-encl V Ind 1Sg 3SgO CONJ-LI @PRED #1->0
 "<ulluni>"
-	"ulloq" Sem/dur N Lok Pl @i-ADVL> #2->3
+	"ulloq" Sem/dur N Lok Pl @ADVL> #2->5
 "<qaninnerni>"
-	"qanip" Gram/IV iSem/be_place NIQ Der/vn N Lok Pl @i-ADVL> #3->4
+	"qanip" Gram/IV iSem/be_place NIQ Der/vn N Lok Pl @N< #3->2
 "<nakorsaq>"
 	"nakorsaq" Sem/Hprof N Abs Sg @OBJ> #4->5
 "<oqaloqatigisussaallugu>"
@@ -5098,7 +5098,7 @@
 
 <s id="Ujmz0D0TNMcrLlGPANAh2ThuqCI">
 "<Oqaatsit>"
-	"oqaaseq" Sem/ling N Abs Pl @OBJ> #1->3
+	"oqaaseq" Sem/ac N Abs Pl @OBJ> #1->3
 "<taakkua>"
 	"una" Prefix/TA Gram/Dem Pron Abs Pl @N< #2->1
 "<uteqattaarpakka>"
@@ -7018,7 +7018,7 @@
 "<soorlulu>"
 	"soorlu" Gram/Conj-encl Adv CONJ-LU @FOC>N #11->12
 "<misigissutsinnik>"
-	"misige" Gram/TV Gram/Refl Gram/IV SSUSIQ Der/vn Sem/f-psych N Ins Sg 1SgPoss @N< #12->8
+	"misige" Gram/TV Gram/Refl Gram/IV SSUSIQ Der/vn Sem/f-psych N Ins Sg 1SgPoss @ADVL> #12->13
 "<oqaluttuukkaannga>"
 	"oqaluttuar" Gram/IV UTE Der/vv Gram/TV Sem/tell V Par 3Pl 1SgO @PRED #13->0
 "<.>"
@@ -8572,8 +8572,8 @@
 "<,>"
 	"," CLB #2->1
 "<angutisunnitsoq>"
-	"angut" iSem/H SUNNIP Der/nv iSem/stimulus_subj TUQ Der/vn Sem/H N Abs Sg @OBJ> #3->4
-	"angut" iSem/H SUNNIP Der/nv iSem/stimulus_subj TUQ Der/vn Sem/cc N Abs Sg @OBJ> #3->4
+	"angut" iSem/H SUNNIP Der/nv iSem/stimulus_subj TUQ Der/vn Sem/H N Abs Sg @N< #3->1
+	"angut" iSem/H SUNNIP Der/nv iSem/stimulus_subj TUQ Der/vn Sem/cc N Abs Sg @N< #3->1
 "<naalluataangaarakku>"
 	"naa" Gram/TV iSem/sense LLUAR Der/vv Gram/TV TAAR Der/vv Gram/TV NGAAR Der/vv Gram/TV Sem/measure_itr Sem/exaggerate V Cau 1Sg 3SgO @CAU> #4->6
 "<atia>"
@@ -9402,7 +9402,7 @@
 "<niuga>"
 	"niu" Sem/anmov N Abs Sg 1SgPoss @OBJ> #3->4
 "<nutsuaatigalugu>"
-	"nutsuar" Gram/TV UTIGE Der/vv Gram/TV V Cont 3SgO @i-ADVL> #4->5
+	"nutsuar" Gram/TV UTIGE Der/vv Gram/TV V Cont 3SgO @ADVL> #4->5
 "<tigoqqusoq>"
 	"tigu" Gram/TV iSem/take QQU Der/vv Gram/Db Gram/Refl Sem/Temporal V Par 3Sg @PRED2 #5->13
 "<,>"
@@ -9461,7 +9461,7 @@
 
 <s id="xyRdtGvUzarnpCS4cdIYnZuQqz8">
 "<Oqaatsit>"
-	"oqaaseq" Sem/ling N Abs Pl @OBJ> #1->4
+	"oqaaseq" Sem/ac N Abs Pl @OBJ> #1->4
 "<naatsut>"
 	"naap" Gram/IV iSem/be_attribute TUQ Der/vn Sem/f N Abs Pl @N< #2->1
 "<paasinartullu>"
