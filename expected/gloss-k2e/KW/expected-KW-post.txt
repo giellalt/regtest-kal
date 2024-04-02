@@ -157,7 +157,6 @@
 "<oqarfigerpallappaa>"
 	"say to" iSem/say iV PALLAP V Ind @PRED #4->0
 	"say" iSem/say iV "place" iSem/L iN GE iSem/tell PALLAP V Ind @PRED #4->0
-	"say" iSem/say iV "time" iSem/ac iN GE iSem/tell PALLAP V Ind @PRED #4->0
 "<malissallugu>"
 	"follow" iSem/chase iV SSA Sem/must V "he/she/it" "him/her/it" "that" #5->4
 "<.>"
@@ -435,7 +434,6 @@
 "<oqarfigivara>"
 	"say to" Sem/say iV V Ind "I" "him/her/it" @PRED #2->0
 	"say" iSem/say iV "place" iSem/L iN GE Sem/tell V Ind "I" "him/her/it" @PRED #2->0
-	"say" iSem/say iV "time" iSem/ac iN GE Sem/tell V Ind "I" "him/her/it" @PRED #2->0
 "<:>"
 	":" CLB DIRTALESTART #3->2
 
@@ -521,7 +519,6 @@
 	"see" iSem/see iV SINNAA "oneself" V Cont @ADVL> #3->4
 "<utoqqatserfigisarakkit>"
 	"apologize" iV "place" iSem/L iN "have as" iSem/have iV TAR Sem/do V "when/because" "I" "them" @CAU> #4->9
-	"apologize" iV "time" iSem/ac iN "have as" iSem/have iV TAR Sem/do V "when/because" "I" "them" @CAU> #4->9
 "<,>"
 	"," CLB #5->4
 "<isaatigut>"
@@ -2880,7 +2877,6 @@
 "<oqarfigivara>"
 	"say to" Sem/say iV V Ind "I" "him/her/it" @PRED #2->0
 	"say" iSem/say iV "place" iSem/L iN GE Sem/tell V Ind "I" "him/her/it" @PRED #2->0
-	"say" iSem/say iV "time" iSem/ac iN GE Sem/tell V Ind "I" "him/her/it" @PRED #2->0
 "<:>"
 	":" CLB DIRTALESTART #3->2
 </s>
@@ -3623,7 +3619,7 @@
 "<sukkatsittaataat>"
 	"accelerator" Sem/cc-h iN N Abs Sg "their" @OBJ> #10->11
 "<tamakkivillugu>"
-	"tamakker" iSem/complete_process "completely" Sem/jdegree Adj V Cont @ADVL> #11->12
+	"get done with" Sem/complete_process iV "completely" Sem/jdegree Adj V Cont @ADVL> #11->12
 "<naqippaa>"
 	"naqip" Sem/alter V Ind "he/she/it" "him/her/it" @PRED #12->0
 	"naqip" Sem/push V Ind "he/she/it" "him/her/it" @PRED #12->0
@@ -4025,7 +4021,6 @@
 	"car" Sem/Vground iN N Pl "of" #2->3
 "<aquttarfiata>"
 	"drive" iSem/steer iV TAR iSem/do "place" Sem/L iN N Sg "their" "of" #3->4
-	"drive" iSem/steer iV TAR iSem/do "time" Sem/ac iN N Sg "their" "of" #3->4
 "<matua>"
 	"door" Sem/Ldoor iN N Abs Sg "his/her/its" @OBJ> #4->6
 "<sakkuminik>"
@@ -6244,7 +6239,7 @@
 "<aaneqarnissaminut>"
 	"fetching" Sem/act iN "future" Sem/event Adj N "to" Sg "his/her/its" @ADVL> #3->4
 "<utaqqitilluni>"
-	"wait" Sem/linger iV "let" Sem/allow iV V Cont @PRED2 #4->8
+	"wait" iSem/linger iV TIP Sem/cause Sem/Temporal V Cont "himself/herself/itself" @PRED2 #4->8
 "<,>"
 	"," CLB #5->4
 "<niviarsiaqqat>"
@@ -7023,7 +7018,7 @@
 
 <s id="iZjslEmIPwx3YFpuuEorJQkEJK8">
 "<Kissaatigiuaannarnikuuaa>"
-	"wish" iSem/sem-c iN "have as" iSem/have iV "continous" iSem/jprocess Adj "only" iAdv NIKUU V Ind "he/she/it" @PRED #1->0
+	"wish" iSem/wish iV "continous" iSem/jprocess Adj "only" iAdv NIKUU V Ind "he/she/it" @PRED #1->0
 "<qimmitaarnissani>"
 	"dog" iSem/Adom iN TAAR NIQ "future" Sem/event Adj N Abs Sg "his/her/its" @<OBJ #2->1
 "<.>"
@@ -8946,7 +8941,6 @@
 "<Oqarfigaakka>"
 	"say to" Sem/say iV V Ind "I" "them" @PRED #1->0
 	"say" iSem/say iV "place" iSem/L iN GE Sem/tell V Ind "I" "them" @PRED #1->0
-	"say" iSem/say iV "time" iSem/ac iN GE Sem/tell V Ind "I" "them" @PRED #1->0
 "<utoqqatseqqullugit>"
 	"apologize" iV QQU Sem/allow V "I" "them" "that" #2->1
 	"apologize" iV QQU Sem/beg V "I" "them" "that" #2->1
