@@ -15087,7 +15087,7 @@
 "<susarpat>"
 	"susar" V Int 3Pl @PRED #2->0
 "<?>"
-	"?" CLB #3->3
+	"?" CLB DIRTALEMIDDLE #3->3
 
 "<Sooruna>"
 	"sooq" Adv UNA @CL-ADVL> #1->2
@@ -15098,10 +15098,11 @@
 
 "<…>"
 	"…" CLB #1->1
+
 "<”>"
-	"”" PUNCT RIGHT #2->2
+	"”" PUNCT RIGHT DIRTALESTART #1->1
 "<.>"
-	"." CLB #3->3
+	"." CLB DIRTALEMIDDLE #2->2
 
 "<Nukarleq>"
 	"nukarleq" N Abs Sg @OBJ> #1->3
