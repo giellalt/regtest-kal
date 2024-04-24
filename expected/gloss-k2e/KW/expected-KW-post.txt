@@ -1817,17 +1817,16 @@
 
 "<Anaanaga>"
 	"mother" Sem/Hfam iN N Abs Sg "my" @HNOUN #1->0
-"<...>"
-	"..." CLB #2->1
-
+"<,>"
+	"..." CLB/... CLB #2->1
 "<tassalu>"
-	"it is" Part Adv ADV-LU @PRED #1->0
+	"it is" Part Adv ADV-LU @PRED #3->0
 "<oqaaseqatigiit>"
-	"sentence" Sem/ac-cat iN N Abs Pl @OBJ> #2->3
+	"sentence" Sem/ac-cat iN N Abs Pl @OBJ> #4->5
 "<naasinnaanagit>"
-	"end" Sem/end iV "can" Sem/can iV V ContNeg @i-SUBJ_COMP< #3->1
+	"end" Sem/end iV "can" Sem/can iV V ContNeg @i-SUBJ_COMP< #5->3
 "<.>"
-	"." CLB #4->3
+	"." CLB #6->5
 </s>
 
 <s id="9yeEHiOYhFsSxcnxqlUXa4IldzI">
@@ -2129,18 +2128,17 @@
 
 "<Uiga>"
 	"husband" Sem/Hfam iN N Abs Sg "my" @VOK #1->0
-"<...>"
-	"..." CLB #2->1
-
+"<,>"
+	"..." CLB/... CLB #2->1
 "<anaanagalu>"
-	"mother" Sem/Hfam iN N Abs Sg "my" "and" @HNOUN #1->0
+	"mother" Sem/Hfam iN N Abs Sg "my" "and" @HNOUN #3->0
 "<siniffitsinni>"
-	"bed" Sem/furn iN N "in" Sg "our" @i-ADVL> #2->3
+	"bed" Sem/furn iN N "in" Sg "our" @i-ADVL> #4->5
 "<marluusut>"
-	"two" iSem/ac-sign iNum U iSem/be_attribute "one who" Sem/H iN N Abs Pl @HNOUN #3->0
-	"two" iSem/ac-sign iNum U iSem/be_attribute "that which" Sem/cc iN N Abs Pl @HNOUN #3->0
+	"two" iSem/ac-sign iNum U iSem/be_attribute "one who" Sem/H iN N Abs Pl @HNOUN #5->0
+	"two" iSem/ac-sign iNum U iSem/be_attribute "that which" Sem/cc iN N Abs Pl @HNOUN #5->0
 "<.>"
-	"." CLB #4->3
+	"." CLB #6->5
 </s>
 
 <s id="BG7oXWR59xbBm5OG4ruxkXgctq0">
@@ -2943,13 +2941,12 @@
 <s id="FVqVXD8f9fM9fxxb5Ut4hntMUgs">
 "<Anaanaga>"
 	"mother" Sem/Hfam iN N Abs Sg "my" #1->0
-"<...>"
-	"..." CLB #2->1
-
+"<,>"
+	"..." CLB/... CLB #2->1
 "<ittoqilerpunga>"
-	"stammer" Sem/speak_mnr iV "begin" Sem/begin iV V Ind "I" @PRED #1->0
+	"stammer" Sem/speak_mnr iV "begin" Sem/begin iV V Ind "I" @PRED #3->0
 "<.>"
-	"." CLB #2->1
+	"." CLB #4->3
 </s>
 
 <s id="FcSHWxtt6ENJHXUotU1pLnp87F4">
@@ -3703,20 +3700,16 @@
 
 "<,>"
 	"," CLB #1->0
-"<.>"
-	"." CLB #2->1
-
 "<aappi>"
-	"yes" Sem/act-s Part Interj @INTERJ #1->0
-"<...>"
-	"..." CLB #2->1
-
+	"yes" Sem/act-s Part Interj @INTERJ #2->0
+"<,>"
+	"..." CLB/... CLB #3->2
 "<anaanannut>"
-	"mother" Sem/Hfam iN N "to" Sg "your" @ADVL> #1->2
+	"mother" Sem/Hfam iN N "to" Sg "your" @ADVL> #4->5
 "<angerlassaqqaarputit>"
-	"go home" iSem/reach iV SSA iSem/must QQAAR V Ind "you" @PRED #2->0
+	"go home" iSem/reach iV SSA iSem/must QQAAR V Ind "you" @PRED #5->0
 "<...>"
-	"..." CLB #3->2
+	"..." CLB #6->5
 </s>
 
 <s id="J2x7CHSX0fPmUNXAfLdv26JFjNE">
@@ -7490,8 +7483,10 @@
 	"”" PUNCT RIGHT #4->3
 "<okay>"
 	"okay" Interj @INTERJ #5->4
-"<...>"
-	"..." CLB #6->5
+"<,>"
+	"..." CLB/... CLB #6->5
+"<.>"
+	"." CLB #7->6
 
 "<okay>"
 	"okay" Interj @INTERJ #1->0
