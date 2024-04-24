@@ -1773,12 +1773,12 @@
 	"..." CLB #2->2
 
 "<Anaanaga>"
-	"anaana" Sem/Hfam N Abs Sg 1SgPoss @VOK #1->0
+	"anaana" Sem/Hfam N Abs Sg 1SgPoss @HNOUN #1->0
 "<...>"
 	"..." CLB #2->2
 
 "<tassalu>"
-	"tassa" Gram/Conj-encl Adv CONJ-LU @PRED #1->0
+	"tassa" Gram/Adv-encl Adv ADV-LU @PRED #1->0
 "<oqaaseqatigiit>"
 	"oqaaseq" iSem/ac QATE Der/nn iSem/H GIIT Der/nn Sem/ac-cat N Abs Pl @OBJ> #2->3
 	"oqaaseq" iSem/ac-cat QATE Der/nn iSem/H GIIT Der/nn Sem/ac-cat N Abs Pl @OBJ> #2->3
@@ -2086,11 +2086,12 @@
 	"..." CLB #2->2
 
 "<anaanagalu>"
-	"anaana" Sem/Hfam Gram/Conj-encl N Abs Sg 1SgPoss CONJ-LU @SUBJ> #1->3
+	"anaana" Sem/Hfam Gram/Conj-encl N Abs Sg 1SgPoss CONJ-LU @HNOUN #1->0
 "<siniffitsinni>"
-	"sinip" Gram/IV iSem/bodystate VIK Der/vn Sem/furn N Lok Sg 1PlPoss @ADVL> #2->3
+	"sinip" Gram/IV iSem/bodystate VIK Der/vn Sem/furn N Lok Sg 1PlPoss @i-ADVL> #2->3
 "<marluusut>"
-	"marluk" Sem/ac-sign U Der/nv Gram/IV Sem/be_attribute V Par 3Pl @PRED #3->0
+	"marluk" iSem/ac-sign U Der/nv Gram/IV iSem/be_attribute TUQ Der/vn Sem/H N Abs Pl @HNOUN #3->0
+	"marluk" iSem/ac-sign U Der/nv Gram/IV iSem/be_attribute TUQ Der/vn Sem/cc N Abs Pl @HNOUN #3->0
 "<.>"
 	"." CLB #4->4
 </s>
@@ -2879,7 +2880,7 @@
 
 <s id="FVqVXD8f9fM9fxxb5Ut4hntMUgs">
 "<Anaanaga>"
-	"anaana" Sem/Hfam N Abs Sg 1SgPoss @VOK #1->0
+	"anaana" Sem/Hfam N Abs Sg 1SgPoss #1->1
 "<...>"
 	"..." CLB #2->2
 
@@ -3905,7 +3906,7 @@
 "<”>"
 	"”" PUNCT RIGHT #6->6
 "<...>"
-	"..." CLB @CL-<CIT #7->7
+	"..." CLB #7->7
 
 "<unnugu>"
 	"unnugu" Adv @CL-ADVL> #1->3
@@ -12052,7 +12053,7 @@
 "<politiillu>"
 	"politeeq" iSem/Hprof Gram/Conj-encl N Abs Pl CONJ-LU @OBJ> #7->8
 "<kisimeeqatigilerpakka>"
-	"kisimiip" Gram/IV iSem/be_attribute QATE Der/vn GE Der/nv Gram/TV iSem/be_part LIR Der/vv Gram/TV Sem/gain V Ind 1Sg 3PlO @PRED #8->0
+	"kisimiip" Gram/IV iSem/be_attribute QATE Der/vn GE Der/nv Gram/TV iSem/be_part LIR Der/vv Gram/TV Sem/begin V Ind 1Sg 3PlO @PRED #8->0
 "<.>"
 	"." CLB #9->9
 </s>

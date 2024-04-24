@@ -1816,12 +1816,12 @@
 	"..." CLB #2->1
 
 "<Anaanaga>"
-	"mother" Sem/Hfam iN N Abs Sg "my" @VOK #1->0
+	"mother" Sem/Hfam iN N Abs Sg "my" @HNOUN #1->0
 "<...>"
 	"..." CLB #2->1
 
 "<tassalu>"
-	"it is" Part Adv "and" @PRED #1->0
+	"it is" Part Adv ADV-LU @PRED #1->0
 "<oqaaseqatigiit>"
 	"sentence" Sem/ac-cat iN N Abs Pl @OBJ> #2->3
 "<naasinnaanagit>"
@@ -2133,11 +2133,12 @@
 	"..." CLB #2->1
 
 "<anaanagalu>"
-	"mother" Sem/Hfam iN N Abs Sg "my" "and" @SUBJ> #1->3
+	"mother" Sem/Hfam iN N Abs Sg "my" "and" @HNOUN #1->0
 "<siniffitsinni>"
-	"bed" Sem/furn iN N "in" Sg "our" @ADVL> #2->3
+	"bed" Sem/furn iN N "in" Sg "our" @i-ADVL> #2->3
 "<marluusut>"
-	"two" iSem/ac-sign iNum U Sem/be_attribute V Par @PRED #3->0
+	"two" iSem/ac-sign iNum U iSem/be_attribute "one who" Sem/H iN N Abs Pl @HNOUN #3->0
+	"two" iSem/ac-sign iNum U iSem/be_attribute "that which" Sem/cc iN N Abs Pl @HNOUN #3->0
 "<.>"
 	"." CLB #4->3
 </s>
@@ -2941,7 +2942,7 @@
 
 <s id="FVqVXD8f9fM9fxxb5Ut4hntMUgs">
 "<Anaanaga>"
-	"mother" Sem/Hfam iN N Abs Sg "my" @VOK #1->0
+	"mother" Sem/Hfam iN N Abs Sg "my" #1->0
 "<...>"
 	"..." CLB #2->1
 
@@ -3976,7 +3977,7 @@
 "<”>"
 	"”" PUNCT RIGHT #6->5
 "<...>"
-	"..." CLB @CL-<CIT #7->6
+	"..." CLB #7->6
 
 "<unnugu>"
 	"this evening" Adv Adv @CL-ADVL> #1->3
@@ -12148,7 +12149,7 @@
 "<politiillu>"
 	"police officer" Sem/Hprof iN N Abs Pl "and" @OBJ> #1->2
 "<kisimeeqatigilerpakka>"
-	"be alone" iSem/be_attribute iV "do together with" iSem/be_part iV LIR Sem/gain V Ind "I" @PRED #2->0
+	"be alone" Sem/be_attribute iV "do together with" Sem/be_part iV "begin" Sem/begin iV V Ind "I" @PRED #2->0
 "<.>"
 	"." CLB #3->2
 </s>

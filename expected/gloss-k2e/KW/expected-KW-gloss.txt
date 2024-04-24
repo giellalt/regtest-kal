@@ -1819,12 +1819,12 @@
 	"..." CLB #2->1
 
 "<Anaanaga>"
-	"mother" Sem/Hfam iN <tr> N Abs Sg 1SgPoss @VOK #1->0
+	"mother" Sem/Hfam iN <tr> N Abs Sg 1SgPoss @HNOUN #1->0
 "<...>"
 	"..." CLB #2->1
 
 "<tassalu>"
-	"it is" Part <tr> Adv CONJ-LU @PRED #1->0
+	"it is" Part <tr> Adv ADV-LU @PRED #1->0
 "<oqaaseqatigiit>"
 	"sentence" Sem/ac-cat iN <tr> N Abs Pl @OBJ> #2->3
 "<naasinnaanagit>"
@@ -2136,11 +2136,12 @@
 	"..." CLB #2->1
 
 "<anaanagalu>"
-	"mother" Sem/Hfam iN <tr> N Abs Sg 1SgPoss CONJ-LU @SUBJ> #1->3
+	"mother" Sem/Hfam iN <tr> N Abs Sg 1SgPoss CONJ-LU @HNOUN #1->0
 "<siniffitsinni>"
-	"bed" Sem/furn iN <tr> N Lok Sg 1PlPoss @ADVL> #2->3
+	"bed" Sem/furn iN <tr> N Lok Sg 1PlPoss @i-ADVL> #2->3
 "<marluusut>"
-	"two" iSem/ac-sign iNum <tr> U Der/nv Gram/IV Sem/be_attribute V Par 3Pl @PRED #3->0
+	"two" iSem/ac-sign iNum <tr> U Der/nv Gram/IV iSem/be_attribute "one who" Sem/H iN <tr> N Abs Pl @HNOUN #3->0
+	"two" iSem/ac-sign iNum <tr> U Der/nv Gram/IV iSem/be_attribute "that which" Sem/cc iN <tr> N Abs Pl @HNOUN #3->0
 "<.>"
 	"." CLB #4->3
 </s>
@@ -2946,7 +2947,7 @@
 
 <s id="FVqVXD8f9fM9fxxb5Ut4hntMUgs">
 "<Anaanaga>"
-	"mother" Sem/Hfam iN <tr> N Abs Sg 1SgPoss @VOK #1->0
+	"mother" Sem/Hfam iN <tr> N Abs Sg 1SgPoss #1->0
 "<...>"
 	"..." CLB #2->1
 
@@ -3982,7 +3983,7 @@
 "<”>"
 	"”" PUNCT RIGHT #6->5
 "<...>"
-	"..." CLB @CL-<CIT #7->6
+	"..." CLB #7->6
 
 "<unnugu>"
 	"this evening" Adv <tr> Adv @CL-ADVL> #1->3
@@ -12158,7 +12159,7 @@
 "<politiillu>"
 	"police officer" Sem/Hprof iN <tr> N Abs Pl CONJ-LU @OBJ> #1->2
 "<kisimeeqatigilerpakka>"
-	"be alone" iSem/be_attribute iV <tr> "do together with" iSem/be_part iV <tr> LIR Der/vv Gram/TV Sem/gain V Ind 1Sg 3PlO @PRED #2->0
+	"be alone" Sem/be_attribute iV <tr> "do together with" Sem/be_part iV <tr> "begin" Sem/begin iV <tr> V Ind 1Sg 3PlO @PRED #2->0
 "<.>"
 	"." CLB #3->2
 </s>
