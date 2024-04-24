@@ -2204,11 +2204,8 @@
 	"-" PUNCT DIRTALESTART #1->1
 "<Qujan>"
 	"qujan" Interj @INTERJ #2->0
-"<.>"
-	"." CLB #3->3
-
-"<...>"
-	"..." CLB #1->1
+"<....>"
+	"." CLB Heur/Merged #3->3
 
 "<immannguaq>"
 	"immannguaq" Interj @INTERJ #1->0
@@ -3241,7 +3238,7 @@
 "<aalisarnermullu>"
 	"aalisar" Gram/IV NIQ Der/vn Gram/Conj-encl N Trm Sg CONJ-LU @ADVL> #9->10
 "<atorusuttarpaat>"
-	"ator" Gram/TV GUSUP Der/vv TAR Der/vv Gram/TV V Ind 3Pl 3PlO @PRED #10->0
+	"ator" Gram/TV GUSUP Der/vv Gram/TV TAR Der/vv Gram/TV V Ind 3Pl 3PlO @PRED #10->0
 "<.>"
 	"." CLB #11->11
 </s>
@@ -15112,17 +15109,14 @@
 "<susarpat>"
 	"susar" Gram/IV V Int 3Pl @PRED #2->0
 "<?>"
-	"?" CLB DIRTALEMIDDLE #3->3
+	"?" CLB #3->3
 
 "<Sooruna>"
 	"sooq" Adv UNA @CL-ADVL> #1->2
 "<inuusugut>"
 	"inuk" U Der/nv Gram/IV V Par 1Pl @PRED #2->0
-"<?>"
-	"?" CLB #3->3
-
-"<…>"
-	"…" CLB #1->1
+"<?…>"
+	"?" CLB Heur/Merged #3->3
 
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->1
@@ -16277,15 +16271,12 @@
 "<18-ileereersimanissaq>"
 	"18" iNum LIR Der/nv Gram/TV HTR Der/vv Gram/IV RIIR Der/vv SIMA Der/vv NIQ Der/vn SSAQ Der/nn N Abs Sg @SUBJ> #5->6
 "<piumasaqaataavoq>"
-	"pi" Gram/TV GUMA Der/vv Gram/IV TAQ Der/vn QAR Der/nv Gram/IV UTE Der/vn U Der/nv Gram/IV V Ind 3Sg @PRED #6->0
+	"pi" Gram/TV GUMA Der/vv Gram/TV TAQ Der/vn QAR Der/nv Gram/IV UTE Der/vn U Der/nv Gram/IV V Ind 3Sg @PRED #6->0
 	"pi" Gram/TV GUMA Der/vv Gram/TV TAQ Der/vn QAR Der/nv UTE Der/vn U Der/nv Gram/IV V Ind 3Sg @PRED #6->0
 "<,>"
 	"," CLB #7->7
-"<...>"
-	"..." CLB #8->8
-
-"<.>"
-	"." CLB #1->1
+"<....>"
+	"..." CLB Heur/Merged #8->8
 </s>
 
 <s id="ZUmxMstWK9xWIilTTD5utHU8XVQ">
@@ -17590,20 +17581,18 @@
 	"kaffilior" Gram/IV SSA Der/vv Gram/IV V Ind 1Sg @PRED #1->0
 "<...>"
 	"..." CLB #2->2
-
 "<imaattoq>"
-	"imaattoq" Interj @INTERJ #1->0
+	"imaattoq" Interj @INTERJ #3->3
 "<...>"
-	"..." CLB #2->2
-
+	"..." CLB #4->4
 "<sutorusuppisi>"
-	"sutor" Gram/IV GUSUP Der/vv Gram/IV V Int 2Pl @PRED #1->0
+	"sutor" Gram/IV GUSUP Der/vv Gram/IV V Int 2Pl @PRED #5->0
 "<kaffi>"
-	"kaffi" N Abs Sg #2->2
+	"kaffi" N Abs Sg #6->6
 "<tiiluunniit>"
-	"tii" Gram/Conj-encl N Abs Sg CONJ-LUUNNIIT #3->3
+	"tii" Gram/Conj-encl N Abs Sg CONJ-LUUNNIIT #7->7
 "<?>"
-	"?" CLB #4->4
+	"?" CLB #8->8
 
 "<Uanga>"
 	"uanga" Gram/Pers Pron Abs 1Sg @HNOUN #1->0
@@ -18697,11 +18686,8 @@
 	"Naalakkersuisut" Sem/inst Sem/Hum Prop Trm Pl @ADVL> #9->10
 "<nalunaaruteqarput>"
 	"nalunaar" Gram/IV UTE Der/vn QAR Der/nv Gram/IV V Ind 3Pl @PRED #10->0
-"<:>"
-	":" CLB DIRTALESTART #11->11
-
-"<...>"
-	"..." CLB #1->1
+"<:...>"
+	":" CLB Heur/Merged DIRTALESTART #11->11
 </s>
 
 <s id="fCaxONxyoKDOduv1UKoNo1q99gA">
@@ -24787,11 +24773,8 @@
 	"-" PUNCT DIRTALESTART #1->1
 "<Qujan>"
 	"qujan" Interj @INTERJ #2->0
-"<.>"
-	"." CLB #3->3
-
-"<...>"
-	"..." CLB #1->1
+"<....>"
+	"." CLB Heur/Merged #3->3
 
 "<immannguaq>"
 	"immannguaq" Interj @INTERJ #1->0

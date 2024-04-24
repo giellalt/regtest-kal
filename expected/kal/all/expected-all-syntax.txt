@@ -4572,11 +4572,8 @@
 	"baobab" OLang/DAN OLang/DAN N Rel Pl @POSS>
 "<naatsiiassartaat>"
 	"naatsiiaq" SSAQ Der/nn TAQ Der/nn N Abs Pl 3PlPoss @i-SUBJ_COMP<
-"<.>"
-	"." CLB
-
-"<...>"
-	"..." CLB
+"<....>"
+	"." CLB Heur/Merged
 
 "<Tassalu>"
 	"tassa" Gram/Conj-encl Adv CONJ-LU @ADVL>
@@ -4587,7 +4584,7 @@
 "<sivisuallaamik>"
 	"sivisu" Gram/IV VALLAAQ Der/vn N Ins Sg @ADVL>
 "<isumakkiiginnarsimagaanni>"
-	"isumakkeer" Gram/TV INNAR Der/vv SIMA Der/vv Gram/TV Gram/Gaanni Gram/Gaanni V Par 3Sg 3PlO @CL-ADVL>
+	"isumakkeer" Gram/TV INNAR Der/vv Gram/TV SIMA Der/vv Gram/Gaanni Gram/Gaanni V Par 3Sg 3PlO @CL-ADVL>
 "<nungunnissaat>"
 	"nungup" Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss @SUBJ>
 "<ajornakusoortaqaaq>"
@@ -5226,19 +5223,18 @@
 "<tarrinnera>"
 	"tarrip" Gram/IV NIQ Der/vn N Abs Sg 3SgPoss @OBJ>
 "<takorusoqaara>"
-	"taku" Gram/TV GUSUP Der/vv QE Der/vv Gram/TV V Ind 1Sg 3SgO @PRED
+	"taku" Gram/TV GUSUP Der/vv Gram/TV QE Der/vv Gram/TV V Ind 1Sg 3SgO @PRED
 "<...>"
 	"..." CLB
 
 "<Nuannarissagaluarpara>"
-	"nuannare" Gram/TV SSA Der/vv GALUAR Der/vv Gram/TV V Ind 1Sg 3SgO @PRED
-"<...>"
-	"..." CLB
-
+	"nuannare" Gram/TV SSA Der/vv Gram/TV GALUAR Der/vv Gram/TV V Ind 1Sg 3SgO @PRED
+"<,>"
+	"..." CLB/... CLB
 "<seqineq>"
 	"seqineq" N Abs Sg @OBJ>
 "<tarreqqusinnaasuugukku>"
-	"tarrip" Gram/IV QQU Der/vv Gram/TV SINNAA Der/vv TUU Der/vv Gram/TV V Con 1Sg 3SgO @CON
+	"tarrip" Gram/IV QQU Der/vv Gram/TV SINNAA Der/vv TUU Der/vv V Con 1Sg 3SgO @<CON
 "<...>"
 	"..." CLB
 </s>
@@ -6868,10 +6864,9 @@
 "<Sueq>"
 	"sueq" N Abs Sg @OBJ>
 "<nuannariivinngilaa>"
-	"nuannare" Gram/TV VIP Der/vv Orth/Alt NNGIT Der/vv Gram/TV V Ind 3Sg 3SgO @PRED
-"<...>"
-	"..." CLB
-
+	"nuannare" Gram/TV VIP Der/vv Orth/Alt Gram/TV NNGIT Der/vv Gram/TV V Ind 3Sg 3SgO @PRED
+"<,>"
+	"..." CLB/... CLB
 "<nunamut>"
 	"nuna" N Trm Sg @i-ADVL>
 "<taama>"
@@ -6879,13 +6874,13 @@
 "<tunngatigisumi>"
 	"tunnga" Gram/IV TIGE Der/vv Gram/IV TUQ Der/vn N Lok Sg @ADVL>
 "<suingaarsinnaanavianngitsoq>"
-	"suer" Gram/IV NGAAR Der/vv SINNAA Der/vv NAVIAR Der/vv NNGIT Der/vv Gram/IV V Par 3Sg @CL-CIT>
+	"suer" Gram/IV NGAAR Der/vv Gram/IV SINNAA Der/vv Gram/IV NAVIAR Der/vv Gram/IV NNGIT Der/vv Gram/IV V Par 3Sg %AmbiguøsPar @CL-CIT>
 "<ataqqinartuaqqap>"
 	"ataqqi" Gram/TV NAR Der/vv Gram/IV TUQ Der/vn ARAQ Der/nn N Rel Sg @SUBJ>
 "<oqaatigisimavaa>"
-	"oqaatige" Gram/TV SIMA Der/vv Gram/TV V Ind 3Sg 3SgO @PRED
+	"oqaatige" Gram/TV SIMA Der/vv V Ind 3Sg 3SgO @PRED
 "<.>"
-	"." CLB
+	"." CLB DIRTALEMIDDLE
 
 "<Una>"
 	"una" Gram/Dem Pron Abs Sg @Pron>N
@@ -7524,15 +7519,13 @@
 "<->"
 	"-" PUNCT DIRTALESTART
 "<Tassami>"
-	"tassa" Interj MI @INTERJ
-"<...>"
-	"..." CLB
-
+	"tassa" Adv MI @CL-ADVL>
+"<,>"
+	"..." CLB/... CLB
 "<imaattoq>"
 	"imaattoq" Interj @INTERJ
-"<...>"
-	"..." CLB
-
+"<,>"
+	"..." CLB/... CLB
 "<aliasuttorujussuugaanni>"
 	"aliasup" Gram/IV TUQ Der/vn RUJUK Der/nn SUAQ Der/nn U Der/nv Gram/IV Gram/Gaanni Gram/Gaanni V Par 4Sg @CL-ADVL>
 "<seqineq>"
@@ -7544,7 +7537,7 @@
 "<nuannertaqigami>"
 	"nuanner" Gram/IV TAR Der/vv Gram/IV QE Der/vv Gram/IV V Cau 4Sg @PRED
 "<.>"
-	"." CLB
+	"." CLB DIRTALEMIDDLE
 </s>
 
 <s id="Fji7khyaNVkmHhBg5wiPcWJMVgM">
@@ -13334,15 +13327,14 @@
 "<,>"
 	"," CLB
 "<itersinnaanngingajappunga>"
-	"iter" Gram/IV SINNAA Der/vv NNGIT Der/vv NGAJAP Der/vv Gram/IV V Ind 1Sg @PRED
+	"iter" Gram/IV SINNAA Der/vv Gram/IV NNGIT Der/vv Gram/IV NGAJAP Der/vv Gram/IV V Ind 1Sg @PRED
 "<.>"
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE
 
 "<Utoqqatserpunga>"
 	"utoqqatser" Gram/IV V Ind 1Sg @PRED
-"<...>"
-	"..." CLB
-
+"<,>"
+	"..." CLB/... CLB
 "<nutsakkaluunniit>"
 	"nujaq" Gram/Adv-encl N Abs Pl 1SgPoss ADV-LUUNNIIT @OBJ>
 "<suli>"
@@ -15850,10 +15842,10 @@
 "<aamma>"
 	"aamma" Adv @ADVL>
 "<nuatsiginngilanga>"
-	"nuap" Gram/IV TIGE Der/vv NNGIT Der/vv Gram/IV V Ind 1Sg @PRED
-"<...>"
-	"..." CLB
-
+	"nuap" Gram/IV TIGE Der/vv Gram/IV NNGIT Der/vv Gram/IV V Ind 1Sg @PRED
+	"nuap" Gram/IV TIGE Der/vv Gram/IV NNGIT Der/vv Gram/Refl Gram/IV V Ind 1Sg Gram/Refl @PRED
+"<,>"
+	"..." CLB/... CLB
 "<unnuap>"
 	"unnuaq" N Rel Sg @POSS>
 "<silaannarinnera>"
@@ -15861,7 +15853,7 @@
 "<iluaqutigissavara>"
 	"iluaqut" GE Der/nv Gram/TV SSA Der/vv Gram/TV V Ind 1Sg 3SgO @PRED
 "<.>"
-	"." CLB
+	"." CLB DIRTALEMIDDLE
 </s>
 
 <s id="XvVm9cLODJEfFeXt2VdmnX1gXyg">
@@ -16812,12 +16804,9 @@
 "<inuunera>"
 	"inuk" U Der/nv Gram/IV NIQ Der/vn N Abs Sg 3SgPoss @OBJ>
 "<kipiniaraluarpaa>"
-	"kipi" Gram/TV NIAR Der/vv GALUAR Der/vv Gram/TV V Ind 3Sg 3SgO @PRED
-"<...>"
-	"..." CLB
-
-"<!>"
-	"!" CLB
+	"kipi" Gram/TV NIAR Der/vv Gram/TV GALUAR Der/vv Gram/TV V Ind 3Sg 3SgO @PRED
+"<...!>"
+	"..." CLB Heur/Merged
 </s>
 
 <s id="aK8rDWnmbes2vp8Oj3WP3LeQzSg">
@@ -21077,19 +21066,19 @@
 	"ma" Prefix/TA Gram/Dem Adv Lok @i-ADVL>
 "<arlaanni>"
 	"arlaq" N Gram/Cong Lok Sg 3PlPoss @A<
+	"arlaq" N Lok Sg 3PlPoss @A<
 "<puilasumik>"
 	"puilasoq" N Ins Sg @i->N>N
 "<toqqortaqarneranik>"
-	"toqqor" Gram/TV TAQ Der/vn QAR Der/nv Gram/IV NIQ Der/vn N Ins Sg 3SgPoss @i-N<
-"<...>"
-	"..." CLB
-
+	"toqqor" Gram/TV TAQ Der/vn QAR Der/nv Gram/IV NIQ Der/vn N Ins Sg 3SgPoss %PossOblique @i-N<
+"<,>"
+	"..." CLB/... CLB
 "<ataqqinartuaraq>"
 	"ataqqi" Gram/TV NAR Der/vv Gram/IV TUQ Der/vn ARAQ Der/nn N Abs Sg @SUBJ>
 "<oqarpoq>"
 	"oqar" Gram/IV V Ind 3Sg @PRED
 "<.>"
-	"." CLB
+	"." CLB DIRTALEMIDDLE
 </s>
 
 <s id="k8cr5JVp6uBLRH5nsYLuPCSqHSE">

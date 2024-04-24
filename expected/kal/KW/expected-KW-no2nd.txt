@@ -1676,18 +1676,17 @@
 	"..." CLB #2->2
 
 "<Anaanaga>"
-	"anaana" N Abs Sg 1SgPoss @VOK #1->0
+	"anaana" N Abs Sg 1SgPoss @HNOUN #1->0
 "<...>"
 	"..." CLB #2->2
-
 "<tassalu>"
-	"tassa" Adv CONJ-LU @PRED #1->0
+	"tassa" Adv ADV-LU @PRED #3->0
 "<oqaaseqatigiit>"
-	"oqaaseq" QATE GIIT N Abs Pl @OBJ> #2->3
+	"oqaaseq" QATE GIIT N Abs Pl @OBJ> #4->5
 "<naasinnaanagit>"
-	"naa" SINNAA V ContNeg 3PlO @i-SUBJ_COMP< #3->1
+	"naa" SINNAA V ContNeg 3PlO @i-SUBJ_COMP< #5->3
 "<.>"
-	"." CLB #4->4
+	"." CLB #6->6
 </s>
 
 <s id="9yeEHiOYhFsSxcnxqlUXa4IldzI">
@@ -1972,15 +1971,14 @@
 	"ui" N Abs Sg 1SgPoss @VOK #1->0
 "<...>"
 	"..." CLB #2->2
-
 "<anaanagalu>"
-	"anaana" N Abs Sg 1SgPoss CONJ-LU @SUBJ> #1->3
+	"anaana" N Abs Sg 1SgPoss CONJ-LU @HNOUN #3->0
 "<siniffitsinni>"
-	"sinip" VIK N Lok Sg 1PlPoss @ADVL> #2->3
+	"sinip" VIK N Lok Sg 1PlPoss @i-ADVL> #4->5
 "<marluusut>"
-	"marluk" U V Par 3Pl @PRED #3->0
+	"marluk" U TUQ N Abs Pl @HNOUN #5->0
 "<.>"
-	"." CLB #4->4
+	"." CLB #6->6
 </s>
 
 <s id="BG7oXWR59xbBm5OG4ruxkXgctq0">
@@ -2728,14 +2726,13 @@
 
 <s id="FVqVXD8f9fM9fxxb5Ut4hntMUgs">
 "<Anaanaga>"
-	"anaana" N Abs Sg 1SgPoss @VOK #1->0
+	"anaana" N Abs Sg 1SgPoss #1->1
 "<...>"
 	"..." CLB #2->2
-
 "<ittoqilerpunga>"
-	"ittoqer" LIR V Ind 1Sg @PRED #1->0
+	"ittoqer" LIR V Ind 1Sg @PRED #3->0
 "<.>"
-	"." CLB #2->2
+	"." CLB #4->4
 </s>
 
 <s id="FcSHWxtt6ENJHXUotU1pLnp87F4">
@@ -3437,13 +3434,12 @@
 	"aappi" Interj @INTERJ #4->0
 "<...>"
 	"..." CLB #5->5
-
 "<anaanannut>"
-	"anaana" N Trm Sg 2SgPoss @ADVL> #1->2
+	"anaana" N Trm Sg 2SgPoss @ADVL> #6->7
 "<angerlassaqqaarputit>"
-	"angerlar" SSA QQAAR V Ind 2Sg @PRED #2->0
+	"angerlar" SSA QQAAR V Ind 2Sg @PRED #7->0
 "<...>"
-	"..." CLB #3->3
+	"..." CLB #8->8
 </s>
 
 <s id="J2x7CHSX0fPmUNXAfLdv26JFjNE">
@@ -3595,11 +3591,8 @@
 	"”" PUNCT RIGHT DIRTALESTART #1->1
 "<Tusarnaarpinga>"
 	"tusarnaar" V Int 2Sg 1SgO @PRED #2->0
-"<?>"
+"<??>"
 	"?" CLB DIRTALEMIDDLE #3->3
-
-"<?>"
-	"?" CLB #1->1
 
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->1
@@ -3691,7 +3684,7 @@
 "<”>"
 	"”" PUNCT RIGHT #6->6
 "<...>"
-	"..." CLB @CL-<CIT #7->7
+	"..." CLB #7->7
 
 "<unnugu>"
 	"unnugu" Adv @CL-ADVL> #1->3
@@ -6036,11 +6029,8 @@
 
 "<Uanga>"
 	"uanga" Pron Abs 1Sg @HNOUN #1->0
-"<...>"
+"<...!>"
 	"..." CLB #2->2
-
-"<!>"
-	"!" CLB #1->1
 
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->1
@@ -6730,11 +6720,8 @@
 	"”" PUNCT RIGHT DIRTALESTART #1->1
 "<Taamaasiorunnaarniarit>"
 	"taamaasior" GUNNAIR NIAR V Imp 2Sg @PRED #2->0
-"<!>"
-	"!" CLB DIRTALEMIDDLE #3->3
-
-"<!>"
-	"!" CLB #1->1
+"<!!>"
+	"!" CLB DIRTALESLUT #3->3
 
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->1
@@ -6942,11 +6929,10 @@
 	"okay" Interj @INTERJ #5->5
 "<...>"
 	"..." CLB #6->6
-
 "<okay>"
-	"okay" Interj @INTERJ #1->0
+	"okay" Interj @INTERJ #7->7
 "<...>"
-	"..." CLB #2->2
+	"..." CLB #8->8
 
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->1
@@ -7657,11 +7643,8 @@
 	"sooq" Adv #1->2
 "<uanga>"
 	"uanga" Pron Abs 1Sg @HNOUN #2->0
-"<?>"
+"<??>"
 	"?" CLB #3->3
-
-"<?>"
-	"?" CLB #1->1
 
 "<Neriuutaaruppunga>"
 	"neriup" UTE IRUTE V Ind 1Sg @PRED #1->0
@@ -9578,18 +9561,15 @@
 
 "<Suallaatigissagakku>"
 	"suallap" UTE GE SSA V Cau 2Sg 3SgO @PRED #1->0
-"<?>"
+"<?!>"
 	"?" CLB #2->2
 
-"<!>"
-	"!" CLB #1->1
-
 "<Angutipalaaq>"
-	"angut" PALAAQ N Abs Sg @SUBJ> #1->3
+	"angut" PALAAQ N Abs Sg @HNOUN #1->0
 "<arnanut>"
 	"arnaq" N Trm Pl @MIK-OBJ> #2->3
 "<atornerluiniartartoq>"
-	"ator" NIRLUP HTR NIAR TAR V Par 3Sg @PRED #3->0
+	"ator" NIRLUP HTR NIAR TAR TUQ N Abs Sg @N< #3->1
 "<!>"
 	"!" CLB #4->4
 
@@ -9929,15 +9909,12 @@
 "<TAAMAASIORUNNAARNIARIT>"
 	"taamaasior" GUNNAIR NIAR V Imp 2Sg @PRED #1->0
 "<!>"
-	"!" CLB DIRTALEMIDDLE #2->2
+	"!" CLB #2->2
 
 "<Suinnarpinuna>"
 	"su" INNAR V Int 2Sg UNA @PRED #1->0
-"<?>"
+"<??>"
 	"?" CLB #2->2
-
-"<?>"
-	"?" CLB #1->1
 
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->1

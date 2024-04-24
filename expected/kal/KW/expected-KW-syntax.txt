@@ -1683,12 +1683,11 @@
 	"..." CLB
 
 "<Anaanaga>"
-	"anaana" N Abs Sg 1SgPoss @VOK
-"<...>"
-	"..." CLB
-
+	"anaana" N Abs Sg 1SgPoss @HNOUN
+"<,>"
+	"..." CLB/... CLB
 "<tassalu>"
-	"tassa" Gram/Conj-encl Adv CONJ-LU @PRED
+	"tassa" Gram/Adv-encl Adv ADV-LU @PRED
 "<oqaaseqatigiit>"
 	"oqaaseq" QATE Der/nn GIIT Der/nn N Abs Pl %ContHypotagme @OBJ>
 "<naasinnaanagit>"
@@ -1977,15 +1976,14 @@
 
 "<Uiga>"
 	"ui" N Abs Sg 1SgPoss @VOK
-"<...>"
-	"..." CLB
-
+"<,>"
+	"..." CLB/... CLB
 "<anaanagalu>"
-	"anaana" Gram/Conj-encl N Abs Sg 1SgPoss CONJ-LU @SUBJ>
+	"anaana" Gram/Conj-encl N Abs Sg 1SgPoss CONJ-LU @HNOUN
 "<siniffitsinni>"
-	"sinip" Gram/IV VIK Der/vn N Lok Sg 1PlPoss @ADVL>
+	"sinip" Gram/IV VIK Der/vn N Lok Sg 1PlPoss @i-ADVL>
 "<marluusut>"
-	"marluk" U Der/nv Gram/IV V Par 3Pl %AmbiguøsPar @PRED
+	"marluk" U Der/nv Gram/IV TUQ Der/vn N Abs Pl @HNOUN
 "<.>"
 	"." CLB
 </s>
@@ -2738,10 +2736,9 @@
 
 <s id="FVqVXD8f9fM9fxxb5Ut4hntMUgs">
 "<Anaanaga>"
-	"anaana" N Abs Sg 1SgPoss @VOK
-"<...>"
-	"..." CLB
-
+	"anaana" N Abs Sg 1SgPoss
+"<,>"
+	"..." CLB/... CLB
 "<ittoqilerpunga>"
 	"ittoqer" Gram/IV LIR Der/vv Gram/IV V Ind 1Sg @PRED
 "<.>"
@@ -3446,9 +3443,8 @@
 	"," CLB
 "<aappi>"
 	"aappi" Interj @INTERJ
-"<...>"
-	"..." CLB
-
+"<,>"
+	"..." CLB/... CLB
 "<anaanannut>"
 	"anaana" N Trm Sg 2SgPoss @ADVL>
 "<angerlassaqqaarputit>"
@@ -3607,11 +3603,8 @@
 	"”" PUNCT RIGHT DIRTALESTART
 "<Tusarnaarpinga>"
 	"tusarnaar" Gram/TV V Int 2Sg 1SgO @PRED
-"<?>"
-	"?" CLB DIRTALEMIDDLE DIRTALEMIDDLE
-
-"<?>"
-	"?" CLB
+"<??>"
+	"?" CLB Heur/Merged DIRTALEMIDDLE DIRTALEMIDDLE
 
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART
@@ -3703,7 +3696,7 @@
 "<”>"
 	"”" PUNCT RIGHT
 "<...>"
-	"..." CLB @CL-<CIT
+	"..." CLB
 
 "<unnugu>"
 	"unnugu" Adv @CL-ADVL>
@@ -6053,15 +6046,12 @@
 "<Uanga>"
 	"uanga" Gram/Pers Pron Abs 1Sg @HNOUN
 "<!>"
-	"!" CLB DIRTALEMIDDLE DIRTALEMIDDLE DIRTALEMIDDLE
+	"!" CLB DIRTALEMIDDLE DIRTALEMIDDLE
 
 "<Uanga>"
 	"uanga" Gram/Pers Pron Abs 1Sg @HNOUN
-"<...>"
-	"..." CLB
-
-"<!>"
-	"!" CLB
+"<...!>"
+	"..." CLB Heur/Merged
 
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART
@@ -6753,11 +6743,8 @@
 	"”" PUNCT RIGHT DIRTALESTART
 "<Taamaasiorunnaarniarit>"
 	"taamaasior" Gram/IV GUNNAIR Der/vv Gram/IV NIAR Der/vv Gram/IV V Imp 2Sg Gram/ImpPos @PRED
-"<!>"
-	"!" CLB DIRTALEMIDDLE DIRTALEMIDDLE
-
-"<!>"
-	"!" CLB
+"<!!>"
+	"!" CLB Heur/Merged DIRTALESLUT DIRTALESLUT
 
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART
@@ -6963,9 +6950,8 @@
 	"”" PUNCT RIGHT
 "<okay>"
 	"okay" Interj @INTERJ
-"<...>"
-	"..." CLB
-
+"<,>"
+	"..." CLB/... CLB
 "<okay>"
 	"okay" Interj @INTERJ
 "<...>"
@@ -7681,11 +7667,8 @@
 	"sooq" Adv
 "<uanga>"
 	"uanga" Gram/Pers Pron Abs 1Sg @HNOUN
-"<?>"
-	"?" CLB
-
-"<?>"
-	"?" CLB
+"<??>"
+	"?" CLB Heur/Merged
 
 "<Neriuutaaruppunga>"
 	"neriup" Gram/IV UTE Der/vn IRUTE Der/nv Gram/IV V Ind 1Sg @PRED
@@ -9605,18 +9588,15 @@
 
 "<Suallaatigissagakku>"
 	"suallap" Gram/IV UTE Der/vn GE Der/nv Gram/TV SSA Der/vv Gram/TV V Cau 2Sg 3SgO @PRED
-"<?>"
-	"?" CLB
-
-"<!>"
-	"!" CLB
+"<?!>"
+	"?" CLB Heur/Merged
 
 "<Angutipalaaq>"
-	"angut" PALAAQ Der/nn N Abs Sg @SUBJ>
+	"angut" PALAAQ Der/nn N Abs Sg @HNOUN
 "<arnanut>"
 	"arnaq" N Trm Pl @MIK-OBJ>
 "<atornerluiniartartoq>"
-	"ator" Gram/TV NIRLUP Der/vv Gram/TV HTR Der/vv Gram/IV NIAR Der/vv TAR Der/vv Gram/IV V Par 3Sg %AmbiguøsPar @PRED
+	"ator" Gram/TV NIRLUP Der/vv Gram/TV HTR Der/vv Gram/IV NIAR Der/vv TAR Der/vv Gram/IV TUQ Der/vn N Abs Sg @N<
 "<!>"
 	"!" CLB
 
@@ -9957,15 +9937,12 @@
 "<TAAMAASIORUNNAARNIARIT>"
 	"taamaasior" Gram/IV GUNNAIR Der/vv Gram/IV NIAR Der/vv Gram/IV V Imp 2Sg Gram/ImpPos @PRED
 "<!>"
-	"!" CLB DIRTALEMIDDLE
+	"!" CLB
 
 "<Suinnarpinuna>"
 	"su" Gram/IV INNAR Der/vv Gram/IV V Int 2Sg UNA @PRED
-"<?>"
-	"?" CLB
-
-"<?>"
-	"?" CLB
+"<??>"
+	"?" CLB Heur/Merged
 
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART

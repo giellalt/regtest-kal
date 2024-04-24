@@ -2204,11 +2204,8 @@
 	"-" PUNCT DIRTALESTART
 "<Qujan>"
 	"qujan" Interj @INTERJ
-"<.>"
-	"." CLB
-
-"<...>"
-	"..." CLB
+"<....>"
+	"." CLB Heur/Merged
 
 "<immannguaq>"
 	"immannguaq" Interj @INTERJ
@@ -3223,8 +3220,8 @@
 </s>
 
 <s id="6v6zfWd3wlZ7wQCd9tXweyni2qg">
-"<..>"
-	".." CLB
+"<,>"
+	".." CLB/.. CLB
 "<ilaqutariippassuit>"
 	"ilaqutaq" GIIT Der/nn PAK Der/nn SUAQ Der/nn N Rel Pl @SUBJ>
 "<aningaasat>"
@@ -3242,7 +3239,7 @@
 "<aalisarnermullu>"
 	"aalisar" Gram/IV NIQ Der/vn Gram/Conj-encl N Trm Sg CONJ-LU @ADVL>
 "<atorusuttarpaat>"
-	"ator" Gram/TV GUSUP Der/vv TAR Der/vv Gram/TV V Ind 3Pl 3PlO @PRED
+	"ator" Gram/TV GUSUP Der/vv Gram/TV TAR Der/vv Gram/TV V Ind 3Pl 3PlO @PRED
 "<.>"
 	"." CLB
 </s>
@@ -15113,17 +15110,14 @@
 "<susarpat>"
 	"susar" Gram/IV V Int 3Pl @PRED
 "<?>"
-	"?" CLB DIRTALEMIDDLE
+	"?" CLB
 
 "<Sooruna>"
 	"sooq" Adv UNA @CL-ADVL>
 "<inuusugut>"
 	"inuk" U Der/nv Gram/IV V Par 1Pl %AmbiguøsPar @PRED
-"<?>"
-	"?" CLB
-
-"<…>"
-	"…" CLB
+"<?…>"
+	"?" CLB Heur/Merged
 
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART
@@ -16269,24 +16263,22 @@
 
 <s id="ZUdI15Vz5ytORvBKHqeFtw7JmLo">
 "<Innarluutillit>"
-	"innarluut" LIK Der/nn N Abs Pl @OBJ>
+	"innarluut" LIK Der/nn N Abs Pl %ContHypotagme @OBJ>
 "<pillugit>"
-	"pi" Gram/TV V Cont 3PlO @i-ADVL>
+	"pi" Gram/TV V Cont 3PlO %ContHypotagme @i-ADVL>
 "<Siunnersuisoqatigiinnut>"
 	"siunnersor" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn N Trm Pl @i-ADVL>
 "<ilaasortanngorniaraanni>"
-	"ilaa" Gram/IV TUQ Der/vn TAQ Der/nn NNGUR Der/nv Gram/IV NIAR Der/vv Gram/IV Gram/Gaanni Gram/Gaanni V Par 4Sg @CL-ADVL>
+	"ilaa" Gram/IV TUQ Der/vn TAQ Der/nn NNGUR Der/nv Gram/IV NIAR Der/vv Gram/IV Gram/Gaanni Gram/Gaanni V Par 4Sg %AmbiguøsPar @CL-ADVL>
 "<18-ileereersimanissaq>"
 	"18" iNum LIR Der/nv Gram/TV HTR Der/vv Gram/IV RIIR Der/vv SIMA Der/vv NIQ Der/vn SSAQ Der/nn N Abs Sg @SUBJ>
 "<piumasaqaataavoq>"
-	"pi" GUMA Der/vv Gram/TV TAQ Der/vn QAR Der/nv UTE Der/vn U Der/nv Gram/IV V Ind 3Sg @PRED
+	"pi" Gram/TV GUMA Der/vv Gram/TV TAQ Der/vn QAR Der/nv Gram/IV UTE Der/vn U Der/nv Gram/IV V Ind 3Sg @PRED
+	"pi" Gram/TV GUMA Der/vv Gram/TV TAQ Der/vn QAR Der/nv UTE Der/vn U Der/nv Gram/IV V Ind 3Sg @PRED
 "<,>"
 	"," CLB
-"<...>"
-	"..." CLB
-
-"<.>"
-	"." CLB
+"<....>"
+	"..." CLB Heur/Merged
 </s>
 
 <s id="ZUmxMstWK9xWIilTTD5utHU8XVQ">
@@ -17589,14 +17581,12 @@
 
 "<Kaffiliussaanga>"
 	"kaffilior" Gram/IV SSA Der/vv Gram/IV V Ind 1Sg @PRED
-"<...>"
-	"..." CLB
-
+"<,>"
+	"..." CLB/... CLB
 "<imaattoq>"
 	"imaattoq" Interj @INTERJ
-"<...>"
-	"..." CLB
-
+"<,>"
+	"..." CLB/... CLB
 "<sutorusuppisi>"
 	"sutor" Gram/IV GUSUP Der/vv Gram/IV V Int 2Pl @PRED
 "<kaffi>"
@@ -18698,11 +18688,8 @@
 	"Naalakkersuisut" Sem/inst Sem/Hum Prop Trm Pl @ADVL>
 "<nalunaaruteqarput>"
 	"nalunaar" Gram/IV UTE Der/vn QAR Der/nv Gram/IV V Ind 3Pl @PRED
-"<:>"
-	":" CLB DIRTALESTART
-
-"<...>"
-	"..." CLB
+"<:...>"
+	":" CLB Heur/Merged DIRTALESTART
 </s>
 
 <s id="fCaxONxyoKDOduv1UKoNo1q99gA">
@@ -24790,11 +24777,8 @@
 	"-" PUNCT DIRTALESTART
 "<Qujan>"
 	"qujan" Interj @INTERJ
-"<.>"
-	"." CLB
-
-"<...>"
-	"..." CLB
+"<....>"
+	"." CLB Heur/Merged
 
 "<immannguaq>"
 	"immannguaq" Interj @INTERJ

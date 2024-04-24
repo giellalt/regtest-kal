@@ -7,6 +7,30 @@
 	"." CLB #3->2
 </s>
 
+<s id="07CGnZaxD8a8yDsfwnkfAKT8fSU">
+"<Tassani>"
+	"there" iAdv <tr> Adv Lok @CL-ADVL> #1->2
+"<nivingavunga>"
+	"hang" iV <tr> V Ind 1Sg @PRED #2->0
+"<,>"
+	"," CLB #3->2
+"<.>"
+	"." CLB #4->3
+
+"<malugilerparalu>"
+	"notice" Sem/notice iV <tr> "begin" Sem/begin iV <tr> V Ind 1Sg 3SgO CONJ-LU @PRED #1->0
+"<anniaatima>"
+	"pain" Sem/percep-f iN <tr> N Rel Pl 1SgPoss @SUBJ> #2->5
+"<aliasuutimalu>"
+	"mourn" iSem/show_emot iV <tr> UTE Der/vn Sem/ac Gram/Conj-encl N Rel Pl 1SgPoss CONJ-LU @SUBJ> #3->5
+"<timera>"
+	"body" Sem/anmov iN <tr> N Abs Sg 1SgPoss @OBJ> #4->5
+"<qimakkiartuleraat>"
+	"leave" Sem/leave iV <tr> "go to" Sem/move_dir iV <tr> "begin" Sem/begin iV <tr> V Par 3Pl 3SgO @CL-<CIT #5->1
+"<.>"
+	"." CLB #6->5
+</s>
+
 <s id="07xqMcgnaSnpqBTROZLUujxMqeg">
 "<Anaanaga>"
 	"mother" Sem/Hfam iN <tr> N Abs Sg 1SgPoss @SUBJ> #1->2
@@ -2932,30 +2956,6 @@
 	"." CLB #2->1
 </s>
 
-<s id="FbgvrOCXiBzcSpB5HxBFutxeYww">
-"<Tassani>"
-	"there" iAdv <tr> Adv Lok @CL-ADVL> #1->2
-"<nivingavunga>"
-	"hang" iV <tr> V Ind 1Sg @PRED #2->0
-"<,>"
-	"," CLB #3->2
-"<.>"
-	"." CLB #4->3
-
-"<malugilerparalu>"
-	"notice" Sem/notice iV <tr> "begin" Sem/begin iV <tr> V Ind 1Sg 3SgO CONJ-LU @PRED #1->0
-"<anniaatiga>"
-	"pain" Sem/percep-f iN <tr> N Abs Sg 1SgPoss @SUBJ> #2->5
-"<aliasuutigalu>"
-	"mourn" iSem/show_emot iV <tr> UTE Der/vn Sem/ac Gram/Conj-encl N Abs Sg 1SgPoss CONJ-LU @SUBJ> #3->5
-"<timera>"
-	"body" Sem/anmov iN <tr> N Abs Sg 1SgPoss @OBJ> #4->5
-"<qimakkiartuleraat>"
-	"leave" Sem/leave iV <tr> "go to" Sem/move_dir iV <tr> "begin" Sem/begin iV <tr> V Par 3Pl 3SgO @CL-<CIT #5->1
-"<.>"
-	"." CLB #6->5
-</s>
-
 <s id="FcSHWxtt6ENJHXUotU1pLnp87F4">
 "<Oqaaseqatigiilli>"
 	"sentence" Sem/ac-cat iN <tr> N Abs Pl CONJ-LI @OBJ> #1->2
@@ -3885,11 +3885,8 @@
 	"”" PUNCT RIGHT DIRTALESTART #1->0
 "<Tusarnaarpinga>"
 	"listen to" Sem/listen iV <tr> V Int 2Sg 1SgO @PRED #2->0
-"<?>"
-	"?" CLB DIRTALEMIDDLE DIRTALEMIDDLE #3->2
-
-"<?>"
-	"?" CLB #1->0
+"<??>"
+	"?" CLB Heur/Merged DIRTALEMIDDLE DIRTALEMIDDLE #3->2
 
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->0
@@ -6533,15 +6530,12 @@
 "<Uanga>"
 	"I" iPron <tr> Pron Abs 1Sg @HNOUN #2->0
 "<!>"
-	"!" CLB DIRTALEMIDDLE DIRTALEMIDDLE DIRTALEMIDDLE #3->2
+	"!" CLB DIRTALEMIDDLE DIRTALEMIDDLE #3->2
 
 "<Uanga>"
 	"I" iPron <tr> Pron Abs 1Sg @HNOUN #1->0
-"<...>"
-	"..." CLB #2->1
-
-"<!>"
-	"!" CLB #1->0
+"<...!>"
+	"..." CLB Heur/Merged #2->1
 
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->0
@@ -6865,6 +6859,27 @@
 	"tie" iSem/fasten iV <tr> QQISSAAR Der/vv Gram/TV V Ind 1Sg 3SgO @PRED #4->0
 "<.>"
 	"." CLB #5->4
+</s>
+
+<s id="XDAbPvvEbZ0GQBqYRRpxE6iQYE8">
+"<Mikip>"
+	"Miki" Dial/Vgr Sem/Mask Sem/Hum Prop Rel Sg @SUBJ> #1->7
+"<sapinngisaminik>"
+	"the best one is able to" Sem/ax iN <tr> N Ins Sg 4SgPoss @ADVL> #2->7
+"<timini>"
+	"body" Sem/anmov iN <tr> N Abs Sg 4SgPoss @OBJ> #3->7
+"<suli>"
+	"still" Adv <tr> Adv @i-ADVL> #4->6
+"<uteqattaarnissaminut>"
+	"rock back and forth" iSem/moveS_local iV <tr> NIQ Der/vn "future" Sem/event Adj <tr> N Trm Sg 4SgPoss @i-ADVL> #5->6
+"<pisariaqartitsigaluartoq>"
+	"need" iSem/require iV <tr> HTR Der/vv Gram/IV iSem/cause "actually" iAdv <tr> "that which" Sem/cc iN <tr> N Abs Sg @N< #6->3
+"<aqunniarsarivaa>"
+	"aqup" Gram/TV iSem/handle NIARSARE Der/vv Gram/TV V Ind 3Sg 3SgO Orth/Alt @PRED #7->0
+	"aqup" Gram/TV iSem/run_obj NIARSARE Der/vv Gram/TV V Ind 3Sg 3SgO Orth/Alt @PRED #7->0
+	"aqup" Gram/TV iSem/steer NIARSARE Der/vv Gram/TV V Ind 3Sg 3SgO Orth/Alt @PRED #7->0
+"<.>"
+	"." CLB #8->7
 </s>
 
 <s id="XHEHG8zwqxC8ZYXgGVKczmKWZpU">
@@ -7263,11 +7278,8 @@
 	"”" PUNCT RIGHT DIRTALESTART #1->0
 "<Taamaasiorunnaarniarit>"
 	"do so" iSem/do iV <tr> "no longer" iAdv <tr> NIAR Der/vv Gram/IV Sem/try_to V Imp 2Sg Gram/ImpPos @PRED #2->0
-"<!>"
-	"!" CLB DIRTALEMIDDLE DIRTALEMIDDLE #3->2
-
-"<!>"
-	"!" CLB #1->0
+"<!!>"
+	"!" CLB Heur/Merged DIRTALESLUT DIRTALESLUT #3->2
 
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->0
@@ -8250,11 +8262,8 @@
 	"why" Interj <tr> Adv #1->2
 "<uanga>"
 	"I" iPron <tr> Pron Abs 1Sg @HNOUN #2->0
-"<?>"
-	"?" CLB #3->2
-
-"<?>"
-	"?" CLB #1->0
+"<??>"
+	"?" CLB Heur/Merged #3->2
 
 "<Neriuutaaruppunga>"
 	"hope" Sem/f-psych iN <tr> "have no more" Sem/lose iV <tr> V Ind 1Sg @PRED #1->0
@@ -8793,6 +8802,21 @@
 	"fetch" iSem/take iV <tr> NIKUU Der/vv Gram/TV V Par 3Sg 1SgO @CL-<CIT #9->2
 "<.>"
 	"." CLB #10->9
+</s>
+
+<s id="hLmivN5Bg49nwTZvoLRq8MabKcE">
+"<Mikip>"
+	"Miki" Dial/Vgr Sem/Mask Sem/Hum Prop Rel Sg @SUBJ> #1->5
+"<ineeqqaminiit>"
+	"room" Sem/Lh iN <tr> N Abl Sg 4SgPoss #2->1
+"<anaanani>"
+	"mother" Sem/Hfam iN <tr> N Abs Sg 4SgPoss @SUBJ> #3->4
+"<erruisoq>"
+	"do the dishes" Sem/clean iV <tr> V Par 3Sg @CL-CIT> #4->5
+"<tusarnaarpaa>"
+	"listen to" Sem/listen iV <tr> V Ind 3Sg 3SgO @PRED #5->0
+"<.>"
+	"." CLB #6->5
 </s>
 
 <s id="hUxhJx174QQwO6q2Y5Sg62x6Qhg">
@@ -10128,27 +10152,6 @@
 	"." CLB #2->1
 </s>
 
-<s id="pwA4t2ywEqFE2P6Aa9x1S59hFfE">
-"<Miki>"
-	"Miki" Dial/Vgr Sem/Mask Sem/Hum Prop Abs Sg @SUBJ> #1->7
-"<sapinngisaminik>"
-	"the best one is able to" Sem/ax iN <tr> N Ins Sg 4SgPoss @ADVL> #2->7
-"<timini>"
-	"body" Sem/anmov iN <tr> N Abs Sg 4SgPoss @OBJ> #3->7
-"<suli>"
-	"still" Adv <tr> Adv @i-ADVL> #4->6
-"<uteqattaarnissaminut>"
-	"rock back and forth" iSem/moveS_local iV <tr> NIQ Der/vn "future" Sem/event Adj <tr> N Trm Sg 4SgPoss @i-ADVL> #5->6
-"<pisariaqartitsigaluartoq>"
-	"need" iSem/require iV <tr> HTR Der/vv Gram/IV iSem/cause "actually" iAdv <tr> "that which" Sem/cc iN <tr> N Abs Sg @N< #6->3
-"<aqunniarsarivaa>"
-	"aqup" Gram/TV iSem/handle NIARSARE Der/vv Gram/TV V Ind 3Sg 3SgO Orth/Alt @PRED #7->0
-	"aqup" Gram/TV iSem/run_obj NIARSARE Der/vv Gram/TV V Ind 3Sg 3SgO Orth/Alt @PRED #7->0
-	"aqup" Gram/TV iSem/steer NIARSARE Der/vv Gram/TV V Ind 3Sg 3SgO Orth/Alt @PRED #7->0
-"<.>"
-	"." CLB #8->7
-</s>
-
 <s id="pyv6HxkkN06dHxTUu2igmusy6f8">
 "<Angakkussarsuaq>"
 	"shaman" Sem/Hideo iN <tr> "future" Sem/event Adj <tr> "large" Sem/f Adj <tr> N Abs Sg @HNOUN #1->0
@@ -10315,18 +10318,15 @@
 
 "<Suallaatigissagakku>"
 	"suallap" Gram/IV UTE Der/vn "have as" iSem/have iV <tr> SSA Der/vv Gram/TV Sem/must V Cau 2Sg 3SgO @PRED #1->0
-"<?>"
-	"?" CLB #2->1
-
-"<!>"
-	"!" CLB #1->0
+"<?!>"
+	"?" CLB Heur/Merged #2->1
 
 "<Angutipalaaq>"
-	"man" iSem/H iN <tr> PALAAQ Der/nn N Abs Sg @SUBJ> #1->3
+	"man" iSem/H iN <tr> PALAAQ Der/nn N Abs Sg @HNOUN #1->0
 "<arnanut>"
 	"arnaq" Sem/sem-r N Trm Pl @MIK-OBJ> #2->3
 "<atornerluiniartartoq>"
-	"abuse" iSem/use iV <tr> HTR Der/vv Gram/IV NIAR Der/vv iSem/try_to TAR Der/vv Gram/IV Sem/do V Par 3Sg @PRED #3->0
+	"abuse" iSem/use iV <tr> HTR Der/vv Gram/IV NIAR Der/vv iSem/try_to TAR Der/vv Gram/IV iSem/do "one who" Sem/H iN <tr> N Abs Sg @N< #3->1
 "<!>"
 	"!" CLB #4->3
 
@@ -10684,15 +10684,12 @@
 "<TAAMAASIORUNNAARNIARIT>"
 	"do so" iSem/do iV <tr> "no longer" iAdv <tr> NIAR Der/vv Gram/IV Sem/try_to V Imp 2Sg Gram/ImpPos @PRED #1->0
 "<!>"
-	"!" CLB DIRTALEMIDDLE #2->1
+	"!" CLB #2->1
 
 "<Suinnarpinuna>"
 	"do what" Sem/do iV <tr> "only" iAdv <tr> V Int 2Sg UNA @PRED #1->0
-"<?>"
-	"?" CLB #2->1
-
-"<?>"
-	"?" CLB #1->0
+"<??>"
+	"?" CLB Heur/Merged #2->1
 
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->0
@@ -11765,21 +11762,6 @@
 	"save" iSem/help iV <tr> NIQAR Der/vv Gram/IV iSem/help "can" Sem/can iV <tr> "not" iAdv <tr> V Par 3Sg @CL-<CIT #4->2
 "<.>"
 	"." CLB #5->4
-</s>
-
-<s id="xUIixPHED3qQmPGjEWVDoEbQIS8">
-"<Miki>"
-	"Miki" Dial/Vgr Sem/Mask Sem/Hum Prop Abs Sg @SUBJ> #1->5
-"<ineeqqaminiit>"
-	"room" Sem/Lh iN <tr> N Abl Sg 4SgPoss #2->1
-"<anaanani>"
-	"mother" Sem/Hfam iN <tr> N Abs Sg 4SgPoss @SUBJ> #3->4
-"<erruisoq>"
-	"do the dishes" Sem/clean iV <tr> V Par 3Sg @CL-CIT> #4->5
-"<tusarnaarpaa>"
-	"listen to" Sem/listen iV <tr> V Ind 3Sg 3SgO @PRED #5->0
-"<.>"
-	"." CLB #6->5
 </s>
 
 <s id="xUTFzx8pnlgSNX8JPVOefWxFJYY">
