@@ -1806,12 +1806,12 @@
 
 <s id="9vnM6c4TKQWE4UTmXTiTB4owVbI">
 "<Anaanaga>"
-	"mother" Sem/Hfam iN N Abs Sg "my" @VOK #1->0
+	"mother" Sem/Hfam iN N Abs Sg "my" @HNOUN #1->0
 "<...>"
 	"..." CLB #2->1
 
 "<Anaanaga>"
-	"mother" Sem/Hfam iN N Abs Sg "my" @VOK #1->0
+	"mother" Sem/Hfam iN N Abs Sg "my" @HNOUN #1->0
 "<...>"
 	"..." CLB #2->1
 
@@ -1820,11 +1820,11 @@
 "<,>"
 	"..." CLB/... CLB #2->1
 "<tassalu>"
-	"it is" Part Adv ADV-LU @PRED #3->0
+	"it is" Part Adv ADV-LU @CL-ADVL> #3->5
 "<oqaaseqatigiit>"
 	"sentence" Sem/ac-cat iN N Abs Pl @OBJ> #4->5
 "<naasinnaanagit>"
-	"end" Sem/end iV "can" Sem/can iV V ContNeg @i-SUBJ_COMP< #5->3
+	"end" Sem/end iV "can" Sem/can iV V ContNeg @PRED #5->0
 "<.>"
 	"." CLB #6->5
 </s>
@@ -2127,7 +2127,7 @@
 	"." CLB #9->8
 
 "<Uiga>"
-	"husband" Sem/Hfam iN N Abs Sg "my" @VOK #1->0
+	"husband" Sem/Hfam iN N Abs Sg "my" @HNOUN #1->0
 "<,>"
 	"..." CLB/... CLB #2->1
 "<anaanagalu>"
@@ -2135,8 +2135,8 @@
 "<siniffitsinni>"
 	"bed" Sem/furn iN N "in" Sg "our" @i-ADVL> #4->5
 "<marluusut>"
-	"two" iSem/ac-sign iNum U iSem/be_attribute "one who" Sem/H iN N Abs Pl @HNOUN #5->0
-	"two" iSem/ac-sign iNum U iSem/be_attribute "that which" Sem/cc iN N Abs Pl @HNOUN #5->0
+	"two" iSem/ac-sign iNum U iSem/be_attribute "one who" Sem/H iN N Abs Pl @N< #5->3
+	"two" iSem/ac-sign iNum U iSem/be_attribute "that which" Sem/cc iN N Abs Pl @N< #5->3
 "<.>"
 	"." CLB #6->5
 </s>
@@ -2773,7 +2773,7 @@
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->0
 "<Aappi>"
-	"yes" Sem/act-s Part Interj @INTERJ #2->1
+	"yes" Sem/act-s Part Interj @INTERJ #2->0
 "<.>"
 	"." CLB #3->2
 
@@ -3942,7 +3942,7 @@
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->0
 "<Qaa>"
-	"come on" Interj Interj @INTERJ #2->1
+	"come on" Interj Interj @INTERJ #2->0
 "<.>"
 	"." CLB #3->2
 
@@ -3975,7 +3975,7 @@
 "<unnugu>"
 	"this evening" Adv Adv @CL-ADVL> #1->3
 "<mamakujuttunik>"
-	"candy" Sem/food-m-h iN N Ins Pl @ADVL> #2->3
+	"candy" Sem/food-m-h iN N Ins Pl @i->N #2->3
 "<sutorniaravit>"
 	"sutor" iSem/eat NIAR Sem/try_to V "when/because" "you" @PRED #3->0
 "<?>"
@@ -4917,7 +4917,7 @@
 "<Tuattunnguaq>"
 	"be slender" iSem/be_attribute iV TUQ iSem/f-phys-h "little" Sem/f Adj N Abs Sg @HNOUN #1->0
 "<nallinnartorlu>"
-	"nallip" iSem/help "be" iSem/be_copula iV TUQ Sem/Hprof N Abs Sg "and" @N< #2->1
+	"be pitiable" iSem/be_attribute iV TUQ Sem/Hprof N Abs Sg "and" @N< #2->1
 "<,>"
 	"," CLB #3->2
 "<anaanama>"
@@ -5004,7 +5004,7 @@
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->0
 "<Aappi>"
-	"yes" Sem/act-s Part Interj @INTERJ #2->1
+	"yes" Sem/act-s Part Interj @INTERJ #2->0
 "<.>"
 	"." CLB #3->2
 
@@ -6414,7 +6414,7 @@
 "<siunissaq>"
 	"future" Sem/temp iN N Abs Sg @ADVL> #1->4
 "<sussaq>"
-	"sussaq" Interj @INTERJ #2->1
+	"sussaq" Interj @INTERJ #2->0
 "<imigassamik>"
 	"drink" Sem/drink-c-h iN N Ins Sg @i->N #3->4
 "<inuuneqaannarluni>"
@@ -7330,7 +7330,7 @@
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->0
 "<Igg>"
-	"how cute" Interj Interj @INTERJ #2->1
+	"how cute" Interj Interj @INTERJ #2->0
 "<.>"
 	"." CLB #3->2
 
@@ -7482,7 +7482,7 @@
 "<”>"
 	"”" PUNCT RIGHT #4->3
 "<okay>"
-	"okay" Interj @INTERJ #5->4
+	"okay" Interj @INTERJ #5->0
 "<,>"
 	"..." CLB/... CLB #6->5
 "<.>"
@@ -7529,7 +7529,7 @@
 "<tamaasa>"
 	"all" Sem/am iN N Akk @OBJ> #3->4
 "<pisuussutigalugit>"
-	"guilt" Sem/f-psych iN "have as" Sem/have iV V Cont @PRED #4->0
+	"be guilty of" Sem/detriment iV V Cont @PRED #4->0
 "<!>"
 	"!" CLB #5->4
 </s>
@@ -8320,7 +8320,7 @@
 "<isigilerpaanga>"
 	"look at" Sem/watch iV "begin" Sem/begin iV V Ind "he/she/it" "me" @PRED #7->0
 "<sivisuumik>"
-	"sivisooq" Sem/temp N Ins Sg @ADVL> #8->9
+	"for a long time" iAdv N Ins Sg @ADVL> #8->9
 "<oqassanani>"
 	"say" iSem/say iV SSA Sem/must V ContNeg @<ADVL #9->7
 "<.>"

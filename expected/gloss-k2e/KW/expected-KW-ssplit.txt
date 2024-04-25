@@ -1847,12 +1847,12 @@
 
 <s id="9vnM6c4TKQWE4UTmXTiTB4owVbI">
 "<Anaanaga>"
-	"anaana" Sem/Hfam N Abs Sg 1SgPoss @VOK #1->0
+	"anaana" Sem/Hfam N Abs Sg 1SgPoss @HNOUN #1->0
 "<...>"
 	"..." CLB #2->1
 
 "<Anaanaga>"
-	"anaana" Sem/Hfam N Abs Sg 1SgPoss @VOK #1->0
+	"anaana" Sem/Hfam N Abs Sg 1SgPoss @HNOUN #1->0
 "<...>"
 	"..." CLB #2->1
 
@@ -1861,12 +1861,12 @@
 "<,>"
 	"..." CLB/... CLB #2->1
 "<tassalu>"
-	"tassa" Gram/Adv-encl Adv ADV-LU @PRED #3->0
+	"tassa" Gram/Adv-encl Adv ADV-LU @CL-ADVL> #3->5
 "<oqaaseqatigiit>"
 	"oqaaseq" iSem/ac QATE Der/nn iSem/H GIIT Der/nn Sem/ac-cat N Abs Pl @OBJ> #4->5
 	"oqaaseq" iSem/ac-cat QATE Der/nn iSem/H GIIT Der/nn Sem/ac-cat N Abs Pl @OBJ> #4->5
 "<naasinnaanagit>"
-	"naa" Gram/TV iSem/end SINNAA Der/vv Gram/TV Sem/can V ContNeg 3PlO @i-SUBJ_COMP< #5->3
+	"naa" Gram/TV iSem/end SINNAA Der/vv Gram/TV Sem/can V ContNeg 3PlO @PRED #5->0
 "<.>"
 	"." CLB #6->5
 </s>
@@ -2173,7 +2173,7 @@
 	"." CLB #9->8
 
 "<Uiga>"
-	"ui" Sem/Hfam N Abs Sg 1SgPoss @VOK #1->0
+	"ui" Sem/Hfam N Abs Sg 1SgPoss @HNOUN #1->0
 "<,>"
 	"..." CLB/... CLB #2->1
 "<anaanagalu>"
@@ -2181,8 +2181,8 @@
 "<siniffitsinni>"
 	"sinip" Gram/IV iSem/bodystate VIK Der/vn Sem/furn N Lok Sg 1PlPoss @i-ADVL> #4->5
 "<marluusut>"
-	"marluk" iSem/ac-sign U Der/nv Gram/IV iSem/be_attribute TUQ Der/vn Sem/H N Abs Pl @HNOUN #5->0
-	"marluk" iSem/ac-sign U Der/nv Gram/IV iSem/be_attribute TUQ Der/vn Sem/cc N Abs Pl @HNOUN #5->0
+	"marluk" iSem/ac-sign U Der/nv Gram/IV iSem/be_attribute TUQ Der/vn Sem/H N Abs Pl @N< #5->3
+	"marluk" iSem/ac-sign U Der/nv Gram/IV iSem/be_attribute TUQ Der/vn Sem/cc N Abs Pl @N< #5->3
 "<.>"
 	"." CLB #6->5
 </s>
@@ -2829,7 +2829,7 @@
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->0
 "<Aappi>"
-	"aappi" Interj @INTERJ #2->1
+	"aappi" Interj @INTERJ #2->0
 "<.>"
 	"." CLB #3->2
 
@@ -4036,7 +4036,7 @@
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->0
 "<Qaa>"
-	"qaa" Interj @INTERJ #2->1
+	"qaa" Interj @INTERJ #2->0
 "<.>"
 	"." CLB #3->2
 
@@ -4069,7 +4069,7 @@
 "<unnugu>"
 	"unnugu" Adv @CL-ADVL> #1->3
 "<mamakujuttunik>"
-	"mamar" Gram/IV iSem/stimulus_subj KUJUP Der/vv Gram/IV TUQ Der/vn Sem/food-m-h N Ins Pl @ADVL> #2->3
+	"mamar" Gram/IV iSem/stimulus_subj KUJUP Der/vv Gram/IV TUQ Der/vn Sem/food-m-h N Ins Pl @i->N #2->3
 "<sutorniaravit>"
 	"sutor" Gram/IV iSem/eat NIAR Der/vv Gram/IV Sem/try_to V Cau 2Sg @PRED #3->0
 "<?>"
@@ -5115,7 +5115,7 @@
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->0
 "<Aappi>"
-	"aappi" Interj @INTERJ #2->1
+	"aappi" Interj @INTERJ #2->0
 "<.>"
 	"." CLB #3->2
 
@@ -6579,7 +6579,7 @@
 	"siuneq" iSem/f-an SSAQ Der/nn Sem/temp N Abs Sg @ADVL> #1->4
 	"siuneq" iSem/per SSAQ Der/nn Sem/temp N Abs Sg @ADVL> #1->4
 "<sussaq>"
-	"sussaq" Interj @INTERJ #2->1
+	"sussaq" Interj @INTERJ #2->0
 "<imigassamik>"
 	"imer" Gram/TV iSem/vdrink TAQ Der/vn iSem/ac SSAQ Der/nn Sem/drink-m-h N Ins Sg @i->N #3->4
 "<inuuneqaannarluni>"
@@ -7518,7 +7518,7 @@
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->0
 "<Igg>"
-	"igg" Interj @INTERJ #2->1
+	"igg" Interj @INTERJ #2->0
 "<.>"
 	"." CLB #3->2
 
@@ -7671,7 +7671,7 @@
 "<”>"
 	"”" PUNCT RIGHT #4->3
 "<okay>"
-	"okay" Interj @INTERJ #5->4
+	"okay" Interj @INTERJ #5->0
 "<,>"
 	"..." CLB/... CLB #6->5
 "<.>"
@@ -7719,10 +7719,10 @@
 "<tamaasa>"
 	"tamaq" Sem/ac N Gram/Cong Akk 3Pl @OBJ> #3->4
 "<pisuussutigalugit>"
-	"pi" Gram/IV iSem/get TUQ Der/vn iSem/H U Der/nv Gram/IV iSem/be_copula UTE Der/vn iSem/f-psych GE Der/nv Gram/TV Sem/have V Cont 3PlO @PRED #4->0
-	"pi" Gram/IV iSem/get TUQ Der/vn iSem/cc U Der/nv Gram/IV iSem/be_copula UTE Der/vn iSem/f-psych GE Der/nv Gram/TV Sem/have V Cont 3PlO @PRED #4->0
-	"pi" Gram/IV iSem/occur TUQ Der/vn iSem/H U Der/nv Gram/IV iSem/be_copula UTE Der/vn iSem/f-psych GE Der/nv Gram/TV Sem/have V Cont 3PlO @PRED #4->0
-	"pi" Gram/IV iSem/occur TUQ Der/vn iSem/cc U Der/nv Gram/IV iSem/be_copula UTE Der/vn iSem/f-psych GE Der/nv Gram/TV Sem/have V Cont 3PlO @PRED #4->0
+	"pi" Gram/IV iSem/get TUQ Der/vn iSem/H U Der/nv Gram/IV iSem/be_copula UTE Der/vn GE Der/nv Gram/TV Sem/detriment V Cont 3PlO @PRED #4->0
+	"pi" Gram/IV iSem/get TUQ Der/vn iSem/cc U Der/nv Gram/IV iSem/be_copula UTE Der/vn GE Der/nv Gram/TV Sem/detriment V Cont 3PlO @PRED #4->0
+	"pi" Gram/IV iSem/occur TUQ Der/vn iSem/H U Der/nv Gram/IV iSem/be_copula UTE Der/vn GE Der/nv Gram/TV Sem/detriment V Cont 3PlO @PRED #4->0
+	"pi" Gram/IV iSem/occur TUQ Der/vn iSem/cc U Der/nv Gram/IV iSem/be_copula UTE Der/vn GE Der/nv Gram/TV Sem/detriment V Cont 3PlO @PRED #4->0
 "<!>"
 	"!" CLB #5->4
 </s>

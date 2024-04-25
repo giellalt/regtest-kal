@@ -1763,12 +1763,12 @@
 
 <s id="9vnM6c4TKQWE4UTmXTiTB4owVbI">
 "<Anaanaga>"
-	"anaana" Sem/Hfam N Abs Sg 1SgPoss @VOK
+	"anaana" Sem/Hfam N Abs Sg 1SgPoss @HNOUN
 "<...>"
 	"..." CLB
 
 "<Anaanaga>"
-	"anaana" Sem/Hfam N Abs Sg 1SgPoss @VOK
+	"anaana" Sem/Hfam N Abs Sg 1SgPoss @HNOUN
 "<...>"
 	"..." CLB
 
@@ -1777,12 +1777,12 @@
 "<,>"
 	"..." CLB/... CLB
 "<tassalu>"
-	"tassa" Gram/Adv-encl Adv ADV-LU @PRED
+	"tassa" Gram/Adv-encl Adv ADV-LU @CL-ADVL>
 "<oqaaseqatigiit>"
 	"oqaaseq" iSem/ac QATE Der/nn iSem/H GIIT Der/nn Sem/ac-cat N Abs Pl %ContHypotagme @OBJ>
 	"oqaaseq" iSem/ac-cat QATE Der/nn iSem/H GIIT Der/nn Sem/ac-cat N Abs Pl %ContHypotagme @OBJ>
 "<naasinnaanagit>"
-	"naa" Gram/TV iSem/end SINNAA Der/vv Gram/TV Sem/can V ContNeg 3PlO %ContHypotagme @i-SUBJ_COMP<
+	"naa" Gram/TV iSem/end SINNAA Der/vv Gram/TV Sem/can V ContNeg 3PlO %ContHypotagme @PRED
 "<.>"
 	"." CLB
 </s>
@@ -2080,7 +2080,7 @@
 	"." CLB
 
 "<Uiga>"
-	"ui" Sem/Hfam N Abs Sg 1SgPoss @VOK
+	"ui" Sem/Hfam N Abs Sg 1SgPoss @HNOUN
 "<,>"
 	"..." CLB/... CLB
 "<anaanagalu>"
@@ -2088,8 +2088,8 @@
 "<siniffitsinni>"
 	"sinip" Gram/IV iSem/bodystate VIK Der/vn Sem/furn N Lok Sg 1PlPoss @i-ADVL>
 "<marluusut>"
-	"marluk" iSem/ac-sign U Der/nv Gram/IV iSem/be_attribute TUQ Der/vn Sem/H N Abs Pl @HNOUN
-	"marluk" iSem/ac-sign U Der/nv Gram/IV iSem/be_attribute TUQ Der/vn Sem/cc N Abs Pl @HNOUN
+	"marluk" iSem/ac-sign U Der/nv Gram/IV iSem/be_attribute TUQ Der/vn Sem/H N Abs Pl @N<
+	"marluk" iSem/ac-sign U Der/nv Gram/IV iSem/be_attribute TUQ Der/vn Sem/cc N Abs Pl @N<
 "<.>"
 	"." CLB
 </s>
@@ -3907,7 +3907,7 @@
 "<unnugu>"
 	"unnugu" Adv @CL-ADVL>
 "<mamakujuttunik>"
-	"mamar" Gram/IV iSem/stimulus_subj KUJUP Der/vv Gram/IV TUQ Der/vn Sem/food-m-h N Ins Pl @ADVL>
+	"mamar" Gram/IV iSem/stimulus_subj KUJUP Der/vv Gram/IV TUQ Der/vn Sem/food-m-h N Ins Pl @i->N
 "<sutorniaravit>"
 	"sutor" Gram/IV iSem/eat NIAR Der/vv Gram/IV Sem/try_to V Cau 2Sg @PRED
 "<?>"
@@ -7413,10 +7413,10 @@
 "<tamaasa>"
 	"tamaq" Sem/ac N Gram/Cong Akk 3Pl @OBJ>
 "<pisuussutigalugit>"
-	"pi" Gram/IV iSem/get TUQ Der/vn iSem/H U Der/nv Gram/IV iSem/be_copula UTE Der/vn iSem/f-psych GE Der/nv Gram/TV Sem/have V Cont 3PlO @PRED
-	"pi" Gram/IV iSem/get TUQ Der/vn iSem/cc U Der/nv Gram/IV iSem/be_copula UTE Der/vn iSem/f-psych GE Der/nv Gram/TV Sem/have V Cont 3PlO @PRED
-	"pi" Gram/IV iSem/occur TUQ Der/vn iSem/H U Der/nv Gram/IV iSem/be_copula UTE Der/vn iSem/f-psych GE Der/nv Gram/TV Sem/have V Cont 3PlO @PRED
-	"pi" Gram/IV iSem/occur TUQ Der/vn iSem/cc U Der/nv Gram/IV iSem/be_copula UTE Der/vn iSem/f-psych GE Der/nv Gram/TV Sem/have V Cont 3PlO @PRED
+	"pi" Gram/IV iSem/get TUQ Der/vn iSem/H U Der/nv Gram/IV iSem/be_copula UTE Der/vn GE Der/nv Gram/TV Sem/detriment V Cont 3PlO @PRED
+	"pi" Gram/IV iSem/get TUQ Der/vn iSem/cc U Der/nv Gram/IV iSem/be_copula UTE Der/vn GE Der/nv Gram/TV Sem/detriment V Cont 3PlO @PRED
+	"pi" Gram/IV iSem/occur TUQ Der/vn iSem/H U Der/nv Gram/IV iSem/be_copula UTE Der/vn GE Der/nv Gram/TV Sem/detriment V Cont 3PlO @PRED
+	"pi" Gram/IV iSem/occur TUQ Der/vn iSem/cc U Der/nv Gram/IV iSem/be_copula UTE Der/vn GE Der/nv Gram/TV Sem/detriment V Cont 3PlO @PRED
 "<!>"
 	"!" CLB
 </s>
