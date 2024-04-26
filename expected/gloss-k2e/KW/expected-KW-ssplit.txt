@@ -6357,12 +6357,12 @@
 "<,>"
 	"," CLB #3->2
 "<inuk>"
-	"inuk" Sem/H N Abs Sg #4->3
+	"inuk" Sem/H N Abs Sg @>N #4->5
 "<kisima>"
-	"kisi" Sem/jquant N Gram/Cong Nom 1Sg #5->4
+	"kisi" Sem/jquant N Gram/Cong Nom 1Sg @SUBJ> #5->6
 "<nipangissananga>"
-	"nipanger" Gram/IV iSem/decrease SSA Der/vv Gram/IV Sem/must V ContNeg 1Sg @i-ADVL> #6->7
-	"nipanger" Gram/IV iSem/vtalk SSA Der/vv Gram/IV Sem/must V ContNeg 1Sg @i-ADVL> #6->7
+	"nipanger" Gram/IV iSem/decrease SSA Der/vv Gram/IV Sem/must V ContNeg 1Sg @<ADVL #6->2
+	"nipanger" Gram/IV iSem/vtalk SSA Der/vv Gram/IV Sem/must V ContNeg 1Sg @<ADVL #6->2
 "<nipikitsumik>"
 	"nipi" iSem/f-phys-h KIP Der/nv Gram/IV TUQ Der/vn Sem/cc-h N Ins Sg @i-ADVL> #7->9
 "<niaqunniittut>"
@@ -7361,7 +7361,7 @@
 "<uannut>"
 	"uanga" Gram/Pers Pron Trm 1Sg @i-ADVL> #10->11
 "<oqimaaloqutaatigineri>"
-	"oqimaaloqutaq" iSem/ac U Der/nv Gram/IV iSem/be_copula TIGE Der/vv Gram/IV NIQ Der/vn N Abs Pl 3PlPoss @<OBJ #11->3
+	"oqimaaloqutaq" iSem/ac U Der/nv Gram/IV iSem/be_copula TIGE Der/vv Gram/IV NIQ Der/vn N Abs Pl 3PlPoss @HNOUN #11->0
 "<.>"
 	"." CLB #12->11
 </s>
@@ -12740,19 +12740,19 @@
 	"pikkorip" Gram/IV iSem/be_attribute SAR Der/vv Gram/TV Gram/Refl iSem/study VIK Der/vn iSem/L GE Der/nv Gram/TV iSem/have TAR Der/vv Gram/TV iSem/do SIMA Der/vv V Ind 1Sg 3PlO @PRED #4->0
 	"pikkorip" Gram/IV iSem/be_attribute SAR Der/vv Gram/TV Gram/Refl iSem/study VIK Der/vn iSem/temp GE Der/nv Gram/TV iSem/have TAR Der/vv Gram/TV iSem/do SIMA Der/vv V Ind 1Sg 3PlO @PRED #4->0
 "<unnuamut>"
-	"unnuaq" Sem/temp N Trm Sg @ADVL> #5->13
+	"unnuaq" Sem/temp N Trm Sg @ADVL> #5->6
 "<eqqissillunga>"
 	"eqqissi" Gram/IV Sem/change_bodystate V Cont 1Sg @ADVL> #6->7
 "<sinissinnaassanerlunga>"
 	"sinip" Gram/IV iSem/bodystate SINNAA Der/vv Gram/IV iSem/can SSA Der/vv Gram/IV iSem/must NIR Der/vv Gram/IV V Cont 1Sg @<ADVL #7->4
 "<imaluunniit>"
-	"imaluunniit" Conj @CONJ #8->7
+	"imaluunniit" Conj @CONJ #8->13
 "<piareersimaannavillunga>"
 	"piareer" Gram/TV SIMA Der/vv Gram/Pass Gram/IV INNAR Der/vv iSem/persist VIP Der/vv Gram/IV V Cont 1Sg @ADVL> #9->11
 "<iluamik>"
 	"iluamik" Adv @ADVL> #10->11
 "<sinissinnaananga>"
-	"sinip" Gram/IV iSem/bodystate SINNAA Der/vv Gram/IV Sem/can V ContNeg 1Sg @<ADVL #11->4
+	"sinip" Gram/IV iSem/bodystate SINNAA Der/vv Gram/IV Sem/can V ContNeg 1Sg @ADVL> #11->13
 "<unnuaq>"
 	"unnuaq" Sem/temp N Abs Sg @OBJ> #12->13
 "<atussanerlugu>"

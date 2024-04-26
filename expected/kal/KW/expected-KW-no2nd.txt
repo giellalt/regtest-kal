@@ -5741,11 +5741,11 @@
 "<,>"
 	"," CLB #3->3
 "<inuk>"
-	"inuk" N Abs Sg #4->4
+	"inuk" N Abs Sg @>N #4->5
 "<kisima>"
-	"kisi" N Nom 1Sg #5->5
+	"kisi" N Nom 1Sg @SUBJ> #5->6
 "<nipangissananga>"
-	"nipanger" SSA V ContNeg 1Sg @i-ADVL> #6->7
+	"nipanger" SSA V ContNeg 1Sg @<ADVL #6->2
 "<nipikitsumik>"
 	"nipi" KIP TUQ N Ins Sg @i-ADVL> #7->9
 "<niaqunniittut>"
@@ -6643,7 +6643,7 @@
 "<uannut>"
 	"uanga" Pron Trm 1Sg @i-ADVL> #10->11
 "<oqimaaloqutaatigineri>"
-	"oqimaaloqutaq" U TIGE NIQ N Abs Pl 3PlPoss #11->11
+	"oqimaaloqutaq" U TIGE NIQ N Abs Pl 3PlPoss @HNOUN #11->0
 "<.>"
 	"." CLB #12->12
 </s>
@@ -11550,19 +11550,19 @@
 "<pikkorissarfigisarsimavakka>"
 	"pikkorip" SAR VIK GE TAR SIMA V Ind 1Sg 3PlO @PRED #4->0
 "<unnuamut>"
-	"unnuaq" N Trm Sg @ADVL> #5->13
+	"unnuaq" N Trm Sg @ADVL> #5->6
 "<eqqissillunga>"
 	"eqqissi" V Cont 1Sg @ADVL> #6->7
 "<sinissinnaassanerlunga>"
 	"sinip" SINNAA SSA NIR V Cont 1Sg @<ADVL #7->4
 "<imaluunniit>"
-	"imaluunniit" Conj @CONJ #8->11
+	"imaluunniit" Conj @CONJ #8->13
 "<piareersimaannavillunga>"
 	"piareer" SIMA INNAR VIP V Cont 1Sg @ADVL> #9->11
 "<iluamik>"
 	"iluamik" Adv @ADVL> #10->11
 "<sinissinnaananga>"
-	"sinip" SINNAA V ContNeg 1Sg @<ADVL #11->4
+	"sinip" SINNAA V ContNeg 1Sg @ADVL> #11->13
 "<unnuaq>"
 	"unnuaq" N Abs Sg @OBJ> #12->13
 "<atussanerlugu>"

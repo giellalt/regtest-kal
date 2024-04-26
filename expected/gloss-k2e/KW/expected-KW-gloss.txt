@@ -6210,12 +6210,12 @@
 "<,>"
 	"," CLB #3->2
 "<inuk>"
-	"human being" Sem/H iN <tr> N Abs Sg #4->3
+	"human being" Sem/H iN <tr> N Abs Sg @>N #4->5
 "<kisima>"
-	"I alone" Sem/jquant iN <tr> N Gram/Cong Nom 1Sg #5->4
+	"I alone" Sem/jquant iN <tr> N Gram/Cong Nom 1Sg @SUBJ> #5->6
 "<nipangissananga>"
-	"be silent" iSem/vtalk iV <tr> SSA Der/vv Gram/IV Sem/must V ContNeg 1Sg @i-ADVL> #6->7
-	"nipanger" Gram/IV iSem/decrease SSA Der/vv Gram/IV Sem/must V ContNeg 1Sg @i-ADVL> #6->7
+	"be silent" iSem/vtalk iV <tr> SSA Der/vv Gram/IV Sem/must V ContNeg 1Sg @<ADVL #6->2
+	"nipanger" Gram/IV iSem/decrease SSA Der/vv Gram/IV Sem/must V ContNeg 1Sg @<ADVL #6->2
 "<nipikitsumik>"
 	"low-voiced" Sem/cc-h Adj <tr> N Ins Sg @i-ADVL> #7->9
 "<niaqunniittut>"
@@ -7192,7 +7192,7 @@
 "<uannut>"
 	"I" iPron <tr> Pron Trm 1Sg @i-ADVL> #10->11
 "<oqimaaloqutaatigineri>"
-	"burden" iSem/cc-h iN <tr> "be" iSem/be_copula iV <tr> TIGE Der/vv Gram/IV NIQ Der/vn N Abs Pl 3PlPoss @<OBJ #11->3
+	"burden" iSem/cc-h iN <tr> "be" iSem/be_copula iV <tr> TIGE Der/vv Gram/IV NIQ Der/vn N Abs Pl 3PlPoss @HNOUN #11->0
 "<.>"
 	"." CLB #12->11
 </s>
@@ -12419,19 +12419,19 @@
 	"practise" iV <tr> "place" iSem/L iN <tr> "have as" iSem/have iV <tr> TAR Der/vv Gram/TV iSem/do SIMA Der/vv V Ind 1Sg 3PlO @PRED #4->0
 	"practise" iV <tr> "time" iSem/ac iN <tr> "have as" iSem/have iV <tr> TAR Der/vv Gram/TV iSem/do SIMA Der/vv V Ind 1Sg 3PlO @PRED #4->0
 "<unnuamut>"
-	"night" Sem/temp iN <tr> N Trm Sg @ADVL> #5->13
+	"night" Sem/temp iN <tr> N Trm Sg @ADVL> #5->6
 "<eqqissillunga>"
 	"relax" iV <tr> V Cont 1Sg @ADVL> #6->7
 "<sinissinnaassanerlunga>"
 	"sleep" iSem/bodystate iV <tr> "can" iSem/can iV <tr> SSA Der/vv Gram/IV iSem/must NIR Der/vv Gram/IV V Cont 1Sg @<ADVL #7->4
 "<imaluunniit>"
-	"or" Part <tr> Conj @CONJ #8->7
+	"or" Part <tr> Conj @CONJ #8->13
 "<piareersimaannavillunga>"
 	"be ready with" iSem/prepare iV <tr> SIMA Der/vv Gram/Pass Gram/IV "only" iAdv <tr> "completely" Sem/jdegree Adj <tr> V Cont 1Sg @ADVL> #9->11
 "<iluamik>"
 	"properly" Adv <tr> Adv @ADVL> #10->11
 "<sinissinnaananga>"
-	"sleep" Sem/bodystate iV <tr> "can" Sem/can iV <tr> V ContNeg 1Sg @<ADVL #11->4
+	"sleep" Sem/bodystate iV <tr> "can" Sem/can iV <tr> V ContNeg 1Sg @ADVL> #11->13
 "<unnuaq>"
 	"night" Sem/temp iN <tr> N Abs Sg @OBJ> #12->13
 "<atussanerlugu>"

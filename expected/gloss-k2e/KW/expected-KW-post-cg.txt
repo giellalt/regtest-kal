@@ -6206,16 +6206,16 @@
 "<Gangersuarmi>"
 	"hall" Sem/Lh iN <tr> "large" Sem/f Adj <tr> N Lok Sg @ADVL> #1->2
 "<pisuttuarujoortalerpunga>"
-	"go for a walk" iSem/run iV <tr> RUJUUR Der/vv Gram/IV TAR Der/vv Gram/IV iSem/do "begin" Sem/begin iV <tr> V Ind 1Sg @PRED #2->0
+	"go for a walk" iSem/run iV <tr> RUJUUR Der/vv Gram/IV TAR Der/vv Gram/IV iSem/do "begin" Sem/begin iV <tr> V Ind 1Sg @PRED #2->0 ID:2303
 "<,>"
 	"," CLB #3->2
 "<inuk>"
-	"human being" Sem/H iN <tr> N Abs Sg #4->3
+	"human being" Sem/H iN <tr> N Abs Sg @>N #4->5
 "<kisima>"
-	"I alone" Sem/jquant iN <tr> N Gram/Cong Nom #5->4
+	"I alone" Sem/jquant iN <tr> N Gram/Cong Nom @SUBJ> #5->6
 "<nipangissananga>"
-	"be silent" iSem/vtalk iV <tr> SSA Der/vv Gram/IV Sem/must V ContNeg 1Sg @i-ADVL> #6->7
-	"nipanger" Gram/IV iSem/decrease SSA Der/vv Gram/IV Sem/must V ContNeg 1Sg @i-ADVL> #6->7
+	"be silent" iSem/vtalk iV <tr> SSA Der/vv Gram/IV Sem/must V ContNeg _x_1Sg @<ADVL #6->2 ID:2307 R:1Sg:2303
+	"nipanger" Gram/IV iSem/decrease SSA Der/vv Gram/IV Sem/must V ContNeg _x_1Sg @<ADVL #6->2 ID:2307 R:1Sg:2303
 "<nipikitsumik>"
 	"low-voiced" Sem/cc-h Adj <tr> N Ins Sg @i-ADVL> #7->9
 "<niaqunniittut>"
@@ -6223,12 +6223,12 @@
 "<ittut>"
 	"be" Sem/be_place iV <tr> "that which" Sem/cc iN <tr> N Abs Pl Hyb/2-2 @>N #9->10
 "<nipit>"
-	"voice" Sem/f-phys-h iN <tr> N Abs Pl @OBJ> #10->12
+	"voice" Sem/f-phys-h iN <tr> N Abs Pl @OBJ> #10->12 ID:2311
 "<eqqumiitsut>"
 	"strange" Adj <tr> N Abs Pl @N< #11->10
 "<oqaluuterujoortalerlugit>"
-	"oqalup" UTE Der/vv Gram/TV iSem/speak_affect RUJUUR Der/vv TAR Der/vv iSem/do "begin" Sem/begin iV <tr> V Cont _x_1Sg _x_3PlO @<ADVL #12->2
-	"talk to" iSem/vtalk iV <tr> RUJUUR Der/vv TAR Der/vv iSem/do "begin" Sem/begin iV <tr> V Cont _x_1Sg _x_3PlO @<ADVL #12->2
+	"oqalup" UTE Der/vv Gram/TV iSem/speak_affect RUJUUR Der/vv TAR Der/vv iSem/do "begin" Sem/begin iV <tr> V Cont _x_1Sg _x_3PlO @<ADVL #12->2 ID:2313 R:3PlO:2311 R:1Sg:2303
+	"talk to" iSem/vtalk iV <tr> RUJUUR Der/vv TAR Der/vv iSem/do "begin" Sem/begin iV <tr> V Cont _x_1Sg _x_3PlO @<ADVL #12->2 ID:2313 R:3PlO:2311 R:1Sg:2303
 "<.>"
 	"." CLB #13->12
 </s>
@@ -7174,15 +7174,15 @@
 "<Qaqikkakkilli>"
 	"take out" Sem/take iV <tr> V "when/because" 1Sg 3PlO ADV-LI @CAU> #1->3
 "<oqimaassusersuisa>"
-	"weight" Sem/ac iN <tr> "large" Sem/f Adj <tr> N Rel Pl 3PlPoss @SUBJ> #2->3
+	"weight" Sem/ac iN <tr> "large" Sem/f Adj <tr> N Rel Pl 3PlPoss @SUBJ> #2->3 ID:3269
 "<misigitippaannga>"
-	"feel" iSem/notice iV <tr> TIP Der/vv Gram/Db Gram/TV Sem/cause V Ind _x_3Pl 1SgO @PRED #3->0
+	"feel" iSem/notice iV <tr> TIP Der/vv Gram/Db Gram/TV Sem/cause V Ind _x_3Pl 1SgO @PRED #3->0 ID:3270 R:3Pl:3269
 "<nunama>"
-	"country" Sem/Lciv iN <tr> N Rel Sg 1SgPoss "that" @SUBJ> #4->6
+	"country" Sem/Lciv iN <tr> N Rel Sg 1SgPoss "that" @SUBJ> #4->6 ID:3271
 "<taamaallaat>"
 	"just" Adv <tr> Adv @ADVL> #5->6
 "<artukkertaraanga>"
-	"overburden" iSem/burden iV <tr> TAR Der/vv Gram/TV Sem/do V Par _x_3Sg 1SgO #6->3
+	"overburden" iSem/burden iV <tr> TAR Der/vv Gram/TV Sem/do V Par _x_3Sg 1SgO #6->3 ID:3273 R:3Sg:3271
 "<,>"
 	"," CLB #7->6
 "<inuiaqatima>"
@@ -7192,7 +7192,7 @@
 "<uannut>"
 	"I" iPron <tr> Pron Trm _x_1Sg @i-ADVL> #10->11
 "<oqimaaloqutaatigineri>"
-	"burden" iSem/cc-h iN <tr> "be" iSem/be_copula iV <tr> "as" Der/vv Gram/IV NIQ Der/vn N Abs Pl 3PlPoss @<OBJ #11->3
+	"burden" iSem/cc-h iN <tr> "be" iSem/be_copula iV <tr> "as" Der/vv Gram/IV NIQ Der/vn N Abs Pl 3PlPoss @HNOUN #11->0
 "<.>"
 	"." CLB #12->11
 </s>
@@ -12410,32 +12410,32 @@
 
 <s id="zzov9Tv2iCYETRPSX3C62OBq8bU">
 "<Ukiorpassuit>"
-	"year" iSem/dur iN <tr> PAK Der/nn "large" Sem/f Adj <tr> N Abs Pl @OBJ> #1->4
+	"year" iSem/dur iN <tr> PAK Der/nn "large" Sem/f Adj <tr> N Abs Pl @OBJ> #1->4 ID:5311
 "<,>"
 	"," CLB #2->1
 "<unnuarpassuillu>"
 	"night" iSem/temp iN <tr> PAK Der/nn "large" Sem/f Adj <tr> N Abs Pl CONJ-LU @OBJ> #3->4
 "<pikkorissarfigisarsimavakka>"
-	"practise" iV <tr> "place" iSem/L iN <tr> "have as" iSem/have iV <tr> TAR Der/vv Gram/TV iSem/do SIMA Der/vv V Ind 1Sg _x_3PlO @PRED #4->0
-	"practise" iV <tr> "time" iSem/ac iN <tr> "have as" iSem/have iV <tr> TAR Der/vv Gram/TV iSem/do SIMA Der/vv V Ind 1Sg _x_3PlO @PRED #4->0
+	"practise" iV <tr> "place" iSem/L iN <tr> "have as" iSem/have iV <tr> TAR Der/vv Gram/TV iSem/do SIMA Der/vv V Ind 1Sg _x_3PlO @PRED #4->0 ID:5314 R:3PlO:5311
+	"practise" iV <tr> "time" iSem/ac iN <tr> "have as" iSem/have iV <tr> TAR Der/vv Gram/TV iSem/do SIMA Der/vv V Ind 1Sg _x_3PlO @PRED #4->0 ID:5314 R:3PlO:5311
 "<unnuamut>"
-	"night" Sem/temp iN <tr> N Trm Sg @ADVL> #5->13
+	"night" Sem/temp iN <tr> N Trm Sg @ADVL> #5->6
 "<eqqissillunga>"
-	"relax" iV <tr> V Cont _x_1Sg @ADVL> #6->7
+	"relax" iV <tr> V Cont _x_1Sg @ADVL> #6->7 ID:5316 R:1Sg:5317
 "<sinissinnaassanerlunga>"
-	"sleep" iSem/bodystate iV <tr> "can" iSem/can iV <tr> SSA Der/vv Gram/IV iSem/must Der/vv Gram/IV V Cont _x_1Sg @<ADVL #7->4
+	"sleep" iSem/bodystate iV <tr> "can" iSem/can iV <tr> SSA Der/vv Gram/IV iSem/must Der/vv Gram/IV V Cont _x_1Sg @<ADVL #7->4 ID:5317 R:1Sg:5314
 "<imaluunniit>"
-	"or" Part <tr> Conj @CONJ #8->7
+	"or" Part <tr> Conj @CONJ #8->13
 "<piareersimaannavillunga>"
-	"be ready with" iSem/prepare iV <tr> SIMA Der/vv Gram/Pass Gram/IV "only" iAdv <tr> "completely" Sem/jdegree Adj <tr> V Cont _x_1Sg @ADVL> #9->11
+	"be ready with" iSem/prepare iV <tr> SIMA Der/vv Gram/Pass Gram/IV "only" iAdv <tr> "completely" Sem/jdegree Adj <tr> V Cont _x_1Sg @ADVL> #9->11 ID:5319 R:1Sg:5321
 "<iluamik>"
 	"properly" Adv <tr> Adv @ADVL> #10->11
 "<sinissinnaananga>"
-	"sleep" Sem/bodystate iV <tr> "can" Sem/can iV <tr> V ContNeg _x_1Sg @<ADVL #11->4
+	"sleep" Sem/bodystate iV <tr> "can" Sem/can iV <tr> V ContNeg _x_1Sg @ADVL> #11->13 ID:5321 R:1Sg:5323
 "<unnuaq>"
-	"night" Sem/temp iN <tr> N Abs Sg @OBJ> #12->13
+	"night" Sem/temp iN <tr> N Abs Sg @OBJ> #12->13 ID:5322
 "<atussanerlugu>"
-	"use" iSem/use iV <tr> SSA Der/vv Gram/TV iSem/must Der/vv Gram/TV V Cont _x_1Sg _x_3SgO @<ADVL #13->4
+	"use" iSem/use iV <tr> SSA Der/vv Gram/TV iSem/must Der/vv Gram/TV V Cont _x_1Sg _x_3SgO @<ADVL #13->4 ID:5323 R:1Sg:5314 R:3SgO:5322
 "<.>"
 	"." CLB #14->13
 </s>

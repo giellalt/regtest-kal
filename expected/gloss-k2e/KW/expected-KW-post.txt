@@ -6203,12 +6203,12 @@
 "<,>"
 	"," CLB #3->2
 "<inuk>"
-	"human being" Sem/H iN N Abs Sg #4->3
+	"human being" Sem/H iN N Abs Sg @>N #4->5
 "<kisima>"
-	"I alone" Sem/jquant iN N Nom #5->4
+	"I alone" Sem/jquant iN N Nom @SUBJ> #5->6
 "<nipangissananga>"
-	"be silent" iSem/vtalk iV SSA Sem/must V ContNeg "I" @i-ADVL> #6->7
-	"nipanger" iSem/decrease SSA Sem/must V ContNeg "I" @i-ADVL> #6->7
+	"be silent" iSem/vtalk iV SSA Sem/must V ContNeg @<ADVL #6->2
+	"nipanger" iSem/decrease SSA Sem/must V ContNeg @<ADVL #6->2
 "<nipikitsumik>"
 	"low-voiced" Sem/cc-h Adj N Ins Sg @i-ADVL> #7->9
 "<niaqunniittut>"
@@ -7184,7 +7184,7 @@
 "<uannut>"
 	"I" iPron Pron "to" @i-ADVL> #10->11
 "<oqimaaloqutaatigineri>"
-	"burden" iSem/cc-h iN "be" iSem/be_copula iV "as" NIQ N Abs Pl "their" @<OBJ #11->3
+	"burden" iSem/cc-h iN "be" iSem/be_copula iV "as" NIQ N Abs Pl "their" @HNOUN #11->0
 "<.>"
 	"." CLB #12->11
 </s>
@@ -12409,19 +12409,19 @@
 	"practise" iV "place" iSem/L iN "have as" iSem/have iV TAR iSem/do SIMA V Ind "I" @PRED #4->0
 	"practise" iV "time" iSem/ac iN "have as" iSem/have iV TAR iSem/do SIMA V Ind "I" @PRED #4->0
 "<unnuamut>"
-	"night" Sem/temp iN N "to" Sg @ADVL> #5->13
+	"night" Sem/temp iN N "to" Sg @ADVL> #5->6
 "<eqqissillunga>"
 	"relax" iV V Cont @ADVL> #6->7
 "<sinissinnaassanerlunga>"
 	"sleep" iSem/bodystate iV "can" iSem/can iV SSA iSem/must V Cont @<ADVL #7->4
 "<imaluunniit>"
-	"or" Part Conj @CONJ #8->7
+	"or" Part Conj @CONJ #8->13
 "<piareersimaannavillunga>"
 	"be ready with" iSem/prepare iV SIMA "become" "only" iAdv "completely" Sem/jdegree Adj V Cont @ADVL> #9->11
 "<iluamik>"
 	"properly" Adv Adv @ADVL> #10->11
 "<sinissinnaananga>"
-	"sleep" Sem/bodystate iV "can" Sem/can iV V ContNeg @<ADVL #11->4
+	"sleep" Sem/bodystate iV "can" Sem/can iV V ContNeg @ADVL> #11->13
 "<unnuaq>"
 	"night" Sem/temp iN N Abs Sg @OBJ> #12->13
 "<atussanerlugu>"

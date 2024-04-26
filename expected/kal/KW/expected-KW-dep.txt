@@ -5759,11 +5759,11 @@
 "<,>"
 	"," CLB #3->3
 "<inuk>"
-	"inuk" N Abs Sg #4->4
+	"inuk" N Abs Sg @>N #4->5
 "<kisima>"
-	"kisi" N Gram/Cong Nom 1Sg #5->5
+	"kisi" N Gram/Cong Nom 1Sg @SUBJ> #5->6
 "<nipangissananga>"
-	"nipanger" Gram/IV SSA Der/vv Gram/IV V ContNeg 1Sg @i-ADVL> #6->7
+	"nipanger" Gram/IV SSA Der/vv Gram/IV V ContNeg 1Sg @<ADVL #6->2
 "<nipikitsumik>"
 	"nipi" KIP Der/nv Gram/IV TUQ Der/vn N Ins Sg @i-ADVL> #7->9
 "<niaqunniittut>"
@@ -6664,7 +6664,7 @@
 "<uannut>"
 	"uanga" Gram/Pers Pron Trm 1Sg @i-ADVL> #10->11
 "<oqimaaloqutaatigineri>"
-	"oqimaaloqutaq" U Der/nv Gram/IV TIGE Der/vv Gram/IV NIQ Der/vn N Abs Pl 3PlPoss #11->11
+	"oqimaaloqutaq" U Der/nv Gram/IV TIGE Der/vv Gram/IV NIQ Der/vn N Abs Pl 3PlPoss @HNOUN #11->0
 "<.>"
 	"." CLB #12->12
 </s>
@@ -11583,19 +11583,19 @@
 "<pikkorissarfigisarsimavakka>"
 	"pikkorip" Gram/IV SAR Der/vv Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV TAR Der/vv Gram/TV SIMA Der/vv V Ind 1Sg 3PlO @PRED #4->0
 "<unnuamut>"
-	"unnuaq" N Trm Sg @ADVL> #5->13
+	"unnuaq" N Trm Sg @ADVL> #5->6
 "<eqqissillunga>"
 	"eqqissi" Gram/IV V Cont 1Sg @ADVL> #6->7
 "<sinissinnaassanerlunga>"
 	"sinip" Gram/IV SINNAA Der/vv Gram/IV SSA Der/vv Gram/IV NIR Der/vv Gram/IV V Cont 1Sg @<ADVL #7->4
 "<imaluunniit>"
-	"imaluunniit" Conj @CONJ #8->11
+	"imaluunniit" Conj @CONJ #8->13
 "<piareersimaannavillunga>"
 	"piareer" Gram/TV SIMA Der/vv Gram/Pass Gram/IV INNAR Der/vv VIP Der/vv Gram/IV V Cont 1Sg @ADVL> #9->11
 "<iluamik>"
 	"iluamik" Adv @ADVL> #10->11
 "<sinissinnaananga>"
-	"sinip" Gram/IV SINNAA Der/vv Gram/IV V ContNeg 1Sg @<ADVL #11->4
+	"sinip" Gram/IV SINNAA Der/vv Gram/IV V ContNeg 1Sg @ADVL> #11->13
 "<unnuaq>"
 	"unnuaq" N Abs Sg @OBJ> #12->13
 "<atussanerlugu>"
