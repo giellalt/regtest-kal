@@ -5253,11 +5253,11 @@
 	"." CLB #6->5
 
 "<Soorlu>"
-	"like" Part <tr> Adv @ADVL> #1->3
+	"like" Part <tr> Adv @ADVL>N #1->2
 "<uumasoq>"
-	"animal" Sem/A iN <tr> N Abs Sg @SUBJ> #2->3
+	"animal" Sem/A iN <tr> N Abs Sg @SML_HNOUN #2->0
 "<miaggoortoq>"
-	"howl" Sem/sound_emission iV <tr> V Par 3Sg @PRED #3->0
+	"howl" Sem/sound_emission iV <tr> "that which" Sem/cc iN <tr> N Abs Sg @N< #3->2
 "<.>"
 	"." CLB #4->3
 </s>
@@ -6628,8 +6628,6 @@
 	"be angry" iSem/emote iV <tr> "not" iAdv <tr> NIQ Der/vn "be" iSem/be_copula iV <tr> SSA Der/vv Gram/IV Sem/must Gram/Adv-encl V Cau 3Sg ADV-LI @CAU> #1->2
 "<ujaasisuusaarpunga>"
 	"search" Sem/search iV <tr> "feign" iV <tr> V Ind 1Sg @PRED #2->0
-	"search" iSem/search iV <tr> "one who" iSem/H iN <tr> USAAR Der/nv Gram/IV Sem/cheat Sem/imitate V Ind 1Sg @PRED #2->0
-	"search" iSem/search iV <tr> "that which" iSem/cc iN <tr> USAAR Der/nv Gram/IV Sem/cheat Sem/imitate V Ind 1Sg @PRED #2->0
 "<.>"
 	"." CLB #3->2
 </s>
@@ -8030,12 +8028,11 @@
 "<igaassanik>"
 	"raw material" Sem/food-c iN <tr> N Ins Pl @N< #4->3
 "<ikkussisimariarluni>"
-	"ikkup" Gram/TV iSem/connect HTR Der/vv Gram/IV SIMA Der/vv RIAR Der/vv Gram/IV V Cont 4Sg @ADVL> #5->10
-	"ikkup" Gram/TV iSem/put HTR Der/vv Gram/IV SIMA Der/vv RIAR Der/vv Gram/IV V Cont 4Sg @ADVL> #5->10
-	"plant" iSem/put_deposit iV <tr> HTR Der/vv Gram/IV SIMA Der/vv RIAR Der/vv Gram/IV V Cont 4Sg @ADVL> #5->10
+	"ikkup" Gram/TV iSem/connect HTR Der/vv Gram/IV SIMA Der/vv RIAR Der/vv Gram/IV V Cont 4Sg @ADVL> #5->6
+	"ikkup" Gram/TV iSem/put HTR Der/vv Gram/IV SIMA Der/vv RIAR Der/vv Gram/IV V Cont 4Sg @ADVL> #5->6
+	"plant" iSem/put_deposit iV <tr> HTR Der/vv Gram/IV SIMA Der/vv RIAR Der/vv Gram/IV V Cont 4Sg @ADVL> #5->6
 "<artuliinnarsimasoq>"
-	"artor" Gram/TV iSem/refrain "begin" iSem/begin iV <tr> "only" iAdv <tr> SIMA Der/vv Gram/Refl "one who" Sem/H iN <tr> N Abs Sg @HNOUN #6->0
-	"artor" Gram/TV iSem/refrain "begin" iSem/begin iV <tr> "only" iAdv <tr> SIMA Der/vv Gram/Refl "that which" Sem/cc iN <tr> N Abs Sg @HNOUN #6->0
+	"artor" Gram/TV iSem/refrain "begin" iSem/begin iV <tr> "only" iAdv <tr> SIMA Der/vv Gram/Refl Sem/Temporal V Par 3Sg @PRED2 #6->11
 "<,>"
 	"," CLB #7->6
 "<sunaaffa>"
@@ -8043,16 +8040,13 @@
 "<igaavi>"
 	"food" Sem/food iN <tr> N Abs Pl 3SgPoss @SUBJ> #9->10
 "<ilillutik>"
-	"be burnt" Sem/worsen iV <tr> V Cont 4Pl @PRED #10->7
-"<.>"
-	"." CLB #11->10
-
+	"be burnt" Sem/worsen iV <tr> V Cont 4Pl @ADVL> #10->11
 "<nungulersut>"
-	"nungup" Gram/IV iSem/end "begin" Sem/begin iV <tr> V Par 3Pl @PRED #1->0
+	"nungup" Gram/IV iSem/end "begin" Sem/begin iV <tr> V Par 3Pl @PRED #11->0
 "<itertartunga>"
-	"awake" iSem/change_bodystate iV <tr> TAR Der/vv Gram/IV Sem/do V Par 1Sg @PRED2 #2->1
+	"awake" iSem/change_bodystate iV <tr> TAR Der/vv Gram/IV Sem/do V Par 1Sg @PRED2 #12->11
 "<.>"
-	"." CLB #3->2
+	"." CLB #13->12
 </s>
 
 <s id="dARudqLT1v7VfZ0ZU9sEAZ13FqU">
@@ -9953,10 +9947,9 @@
 "<allaaneq ajorpoq>"
 	"differ" Sem/differ iV <tr> "do never" Sem/persist iV <tr> V Ind 3Sg @PRED #4->0
 "<nangiarluni>"
-	"be giddy" Sem/change_bodystate iV <tr> V Cont 4Sg @i-ADVL> #5->6
+	"be giddy" Sem/change_bodystate iV <tr> V Cont 4Sg @ADVL> #5->6
 "<pisuttartoq>"
-	"walk" iSem/run iV <tr> TAR Der/vv Gram/IV iSem/do "one who" Sem/H iN <tr> N Abs Sg @<SUBJ #6->4
-	"walk" iSem/run iV <tr> TAR Der/vv Gram/IV iSem/do "that which" Sem/cc iN <tr> N Abs Sg @<SUBJ #6->4
+	"walk" iSem/run iV <tr> TAR Der/vv Gram/IV Sem/do V Par 3Sg @PRED2 #6->4
 "<.>"
 	"." CLB #7->6
 
