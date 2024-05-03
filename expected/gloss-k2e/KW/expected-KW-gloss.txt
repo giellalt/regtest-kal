@@ -362,7 +362,7 @@
 "<massiimeriarlungalu>"
 	"rise" iSem/change_body_pos iV <tr> UMI Der/vv Gram/IV RIAR Der/vv Gram/IV Gram/Conj-encl V Cont 1Sg CONJ-LU @ADVL> #2->5
 "<isaatigut>"
-	"eye" Sem/anorg iN <tr> N Via Sg 3SgPoss @ADVL> #3->4
+	"eye" Sem/anorg iN <tr> N Via Sg 3SgPoss @ADVL> #3->5
 "<toqqarlugu>"
 	"directly" iAdv <tr> V Cont 3SgO @ADVL> #4->5
 "<isigilerlugu>"
@@ -745,7 +745,7 @@
 "<isaatigut>"
 	"eye" Sem/anorg iN <tr> N Via Sg 3PlPoss @ADVL> #6->8
 "<toqqarlugit>"
-	"choose" Sem/choose iV <tr> V Cont 3PlO @ADVL> #7->8
+	"directly" iAdv <tr> V Cont 3PlO @ADVL> #7->8
 "<isigalugit>"
 	"look at" Sem/watch iV <tr> V Cont 3PlO @ADVL> #8->9
 "<neriorsortarpakka>"
@@ -1823,7 +1823,7 @@
 "<,>"
 	"..." CLB/... CLB #2->1
 "<tassalu>"
-	"it is" Part <tr> Adv ADV-LU @CL-ADVL> #3->5
+	"it is" Part <tr> Adv CONJ-LU @CL-ADVL> #3->5
 "<oqaaseqatigiit>"
 	"sentence" Sem/ac-cat iN <tr> N Abs Pl @OBJ> #4->5
 "<naasinnaanagit>"
@@ -2535,8 +2535,7 @@
 
 <s id="DXSo91z9QYr76fwQvCRNCykcmLE">
 "<Ilumoortumik>"
-	"be true" Sem/be_attribute iV <tr> "one who" Sem/H iN <tr> N Ins Sg @HNOUN #1->0
-	"be true" Sem/be_attribute iV <tr> "that which" Sem/cc iN <tr> N Ins Sg @HNOUN #1->0
+	"really" iAdv <tr> N Ins Sg @HNOUN #1->0
 "<?>"
 	"?" CLB #2->1
 
@@ -4027,7 +4026,8 @@
 
 <s id="KVJxvvDTaxaUxY0NCWIyMJ9oh38">
 "<Naalanngitsoq>"
-	"naughty" Sem/f-h Adj <tr> V Par 3Sg @PRED #1->0
+	"naalap" Gram/IV iSem/obey NNGIT Der/vv Gram/IV Sem/be_attribute V Par 3Sg @PRED #1->0
+	"obey" iV <tr> NNGIT Der/vv Gram/IV Sem/be_attribute V Par 3Sg @PRED #1->0
 "<.>"
 	"." CLB #2->1
 
@@ -5595,7 +5595,6 @@
 "<Nalunngisaminulli>"
 	"acquaintance" Sem/H iN <tr> N Trm Pl 4SgPoss CONJ-LI @ADVL> #1->2
 "<oqaannartarpoq>"
-	"say" iSem/say iV <tr> "only" iAdv <tr> TAR Der/vv Gram/IV Sem/do V Ind 3Sg @PRED #2->0
 	"say" iSem/say iV <tr> INNAR Der/vv Gram/IV iSem/vtalk TAR Der/vv Gram/IV Sem/do V Ind 3Sg @PRED #2->0
 "<:>"
 	":" CLB DIRTALESTART #3->2
@@ -7240,7 +7239,7 @@
 
 <s id="YxPxRqz4Wmqu39wWMqtVG4NngKQ">
 "<Nipaata>"
-	"sound" Sem/percep-l iN <tr> N Rel Sg 3SgPoss @POSS> #1->2
+	"voice" Sem/f-phys-h iN <tr> N Rel Sg 3SgPoss @POSS> #1->2
 "<allanngorsimaneranit>"
 	"be changed" iSem/be_attribute iV <tr> NIQ Der/vn N Abl Sg 3SgPoss @ADVL> #2->3
 "<tusaasinnaavara>"
@@ -8445,7 +8444,6 @@
 	"." CLB #5->4
 
 "<Naavatigut>"
-	"abdomen" Sem/an iN <tr> N Via Sg 3SgPoss @HNOUN #1->0
 	"stomach" Sem/f-an iN <tr> N Via Sg 3SgPoss @HNOUN #1->0
 "<.>"
 	"." CLB #2->1
@@ -9446,7 +9444,7 @@
 	"." CLB #3->2
 
 "<Nipaa>"
-	"sound" Sem/percep-l iN <tr> N Abs Sg 3SgPoss @HNOUN #1->0
+	"voice" Sem/f-phys-h iN <tr> N Abs Sg 3SgPoss @HNOUN #1->0
 "<.>"
 	"." CLB #2->1
 </s>
@@ -9806,7 +9804,7 @@
 "<Mikip>"
 	"Miki" Dial/Vgr Sem/Mask Sem/Hum Prop Rel Sg @SUBJ> #1->5
 "<ataatani>"
-	"father" Sem/Hfam iN <tr> N Abs Sg 4SgPoss @OBJ> #2->3
+	"father" Sem/Hfam iN <tr> N Abs Sg 4SgPoss @OBJ> #2->5
 "<toqqarlugu>"
 	"directly" iAdv <tr> V Cont 3SgO @ADVL> #3->5
 "<isaatigut>"

@@ -378,7 +378,7 @@
 "<massiimeriarlungalu>"
 	"massip" Gram/IV iSem/change_body_pos UMI Der/vv Gram/IV RIAR Der/vv Gram/IV Gram/Conj-encl V Cont 1Sg CONJ-LU @ADVL> #2->5
 "<isaatigut>"
-	"isi" Sem/anorg N Via Sg 3SgPoss @ADVL> #3->4
+	"isi" Sem/anorg N Via Sg 3SgPoss @ADVL> #3->5
 "<toqqarlugu>"
 	"toqqar" Gram/TV Sem/move_dir V Cont 3SgO @ADVL> #4->5
 "<isigilerlugu>"
@@ -767,7 +767,7 @@
 "<isaatigut>"
 	"isi" Sem/anorg N Via Sg 3PlPoss @ADVL> #6->8
 "<toqqarlugit>"
-	"toqqar" Gram/TV Sem/choose V Cont 3PlO @ADVL> #7->8
+	"toqqar" Gram/TV Sem/move_dir V Cont 3PlO @ADVL> #7->8
 "<isigalugit>"
 	"isige" Gram/TV Sem/watch V Cont 3PlO @ADVL> #8->9
 "<neriorsortarpakka>"
@@ -1861,7 +1861,7 @@
 "<,>"
 	"..." CLB/... CLB #2->1
 "<tassalu>"
-	"tassa" Gram/Adv-encl Adv ADV-LU @CL-ADVL> #3->5
+	"tassa" Gram/Conj-encl Adv CONJ-LU @CL-ADVL> #3->5
 "<oqaaseqatigiit>"
 	"oqaaseq" iSem/ac QATE Der/nn iSem/H GIIT Der/nn Sem/ac-cat N Abs Pl @OBJ> #4->5
 	"oqaaseq" iSem/ac-cat QATE Der/nn iSem/H GIIT Der/nn Sem/ac-cat N Abs Pl @OBJ> #4->5
@@ -2581,8 +2581,7 @@
 
 <s id="DXSo91z9QYr76fwQvCRNCykcmLE">
 "<Ilumoortumik>"
-	"ilumoor" Gram/IV iSem/assume TUQ Der/vn Sem/H N Ins Sg @HNOUN #1->0
-	"ilumoor" Gram/IV iSem/assume TUQ Der/vn Sem/cc N Ins Sg @HNOUN #1->0
+	"ilumoor" Gram/IV iSem/assume TUQ Der/vn Sem/adv N Ins Sg @HNOUN #1->0
 "<?>"
 	"?" CLB #2->1
 
@@ -4110,8 +4109,8 @@
 
 <s id="KVJxvvDTaxaUxY0NCWIyMJ9oh38">
 "<Naalanngitsoq>"
-	"naalap" Gram/IV iSem/be_attribute NNGIT Der/vv Gram/IV Sem/f-h V Par 3Sg @PRED #1->0
-	"naalap" Gram/IV iSem/obey NNGIT Der/vv Gram/IV Sem/f-h V Par 3Sg @PRED #1->0
+	"naalap" Gram/IV iSem/be_attribute NNGIT Der/vv Gram/IV Sem/be_attribute V Par 3Sg @PRED #1->0
+	"naalap" Gram/IV iSem/obey NNGIT Der/vv Gram/IV Sem/be_attribute V Par 3Sg @PRED #1->0
 "<.>"
 	"." CLB #2->1
 
@@ -5711,7 +5710,6 @@
 "<Nalunngisaminulli>"
 	"nalu" Gram/TV iSem/know NNGIT Der/vv Gram/TV TAQ Der/vn Sem/H Gram/Conj-encl N Trm Pl 4SgPoss CONJ-LI @ADVL> #1->2
 "<oqaannartarpoq>"
-	"oqar" Gram/IV iSem/say INNAR Der/vv Gram/IV iSem/persist TAR Der/vv Gram/IV Sem/do V Ind 3Sg @PRED #2->0
 	"oqar" Gram/IV iSem/say INNAR Der/vv Gram/IV iSem/vtalk TAR Der/vv Gram/IV Sem/do V Ind 3Sg @PRED #2->0
 "<:>"
 	":" CLB DIRTALESTART #3->2
@@ -7410,7 +7408,7 @@
 
 <s id="YxPxRqz4Wmqu39wWMqtVG4NngKQ">
 "<Nipaata>"
-	"nipi" Sem/percep-l N Rel Sg 3SgPoss @POSS> #1->2
+	"nipi" Sem/f-phys-h N Rel Sg 3SgPoss @POSS> #1->2
 "<allanngorsimaneranit>"
 	"alla" iSem/f NNGUR Der/nv Gram/IV iSem/become_be SIMA Der/vv iSem/be_attribute NIQ Der/vn N Abl Sg 3SgPoss @ADVL> #2->3
 "<tusaasinnaavara>"
@@ -8645,7 +8643,6 @@
 	"." CLB #5->4
 
 "<Naavatigut>"
-	"naaq" Sem/an N Via Sg 3SgPoss @HNOUN #1->0
 	"naaq" Sem/f-an N Via Sg 3SgPoss @HNOUN #1->0
 "<.>"
 	"." CLB #2->1
@@ -9666,7 +9663,7 @@
 	"." CLB #3->2
 
 "<Nipaa>"
-	"nipi" Sem/percep-l N Abs Sg 3SgPoss @HNOUN #1->0
+	"nipi" Sem/f-phys-h N Abs Sg 3SgPoss @HNOUN #1->0
 "<.>"
 	"." CLB #2->1
 </s>
@@ -10036,7 +10033,7 @@
 "<Mikip>"
 	"Miki" Dial/Vgr Sem/Mask Sem/Hum Prop Rel Sg @SUBJ> #1->5
 "<ataatani>"
-	"ataata" Sem/Hfam N Abs Sg 4SgPoss @OBJ> #2->3
+	"ataata" Sem/Hfam N Abs Sg 4SgPoss @OBJ> #2->5
 "<toqqarlugu>"
 	"toqqar" Gram/TV Sem/move_dir V Cont 3SgO @ADVL> #3->5
 "<isaatigut>"
