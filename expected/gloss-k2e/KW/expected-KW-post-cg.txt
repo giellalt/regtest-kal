@@ -1420,14 +1420,14 @@
 
 <s id="7dsxqKx73xxZlux7lhLxYbMGeGA">
 "<Atuagaasiverujussuata>"
-	"bookcase" iSem/furn iN <tr> RUJUK Der/nn "large" Sem/f Adj <tr> N Sg 3SgPoss "of" #1->2
-	"school bag" iSem/con iN <tr> RUJUK Der/nn "large" Sem/f Adj <tr> N Sg 3SgPoss "of" #1->2
+	"bookcase" iSem/furn iN <tr> RUJUK Der/nn "large" Sem/f Adj <tr> N Rel Sg 3SgPoss @SUBJ> #1->4 ID:1834
+	"school bag" iSem/con iN <tr> RUJUK Der/nn "large" Sem/f Adj <tr> N Rel Sg 3SgPoss @SUBJ> #1->4 ID:1834
 "<inuttaaraa>"
-	"human being" iSem/H iN <tr> TAQ Der/nn ARAQ Der/vv N Abs Sg 3SgPoss @OBJ> #2->4
+	"human being" iSem/H iN <tr> TAQ Der/nn ARAQ Der/vv N Abs Sg 3SgPoss @OBJ> #2->4 ID:1835
 "<suli>"
 	"still" Adv <tr> Adv @ADVL> #3->4
 "<mikerpasinnerulersittarpaa>"
-	"be small" iSem/be_attribute iV <tr> PASIP Der/vv Gram/IV NIRU Der/vv Gram/IV "begin" iSem/begin iV <tr> TIP Der/vv Gram/TV iSem/cause TAR Der/vv Gram/TV Sem/do V Ind 3Sg _x_3SgO @PRED #4->0
+	"be small" iSem/be_attribute iV <tr> PASIP Der/vv Gram/IV NIRU Der/vv Gram/IV "begin" iSem/begin iV <tr> TIP Der/vv Gram/TV iSem/cause TAR Der/vv Gram/TV Sem/do V Ind _x_3Sg _x_3SgO @PRED #4->0 ID:1837 R:3Sg:1834 R:3SgO:1835
 "<.>"
 	"." CLB #5->4
 
@@ -3004,19 +3004,19 @@
 "<,>"
 	"," CLB #3->2
 "<ineeraq>"
-	"room" Sem/Lh iN <tr> N Abs Sg @OBJ> #4->5
+	"room" Sem/Lh iN <tr> N Abs Sg @OBJ> #4->5 ID:3871
 "<nippaallugu>"
-	"nippaap" Gram/TV V Cont 3Sg _x_3SgO @ADVL> #5->9
+	"nippaap" Gram/TV V Cont 3Sg _x_3SgO @ADVL> #5->10 ID:3872 R:3SgO:3871
 "<anaanaata>"
 	"mother" Sem/Hfam iN <tr> N Sg 3PlPoss "of" #6->7
 "<nillianera>"
-	"scream" Sem/act iN <tr> N Abs Sg 3SgPoss "that" @SUBJ> #7->9
+	"scream" Sem/act iN <tr> N Abs Sg 3SgPoss @SUBJ> #7->10 ID:3874
 "<igalaakkut>"
-	"window" Sem/Lopening iN <tr> N Via Sg @ADVL> #8->9
+	"window" Sem/Lopening iN <tr> N Via Sg @i-ADVL> #8->9
 "<aniasoq>"
-	"ania" Gram/IV Sem/sick V Par _x_3Sg #9->10
+	"flow out" iSem/flow iV <tr> TUQ Der/vn Sem/sick N Abs Sg @N< #9->7
 "<tusarsaavoq>"
-	"be audible" Sem/be_attribute iV <tr> V Ind 3Sg @PRED #10->0
+	"be audible" Sem/be_attribute iV <tr> V Ind _x_3Sg @PRED #10->0 ID:3877 R:3Sg:3874
 "<.>"
 	"." CLB #11->10
 </s>
@@ -5229,15 +5229,15 @@
 
 <s id="OxkqRxwGrZK5ykVpFdS0kBBCkCk">
 "<Nipersuara>"
-	"voice" iSem/f-phys-h iN <tr> SUAQ Der/nn Sem/act N Abs Sg 1SgPoss "that" @SUBJ> #1->3 ID:1155
+	"voice" iSem/f-phys-h iN <tr> SUAQ Der/nn Sem/act N Abs Sg 1SgPoss @SUBJ> #1->5 ID:1177
 "<suli>"
-	"still" Adv <tr> Adv @ADVL> #2->3
+	"still" Adv <tr> Adv @i-ADVL> #2->3
 "<akerartuisoq>"
-	"hostile" Sem/f-psych Adj <tr> V Par _x_3Sg #3->5 ID:1157 R:3Sg:1155
+	"hostile" Sem/f-psych Adj <tr> N Abs Sg @N< #3->1
 "<gangimi>"
 	"hall" Sem/Lh iN <tr> N Lok Sg @ADVL> #4->5
 "<tusaaneqarsinnaavoq>"
-	"hear" iSem/hear iV <tr> NIQAR Der/vv Gram/IV "can" Sem/can iV <tr> V Ind 3Sg @PRED #5->0
+	"hear" iSem/hear iV <tr> NIQAR Der/vv Gram/IV "can" Sem/can iV <tr> V Ind _x_3Sg @PRED #5->0 ID:1181 R:3Sg:1177
 "<.>"
 	"." CLB #6->5
 
