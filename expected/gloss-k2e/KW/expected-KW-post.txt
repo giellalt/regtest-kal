@@ -5298,19 +5298,19 @@
 
 <s id="P7E9irmWIMJhgDUYZLXojyLxXi4">
 "<Nalunngilara>"
-	"know" Sem/know iV V Ind "I" "him/her/it" @PRED #1->0
+	"know" Sem/know iV V Ind "I" @PRED #1->0
 "<suna>"
 	"what" iPron Pron Abs Sg @OBJ> #2->3
 "<siunertaralugu>"
-	"front" iSem/ac iN TAQ iSem/am "have as" Sem/have iV V Cont @ADVL> #3->1
-	"front" iSem/ac iN TAQ iSem/sem-c "have as" Sem/have iV V Cont @ADVL> #3->1
-	"goal" Sem/ac iN "have as" Sem/have iV V Cont @ADVL> #3->1
-	"siuneq" iSem/f-an TAQ iSem/am "have as" Sem/have iV V Cont @ADVL> #3->1
-	"siuneq" iSem/f-an TAQ iSem/sem-c "have as" Sem/have iV V Cont @ADVL> #3->1
-	"siuneq" iSem/per TAQ iSem/am "have as" Sem/have iV V Cont @ADVL> #3->1
-	"siuneq" iSem/per TAQ iSem/sem-c "have as" Sem/have iV V Cont @ADVL> #3->1
+	"front" iSem/ac iN TAQ iSem/am "have as" Sem/have iV V Cont @ADVL> #3->4
+	"front" iSem/ac iN TAQ iSem/sem-c "have as" Sem/have iV V Cont @ADVL> #3->4
+	"goal" Sem/ac iN "have as" Sem/have iV V Cont @ADVL> #3->4
+	"siuneq" iSem/f-an TAQ iSem/am "have as" Sem/have iV V Cont @ADVL> #3->4
+	"siuneq" iSem/f-an TAQ iSem/sem-c "have as" Sem/have iV V Cont @ADVL> #3->4
+	"siuneq" iSem/per TAQ iSem/am "have as" Sem/have iV V Cont @ADVL> #3->4
+	"siuneq" iSem/per TAQ iSem/sem-c "have as" Sem/have iV V Cont @ADVL> #3->4
 "<itersaraluarneraa>"
-	"wake up" iSem/change_bodystate iV "actually" iAdv V Par "he/she/it" "him/her/it" @CL-<CIT #4->3
+	"wake up" iSem/change_bodystate iV "actually" iAdv V Par "he/she/it" "him/her/it" @CL-<CIT #4->1
 "<.>"
 	"." CLB #5->4
 </s>
@@ -7022,7 +7022,7 @@
 "<naak>"
 	"although" Conj Conj @CONJ #4->5
 "<paasigaluarlugu>"
-	"understand" Sem/comprehend iV "actually" iAdv V Cont "he/she/it" @<ADVL #5->2
+	"understand" Sem/comprehend iV "actually" iAdv V Cont "he/she/it" @PRED2 #5->2
 "<unnuassara>"
 	"night" Sem/temp iN "future" Sem/event Adj N Abs Sg "my" "that" @SUBJ> #6->7
 "<takissamaartoq>"
