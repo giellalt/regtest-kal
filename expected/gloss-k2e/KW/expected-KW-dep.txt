@@ -166,36 +166,6 @@
 	"." CLB #10->10
 </s>
 
-<s id="0uSaxizjO38pT1uV49vMDz3i5sc">
-"<Angigivaa>"
-	"angige" Gram/TV Sem/regard_as V Ind 3Sg 3SgO Orth/Alt @PRED #1->0
-"<,>"
-	"," CLB #2->2
-"<tulluarpallaarnanilu>"
-	"tulluar" Gram/IV iSem/be_attribute VALLAAR Der/vv Gram/IV Gram/Conj-encl V ContNeg 4Sg CONJ-LU @PRED #3->0
-	"tulluar" Gram/IV iSem/future_having VALLAAR Der/vv Gram/IV Gram/Conj-encl V ContNeg 4Sg CONJ-LU @PRED #3->0
-"<qarliinut>"
-	"qarlik" Sem/cloH N Trm Pl 3SgPoss @<ADVL #4->3
-"<koorpunut>"
-	"koorpu" Sem/Hprof N Trm Pl @N< #5->4
-"<,>"
-	"," CLB #6->6
-"<atukut>"
-	"atukoq" N Abs Pl #7->7
-"<qarsornikut>"
-	"qarsor" Gram/IV iSem/colouring NIKUQ Der/vn N Abs Pl @N< #8->7
-"<,>"
-	"," CLB #9->9
-"<seeqquatigut>"
-	"seeqqoq" Sem/anmov N Via Sg 3SgPoss @i-ADVL> #10->12
-"<illuttut>"
-	"illuttut" Adv @i-ADVL> #11->12
-"<alittornikut>"
-	"alittor" Gram/IV iSem/be_attribute NIKUQ Der/vn N Abs Pl @N< #12->7
-"<.>"
-	"." CLB #13->13
-</s>
-
 <s id="0xsx73TKJJvvUpiYc4vAyP7O5r4">
 "<Biibilimik>"
 	"biibili" Sem/sem-r N Ins Sg @ADVL> #1->2
@@ -293,9 +263,8 @@
 "<atuaqatimini>"
 	"atuar" Gram/HV Gram/IV iSem/read QATE Der/vn Sem/Hprof N Lok Sg 4SgPoss @i-ADVL> #5->7
 "<anginerpaap>"
-	"angi" Gram/IV iSem/be_attribute NIRPAAQ Der/vn Sem/am N Rel Sg @POSS> #6->7
+	"angi" Gram/IV iSem/be_attribute NIRPAAQ Der/vn Sem/am N Rel Sg @i-POSS> #6->7
 "<tulliunera>"
-	"tulleq" iSem/Hfam U Der/nv Gram/IV iSem/be_copula NIQ Der/vn N Abs Sg 3SgPoss @<OBJ #7->3
 	"tulleq" iSem/unit U Der/nv Gram/IV iSem/be_copula NIQ Der/vn N Abs Sg 3SgPoss @<OBJ #7->3
 "<.>"
 	"." CLB #8->8
@@ -1986,26 +1955,6 @@
 	"." CLB #3->3
 </s>
 
-<s id="Abb7eUamWoKr8ts5281GPilnZ1E">
-"<Aqaguani>"
-	"aqagu" Adv Lok 3SgPoss @CL-ADVL> #1->5
-"<anaana>"
-	"anaana" Sem/Hfam N Abs Sg @SUBJ> #2->5
-"<angerlamut>"
-	"angerlamut" Adv @ADVL> #3->4
-"<isileriallartoq>"
-	"iser" Gram/IV iSem/enter LIR Der/vv Gram/IV iSem/begin RIAR Der/vv Gram/IV LLAR Der/vv Gram/IV Sem/Temporal V Par 3Sg @PRED2 #4->5
-"<qiimmassimavoq>"
-	"qiimmap" Gram/IV iSem/emote SIMA Der/vv V Ind 3Sg @PRED #5->0
-"<.>"
-	"." CLB #6->6
-
-"<Puussiaateqangaaramilu>"
-	"pooq" iSem/con SSAQ Der/nn iSem/temp LIAQ Der/nn iSem/con UTE Der/nn QAR Der/nv Gram/IV iSem/have NGAAR Der/vv Gram/IV Sem/have Sem/amount Gram/Conj-encl V Cau 4Sg CONJ-LU @PRED #1->0
-"<.>"
-	"." CLB #2->2
-</s>
-
 <s id="AexwS0Nb0QCPxcXcsGbi24u10FU">
 "<Imalu>"
 	"ima" Gram/Conj-encl Adv CONJ-LU @CL-ADVL> #1->2
@@ -2270,6 +2219,26 @@
 	"qiner" A Der/vv Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV Sem/do V Ind 3Sg @PRED #4->0
 "<.>"
 	"." CLB #5->5
+</s>
+
+<s id="BlzaZrzeBsL4kJznxc8mxXhr4EU">
+"<Aqaguani>"
+	"aqagu" Adv Lok 3SgPoss @CL-ADVL> #1->5
+"<anaana>"
+	"anaana" Sem/Hfam N Abs Sg @SUBJ> #2->4
+"<angerlamut>"
+	"angerlamut" Adv @ADVL> #3->4
+"<isileriallarami>"
+	"iser" Gram/IV iSem/enter LIR Der/vv Gram/IV iSem/begin RIAR Der/vv Gram/IV LLAR Der/vv Gram/IV V Cau 4Sg @CAU> #4->5
+"<qiimmassimavoq>"
+	"qiimmap" Gram/IV iSem/emote SIMA Der/vv V Ind 3Sg @PRED #5->0
+"<.>"
+	"." CLB #6->6
+
+"<Puussiaateqangaaramilu>"
+	"pooq" iSem/con SSAQ Der/nn iSem/temp LIAQ Der/nn iSem/con UTE Der/nn QAR Der/nv Gram/IV iSem/have NGAAR Der/vv Gram/IV Sem/have Sem/amount Gram/Conj-encl V Cau 4Sg CONJ-LU @PRED #1->0
+"<.>"
+	"." CLB #2->2
 </s>
 
 <s id="CB6fEw3mHclJM6nhVxHxqQoreO0">
@@ -2635,7 +2604,7 @@
 "<inuup>"
 	"inuk" Sem/H N Rel Sg @POSS> #2->3
 "<mikissusaa>"
-	"miki" Gram/IV iSem/be_attribute iSem/f-phys SSUSIQ Der/vn Sem/f N Abs Sg 3SgPoss Orth/Alt @HNOUN #3->0
+	"miki" Gram/IV iSem/be_attribute SSUSIQ Der/vn Sem/f N Abs Sg 3SgPoss Orth/Alt @EXCLM #3->0
 "<,>"
 	"," CLB #4->4
 "<anaanami>"
@@ -3428,6 +3397,36 @@
 	"tusaa" Gram/TV iSem/hear SIMA Der/vv V Ind 1Sg 3SgO @PRED #5->0
 "<.>"
 	"." CLB #6->6
+</s>
+
+<s id="I6BZkFcc0XsYB7uHNfXfOJp3UTo">
+"<Angigivaa>"
+	"angige" Gram/TV Sem/regard_as V Ind 3Sg 3SgO Orth/Alt @PRED #1->0
+"<,>"
+	"," CLB #2->2
+"<tulluarpallaarnanilu>"
+	"tulluar" Gram/IV iSem/be_attribute VALLAAR Der/vv Gram/IV Gram/Conj-encl V ContNeg 4Sg CONJ-LU @PRED #3->0
+	"tulluar" Gram/IV iSem/future_having VALLAAR Der/vv Gram/IV Gram/Conj-encl V ContNeg 4Sg CONJ-LU @PRED #3->0
+"<qarliinut>"
+	"qarlik" Sem/cloH N Trm Pl 3SgPoss @<ADVL #4->3
+"<koorpunut>"
+	"koorpu" Sem/Hprof N Trm Pl @N< #5->4
+"<,>"
+	"," CLB #6->6
+"<atukunut>"
+	"atukoq" N Trm Pl @N< #7->4
+"<qarsornikunut>"
+	"qarsor" Gram/IV iSem/colouring NIKUQ Der/vn N Trm Pl @N< #8->7
+"<,>"
+	"," CLB #9->9
+"<seeqquatigut>"
+	"seeqqoq" Sem/anmov N Via Sg 3SgPoss @i-ADVL> #10->12
+"<illuttut>"
+	"illuttut" Adv @i-ADVL> #11->12
+"<alittornikunut>"
+	"alittor" Gram/IV iSem/be_attribute NIKUQ Der/vn N Trm Pl @N< #12->4
+"<.>"
+	"." CLB #13->13
 </s>
 
 <s id="ICffaZgAdWUjeLApuYGknpycD9A">
@@ -6456,6 +6455,67 @@
 	"." CLB #5->5
 </s>
 
+<s id="VyxYPOGgErYX1U8gxUTMhQox608">
+"<Angerlamut>"
+	"angerlamut" Adv @ADVL> #1->2
+"<apuuttorlu>"
+	"apuup" Gram/IV iSem/reach Sem/Temporal Gram/Adv-encl V Par 3Sg ADV-LU @PRED2 #2->2
+"<”>"
+	"”" PUNCT RIGHT #3->3
+"<...>"
+	"..." CLB #4->4
+
+"<arpaqattaarnak>"
+	"arpap" Gram/IV iSem/run iSem/H QATTAAR Der/vv Gram/IV V ContNeg 2Sg @ADVL> #1->2
+"<annertunngooqinaatit>"
+	"anner" Gram/IV iSem/suffer TUQ Der/vn iSem/H NNGUAQ Der/nn iSem/f U Der/nv Gram/IV iSem/be_copula QINA Der/vv Gram/IV V Ind 2Sg @PRED #2->0
+	"anner" Gram/IV iSem/suffer TUQ Der/vn iSem/cc NNGUAQ Der/nn iSem/f U Der/nv Gram/IV iSem/be_copula QINA Der/vv Gram/IV V Ind 2Sg @PRED #2->0
+"<.>"
+	"." CLB #3->3
+
+"<Eqqissillutit>"
+	"eqqissi" Gram/IV Sem/change_bodystate V Cont 2Sg @ADVL> #1->2
+"<iPaderniarit>"
+	"iPad" OLang/DAN R Der/nv Gram/IV NIAR Der/vv Gram/IV Sem/try_to V Imp 2Sg Gram/ImpPos @PRED #2->0
+"<...>"
+	"..." CLB #3->3
+
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART #1->1
+"<,>"
+	"," CLB #2->2
+"<ineeqqamini>"
+	"ini" iSem/Lh ARAQ Der/nn Sem/Lh N Lok Sg 4SgPoss @ADVL> #3->8
+"<pinnguarpassuami>"
+	"pinnguaq" iSem/cm-h PAK Der/nn SUAQ Der/nn Sem/ac N Rel Pl 4SgPoss Orth/Arch @POSS> #4->7
+"<pujoralannik>"
+	"pujoralak" Sem/cm N Ins Pl @i-ADVL> #5->6
+"<poorneqalersut>"
+	"poor" Gram/TV iSem/cover NIQAR Der/vv Gram/IV LIR Der/vv Gram/IV iSem/begin TUQ Der/vn Sem/cc N Rel Pl @N< #6->4
+"<akorninut>"
+	"akunneq" Sem/L N Trm Pl 3PlPoss @ADVL> #7->8
+"<pilluni>"
+	"pi" Gram/IV Sem/reach V Cont 4Sg @ADVL> #8->9
+"<iPadileruni>"
+	"iPad" OLang/DAN LIR Der/nv Gram/TV Gram/Refl Gram/IV V Con 4Sg @CON> #9->13
+"<,>"
+	"," CLB #10->10
+"<ullorsuaq>"
+	"ulloq" iSem/dur SUAQ Der/nn Sem/f N Abs Sg @ADVL> #11->13
+"<ualersuarlu>"
+	"ualeq" SUAQ Der/nn Sem/f Gram/Conj-encl N Abs Sg CONJ-LU @ADVL> #12->13
+"<naasaraat>"
+	"naa" Gram/IV iSem/end TARE Der/vv Gram/IV Sem/do V Ind 3Pl @PRED #13->0
+"<,>"
+	"," CLB #14->14
+"<kakkilertalluni>"
+	"kakkilerta" Gram/IV Sem/flow V Cont 4Sg @ADVL> #15->16
+"<tangajullattaajutigaluni>"
+	"tangajor" Gram/IV iSem/sound_body LLATTAAR Der/vv Gram/IV UTIGE Der/vv Gram/IV V Cont 4Sg @<ADVL #16->13
+"<.>"
+	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #17->17
+</s>
+
 <s id="W3sZYntBZMe8PO4emQ06ocoRQ68">
 "<Iggasiaarniarlunga>"
 	"iggaser" Gram/IV iSem/make JAAR Der/vv Gram/IV iSem/rush NIAR Der/vv Gram/IV Sem/try_to V Cont 1Sg @CL-CIT> #1->2
@@ -7911,7 +7971,7 @@
 "<aaneqarnissaminut>"
 	"aa" Gram/TV iSem/take NIQAR Der/vv Gram/IV NIQ Der/vn iSem/act SSAQ Der/nn Sem/temp N Trm Sg 4SgPoss @ADVL> #3->4
 "<utaqqitilluni>"
-	"utaqqi" Gram/HV iSem/linger TIP Der/vv Orth/Alt Gram/TV Sem/cause Sem/Temporal V Cont 4SgO @PRED2 #4->8
+	"utaqqi" Gram/HV iSem/linger TIP Der/vv Orth/Alt Gram/TV Gram/Refl Sem/become_be Sem/Temporal V Cont 4Sg @PRED2 #4->8
 "<,>"
 	"," CLB #5->5
 "<niviarsiaqqat>"
@@ -7922,67 +7982,6 @@
 	"sanioqqup" Gram/IV V Ind 3Pl @PRED #8->0
 "<.>"
 	"." CLB #9->9
-</s>
-
-<s id="dgWwNwerZsF3hcwkTEKEHQ2NxAU">
-"<Angerlamut>"
-	"angerlamut" Adv @ADVL> #1->2
-"<apuuttorlu>"
-	"apuup" Gram/IV iSem/reach Sem/Temporal Gram/Adv-encl V Par 3Sg ADV-LU @PRED2 #2->2
-"<”>"
-	"”" PUNCT RIGHT #3->3
-"<...>"
-	"..." CLB #4->4
-
-"<arpaqattaarnak>"
-	"arpap" Gram/IV iSem/run iSem/H QATTAAR Der/vv Gram/IV V ContNeg 2Sg @ADVL> #1->2
-"<annertunngooqinaatit>"
-	"anner" Gram/IV iSem/suffer TUQ Der/vn iSem/H NNGUAQ Der/nn iSem/f U Der/nv Gram/IV iSem/be_copula QINA Der/vv Gram/IV V Ind 2Sg @PRED #2->0
-	"anner" Gram/IV iSem/suffer TUQ Der/vn iSem/cc NNGUAQ Der/nn iSem/f U Der/nv Gram/IV iSem/be_copula QINA Der/vv Gram/IV V Ind 2Sg @PRED #2->0
-"<.>"
-	"." CLB #3->3
-
-"<Eqqissillutit>"
-	"eqqissi" Gram/IV Sem/change_bodystate V Cont 2Sg @ADVL> #1->2
-"<iPaderniarit>"
-	"iPad" OLang/DAN R Der/nv Gram/IV NIAR Der/vv Gram/IV Sem/try_to V Imp 2Sg Gram/ImpPos @PRED #2->0
-"<...>"
-	"..." CLB #3->3
-
-"<”>"
-	"”" PUNCT RIGHT DIRTALESTART #1->1
-"<,>"
-	"," CLB #2->2
-"<ineeqqamini>"
-	"ini" iSem/Lh ARAQ Der/nn Sem/Lh N Lok Sg 4SgPoss @ADVL> #3->8
-"<pinnguarpassuami>"
-	"pinnguaq" iSem/cm-h PAK Der/nn SUAQ Der/nn Sem/ac N Rel Pl 4SgPoss Orth/Arch @POSS> #4->7
-"<pujoralannik>"
-	"pujoralak" Sem/cm N Ins Pl @i-ADVL> #5->6
-"<poorneqalersut>"
-	"poor" Gram/TV iSem/cover NIQAR Der/vv Gram/IV LIR Der/vv Gram/IV iSem/begin TUQ Der/vn Sem/cc N Rel Pl @N< #6->4
-"<akorninut>"
-	"akunneq" Sem/L N Trm Pl 3PlPoss @ADVL> #7->8
-"<pilluni>"
-	"pi" Gram/IV Sem/reach V Cont 4Sg @ADVL> #8->9
-"<iPadileruni>"
-	"iPad" OLang/DAN LIR Der/nv Gram/TV Gram/Refl Gram/IV V Con 4Sg @CON> #9->13
-"<,>"
-	"," CLB #10->10
-"<ullorsuaq>"
-	"ulloq" iSem/dur SUAQ Der/nn Sem/f N Abs Sg @SUBJ> #11->13
-"<ualersuarlu>"
-	"ualeq" SUAQ Der/nn Sem/f Gram/Conj-encl N Abs Sg CONJ-LU @ADVL> #12->13
-"<naasaraaq>"
-	"naa" Gram/IV iSem/end TARE Der/vv Gram/IV Sem/do V Ind 3Sg @PRED #13->0
-"<,>"
-	"," CLB #14->14
-"<kakkilertalluni>"
-	"kakkilerta" Gram/IV Sem/flow V Cont 4Sg @ADVL> #15->16
-"<tangajullattaajutigaluni>"
-	"tangajor" Gram/IV iSem/sound_body LLATTAAR Der/vv Gram/IV UTIGE Der/vv Gram/IV V Cont 4Sg @<ADVL #16->13
-"<.>"
-	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #17->17
 </s>
 
 <s id="dqxkuxneu8Fy7odxJ8sHn2IgdZE">

@@ -157,35 +157,6 @@
 	"." CLB #10->10
 </s>
 
-<s id="0uSaxizjO38pT1uV49vMDz3i5sc">
-"<Angigivaa>"
-	"angige" V Ind 3Sg 3SgO @PRED #1->0
-"<,>"
-	"," CLB #2->2
-"<tulluarpallaarnanilu>"
-	"tulluar" VALLAAR V ContNeg 4Sg CONJ-LU @PRED #3->0
-"<qarliinut>"
-	"qarlik" N Trm Pl 3SgPoss @<ADVL #4->3
-"<koorpunut>"
-	"koorpu" N Trm Pl @N< #5->4
-"<,>"
-	"," CLB #6->6
-"<atukut>"
-	"atukoq" N Abs Pl #7->7
-"<qarsornikut>"
-	"qarsor" NIKUQ N Abs Pl @N< #8->7
-"<,>"
-	"," CLB #9->9
-"<seeqquatigut>"
-	"seeqqoq" N Via Sg 3SgPoss @i-ADVL> #10->12
-"<illuttut>"
-	"illuttut" Adv @i-ADVL> #11->12
-"<alittornikut>"
-	"alittor" NIKUQ N Abs Pl @N< #12->7
-"<.>"
-	"." CLB #13->13
-</s>
-
 <s id="0xsx73TKJJvvUpiYc4vAyP7O5r4">
 "<Biibilimik>"
 	"biibili" N Ins Sg @ADVL> #1->2
@@ -269,7 +240,7 @@
 "<atuaqatimini>"
 	"atuar" QATE N Lok Sg 4SgPoss @i-ADVL> #5->7
 "<anginerpaap>"
-	"angi" NIRPAAQ N Rel Sg @POSS> #6->7
+	"angi" NIRPAAQ N Rel Sg @i-POSS> #6->7
 "<tulliunera>"
 	"tulleq" U NIQ N Abs Sg 3SgPoss @<OBJ #7->3
 "<.>"
@@ -1884,26 +1855,6 @@
 	"." CLB #3->3
 </s>
 
-<s id="Abb7eUamWoKr8ts5281GPilnZ1E">
-"<Aqaguani>"
-	"aqagu" Adv Lok 3SgPoss @CL-ADVL> #1->5
-"<anaana>"
-	"anaana" N Abs Sg @SUBJ> #2->5
-"<angerlamut>"
-	"angerlamut" Adv @ADVL> #3->4
-"<isileriallartoq>"
-	"iser" LIR RIAR LLAR V Par 3Sg @PRED2 #4->5
-"<qiimmassimavoq>"
-	"qiimmap" SIMA V Ind 3Sg @PRED #5->0
-"<.>"
-	"." CLB #6->6
-
-"<Puussiaateqangaaramilu>"
-	"pooq" SSAQ LIAQ UTE QAR NGAAR V Cau 4Sg CONJ-LU @PRED #1->0
-"<.>"
-	"." CLB #2->2
-</s>
-
 <s id="AexwS0Nb0QCPxcXcsGbi24u10FU">
 "<Imalu>"
 	"ima" Adv CONJ-LU @CL-ADVL> #1->2
@@ -2145,6 +2096,26 @@
 	"qiner" A HTR TAR V Ind 3Sg @PRED #4->0
 "<.>"
 	"." CLB #5->5
+</s>
+
+<s id="BlzaZrzeBsL4kJznxc8mxXhr4EU">
+"<Aqaguani>"
+	"aqagu" Adv Lok 3SgPoss @CL-ADVL> #1->5
+"<anaana>"
+	"anaana" N Abs Sg @SUBJ> #2->4
+"<angerlamut>"
+	"angerlamut" Adv @ADVL> #3->4
+"<isileriallarami>"
+	"iser" LIR RIAR LLAR V Cau 4Sg @CAU> #4->5
+"<qiimmassimavoq>"
+	"qiimmap" SIMA V Ind 3Sg @PRED #5->0
+"<.>"
+	"." CLB #6->6
+
+"<Puussiaateqangaaramilu>"
+	"pooq" SSAQ LIAQ UTE QAR NGAAR V Cau 4Sg CONJ-LU @PRED #1->0
+"<.>"
+	"." CLB #2->2
 </s>
 
 <s id="CB6fEw3mHclJM6nhVxHxqQoreO0">
@@ -2498,7 +2469,7 @@
 "<inuup>"
 	"inuk" N Rel Sg @POSS> #2->3
 "<mikissusaa>"
-	"miki" SSUSIQ N Abs Sg 3SgPoss @HNOUN #3->0
+	"miki" SSUSIQ N Abs Sg 3SgPoss @EXCLM #3->0
 "<,>"
 	"," CLB #4->4
 "<anaanami>"
@@ -3245,6 +3216,35 @@
 	"tusaa" SIMA V Ind 1Sg 3SgO @PRED #5->0
 "<.>"
 	"." CLB #6->6
+</s>
+
+<s id="I6BZkFcc0XsYB7uHNfXfOJp3UTo">
+"<Angigivaa>"
+	"angige" V Ind 3Sg 3SgO @PRED #1->0
+"<,>"
+	"," CLB #2->2
+"<tulluarpallaarnanilu>"
+	"tulluar" VALLAAR V ContNeg 4Sg CONJ-LU @PRED #3->0
+"<qarliinut>"
+	"qarlik" N Trm Pl 3SgPoss @<ADVL #4->3
+"<koorpunut>"
+	"koorpu" N Trm Pl @N< #5->4
+"<,>"
+	"," CLB #6->6
+"<atukunut>"
+	"atukoq" N Trm Pl @N< #7->4
+"<qarsornikunut>"
+	"qarsor" NIKUQ N Trm Pl @N< #8->7
+"<,>"
+	"," CLB #9->9
+"<seeqquatigut>"
+	"seeqqoq" N Via Sg 3SgPoss @i-ADVL> #10->12
+"<illuttut>"
+	"illuttut" Adv @i-ADVL> #11->12
+"<alittornikunut>"
+	"alittor" NIKUQ N Trm Pl @N< #12->4
+"<.>"
+	"." CLB #13->13
 </s>
 
 <s id="ICffaZgAdWUjeLApuYGknpycD9A">
@@ -6091,6 +6091,66 @@
 	"." CLB #5->5
 </s>
 
+<s id="VyxYPOGgErYX1U8gxUTMhQox608">
+"<Angerlamut>"
+	"angerlamut" Adv @ADVL> #1->2
+"<apuuttorlu>"
+	"apuup" V Par 3Sg ADV-LU @PRED2 #2->2
+"<”>"
+	"”" PUNCT RIGHT #3->3
+"<...>"
+	"..." CLB #4->4
+
+"<arpaqattaarnak>"
+	"arpap" QATTAAR V ContNeg 2Sg @ADVL> #1->2
+"<annertunngooqinaatit>"
+	"anner" TUQ NNGUAQ U QINA V Ind 2Sg @PRED #2->0
+"<.>"
+	"." CLB #3->3
+
+"<Eqqissillutit>"
+	"eqqissi" V Cont 2Sg @ADVL> #1->2
+"<iPaderniarit>"
+	"iPad" R NIAR V Imp 2Sg @PRED #2->0
+"<...>"
+	"..." CLB #3->3
+
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART #1->1
+"<,>"
+	"," CLB #2->2
+"<ineeqqamini>"
+	"ini" ARAQ N Lok Sg 4SgPoss @ADVL> #3->8
+"<pinnguarpassuami>"
+	"pinnguaq" PAK SUAQ N Rel Pl 4SgPoss @POSS> #4->7
+"<pujoralannik>"
+	"pujoralak" N Ins Pl @i-ADVL> #5->6
+"<poorneqalersut>"
+	"poor" NIQAR LIR TUQ N Rel Pl @N< #6->4
+"<akorninut>"
+	"akunneq" N Trm Pl 3PlPoss @ADVL> #7->8
+"<pilluni>"
+	"pi" V Cont 4Sg @ADVL> #8->9
+"<iPadileruni>"
+	"iPad" LIR V Con 4Sg @CON> #9->13
+"<,>"
+	"," CLB #10->10
+"<ullorsuaq>"
+	"ulloq" SUAQ N Abs Sg @ADVL> #11->13
+"<ualersuarlu>"
+	"ualeq" SUAQ N Abs Sg CONJ-LU @ADVL> #12->13
+"<naasaraat>"
+	"naa" TARE V Ind 3Pl @PRED #13->0
+"<,>"
+	"," CLB #14->14
+"<kakkilertalluni>"
+	"kakkilerta" V Cont 4Sg @ADVL> #15->16
+"<tangajullattaajutigaluni>"
+	"tangajor" LLATTAAR UTIGE V Cont 4Sg @<ADVL #16->13
+"<.>"
+	"." CLB DIRTALEMIDDLE #17->17
+</s>
+
 <s id="W3sZYntBZMe8PO4emQ06ocoRQ68">
 "<Iggasiaarniarlunga>"
 	"iggaser" JAAR NIAR V Cont 1Sg @CL-CIT> #1->2
@@ -7478,66 +7538,6 @@
 	"sanioqqup" V Ind 3Pl @PRED #8->0
 "<.>"
 	"." CLB #9->9
-</s>
-
-<s id="dgWwNwerZsF3hcwkTEKEHQ2NxAU">
-"<Angerlamut>"
-	"angerlamut" Adv @ADVL> #1->2
-"<apuuttorlu>"
-	"apuup" V Par 3Sg ADV-LU @PRED2 #2->2
-"<”>"
-	"”" PUNCT RIGHT #3->3
-"<...>"
-	"..." CLB #4->4
-
-"<arpaqattaarnak>"
-	"arpap" QATTAAR V ContNeg 2Sg @ADVL> #1->2
-"<annertunngooqinaatit>"
-	"anner" TUQ NNGUAQ U QINA V Ind 2Sg @PRED #2->0
-"<.>"
-	"." CLB #3->3
-
-"<Eqqissillutit>"
-	"eqqissi" V Cont 2Sg @ADVL> #1->2
-"<iPaderniarit>"
-	"iPad" R NIAR V Imp 2Sg @PRED #2->0
-"<...>"
-	"..." CLB #3->3
-
-"<”>"
-	"”" PUNCT RIGHT DIRTALESTART #1->1
-"<,>"
-	"," CLB #2->2
-"<ineeqqamini>"
-	"ini" ARAQ N Lok Sg 4SgPoss @ADVL> #3->8
-"<pinnguarpassuami>"
-	"pinnguaq" PAK SUAQ N Rel Pl 4SgPoss @POSS> #4->7
-"<pujoralannik>"
-	"pujoralak" N Ins Pl @i-ADVL> #5->6
-"<poorneqalersut>"
-	"poor" NIQAR LIR TUQ N Rel Pl @N< #6->4
-"<akorninut>"
-	"akunneq" N Trm Pl 3PlPoss @ADVL> #7->8
-"<pilluni>"
-	"pi" V Cont 4Sg @ADVL> #8->9
-"<iPadileruni>"
-	"iPad" LIR V Con 4Sg @CON> #9->13
-"<,>"
-	"," CLB #10->10
-"<ullorsuaq>"
-	"ulloq" SUAQ N Abs Sg @SUBJ> #11->13
-"<ualersuarlu>"
-	"ualeq" SUAQ N Abs Sg CONJ-LU @ADVL> #12->13
-"<naasaraaq>"
-	"naa" TARE V Ind 3Sg @PRED #13->0
-"<,>"
-	"," CLB #14->14
-"<kakkilertalluni>"
-	"kakkilerta" V Cont 4Sg @ADVL> #15->16
-"<tangajullattaajutigaluni>"
-	"tangajor" LLATTAAR UTIGE V Cont 4Sg @<ADVL #16->13
-"<.>"
-	"." CLB DIRTALEMIDDLE #17->17
 </s>
 
 <s id="dqxkuxneu8Fy7odxJ8sHn2IgdZE">
