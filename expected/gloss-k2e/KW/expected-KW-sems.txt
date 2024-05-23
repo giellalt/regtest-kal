@@ -259,11 +259,10 @@
 	"," CLB
 "<aappaatalu>"
 	"aappaq" Num Gram/Ord Rel Sg 3PlPoss LU
-	"aappaq" Num Gram/Ord Rel Sg 3SgPoss LU
 	"aappaq" Sem/Hfam N Rel Sg 3PlPoss LU
-	"aappaq" Sem/Hfam N Rel Sg 3SgPoss LU
 	"aappaq" Sem/Hprof N Rel Sg 3PlPoss LU
-	"aappaq" Sem/Hprof N Rel Sg 3SgPoss LU
+	"aappaq" Sem/ax N Rel Sg 3SgPoss LU
+	"aappaq" Sem/ax Num Gram/Ord Rel Sg 3SgPoss LU
 "<qallunaap>"
 	"qallunaaq" Sem/Hnat N Rel Sg
 "<angutip>"
@@ -3331,12 +3330,12 @@
 <s id="9VD70ksUOEGZxpA48USvMc3RAqU">
 "<Kiisa>"
 	"kii" Gram/IV Sem/deform V Imp 1Pl
-	"kii" Gram/TV Gram/Refl V Imp 1Pl
+	"kii" Gram/TV Gram/Refl Sem/deform V Imp 1Pl
 	"kiisa" Adv
 "<naammattuukkakka>"
 	"naammattoor" Gram/TV iSem/encounter TAQ Der/vn Sem/ac N Abs Pl 1SgPoss
 "<suli>"
-	"su" V Opt 3Sg
+	"su" Sem/do V Opt 3Sg
 	"suli" Adv
 "<upperinngitsutut>"
 	"uppere" Gram/TV iSem/rely NNGIT Der/vv Gram/Refl Gram/IV TUQ Der/vn Sem/H N Aeq Pl
@@ -3350,7 +3349,7 @@
 "<illugit>"
 	"illu" iSem/build GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
 	"illugip" Gram/IV V Ind Pl Gram/Exclm
-	"illup" Gram/TV Gram/Refl V Imp 2Sg Gram/ImpPos
+	"illup" Gram/TV Gram/Refl Sem/affect_exp V Imp 2Sg Gram/ImpPos
 	"illup" Orth/Arch Gram/IV Sem/affect_exp V Imp 2Sg Gram/ImpPos
 	"ip" Gram/TV V Cont 3PlO
 "<eqqaamiutsinnik>"
@@ -3867,15 +3866,16 @@
 
 <s id="AMMfdVUIhzfID1eAfCTOn1xqxPQ">
 "<Aappaa>"
+	"aap" Gram/TV Sem/ax V Ind 3Sg 3SgO
 	"aap" Gram/TV Sem/bring V Ind 3Sg 3SgO
 	"aap" Gram/TV Sem/change_process V Ind 3Sg 3SgO
 	"aap" Gram/TV Sem/peel V Ind 3Sg 3SgO
+	"aap" Orth/Arch Gram/TV Sem/ax V Ind 3Sg 3SgO
 	"aap" Orth/Arch Gram/TV Sem/bring V Ind 3Sg 3SgO
 	"aap" Orth/Arch Gram/TV Sem/change_process V Ind 3Sg 3SgO
 	"aap" Orth/Arch Gram/TV Sem/peel V Ind 3Sg 3SgO
-	"aappaq" Num Gram/Ord Abs Sg 3SgPoss
-	"aappaq" Sem/Hfam N Abs Sg 3SgPoss
-	"aappaq" Sem/Hprof N Abs Sg 3SgPoss
+	"aappaq" Sem/ax N Abs Sg 3SgPoss
+	"aappaq" Sem/ax Num Gram/Ord Abs Sg 3SgPoss
 "<oqartarpoq>"
 	"oqar" Gram/IV iSem/say TAR Der/vv Gram/IV Sem/do V Ind 3Sg
 "<toqutsinikuugama>"
@@ -3894,6 +3894,9 @@
 	"." CLB
 
 "<Aappaalu>"
+	"aap" Gram/TV Sem/ax V Ind 3Pl 3PlO Orth/Alt LU
+	"aap" Gram/TV Sem/ax V Ind 3Sg 3PlO LU
+	"aap" Gram/TV Sem/ax V Ind 3Sg 3SgO LU
 	"aap" Gram/TV Sem/bring V Ind 3Pl 3PlO Orth/Alt LU
 	"aap" Gram/TV Sem/bring V Ind 3Sg 3PlO LU
 	"aap" Gram/TV Sem/bring V Ind 3Sg 3SgO LU
@@ -3903,6 +3906,9 @@
 	"aap" Gram/TV Sem/peel V Ind 3Pl 3PlO Orth/Alt LU
 	"aap" Gram/TV Sem/peel V Ind 3Sg 3PlO LU
 	"aap" Gram/TV Sem/peel V Ind 3Sg 3SgO LU
+	"aap" Orth/Arch Gram/TV Sem/ax V Ind 3Pl 3PlO Orth/Alt LU
+	"aap" Orth/Arch Gram/TV Sem/ax V Ind 3Sg 3PlO LU
+	"aap" Orth/Arch Gram/TV Sem/ax V Ind 3Sg 3SgO LU
 	"aap" Orth/Arch Gram/TV Sem/bring V Ind 3Pl 3PlO Orth/Alt LU
 	"aap" Orth/Arch Gram/TV Sem/bring V Ind 3Sg 3PlO LU
 	"aap" Orth/Arch Gram/TV Sem/bring V Ind 3Sg 3SgO LU
@@ -3912,13 +3918,12 @@
 	"aap" Orth/Arch Gram/TV Sem/peel V Ind 3Pl 3PlO Orth/Alt LU
 	"aap" Orth/Arch Gram/TV Sem/peel V Ind 3Sg 3PlO LU
 	"aap" Orth/Arch Gram/TV Sem/peel V Ind 3Sg 3SgO LU
-	"aappaq" Num Gram/Ord Abs Sg 3SgPoss LU
 	"aappaq" Sem/Hfam N Abs Pl 3PlPoss Err/Sub LU
 	"aappaq" Sem/Hfam N Abs Pl 3SgPoss LU
-	"aappaq" Sem/Hfam N Abs Sg 3SgPoss LU
 	"aappaq" Sem/Hprof N Abs Pl 3PlPoss Err/Sub LU
 	"aappaq" Sem/Hprof N Abs Pl 3SgPoss LU
-	"aappaq" Sem/Hprof N Abs Sg 3SgPoss LU
+	"aappaq" Sem/ax N Abs Sg 3SgPoss LU
+	"aappaq" Sem/ax Num Gram/Ord Abs Sg 3SgPoss LU
 "<oqartarluni>"
 	"oqar" Gram/IV iSem/say TAR Der/vv Gram/IV Sem/do V Cont 4Sg
 "<maaniittunga>"
@@ -4437,15 +4442,16 @@
 	"angut" Sem/H N Rel Sg
 	"angut" Sem/Hfam N Rel Sg
 "<aappaa>"
+	"aap" Gram/TV Sem/ax V Ind 3Sg 3SgO
 	"aap" Gram/TV Sem/bring V Ind 3Sg 3SgO
 	"aap" Gram/TV Sem/change_process V Ind 3Sg 3SgO
 	"aap" Gram/TV Sem/peel V Ind 3Sg 3SgO
+	"aap" Orth/Arch Gram/TV Sem/ax V Ind 3Sg 3SgO
 	"aap" Orth/Arch Gram/TV Sem/bring V Ind 3Sg 3SgO
 	"aap" Orth/Arch Gram/TV Sem/change_process V Ind 3Sg 3SgO
 	"aap" Orth/Arch Gram/TV Sem/peel V Ind 3Sg 3SgO
-	"aappaq" Num Gram/Ord Abs Sg 3SgPoss
-	"aappaq" Sem/Hfam N Abs Sg 3SgPoss
-	"aappaq" Sem/Hprof N Abs Sg 3SgPoss
+	"aappaq" Sem/ax N Abs Sg 3SgPoss
+	"aappaq" Sem/ax Num Gram/Ord Abs Sg 3SgPoss
 "<anerpaluinnartoq>"
 	"ani" Gram/IV iSem/leave PALUP Der/vv Gram/IV iSem/sound_emission INNAR Der/vv Gram/IV Sem/persist V Par 3Sg %AmbiguøsPar
 	"ani" Gram/IV iSem/leave PALUP Der/vv Gram/IV iSem/sound_emission INNAR Der/vv Gram/IV iSem/persist TUQ Der/vn Sem/H N Abs Sg
@@ -4467,8 +4473,8 @@
 	"kiserngorup" Gram/IV iSem/persist TUQ Der/vn Sem/cc N Rel Sg
 	"kiserngorup" Gram/TV Gram/Pass TUQ Der/vn Sem/H N Rel Sg
 	"kiserngorup" Gram/TV Gram/Pass TUQ Der/vn Sem/cc N Rel Sg
-	"kiserngorup" Gram/TV Gram/Refl TUQ Der/vn Sem/H N Rel Sg
-	"kiserngorup" Gram/TV Gram/Refl TUQ Der/vn Sem/cc N Rel Sg
+	"kiserngorup" Gram/TV Gram/Refl iSem/persist TUQ Der/vn Sem/H N Rel Sg
+	"kiserngorup" Gram/TV Gram/Refl iSem/persist TUQ Der/vn Sem/cc N Rel Sg
 "<anaanaga>"
 	"anaana" Sem/Hfam N Abs Sg 1SgPoss
 "<artuleqqasoq>"

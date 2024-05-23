@@ -14,9 +14,9 @@
 "<Broberg>"
 	"Broberg" Sem/Hum Prop Abs Sg @<APPOS
 "<toqqakkat>"
-	"toqqar" Gram/TV TAQ Der/vn N Rel Pl @POSS>
+	"toqqar" Gram/TV TAQ Der/vn N Rel Pl %PossOblique @POSS>
 "<akornanniippoq>"
-	"akunneq" N Lok Sg 3PlPoss Hyb/1-2 @ADVL>
+	"akunneq" N Lok Sg 3PlPoss Hyb/1-2 %PossOblique @ADVL>
 "<ippoq>"
 	"IP" Gram/IV V Ind 3Sg Hyb/2-2 @PRED
 "<aasamut>"
@@ -24,7 +24,7 @@
 "<Island>"
 	"Island" Sem/Geo Prop Abs Sg @i-PROP>
 "<Gameqarnissaanut>"
-	"Gam" Sem/Hum iProp QAR Der/nv Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Sg 3SgPoss @i-ADVL>
+	"Gam" Sem/Hum iProp QAR Der/nv Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Sg 3SgPoss @ADVL>
 "<arsaannermi>"
 	"arsar" Gram/IV UTE Der/vv Gram/Refl Gram/IV NIQ Der/vn N Lok Sg @ADVL>
 "<nunanut>"
@@ -2199,7 +2199,7 @@
 "<manna>"
 	"manna" Gram/Dem Pron Abs Sg @N<
 "<aperujussuaqimmat>"
-	"api" Gram/IV RUJUP Der/vv SUAR Der/vv QE Der/vv Gram/IV V Cau 3Sg @CAU>
+	"api" Gram/IV RUJUP Der/vv Gram/IV SUAR Der/vv Gram/IV QE Der/vv Gram/IV V Cau 3Sg @CAU>
 "<pueqqorlunilu>"
 	"pueqqor" Gram/IV Gram/Conj-encl V Cont 4Sg CONJ-LU @ADVL>
 "<savaaqqat>"
@@ -2207,11 +2207,11 @@
 "<ajunaartut>"
 	"ajunaar" Gram/IV TUQ Der/vn N Abs Pl @N<
 "<ikittuunngikkaluarput>"
-	"ikip" Gram/IV TUQ Der/vn U Der/nv Gram/IV NNGIT Der/vv GALUAR Der/vv Gram/IV V Ind 3Pl @PRED
+	"ikip" Gram/IV TUQ Der/vn U Der/nv Gram/IV NNGIT Der/vv Gram/IV GALUAR Der/vv Gram/IV V Ind 3Pl @PRED
 "<,>"
 	"," CLB
 "<taamaattorli>"
-	"taama" IP Der/nv Gram/IV Gram/Conj-encl V Par 3Sg CONJ-LI @CL-CIT>
+	"taama" IP Der/nv Gram/IV Gram/Conj-encl V Par 3Sg CONJ-LI %AmbiguøsPar @PRED2
 "<ajortuuissunik>"
 	"ajor" Gram/IV TUQ Der/vn U Der/nv Gram/IV VIP Der/vv Gram/IV TUQ Der/vn N Ins Pl @ADVL>
 "<oqaatigineqarsinnaanngillat>"
@@ -5438,8 +5438,7 @@
 "<qassinullu>"
 	"qassit" Gram/Int Gram/Adv-encl Pron Trm Pl ADV-LU @ADVL>
 "<aasinnaanerlunga>"
-	"aa" Gram/IV SINNAA Der/vv NIR Der/vv Gram/IV V Cont 1Sg @CL-<CIT
-	"aa" Gram/TV SINNAA Der/vv NIR Der/vv Gram/TV V Cont 1SgO @CL-<CIT
+	"aa" Gram/TV SINNAA Der/vv Gram/TV NIR Der/vv Gram/TV V Cont 1SgO @CL-<CIT
 "<adresselu>"
 	"adresse" OLang/DAN Err/Sub Gram/Conj-encl N Abs Sg CONJ-LU %ContHypotagme @OBJ>
 "<apeqqutigalugu>"
@@ -8253,13 +8252,13 @@
 "<akuersissuteqarfigineqarnissamut>"
 	"akuere" Gram/TV HTR Der/vv Gram/IV UTE Der/vn QAR Der/nv Gram/IV VIK Der/vn GE Der/nv Gram/TV NIQAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Sg @N<
 "<arriitsumik>"
-	"arriip" Gram/IV TUQ Der/vn N Ins Sg @N<
+	"arriip" Gram/IV TUQ Der/vn N Ins Sg @ADVL>
 "<suliarineqarsimavoq>"
 	"suliaq" GE Der/nv Gram/TV NIQAR Der/vv Gram/IV SIMA Der/vv V Ind 3Sg @PRED
 "<,>"
 	"," CLB
 "<tusarniaasoqalernissaanullu>"
-	"tusar" Gram/TV NIAR Der/vv HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV LIR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn Gram/Conj-encl N Trm Sg 3SgPoss CONJ-LU @i-ADVL>
+	"tusar" Gram/TV NIAR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV LIR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn Gram/Conj-encl N Trm Sg 3SgPoss CONJ-LU @i-ADVL>
 "<Naalakkersuisunit>"
 	"Naalakkersuisut" Sem/inst Sem/Hum Prop Abl Pl @AGENS
 "<akuersissuteqarfigineqarluni>"
@@ -8655,7 +8654,7 @@
 "<aatsaat>"
 	"aatsaat" Adv @ADVL>
 "<malugilerlugu>"
-	"maluge" Gram/TV LIR Der/vv Gram/TV Sem/Temporal V Cont 3SgO @PRED2
+	"maluge" Gram/TV LIR Der/vv Gram/TV V Cont 3SgO @ADVL>
 "<,>"
 	"," CLB
 "<uffarfimmut>"
@@ -13086,7 +13085,7 @@
 "<,>"
 	"," CLB
 "<taamaattorli>"
-	"taama" IP Der/nv Gram/IV Gram/Conj-encl V Par 3Sg CONJ-LI %AmbiguøsPar
+	"taama" IP Der/nv Gram/IV Gram/Conj-encl V Par 3Sg CONJ-LI %AmbiguøsPar @PRED2
 "<ajortuuissunik>"
 	"ajor" Gram/IV TUQ Der/vn U Der/nv Gram/IV VIP Der/vv Gram/IV TUQ Der/vn N Ins Pl @ADVL>
 "<oqaatigineqarsinnaanngillat>"
