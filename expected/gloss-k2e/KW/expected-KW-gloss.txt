@@ -1254,7 +1254,7 @@
 "<iluani>"
 	"inside" Sem/Lh iN <tr> N Lok Sg 3SgPoss @ADVL> #3->5
 "<savilerluni>"
-	"knife" iSem/tool-cut iN <tr> LIR Der/nv Orth/Alt Gram/IV Sem/supply V Cont 4Sg @ADVL> #4->5
+	"knife" iSem/tool-cut iN <tr> LIR Der/nv Gram/TV Gram/Refl Gram/IV V Cont 4Sg @ADVL> #4->5
 "<malersortarsimavaa>"
 	"chase" iSem/chase iV <tr> TAR Der/vv Gram/TV iSem/do SIMA Der/vv V Ind 3Sg 3SgO @PRED #5->0
 "<,>"
@@ -4849,14 +4849,17 @@
 	"play" iSem/activate iV <tr> SIMAAR Der/vv Gram/IV V Ind 3Sg @PRED #3->0
 "<,>"
 	"," CLB #4->3
-"<tusarnaartagaajaasiit>"
-	"listen to" iSem/listen iV <tr> TAR Der/vv Gram/TV iSem/do "what has been" Sem/occur_dynamic iV <tr> N Abs Sg 3SgPoss AASIIT @SUBJ> #5->4
-"<taakkua>"
-	"this one" iPron <tr> Pron Abs Pl @N< #6->5
-"<appisimaarput>"
-	"play" iSem/activate iV <tr> SIMAAR Der/vv Gram/IV V Ind 3Pl @PRED #7->0
 "<.>"
-	"." CLB #8->7
+	"." CLB #5->4
+
+"<tusarnaartagaajaasiit>"
+	"listen to" iSem/listen iV <tr> TAR Der/vv Gram/TV iSem/do "what has been" Sem/occur_dynamic iV <tr> N Abs Pl 3SgPoss AASIIT @SUBJ> #1->3
+"<taakkua>"
+	"this one" iPron <tr> Pron Abs Pl @N< #2->1
+"<appisimaarput>"
+	"play" iSem/activate iV <tr> SIMAAR Der/vv Gram/IV V Ind 3Pl @PRED #3->0
+"<.>"
+	"." CLB #4->3
 </s>
 
 <s id="NdFC1LCf1LkuiP4AMQ59EyKOuA0">
@@ -5567,7 +5570,7 @@
 "<sukkasuumik>"
 	"fast" Adj <tr> N Ins Sg @ADVL> #3->4
 "<kiseqqippai>"
-	"count" Sem/math iV <tr> "again" iAdv <tr> V Ind 3Sg 3PlO @PRED #4->0
+	"count" iSem/math iV <tr> QQIP Der/vv Gram/TV Sem/check_if V Ind 3Sg 3PlO @PRED #4->0
 "<.>"
 	"." CLB #5->4
 </s>
@@ -6046,8 +6049,8 @@
 "<inuuinni>"
 	"birthday" Sem/occ iN <tr> N Lok Sg 1SgPoss @ADVL> #2->4
 "<arlaallu>"
-	"one of those" Sem/ac iN <tr> N Abs Sg 3PlPoss ADV-LU @OBJ> #3->4
-	"one of those" Sem/ac iN <tr> N Gram/Cong Abs Sg 3PlPoss ADV-LU @OBJ> #3->4
+	"one of those" Sem/ac iN <tr> N Abs Sg 3PlPoss CONJ-LU @OBJ> #3->4
+	"one of those" Sem/ac iN <tr> N Gram/Cong Abs Sg 3PlPoss CONJ-LU @OBJ> #3->4
 "<misilikkumaarpara>"
 	"test" iSem/test iV <tr> GUMAAR Der/vv Gram/TV V Ind 1Sg 3SgO @PRED #4->0
 "<.>"
@@ -7353,7 +7356,7 @@
 "<poorneqarsimariarmat>"
 	"wrap up" iSem/cover iV <tr> NIQAR Der/vv Gram/IV SIMA Der/vv RIAR Der/vv Gram/IV V Cau 3Sg @CAU> #3->5
 "<eqqarsaatinnillu>"
-	"thought" Sem/sem-c iN <tr> N Abl Pl 1SgPoss ADV-LU @AGENS #4->5
+	"thought" Sem/sem-c iN <tr> N Abl Pl 1SgPoss CONJ-LU @AGENS #4->5
 "<ipianngutinneqalerpunga>"
 	"feel suffocating" iSem/breathe iV <tr> TIP Der/vv Gram/TV iSem/cause NIQAR Der/vv Gram/IV "begin" Sem/begin iV <tr> V Ind 1Sg @PRED #5->0
 "<.>"
@@ -8968,42 +8971,6 @@
 	"." CLB #4->3
 </s>
 
-<s id="ihxUKfPailFuEsss9POChjRmYx0">
-"<”>"
-	"”" PUNCT RIGHT DIRTALESTART #1->0
-"<Sianerfigitikkama>"
-	"call" Sem/speak_tool iV <tr> "let" Sem/allow iV <tr> V Cau 1Sg @PRED #2->0
-"<.>"
-	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #3->2
-
-"<Mikiaasiit>"
-	"Miki" Dial/Vgr Sem/Mask Sem/Hum Prop Abs Sg AASIIT @SUBJ> #1->2
-"<atuarsimanngilaq>"
-	"read" iSem/read iV <tr> SIMA Der/vv "not" iAdv <tr> V Ind 3Sg @PRED #2->0
-"<!>"
-	"!" CLB #3->2
-
-"<”>"
-	"”" PUNCT RIGHT DIRTALESTART #1->0
-"<ataataa>"
-	"father" Sem/Hfam iN <tr> N Abs Sg 3SgPoss @SUBJ> #2->3
-"<akivoq>"
-	"answer" Sem/answer iV <tr> V Ind 3Sg @PRED #3->0
-"<,>"
-	"," CLB #4->3
-"<.>"
-	"." CLB #5->4
-
-"<uffarfillu>"
-	"bathroom" Sem/Lh iN <tr> N Abs Sg CONJ-LU @OBJ> #1->2
-"<ammarlugu>"
-	"open" Sem/open iV <tr> V Cont 3SgO @PRED #2->0
-"<inoqanngitsoq>"
-	"deserted" Adj <tr> N Abs Sg @N< #3->1
-"<.>"
-	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #4->3
-</s>
-
 <s id="inEjNGMQB5axpyieCmUpdLYywbo">
 "<Upperisaqarsinnaanngilanga>"
 	"uppere" Gram/TV iSem/rely "what has been" Sem/occur_dynamic iV <tr> "have" Sem/have iV <tr> "can" Sem/can iV <tr> "not" iAdv <tr> V Ind 1Sg @PRED #1->0
@@ -9674,12 +9641,7 @@
 	"." CLB #3->2
 
 "<Oqitsorsiortuuserujoorluni>"
-	"be light" iSem/be_attribute iV <tr> "one who" iSem/H iN <tr> SIUR Der/nv Gram/IV iSem/do_leisure iSem/occ "one who" iSem/H iN <tr> UTE Der/nn LIR Der/nv Gram/IV iSem/supply RUJUUR Der/vv Gram/IV V Cont 4Sg @PRED #1->0
-	"be light" iSem/be_attribute iV <tr> "one who" iSem/H iN <tr> SIUR Der/nv Gram/IV iSem/do_leisure iSem/occ "that which" iSem/cc iN <tr> UTE Der/nn LIR Der/nv Gram/IV iSem/supply RUJUUR Der/vv Gram/IV V Cont 4Sg @PRED #1->0
-	"be light" iSem/be_attribute iV <tr> "that which" iSem/cc iN <tr> SIUR Der/nv Gram/IV iSem/do_leisure iSem/occ "one who" iSem/H iN <tr> UTE Der/nn LIR Der/nv Gram/IV iSem/supply RUJUUR Der/vv Gram/IV V Cont 4Sg @PRED #1->0
-	"be light" iSem/be_attribute iV <tr> "that which" iSem/cc iN <tr> SIUR Der/nv Gram/IV iSem/do_leisure iSem/occ "that which" iSem/cc iN <tr> UTE Der/nn LIR Der/nv Gram/IV iSem/supply RUJUUR Der/vv Gram/IV V Cont 4Sg @PRED #1->0
-	"be light" iSem/be_attribute iV <tr> TUQ Der/vn iSem/f-q SIUR Der/nv Gram/IV iSem/do_leisure iSem/occ "one who" iSem/H iN <tr> UTE Der/nn LIR Der/nv Gram/IV iSem/supply RUJUUR Der/vv Gram/IV V Cont 4Sg @PRED #1->0
-	"be light" iSem/be_attribute iV <tr> TUQ Der/vn iSem/f-q SIUR Der/nv Gram/IV iSem/do_leisure iSem/occ "that which" iSem/cc iN <tr> UTE Der/nn LIR Der/nv Gram/IV iSem/supply RUJUUR Der/vv Gram/IV V Cont 4Sg @PRED #1->0
+	"be light" iSem/be_attribute iV <tr> TUQ Der/vn iSem/f-q SIUR Der/nv Gram/IV iSem/do_leisure iSem/occ TUUSI Der/vv Gram/IV RUJUUR Der/vv Gram/IV V Cont 4Sg @PRED #1->0
 "<.>"
 	"." CLB #2->1
 
@@ -10629,9 +10591,9 @@
 "<,>"
 	"," CLB #3->2
 "<uanga>"
-	"I" iPron <tr> Pron Abs 1Sg #4->3
+	"I" iPron <tr> Pron Abs 1Sg @HNOUN #4->0
 "<taakkuluunniit>"
-	"this one" iPron <tr> Pron Abs Pl CONJ-LUUNNIIT @N< #5->4
+	"this one" iPron <tr> Pron Abs Pl CONJ-LUUNNIIT @HNOUN #5->0
 "<?>"
 	"?" CLB #6->5
 

@@ -1251,7 +1251,7 @@
 "<iluani>"
 	"inside" Sem/Lh iN N "in" Sg "his/her/its" @ADVL> #3->5
 "<savilerluni>"
-	"knife" iSem/tool-cut iN LIR Sem/supply V Cont @ADVL> #4->5
+	"knife" iSem/tool-cut iN LIR "oneself" V Cont @ADVL> #4->5
 "<malersortarsimavaa>"
 	"chase" iSem/chase iV TAR iSem/do SIMA V Ind "him/her/it" @PRED #5->0
 "<,>"
@@ -4843,14 +4843,17 @@
 	"play" iSem/activate iV SIMAAR V Ind @PRED #3->0
 "<,>"
 	"," CLB #4->3
-"<tusarnaartagaajaasiit>"
-	"listen to" iSem/listen iV TAR iSem/do "what has been" Sem/occur_dynamic iV N Abs Sg "his/her/its" "as usual" @SUBJ> #5->4
-"<taakkua>"
-	"this one" iPron Pron Abs Pl @N< #6->5
-"<appisimaarput>"
-	"play" iSem/activate iV SIMAAR V Ind "they" @PRED #7->0
 "<.>"
-	"." CLB #8->7
+	"." CLB #5->4
+
+"<tusarnaartagaajaasiit>"
+	"listen to" iSem/listen iV TAR iSem/do "what has been" Sem/occur_dynamic iV N Abs Pl "his/her/its" "as usual" @SUBJ> #1->3
+"<taakkua>"
+	"this one" iPron Pron Abs Pl @N< #2->1
+"<appisimaarput>"
+	"play" iSem/activate iV SIMAAR V Ind @PRED #3->0
+"<.>"
+	"." CLB #4->3
 </s>
 
 <s id="NdFC1LCf1LkuiP4AMQ59EyKOuA0">
@@ -5561,7 +5564,7 @@
 "<sukkasuumik>"
 	"fast" Adj N Ins Sg @ADVL> #3->4
 "<kiseqqippai>"
-	"count" Sem/math iV "again" iAdv V Ind "he/she/it" "them" @PRED #4->0
+	"count" iSem/math iV QQIP Sem/check_if V Ind "he/she/it" "them" @PRED #4->0
 "<.>"
 	"." CLB #5->4
 </s>
@@ -6040,7 +6043,7 @@
 "<inuuinni>"
 	"birthday" Sem/occ iN N "in" Sg "my" @ADVL> #2->4
 "<arlaallu>"
-	"one of those" Sem/ac iN N Abs Sg "their" ADV-LU @OBJ> #3->4
+	"one of those" Sem/ac iN N Abs Sg "their" "and" @OBJ> #3->4
 "<misilikkumaarpara>"
 	"test" iSem/test iV GUMAAR V Ind "I" @PRED #4->0
 "<.>"
@@ -7346,7 +7349,7 @@
 "<poorneqarsimariarmat>"
 	"wrap up" iSem/cover iV NIQAR SIMA V "as soon as" @CAU> #3->5
 "<eqqarsaatinnillu>"
-	"thought" Sem/sem-c iN N "from" Pl "my" ADV-LU @AGENS #4->5
+	"thought" Sem/sem-c iN N "from" Pl "my" "and" @AGENS #4->5
 "<ipianngutinneqalerpunga>"
 	"feel suffocating" iSem/breathe iV TIP iSem/cause NIQAR "begin" Sem/begin iV V Ind "I" @PRED #5->0
 "<.>"
@@ -8960,42 +8963,6 @@
 	"." CLB #4->3
 </s>
 
-<s id="ihxUKfPailFuEsss9POChjRmYx0">
-"<”>"
-	"”" PUNCT RIGHT DIRTALESTART #1->0
-"<Sianerfigitikkama>"
-	"call" Sem/speak_tool iV "let" Sem/allow iV V "when/because" "I" @PRED #2->0
-"<.>"
-	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #3->2
-
-"<Mikiaasiit>"
-	"Miki" Dial/Vgr Sem/Mask Sem/Hum Prop Abs Sg "as usual" @SUBJ> #1->2
-"<atuarsimanngilaq>"
-	"read" iSem/read iV SIMA "not" iAdv V Ind @PRED #2->0
-"<!>"
-	"!" CLB #3->2
-
-"<”>"
-	"”" PUNCT RIGHT DIRTALESTART #1->0
-"<ataataa>"
-	"father" Sem/Hfam iN N Abs Sg "his/her/its" @SUBJ> #2->3
-"<akivoq>"
-	"answer" Sem/answer iV V Ind @PRED #3->0
-"<,>"
-	"," CLB #4->3
-"<.>"
-	"." CLB #5->4
-
-"<uffarfillu>"
-	"bathroom" Sem/Lh iN N Abs Sg "and" @OBJ> #1->2
-"<ammarlugu>"
-	"open" Sem/open iV V Cont @PRED #2->0
-"<inoqanngitsoq>"
-	"deserted" Adj N Abs Sg @N< #3->1
-"<.>"
-	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #4->3
-</s>
-
 <s id="inEjNGMQB5axpyieCmUpdLYywbo">
 "<Upperisaqarsinnaanngilanga>"
 	"uppere" iSem/rely "what has been" Sem/occur_dynamic iV "have" Sem/have iV "can" Sem/can iV "not" iAdv V Ind "I" @PRED #1->0
@@ -9666,12 +9633,7 @@
 	"." CLB #3->2
 
 "<Oqitsorsiortuuserujoorluni>"
-	"be light" iSem/be_attribute iV "one who" iSem/H iN SIUR iSem/do_leisure iSem/occ "one who" iSem/H iN UTE LIR iSem/supply RUJUUR V Cont "he/she/it" @PRED #1->0
-	"be light" iSem/be_attribute iV "one who" iSem/H iN SIUR iSem/do_leisure iSem/occ "that which" iSem/cc iN UTE LIR iSem/supply RUJUUR V Cont "he/she/it" @PRED #1->0
-	"be light" iSem/be_attribute iV "that which" iSem/cc iN SIUR iSem/do_leisure iSem/occ "one who" iSem/H iN UTE LIR iSem/supply RUJUUR V Cont "he/she/it" @PRED #1->0
-	"be light" iSem/be_attribute iV "that which" iSem/cc iN SIUR iSem/do_leisure iSem/occ "that which" iSem/cc iN UTE LIR iSem/supply RUJUUR V Cont "he/she/it" @PRED #1->0
-	"be light" iSem/be_attribute iV TUQ iSem/f-q SIUR iSem/do_leisure iSem/occ "one who" iSem/H iN UTE LIR iSem/supply RUJUUR V Cont "he/she/it" @PRED #1->0
-	"be light" iSem/be_attribute iV TUQ iSem/f-q SIUR iSem/do_leisure iSem/occ "that which" iSem/cc iN UTE LIR iSem/supply RUJUUR V Cont "he/she/it" @PRED #1->0
+	"be light" iSem/be_attribute iV TUQ iSem/f-q SIUR iSem/do_leisure iSem/occ TUUSI RUJUUR V Cont "he/she/it" @PRED #1->0
 "<.>"
 	"." CLB #2->1
 
@@ -10620,9 +10582,9 @@
 "<,>"
 	"," CLB #3->2
 "<uanga>"
-	"I" iPron Pron Abs #4->3
+	"I" iPron Pron Abs @HNOUN #4->0
 "<taakkuluunniit>"
-	"this one" iPron Pron Abs Pl "or" @N< #5->4
+	"this one" iPron Pron Abs Pl "or" @HNOUN #5->0
 "<?>"
 	"?" CLB #6->5
 
