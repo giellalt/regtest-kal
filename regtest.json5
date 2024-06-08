@@ -55,6 +55,7 @@
 	},
 	pipes: {
 		kal: ['fst', 'pre1', 'hybrids', 'pre2', 'morf', 'syntax', 'dep', 'no2nd'],
+		fst: ['fst'],
 		'kal-sems-l': ['pre', 'sems-l', 'pre2', 'morf', 'syntax', 'dep', 'no2nd-s'],
 		'kal-lu': ['morf-c', 'lu', 'syntax', 'dep', 'no2nd'],
 		heur: ['fst', 'pre1', 'heur'],
@@ -65,6 +66,7 @@
 		all: ['*'],
 		gloss: ['KW', 'KWx'],
 		heur: ['heur/*'],
+		fst: ['fst/*'],
 	},
 	defaults: {
 		pipe: 'kal',
@@ -77,6 +79,11 @@
 	tests: {
 		kal: {
 			desc: 'Default Kalaalisut analysis pipe',
+		},
+		fst: {
+			desc: 'FST only',
+			pipe: 'fst',
+			corpora: ['fst'],
 		},
 		'kal-lu': {
 			desc: 'Split LU/LI/etc to their own token (dynamic corpus)',
