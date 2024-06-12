@@ -8729,10 +8729,14 @@
 "<qalipaataanik>"
 	"colour" Sem/col iN N Ins Sg "his/her/its" @i-ADVL> #6->7
 "<taasartakkatsinnik>"
-	"name" iSem/name iV TAR iSem/do TAR iSem/do "what has been" Sem/occur_dynamic iV N Ins Sg "our" @N< #7->2
-	"pick" iSem/appoint iV TAR iSem/do TAR iSem/do "what has been" Sem/occur_dynamic iV N Ins Sg "our" @N< #7->2
-	"taa" iSem/characterize TAR iSem/do TAR iSem/do "what has been" Sem/occur_dynamic iV N Ins Sg "our" @N< #7->2
-	"taa" iSem/tell TAR iSem/do TAR iSem/do "what has been" Sem/occur_dynamic iV N Ins Sg "our" @N< #7->2
+	"name" iSem/name iV TAR iSem/do TAR iSem/do "what has been" Sem/occur_dynamic iV N Ins Pl "our" @i-ADVL> #7->8
+	"name" iSem/name iV TAR iSem/do TAR iSem/do "what has been" Sem/occur_dynamic iV N Ins Sg "our" @i-ADVL> #7->8
+	"pick" iSem/appoint iV TAR iSem/do TAR iSem/do "what has been" Sem/occur_dynamic iV N Ins Pl "our" @i-ADVL> #7->8
+	"pick" iSem/appoint iV TAR iSem/do TAR iSem/do "what has been" Sem/occur_dynamic iV N Ins Sg "our" @i-ADVL> #7->8
+	"taa" iSem/characterize TAR iSem/do TAR iSem/do "what has been" Sem/occur_dynamic iV N Ins Pl "our" @i-ADVL> #7->8
+	"taa" iSem/characterize TAR iSem/do TAR iSem/do "what has been" Sem/occur_dynamic iV N Ins Sg "our" @i-ADVL> #7->8
+	"taa" iSem/tell TAR iSem/do TAR iSem/do "what has been" Sem/occur_dynamic iV N Ins Pl "our" @i-ADVL> #7->8
+	"taa" iSem/tell TAR iSem/do TAR iSem/do "what has been" Sem/occur_dynamic iV N Ins Sg "our" @i-ADVL> #7->8
 "<qalipaatillit>"
 	"coloured" Sem/f-surf Adj N Abs Pl @N< #8->3
 "<.>"
@@ -11324,10 +11328,10 @@
 "<,>"
 	"," CLB #7->6
 "<namminerpiaq>"
-	"namminerpiaq" Sem/am N Abs Sg @SUBJ> #8->10
+	"_"  Pron PIAQ #8->9 SUBSTITUTE:61:0301
 "<nukini>"
-	"muscle" Sem/anorg iN N Abs Pl "his/her/its" @OBJ> #9->10
-	"strength" Sem/am iN N Abs Pl "his/her/its" @OBJ> #9->10
+	"muscle" Sem/anorg iN N "own" Abs Pl "his/her/its" @OBJ> #9->10
+	"strength" Sem/am iN N "own" Abs Pl "his/her/its" @OBJ> #9->10
 "<atorlugit>"
 	"use" Sem/use iV V Cont @ADVL> #10->13
 "<nammineq>"

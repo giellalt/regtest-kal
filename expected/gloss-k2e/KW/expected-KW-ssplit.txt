@@ -8909,8 +8909,8 @@
 "<,>"
 	"," CLB #4->3
 "<affaannarsunngitsullu>"
-	"affaq" iSem/amount INNAQ Der/nn iSem/amount TUR Der/nv Gram/IV iSem/consume NNGIT Der/vv Gram/IV TUQ Der/vn iSem/cc Gram/Conj-encl N Abs Pl CONJ-LU @N< #5->3
-	"affaq" iSem/amount INNAQ Der/nn iSem/amount TUR Der/nv Gram/IV iSem/eat NNGIT Der/vv Gram/IV TUQ Der/vn iSem/cc Gram/Conj-encl N Abs Pl CONJ-LU @N< #5->3
+	"affaq" iSem/amount INNAQ Der/nn iSem/amount TUR Der/nv Gram/IV iSem/consume NNGIT Der/vv Gram/IV TUQ Der/vn Sem/cc Gram/Conj-encl N Abs Pl CONJ-LU @N< #5->3
+	"affaq" iSem/amount INNAQ Der/nn iSem/amount TUR Der/nv Gram/IV iSem/eat NNGIT Der/vv Gram/IV TUQ Der/vn Sem/cc Gram/Conj-encl N Abs Pl CONJ-LU @N< #5->3
 "<.>"
 	"." CLB #6->5
 
@@ -8923,14 +8923,20 @@
 "<,>"
 	"," CLB #4->3
 "<kissalaartup>"
-	"kissap" Gram/IV iSem/heat LAAR Der/vv Gram/IV TUQ Der/vn Sem/jtemp N Rel Sg @POSS> #5->6
+	"kissar" Gram/IV iSem/body_care LAAR Der/vv Gram/IV TUQ Der/vn Sem/jtemp N Rel Sg @POSS> #5->6
+	"kissar" Gram/IV iSem/heat LAAR Der/vv Gram/IV TUQ Der/vn Sem/jtemp N Rel Sg @POSS> #5->6
+	"kissar" Gram/IV iSem/wish LAAR Der/vv Gram/IV TUQ Der/vn Sem/jtemp N Rel Sg @POSS> #5->6
 "<qalipaataanik>"
 	"qalipap" Gram/TV iSem/colouring UTE Der/vn Sem/col N Ins Sg 3SgPoss @i-ADVL> #6->7
 "<taasartakkatsinnik>"
-	"taa" Gram/TV iSem/appoint TAR Der/vv Gram/TV iSem/do TAR Der/vv Gram/TV iSem/do TAQ Der/vn Sem/ac N Ins Sg 1PlPoss @N< #7->2
-	"taa" Gram/TV iSem/characterize TAR Der/vv Gram/TV iSem/do TAR Der/vv Gram/TV iSem/do TAQ Der/vn Sem/ac N Ins Sg 1PlPoss @N< #7->2
-	"taa" Gram/TV iSem/name TAR Der/vv Gram/TV iSem/do TAR Der/vv Gram/TV iSem/do TAQ Der/vn Sem/ac N Ins Sg 1PlPoss @N< #7->2
-	"taa" Gram/TV iSem/tell TAR Der/vv Gram/TV iSem/do TAR Der/vv Gram/TV iSem/do TAQ Der/vn Sem/ac N Ins Sg 1PlPoss @N< #7->2
+	"taa" Gram/TV iSem/appoint TAR Der/vv Gram/TV iSem/do TAR Der/vv Gram/TV iSem/do TAQ Der/vn Sem/ac N Ins Pl 1PlPoss @i-ADVL> #7->8
+	"taa" Gram/TV iSem/appoint TAR Der/vv Gram/TV iSem/do TAR Der/vv Gram/TV iSem/do TAQ Der/vn Sem/ac N Ins Sg 1PlPoss @i-ADVL> #7->8
+	"taa" Gram/TV iSem/characterize TAR Der/vv Gram/TV iSem/do TAR Der/vv Gram/TV iSem/do TAQ Der/vn Sem/ac N Ins Pl 1PlPoss @i-ADVL> #7->8
+	"taa" Gram/TV iSem/characterize TAR Der/vv Gram/TV iSem/do TAR Der/vv Gram/TV iSem/do TAQ Der/vn Sem/ac N Ins Sg 1PlPoss @i-ADVL> #7->8
+	"taa" Gram/TV iSem/name TAR Der/vv Gram/TV iSem/do TAR Der/vv Gram/TV iSem/do TAQ Der/vn Sem/ac N Ins Pl 1PlPoss @i-ADVL> #7->8
+	"taa" Gram/TV iSem/name TAR Der/vv Gram/TV iSem/do TAR Der/vv Gram/TV iSem/do TAQ Der/vn Sem/ac N Ins Sg 1PlPoss @i-ADVL> #7->8
+	"taa" Gram/TV iSem/tell TAR Der/vv Gram/TV iSem/do TAR Der/vv Gram/TV iSem/do TAQ Der/vn Sem/ac N Ins Pl 1PlPoss @i-ADVL> #7->8
+	"taa" Gram/TV iSem/tell TAR Der/vv Gram/TV iSem/do TAR Der/vv Gram/TV iSem/do TAQ Der/vn Sem/ac N Ins Sg 1PlPoss @i-ADVL> #7->8
 "<qalipaatillit>"
 	"qalipap" Gram/TV iSem/colouring UTE Der/vn LIK Der/nn Sem/f-surf N Abs Pl @N< #8->3
 "<.>"
@@ -11589,7 +11595,7 @@
 "<,>"
 	"," CLB #7->6
 "<namminerpiaq>"
-	"namminerpiaq" Sem/am N Abs Sg @SUBJ> #8->10
+	"nammineq" Gram/Coref Pron Rel 4Sg PIAQ @POSS> #8->9
 "<nukini>"
 	"nukik" Sem/am N Abs Pl 4SgPoss @OBJ> #9->10
 	"nukik" Sem/anorg N Abs Pl 4SgPoss @OBJ> #9->10
