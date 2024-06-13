@@ -177,7 +177,7 @@
 "<qallunaap>"
 	"Dane" Sem/Hnat iN N Rel Sg @N< #2->1
 "<angutip>"
-	"man" Sem/H iN N Rel Sg @N< #3->2
+	"man" Sem/H iN N Rel Sg @N< #3->1
 "<oqarfigerpallappaa>"
 	"say to" iSem/say iV PALLAP V Ind @PRED #4->0
 	"say" iSem/say iV "place" iSem/L iN GE iSem/tell PALLAP V Ind @PRED #4->0
@@ -203,7 +203,7 @@
 
 <s id="10EzLlo9meR2ry2023ASwSHlfe4">
 "<Nunamut>"
-	"ground" Sem/Ltop iN N "to" Sg @ADVL> #1->4
+	"ground" Sem/Ltop iN N "to" Sg @ADVL> #1->2
 "<ileriarlugu>"
 	"put" iSem/put iV V "after" "he/she/it" "him/her/it" @ADVL> #2->4
 "<assinganik>"
@@ -3109,7 +3109,7 @@
 "<Sunarpiaq>"
 	"what" iPron PIAQ Pron Abs Sg @OBJ> #1->2
 "<ajornartorsiutiginerlugu>"
-	"have problems with" iSem/burden iSem/have iV V Cont @i-ADVL> #2->0
+	"have problems with" iSem/burden iSem/have iV V Cont @i-ADVL> #2->4
 "<iluamik>"
 	"properly" Adv Adv @i-ADVL> #3->5
 "<inississinnaaneq>"
@@ -3667,7 +3667,7 @@
 "<timaa>"
 	"body" Sem/anmov iN N Abs Sg "his/her/its" @<OBJ #6->5
 "<aqukkusukkaluarnermik>"
-	"drive" iSem/steer iV "want to" iSem/wish iV "actually" iAdv N "because of" Sg @CL-<ADVL #7->6
+	"drive" iSem/steer iV "want to" iSem/wish iV "actually" iAdv N "because of" Sg @CL-<ADVL #7->5
 "<.>"
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #8->7
 </s>
@@ -4962,11 +4962,11 @@
 "<atuarfimmi>"
 	"school" Sem/inst iN N "in" Sg @i-ADVL> #4->5
 "<sanaarisimasaa>"
-	"make" iSem/create iV SIMA "what has been" Sem/occur_dynamic iV N Abs Sg "his/her/its" @<OBJ #5->2
+	"make" iSem/create iV SIMA "what has been" Sem/occur_dynamic iV N Abs Sg "his/her/its" @>N #5->7
 "<iganut>"
 	"pot" Sem/con iN N "to" Pl @ADVL>N #6->7
 "<allequt>"
-	"mat" iN N Abs Sg @N< #7->5
+	"mat" iN N Abs Sg @<OBJ #7->2
 "<,>"
 	"," CLB #8->7
 "<kappoqqutinik>"
@@ -4974,7 +4974,7 @@
 "<liimmernikunik>"
 	"glue" iV KUQ N "because of" Pl @i-ADVL> #10->11
 "<ammalortuliaq>"
-	"round" iSem/f Adj LIAQ N Abs Sg @N< #11->5
+	"round" iSem/f Adj LIAQ N Abs Sg @N< #11->7
 "<,>"
 	"," CLB #12->11
 "<qaavatigut>"
@@ -4982,11 +4982,11 @@
 "<orangeamik>"
 	"orange" Err/Sub OLang/DAN Sem/col N Ins Sg @i->N #14->15
 "<qalipaatilimmik>"
-	"coloured" Sem/f-surf Adj N Ins Sg @i-ADVL> #15->17
+	"coloured" Sem/f-surf Adj N Ins Sg @>N #15->16
 "<annoraaminermik>"
-	"cotton material" Sem/mat-cloth iN N Ins Sg @N< #16->15
+	"cotton material" Sem/mat-cloth iN N Ins Sg @i-ADVL> #16->17
 "<qalligaq>"
-	"paint over" Sem/colouring iV "what has been" Sem/occur_dynamic iV N Abs Sg @N< #17->5
+	"paint over" Sem/colouring iV "what has been" Sem/occur_dynamic iV N Abs Sg @N< #17->7
 "<.>"
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #18->17
 </s>
@@ -5350,6 +5350,19 @@
 	"faint" iSem/change_bodystate iV SIMA V Ind "he/she/it" @PRED #2->0
 "<.>"
 	"." CLB #3->2
+</s>
+
+<s id="POomoMktzxsreh38BcpoKTxLLtA">
+"<Atuarfimmi>"
+	"school" Sem/inst iN N "in" Sg @ADVL> #1->3
+"<Arsugaq>"
+	"Arsugaq" Sem/Fem Sem/Hum Prop Abs Sg @SUBJ> #2->4
+"<kisimiilluni>"
+	"be alone" Sem/be_attribute iV V Cont @ADVL> #3->4
+"<issiavoq>"
+	"sit" Sem/bodystate iV V Ind @PRED #4->0
+"<.>"
+	"." CLB #5->4
 </s>
 
 <s id="PeeKhZ3JcpYVr1lCzRJxX3JfsVI">
@@ -5843,6 +5856,39 @@
 	"malunnar" Sem/stimulus_subj V Ind @PRED #7->0
 "<.>"
 	"." CLB #8->7
+</s>
+
+<s id="RxZeLP320jx5TI0f0zIaqsxOvas">
+"<Kigaatsunnguamik>"
+	"slow" Sem/f Adj "little" Sem/f Adj N Ins Sg @ADVL> #1->2
+"<sianigalugulu>"
+	"beware" Sem/focus iV V Cont "him/her/it" "and" @PRED #2->0
+"<.>"
+	"." CLB #3->2
+
+"<aallarpoq>"
+	"move" Sem/moveS_local iV V Ind "he/she/it" @PRED #1->0
+"<,>"
+	"," CLB #2->1
+"<.>"
+	"." CLB #3->2
+
+"<illullu>"
+	"house" Sem/build iN N Abs Pl "and" @OBJ> #1->2
+"<tarrikkamigit>"
+	"not be able to see anymore" Sem/see iV V "when/because" "he/she/it" @CAU> #2->5
+"<ingerlaannaq>"
+	"immediately" Adv Adv @ADVL> #3->5
+"<sukkasuumik>"
+	"fast" Adj N Ins Sg @ADVL> #4->5
+"<ingerlalerluni>"
+	"ingerla" iSem/continue "begin" Sem/begin iV V Cont "he/she/it" @PRED #5->0
+	"ingerla" iSem/function "begin" Sem/begin iV V Cont "he/she/it" @PRED #5->0
+	"ingerla" iSem/role_as "begin" Sem/begin iV V Cont "he/she/it" @PRED #5->0
+	"ingerla" iSem/run "begin" Sem/begin iV V Cont "he/she/it" @PRED #5->0
+	"run" Sem/vehicle iV "begin" Sem/begin iV V Cont "he/she/it" @PRED #5->0
+"<.>"
+	"." CLB #6->5
 </s>
 
 <s id="SChfozxt0PJxhwn9raJn3VDCpgc">
@@ -6805,38 +6851,6 @@
 	"think" iSem/think iV UMMIR "very much" iAdv V Ind "I" @PRED #9->0
 "<.>"
 	"." CLB #10->9
-</s>
-
-<s id="WwFpiCuxuQfhUr0VYIxn4NVYkn0">
-"<Anaanap>"
-	"mother" Sem/Hfam iN N Sg "of" #1->2
-"<allarterinerata>"
-	"wipe" iSem/alter iV HTR NIQ N Sg "his/her/its" "of" #2->3
-"<nipaa>"
-	"sound" Sem/percep-l iN N Abs Sg "his/her/its" @HNOUN #3->0
-"<.>"
-	"." CLB #4->3
-
-"<Glassip>"
-	"glass" Sem/con iN N Sg "of" #1->3
-"<akimut>"
-	"the other side" Sem/Ltop iN N "to" Sg @i-ADVL> #2->3
-"<ersinnerata>"
-	"be visible" iSem/see iV NIQ N Sg "his/her/its" "of" #3->4
-"<minguissusaa>"
-	"be clean" iSem/be_attribute iV SSUSIQ Sem/f N Abs Sg "his/her/its" @HNOUN #4->0
-"<.>"
-	"." CLB #5->4
-
-"<Skaavimmut>"
-	"closet" Sem/furn iN N "to" Sg @i-ADVL> #1->2
-"<sianigisumik>"
-	"sianige" Sem/H iN N "-ly" #2->3
-	"sianige" Sem/cc iN N "-ly" #2->3
-"<ilineqarnera>"
-	"put" iSem/put iV NIQAR NIQ N Abs Sg "his/her/its" @HNOUN #3->0
-"<.>"
-	"." CLB #4->3
 </s>
 
 <s id="X2MzYLxPizxZCY41M3hGbMxL9yw">
@@ -7924,7 +7938,7 @@
 "<ammut>"
 	"downwards" iAdv N "to" Sg @ADVL> #3->5
 "<immamut>"
-	"sea" Sem/Lwater iN N "to" Sg @N< #4->3
+	"sea" Sem/Lwater iN N "to" Sg @ADVL> #4->5
 "<isigilerluni>"
 	"look" Sem/appear iV "begin" Sem/begin iV V Cont "he/she/it" @PRED #5->0
 "<.>"
@@ -8975,36 +8989,6 @@
 	"." CLB #2->1
 </s>
 
-<s id="ipzlPxgkHvKNaQ02eCFOlhBf7zc">
-"<Kigaatsunnguamik>"
-	"slow" Sem/f Adj "little" Sem/f Adj N Ins Sg @ADVL> #1->3
-"<sianigisumillu>"
-	"sianige" Sem/cc iN N "and" "-ly" #2->3
-"<aallarpoq>"
-	"move" Sem/moveS_local iV V Ind "he/she/it" @PRED #3->0
-"<,>"
-	"," CLB #4->3
-"<.>"
-	"." CLB #5->4
-
-"<illullu>"
-	"house" Sem/build iN N Abs Pl "and" @OBJ> #1->2
-"<tarrikkamigit>"
-	"not be able to see anymore" Sem/see iV V "when/because" "he/she/it" @CAU> #2->5
-"<ingerlaannaq>"
-	"immediately" Adv Adv @ADVL> #3->5
-"<sukkasuumik>"
-	"fast" Adj N Ins Sg @ADVL> #4->5
-"<ingerlalerluni>"
-	"ingerla" iSem/continue "begin" Sem/begin iV V Cont "he/she/it" @PRED #5->0
-	"ingerla" iSem/function "begin" Sem/begin iV V Cont "he/she/it" @PRED #5->0
-	"ingerla" iSem/role_as "begin" Sem/begin iV V Cont "he/she/it" @PRED #5->0
-	"ingerla" iSem/run "begin" Sem/begin iV V Cont "he/she/it" @PRED #5->0
-	"run" Sem/vehicle iV "begin" Sem/begin iV V Cont "he/she/it" @PRED #5->0
-"<.>"
-	"." CLB #6->5
-</s>
-
 <s id="jDFQtKCkEW8nF6CaP0p8xo5QG04">
 "<Eqqissivillunga>"
 	"relax" iV "completely" Sem/jdegree Adj V Cont @ADVL> #1->3
@@ -9199,19 +9183,6 @@
 	"strain" iSem/burden iV "recently" iAdv SIMA N "because of" Sg @CL-<ADVL #3->2
 "<.>"
 	"." CLB #4->3
-</s>
-
-<s id="lvx5B7YxP0pVYl5hghW28xHQQGU">
-"<Atuarfimmi>"
-	"school" Sem/inst iN N "in" Sg @ADVL> #1->4
-"<Arsugaq>"
-	"Arsugaq" Sem/Fem Sem/Hum Prop Abs Sg @SUBJ> #2->4
-"<kisimi>"
-	"only" iAdv N Nom @N< #3->2
-"<issiavoq>"
-	"sit" Sem/bodystate iV V Ind @PRED #4->0
-"<.>"
-	"." CLB #5->4
 </s>
 
 <s id="lwHkxPRH28M03xotA0M97lMfQjc">
@@ -9895,8 +9866,10 @@
 	"." CLB #7->6
 
 "<Sianigerpasittutummi>"
-	"sianige" PASIP "one who" Sem/H iN N "like" Sg "as you know" @ADVL> #1->2
-	"sianige" PASIP "that which" Sem/cc iN N "like" Sg "as you know" @ADVL> #1->2
+	"beware" iSem/focus iV PASIP "become" "one who" Sem/H iN N "like" Sg "as you know" @ADVL> #1->2
+	"beware" iSem/focus iV PASIP "become" "that which" Sem/cc iN N "like" Sg "as you know" @ADVL> #1->2
+	"beware" iSem/focus iV PASIP "one who" Sem/H iN N "like" Sg "as you know" @ADVL> #1->2
+	"beware" iSem/focus iV PASIP "that which" Sem/cc iN N "like" Sg "as you know" @ADVL> #1->2
 "<pisuttarami>"
 	"walk" iSem/run iV TAR Sem/do V "when/because" "he/she/it" @PRED #2->0
 "<.>"
@@ -10256,7 +10229,7 @@
 "<Angutipalaaq>"
 	"man" iSem/H iN PALAAQ N Abs Sg @HNOUN #1->0
 "<arnanut>"
-	"arnaq" Sem/sem-r N "to" Pl @MIK-OBJ> #2->3
+	"arnaq" Sem/sem-r N "to" Pl @i-MIK-OBJ> #2->3
 "<atornerluiniartartoq>"
 	"abuse" iSem/use iV HTR NIAR iSem/try_to TAR iSem/do "one who" Sem/H iN N Abs Sg @N< #3->1
 "<!>"
@@ -11241,6 +11214,37 @@
 	"rely on" iSem/rely iV "only" iAdv TAR Sem/do V Cont @PRED #2->0
 "<.>"
 	"." CLB #3->2
+</s>
+
+<s id="vbTCuZeFyx2qA6xxbYWJhanJmlY">
+"<Anaanap>"
+	"mother" Sem/Hfam iN N Sg "of" #1->2
+"<allarterinerata>"
+	"wipe" iSem/alter iV HTR NIQ N Sg "his/her/its" "of" #2->3
+"<nipaa>"
+	"sound" Sem/percep-l iN N Abs Sg "his/her/its" @HNOUN #3->0
+"<.>"
+	"." CLB #4->3
+
+"<Glassip>"
+	"glass" Sem/con iN N Sg "of" #1->3
+"<akimut>"
+	"the other side" Sem/Ltop iN N "to" Sg @i-ADVL> #2->3
+"<ersinnerata>"
+	"be visible" iSem/see iV NIQ N Sg "his/her/its" "of" #3->4
+"<minguissusaa>"
+	"be clean" iSem/be_attribute iV SSUSIQ Sem/f N Abs Sg "his/her/its" @HNOUN #4->0
+"<.>"
+	"." CLB #5->4
+
+"<Skaavimmut>"
+	"closet" Sem/furn iN N "to" Sg @i-ADVL> #1->3
+"<sianigalugu>"
+	"beware" Sem/focus iV V Cont "him/her/it" @i-ADVL> #2->3
+"<ilineqarnera>"
+	"put" iSem/put iV NIQAR NIQ N Abs Sg "his/her/its" @HNOUN #3->0
+"<.>"
+	"." CLB #4->3
 </s>
 
 <s id="vjXMYbVipxjVF5ZUgTzYpsuN530">
