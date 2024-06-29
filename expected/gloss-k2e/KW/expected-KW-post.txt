@@ -716,7 +716,7 @@
 "<pissusera>"
 	"behaviour" Sem/act iN N Abs Sg "my" @OBJ> #10->11
 "<eqqumaffiginerulerniarlugu>"
-	"be aware of" iSem/be_attribute iV NIRU "begin" iSem/begin iV NIAR Sem/try_to V "I" "that" #11->9
+	"be aware of" iSem/notice iV NIRU "begin" iSem/begin iV NIAR Sem/try_to V "I" "that" #11->9
 "<aqunnerusinnaalerniarlugulu>"
 	"aqup" iSem/handle NIRU "can" iSem/can iV "begin" iSem/begin iV NIAR Sem/try_to V "I" "him/her/it" "and" "that" #12->9
 	"aqup" iSem/run_obj NIRU "can" iSem/can iV "begin" iSem/begin iV NIAR Sem/try_to V "I" "him/her/it" "and" "that" #12->9
@@ -2432,25 +2432,25 @@
 	"be withdrawn" iSem/be_attribute iV "that which" iSem/cc iN "be" iSem/be_copula iV "continous" iSem/jprocess Adj "only" iAdv SIMA V Ind "he/she/it" @PRED #1->0
 "<,>"
 	"," CLB #2->1
-"<.>"
-	"." CLB #3->2
-
 "<ittoortoq>"
-	"be shy" iSem/be_attribute iV TUQ Sem/f-psych N Abs Sg "whenever" @SUBJ> #1->7
+	"be shy" iSem/be_attribute iV TUQ Sem/f-psych N Abs Sg @i-SUBJ_COMP< #3->1
 "<,>"
-	"," CLB #2->1
-"<inunnillu>"
-	"human being" Sem/H iN N Ins Pl "and" @MIK-OBJ> #3->4
-"<naapitsigaangamik>"
-	"meet" Sem/encounter iV V "they" @CL-ADVL> #4->7
-"<anaanami>"
-	"mother" Sem/Hfam iN N Sg "his/her/its" "of" #5->6
-"<tunuanut>"
-	"behind" Prep N "to" Sg "his/her/its" @ADVL> #6->7
-"<toqqoqqasarluni>"
-	"hide" iSem/hide iV QQA TAR Sem/do V Cont @PRED #7->0
+	"," CLB #4->3
 "<.>"
-	"." CLB #8->7
+	"." CLB #5->4
+
+"<inunnillu>"
+	"human being" Sem/H iN N Ins Pl "and" @MIK-OBJ> #1->2
+"<naapitsigaangamik>"
+	"meet" Sem/encounter iV V "whenever" "they" @CL-ADVL> #2->5
+"<anaanami>"
+	"mother" Sem/Hfam iN N Sg "his/her/its" "of" #3->4
+"<tunuanut>"
+	"behind" Prep N "to" Sg "his/her/its" @ADVL> #4->5
+"<toqqoqqasarluni>"
+	"hide" iSem/hide iV QQA TAR Sem/do V Cont "he/she/it" @PRED #5->0
+"<.>"
+	"." CLB #6->5
 </s>
 
 <s id="DVm1LGaWU5guxN020XFfayr9pfs">
@@ -3109,18 +3109,16 @@
 "<Sunarpiaq>"
 	"what" iPron PIAQ Pron Abs Sg @OBJ> #1->2
 "<ajornartorsiutiginerlugu>"
-	"have problems with" iSem/burden iSem/have iV V Cont @i-ADVL> #2->4
+	"have problems with" iSem/burden iSem/have iV V Cont @ADVL> #2->4
 "<iluamik>"
-	"properly" Adv Adv @i-ADVL> #3->5
-"<inississinnaaneq>"
-	"inissip" iSem/integrate "can" iSem/can iV NIQ N Abs Sg @>V #4->5
-	"inissip" iSem/moveO "can" iSem/can iV NIQ N Abs Sg @>V #4->5
-	"place" iSem/put iV "can" iSem/can iV NIQ N Abs Sg @>V #4->5
-	"rebuke" iV "can" iSem/can iV NIQ N Abs Sg @>V #4->5
-"<ajorpara>"
-	"ajor" Sem/refrain V Ind "I" "him/her/it" @PRED #5->0
+	"properly" Adv Adv @ADVL> #3->4
+"<inississinnaaneq ajorpara>"
+	"inissip" iSem/integrate "can" Sem/can iV "do never" Sem/persist iV V Ind "I" "him/her/it" @PRED #4->0
+	"inissip" iSem/moveO "can" Sem/can iV "do never" Sem/persist iV V Ind "I" "him/her/it" @PRED #4->0
+	"place" Sem/put iV "can" Sem/can iV "do never" Sem/persist iV V Ind "I" "him/her/it" @PRED #4->0
+	"rebuke" iV "can" Sem/can iV "do never" Sem/persist iV V Ind "I" "him/her/it" @PRED #4->0
 "<.>"
-	"." CLB #6->5
+	"." CLB #5->4
 </s>
 
 <s id="Gx7IQ6VWytkcxiaGSaqlO2HYCmw">
@@ -6335,7 +6333,7 @@
 	"fellow human being" Sem/Hprof iN N "from" Sg "my" @i-AGENS #2->3
 	"human being" iSem/H iN QATE Sem/Hfam N "from" Sg "my" @i-AGENS #2->3
 "<oqallisigineqarsimanissara>"
-	"oqallisige" iSem/judge NIQAR SIMA NIQ "future" Sem/event Adj N Abs Sg "my" @<OBJ #3->1
+	"oqallit" GE iSem/judge NIQAR SIMA NIQ "future" Sem/event Adj N Abs Sg "my" @<OBJ #3->1
 "<.>"
 	"." CLB #4->3
 </s>

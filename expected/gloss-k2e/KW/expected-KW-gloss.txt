@@ -718,7 +718,7 @@
 "<pissusera>"
 	"behaviour" Sem/act iN <tr> N Abs Sg 1SgPoss @OBJ> #10->11
 "<eqqumaffiginerulerniarlugu>"
-	"be aware of" iSem/be_attribute iV <tr> NIRU Der/vv Gram/TV "begin" iSem/begin iV <tr> NIAR Der/vv Gram/TV Sem/try_to V Cont 3SgO @CL-<CIT #11->9
+	"be aware of" iSem/notice iV <tr> NIRU Der/vv Gram/TV "begin" iSem/begin iV <tr> NIAR Der/vv Gram/TV Sem/try_to V Cont 3SgO @CL-<CIT #11->9
 "<aqunnerusinnaalerniarlugulu>"
 	"aqup" Gram/TV iSem/handle NIRU Der/vv Gram/TV "can" iSem/can iV <tr> "begin" iSem/begin iV <tr> NIAR Der/vv Gram/TV Sem/try_to Gram/Conj-encl V Cont 3SgO CONJ-LU @CL-<CIT #12->9
 	"aqup" Gram/TV iSem/run_obj NIRU Der/vv Gram/TV "can" iSem/can iV <tr> "begin" iSem/begin iV <tr> NIAR Der/vv Gram/TV Sem/try_to Gram/Conj-encl V Cont 3SgO CONJ-LU @CL-<CIT #12->9
@@ -2436,25 +2436,25 @@
 	"be withdrawn" iSem/be_attribute iV <tr> "that which" iSem/cc iN <tr> "be" iSem/be_copula iV <tr> "continous" iSem/jprocess Adj <tr> "only" iAdv <tr> SIMA Der/vv V Ind 3Sg @PRED #1->0
 "<,>"
 	"," CLB #2->1
-"<.>"
-	"." CLB #3->2
-
 "<ittoortoq>"
-	"be shy" iSem/be_attribute iV <tr> TUQ Der/vn Sem/f-psych N Abs Sg @SUBJ> #1->7
+	"be shy" iSem/be_attribute iV <tr> TUQ Der/vn Sem/f-psych N Abs Sg @i-SUBJ_COMP< #3->1
 "<,>"
-	"," CLB #2->1
-"<inunnillu>"
-	"human being" Sem/H iN <tr> N Ins Pl CONJ-LU @MIK-OBJ> #3->4
-"<naapitsigaangamik>"
-	"meet" Sem/encounter iV <tr> V IteCau 4Pl @CL-ADVL> #4->7
-"<anaanami>"
-	"mother" Sem/Hfam iN <tr> N Rel Sg 4SgPoss @POSS> #5->6
-"<tunuanut>"
-	"behind" Prep <tr> N Trm Sg 3SgPoss @ADVL> #6->7
-"<toqqoqqasarluni>"
-	"hide" iSem/hide iV <tr> QQA Der/vv Gram/IV TAR Der/vv Gram/IV Sem/do V Cont 4Sg @PRED #7->0
+	"," CLB #4->3
 "<.>"
-	"." CLB #8->7
+	"." CLB #5->4
+
+"<inunnillu>"
+	"human being" Sem/H iN <tr> N Ins Pl CONJ-LU @MIK-OBJ> #1->2
+"<naapitsigaangamik>"
+	"meet" Sem/encounter iV <tr> V IteCau 4Pl @CL-ADVL> #2->5
+"<anaanami>"
+	"mother" Sem/Hfam iN <tr> N Rel Sg 4SgPoss @POSS> #3->4
+"<tunuanut>"
+	"behind" Prep <tr> N Trm Sg 3SgPoss @ADVL> #4->5
+"<toqqoqqasarluni>"
+	"hide" iSem/hide iV <tr> QQA Der/vv Gram/IV TAR Der/vv Gram/IV Sem/do V Cont 4Sg @PRED #5->0
+"<.>"
+	"." CLB #6->5
 </s>
 
 <s id="DVm1LGaWU5guxN020XFfayr9pfs">
@@ -3114,18 +3114,16 @@
 "<Sunarpiaq>"
 	"what" iPron <tr> PIAQ Der/nn Gram/Int Pron Abs Sg @OBJ> #1->2
 "<ajornartorsiutiginerlugu>"
-	"have problems with" iSem/burden iSem/have iV <tr> NIR Der/vv Gram/TV V Cont 3SgO @i-ADVL> #2->4
+	"have problems with" iSem/burden iSem/have iV <tr> NIR Der/vv Gram/TV V Cont 3SgO @ADVL> #2->4
 "<iluamik>"
-	"properly" Adv <tr> Adv @i-ADVL> #3->5
-"<inississinnaaneq>"
-	"inissip" Gram/TV iSem/integrate "can" iSem/can iV <tr> NIQ Der/vn N Abs Sg Gram/Comp @>V #4->5
-	"inissip" Gram/TV iSem/moveO "can" iSem/can iV <tr> NIQ Der/vn N Abs Sg Gram/Comp @>V #4->5
-	"place" iSem/put iV <tr> "can" iSem/can iV <tr> NIQ Der/vn N Abs Sg Gram/Comp @>V #4->5
-	"rebuke" iV <tr> "can" iSem/can iV <tr> NIQ Der/vn N Abs Sg Gram/Comp @>V #4->5
-"<ajorpara>"
-	"ajor" Gram/TV Sem/refrain V Ind 1Sg 3SgO @PRED #5->0
+	"properly" Adv <tr> Adv @ADVL> #3->4
+"<inississinnaaneq ajorpara>"
+	"inissip" Gram/TV iSem/integrate "can" Sem/can iV <tr> "do never" Sem/persist iV <tr> V Ind 1Sg 3SgO @PRED #4->0
+	"inissip" Gram/TV iSem/moveO "can" Sem/can iV <tr> "do never" Sem/persist iV <tr> V Ind 1Sg 3SgO @PRED #4->0
+	"place" Sem/put iV <tr> "can" Sem/can iV <tr> "do never" Sem/persist iV <tr> V Ind 1Sg 3SgO @PRED #4->0
+	"rebuke" iV <tr> "can" Sem/can iV <tr> "do never" Sem/persist iV <tr> V Ind 1Sg 3SgO @PRED #4->0
 "<.>"
-	"." CLB #6->5
+	"." CLB #5->4
 </s>
 
 <s id="Gx7IQ6VWytkcxiaGSaqlO2HYCmw">
@@ -6342,7 +6340,7 @@
 	"fellow human being" Sem/Hprof iN <tr> N Abl Sg 1SgPoss @i-AGENS #2->3
 	"human being" iSem/H iN <tr> QATE Der/nn Sem/Hfam N Abl Sg 1SgPoss @i-AGENS #2->3
 "<oqallisigineqarsimanissara>"
-	"oqallisige" Gram/TV iSem/judge NIQAR Der/vv Gram/IV SIMA Der/vv NIQ Der/vn "future" Sem/event Adj <tr> N Abs Sg 1SgPoss @<OBJ #3->1
+	"oqallit" GE Der/nv Gram/TV iSem/judge NIQAR Der/vv Gram/IV SIMA Der/vv NIQ Der/vn "future" Sem/event Adj <tr> N Abs Sg 1SgPoss @<OBJ #3->1
 "<.>"
 	"." CLB #4->3
 </s>

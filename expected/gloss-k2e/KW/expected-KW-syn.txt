@@ -708,7 +708,7 @@
 	"pi" Gram/IV iSem/get SSUSIQ Der/vn Sem/f N Abs Sg 1SgPoss %ContHypotagme @OBJ>
 	"pi" Gram/IV iSem/occur SSUSIQ Der/vn Sem/f N Abs Sg 1SgPoss %ContHypotagme @OBJ>
 "<eqqumaffiginerulerniarlugu>"
-	"eqquma" Gram/IV iSem/bodystate VIK Der/vn iSem/L GE Der/nv Gram/TV iSem/be_attribute NIRU Der/vv Gram/TV LIR Der/vv Gram/TV iSem/begin NIAR Der/vv Gram/TV Sem/try_to V Cont 3SgO %ContHypotagme @CL-<CIT
+	"eqquma" Gram/IV iSem/bodystate VIK Der/vn iSem/L GE Der/nv Gram/TV iSem/notice NIRU Der/vv Gram/TV LIR Der/vv Gram/TV iSem/begin NIAR Der/vv Gram/TV Sem/try_to V Cont 3SgO %ContHypotagme @CL-<CIT
 "<aqunnerusinnaalerniarlugulu>"
 	"aqup" Gram/TV iSem/handle NIRU Der/vv Gram/TV SINNAA Der/vv Gram/TV iSem/can LIR Der/vv Gram/TV iSem/begin NIAR Der/vv Gram/TV Sem/try_to Gram/Conj-encl V Cont 3SgO CONJ-LU @CL-<CIT
 	"aqup" Gram/TV iSem/run_obj NIRU Der/vv Gram/TV SINNAA Der/vv Gram/TV iSem/can LIR Der/vv Gram/TV iSem/begin NIAR Der/vv Gram/TV Sem/try_to Gram/Conj-encl V Cont 3SgO CONJ-LU @CL-<CIT
@@ -2375,7 +2375,7 @@
 "<,>"
 	"," CLB
 "<ittoortoq>"
-	"ittoor" Gram/IV iSem/emote_obj TUQ Der/vn Sem/f-psych N Abs Sg @SUBJ>
+	"ittoor" Gram/IV iSem/emote_obj TUQ Der/vn Sem/f-psych N Abs Sg @i-SUBJ_COMP<
 "<,>"
 	"," CLB
 "<inunnillu>"
@@ -3038,19 +3038,17 @@
 "<Sunarpiaq>"
 	"suna" PIAQ Der/nn Gram/Int Pron Abs Sg %ContHypotagme @OBJ>
 "<ajornartorsiutiginerlugu>"
-	"ajor" Gram/IV iSem/be_attribute NAR Der/vv Gram/IV iSem/be_attribute TUQ Der/vn iSem/H SIUT Der/nn GE Der/nv Gram/TV iSem/burden iSem/have NIR Der/vv Gram/TV V Cont 3SgO %ContHypotagme @i-ADVL>
-	"ajor" Gram/IV iSem/be_attribute NAR Der/vv Gram/IV iSem/be_attribute TUQ Der/vn iSem/cc SIUT Der/nn GE Der/nv Gram/TV iSem/burden iSem/have NIR Der/vv Gram/TV V Cont 3SgO %ContHypotagme @i-ADVL>
-	"ajor" Gram/TV iSem/refrain NAR Der/vv Gram/IV iSem/be_attribute TUQ Der/vn iSem/H SIUT Der/nn GE Der/nv Gram/TV iSem/burden iSem/have NIR Der/vv Gram/TV V Cont 3SgO %ContHypotagme @i-ADVL>
-	"ajor" Gram/TV iSem/refrain NAR Der/vv Gram/IV iSem/be_attribute TUQ Der/vn iSem/cc SIUT Der/nn GE Der/nv Gram/TV iSem/burden iSem/have NIR Der/vv Gram/TV V Cont 3SgO %ContHypotagme @i-ADVL>
+	"ajor" Gram/IV iSem/be_attribute NAR Der/vv Gram/IV iSem/be_attribute TUQ Der/vn iSem/H SIUT Der/nn GE Der/nv Gram/TV iSem/burden iSem/have NIR Der/vv Gram/TV V Cont 3SgO %ContHypotagme @ADVL>
+	"ajor" Gram/IV iSem/be_attribute NAR Der/vv Gram/IV iSem/be_attribute TUQ Der/vn iSem/cc SIUT Der/nn GE Der/nv Gram/TV iSem/burden iSem/have NIR Der/vv Gram/TV V Cont 3SgO %ContHypotagme @ADVL>
+	"ajor" Gram/TV iSem/refrain NAR Der/vv Gram/IV iSem/be_attribute TUQ Der/vn iSem/H SIUT Der/nn GE Der/nv Gram/TV iSem/burden iSem/have NIR Der/vv Gram/TV V Cont 3SgO %ContHypotagme @ADVL>
+	"ajor" Gram/TV iSem/refrain NAR Der/vv Gram/IV iSem/be_attribute TUQ Der/vn iSem/cc SIUT Der/nn GE Der/nv Gram/TV iSem/burden iSem/have NIR Der/vv Gram/TV V Cont 3SgO %ContHypotagme @ADVL>
 "<iluamik>"
-	"iluamik" Adv @i-ADVL>
-"<inississinnaaneq>"
-	"inissip" Gram/TV iSem/integrate SINNAA Der/vv Gram/TV iSem/can NIQ Der/vn N Abs Sg Gram/Comp @>V
-	"inissip" Gram/TV iSem/moveO SINNAA Der/vv Gram/TV iSem/can NIQ Der/vn N Abs Sg Gram/Comp @>V
-	"inissip" Gram/TV iSem/put SINNAA Der/vv Gram/TV iSem/can NIQ Der/vn N Abs Sg Gram/Comp @>V
-	"inissip" Gram/TV iSem/speak_affect SINNAA Der/vv Gram/TV iSem/can NIQ Der/vn N Abs Sg Gram/Comp @>V
-"<ajorpara>"
-	"ajor" Gram/TV Sem/refrain V Ind 1Sg 3SgO @PRED
+	"iluamik" Adv @ADVL>
+"<inississinnaaneq ajorpara>"
+	"inissip" Gram/TV iSem/integrate SINNAA Der/vv Gram/TV iSem/can NIQ_AJUR Der/vv Gram/TV Sem/persist V Ind 1Sg 3SgO @PRED
+	"inissip" Gram/TV iSem/moveO SINNAA Der/vv Gram/TV iSem/can NIQ_AJUR Der/vv Gram/TV Sem/persist V Ind 1Sg 3SgO @PRED
+	"inissip" Gram/TV iSem/put SINNAA Der/vv Gram/TV iSem/can NIQ_AJUR Der/vv Gram/TV Sem/persist V Ind 1Sg 3SgO @PRED
+	"inissip" Gram/TV iSem/speak_affect SINNAA Der/vv Gram/TV iSem/can NIQ_AJUR Der/vv Gram/TV Sem/persist V Ind 1Sg 3SgO @PRED
 "<.>"
 	"." CLB
 </s>
@@ -6208,7 +6206,7 @@
 	"inuk" iSem/H QATE Der/nn Sem/Hfam N Abl Sg 1SgPoss @i-AGENS
 	"inuk" iSem/H QATE Der/nn Sem/Hprof N Abl Sg 1SgPoss @i-AGENS
 "<oqallisigineqarsimanissara>"
-	"oqallisige" Gram/TV iSem/judge NIQAR Der/vv Gram/IV SIMA Der/vv NIQ Der/vn SSAQ Der/nn Sem/temp N Abs Sg 1SgPoss @<OBJ
+	"oqallit" GE Der/nv Gram/TV iSem/judge NIQAR Der/vv Gram/IV SIMA Der/vv NIQ Der/vn SSAQ Der/nn Sem/temp N Abs Sg 1SgPoss @<OBJ
 "<.>"
 	"." CLB
 </s>
