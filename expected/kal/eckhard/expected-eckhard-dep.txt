@@ -2132,8 +2132,7 @@
 "<Soorlu>"
 	"soorlu" Adv @CL-ADVL> #1->2
 "<atsersinnaavaa>"
-	"atser" Sem/CognitiveMaking Gram/TV SINNAA Der/vv Gram/TV V Ind 3Sg 3SgO @PRED #2->0
-	"atser" Sem/Remove Gram/TV SINNAA Der/vv Gram/TV V Ind 3Sg 3SgO @PRED #2->0
+	"atser" Gram/TV SINNAA Der/vv Gram/TV V Ind 3Sg 3SgO @PRED #2->0
 "<”>"
 	"”" PUNCT RIGHT #3->3
 "<ulloriaaraq>"
@@ -2141,7 +2140,7 @@
 "<angalasoq>"
 	"angala" Gram/IV TUQ Der/vn N Abs Sg @N< #5->4
 "<3251>"
-	"3251" Num Abs Sg @N< #6->5
+	"3251" Num Abs Sg @<OBJ #6->2
 "<”>"
 	"”" PUNCT RIGHT #7->7
 "<.>"
@@ -6653,7 +6652,7 @@
 "<suliffiusuni>"
 	"suli" Gram/IV VIK Der/vn U Der/nv Gram/IV TUQ Der/vn N Lok Pl @N< #4->3
 "<marlunni>"
-	"marluk" Num Lok Pl @N< #5->4
+	"marluk" Num Lok Pl @N< #5->3
 "<">"
 	""" PUNCT #6->6
 "<atulaarsinnaallutit>"
@@ -6692,7 +6691,6 @@
 	"immikkoor" Gram/IV TUQ Der/vn N Lok Pl @ADVL> #23->25
 "<aalajangersimasuni>"
 	"aalajanger" Gram/IV SIMA Der/vv TUQ Der/vn N Lok Pl @N< #24->23
-	"aalajanger" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Lok Pl @N< #24->23
 "<namminersorsinnaalissasutit>"
 	"namminersor" Gram/IV SINNAA Der/vv Gram/IV LIR Der/vv Gram/IV SSA Der/vv Gram/IV V Par 2Sg @CL-<CIT #25->9
 "<.>"
@@ -7565,21 +7563,20 @@
 <s id="dvXwTzM5dWwrCOdhXUep6jMhAxs">
 "<Inersimasut>"
 	"iner" Gram/IV SIMA Der/vv TUQ Der/vn N Rel Pl @SUBJ> #1->2
-	"iner" Gram/TV SIMA Der/vv Gram/Pass Gram/IV TUQ Der/vn N Rel Pl @SUBJ> #1->2
 "<siunnersorpaannga>"
 	"siunnersor" Gram/TV V Ind 3Pl 1SgO @PRED #2->0
 "<pulateriaarsunnik>"
 	"pulateriaarsuk" N Ins Pl @i-MIK-OBJ> #3->5
 "<ipititsisartunik>"
-	"ipi" Gram/IV TIP Der/vv Orth/Alt Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Ins Pl @N< #4->3
+	"ipi" Gram/IV TIP Der/vv Orth/Youth Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Ins Pl @N< #4->3
 "<titartaasarnera>"
 	"titartar" Gram/TV HTR Der/vv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn N Abs Sg 1SgPoss @OBJ> #5->6
 "<unitsissagiga>"
-	"unip" Gram/IV TIP Der/vv Gram/TV SSA Der/vv Gram/TV V Par 1Sg 3SgO @CL-<CIT #6->2
+	"unip" Gram/IV TIP Der/vv Gram/TV SSA Der/vv V Par 1Sg 3SgO @CL-<CIT #6->2
 "<,>"
 	"," CLB #7->7
 "<ammasunik>"
-	"amma" Gram/IV TUQ Der/vn N Ins Pl @N< #8->8
+	"amma" Gram/IV TUQ Der/vn N Ins Pl @N< #8->3
 "<matoqqasunilluunniit>"
 	"matu" Gram/IV QQA Der/vv Gram/IV TUQ Der/vn Gram/Conj-encl N Ins Pl CONJ-LUUNNIIT @N< #9->3
 "<,>"
@@ -7587,7 +7584,7 @@
 "<taarsiulluguli>"
 	"taarser" Gram/TV UTE Der/vv Gram/TV Gram/Conj-encl V Cont 3SgO CONJ-LI @i-ADVL> #11->12
 "<aalluteqquaat>"
-	"aallup" Gram/TV QQU Der/vv Gram/Db Gram/TV V Ind 3Pl 3SgO @PRED #12->0
+	"aallup" Gram/TV QQU Der/vv Gram/Db V Ind 3Pl 3SgO @PRED #12->0
 "<nunalerutit>"
 	"nunalerut" N Abs Pl @<OBJ #13->12
 "<,>"
@@ -9191,7 +9188,7 @@
 "<siunnersuutini>"
 	"siunnersor" Gram/TV UTE Der/vn N Lok Pl @i-ADVL> #2->4
 "<6-mi>"
-	"6" Err/Sub Num Lok Sg @N< #3->2
+	"6" Num Lok Sg Orth/Alt @ADVL> #3->8
 "<periusissiamut>"
 	"periuseq" SSAQ Der/nn LIAQ Der/nn N Trm Sg @i-ADVL> #4->5
 "<tunngasoq>"
