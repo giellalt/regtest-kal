@@ -3317,7 +3317,7 @@
 "<377.000>"
 	"377.000" Num Abs Sg @>N
 "<kr.>"
-	"kr." OLang/DAN N Abs Sg @N<
+	"kr." OLang/DAN N Rel Pl @POSS>
 "<missaannik>"
 	"misse" N Ins Sg 3PlPoss @i->N
 "<akeqarpoq>"
@@ -3333,7 +3333,7 @@
 "<IR>"
 	"IR" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 @N<
 "<35-iupput>"
-	"35" iNum U Der/nv Err/Sub Gram/IV V Ind 3Pl @PRED
+	"35" iNum U Gram/IV Der/nv Err/Sub Gram/IV V Ind 3Pl @PRED
 "<.>"
 	"." CLB
 </s>
@@ -5632,9 +5632,9 @@
 "<illoqarfimmi>"
 	"illu" QAR Der/nv Gram/IV VIK Der/vn N Lok Sg @i-ADVL>
 "<angerlarsimaffeqanngitsunut>"
-	"angerlar" Gram/IV SIMA Der/vv VIK Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Trm Pl @i-ADVL>
+	"angerlar" Gram/IV SIMA Der/vv VIK Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Trm Pl @ADVL>
 "<allanullu>"
-	"alla" Gram/Conj-encl N Trm Pl CONJ-LU @i-ADVL>
+	"alla" Gram/Conj-encl N Trm Pl CONJ-LU LU-N @ADVL>
 "<inissaaleqisunut>"
 	"ini" SSAQ Der/nn ILIQI Der/nv Gram/IV TUQ Der/vn N Trm Pl @N<
 "<atugassaqartitsiniarluni>"
@@ -25930,9 +25930,9 @@
 "<immikkoortumi>"
 	"immikkoor" Gram/IV TUQ Der/vn N Lok Sg @i-ADVL>
 "<nassuiaat>"
-	"nassuiar" UTE Der/vn N Abs Sg @OBJ>
+	"nassuiar" Gram/TV UTE Der/vn N Abs Sg %ContHypotagme @OBJ>
 "<malillugu>"
-	"malip" Gram/TV V Cont 3SgO @ADVL>
+	"malip" Gram/TV V Cont 3SgO %ContHypotagme @ADVL>
 "<inuusuttut>"
 	"inuusup" Gram/IV TUQ Der/vn N Abs Pl @SUBJ>
 "<ilinniakkamik>"

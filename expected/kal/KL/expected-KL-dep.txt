@@ -2829,7 +2829,7 @@
 "<Indiap>"
 	"Indien" Sem/Geo Prop Rel Sg @POSS> #4->5
 "<sanilia>"
-	"sanileq" N Abs Sg 3SgPoss @N< #5->2
+	"sanileq" N Abs Sg 3SgPoss @N< #5->1
 "<,>"
 	"," CLB #6->6
 "<1970>"
@@ -3316,7 +3316,7 @@
 "<377.000>"
 	"377.000" Num Abs Sg @>N #2->3
 "<kr.>"
-	"kr." OLang/DAN N Abs Sg @N< #3->1
+	"kr." OLang/DAN N Rel Pl @POSS> #3->4
 "<missaannik>"
 	"misse" N Ins Sg 3PlPoss @i->N #4->5
 "<akeqarpoq>"
@@ -3332,7 +3332,7 @@
 "<IR>"
 	"IR" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 @N< #10->7
 "<35-iupput>"
-	"35" iNum U Der/nv Err/Sub Gram/IV V Ind 3Pl @PRED #11->0
+	"35" iNum U Gram/IV Der/nv Err/Sub Gram/IV V Ind 3Pl @PRED #11->0
 "<.>"
 	"." CLB #12->12
 </s>
@@ -5631,11 +5631,11 @@
 "<illoqarfimmi>"
 	"illu" QAR Der/nv Gram/IV VIK Der/vn N Lok Sg @i-ADVL> #6->7
 "<angerlarsimaffeqanngitsunut>"
-	"angerlar" Gram/IV SIMA Der/vv VIK Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Trm Pl @i-ADVL> #7->9
+	"angerlar" Gram/IV SIMA Der/vv VIK Der/vn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Trm Pl @ADVL> #7->10
 "<allanullu>"
-	"alla" Gram/Conj-encl N Trm Pl CONJ-LU @i-ADVL> #8->9
+	"alla" Gram/Conj-encl N Trm Pl CONJ-LU @ADVL> #8->10
 "<inissaaleqisunut>"
-	"ini" SSAQ Der/nn ILIQI Der/nv Gram/IV TUQ Der/vn N Trm Pl @N< #9->9
+	"ini" SSAQ Der/nn ILIQI Der/nv Gram/IV TUQ Der/vn N Trm Pl @N< #9->8
 "<atugassaqartitsiniarluni>"
 	"ator" Gram/TV TAQ Der/vn SSAQ Der/nn QAR Der/nv Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV NIAR Der/vv Gram/IV V Cont 4Sg @CL-<CIT #10->3
 "<,>"
@@ -11062,7 +11062,7 @@
 "<Egede>"
 	"Egede" Sem/Hum Prop Abs Sg @<APPOS #5->2
 "<naartusoq>"
-	"naaq" TU Der/nv Gram/IV TUQ Der/vn N Abs Sg @N< #6->5
+	"naaq" TU Der/nv Gram/IV TUQ Der/vn N Abs Sg @N< #6->2
 "<oqartussaniit>"
 	"oqar" Gram/IV TUQ Der/vn SSAQ Der/nn N Abl Pl @ADVL> #7->8
 "<toqqoqqavoq>"
@@ -25943,7 +25943,7 @@
 "<Ilinniagaqarnersiuteqartitsivimmili>"
 	"Ilinniagaqarnersiuteqartitsivik" Sem/inst Sem/Hum Gram/Conj-encl Prop Lok Sg CONJ-LI @i-ADVL> #10->11
 "<nalunaarsorsimanngitsut>"
-	"nalunaarsor" Gram/TV SIMA Der/vv Gram/Pass Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl @N< #11->8
+	"nalunaarsor" Gram/TV SIMA Der/vv Gram/Pass Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Abs Pl @N< #11->5
 "<,>"
 	"," CLB #12->12
 "<inuusuttunut>"
