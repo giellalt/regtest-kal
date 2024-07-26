@@ -2,15 +2,15 @@
 "<Taamaammat>"
 	"taamaammat" Adv @CL-ADVL> #1->2
 "<naliliissutigineqartariaqarpoq>"
-	"nale" LIR HTR UTE GE NIQAR TARIAQAR V Ind 3Sg @PRED #2->0
+	"nalik" LIR HTR UTE GE NIQAR TARIAQAR V Ind 3Sg @PRED #2->0
 "<timmiaq>"
-	"timmiaq" N Abs Sg @SUBJ> #3->6
+	"timmiaq" N Abs Sg @<SUBJ #3->2
 "<nunami>"
-	"nuna" N Lok Sg @ADVL> #4->6
+	"nuna" N Lok Sg @i-ADVL> #4->6
 "<siammasissumi>"
 	"siammasip" TUQ N Lok Sg @N< #5->4
 "<piaqqiorsinnaasoq>"
-	"piaqqior" SINNAA V Par 3Sg @CL-<CIT #6->2
+	"piaqqior" SINNAA TUQ N Abs Sg @N< #6->3
 "<.>"
 	"." CLB #7->7
 </s>
@@ -58,17 +58,17 @@
 "<isigalugu>"
 	"isige" V Cont 3SgO @i-ADVL> #2->3
 "<nalilerneqarpoq>"
-	"nale" LIR NIQAR V Ind 3Sg @PRED #3->0
+	"nalik" LIR NIQAR V Ind 3Sg @PRED #3->0
 "<sunniineq>"
 	"sunner" HTR NIQ N Abs Sg @SUBJ> #4->6
 "<taamaallaat>"
 	"taamaallaat" Adv @ADVL> #5->6
 "<annikitsuussasoq>"
-	"angi" NIQ KIP TUQ U SSA V Par 3Sg @CL-<CIT #6->3
+	"angi" NIQ KIP TUQ U SSA V Par 3Sg @PRED2 #6->3
 "<,>"
 	"," CLB #7->7
 "<soqutaavallaanngitsoq>"
-	"soqut" U VALLAAR NNGIT V Par 3Sg @CL-<CIT #8->3
+	"soqut" U VALLAAR NNGIT TUQ N Abs Sg @i-SUBJ_COMP< #8->6
 "<.>"
 	"." CLB #9->9
 </s>
@@ -261,11 +261,11 @@
 
 <s id="9YX9Mx74WPtYaAL4qxYvdkr40Uk">
 "<Nalilerneqarpoq>"
-	"nale" LIR NIQAR V Ind 3Sg @PRED #1->0
+	"nalik" LIR NIQAR V Ind 3Sg @PRED #1->0
 "<sunniineq>"
 	"sunner" HTR NIQ N Abs Sg @SUBJ> #2->3
 "<annikitsuinnaassasoq>"
-	"angi" NIQ KIP TUQ INNAQ U SSA V Par 3Sg @CL-<CIT #3->1
+	"angi" NIQ KIP TUQ INNAQ U SSA V Par 3Sg @PRED2 #3->1
 "<.>"
 	"." CLB #4->4
 </s>
@@ -306,7 +306,7 @@
 "<Tamanna>"
 	"manna" Pron Abs Sg @OBJ> #1->2
 "<tunngavigalugu>"
-	"tunngavik" GE V Cont 3SgO @CL-ADVL> #2->6
+	"tunngavik" GE V Cont 3SgO @i-ADVL> #2->4
 "<avatangiisinik>"
 	"avatangiisi" N Ins Pl @i-MIK-OBJ> #3->4
 "<sunniinissap>"
@@ -314,14 +314,14 @@
 "<annertunnginnissaa>"
 	"angi" NIQ TU NNGIT NIQ SSAQ N Abs Sg 3SgPoss @SUBJ> #5->6
 "<nalilerneqarpoq>"
-	"nale" LIR NIQAR V Ind 3Sg @PRED #6->0
+	"nalik" LIR NIQAR V Ind 3Sg @PRED #6->0
 "<.>"
 	"." CLB #7->7
 </s>
 
 <s id="Au7Fy0wN4nUzNZNFbH5Rnhp1OKk">
 "<Nalilerneqarpoq>"
-	"nale" LIR NIQAR V Ind 3Sg @PRED #1->0
+	"nalik" LIR NIQAR V Ind 3Sg @PRED #1->0
 "<aqqusinniassap>"
 	"aqqusinniaq" SSAQ N Rel Sg @SUBJ> #2->5
 "<uumasunik>"
@@ -329,7 +329,7 @@
 "<angalaartoqarnera>"
 	"angalaar" TUQ QAR NIQ N Abs Sg 3SgPoss @OBJ> #4->5
 "<sunningaassanngikkaa>"
-	"sunner" NGAAR SSA NNGIT V Par 3Sg 3SgO @CL-<CIT #5->1
+	"sunner" NGAAR SSA NNGIT V Par 3Sg 3SgO @PRED2 #5->1
 "<,>"
 	"," CLB #6->6
 "<piffinni>"
@@ -416,7 +416,7 @@
 "<sunnerneqarneq>"
 	"sunner" NIQAR NIQ N Abs Sg @OBJ> #4->5
 "<nalilerniarlugu>"
-	"nale" LIR NIAR V Cont 3SgO @<ADVL #5->2
+	"nalik" LIR NIAR V Cont 3SgO @<ADVL #5->2
 "<.>"
 	"." CLB #6->6
 </s>
@@ -711,7 +711,7 @@
 "<taamaammat>"
 	"taama" IP V Cau 3Sg @CAU> #2->3
 "<nalilerneqarpoq>"
-	"nale" LIR NIQAR V Ind 3Sg @PRED #3->0
+	"nalik" LIR NIQAR V Ind 3Sg @PRED #3->0
 "<soqutaanngitsutut>"
 	"soqut" U NNGIT TUQ N Aeq Sg @<ADVL #4->3
 "<.>"
@@ -769,17 +769,17 @@
 
 <s id="RrJbzwdf4cwWoieMOBIPfhEUC7k">
 "<Tamanna>"
-	"manna" Pron Abs Sg @OBJ> #1->2
+	"manna" Pron Abs Sg @SUBJ> #1->3
 "<tunuliaqutaralugu>"
 	"tunuliaqutare" V Cont 3SgO @i-ADVL> #2->3
 "<nalilerneqarpoq>"
-	"nale" LIR NIQAR V Ind 3Sg @PRED #3->0
+	"nalik" LIR NIQAR V Ind 3Sg @PRED #3->0
 "<avatangiisinik>"
 	"avatangiisi" N Ins Pl @i-MIK-OBJ> #4->5
 "<sunniineq>"
-	"sunner" HTR NIQ N Abs Sg @SUBJ> #5->6
+	"sunner" HTR NIQ N Abs Sg @SUBJ> #5->5
 "<soqutaanavianngitsoq>"
-	"soqut" U NAVIAR NNGIT V Par 3Sg @CL-<CIT #6->3
+	"soqut" U NAVIAR NNGIT TUQ N Abs Sg @N< #6->5
 "<.>"
 	"." CLB #7->7
 </s>
@@ -1330,7 +1330,7 @@
 "<sunnerneqarneranut>"
 	"sunner" NIQAR NIQ N Trm Sg 3SgPoss @i-ADVL> #2->3
 "<naliliineq>"
-	"nale" LIR HTR NIQ N Abs Sg @HNOUN #3->0
+	"nalik" LIR HTR NIQ N Abs Sg @HNOUN #3->0
 "<.>"
 	"." CLB #4->4
 </s>
@@ -1349,7 +1349,7 @@
 "<sunniutaasinnaasunik>"
 	"sunner" UTE U SINNAA TUQ N Ins Pl @i-MIK-OBJ> #6->7
 "<naliliineq>"
-	"nale" LIR HTR NIQ N Abs Sg @HNOUN #7->0
+	"nalik" LIR HTR NIQ N Abs Sg @HNOUN #7->0
 "<.>"
 	"." CLB #8->8
 </s>
@@ -1567,7 +1567,7 @@
 "<sunniutinik>"
 	"sunner" UTE N Ins Pl @i-MIK-OBJ> #2->3
 "<naliliineq>"
-	"nale" LIR HTR NIQ N Abs Sg @HNOUN #3->0
+	"nalik" LIR HTR NIQ N Abs Sg @HNOUN #3->0
 "<.>"
 	"." CLB #4->4
 </s>
