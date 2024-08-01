@@ -738,9 +738,9 @@
 "<ittarput>"
 	"IP" TAR V Ind 3Pl @PRED #2->0
 "<atorneq ajortut>"
-	"ator" NIQ_AJUR TUQ N Abs Pl @>N #3->4
+	"ator" NIQ_AJUR TUQ N Abs Pl @<SUBJ #3->2
 "<sukujuit>"
-	"sukujuk" N Abs Pl @<SUBJ #4->2
+	"sukujuk" N Abs Pl @N< #4->3
 "<.>"
 	"." CLB #5->5
 </s>
@@ -4197,9 +4197,9 @@
 "<iluaniittullu>"
 	"ilu" N Lok Sg 3SgPoss @i-ADVL> #7->8
 "<ittullu>"
-	"IP" TUQ N Abs Pl CONJ-LU @>N #8->9
+	"IP" TUQ N Abs Pl CONJ-LU @SUBJ> #8->12
 "<oqorsaatit>"
-	"oqorsaat" N Abs Pl @SUBJ> #9->12
+	"oqorsaat" N Abs Pl @N< #9->8
 "<timmissat>"
 	"timmiaq" N Rel Pl @POSS> #10->11
 "<meqqui>"
@@ -4590,19 +4590,19 @@
 "<atuarfimmi>"
 	"atuar" VIK N Lok Sg @i-ADVL> #4->5
 "<sanaarisimasaa>"
-	"sanaaq" GE SIMA TAQ N Abs Sg 3SgPoss @>N #5->7
+	"sanaaq" GE SIMA TAQ N Abs Sg 3SgPoss @<OBJ #5->2
 "<iganut>"
 	"iga" N Trm Pl @ADVL>N #6->7
 "<allequt>"
-	"allequt" N Abs Sg @<OBJ #7->2
+	"allequt" N Abs Sg @N< #7->5
 "<,>"
 	"," CLB #8->8
 "<kappoqqutinik>"
 	"kappoqqut" N Ins Pl @i-ADVL> #9->11
 "<liimmernikunik>"
-	"liimmer" NIQ KUQ N Ins Pl @i-ADVL> #10->11
+	"liimmer" NIQ KUQ N Ins Pl @N< #10->9
 "<ammalortuliaq>"
-	"ammalor" TUQ LIAQ N Abs Sg @N< #11->7
+	"ammalor" TUQ LIAQ N Abs Sg @N< #11->5
 "<,>"
 	"," CLB #12->12
 "<qaavatigut>"
@@ -4610,11 +4610,11 @@
 "<orangeamik>"
 	"orange" N Ins Sg @i->N #14->15
 "<qalipaatilimmik>"
-	"qalipap" UTE LIK N Ins Sg @>N #15->16
+	"qalipap" UTE LIK N Ins Sg @i-ADVL> #15->17
 "<annoraaminermik>"
-	"annoraamineq" N Ins Sg @i-ADVL> #16->17
+	"annoraamineq" N Ins Sg @N< #16->15
 "<qalligaq>"
-	"qaller" TAQ N Abs Sg @N< #17->7
+	"qaller" TAQ N Abs Sg @N< #17->5
 "<.>"
 	"." CLB DIRTALEMIDDLE #18->18
 </s>
@@ -5767,11 +5767,11 @@
 "<niaqunniittut>"
 	"niaqoq" N Lok Sg 1SgPoss @i-ADVL> #8->9
 "<ittut>"
-	"IP" TUQ N Abs Pl @>N #9->10
+	"IP" TUQ N Abs Pl @OBJ> #9->12
 "<nipit>"
-	"nipi" N Abs Pl @OBJ> #10->12
+	"nipi" N Abs Pl @N< #10->9
 "<eqqumiitsut>"
-	"eqqumiip" TUQ N Abs Pl @N< #11->10
+	"eqqumiip" TUQ N Abs Pl @N< #11->9
 "<oqaluuterujoortalerlugit>"
 	"oqalup" UTE RUJUUR TAR LIR V Cont 3PlO @<ADVL #12->2
 "<.>"
@@ -6318,9 +6318,9 @@
 "<sanianiittoq>"
 	"sani" N Lok Sg 3SgPoss @i-ADVL> #2->3
 "<ittoq>"
-	"IP" TUQ N Abs Sg @>N #3->4
+	"IP" TUQ N Abs Sg @OBJ> #3->5
 "<igalaaq>"
-	"igalaaq" N Abs Sg @OBJ> #4->5
+	"igalaaq" N Abs Sg @N< #4->3
 "<qiverseriarlugu>"
 	"qiver" TIP RIAR V Cont 3SgO @ADVL> #5->7
 "<uunnaavik>"

@@ -742,9 +742,9 @@
 "<ittarput>"
 	"IP" Gram/IV TAR Der/vv Gram/IV V Ind 3Pl Hyb/2-2 @PRED
 "<atorneq ajortut>"
-	"ator" Gram/IV NIQ_AJUR Der/vv Gram/IV TUQ Der/vn N Abs Pl @>N
+	"ator" Gram/IV NIQ_AJUR Der/vv Gram/IV TUQ Der/vn N Abs Pl @<SUBJ
 "<sukujuit>"
-	"sukujuk" N Abs Pl @<SUBJ
+	"sukujuk" N Abs Pl @N<
 "<.>"
 	"." CLB
 </s>
@@ -4211,9 +4211,9 @@
 "<iluaniittullu>"
 	"ilu" N Lok Sg 3SgPoss Hyb/1-2 @i-ADVL>
 "<ittullu>"
-	"IP" Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl CONJ-LU Hyb/2-2 @>N
+	"IP" Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl CONJ-LU Hyb/2-2 @SUBJ>
 "<oqorsaatit>"
-	"oqorsaat" N Abs Pl @SUBJ>
+	"oqorsaat" N Abs Pl @N<
 "<timmissat>"
 	"timmiaq" N Rel Pl @POSS>
 "<meqqui>"
@@ -4605,17 +4605,17 @@
 "<atuarfimmi>"
 	"atuar" Gram/HV Gram/IV VIK Der/vn N Lok Sg @i-ADVL>
 "<sanaarisimasaa>"
-	"sanaaq" GE Der/nv Gram/TV SIMA Der/vv Gram/TV TAQ Der/vn N Abs Sg 3SgPoss @>N
+	"sanaaq" GE Der/nv Gram/TV SIMA Der/vv Gram/TV TAQ Der/vn N Abs Sg 3SgPoss @<OBJ
 "<iganut>"
 	"iga" N Trm Pl @ADVL>N
 "<allequt>"
-	"allequt" N Abs Sg @<OBJ
+	"allequt" N Abs Sg @N<
 "<,>"
 	"," CLB
 "<kappoqqutinik>"
 	"kappoqqut" N Ins Pl @i-ADVL>
 "<liimmernikunik>"
-	"liimmer" Gram/TV Gram/Pass NIQ Der/vn KUQ Der/nn N Ins Pl @i-ADVL>
+	"liimmer" Gram/TV Gram/Pass NIQ Der/vn KUQ Der/nn N Ins Pl @N<
 "<ammalortuliaq>"
 	"ammalor" Gram/IV TUQ Der/vn LIAQ Der/nn N Abs Sg @N<
 "<,>"
@@ -4625,9 +4625,9 @@
 "<orangeamik>"
 	"orange" Err/Sub OLang/DAN N Ins Sg @i->N
 "<qalipaatilimmik>"
-	"qalipap" Gram/TV UTE Der/vn LIK Der/nn N Ins Sg @>N
+	"qalipap" Gram/TV UTE Der/vn LIK Der/nn N Ins Sg @i-ADVL>
 "<annoraaminermik>"
-	"annoraamineq" N Ins Sg @i-ADVL>
+	"annoraamineq" N Ins Sg @N<
 "<qalligaq>"
 	"qaller" Gram/TV TAQ Der/vn N Abs Sg @N<
 "<.>"
@@ -5785,9 +5785,9 @@
 "<niaqunniittut>"
 	"niaqoq" N Lok Sg 1SgPoss Hyb/1-2 @i-ADVL>
 "<ittut>"
-	"IP" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 @>N
+	"IP" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 @OBJ>
 "<nipit>"
-	"nipi" N Abs Pl @OBJ>
+	"nipi" N Abs Pl @N<
 "<eqqumiitsut>"
 	"eqqumiip" Gram/IV TUQ Der/vn N Abs Pl %ContHypotagme @N<
 "<oqaluuterujoortalerlugit>"
@@ -6339,9 +6339,9 @@
 "<sanianiittoq>"
 	"sani" N Lok Sg 3SgPoss Hyb/1-2 %PossOblique @i-ADVL>
 "<ittoq>"
-	"IP" Gram/IV TUQ Der/vn N Abs Sg Hyb/2-2 @>N
+	"IP" Gram/IV TUQ Der/vn N Abs Sg Hyb/2-2 @OBJ>
 "<igalaaq>"
-	"igalaaq" N Abs Sg %ContHypotagme @OBJ>
+	"igalaaq" N Abs Sg %ContHypotagme @N<
 "<qiverseriarlugu>"
 	"qiver" Gram/IV TIP Der/vv Gram/TV RIAR Der/vv Gram/TV V Cont 3SgO %ContHypotagme @ADVL>
 "<uunnaavik>"

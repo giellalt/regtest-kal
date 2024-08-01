@@ -9195,7 +9195,7 @@
 "<Gassi>"
 	"gas" N Abs Sg @SUBJ> #1->3
 "<puiaasaq>"
-	"puiaq" USAQ N Abs Sg #2->2
+	"puiaq" USAQ N Abs Sg @N< #2->1
 "<qaarpoq>"
 	"qaar" V Ind 3Sg @PRED #3->0
 "<,>"
@@ -10753,7 +10753,7 @@
 "<atortagaasa>"
 	"ator" TAR TAQ N Rel Pl 3PlPoss @N< #5->1
 "<eqqunneqarneranni>"
-	"eqqup" NIQAR NIQ N Lok Sg 3PlPoss @i-<ADVL #6->6
+	"eqqup" NIQAR NIQ N Lok Sg 3PlPoss @HNOUN #6->0
 "<.>"
 	"." CLB #7->7
 </s>
@@ -12094,7 +12094,7 @@
 	"." CLB #7->7
 
 "<Unali>"
-	"una" Pron Abs Sg CONJ-LI @Pron>N #1->1
+	"una" Pron Abs Sg CONJ-LI @Pron>N #1->2
 "<naasoq>"
 	"naa" TUQ N Abs Sg @SUBJ> #2->11
 "<ullut>"
@@ -24404,9 +24404,9 @@
 "<tunuanniittoq>"
 	"tunu" N Lok Sg 3PlPoss @i-ADVL> #3->4
 "<ittoq>"
-	"IP" TUQ N Abs Sg @>N #4->5
+	"IP" TUQ N Abs Sg @OBJ> #4->6
 "<iluarinninnera>"
-	"iluar" GE HTR NIQ N Abs Sg 1SgPoss @OBJ> #5->6
+	"iluar" GE HTR NIQ N Abs Sg 1SgPoss @N< #5->4
 "<takusinnaasimasariaqaraluarpara>"
 	"taku" SINNAA SIMA TARIAQAR GALUAR V Ind 1Sg 3SgO @PRED #6->0
 "<.>"
@@ -24491,11 +24491,11 @@
 "<mikineranniit>"
 	"miki" NIQ N Abl Sg 3PlPoss @i-ADVL> #3->4
 "<assigisarujussuinit>"
-	"assi" GE TAQ RUJUK SUAQ N Abl Pl 3PlPoss @>N #4->5
+	"assi" GE TAQ RUJUK SUAQ N Abl Pl 3PlPoss @ADVL> #4->7
 "<orpinnit>"
-	"orpik" N Abl Pl @ADVL> #5->7
+	"orpik" N Abl Pl @N< #5->4
 "<naasoqartunit>"
-	"naasoq" QAR TUQ N Abl Pl @N< #6->5
+	"naasoq" QAR TUQ N Abl Pl @N< #6->4
 "<immikkoortissinnaaleraanni>"
 	"immikkoor" TIP SINNAA LIR V Par 4Sg 3PlO @CL-<ADVL #7->1
 "<,>"
@@ -25534,7 +25534,7 @@
 "<oqarasuaat>"
 	"oqarasuaat" N Abs Sg @OBJ> #5->10
 "<34 57 81>"
-	"34 57 81" Num Abs Sg @OBJ> #6->10
+	"34 57 81" Num Abs Sg @N< #6->5
 "<(>"
 	"(" PUNCT LEFT #7->7
 "<toqqaannartoq>"

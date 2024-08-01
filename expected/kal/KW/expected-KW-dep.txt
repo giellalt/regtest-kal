@@ -742,9 +742,9 @@
 "<ittarput>"
 	"IP" Gram/IV TAR Der/vv Gram/IV V Ind 3Pl Hyb/2-2 @PRED #2->0
 "<atorneq ajortut>"
-	"ator" Gram/IV NIQ_AJUR Der/vv Gram/IV TUQ Der/vn N Abs Pl @>N #3->4
+	"ator" Gram/IV NIQ_AJUR Der/vv Gram/IV TUQ Der/vn N Abs Pl @<SUBJ #3->2
 "<sukujuit>"
-	"sukujuk" N Abs Pl @<SUBJ #4->2
+	"sukujuk" N Abs Pl @N< #4->3
 "<.>"
 	"." CLB #5->5
 </s>
@@ -4211,9 +4211,9 @@
 "<iluaniittullu>"
 	"ilu" N Lok Sg 3SgPoss Hyb/1-2 @i-ADVL> #7->8
 "<ittullu>"
-	"IP" Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl CONJ-LU Hyb/2-2 @>N #8->9
+	"IP" Gram/IV TUQ Der/vn Gram/Conj-encl N Abs Pl CONJ-LU Hyb/2-2 @SUBJ> #8->12
 "<oqorsaatit>"
-	"oqorsaat" N Abs Pl @SUBJ> #9->12
+	"oqorsaat" N Abs Pl @N< #9->8
 "<timmissat>"
 	"timmiaq" N Rel Pl @POSS> #10->11
 "<meqqui>"
@@ -4605,19 +4605,19 @@
 "<atuarfimmi>"
 	"atuar" Gram/HV Gram/IV VIK Der/vn N Lok Sg @i-ADVL> #4->5
 "<sanaarisimasaa>"
-	"sanaaq" GE Der/nv Gram/TV SIMA Der/vv Gram/TV TAQ Der/vn N Abs Sg 3SgPoss @>N #5->7
+	"sanaaq" GE Der/nv Gram/TV SIMA Der/vv Gram/TV TAQ Der/vn N Abs Sg 3SgPoss @<OBJ #5->2
 "<iganut>"
 	"iga" N Trm Pl @ADVL>N #6->7
 "<allequt>"
-	"allequt" N Abs Sg @<OBJ #7->2
+	"allequt" N Abs Sg @N< #7->5
 "<,>"
 	"," CLB #8->8
 "<kappoqqutinik>"
 	"kappoqqut" N Ins Pl @i-ADVL> #9->11
 "<liimmernikunik>"
-	"liimmer" Gram/TV Gram/Pass NIQ Der/vn KUQ Der/nn N Ins Pl @i-ADVL> #10->11
+	"liimmer" Gram/TV Gram/Pass NIQ Der/vn KUQ Der/nn N Ins Pl @N< #10->9
 "<ammalortuliaq>"
-	"ammalor" Gram/IV TUQ Der/vn LIAQ Der/nn N Abs Sg @N< #11->7
+	"ammalor" Gram/IV TUQ Der/vn LIAQ Der/nn N Abs Sg @N< #11->5
 "<,>"
 	"," CLB #12->12
 "<qaavatigut>"
@@ -4625,11 +4625,11 @@
 "<orangeamik>"
 	"orange" Err/Sub OLang/DAN N Ins Sg @i->N #14->15
 "<qalipaatilimmik>"
-	"qalipap" Gram/TV UTE Der/vn LIK Der/nn N Ins Sg @>N #15->16
+	"qalipap" Gram/TV UTE Der/vn LIK Der/nn N Ins Sg @i-ADVL> #15->17
 "<annoraaminermik>"
-	"annoraamineq" N Ins Sg @i-ADVL> #16->17
+	"annoraamineq" N Ins Sg @N< #16->15
 "<qalligaq>"
-	"qaller" Gram/TV TAQ Der/vn N Abs Sg @N< #17->7
+	"qaller" Gram/TV TAQ Der/vn N Abs Sg @N< #17->5
 "<.>"
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #18->18
 </s>
@@ -5785,11 +5785,11 @@
 "<niaqunniittut>"
 	"niaqoq" N Lok Sg 1SgPoss Hyb/1-2 @i-ADVL> #8->9
 "<ittut>"
-	"IP" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 @>N #9->10
+	"IP" Gram/IV TUQ Der/vn N Abs Pl Hyb/2-2 @OBJ> #9->12
 "<nipit>"
-	"nipi" N Abs Pl @OBJ> #10->12
+	"nipi" N Abs Pl @N< #10->9
 "<eqqumiitsut>"
-	"eqqumiip" Gram/IV TUQ Der/vn N Abs Pl @N< #11->10
+	"eqqumiip" Gram/IV TUQ Der/vn N Abs Pl @N< #11->9
 "<oqaluuterujoortalerlugit>"
 	"oqalup" UTE Der/vv Gram/TV RUJUUR Der/vv TAR Der/vv LIR Der/vv Gram/TV V Cont 3PlO @<ADVL #12->2
 "<.>"
@@ -6339,9 +6339,9 @@
 "<sanianiittoq>"
 	"sani" N Lok Sg 3SgPoss Hyb/1-2 @i-ADVL> #2->3
 "<ittoq>"
-	"IP" Gram/IV TUQ Der/vn N Abs Sg Hyb/2-2 @>N #3->4
+	"IP" Gram/IV TUQ Der/vn N Abs Sg Hyb/2-2 @OBJ> #3->5
 "<igalaaq>"
-	"igalaaq" N Abs Sg @OBJ> #4->5
+	"igalaaq" N Abs Sg @N< #4->3
 "<qiverseriarlugu>"
 	"qiver" Gram/IV TIP Der/vv Gram/TV RIAR Der/vv Gram/TV V Cont 3SgO @ADVL> #5->7
 "<uunnaavik>"
