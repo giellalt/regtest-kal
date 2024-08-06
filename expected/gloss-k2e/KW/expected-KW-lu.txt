@@ -445,7 +445,7 @@
 "<nujai>"
 	"nujaq" Sem/f-an N Abs Pl 3SgPoss
 "<tunummut>"
-	"tunuk" Trm
+	"tunuk" N Trm Sg
 "<sukangasumik>"
 	"sukap" Gram/IV iSem/tighten NGA Der/vv Gram/IV TUQ Der/vn Sem/f N Ins Sg
 "<tamarmik>"
@@ -817,6 +817,7 @@
 	"ulapip" Gram/IV iSem/rush NIQ Der/vn N Abl Sg CONJ-LU
 "<atineq>"
 	"ati" Gram/IV NIQ Der/vn N Abs Sg %ContHypotagme
+	"ati" Gram/TV NIQ Der/vn N Abs Sg Gram/Comp %ContHypotagme
 "<ajuleraluarlugu>"
 	"ajor" Gram/TV iSem/refrain LIR Der/vv Gram/TV iSem/begin GALUAR Der/vv Gram/TV Sem/try_to V Cont 3SgO %ContHypotagme
 "<.>"
@@ -891,7 +892,7 @@
 	"..." CLB
 
 "<->"
-	"-" PUNCT DIRTALESTART
+	"-" PUNCT DIRTALESTART &ADDED
 "<Na-aa>"
 	"na" Interj AA
 "<iperannga>"
@@ -909,7 +910,7 @@
 	"..." CLB
 
 "<->"
-	"-" PUNCT DIRTALESTART
+	"-" PUNCT DIRTALESTART &ADDED
 "<Qaa>"
 	"qaa" Interj
 "<tassa>"
@@ -1348,11 +1349,11 @@
 	"." CLB
 
 "<Piffiillu>"
-	"piffik" iSem/temp N Abs Pl CONJ-LU %AmbiguøsN
+	"piffik" Sem/temp N Abs Pl CONJ-LU %AmbiguøsN
 "<qasoqqarujussuarneri>"
 	"qasu" Gram/IV iSem/be_attribute QQA Der/vv Gram/IV iSem/be_attribute RUJUP Der/vv Gram/IV SUAR Der/vv Gram/IV iSem/be_attribute NIQ Der/vn N Abs Pl 3PlPoss
 "<nukissaaleqinerilu>"
-	"nukik" iSem/am SSAQ Der/nn iSem/am ILIQI Der/nv Gram/IV NIQ Der/vn N Abs Pl 3PlPoss CONJ-LU
+	"nukik" iSem/am SSAQ Der/nn iSem/am ILIQI Der/nv Gram/IV NIQ Der/vn N Abs Pl 3PlPoss CONJ-LU LU-N
 "<.>"
 	"." CLB
 </s>
@@ -3611,7 +3612,7 @@
 
 <s id="Iv9N1XPb5nDZ7h2RM7hhnsJx8Es">
 "<->"
-	"-" PUNCT DIRTALESTART
+	"-" PUNCT DIRTALESTART &ADDED
 "<Aappi>"
 	"aappi" Interj
 "<,>"
@@ -3634,9 +3635,9 @@
 "<nammineersinnaanngitsutut>"
 	"nammineer" Gram/IV iSem/be_attribute SINNAA Der/vv Gram/IV iSem/can NNGIT Der/vv Gram/IV TUQ Der/vn Sem/H N Aeq Sg
 "<mianerisariaqartutullu>"
-	"mianere" Gram/TV TARIAQAR Der/vv Gram/Pass Gram/IV iSem/must TUQ Der/vn Sem/H N Aeq Sg CONJ-LU
-	"mianere" Gram/TV TARIAQAR Der/vv Gram/TV Gram/Pass iSem/must TUQ Der/vn Sem/H N Aeq Sg CONJ-LU
-	"mianere" Gram/TV TARIAQAR Der/vv Gram/TV iSem/must TUQ Der/vn Sem/H N Aeq Sg CONJ-LU
+	"mianere" Gram/TV TARIAQAR Der/vv Gram/Pass Gram/IV iSem/must TUQ Der/vn Sem/H N Aeq Sg CONJ-LU LU-N
+	"mianere" Gram/TV TARIAQAR Der/vv Gram/TV Gram/Pass iSem/must TUQ Der/vn Sem/H N Aeq Sg CONJ-LU LU-N
+	"mianere" Gram/TV TARIAQAR Der/vv Gram/TV iSem/must TUQ Der/vn Sem/H N Aeq Sg CONJ-LU LU-N
 "<isigineqalissasunga>"
 	"isige" Gram/TV iSem/regard_as NIQAR Der/vv Gram/IV LIR Der/vv iSem/begin SSA Der/vv Gram/IV Sem/must V Par 1Sg
 "<aalajangerneqarpoq>"
@@ -3651,7 +3652,7 @@
 "<ulorianartorsiortitsisinnaasutut>"
 	"ulorianar" Gram/IV iSem/be_attribute TUQ Der/vn iSem/jrisk SIUR Der/nv Gram/IV iSem/do_leisure iSem/occ TIP Der/vv Gram/TV iSem/cause HTR Der/vv Gram/IV iSem/cause SINNAA Der/vv iSem/can TUQ Der/vn Sem/H N Aeq Sg
 "<naliligaallunga>"
-	"nale" iSem/temp iSem/L LIR Der/nv Gram/TV iSem/supply TAQ Der/vn Sem/ac U Der/nv Gram/IV Sem/be_copula V Cont 1Sg
+	"nalik" iSem/f-q LIR Der/nv Gram/TV iSem/supply TAQ Der/vn Sem/ac U Der/nv Gram/IV Sem/be_copula V Cont 1Sg
 "<.>"
 	"." CLB
 </s>
@@ -4440,7 +4441,9 @@
 "<iluaniittullu>"
 	"ilu" Sem/piece N Lok Sg 3SgPoss Hyb/1-2
 "<ittullu>"
-	"IP" Gram/IV iSem/be_place TUQ Der/vn iSem/cc N Abs Pl CONJ-LU Hyb/2-2 %AmbiguøsN
+	"IP" Gram/IV iSem/be_place TUQ Der/vn Sem/H N Rel Sg CONJ-LU Hyb/2-2 %AmbiguøsN
+	"IP" Gram/IV iSem/be_place TUQ Der/vn Sem/cc N Abs Pl CONJ-LU Hyb/2-2 %AmbiguøsN
+	"IP" Gram/IV iSem/be_place TUQ Der/vn Sem/cc N Rel Sg CONJ-LU Hyb/2-2 %AmbiguøsN
 "<oqorsaatit>"
 	"oqorsaat" Sem/cloH N Abs Pl %AmbiguøsN
 "<timmissat>"
@@ -4505,7 +4508,7 @@
 "<taqqamunga>"
 	"qam" Prefix/TA Gram/Dem Adv Trm
 "<ilummut>"
-	"iluk" Trm
+	"iluk" N Trm Sg
 "<aallarpunga>"
 	"aallar" Gram/IV Sem/run V Ind 1Sg
 "<.>"
@@ -4797,7 +4800,7 @@
 "<Tuattunnguaq>"
 	"tuap" Gram/IV iSem/be_attribute TUQ Der/vn iSem/f-phys-h NNGUAQ Der/nn Sem/f N Abs Sg
 "<nallinnartorlu>"
-	"nallip" Gram/TV iSem/help NAR Der/vv Gram/IV iSem/be_attribute TUQ Der/vn Sem/Hprof N Abs Sg CONJ-LU
+	"nallip" Gram/TV iSem/help NAR Der/vv Gram/IV iSem/be_attribute TUQ Der/vn Sem/Hprof N Abs Sg CONJ-LU LU-N
 "<,>"
 	"," CLB
 "<anaanama>"
@@ -5612,7 +5615,7 @@
 
 <s id="RSRH1PXsNdJXeyGs3jo9xIjzM7s">
 "<->"
-	"-" PUNCT DIRTALESTART
+	"-" PUNCT DIRTALESTART &ADDED
 "<Naamerluinnarmi>"
 	"naamik" LLUINNAQ Interj MI
 "<pisussanngilaq>"
@@ -5650,9 +5653,9 @@
 "<,>"
 	"," CLB
 "<allorarunnaarlungalu>"
-	"allor" Gram/TV iSem/border RAR Der/vv Gram/TV GUNNAIR Der/vv Gram/Refl V Cont 1Sg CONJ-LU
-	"allor" Gram/TV iSem/hurt RAR Der/vv Gram/TV GUNNAIR Der/vv Gram/Refl V Cont 1Sg CONJ-LU
-	"allor" Gram/TV iSem/neglect RAR Der/vv Gram/TV GUNNAIR Der/vv Gram/Refl V Cont 1Sg CONJ-LU
+	"allor" Gram/IV iSem/enter RAR Der/vv Gram/IV iSem/run GUNNAIR Der/vv Gram/IV Sem/stop V Cont 1Sg CONJ-LU
+	"allor" Gram/IV iSem/hurt_self RAR Der/vv Gram/IV iSem/run GUNNAIR Der/vv Gram/IV Sem/stop V Cont 1Sg CONJ-LU
+	"allor" Gram/IV iSem/run RAR Der/vv Gram/IV iSem/run GUNNAIR Der/vv Gram/IV Sem/stop V Cont 1Sg CONJ-LU
 "<unikkaangama>"
 	"unip" Gram/IV Sem/halt V IteCau 1Sg
 	"unip" Gram/IV Sem/stop V IteCau 1Sg
@@ -5769,25 +5772,6 @@
 	"ingerla" Gram/IV iSem/role_as LIR Der/vv Gram/IV Sem/begin V Cont 4Sg
 	"ingerla" Gram/IV iSem/run LIR Der/vv Gram/IV Sem/begin V Cont 4Sg
 	"ingerla" Gram/IV iSem/vehicle LIR Der/vv Gram/IV Sem/begin V Cont 4Sg
-"<.>"
-	"." CLB
-</s>
-
-<s id="SChfozxt0PJxhwn9raJn3VDCpgc">
-"<Qimmiaraq>"
-	"qimmeq" iSem/Adom ARAQ Der/nn Sem/Azo N Abs Sg
-	"qimmiaraq" Sem/Azo N Abs Sg
-"<meqquusalik>"
-	"meqquusaq" iSem/mat-cloth LIK Der/nn Sem/Lcover N Abs Sg
-"<manngertoq>"
-	"manngertoq" Sem/f N Abs Sg
-"<,>"
-	"," CLB
-"<nammineq>"
-	"nammineq" Gram/Coref Pron Abs 4Sg %AmbiguøsN
-"<unippoq>"
-	"unip" Gram/IV Sem/halt V Ind 3Sg
-	"unip" Gram/IV Sem/stop V Ind 3Sg
 "<.>"
 	"." CLB
 </s>
@@ -6998,15 +6982,15 @@
 
 <s id="Y09rPxGhsc6qMBn1s5xbvlRuxp0">
 "<Ilummut>"
-	"iluk" Trm
+	"iluk" N Trm Sg
 "<appakaappunga>"
 	"appakaap" Gram/IV Sem/reach V Ind 1Sg
 "<takussasoralugu>"
-	"taku" Gram/HV SSA Der/vv iSem/must SURE Der/vv Gram/TV Sem/assume V Cont 3SgO
+	"taku" Gram/HV iSem/see SSA Der/vv iSem/must SURE Der/vv Gram/TV Sem/assume V Cont 3SgO
 "<,>"
 	"," CLB
 "<igaffimmiinngilarli>"
-	"iga" Gram/HV VIK Der/vn Sem/Lh N Lok Sg Hyb/1-2
+	"iga" Gram/HV iSem/create_food VIK Der/vn Sem/Lh N Lok Sg Hyb/1-2
 "<inngilarli>"
 	"IP" Gram/IV iSem/be_place NNGIT Der/vv Gram/IV V Ind 3Sg CONJ-LI Hyb/2-2
 "<.>"
@@ -7397,7 +7381,7 @@
 
 <s id="ahijlTSJqFc5fmk0XH0AhLJUMpc">
 "<Tunummut>"
-	"tunuk" Trm
+	"tunuk" N Trm Sg
 "<aallarluni>"
 	"aallar" Gram/IV Sem/run V Cont 4Sg
 "<utilerpoq>"
@@ -7636,6 +7620,23 @@
 	"." CLB
 </s>
 
+<s id="bgB6tOo2V8xcrlXCChTSGkBezBg">
+"<Qimmiaraq>"
+	"qimmeq" iSem/Adom ARAQ Der/nn Sem/Azo N Abs Sg
+	"qimmiaraq" Sem/Azo N Abs Sg
+"<meqquusalik>"
+	"meqquusaq" iSem/mat-cloth LIK Der/nn Sem/Lcover N Abs Sg
+"<manngertoq>"
+	"mannger" Gram/IV iSem/be_attribute TUQ Der/vn Sem/f N Abs Sg
+"<nammineq>"
+	"nammineq" Gram/Coref Pron Abs 4Sg %AmbiguøsN
+"<unippoq>"
+	"unip" Gram/IV Sem/halt V Ind 3Sg
+	"unip" Gram/IV Sem/stop V Ind 3Sg
+"<.>"
+	"." CLB
+</s>
+
 <s id="bnXFSrP7sZ7LSGODlxvqvN9C8sM">
 "<Ilinniartitsisuminiillu>"
 	"ilinniar" Gram/IV iSem/learn TIP Der/vv Gram/TV iSem/cause HTR Der/vv Gram/IV iSem/cause TUQ Der/vn Sem/Hprof N Abl Sg 4SgPoss CONJ-LU
@@ -7755,7 +7756,7 @@
 
 <s id="cJtXoxihueHQFdDmqik7YEg58b0">
 "<->"
-	"-" PUNCT DIRTALESTART
+	"-" PUNCT DIRTALESTART &ADDED
 "<Naamerluinnarli>"
 	"naamik" LLUINNAQ Interj CONJ-LI
 "<.>"
@@ -8556,7 +8557,7 @@
 "<asannitsigininnik>"
 	"asa" Gram/TV iSem/socialize HTR Der/vv Gram/IV iSem/socialize TIGE Der/vv Gram/IV NIQ Der/vn N Ins Sg 1SgPoss
 "<soorlulu>"
-	"soorlu" Adv CONJ-LU
+	"soorlu" Adv CONJ-LU LU-N
 "<misigissutsinnik>"
 	"misige" Gram/TV Gram/Refl Gram/IV SSUSIQ Der/vn Sem/f-psych N Ins Sg 1SgPoss
 "<oqaluttuukkaannga>"
@@ -8593,8 +8594,8 @@
 "<,>"
 	"," CLB
 "<affaannarsunngitsullu>"
-	"affaq" iSem/amount INNAQ Der/nn iSem/amount TUR Der/nv Gram/IV iSem/consume NNGIT Der/vv Gram/IV TUQ Der/vn Sem/cc N Abs Pl CONJ-LU %AmbiguøsN
-	"affaq" iSem/amount INNAQ Der/nn iSem/amount TUR Der/nv Gram/IV iSem/eat NNGIT Der/vv Gram/IV TUQ Der/vn Sem/cc N Abs Pl CONJ-LU %AmbiguøsN
+	"affaq" iSem/amount INNAQ Der/nn iSem/amount TUR Der/nv Gram/IV iSem/consume NNGIT Der/vv Gram/IV TUQ Der/vn Sem/cc N Abs Pl CONJ-LU LU-N LU-N %AmbiguøsN
+	"affaq" iSem/amount INNAQ Der/nn iSem/amount TUR Der/nv Gram/IV iSem/eat NNGIT Der/vv Gram/IV TUQ Der/vn Sem/cc N Abs Pl CONJ-LU LU-N LU-N %AmbiguøsN
 "<.>"
 	"." CLB
 
@@ -9413,7 +9414,7 @@
 "<kiaguleraluttuinnarlunilu>"
 	"kiagup" Gram/IV iSem/excrete LIR Der/vv Gram/IV iSem/begin GALUTTUAR Der/vv Gram/IV INNAR Der/vv Gram/IV Sem/persist V Cont 4Sg CONJ-LU
 "<aaliangeqqatikkamimi>"
-	"aalajanger" Orth/Alt Gram/IV iSem/decide QQA Der/vv Gram/IV TIP Der/vv Gram/TV Gram/Refl Sem/become_be V Cau 4Sg MI
+	"aalajanger" Err/Sub Gram/IV iSem/decide QQA Der/vv Gram/IV TIP Der/vv Gram/TV Gram/Refl Sem/become_be V Cau 4Sg MI
 "<.>"
 	"." CLB
 </s>
@@ -10393,9 +10394,8 @@
 	"tupilak" Sem/cc-h N Abs Sg
 "<qiperugaq>"
 	"qiperor" Gram/TV iSem/cut TAQ Der/vn Sem/cc-h N Abs Sg
-	"qiperugaq" Sem/cc-h N Abs Sg
 "<mikisoq>"
-	"miki" Gram/IV iSem/be_attribute TUQ Der/vn Sem/f N Abs Sg
+	"miki" Gram/IV iSem/be_attribute TUQ Der/vn Sem/jsize N Abs Sg
 "<takutippaa>"
 	"taku" Gram/TV iSem/see TIP Der/vv Gram/Db Gram/TV Sem/show V Ind 3Sg 3SgO
 "<.>"
@@ -10714,7 +10714,7 @@
 "<unnussuarmut>"
 	"unnuk" iSem/temp SUAQ Der/nn Sem/f N Trm Sg
 "<angajoqqaavisa>"
-	"angajoqqaaq" Sem/Hfam N Rel Pl 3SgPoss
+	"angajoqqaaq" Sem/Hfam Sem/HH N Rel Pl 3SgPoss
 "<sunik>"
 	"suna" Gram/Int Pron Ins Pl
 "<tamanik>"
@@ -10727,7 +10727,7 @@
 "<Unnukkorsiutaanik>"
 	"unnukkorsiut" N Ins Sg 3SgPoss
 "<agguullugu>"
-	"aggor" Gram/TV iSem/split UTE Der/vv Gram/TV V Cont 3SgO
+	"aggor" Gram/TV iSem/split UTE Der/vv Gram/Db Gram/TV V Cont 3SgO
 "<.>"
 	"." CLB
 
@@ -11639,7 +11639,7 @@
 	"." CLB
 
 "<->"
-	"-" PUNCT DIRTALESTART
+	"-" PUNCT DIRTALESTART &ADDED
 "<Hej>"
 	"hej" Interj
 "<.>"
@@ -12226,7 +12226,7 @@
 "<,>"
 	"," CLB
 "<unnuarpassuillu>"
-	"unnuaq" iSem/temp PAK Der/nn SUAQ Der/nn iSem/ac N Abs Pl CONJ-LU %AmbiguøsN
+	"unnuaq" iSem/temp PAK Der/nn SUAQ Der/nn Sem/ac N Abs Pl CONJ-LU LU-N LU-N %AmbiguøsN
 "<pikkorissarfigisarsimavakka>"
 	"pikkorip" Gram/IV iSem/be_attribute SAR Der/vv Gram/TV Gram/Refl iSem/study VIK Der/vn iSem/L GE Der/nv Gram/TV iSem/have TAR Der/vv Gram/TV iSem/do SIMA Der/vv V Ind 1Sg 3PlO
 	"pikkorip" Gram/IV iSem/be_attribute SAR Der/vv Gram/TV Gram/Refl iSem/study VIK Der/vn iSem/temp GE Der/nv Gram/TV iSem/have TAR Der/vv Gram/TV iSem/do SIMA Der/vv V Ind 1Sg 3PlO

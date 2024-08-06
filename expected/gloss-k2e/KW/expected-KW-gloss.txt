@@ -458,11 +458,11 @@
 "<nujai>"
 	"hair" Sem/f-an iN <tr> N Abs Pl 3SgPoss @SUBJ> #2->6
 "<tunummut>"
-	"tunuk" Trm @i-ADVL> #3->4
+	"tunuk" N Trm Sg @i-ADVL> #3->4
 "<sukangasumik>"
 	"be tight" iSem/be_attribute iV <tr> TUQ Der/vn Sem/f N Ins Sg @ADVL> #4->6
 "<tamarmik>"
-	"all" Sem/am iN <tr> N Gram/Cong Nom 4Pl @N< #5->2
+	"all" Sem/am iN <tr> N Gram/Cong Nom 4Pl @N<->V> #5->6
 "<qilersimapput>"
 	"qiler" Gram/IV SIMA Der/vv V Ind 3Pl @PRED #6->0
 "<.>"
@@ -752,7 +752,7 @@
 "<Farikasik>"
 	"Fari" Sem/Mask Sem/Hum Prop Abs Sg KASIK @HNOUN #1->0
 "<anaq>"
-	"shit" Sem/cc iN <tr> N Abs Sg @N< #2->1
+	"shit" Sem/cc iN <tr> N Abs Sg @HNOUN #2->0
 "<.>"
 	"." CLB #3->2
 </s>
@@ -810,9 +810,9 @@
 "<ittarput>"
 	"be" iSem/be_place iV <tr> TAR Der/vv Gram/IV Sem/do V Ind 3Pl Hyb/2-2 @PRED #2->0
 "<atorneq ajortut>"
-	"be in use" Sem/use iV <tr> "do never" Sem/persist iV <tr> "that which" Sem/cc iN <tr> N Abs Pl @>N #3->4
+	"be in use" Sem/use iV <tr> "do never" Sem/persist iV <tr> "that which" Sem/cc iN <tr> N Abs Pl @<SUBJ #3->2
 "<sukujuit>"
-	"junk" Sem/cm-h iN <tr> N Abs Pl @<SUBJ #4->2
+	"junk" Sem/cm-h iN <tr> N Abs Pl @N< #4->3
 "<.>"
 	"." CLB #5->4
 </s>
@@ -835,6 +835,7 @@
 	"be busy" iSem/rush iV <tr> NIQ Der/vn Gram/Conj-encl N Abl Sg CONJ-LU @i-ADVL> #1->2
 "<atineq>"
 	"ati" Gram/IV NIQ Der/vn N Abs Sg @OBJ> #2->3
+	"put on" iSem/dress iV <tr> NIQ Der/vn N Abs Sg Gram/Comp @>V #2->3
 "<ajuleraluarlugu>"
 	"ajor" Gram/TV iSem/refrain "begin" Sem/begin iV <tr> "actually" iAdv <tr> V Cont 3SgO @PRED #3->0
 "<.>"
@@ -910,7 +911,7 @@
 	"..." CLB #3->2
 
 "<->"
-	"-" PUNCT DIRTALESTART #1->0
+	"-" PUNCT DIRTALESTART &ADDED #1->0
 "<Na-aa>"
 	"na" Interj AA @INTERJ #2->0
 "<.>"
@@ -926,12 +927,12 @@
 	"..." CLB #4->3
 
 "<Anaana>"
-	"mother" Sem/Hfam iN <tr> N Abs Sg @VOK #1->0
+	"mother" Sem/Hfam iN <tr> N Abs Sg @HNOUN #1->0
 "<...>"
 	"..." CLB #2->1
 
 "<->"
-	"-" PUNCT DIRTALESTART #1->0
+	"-" PUNCT DIRTALESTART &ADDED #1->0
 "<Qaa>"
 	"come on" Interj <tr> Interj @INTERJ #2->0
 "<.>"
@@ -1363,15 +1364,18 @@
 "<Ilaanni>"
 	"sometimes" Adv <tr> Adv @ADVL> #1->2
 "<ikiligunik>"
-	"become fewer" Sem/decrease iV <tr> V Con 4Pl @CON #2->0
+	"become fewer" Sem/decrease iV <tr> V Con 4Pl @PRED #2->0
 "<,>"
 	"," CLB #3->2
-"<ilaanni>"
-	"sometimes" Adv <tr> Adv @ADVL> #4->5
-"<amerligunik>"
-	"become more" Sem/increase iV <tr> V Con 4Pl @CON #5->0
 "<.>"
-	"." CLB #6->5
+	"." CLB #4->3
+
+"<ilaanni>"
+	"sometimes" Adv <tr> Adv @ADVL> #1->2
+"<amerligunik>"
+	"become more" Sem/increase iV <tr> V Con 4Pl @PRED #2->0
+"<.>"
+	"." CLB #3->2
 
 "<Piffiillu>"
 	"time" Sem/ac iN <tr> N Abs Pl CONJ-LU @HNOUN #1->0
@@ -1864,15 +1868,18 @@
 "<Malinnaasinnaanerooq>"
 	"follow" iSem/involve iV <tr> "can" iSem/can iV <tr> NIQ Der/vn N Abs Sg Gram/Comp GUUQ @>V #1->2
 "<ajormat>"
-	"be bad" Sem/be_attribute iV <tr> V Cau 3Sg @CAU> #2->5
+	"be bad" Sem/be_attribute iV <tr> V Cau 3Sg @PRED #2->0
 "<,>"
 	"," CLB #3->2
-"<atuaqatiminullu>"
-	"classmate" Sem/Hprof iN <tr> N Trm Pl 4SgPoss CONJ-LU @ADVL> #4->5
-"<kinguarsaataaginnartarmat>"
-	"delay" iSem/act iN <tr> "be" iSem/be_copula iV <tr> "only" iAdv <tr> TAR Der/vv Gram/IV Sem/do V Cau 3Sg @CAU #5->0
 "<.>"
-	"." CLB #6->5
+	"." CLB #4->3
+
+"<atuaqatiminullu>"
+	"classmate" Sem/Hprof iN <tr> N Trm Pl 4SgPoss CONJ-LU @ADVL> #1->2
+"<kinguarsaataaginnartarmat>"
+	"delay" iSem/act iN <tr> "be" iSem/be_copula iV <tr> "only" iAdv <tr> TAR Der/vv Gram/IV Sem/do V Cau 3Sg @PRED #2->0
+"<.>"
+	"." CLB #3->2
 
 "<Pikkorissinissaannunngooq>"
 	"become good" iSem/become_be iV <tr> NIQ Der/vn "future" Sem/event Adj <tr> N Trm Sg 3PlPoss GUUQ @ADVL> #1->2
@@ -2090,7 +2097,7 @@
 "<pigamali>"
 	"come" Sem/move_dir iV <tr> V Cau 1Sg ADV-LI @CAU> #2->6
 "<suli>"
-	"still" Adv <tr> Adv @ADVL> #3->4
+	"still" Adv <tr> Adv @ADVL> #3->6
 "<ataasiarlungaluunniit>"
 	"do once" Sem/do iV <tr> V Cont 1Sg ADV-LUUNNIIT @ADVL> #4->6
 "<nalunngisannik>"
@@ -2785,7 +2792,7 @@
 "<ulussakkut>"
 	"cheek" Sem/f-an iN <tr> N Via Sg 1SgPoss @ADVL> #11->13
 "<namminneq>"
-	"oneself" iPron <tr> Pron Abs 4Pl @N<->V> #12->10
+	"oneself" iPron <tr> Pron Abs 4Pl @N<->V> #12->13
 "<koorusaartut>"
 	"flow" iV <tr> RUSAAR Der/vv Gram/IV V Par 3Pl @PRED2 #13->4
 "<.>"
@@ -3114,7 +3121,7 @@
 "<Sunarpiaq>"
 	"what" iPron <tr> PIAQ Der/nn Gram/Int Pron Abs Sg @OBJ> #1->2
 "<ajornartorsiutiginerlugu>"
-	"have problems with" iSem/burden iSem/have iV <tr> NIR Der/vv Gram/TV V Cont 3SgO @ADVL> #2->4
+	"have problems with" iSem/burden iSem/have iV <tr> NIR Der/vv Gram/TV V Cont 3SgO @CL-CIT> #2->4
 "<iluamik>"
 	"properly" Adv <tr> Adv @ADVL> #3->4
 "<inississinnaaneq ajorpara>"
@@ -3264,7 +3271,7 @@
 	"." CLB #7->6
 
 "<parnaareerlugulu>"
-	"lock" Sem/fasten iV <tr> "already" iAdv <tr> V Cont 3SgO CONJ-LU @CAU #1->2
+	"lock" Sem/fasten iV <tr> "already" iAdv <tr> V Cont 3SgO CONJ-LU @CAU> #1->6
 "<uterama>"
 	"return" Sem/reach iV <tr> V Cau 1Sg @CAU> #2->6
 "<ineeqqat>"
@@ -3488,7 +3495,7 @@
 "<atukunut>"
 	"atukoq" N Trm Pl @N< #5->2
 "<qarsornikunut>"
-	"bleach" iSem/colouring iV <tr> NIKUQ Der/vn N Trm Pl @N< #6->5
+	"bleach" iSem/colouring iV <tr> NIKUQ Der/vn N Trm Pl @N< #6->2
 "<,>"
 	"," CLB #7->6
 "<seeqquatigut>"
@@ -3553,7 +3560,7 @@
 "<meeqqap>"
 	"child" Sem/H iN <tr> N Rel Sg @POSS> #4->5
 "<illarnerisinnaanngisaa>"
-	"laughter" Sem/percep-l iN <tr> "have as" Sem/have iV <tr> "can" Sem/can iV <tr> "not" iAdv <tr> "what has been" Sem/occur_dynamic iV <tr> N Abs Sg 3SgPoss @HNOUN #5->0
+	"laughter" Sem/percep-l iN <tr> "have as" Sem/have iV <tr> "can" Sem/can iV <tr> "not" iAdv <tr> "what has been" Sem/occur_dynamic iV <tr> N Abs Sg 3SgPoss @N< #5->1
 "<.>"
 	"." CLB #6->5
 
@@ -3614,7 +3621,7 @@
 "<angutit>"
 	"man" Sem/H iN <tr> N Abs Pl @N< #2->1
 "<marluk>"
-	"two" Sem/ac-sign iNum <tr> Num Abs Pl @N< #3->2
+	"two" Sem/ac-sign iNum <tr> Num Abs Pl @N< #3->1
 "<tusaasinnaavakka>"
 	"hear" Sem/hear iV <tr> "can" Sem/can iV <tr> V Ind 1Sg 3PlO @PRED #4->0
 "<.>"
@@ -3687,7 +3694,7 @@
 
 <s id="Iv9N1XPb5nDZ7h2RM7hhnsJx8Es">
 "<->"
-	"-" PUNCT DIRTALESTART #1->0
+	"-" PUNCT DIRTALESTART &ADDED #1->0
 "<Aappi>"
 	"yes" Sem/act-s Part <tr> Interj @INTERJ #2->0
 "<.>"
@@ -3731,7 +3738,7 @@
 "<ulorianartorsiortitsisinnaasutut>"
 	"dangerous" iSem/ac Adj <tr> SIUR Der/nv Gram/IV iSem/do_leisure iSem/occ "make" Sem/cause iV <tr> "can" Sem/can iV <tr> "one who" Sem/H iN <tr> N Aeq Sg @ADVL> #3->4
 "<naliligaallunga>"
-	"time of something" iSem/temp iN <tr> LIR Der/nv Gram/TV iSem/supply "what has been" Sem/occur_dynamic iV <tr> "be" Sem/be_copula iV <tr> V Cont 1Sg @PRED #4->0
+	"value" iSem/f-q iN <tr> LIR Der/nv Gram/TV iSem/supply "what has been" Sem/occur_dynamic iV <tr> "be" Sem/be_copula iV <tr> V Cont 1Sg @PRED #4->0
 "<.>"
 	"." CLB #5->4
 </s>
@@ -4542,9 +4549,9 @@
 "<iluaniittullu>"
 	"inside" Sem/Lh iN <tr> N Lok Sg 3SgPoss Hyb/1-2 @i-ADVL> #1->2
 "<ittullu>"
-	"be" Sem/be_place iV <tr> "that which" Sem/cc iN <tr> N Abs Pl CONJ-LU Hyb/2-2 @>N #2->3
+	"be" Sem/be_place iV <tr> "that which" Sem/cc iN <tr> N Abs Pl CONJ-LU Hyb/2-2 @SUBJ> #2->6
 "<oqorsaatit>"
-	"warm cloth" Sem/cloH iN <tr> N Abs Pl @SUBJ> #3->6
+	"warm cloth" Sem/cloH iN <tr> N Abs Pl @N< #3->2
 "<timmissat>"
 	"bird" Sem/Aorn iN <tr> N Rel Pl @POSS> #4->5
 "<meqqui>"
@@ -4607,7 +4614,7 @@
 "<taqqamunga>"
 	"out there" iAdv <tr> Adv Trm @ADVL> #3->5
 "<ilummut>"
-	"iluk" Trm @A< #4->3
+	"inwards" iAdv <tr> N Trm Sg @A< #4->3
 "<aallarpunga>"
 	"move" Sem/moveS_local iV <tr> V Ind 1Sg @PRED #5->0
 "<.>"
@@ -4914,7 +4921,7 @@
 "<Tuattunnguaq>"
 	"be slender" iSem/be_attribute iV <tr> TUQ Der/vn iSem/f-phys-h "little" Sem/f Adj <tr> N Abs Sg @HNOUN #1->0
 "<nallinnartorlu>"
-	"be pitiable" iSem/be_attribute iV <tr> TUQ Der/vn Sem/Hprof Gram/Conj-encl N Abs Sg CONJ-LU @N< #2->1
+	"be pitiable" iSem/be_attribute iV <tr> TUQ Der/vn Sem/Hprof Gram/Conj-encl N Abs Sg CONJ-LU @HNOUN #2->0
 "<,>"
 	"," CLB #3->2
 "<anaanama>"
@@ -4922,10 +4929,10 @@
 "<inuunerani>"
 	"life" Sem/ac iN <tr> N Lok Sg 3SgPoss @i-ADVL> #5->7
 "<angutipalaanut>"
-	"man" iSem/H iN <tr> PALAAQ Der/nn N Trm Pl @i-ADVL> #6->8
+	"man" iSem/H iN <tr> PALAAQ Der/nn N Trm Pl @i-ADVL> #6->7
 "<ilaasimasunut>"
-	"accompany" iSem/accompany iV <tr> SIMA Der/vv "one who" Sem/H iN <tr> N Trm Pl @N< #7->6
-	"be part of" iSem/be_part iV <tr> SIMA Der/vv "one who" Sem/H iN <tr> N Trm Pl @N< #7->6
+	"accompany" iSem/accompany iV <tr> SIMA Der/vv "one who" Sem/H iN <tr> N Trm Pl @i-ADVL> #7->8
+	"be part of" iSem/be_part iV <tr> SIMA Der/vv "one who" Sem/H iN <tr> N Trm Pl @i-ADVL> #7->8
 "<pilliutigiuminartoq>"
 	"pilliutige" Gram/TV iSem/renounce iSem/contribute "be easy" Sem/be_attribute iV <tr> "one who" Sem/H iN <tr> N Abs Sg @N< #8->2
 	"pilliutige" Gram/TV iSem/supply "be easy" Sem/be_attribute iV <tr> "one who" Sem/H iN <tr> N Abs Sg @N< #8->2
@@ -4966,19 +4973,19 @@
 "<atuarfimmi>"
 	"school" Sem/inst iN <tr> N Lok Sg @i-ADVL> #4->5
 "<sanaarisimasaa>"
-	"make" iSem/create iV <tr> SIMA Der/vv Gram/TV "what has been" Sem/occur_dynamic iV <tr> N Abs Sg 3SgPoss @>N #5->7
+	"make" iSem/create iV <tr> SIMA Der/vv Gram/TV "what has been" Sem/occur_dynamic iV <tr> N Abs Sg 3SgPoss @<OBJ #5->2
 "<iganut>"
 	"pot" Sem/con iN <tr> N Trm Pl @ADVL>N #6->7
 "<allequt>"
-	"mat" iN <tr> N Abs Sg @<OBJ #7->2
+	"mat" iN <tr> N Abs Sg @N< #7->5
 "<,>"
 	"," CLB #8->7
 "<kappoqqutinik>"
 	"pin" iN <tr> N Ins Pl @i-ADVL> #9->11
 "<liimmernikunik>"
-	"glue" iV <tr> NIQ Der/vn KUQ Der/nn N Ins Pl @i-ADVL> #10->11
+	"glue" iV <tr> NIQ Der/vn KUQ Der/nn N Ins Pl @N< #10->9
 "<ammalortuliaq>"
-	"round" iSem/f Adj <tr> LIAQ Der/nn N Abs Sg @N< #11->7
+	"round" iSem/f Adj <tr> LIAQ Der/nn N Abs Sg @N< #11->5
 "<,>"
 	"," CLB #12->11
 "<qaavatigut>"
@@ -4986,11 +4993,11 @@
 "<orangeamik>"
 	"orange" Err/Sub OLang/DAN Sem/col N Ins Sg @i->N #14->15
 "<qalipaatilimmik>"
-	"coloured" Sem/f-surf Adj <tr> N Ins Sg @>N #15->16
+	"coloured" Sem/f-surf Adj <tr> N Ins Sg @i-ADVL> #15->17
 "<annoraaminermik>"
-	"cotton material" Sem/mat-cloth iN <tr> N Ins Sg @i-ADVL> #16->17
+	"cotton material" Sem/mat-cloth iN <tr> N Ins Sg @N< #16->15
 "<qalligaq>"
-	"paint over" Sem/colouring iV <tr> "what has been" Sem/occur_dynamic iV <tr> N Abs Sg @N< #17->7
+	"paint over" Sem/colouring iV <tr> "what has been" Sem/occur_dynamic iV <tr> N Abs Sg @N< #17->5
 "<.>"
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #18->17
 </s>
@@ -5725,7 +5732,7 @@
 
 <s id="RSRH1PXsNdJXeyGs3jo9xIjzM7s">
 "<->"
-	"-" PUNCT DIRTALESTART #1->0
+	"-" PUNCT DIRTALESTART &ADDED #1->0
 "<Naamerluinnarmi>"
 	"not at all" Adv <tr> MI @INTERJ #2->0
 "<.>"
@@ -5773,9 +5780,7 @@
 	"." CLB #4->3
 
 "<allorarunnaarlungalu>"
-	"allor" Gram/TV iSem/border RAR Der/vv Gram/TV GUNNAIR Der/vv Gram/Refl Gram/Conj-encl V Cont 1Sg CONJ-LU @ADVL> #1->2
-	"allor" Gram/TV iSem/hurt RAR Der/vv Gram/TV GUNNAIR Der/vv Gram/Refl Gram/Conj-encl V Cont 1Sg CONJ-LU @ADVL> #1->2
-	"allor" Gram/TV iSem/neglect RAR Der/vv Gram/TV GUNNAIR Der/vv Gram/Refl Gram/Conj-encl V Cont 1Sg CONJ-LU @ADVL> #1->2
+	"march" Sem/run iV <tr> "no longer" iAdv <tr> V Cont 1Sg CONJ-LU @ADVL> #1->2
 "<unikkaangama>"
 	"stop" Sem/stop iV <tr> V IteCau 1Sg @CL-ADVL> #2->7
 "<eqqissiviitsutut>"
@@ -5845,7 +5850,7 @@
 
 <s id="RsacJVTQYhBu6Ui8XLSIez5evY8">
 "<Arnap>"
-	"woman" Sem/H iN <tr> N Rel Sg @POSS>> #1->6
+	"woman" Sem/H iN <tr> N Rel Sg @POSS> #1->6
 "<ataatsip>"
 	"one" Sem/unit iNum <tr> Num Rel Sg @N< #2->1
 "<saninniittup>"
@@ -5893,23 +5898,6 @@
 	"run" Sem/vehicle iV <tr> "begin" Sem/begin iV <tr> V Cont 4Sg @PRED #5->0
 "<.>"
 	"." CLB #6->5
-</s>
-
-<s id="SChfozxt0PJxhwn9raJn3VDCpgc">
-"<Qimmiaraq>"
-	"puppy" Sem/Azo iN <tr> N Abs Sg @SUBJ> #1->6
-"<meqquusalik>"
-	"fake fur" iSem/mat-cloth iN <tr> LIK Der/nn Sem/Lcover N Abs Sg @N< #2->1
-"<manngertoq>"
-	"firm" Sem/f Adj <tr> N Abs Sg @N< #3->1
-"<,>"
-	"," CLB #4->3
-"<nammineq>"
-	"oneself" iPron <tr> Pron Abs 4Sg @N< #5->3
-"<unippoq>"
-	"stop" Sem/stop iV <tr> V Ind 3Sg @PRED #6->0
-"<.>"
-	"." CLB #7->6
 </s>
 
 <s id="SLAOBtxuX9hmiukx0UI0xa6gdEk">
@@ -6248,11 +6236,11 @@
 "<niaqunniittut>"
 	"head" Sem/anmov iN <tr> N Lok Sg 1SgPoss Hyb/1-2 @i-ADVL> #8->9
 "<ittut>"
-	"be" Sem/be_place iV <tr> "that which" Sem/cc iN <tr> N Abs Pl Hyb/2-2 @>N #9->10
+	"be" Sem/be_place iV <tr> "that which" Sem/cc iN <tr> N Abs Pl Hyb/2-2 @OBJ> #9->12
 "<nipit>"
-	"voice" Sem/f-phys-h iN <tr> N Abs Pl @OBJ> #10->12
+	"voice" Sem/f-phys-h iN <tr> N Abs Pl @N< #10->9
 "<eqqumiitsut>"
-	"strange" Adj <tr> N Abs Pl @N< #11->10
+	"strange" Adj <tr> N Abs Pl @N< #11->9
 "<oqaluuterujoortalerlugit>"
 	"oqalup" UTE Der/vv Gram/TV iSem/speak_affect RUJUUR Der/vv TAR Der/vv iSem/do "begin" Sem/begin iV <tr> V Cont 3PlO @<ADVL #12->2
 	"talk to" iSem/vtalk iV <tr> RUJUUR Der/vv TAR Der/vv iSem/do "begin" Sem/begin iV <tr> V Cont 3PlO @<ADVL #12->2
@@ -7129,7 +7117,7 @@
 
 <s id="Y09rPxGhsc6qMBn1s5xbvlRuxp0">
 "<Ilummut>"
-	"iluk" Trm @ADVL> #1->2
+	"inwards" iAdv <tr> N Trm Sg @ADVL> #1->2
 "<appakaappunga>"
 	"slip through" Sem/reach iV <tr> V Ind 1Sg @PRED #2->0
 "<takussasoralugu>"
@@ -7534,7 +7522,7 @@
 
 <s id="ahijlTSJqFc5fmk0XH0AhLJUMpc">
 "<Tunummut>"
-	"tunuk" Trm @ADVL> #1->2
+	"tunuk" N Trm Sg @ADVL> #1->2
 "<aallarluni>"
 	"move" Sem/moveS_local iV <tr> V Cont 4Sg @ADVL> #2->3
 "<utilerpoq>"
@@ -7775,6 +7763,21 @@
 	"." CLB #4->3
 </s>
 
+<s id="bgB6tOo2V8xcrlXCChTSGkBezBg">
+"<Qimmiaraq>"
+	"puppy" Sem/Azo iN <tr> N Abs Sg @SUBJ> #1->5
+"<meqquusalik>"
+	"fake fur" iSem/mat-cloth iN <tr> LIK Der/nn Sem/Lcover N Abs Sg @N< #2->1
+"<manngertoq>"
+	"firm" Sem/f Adj <tr> N Abs Sg @N< #3->1
+"<nammineq>"
+	"oneself" iPron <tr> Pron Abs 4Sg @N< #4->3
+"<unippoq>"
+	"stop" Sem/stop iV <tr> V Ind 3Sg @PRED #5->0
+"<.>"
+	"." CLB #6->5
+</s>
+
 <s id="bnXFSrP7sZ7LSGODlxvqvN9C8sM">
 "<Ilinniartitsisuminiillu>"
 	"teacher" Sem/Hprof iN <tr> N Abl Sg 4SgPoss CONJ-LU @ADVL> #1->2
@@ -7894,7 +7897,7 @@
 
 <s id="cJtXoxihueHQFdDmqik7YEg58b0">
 "<->"
-	"-" PUNCT DIRTALESTART #1->0
+	"-" PUNCT DIRTALESTART &ADDED #1->0
 "<Naamerluinnarli>"
 	"not at all" iAdv <tr> Interj CONJ-LI @INTERJ #2->0
 "<.>"
@@ -8731,8 +8734,8 @@
 "<,>"
 	"," CLB #4->3
 "<affaannarsunngitsullu>"
-	"half" iSem/amount iN <tr> INNAQ Der/nn iSem/amount "consume" Sem/eat iV <tr> "not" iAdv <tr> "that which" Sem/cc iN <tr> N Abs Pl CONJ-LU @N< #5->3
-	"half" iSem/amount iN <tr> INNAQ Der/nn iSem/amount TUR Der/nv Gram/IV iSem/consume "not" iAdv <tr> "that which" Sem/cc iN <tr> N Abs Pl CONJ-LU @N< #5->3
+	"half" iSem/amount iN <tr> INNAQ Der/nn iSem/amount "consume" Sem/eat iV <tr> "not" iAdv <tr> "that which" Sem/cc iN <tr> N Abs Pl CONJ-LU @N< #5->1
+	"half" iSem/amount iN <tr> INNAQ Der/nn iSem/amount TUR Der/nv Gram/IV iSem/consume "not" iAdv <tr> "that which" Sem/cc iN <tr> N Abs Pl CONJ-LU @N< #5->1
 "<.>"
 	"." CLB #6->5
 
@@ -8775,7 +8778,7 @@
 "<nukarlerniillunga>"
 	"youngest child" Sem/Hfam iN <tr> N Lok Pl Hyb/1-2 @ADVL> #5->6
 "<illunga>"
-	"be" Sem/be_place iV <tr> V Cont 1Sg Hyb/2-2 @<ADVL #6->2
+	"be" Sem/be_place iV <tr> V Cont 1Sg Hyb/2-2 @CL-<CIT #6->2
 "<,>"
 	"," CLB #7->6
 "<anaanama>"
@@ -9544,7 +9547,7 @@
 "<,>"
 	"," CLB #3->2
 "<kiaguleraluttuinnarlunilu>"
-	"sweat" iV <tr> "begin" iSem/begin iV <tr> GALUTTUAR Der/vv Gram/IV "only" iAdv <tr> V Cont 4Sg CONJ-LU @CAU #4->5
+	"sweat" iV <tr> "begin" iSem/begin iV <tr> GALUTTUAR Der/vv Gram/IV "only" iAdv <tr> V Cont 4Sg CONJ-LU @<CAU #4->2
 "<aaliangeqqatikkamimi>"
 	"decide" iSem/decide iV <tr> QQA Der/vv Gram/IV "let" Sem/allow iV <tr> V Cau 4Sg MI @<CAU #5->2
 "<.>"
@@ -10529,7 +10532,7 @@
 "<qiperugaq>"
 	"sculpture" Sem/cc-h iN <tr> N Abs Sg @N< #3->2
 "<mikisoq>"
-	"small" Sem/f Adj <tr> N Abs Sg @N< #4->3
+	"small" Sem/f Adj <tr> N Abs Sg @N< #4->2
 "<takutippaa>"
 	"show" Sem/show iV <tr> V Ind 3Sg 3SgO @PRED #5->0
 "<.>"
@@ -10543,7 +10546,7 @@
 
 <s id="sgVKd0kEl0Kl6iZWXLrtFFcxN4A">
 "<Anaanapalaaq>"
-	"mother" iSem/Hfam iN <tr> PALAAQ Der/nn N Abs Sg @VOK #1->0
+	"mother" iSem/Hfam iN <tr> PALAAQ Der/nn N Abs Sg @HNOUN #1->0
 "<!>"
 	"!" CLB #2->1
 
@@ -10845,16 +10848,16 @@
 "<sunik>"
 	"what" iPron <tr> Pron Ins Pl @>N #4->5
 "<tamanik>"
-	"tamaq" N Gram/Cong Ins Pl @N< #5->3
+	"tamaq" N Gram/Cong Ins Pl @ADVL> #5->6
 "<oqilisaappaat>"
 	"relieve" Sem/vicariate iV <tr> V Ind 3Pl 3SgO @PRED #6->0
 "<.>"
 	"." CLB #7->6
 
 "<Unnukkorsiutaanik>"
-	"dinner" Sem/food-m-h iN <tr> N Ins Sg 3SgPoss @ADVL> #1->2
+	"dinner" Sem/food-m-h iN <tr> N Ins Sg 3SgPoss @i-OBJ-DOTR> #1->2
 "<agguullugu>"
-	"divide" iSem/divide iV <tr> UTE Der/vv Gram/TV V Cont 3SgO @PRED #2->0
+	"divide" iSem/divide iV <tr> UTE Der/vv Gram/Db Gram/TV V Cont 3SgO @PRED #2->0
 "<.>"
 	"." CLB #3->2
 
@@ -11005,8 +11008,8 @@
 "<,>"
 	"," CLB #2->1
 "<angutisunnitsoq>"
-	"man" iSem/H iN <tr> SUNNIP Der/nv iSem/stimulus_subj "one who" Sem/H iN <tr> N Abs Sg @N< #3->1
-	"man" iSem/H iN <tr> SUNNIP Der/nv iSem/stimulus_subj "that which" Sem/cc iN <tr> N Abs Sg @N< #3->1
+	"man" iSem/H iN <tr> SUNNIP Der/nv iSem/stimulus_subj "one who" Sem/H iN <tr> N Abs Sg @OBJ> #3->4
+	"man" iSem/H iN <tr> SUNNIP Der/nv iSem/stimulus_subj "that which" Sem/cc iN <tr> N Abs Sg @OBJ> #3->4
 "<naalluataangaarakku>"
 	"smell" iSem/sense iV <tr> LLUAR Der/vv Gram/TV TAAR Der/vv Gram/TV "much" iAdv <tr> V Cau 1Sg 3SgO @CAU> #4->6
 "<atia>"
@@ -11027,7 +11030,7 @@
 "<massakkut>"
 	"now" Adv <tr> Adv @ADVL> #2->3
 "<takusinnaasuuguninga>"
-	"see" iSem/see iV <tr> "can" iSem/can iV <tr> TUU Der/vv Gram/TV V Con 4Sg 1SgO @CON #3->0
+	"see" iSem/see iV <tr> "can" iSem/can iV <tr> TUU Der/vv Gram/TV V Con 4Sg 1SgO @PRED #3->0
 "<.>"
 	"." CLB #4->3
 </s>
@@ -11208,7 +11211,7 @@
 	"." CLB #5->4
 
 "<Sumilluunniit>"
-	"suna" ADV-LUUNNIIT Gram/Indef Gram/Adv-encl Pron Ins Sg @ADVL> #1->2
+	"suna" ADV-LUUNNIIT Gram/Indef Gram/Adv-encl Pron Ins Sg @i->N #1->2
 "<ernumassutissaqarnani>"
 	"be anxious" iSem/affect_exp iV <tr> UTE Der/vn "future" Sem/event Adj <tr> "have" Sem/have iV <tr> V ContNeg 4Sg @PRED #2->0
 "<.>"
@@ -11256,7 +11259,7 @@
 
 <s id="vjXMYbVipxjVF5ZUgTzYpsuN530">
 "<Ingerlaannaq>"
-	"immediately" Adv <tr> Adv @CL-ADVL> #1->4
+	"immediately" Adv <tr> Adv @CL-ADVL> #1->5
 "<matukkut>"
 	"door" Sem/Ldoor iN <tr> N Via Sg @ADVL> #2->4
 "<silarlikkut>"
@@ -11749,7 +11752,7 @@
 	"." CLB #4->3
 
 "<->"
-	"-" PUNCT DIRTALESTART #1->0
+	"-" PUNCT DIRTALESTART &ADDED #1->0
 "<Hej>"
 	"hi" Interj <tr> Interj @INTERJ #2->0
 "<.>"
@@ -12349,7 +12352,7 @@
 "<eqqissillunga>"
 	"relax" iV <tr> V Cont 1Sg @ADVL> #6->7
 "<sinissinnaassanerlunga>"
-	"sleep" iSem/bodystate iV <tr> "can" iSem/can iV <tr> SSA Der/vv Gram/IV iSem/must NIR Der/vv Gram/IV V Cont 1Sg @<ADVL #7->4
+	"sleep" iSem/bodystate iV <tr> "can" iSem/can iV <tr> SSA Der/vv Gram/IV iSem/must NIR Der/vv Gram/IV V Cont 1Sg @CL-<CIT #7->4
 "<imaluunniit>"
 	"or" Part <tr> Conj @CONJ #8->13
 "<piareersimaannavillunga>"
@@ -12361,7 +12364,7 @@
 "<unnuaq>"
 	"night" Sem/temp iN <tr> N Abs Sg @OBJ> #12->13
 "<atussanerlugu>"
-	"use" iSem/use iV <tr> SSA Der/vv Gram/TV iSem/must NIR Der/vv Gram/TV V Cont 3SgO @<ADVL #13->4
+	"use" iSem/use iV <tr> SSA Der/vv Gram/TV iSem/must NIR Der/vv Gram/TV V Cont 3SgO @CL-<CIT #13->4
 "<.>"
 	"." CLB #14->13
 </s>
