@@ -5373,7 +5373,7 @@
 "<tunniussanik>"
 	"tunniup" TAQ N Ins Pl @MIK-OBJ> #7->8
 "<naliliissapput>"
-	"nalik" LIR HTR SSA V Ind 3Pl @PRED #8->0
+	"nale" LIR HTR SSA V Ind 3Pl @PRED #8->0
 "<,>"
 	"," CLB #9->9
 "<2010-milu>"
@@ -10177,7 +10177,7 @@
 "<politiit>"
 	"politeeq" N Abs Pl @SUBJ> #7->8
 "<naliliipput>"
-	"nalik" LIR HTR V Ind 3Pl @PRED #8->0
+	"nale" LIR HTR V Ind 3Pl @PRED #8->0
 "<.>"
 	"." CLB #9->9
 </s>
@@ -11788,7 +11788,7 @@
 "<peqqissorsuartut>"
 	"peqqip" TUQ SUAQ N Aeq Sg @ADVL> #3->4
 "<nalilerneqarama>"
-	"nalik" LIR NIQAR V Cau 1Sg @CAU> #4->5
+	"nale" LIR NIQAR V Cau 1Sg @CAU> #4->5
 "<qujamasunnaqaaq>"
 	"qujamasup" NAR QE V Ind 3Sg @PRED #5->0
 "<.>"
@@ -13509,17 +13509,17 @@
 
 <s id="PxIgv5rugx27hMAAhgFHKf8xruM">
 "<Tasiilami>"
-	"Tasiilaq" Prop Lok Sg @ADVL> #1->6
+	"Tasiilaq" Prop Lok Sg @ADVL> #1->3
 "<nuna>"
-	"nuna" N Abs Sg @OBJ> #2->6
+	"nuna" N Abs Sg @SUBJ> #2->3
 "<sisooqqeratarsinnaasoq>"
-	"sisoor" QQIP RATAR SINNAA TUQ N Abs Sg @N< #3->2
+	"sisoor" QQIP RATAR SINNAA V Par 3Sg @CL-CIT> #3->6
 "<politiit>"
 	"politeeq" N Rel Pl @SUBJ> #4->6
 "<suli>"
 	"suli" Adv @ADVL> #5->6
 "<nalilersuleruttorpaat>"
-	"nalik" LIR TUQ LIR RUTTUR V Ind 3Pl 3SgO @PRED #6->0
+	"nale" LIRSUR LIR RUTTUR V Ind 3Pl 3SgO @PRED #6->0
 "<.>"
 	"." CLB #7->7
 </s>
@@ -15330,13 +15330,13 @@
 "<eqqarsartaatsimigut>"
 	"eqqarsar" TAR USIQ N Via Sg 4SgPoss @ADVL> #5->6
 "<nalilerneqassaaq>"
-	"nalik" LIR NIQAR SSA V Ind 3Sg @PRED #6->0
+	"nale" LIR NIQAR SSA V Ind 3Sg @PRED #6->0
 "<immikkullu>"
 	"immikkut" Adv CONJ-LU @i-ADVL> #7->8
 "<ilisimasallit>"
 	"ilisima" TAQ LIK N Abs Pl @SUBJ> #8->9
 "<naliliissapput>"
-	"nalik" LIR HTR SSA V Ind 3Pl @PRED #9->0
+	"nale" LIR HTR SSA V Ind 3Pl @PRED #9->0
 "<.>"
 	"." CLB #10->10
 </s>
@@ -19228,7 +19228,7 @@
 
 <s id="bmuDCt8jbxgCxQNTpIZe9X9nYaM">
 "<Nalilerneqarpoq>"
-	"nalik" LIR NIQAR V Ind 3Sg @PRED #1->0
+	"nale" LIR NIQAR V Ind 3Sg @PRED #1->0
 "<aqqusinniassap>"
 	"aqqusinniaq" SSAQ N Rel Sg @SUBJ> #2->5
 "<uumasunik>"
@@ -19236,7 +19236,7 @@
 "<angalaartoqarnera>"
 	"angalaar" TUQ QAR NIQ N Abs Sg 3SgPoss @OBJ> #4->5
 "<sunningaassagaa>"
-	"sunner" NGAAR SSA V Par 3Sg 3SgO @PRED2 #5->1
+	"sunner" NGAAR SSA V Par 3Sg 3SgO @CL-<CIT #5->1
 "<.>"
 	"." CLB #6->6
 </s>
@@ -26406,11 +26406,11 @@
 "<atugaanilu>"
 	"ator" TAQ N Lok Sg 3SgPoss CONJ-LU @ADVL> #3->4
 "<aarlerinartoqartoq>"
-	"aarlere" NAR TUQ QAR V Par 3Sg @PRED2 #4->6
+	"aarlere" NAR TUQ QAR V Par 3Sg @CL-CIT> #4->6
 "<tassani>"
 	"tass" Adv Lok @ADVL> #5->6
 "<nalilerneqarpoq>"
-	"nalik" LIR NIQAR V Ind 3Sg @PRED #6->0
+	"nale" LIR NIQAR V Ind 3Sg @PRED #6->0
 "<.>"
 	"." CLB #7->7
 </s>
@@ -31955,7 +31955,7 @@
 "<illersornissaqarfiata>"
 	"illersor" NIQ SSAQ QAR VIK N Rel Sg 3SgPoss @POSS> #8->10
 "<ippassaq>"
-	"ippassaq" Adv @ADVL> #9->12
+	"ippassaq" Adv @i-ADVL> #9->10
 "<saqqummiussaani>"
 	"saqqummer" UTE TAQ N Lok Sg 3SgPoss @N< #10->5
 "<pingaarnertut>"
