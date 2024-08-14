@@ -1730,11 +1730,11 @@
 "<Norgemi>"
 	"Norge" Sem/Geo Prop Lok Sg @i-ADVL> #3->4
 "<innuttaasut>"
-	"innuttaq" U Der/nv Gram/IV TUQ Der/vn N Abs Pl #4->4
+	"innuttaq" U Der/nv Gram/IV TUQ Der/vn N Abs Pl @SUBJ> #4->8
 "<tamarmik>"
 	"tamaq" N Gram/Cong Nom 4Pl @N< #5->4
 "<ilissilu>"
-	"illit" Gram/Pers Gram/Adv-encl Pron Abs 2Pl ADV-LU @SUBJ> #6->8
+	"illit" Gram/Pers Gram/Conj-encl Pron Abs 2Pl CONJ-LU @SUBJ> #6->8
 "<eqqarsaatitsinniippusi>"
 	"eqqarsar" Gram/IV UTE Der/vn N Lok Pl 1PlPoss Hyb/1-2 @ADVL> #7->8
 "<ippusi>"
@@ -2958,7 +2958,7 @@
 "<inuppassuarnut>"
 	"inuk" PAK Der/nn SUAQ Der/nn N Trm Pl @ADVL> #3->14
 "<ilaatigut>"
-	"ilaatigut" Adv @FOC>N #4->3
+	"ilaatigut" Adv @FOC>N #4->6
 "<Naalakkersuisut>"
 	"Naalakkersuisut" Sem/inst Sem/Hum Prop Rel Pl @POSS> #5->6
 "<siulittaasuannut>"
@@ -5196,7 +5196,7 @@
 
 <s id="9YDDB4HLzvzq78wSzfkwxmqLTQA">
 "<Aqqit>"
-	"ateq" N Abs Pl @HNOUN #1->0
+	"ateq" N Abs Pl @SUBJ> #1->7
 "<Poorsimaaq>"
 	"Poorsimaaq" Sem/Mask Sem/Hum Prop Abs Sg @<APPOS #2->1
 "<aamma>"
@@ -5208,7 +5208,7 @@
 "<qanoq-uku>"
 	"qanoq" Adv UKU @i-ADVL> #6->7
 "<isumallit>"
-	"isuma" LIK Der/nn N Abs Pl @N< #7->1
+	"isuma" LIK Der/nn N Abs Pl @PRED #7->0
 "<?>"
 	"?" CLB #8->8
 </s>
@@ -5398,9 +5398,9 @@
 "<“>"
 	"“" PUNCT LEFT #1->1
 "<Uangalu>"
-	"uanga" Gram/Pers Gram/Adv-encl Pron Abs 1Sg ADV-LU @SUBJ> #2->3
+	"uanga" Gram/Pers Gram/Conj-encl Pron Abs 1Sg CONJ-LU @SUBJ> #2->3
 "<eqqarsaqqissaartariaqarpunga>"
-	"eqqarsar" Gram/IV QQISSAAR Der/vv TARIAQAR Der/vv Gram/IV V Ind 1Sg @PRED #3->0
+	"eqqarsar" Gram/IV QQISSAAR Der/vv Gram/IV TARIAQAR Der/vv Gram/IV V Ind 1Sg @PRED #3->0
 "<akissutaa>"
 	"aki" Gram/IV UTE Der/vn N Abs Sg 3SgPoss @OBJ> #4->6
 "<namminivik>"
@@ -6747,7 +6747,7 @@
 
 <s id="E5VQcaWBuGLdnCQxgb9tLa3X1sc">
 "<1800-kkunni>"
-	"1800" iNum KKUT Der/nn Gram/PlurTant N Lok Pl @CL-ADVL> #1->13
+	"1800" iNum KKUT Der/nn Gram/PlurTant N Lok Pl @i-ADVL> #1->2
 "<oqaluttuartarsimasut>"
 	"oqalup" Gram/IV TUAR Der/vv Gram/IV TAR Der/vv Gram/IV SIMA Der/vv TUQ Der/vn N Rel Pl @POSS> #2->10
 "<,>"
@@ -6783,7 +6783,7 @@
 "<,>"
 	"," CLB #18->18
 "<itsarnisarsiooq>"
-	"itsarnisarsiooq" N Abs Sg @N< #19->21
+	"itsarnisarsiooq" N Abs Sg @N< #19->17
 "<Claus>"
 	"Claus" Sem/Mask Sem/Hum Prop Abs Sg @PROP> #20->21
 "<Andreasen>"
@@ -12541,7 +12541,7 @@
 "<namminersortunngoruni>"
 	"namminersor" Gram/IV TUQ Der/vn NNGUR Der/nv Gram/IV V Con 4Sg @CON> #12->20
 "<nunanut>"
-	"nuna" N Trm Pl @i-ADVL> #13->18
+	"nuna" N Trm Pl @i-ADVL> #13->16
 "<allanut>"
 	"alla" N Trm Pl @N< #14->13
 "<sillimaniarnermullu>"
@@ -12555,7 +12555,7 @@
 "<qularnaarniarneqarnissaa>"
 	"qularnaar" Gram/TV NIAR Der/vv Gram/TV NIQAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3SgPoss @SUBJ> #19->20
 "<anguniarneqarmat>"
-	"angu" Gram/TV NIAR Der/vv Gram/TV NIQAR Der/vv Gram/IV V Cau 3Sg @<CAU #20->9
+	"angu" Gram/TV NIAR Der/vv Gram/TV NIQAR Der/vv Gram/IV V Cau 3Sg @CAU> #20->25
 "<,>"
 	"," CLB #21->21
 "<tamanna>"
@@ -13214,7 +13214,7 @@
 
 <s id="T5NIEswo0STWC7rqOvJf5U3trv0">
 "<Aqqit>"
-	"ateq" N Abs Pl @HNOUN #1->0
+	"ateq" N Abs Pl @SUBJ> #1->11
 "<">"
 	""" PUNCT #2->2
 "<Arnaq>"
@@ -13234,7 +13234,7 @@
 "<qanoq-uku>"
 	"qanoq" Adv UKU @i-ADVL> #10->11
 "<isumallit>"
-	"isuma" LIK Der/nn N Abs Pl @N< #11->1
+	"isuma" LIK Der/nn N Abs Pl @PRED #11->0
 "<?>"
 	"?" CLB #12->12
 </s>
@@ -13310,7 +13310,7 @@
 
 <s id="T8w3KfsVBXhhxOhpJeXGNKauOVw">
 "<Ateq>"
-	"ateq" N Abs Sg @HNOUN #1->0
+	"ateq" N Abs Sg @SUBJ> #1->7
 "<">"
 	""" PUNCT #2->2
 "<Poorsimaaq>"
@@ -13322,7 +13322,7 @@
 "<qanoq-una>"
 	"qanoq" Adv UNA Orth/Alt @i-ADVL> #6->7
 "<isumalik>"
-	"isuma" LIK Der/nn N Abs Sg @N< #7->1
+	"isuma" LIK Der/nn N Abs Sg @PRED #7->0
 "<?>"
 	"?" CLB #8->8
 </s>
@@ -13656,9 +13656,9 @@
 "<allaffiani>"
 	"allap" Gram/HV Gram/IV VIK Der/vn N Lok Sg 3SgPoss @ADVL> #4->10
 "<meeqqanut>"
-	"meeraq" N Trm Pl @i-ADVL> #5->7
+	"meeraq" N Trm Pl @i-MIK-OBJ> #5->7
 "<ilaqutariinnullu>"
-	"ilaqutaq" GIIT Der/nn Gram/Conj-encl N Trm Pl CONJ-LU @i-ADVL> #6->7
+	"ilaqutaq" GIIT Der/nn Gram/Conj-encl N Trm Pl CONJ-LU @i-MIK-OBJ> #6->7
 "<sullissivimmi>"
 	"sullip" Gram/TV HTR Der/vv VIK Der/vn N Lok Sg @ADVL>N #7->8
 "<sulianik>"
@@ -15213,7 +15213,7 @@
 
 <s id="XJPCQ0dgI5wJYQAdQElUXmJnj48">
 "<Aqqit>"
-	"ateq" N Abs Pl @HNOUN #1->0
+	"ateq" N Abs Pl @SUBJ> #1->7
 "<Arnaq>"
 	"Arnaq" Dial/Vgr Sem/Fem Sem/Hum Prop Abs Sg @<APPOS #2->1
 "<aamma>"
@@ -15225,7 +15225,7 @@
 "<qanoq-uku>"
 	"qanoq" Adv UKU @i-ADVL> #6->7
 "<isumallit>"
-	"isuma" LIK Der/nn N Abs Pl @N< #7->1
+	"isuma" LIK Der/nn N Abs Pl @PRED #7->0
 "<?>"
 	"?" CLB #8->8
 </s>
@@ -16227,7 +16227,7 @@
 "<tunisassiorneq>"
 	"tuni" Gram/TV TAQ Der/vn SSAQ Der/nn LIUR Der/nv Gram/IV NIQ Der/vn N Abs Sg @OBJ> #9->14
 "<taamallu>"
-	"taama" Gram/Conj-encl Adv CONJ-LU @i-ADVL> #10->14
+	"taama" Gram/Conj-encl Adv CONJ-LU @ADVL> #10->14
 "<nunaqarfinni>"
 	"nuna" QAR Der/nv Gram/IV VIK Der/vn N Lok Pl @i-ADVL> #11->13
 "<marlunni>"
@@ -16235,7 +16235,7 @@
 "<suliffissaqartitsineq>"
 	"suli" Gram/IV VIK Der/vn SSAQ Der/nn QAR Der/nv Gram/IV TIP Der/vv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Abs Sg @OBJ> #13->14
 "<ingerlaavarsinnaaqqullugit>"
-	"ingerla" Gram/IV TUAR Der/vv SINNAA Der/vv QQU Der/vv Gram/TV V Cont 3PlO @<ADVL #14->2
+	"ingerla" Gram/IV TUAR Der/vv Gram/IV SINNAA Der/vv Gram/IV QQU Der/vv Gram/TV V Cont 3PlO @<ADVL #14->2
 "<.>"
 	"." CLB #15->15
 </s>
@@ -17299,7 +17299,7 @@
 
 <s id="bhx8qRUlQuVpxoSxxSzR0cR9Yxw">
 "<Aqqit>"
-	"ateq" N Abs Pl @HNOUN #1->0
+	"ateq" N Abs Pl @SUBJ> #1->11
 "<">"
 	""" PUNCT #2->2
 "<Poorsimaaq>"
@@ -17319,7 +17319,7 @@
 "<qanoq-uku>"
 	"qanoq" Adv UKU @i-ADVL> #10->11
 "<isumallit>"
-	"isuma" LIK Der/nn N Abs Pl @N< #11->1
+	"isuma" LIK Der/nn N Abs Pl @PRED #11->0
 "<?>"
 	"?" CLB #12->12
 </s>
@@ -20493,7 +20493,7 @@
 
 <s id="ivBGeE5Anm3E9xFo5uUZEwlcDmo">
 "<Aqqit>"
-	"ateq" N Abs Pl @HNOUN #1->0
+	"ateq" N Abs Pl @SUBJ> #1->7
 "<Poorsimaaq>"
 	"Poorsimaaq" Sem/Mask Sem/Hum Prop Abs Sg @<APPOS #2->1
 "<aamma>"
@@ -20505,7 +20505,7 @@
 "<qanoq-uku>"
 	"qanoq" Adv UKU @i-ADVL> #6->7
 "<isumallit>"
-	"isuma" LIK Der/nn N Abs Pl @N< #7->1
+	"isuma" LIK Der/nn N Abs Pl @PRED #7->0
 "<?>"
 	"?" CLB #8->8
 </s>

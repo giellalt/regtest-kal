@@ -1729,11 +1729,11 @@
 "<Norgemi>"
 	"Norge" Prop Lok Sg @i-ADVL> #3->4
 "<innuttaasut>"
-	"innuttaq" U TUQ N Abs Pl #4->4
+	"innuttaq" U TUQ N Abs Pl @SUBJ> #4->8
 "<tamarmik>"
 	"tamaq" N Nom 4Pl @N< #5->4
 "<ilissilu>"
-	"illit" Pron Abs 2Pl ADV-LU @SUBJ> #6->8
+	"illit" Pron Abs 2Pl CONJ-LU @SUBJ> #6->8
 "<eqqarsaatitsinniippusi>"
 	"eqqarsar" UTE N Lok Pl 1PlPoss @ADVL> #7->8
 "<ippusi>"
@@ -2954,7 +2954,7 @@
 "<inuppassuarnut>"
 	"inuk" PAK SUAQ N Trm Pl @ADVL> #3->14
 "<ilaatigut>"
-	"ilaatigut" Adv @FOC>N #4->3
+	"ilaatigut" Adv @FOC>N #4->6
 "<Naalakkersuisut>"
 	"Naalakkersuisut" Prop Rel Pl @POSS> #5->6
 "<siulittaasuannut>"
@@ -5189,7 +5189,7 @@
 
 <s id="9YDDB4HLzvzq78wSzfkwxmqLTQA">
 "<Aqqit>"
-	"ateq" N Abs Pl @HNOUN #1->0
+	"ateq" N Abs Pl @SUBJ> #1->7
 "<Poorsimaaq>"
 	"Poorsimaaq" Prop Abs Sg @<APPOS #2->1
 "<aamma>"
@@ -5201,7 +5201,7 @@
 "<qanoq-uku>"
 	"qanoq" Adv UKU @i-ADVL> #6->7
 "<isumallit>"
-	"isuma" LIK N Abs Pl @N< #7->1
+	"isuma" LIK N Abs Pl @PRED #7->0
 "<?>"
 	"?" CLB #8->8
 </s>
@@ -5391,7 +5391,7 @@
 "<“>"
 	"“" PUNCT LEFT #1->1
 "<Uangalu>"
-	"uanga" Pron Abs 1Sg ADV-LU @SUBJ> #2->3
+	"uanga" Pron Abs 1Sg CONJ-LU @SUBJ> #2->3
 "<eqqarsaqqissaartariaqarpunga>"
 	"eqqarsar" QQISSAAR TARIAQAR V Ind 1Sg @PRED #3->0
 "<akissutaa>"
@@ -6738,7 +6738,7 @@
 
 <s id="E5VQcaWBuGLdnCQxgb9tLa3X1sc">
 "<1800-kkunni>"
-	"1800" KKUT N Lok Pl @CL-ADVL> #1->13
+	"1800" KKUT N Lok Pl @i-ADVL> #1->2
 "<oqaluttuartarsimasut>"
 	"oqalup" TUAR TAR SIMA TUQ N Rel Pl @POSS> #2->10
 "<,>"
@@ -6774,7 +6774,7 @@
 "<,>"
 	"," CLB #18->18
 "<itsarnisarsiooq>"
-	"itsarnisarsiooq" N Abs Sg @N< #19->21
+	"itsarnisarsiooq" N Abs Sg @N< #19->17
 "<Claus>"
 	"Claus" Prop Abs Sg @PROP> #20->21
 "<Andreasen>"
@@ -12524,7 +12524,7 @@
 "<namminersortunngoruni>"
 	"namminersor" TUQ NNGUR V Con 4Sg @CON> #12->20
 "<nunanut>"
-	"nuna" N Trm Pl @i-ADVL> #13->18
+	"nuna" N Trm Pl @i-ADVL> #13->16
 "<allanut>"
 	"alla" N Trm Pl @N< #14->13
 "<sillimaniarnermullu>"
@@ -12538,7 +12538,7 @@
 "<qularnaarniarneqarnissaa>"
 	"qularnaar" NIAR NIQAR NIQ SSAQ N Abs Sg 3SgPoss @SUBJ> #19->20
 "<anguniarneqarmat>"
-	"angu" NIAR NIQAR V Cau 3Sg @<CAU #20->9
+	"angu" NIAR NIQAR V Cau 3Sg @CAU> #20->25
 "<,>"
 	"," CLB #21->21
 "<tamanna>"
@@ -13196,7 +13196,7 @@
 
 <s id="T5NIEswo0STWC7rqOvJf5U3trv0">
 "<Aqqit>"
-	"ateq" N Abs Pl @HNOUN #1->0
+	"ateq" N Abs Pl @SUBJ> #1->11
 "<">"
 	""" PUNCT #2->2
 "<Arnaq>"
@@ -13216,7 +13216,7 @@
 "<qanoq-uku>"
 	"qanoq" Adv UKU @i-ADVL> #10->11
 "<isumallit>"
-	"isuma" LIK N Abs Pl @N< #11->1
+	"isuma" LIK N Abs Pl @PRED #11->0
 "<?>"
 	"?" CLB #12->12
 </s>
@@ -13292,7 +13292,7 @@
 
 <s id="T8w3KfsVBXhhxOhpJeXGNKauOVw">
 "<Ateq>"
-	"ateq" N Abs Sg @HNOUN #1->0
+	"ateq" N Abs Sg @SUBJ> #1->7
 "<">"
 	""" PUNCT #2->2
 "<Poorsimaaq>"
@@ -13304,7 +13304,7 @@
 "<qanoq-una>"
 	"qanoq" Adv UNA @i-ADVL> #6->7
 "<isumalik>"
-	"isuma" LIK N Abs Sg @N< #7->1
+	"isuma" LIK N Abs Sg @PRED #7->0
 "<?>"
 	"?" CLB #8->8
 </s>
@@ -13637,9 +13637,9 @@
 "<allaffiani>"
 	"allap" VIK N Lok Sg 3SgPoss @ADVL> #4->10
 "<meeqqanut>"
-	"meeraq" N Trm Pl @i-ADVL> #5->7
+	"meeraq" N Trm Pl @i-MIK-OBJ> #5->7
 "<ilaqutariinnullu>"
-	"ilaqutaq" GIIT N Trm Pl CONJ-LU @i-ADVL> #6->7
+	"ilaqutaq" GIIT N Trm Pl CONJ-LU @i-MIK-OBJ> #6->7
 "<sullissivimmi>"
 	"sullip" HTR VIK N Lok Sg @ADVL>N #7->8
 "<sulianik>"
@@ -15189,7 +15189,7 @@
 
 <s id="XJPCQ0dgI5wJYQAdQElUXmJnj48">
 "<Aqqit>"
-	"ateq" N Abs Pl @HNOUN #1->0
+	"ateq" N Abs Pl @SUBJ> #1->7
 "<Arnaq>"
 	"Arnaq" Prop Abs Sg @<APPOS #2->1
 "<aamma>"
@@ -15201,7 +15201,7 @@
 "<qanoq-uku>"
 	"qanoq" Adv UKU @i-ADVL> #6->7
 "<isumallit>"
-	"isuma" LIK N Abs Pl @N< #7->1
+	"isuma" LIK N Abs Pl @PRED #7->0
 "<?>"
 	"?" CLB #8->8
 </s>
@@ -16202,7 +16202,7 @@
 "<tunisassiorneq>"
 	"tuni" TAQ SSAQ LIUR NIQ N Abs Sg @OBJ> #9->14
 "<taamallu>"
-	"taama" Adv CONJ-LU @i-ADVL> #10->14
+	"taama" Adv CONJ-LU @ADVL> #10->14
 "<nunaqarfinni>"
 	"nuna" QAR VIK N Lok Pl @i-ADVL> #11->13
 "<marlunni>"
@@ -17272,7 +17272,7 @@
 
 <s id="bhx8qRUlQuVpxoSxxSzR0cR9Yxw">
 "<Aqqit>"
-	"ateq" N Abs Pl @HNOUN #1->0
+	"ateq" N Abs Pl @SUBJ> #1->11
 "<">"
 	""" PUNCT #2->2
 "<Poorsimaaq>"
@@ -17292,7 +17292,7 @@
 "<qanoq-uku>"
 	"qanoq" Adv UKU @i-ADVL> #10->11
 "<isumallit>"
-	"isuma" LIK N Abs Pl @N< #11->1
+	"isuma" LIK N Abs Pl @PRED #11->0
 "<?>"
 	"?" CLB #12->12
 </s>
@@ -20461,7 +20461,7 @@
 
 <s id="ivBGeE5Anm3E9xFo5uUZEwlcDmo">
 "<Aqqit>"
-	"ateq" N Abs Pl @HNOUN #1->0
+	"ateq" N Abs Pl @SUBJ> #1->7
 "<Poorsimaaq>"
 	"Poorsimaaq" Prop Abs Sg @<APPOS #2->1
 "<aamma>"
@@ -20473,7 +20473,7 @@
 "<qanoq-uku>"
 	"qanoq" Adv UKU @i-ADVL> #6->7
 "<isumallit>"
-	"isuma" LIK N Abs Pl @N< #7->1
+	"isuma" LIK N Abs Pl @PRED #7->0
 "<?>"
 	"?" CLB #8->8
 </s>
