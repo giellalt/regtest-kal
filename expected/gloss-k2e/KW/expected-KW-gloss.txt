@@ -542,19 +542,16 @@
 	"cut" iV <tr> TAR Der/vv Gram/TV iSem/do SIMA Der/vv V Ind 3Sg 3PlO @PRED #4->0
 "<,>"
 	"," CLB #5->4
-"<.>"
-	"." CLB #6->5
-
 "<niui>"
-	"leg" Sem/anmov iN <tr> N Abs Pl 3SgPoss @OBJ> #1->4
+	"leg" Sem/anmov iN <tr> N Abs Pl 3SgPoss @OBJ> #6->9
 "<talii>"
-	"arm" Sem/anmov iN <tr> N Abs Pl 3SgPoss @OBJ> #2->4
+	"arm" Sem/anmov iN <tr> N Abs Pl 3SgPoss @OBJ> #7->9
 "<niaquilu>"
-	"head" Sem/anmov iN <tr> N Abs Pl 3SgPoss CONJ-LU @OBJ> #3->4
+	"head" Sem/anmov iN <tr> N Abs Pl 3SgPoss CONJ-LU @OBJ> #8->9
 "<piiarlugit>"
-	"remove" Sem/remove iV <tr> V Cont 3PlO @PRED #4->0
+	"remove" Sem/remove iV <tr> V Cont 3PlO @<ADVL #9->4
 "<.>"
-	"." CLB #5->4
+	"." CLB #10->9
 </s>
 
 <s id="3i3ySAfoXa52dNXQ3hnK0DxGNT8">
@@ -3271,7 +3268,7 @@
 	"." CLB #7->6
 
 "<parnaareerlugulu>"
-	"lock" Sem/fasten iV <tr> "already" iAdv <tr> V Cont 3SgO CONJ-LU @CAU> #1->6
+	"lock" Sem/fasten iV <tr> "already" iAdv <tr> V Cont 3SgO CONJ-LU @ADVL> #1->2
 "<uterama>"
 	"return" Sem/reach iV <tr> V Cau 1Sg @CAU> #2->6
 "<ineeqqat>"
@@ -4253,15 +4250,12 @@
 "<ernumassutigerpasittuusaartarpaa>"
 	"worry about" iSem/emote iV <tr> PASIP Der/vv Gram/TV Gram/Pass "one who" iSem/H iN <tr> "be" iSem/be_copula iV <tr> SAAR Der/vv Gram/TV TAR Der/vv Gram/TV Sem/do V Ind 3Sg 3SgO @PRED #2->0
 	"worry about" iSem/emote iV <tr> PASIP Der/vv Gram/TV Gram/Pass "that which" iSem/cc iN <tr> "be" iSem/be_copula iV <tr> SAAR Der/vv Gram/TV TAR Der/vv Gram/TV Sem/do V Ind 3Sg 3SgO @PRED #2->0
-"<.>"
-	"." CLB #3->2
-
 "<uffa>"
-	"although" Conj <tr> Conj @CONJ #1->2
+	"although" Conj <tr> Conj @CONJ #3->4
 "<tulluusimaarutigisorsuullugu>"
-	"be proud" iSem/marvel iV <tr> UTE Der/vn "have as" iSem/have iV <tr> TURSUU Der/vv Gram/TV V Cont 3SgO @PRED #2->0
+	"be proud" iSem/marvel iV <tr> UTE Der/vn "have as" iSem/have iV <tr> TURSUU Der/vv Gram/TV Sem/Concessive V Cont 3SgO @PRED2 #4->2
 "<.>"
-	"." CLB #3->2
+	"." CLB #5->4
 </s>
 
 <s id="L0Wx7LuN0DYtHjjvGLVcWDZqxAY">
@@ -5649,18 +5643,21 @@
 	"faint" iSem/change_bodystate iV <tr> SIMA Der/vv V Par 3Sg @CL-<CIT #5->2
 "<,>"
 	"," CLB #6->5
-"<taavaana>"
-	"then" Adv <tr> UNA @CL-ADVL> #7->9
-"<saanikorsuit>"
-	"sparerib" Sem/food-c iN <tr> N Abs Pl @SUBJ> #8->9
-"<imertaarullutik>"
-	"water" iSem/cm-liq iN <tr> TAQ Der/nn "have no more" Sem/lose iV <tr> V Cont 4Pl @ADVL> #9->10
-"<ililluinnarlutik>"
-	"be burnt" Sem/worsen iV <tr> "entirely" iAdv <tr> V Cont 4Pl @ADVL> #10->11
-"<nunguttut>"
-	"nungup" Gram/IV Sem/end V Par 3Pl @CL-<CIT #11->2
 "<.>"
-	"." CLB #12->11
+	"." CLB #7->6
+
+"<taavaana>"
+	"then" Adv <tr> UNA @CL-ADVL> #1->3
+"<saanikorsuit>"
+	"sparerib" Sem/food-c iN <tr> N Abs Pl @SUBJ> #2->3
+"<imertaarullutik>"
+	"water" iSem/cm-liq iN <tr> TAQ Der/nn "have no more" Sem/lose iV <tr> V Cont 4Pl @ADVL> #3->4
+"<ililluinnarlutik>"
+	"be burnt" Sem/worsen iV <tr> "entirely" iAdv <tr> V Cont 4Pl @ADVL> #4->5
+"<nunguttut>"
+	"nungup" Gram/IV Sem/end V Par 3Pl @PRED #5->0
+"<.>"
+	"." CLB #6->5
 </s>
 
 <s id="QhAapFoClsiruu8CjgK00Ti2p8w">
@@ -6153,7 +6150,7 @@
 "<sapiissuseqarsimatiginera>"
 	"courage" iSem/f-psych iN <tr> "have" iSem/have iV <tr> SIMA Der/vv TIGE Der/vv Gram/IV NIQ Der/vn N Abs Sg 1SgPoss @<OBJ #12->10
 "<taamatullu>"
-	"so" iAdv <tr> Adv CONJ-LU @i-ADVL> #13->14
+	"so" iAdv <tr> Adv CONJ-LU @i->V #13->14
 "<piumassuseqarsimatiginera>"
 	"demand" iSem/ac iN <tr> "have" iSem/have iV <tr> SIMA Der/vv TIGE Der/vv Gram/IV NIQ Der/vn N Abs Sg 1SgPoss @<OBJ #14->10
 "<.>"
@@ -6395,7 +6392,7 @@
 "<imminnut>"
 	"oneself" iPron <tr> Pron Trm Pl @ADVL> #3->4
 "<nermullutik>"
-	"wind" Sem/coil iV <tr> V Cont 4Pl @PRED2 #4->1
+	"wind" Sem/coil iV <tr> V Cont 4Pl @PRED #4->0
 "<,>"
 	"," CLB #5->4
 "<.>"
@@ -7653,9 +7650,9 @@
 "<Eqqartuussisup>"
 	"judge" Sem/Hprof iN <tr> N Rel Sg @SUBJ> #1->4
 "<eqqissivilluni>"
-	"relax" iV <tr> "completely" Sem/jdegree Adj <tr> V Cont 4Sg @ADVL> #2->3
+	"relax" iV <tr> "completely" Sem/jdegree Adj <tr> V Cont 4Sg @ADVL> #2->4
 "<qungujulaarlunilumi>"
-	"smile" iSem/act iV <tr> LAAR Der/vv Gram/IV Gram/Conj-encl V Cont 4Sg CONJ-LU MI @PRED #3->0
+	"smile" iSem/act iV <tr> LAAR Der/vv Gram/IV Gram/Conj-encl V Cont 4Sg CONJ-LU MI @ADVL> #3->4
 "<qiviarpaanga>"
 	"look towards" Sem/watch iV <tr> V Ind 3Sg 1SgO @PRED #4->0
 "<.>"

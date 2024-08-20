@@ -540,19 +540,16 @@
 	"cut" iV TAR iSem/do SIMA V Ind @PRED #4->0
 "<,>"
 	"," CLB #5->4
-"<.>"
-	"." CLB #6->5
-
 "<niui>"
-	"leg" Sem/anmov iN N Abs Pl "his/her/its" @OBJ> #1->4
+	"leg" Sem/anmov iN N Abs Pl "his/her/its" @OBJ> #6->9
 "<talii>"
-	"arm" Sem/anmov iN N Abs Pl "his/her/its" @OBJ> #2->4
+	"arm" Sem/anmov iN N Abs Pl "his/her/its" @OBJ> #7->9
 "<niaquilu>"
-	"head" Sem/anmov iN N Abs Pl "his/her/its" "and" @OBJ> #3->4
+	"head" Sem/anmov iN N Abs Pl "his/her/its" "and" @OBJ> #8->9
 "<piiarlugit>"
-	"remove" Sem/remove iV V Cont @PRED #4->0
+	"remove" Sem/remove iV V Cont "he/she/it" @<ADVL #9->4
 "<.>"
-	"." CLB #5->4
+	"." CLB #10->9
 </s>
 
 <s id="3i3ySAfoXa52dNXQ3hnK0DxGNT8">
@@ -3266,7 +3263,7 @@
 	"." CLB #7->6
 
 "<parnaareerlugulu>"
-	"lock" Sem/fasten iV "already" iAdv V Cont "him/her/it" "and" @CAU> #1->6
+	"lock" Sem/fasten iV "already" iAdv V Cont "him/her/it" "and" @ADVL> #1->2
 "<uterama>"
 	"return" Sem/reach iV V "when/because" "I" @CAU> #2->6
 "<ineeqqat>"
@@ -4247,15 +4244,12 @@
 "<ernumassutigerpasittuusaartarpaa>"
 	"worry about" iSem/emote iV PASIP "become" "one who" iSem/H iN "be" iSem/be_copula iV SAAR TAR Sem/do V Ind "he/she/it" @PRED #2->0
 	"worry about" iSem/emote iV PASIP "become" "that which" iSem/cc iN "be" iSem/be_copula iV SAAR TAR Sem/do V Ind "he/she/it" @PRED #2->0
-"<.>"
-	"." CLB #3->2
-
 "<uffa>"
-	"although" Conj Conj @CONJ #1->2
+	"although" Conj Conj @CONJ #3->4
 "<tulluusimaarutigisorsuullugu>"
-	"be proud" iSem/marvel iV UTE "have as" iSem/have iV TURSUU V Cont "him/her/it" @PRED #2->0
+	"be proud" iSem/marvel iV UTE "have as" iSem/have iV TURSUU Sem/Concessive V Cont "him/her/it" @PRED2 #4->2
 "<.>"
-	"." CLB #3->2
+	"." CLB #5->4
 </s>
 
 <s id="L0Wx7LuN0DYtHjjvGLVcWDZqxAY">
@@ -5643,18 +5637,21 @@
 	"faint" iSem/change_bodystate iV SIMA V "he/she/it" "that" #5->2
 "<,>"
 	"," CLB #6->5
-"<taavaana>"
-	"then" Adv UNA @CL-ADVL> #7->9
-"<saanikorsuit>"
-	"sparerib" Sem/food-c iN N Abs Pl @SUBJ> #8->9
-"<imertaarullutik>"
-	"water" iSem/cm-liq iN TAQ "have no more" Sem/lose iV V Cont @ADVL> #9->10
-"<ililluinnarlutik>"
-	"be burnt" Sem/worsen iV "entirely" iAdv V Cont @ADVL> #10->11
-"<nunguttut>"
-	"nungup" Sem/end V "they" "that" #11->2
 "<.>"
-	"." CLB #12->11
+	"." CLB #7->6
+
+"<taavaana>"
+	"then" Adv UNA @CL-ADVL> #1->3
+"<saanikorsuit>"
+	"sparerib" Sem/food-c iN N Abs Pl @SUBJ> #2->3
+"<imertaarullutik>"
+	"water" iSem/cm-liq iN TAQ "have no more" Sem/lose iV V Cont @ADVL> #3->4
+"<ililluinnarlutik>"
+	"be burnt" Sem/worsen iV "entirely" iAdv V Cont @ADVL> #4->5
+"<nunguttut>"
+	"nungup" Sem/end V Par "they" @PRED #5->0
+"<.>"
+	"." CLB #6->5
 </s>
 
 <s id="QhAapFoClsiruu8CjgK00Ti2p8w">
@@ -6146,7 +6143,7 @@
 "<sapiissuseqarsimatiginera>"
 	"courage" iSem/f-psych iN "have" iSem/have iV SIMA "as" NIQ N Abs Sg "my" @<OBJ #12->10
 "<taamatullu>"
-	"so" iAdv Adv "and" @i-ADVL> #13->14
+	"so" iAdv Adv "and" @i->V #13->14
 "<piumassuseqarsimatiginera>"
 	"demand" iSem/ac iN "have" iSem/have iV SIMA "as" NIQ N Abs Sg "my" @<OBJ #14->10
 "<.>"
@@ -6388,7 +6385,7 @@
 "<imminnut>"
 	"oneself" iPron Pron "to" Pl @ADVL> #3->4
 "<nermullutik>"
-	"wind" Sem/coil iV V Cont @PRED2 #4->1
+	"wind" Sem/coil iV V Cont @PRED #4->0
 "<,>"
 	"," CLB #5->4
 "<.>"
@@ -7646,9 +7643,9 @@
 "<Eqqartuussisup>"
 	"judge" Sem/Hprof iN N Rel Sg @SUBJ> #1->4
 "<eqqissivilluni>"
-	"relax" iV "completely" Sem/jdegree Adj V Cont @ADVL> #2->3
+	"relax" iV "completely" Sem/jdegree Adj V Cont @ADVL> #2->4
 "<qungujulaarlunilumi>"
-	"smile" iSem/act iV LAAR V Cont "he/she/it" "and" "as you know" @PRED #3->0
+	"smile" iSem/act iV LAAR V Cont "and" "as you know" @ADVL> #3->4
 "<qiviarpaanga>"
 	"look towards" Sem/watch iV V Ind "me" @PRED #4->0
 "<.>"

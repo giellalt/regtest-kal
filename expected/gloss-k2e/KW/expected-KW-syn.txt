@@ -535,9 +535,9 @@
 "<talii>"
 	"taleq" Sem/anmov N Abs Pl 3SgPoss %ContHypotagme @OBJ>
 "<niaquilu>"
-	"niaqoq" iSem/anmov Gram/Conj-encl N Abs Pl 3SgPoss CONJ-LU %ContHypotagme @OBJ>
+	"niaqoq" Sem/anmov Gram/Conj-encl N Abs Pl 3SgPoss CONJ-LU LU-N %ContHypotagme @OBJ>
 "<piiarlugit>"
-	"piiar" Gram/TV Sem/remove V Cont 3PlO %ContHypotagme @PRED
+	"piiar" Gram/TV Sem/remove V Cont 3PlO %ContHypotagme @<ADVL
 "<.>"
 	"." CLB
 </s>
@@ -3191,7 +3191,7 @@
 "<,>"
 	"," CLB
 "<parnaareerlugulu>"
-	"parnaar" Gram/TV iSem/fasten RIIR Der/vv Gram/TV Sem/be_after Gram/Conj-encl V Cont 3SgO CONJ-LU @CAU>
+	"parnaar" Gram/TV iSem/fasten RIIR Der/vv Gram/TV Sem/be_after Gram/Conj-encl V Cont 3SgO CONJ-LU @ADVL>
 "<uterama>"
 	"uter" Gram/IV Sem/reach V Cau 1Sg @CAU>
 "<ineeqqat>"
@@ -4154,14 +4154,12 @@
 "<Anginera>"
 	"angi" Gram/IV iSem/be_attribute NIQ Der/vn Sem/f N Abs Sg 3SgPoss @OBJ>
 "<ernumassutigerpasittuusaartarpaa>"
-	"ernuma" Gram/IV iSem/affect_exp UTE Der/vn GE Der/nv Gram/TV iSem/mind PASIP Der/vv Gram/TV Gram/Pass TUQ Der/vn iSem/H U Der/nv Gram/IV iSem/be_copula SAAR Der/vv Gram/TV TAR Der/vv Gram/TV Sem/do V Ind 3Sg 3SgO @PRED
-	"ernuma" Gram/IV iSem/affect_exp UTE Der/vn GE Der/nv Gram/TV iSem/mind PASIP Der/vv Gram/TV Gram/Pass TUQ Der/vn iSem/cc U Der/nv Gram/IV iSem/be_copula SAAR Der/vv Gram/TV TAR Der/vv Gram/TV Sem/do V Ind 3Sg 3SgO @PRED
 	"ernumassutige" Gram/TV PASIP Der/vv Gram/TV Gram/Pass TUQ Der/vn iSem/H U Der/nv Gram/IV iSem/be_copula SAAR Der/vv Gram/TV TAR Der/vv Gram/TV Sem/do V Ind 3Sg 3SgO @PRED
 	"ernumassutige" Gram/TV PASIP Der/vv Gram/TV Gram/Pass TUQ Der/vn iSem/cc U Der/nv Gram/IV iSem/be_copula SAAR Der/vv Gram/TV TAR Der/vv Gram/TV Sem/do V Ind 3Sg 3SgO @PRED
 "<uffa>"
 	"uffa" Conj @CONJ
 "<tulluusimaarutigisorsuullugu>"
-	"tulluup" Gram/IV SIMAAR Der/vv Gram/IV iSem/marvel UTE Der/vn GE Der/nv Gram/TV iSem/have TURSUU Der/vv Gram/TV V Cont 3SgO @PRED
+	"tulluup" Gram/IV SIMAAR Der/vv Gram/IV iSem/marvel UTE Der/vn GE Der/nv Gram/TV iSem/have TURSUU Der/vv Gram/TV Sem/Concessive V Cont 3SgO @PRED2
 "<.>"
 	"." CLB
 </s>
@@ -5528,7 +5526,7 @@
 "<ililluinnarlutik>"
 	"ilip" Gram/IV iSem/worsen LLUINNAR Der/vv Gram/IV V Cont 4Pl @ADVL>
 "<nunguttut>"
-	"nungup" Gram/IV Sem/end V Par 3Pl %AmbiguøsPar @CL-<CIT
+	"nungup" Gram/IV Sem/end V Par 3Pl %AmbiguøsPar @PRED
 "<.>"
 	"." CLB
 </s>
@@ -6008,7 +6006,7 @@
 "<–>"
 	"–" PUNCT
 "<allarpassuillumi>"
-	"alla" iSem/f PAK Der/nn SUAQ Der/nn iSem/ac Gram/Conj-encl N Abs Pl CONJ-LU MI @<OBJ
+	"alla" iSem/f PAK Der/nn SUAQ Der/nn Sem/ac Gram/Conj-encl N Abs Pl CONJ-LU MI @<OBJ
 "<–>"
 	"–" PUNCT
 "<tupigusuutigisarpara>"
@@ -6019,7 +6017,7 @@
 	"sapiip" Gram/IV iSem/be_attribute SSUSIQ Der/vn iSem/f-psych QAR Der/nv Gram/IV iSem/have SIMA Der/vv TIGE Der/vv Gram/IV NIQ Der/vn N Abs Sg 1SgPoss @<OBJ
 	"sapiissuseq" iSem/f-psych QAR Der/nv Gram/IV iSem/have SIMA Der/vv TIGE Der/vv Gram/IV NIQ Der/vn N Abs Sg 1SgPoss @<OBJ
 "<taamatullu>"
-	"taama" Aeq Gram/Conj-encl Adv CONJ-LU @i-ADVL>
+	"taama" Aeq Gram/Conj-encl Adv CONJ-LU LU-N @i->V
 "<piumassuseqarsimatiginera>"
 	"pi" Gram/IV iSem/get GUMA Der/vv Gram/IV iSem/wish SSUSIQ Der/vn iSem/f-psych QAR Der/nv Gram/IV iSem/have SIMA Der/vv TIGE Der/vv Gram/IV NIQ Der/vn N Abs Sg 1SgPoss @<OBJ
 "<.>"
@@ -6253,7 +6251,7 @@
 "<imminnut>"
 	"immi" Gram/Coref Pron Trm Pl @ADVL>
 "<nermullutik>"
-	"nermup" Gram/TV Gram/Refl Sem/coil V Cont 4Pl @PRED2
+	"nermup" Gram/TV Gram/Refl Sem/coil V Cont 4Pl @PRED
 "<,>"
 	"," CLB
 "<siffiaallu>"
@@ -7496,7 +7494,7 @@
 "<eqqissivilluni>"
 	"eqqissi" Gram/IV iSem/change_bodystate VIP Der/vv Gram/IV V Cont 4Sg @ADVL>
 "<qungujulaarlunilumi>"
-	"qungujup" Gram/IV iSem/show_emot LAAR Der/vv Gram/IV Gram/Conj-encl V Cont 4Sg CONJ-LU MI @PRED
+	"qungujup" Gram/IV iSem/show_emot LAAR Der/vv Gram/IV Gram/Conj-encl V Cont 4Sg CONJ-LU MI @ADVL>
 "<qiviarpaanga>"
 	"qiviar" Gram/TV Sem/watch V Ind 3Sg 1SgO @PRED
 "<.>"
