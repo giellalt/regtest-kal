@@ -3078,7 +3078,7 @@
 "<Atualerami>"
 	"atuar" LIR V Cau 4Sg @CAU> #1->2
 "<sivitsunngitsoq>"
-	"sivitsor" NNGIT V Par 3Sg @CL-CIT> #2->4
+	"sivitsor" NNGIT V Par 3Sg @PRED2 #2->4
 "<immikkut>"
 	"immikkut" Adv @ADVL> #3->4
 "<atuartinneqartalerpoq>"
@@ -4464,7 +4464,7 @@
 "<tikkuartuuppara>"
 	"tikkuartuup" V Ind 1Sg 3SgO @PRED #19->0
 "<nilliaatigalunga>"
-	"niller" A UTIGE V Cont 1Sg @PRED2 #20->19
+	"niller" A UTIGE V Cont 1Sg @<ADVL #20->19
 "<aneqqullugu>"
 	"ani" QQU V Cont 3SgO @<ADVL #21->20
 "<.>"
@@ -6110,7 +6110,7 @@
 "<Angerlamut>"
 	"angerlamut" Adv @ADVL> #1->2
 "<apuuttorlu>"
-	"apuup" V Par 3Sg ADV-LU @PRED2 #2->2
+	"apuup" V Par 3Sg ADV-LU #2->2
 "<”>"
 	"”" PUNCT RIGHT #3->3
 "<...>"
@@ -7562,7 +7562,7 @@
 "<børnehavemut>"
 	"børnehave" N Trm Sg @ADVL> #5->6
 "<aariarlugit>"
-	"aa" RIAR V Cont 3PlO @PRED2 #6->11
+	"aa" RIAR V Cont 3PlO @ADVL> #6->10
 "<,>"
 	"," CLB #7->7
 "<nukarleq>"
@@ -10786,7 +10786,7 @@
 "<tigullunga>"
 	"tigu" V Cont 1SgO @ADVL> #6->7
 "<kiviutigalunga>"
-	"kivip" UTIGE V Cont 1SgO @PRED2 #7->12
+	"kivip" UTIGE V Cont 1SgO @ADVL> #7->10
 "<,>"
 	"," CLB #8->8
 "<kavaajara>"
@@ -11148,7 +11148,7 @@
 "<Nukarlequtiga>"
 	"nukarlequt" N Abs Sg 1SgPoss @SUBJ> #1->5
 "<qiaatigaluni>"
-	"qia" UTIGE V Cont 4Sg @ADVL> #2->5
+	"qia" UTIGE V Cont 4Sg @ADVL> #2->4
 "<niuga>"
 	"niu" N Abs Sg 1SgPoss @OBJ> #3->4
 "<nutsuaatigalugu>"

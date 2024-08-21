@@ -3540,9 +3540,9 @@
 "<Nuummi>"
 	"Nuuk" Prop Lok Sg @ADVL> #1->2
 "<paasisaqartoqaraluartoq>"
-	"paasi" TAQ QAR TUQ QAR GALUAR V Par 3Sg @PRED2 #2->2
+	"paasi" TAQ QAR TUQ QAR GALUAR V Par 3Sg @PRED2 #2->3
 "<tuniluuttoqanngitsoq>"
-	"tuniluup" TUQ QAR NNGIT V Par 3Sg @CL-<CIT #3->2
+	"tuniluup" TUQ QAR NNGIT V Par 3Sg @PRED #3->0
 "<.>"
 	"." CLB #4->4
 </s>
@@ -8461,7 +8461,7 @@
 	"nikkoq" LIAQ GE TAR V Ind 3Sg 3SgO @PRED #5->0
 	"nikkuliaq" GE TAR V Ind 3Sg 3SgO @PRED #5->0
 "<tarajulaarlugu>"
-	"tarajor" LAAR V Cont 3SgO @PRED2 #6->5
+	"tarajor" LAAR V Cont 3SgO @<ADVL #6->5
 "<qasilitsulilaarlugulu>"
 	"qasilitsoq" LIR LAAR V Cont 3SgO CONJ-LU @<ADVL #7->5
 "<,>"
@@ -8744,7 +8744,7 @@
 "<koruunit>"
 	"krone" N Abs Pl @SUBJ> #6->7
 "<amigaataagaluartut>"
-	"amigar" UTE U GALUAR V Par 3Pl @PRED2 #7->9
+	"amigar" UTE U GALUAR V Par 3Pl @PRED2 #7->12
 "<aappaagu>"
 	"aappaagu" Adv @i-ADVL> #8->9
 "<sanaartorneqalernissaa>"
@@ -10882,7 +10882,7 @@
 "<toqqaannarnerusumut>"
 	"toqqa" INNAR NIQ U TUQ N Trm Sg @ADVL> #7->8
 "<sammisinnaasoq>"
-	"sammi" SINNAA V Par 3Sg @i-CL-<CIT #8->8
+	"sammi" SINNAA V Par 3Sg @CL-<CIT #8->2
 "<.>"
 	"." CLB #9->9
 </s>
