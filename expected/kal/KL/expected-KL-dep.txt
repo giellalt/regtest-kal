@@ -3519,7 +3519,7 @@
 "<2.312>"
 	"2.312" Num Abs Sg @>N #9->10
 "<millioner>"
-	"million" OLang/DAN Num Abs Pl @<OBJ #10->11
+	"million" OLang/DAN Num Abs Pl @>N #10->11
 "<koruuniusimapput>"
 	"krone" OLang/DAN Sem/Unit Err/Sub Orth/Arch U Der/nv Gram/IV SIMA Der/vv V Ind 3Pl @PRED #11->0
 "<.>"
@@ -11544,7 +11544,7 @@
 "<7.733>"
 	"7.733" Num Abs Sg @>N #7->8
 "<liiteri>"
-	"liter" Err/Sub N Abs Sg @<OBJ #8->8
+	"liter" Err/Sub N Abs Sg @<OBJ #8->6
 "<Qaanaami>"
 	"Qaanaaq" Sem/Geo Prop Lok Sg @ADVL> #9->10
 "<pisiarineqarpoq>"
@@ -24152,7 +24152,7 @@
 "<takornariaqarnermik>"
 	"takornariaq" QAR Der/nv Gram/IV NIQ Der/vn N Ins Sg @i->N>N #4->8
 "<suliaqartut>"
-	"suliaq" QAR Der/nv Gram/IV TUQ Der/vn N Abs Pl @OBJ> #5->11
+	"suliaq" QAR Der/nv Gram/IV TUQ Der/vn N Abs Pl @SUBJ> #5->10
 "<tamarmik>"
 	"tamaq" N Gram/Cong Nom 4Pl @N< #6->5
 "<siorna>"
@@ -27174,7 +27174,7 @@
 "<Sofie>"
 	"Sofie" Sem/Fem Sem/Hum Prop Abs Sg @PROP> #2->3
 "<Lerch>"
-	"Lerch" Prop Abs Sg Heur/Prop @OBJ> #3->4
+	"Lerch" Prop Abs Sg Heur/Prop @SUBJ> #3->5
 "<ilanngullugu>"
 	"ilanngup" Gram/TV V Cont 3SgO @ADVL> #4->5
 "<oqarpoq>"
@@ -32518,7 +32518,7 @@
 "<toqquteqartutut>"
 	"toqqut" QAR Der/nv Gram/IV TUQ Der/vn N Aeq Pl @i-ADVL> #2->3
 "<nalunaarsorneqartut>"
-	"nalunaarsor" Gram/TV NIQAR Der/vv Gram/IV TUQ Der/vn N Abs Pl @SUBJ> #3->10
+	"nalunaarsor" Gram/TV NIQAR Der/vv Gram/IV TUQ Der/vn N Abs Pl @SUBJ> #3->5
 "<pingasunik>"
 	"pingasut" Num Ins Pl @ADVL> #4->5
 "<ilapput>"
@@ -33651,9 +33651,9 @@
 
 <s id="zVEfZ1AYq8QdOEwZSkSm6b9xogA">
 "<Suliariumannittussarsiuussinermi>"
-	"suliaq" GE Der/nv Gram/TV GUMA Der/vv HTR Der/vv Gram/IV TUQ Der/vn SSAQ Der/nn SIUR Der/nv UTE Der/vv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Lok Sg @i-ADVL> #1->2
+	"suliaq" GE Der/nv Gram/TV GUMA Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn SSAQ Der/nn SIUR Der/nv UTE Der/vv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Lok Sg @i-ADVL> #1->2
 "<neqerooruteqartut>"
-	"neqeroor" Gram/IV UTE Der/vn QAR Der/nv Gram/IV TUQ Der/vn N Abs Pl @OBJ> #2->5
+	"neqeroor" Gram/IV UTE Der/vn QAR Der/nv Gram/IV TUQ Der/vn N Abs Pl @SUBJ> #2->6
 "<Kalaallit Airportsip>"
 	"Kalaallit Airports" Sem/inst Sem/Hum Prop Rel Sg Orth/Alt @POSS> #3->4
 "<missingersuutaanut>"
@@ -33661,7 +33661,7 @@
 "<sanilliullugit>"
 	"sanilliup" Gram/TV V Cont 3PlO @ADVL> #5->6
 "<akisunerummata>"
-	"akisu" Gram/IV NIRU Der/vv V Cau 3Pl @CAU> #6->8
+	"akisu" Gram/IV NIRU Der/vv Gram/IV V Cau 3Pl @CAU> #6->8
 "<timmisartuuteqatigiiffik>"
 	"timmisartor" Gram/IV UTE Der/vv Gram/TV QATE Der/vn GIIP Der/nv Gram/Reci VIK Der/vn N Abs Sg @SUBJ> #7->8
 "<taamaatitsiinnarpoq>"

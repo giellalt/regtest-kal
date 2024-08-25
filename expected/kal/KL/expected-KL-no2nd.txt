@@ -3517,7 +3517,7 @@
 "<2.312>"
 	"2.312" Num Abs Sg @>N #9->10
 "<millioner>"
-	"million" Num Abs Pl @<OBJ #10->11
+	"million" Num Abs Pl @>N #10->11
 "<koruuniusimapput>"
 	"krone" U SIMA V Ind 3Pl @PRED #11->0
 "<.>"
@@ -11535,7 +11535,7 @@
 "<7.733>"
 	"7.733" Num Abs Sg @>N #7->8
 "<liiteri>"
-	"liter" N Abs Sg @<OBJ #8->8
+	"liter" N Abs Sg @<OBJ #8->6
 "<Qaanaami>"
 	"Qaanaaq" Prop Lok Sg @ADVL> #9->10
 "<pisiarineqarpoq>"
@@ -24110,7 +24110,7 @@
 "<takornariaqarnermik>"
 	"takornariaq" QAR NIQ N Ins Sg @i->N>N #4->8
 "<suliaqartut>"
-	"suliaq" QAR TUQ N Abs Pl @OBJ> #5->11
+	"suliaq" QAR TUQ N Abs Pl @SUBJ> #5->10
 "<tamarmik>"
 	"tamaq" N Nom 4Pl @N< #6->5
 "<siorna>"
@@ -27126,7 +27126,7 @@
 "<Sofie>"
 	"Sofie" Prop Abs Sg @PROP> #2->3
 "<Lerch>"
-	"Lerch" Prop Abs Sg @OBJ> #3->4
+	"Lerch" Prop Abs Sg @SUBJ> #3->5
 "<ilanngullugu>"
 	"ilanngup" V Cont 3SgO @ADVL> #4->5
 "<oqarpoq>"
@@ -32460,7 +32460,7 @@
 "<toqquteqartutut>"
 	"toqqut" QAR TUQ N Aeq Pl @i-ADVL> #2->3
 "<nalunaarsorneqartut>"
-	"nalunaarsor" NIQAR TUQ N Abs Pl @SUBJ> #3->10
+	"nalunaarsor" NIQAR TUQ N Abs Pl @SUBJ> #3->5
 "<pingasunik>"
 	"pingasut" Num Ins Pl @ADVL> #4->5
 "<ilapput>"
@@ -33595,7 +33595,7 @@
 "<Suliariumannittussarsiuussinermi>"
 	"suliaq" GE GUMA HTR TUQ SSAQ SIUR UTE HTR NIQ N Lok Sg @i-ADVL> #1->2
 "<neqerooruteqartut>"
-	"neqeroor" UTE QAR TUQ N Abs Pl @OBJ> #2->5
+	"neqeroor" UTE QAR TUQ N Abs Pl @SUBJ> #2->6
 "<Kalaallit Airportsip>"
 	"Kalaallit Airports" Prop Rel Sg @POSS> #3->4
 "<missingersuutaanut>"
