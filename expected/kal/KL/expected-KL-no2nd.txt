@@ -2960,7 +2960,7 @@
 "<aningaasaqarnermut>"
 	"aningaasaq" QAR NIQ N Trm Sg @i-ADVL> #11->12
 "<ataatsimiititaliaanut>"
-	"ataatsimiip" TIP TAQ LIAQ N Trm Sg 3SgPoss @N< #12->12
+	"ataatsimiip" TIP TAQ LIAQ N Trm Sg 3SgPoss @i-ADVL> #12->13
 "<saqqummiunneqartumi>"
 	"saqqummer" UTE NIQAR TUQ N Lok Sg @ADVL> #13->14
 "<erserpoq>"
@@ -4112,7 +4112,6 @@
 "<ualikkut>"
 	"ualeq" N Via Sg @ADVL> #8->9
 "<aallakaatinneqassapput>"
-	"aallakaatip" NIQAR SSA V Ind 3Pl @PRED #9->0
 	"aallar" KAR A TIP NIQAR SSA V Ind 3Pl @PRED #9->0
 "<.>"
 	"." CLB #10->10
@@ -10709,7 +10708,6 @@
 "<toqqaannartumik>"
 	"toqqa" INNAR TUQ N Ins Sg @ADVL> #4->5
 "<aallakaatinneqassapput>"
-	"aallakaatip" NIQAR SSA V Ind 3Pl @PRED #5->0
 	"aallar" KAR A TIP NIQAR SSA V Ind 3Pl @PRED #5->0
 "<,>"
 	"," CLB #6->6
@@ -10718,7 +10716,6 @@
 "<kingusinnerusumik>"
 	"kingusip" NIQ U TUQ N Ins Sg @ADVL> #8->9
 "<aallakaatinneqassallutik>"
-	"aallakaatip" NIQAR SSA V Cont 4Pl @PRED #9->0
 	"aallar" KAR A TIP NIQAR SSA V Cont 4Pl @PRED #9->0
 "<.>"
 	"." CLB #10->10
@@ -24402,13 +24399,13 @@
 
 <s id="kx9kR3zm9Y6aisuBPEzxZvsURI8">
 "<Kunngi>"
-	"kunngi" N Abs Sg @SUBJ> #1->15
+	"kunngi" N Abs Sg @>N #1->2
 "<Frederik>"
-	"Frederik" Prop Abs Sg @<APPOS #2->1
+	"Frederik" Prop Abs Sg @SUBJ> #2->15
 "<dronning>"
-	"dronning" N Abs Sg @SUBJ> #3->15
+	"dronning" N Abs Sg @>N #3->4
 "<Marylu>"
-	"Mary" Prop Abs Sg CONJ-LU @<APPOS #4->3
+	"Mary" Prop Abs Sg CONJ-LU @SUBJ> #4->15
 "<nunani>"
 	"nuna" N Lok Pl @i-ADVL> #5->7
 "<avannarlerni>"
@@ -24966,7 +24963,6 @@
 "<19:30>"
 	"19:30" Num Abs Sg @ADVL> #9->10
 "<aallakaatissavarput>"
-	"aallakaatip" SSA V Ind 1Pl 3SgO @PRED #10->0
 	"aallar" KAR A TIP SSA V Ind 1Pl 3SgO @PRED #10->0
 "<.>"
 	"." CLB #11->11
@@ -29564,7 +29560,6 @@
 "<toqqaannartumik>"
 	"toqqa" INNAR TUQ N Ins Sg @ADVL> #5->6
 "<aallakaatinneqassasut>"
-	"aallakaatip" NIQAR SSA V Par 3Pl @PRED #6->0
 	"aallar" KAR A TIP NIQAR SSA V Par 3Pl @PRED #6->0
 "<.>"
 	"." CLB #7->7
