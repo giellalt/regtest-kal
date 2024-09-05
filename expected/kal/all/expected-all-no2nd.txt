@@ -5770,6 +5770,31 @@
 	"." CLB #10->10
 </s>
 
+<s id="B9HLvva51B9e1g92JLxKP6Cvbkg">
+"<->"
+	"-" PUNCT DIRTALESTART #1->1
+"<Ilisimatuut>"
+	"ilisima" TUUQ N Rel Pl @POSS> #2->8
+"<Issittumut>"
+	"Issittoq" Prop Trm Sg @i-ADVL> #3->4
+"<tunngasunik>"
+	"tunnga" TUQ N Ins Pl @i-ADVL> #4->8
+"<assigiinngitsutigut>"
+	"assi" GIIP NNGIT TUQ N Via Pl @i-ADVL> #5->6
+"<suliaqartut>"
+	"suliaq" QAR TUQ N Rel Pl @N< #6->2
+"<ataatsimoorsimalernissaat>"
+	"ataaseq" Num Trm Sg @i-ADVL> #7->8
+"<UR>"
+	"UR" SIMA LIR NIQ SSAQ N Abs Sg 3PlPoss @OBJ> #8->10
+"<AAU Arcticip>"
+	"AAU Arctic" Prop Rel Sg @SUBJ> #9->10
+"<siunertaraa>"
+	"siuneq" TAQ GE V Ind 3Sg 3SgO @PRED #10->0
+"<.>"
+	"." CLB DIRTALEMIDDLE #11->11
+</s>
+
 <s id="BHgxMSM550DDqBeyGKgxbTxMr7o">
 "<Ulloq>"
 	"ulloq" N Abs Sg @HNOUN #1->0
@@ -11624,33 +11649,6 @@
 	"piffik" SSAQ QAR TIP SINNAA V Cau 2Pl 3SgO @CL-<CIT #4->1
 "<.>"
 	"." CLB #5->5
-</s>
-
-<s id="PAr62rcw2AshvvOk83MWdkxlxgI">
-"<->"
-	"-" PUNCT DIRTALESTART #1->1
-"<Ilisimatuut>"
-	"ilisima" TUUQ N Rel Pl @POSS> #2->8
-"<Issittumut>"
-	"Issittoq" Prop Trm Sg @i-ADVL> #3->4
-"<tunngasunik>"
-	"tunnga" TUQ N Ins Pl @i-ADVL> #4->8
-"<assigiinngitsutigut>"
-	"assi" GIIP NNGIT TUQ N Via Pl @i-ADVL> #5->6
-"<suliaqartut>"
-	"suliaq" QAR TUQ N Rel Pl @N< #6->2
-"<ataatsimoorsimalernissaat>"
-	"ataaseq" Num Trm Sg @i-ADVL> #7->8
-"<UR>"
-	"UR" SIMA LIR NIQ SSAQ N Abs Sg 3PlPoss @OBJ> #8->11
-"<AUU>"
-	"AUU" N Abs @>N #9->10
-"<Arcticip>"
-	"Arctic" Prop Rel Sg @SUBJ> #10->11
-"<siunertaraa>"
-	"siuneq" TAQ GE V Ind 3Sg 3SgO @PRED #11->0
-"<.>"
-	"." CLB DIRTALEMIDDLE #12->12
 </s>
 
 <s id="PHLbPx8fMkhNWxBnD59MGthl3wQ">
@@ -19219,7 +19217,7 @@
 
 <s id="gHs7iuAE27xBl90NBOv0lUPW7Cc">
 "<Kinguninngualu>"
-	"kinguninnguaq" N Abs Sg 3SgPoss CONJ-LU @ADVL> #1->2
+	"kinguneq" NNGUAQ N Abs Sg 3SgPoss CONJ-LU @CL-ADVL> #1->2
 "<nangipputit>"
 	"nangip" V Ind 2Sg @PRED #2->0
 "<:>"
