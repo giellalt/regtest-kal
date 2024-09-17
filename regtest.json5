@@ -1,20 +1,20 @@
 {
 	steps: {
 		fst: {
-			cmd: '~/langtech/kal/tools/shellscripts/kal-tokenise ~/langtech/kal/tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst | cg-sort',
+			cmd: '~/langtech/kaltesting/tools/shellscripts/kal-tokenise ~/langtech/kaltesting/tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst | cg-sort',
 		},
 		pre1: {
-			cmd: 'vislcg3 -g ~/langtech/kal/src/cg3/kal-pre1.cg3',
+			cmd: 'vislcg3 -g ~/langtech/kaltesting/src/cg3/kal-pre1.cg3',
 			type: 'cg',
 		},
 		hybrids: {
-			cmd: '~/langtech/kal/tools/shellscripts/kal-hybrid-split ~/langtech/kal/src/fst/generator-gt-desc.hfstol | cg-sort',
+			cmd: '~/langtech/kaltesting/tools/shellscripts/kal-hybrid-split ~/langtech/kaltesting/src/fst/generator-gt-desc.hfstol | cg-sort',
 		},
 		heur: {
-			cmd: '~/langtech/kal/tools/shellscripts/kal-spell-heur | cg-sort',
+			cmd: '~/langtech/kaltesting/tools/shellscripts/kal-spell-heur | cg-sort',
 		},
 		pre: {
-			cmd: '~/langtech/kal/tools/shellscripts/kal-tokenise ~/langtech/kal/tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst | vislcg3 -g ~/langtech/kal/src/cg3/kal-pre1.cg3 | ~/langtech/kal/tools/shellscripts/kal-hybrid-split ~/langtech/kal/src/fst/generator-gt-desc.hfstol | cg-sort',
+			cmd: '~/langtech/kaltesting/tools/shellscripts/kal-tokenise ~/langtech/kaltesting/tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst | vislcg3 -g ~/langtech/kaltesting/src/cg3/kal-pre1.cg3 | ~/langtech/kaltesting/tools/shellscripts/kal-hybrid-split ~/langtech/kaltesting/src/fst/generator-gt-desc.hfstol | cg-sort',
 		},
 		'sems-l': {
 			cmd: '~/langtech/katersat/apply-sems.py --last',
@@ -25,25 +25,25 @@
 			type: 'cg',
 		},
 		pre2: {
-			cmd: 'vislcg3 -g ~/langtech/kal/src/cg3/kal-pre2.cg3',
+			cmd: 'vislcg3 -g ~/langtech/kaltesting/src/cg3/kal-pre2.cg3',
 			type: 'cg',
 		},
 		morf: {
-			cmd: 'vislcg3 -g ~/langtech/kal/src/cg3/disambiguator.cg3',
+			cmd: 'vislcg3 -g ~/langtech/kaltesting/src/cg3/disambiguator.cg3',
 			type: 'cg',
 		},
 		'morf-c': {
-			cmd: '~/langtech/kal/tools/shellscripts/kal-tokenise ~/langtech/kal/tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst | vislcg3 -g ~/langtech/kal/src/cg3/kal-pre1.cg3 | ~/langtech/kal/tools/shellscripts/kal-hybrid-split ~/langtech/kal/src/fst/generator-gt-desc.hfstol | vislcg3 -g ~/langtech/kal/src/cg3/kal-pre2.cg3 | vislcg3 -g ~/langtech/kal/src/cg3/disambiguator.cg3 | cg-sort',
+			cmd: '~/langtech/kaltesting/tools/shellscripts/kal-tokenise ~/langtech/kaltesting/tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst | vislcg3 -g ~/langtech/kaltesting/src/cg3/kal-pre1.cg3 | ~/langtech/kaltesting/tools/shellscripts/kal-hybrid-split ~/langtech/kaltesting/src/fst/generator-gt-desc.hfstol | vislcg3 -g ~/langtech/kaltesting/src/cg3/kal-pre2.cg3 | vislcg3 -g ~/langtech/kaltesting/src/cg3/disambiguator.cg3 | cg-sort',
 		},
 		lu: {
-			cmd: '~/langtech/kal/tools/shellscripts/kal-lu-prefix ~/langtech/kal/src/fst/generator-gt-desc.hfstol | cg-sort',
+			cmd: '~/langtech/kaltesting/tools/shellscripts/kal-lu-prefix ~/langtech/kaltesting/src/fst/generator-gt-desc.hfstol | cg-sort',
 		},
 		syntax: {
-			cmd: 'vislcg3 -g ~/langtech/kal/src/cg3/functions.cg3',
+			cmd: 'vislcg3 -g ~/langtech/kaltesting/src/cg3/functions.cg3',
 			type: 'cg',
 		},
 		dep: {
-			cmd: 'vislcg3 -g ~/langtech/kal/src/cg3/dependency.cg3',
+			cmd: 'vislcg3 -g ~/langtech/kaltesting/src/cg3/dependency.cg3',
 			type: 'cg',
 		},
 		no2nd: {
