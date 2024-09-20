@@ -2452,7 +2452,6 @@
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART
 "<Titartagaq>"
-	"titar" Gram/TV TAR Der/vv Gram/TV TAQ Der/vn N Abs Sg
 	"titartar" Gram/TV TAQ Der/vn N Abs Sg
 "<peqqissaaruteqqissaarpara>"
 	"peqqissaarup" Gram/TV QQISSAAR Der/vv Gram/TV V Ind 1Sg 3SgO
@@ -2502,6 +2501,7 @@
 	"imaap" Gram/IV SINNAA Der/vv Gram/IV V Ind 3Sg
 	"imaap" Gram/TV SINNAA Der/vv Gram/Refl V Ind 3Sg
 "<eqqarsartusi>"
+	"eqqaq" TAQ Der/nn TU Der/nv Gram/IV TUQ Der/vn N Abs Sg 4SgPoss Orth/Arch
 	"eqqarsar" Gram/IV TUQ Der/vn N Abs Pl 2PlPoss
 	"eqqarsar" Gram/IV V Par 2Pl %AmbiguøsPar
 "<:>"
@@ -2512,9 +2512,6 @@
 	"sooruna" Adv
 	"sooruna" Interj
 "<titartakkat>"
-	"titar" Gram/TV TAR Der/vv Gram/TV TAQ Der/vn N Abs Pl %AmbiguøsN
-	"titar" Gram/TV TAR Der/vv Gram/TV TAQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
-	"titar" Gram/TV TAR Der/vv Gram/TV TAQ Der/vn N Rel Pl %AmbiguøsN
 	"titartar" Gram/TV TAQ Der/vn N Abs Pl %AmbiguøsN
 	"titartar" Gram/TV TAQ Der/vn N Abs Sg 2SgPoss %AmbiguøsN
 	"titartar" Gram/TV TAQ Der/vn N Rel Pl %AmbiguøsN
@@ -2537,8 +2534,6 @@
 	"baobab" OLang/DAN OLang/DAN N Rel Pl 4PlPoss
 	"baobab" OLang/DAN OLang/DAN N Rel Sg 4PlPoss
 "<titartakkatulli>"
-	"titar" Gram/TV TAR Der/vv Gram/TV TAQ Der/vn N Aeq Pl LI
-	"titar" Gram/TV TAR Der/vv Gram/TV TAQ Der/vn N Aeq Sg LI
 	"titartar" Gram/TV TAQ Der/vn N Aeq Pl LI
 	"titartar" Gram/TV TAQ Der/vn N Aeq Sg LI
 "<alutornartiginngitsut>"
@@ -15511,10 +15506,9 @@
 	"una" Prefix/TA Gram/Dem Pron Abs Sg
 "<2400>"
 	"2400" Err/Sub Num Rel Pl %AmbiguøsN
-	"2400" N Abs Sg %AmbiguøsN
 	"2400" Num Abs Pl %AmbiguøsN
 	"2400" Num Abs Sg %AmbiguøsN
-	"2400" Num Sem/dur
+	"2400" Sem/dur Num
 "<kilometerisut>"
 	"kilometer" OLang/DAN Sem/Unit N Aeq Pl
 	"kilometer" OLang/DAN Sem/Unit N Aeq Sg
@@ -15537,7 +15531,9 @@
 	"ingerlaar" Gram/IV VIK Der/vn N Lok Pl 3PlPoss %PossOblique
 	"ingerlaar" Gram/IV VIK Der/vn N Lok Pl 3SgPoss
 "<takinersaalluni>"
+	"taki" Gram/IV NIQ Der/vn TAQ Der/nn U Der/nv Gram/IV V Cont 4Sg
 	"taki" Gram/IV NIRSAQ Der/vn U Der/nv Gram/IV V Cont 4Sg
+	"takineq" TAQ Der/nn U Der/nv Gram/IV V Cont 4Sg
 	"takinersaa" Gram/IV V Cont 4Sg
 "<.>"
 	"." CLB
@@ -31498,12 +31494,16 @@
 	"atuup" Gram/IV TUQ Der/vn N Rel Pl %AmbiguøsN
 	"atuup" Gram/IV V Par 3Pl %AmbiguøsPar
 "<ineriartortissallugit>"
-	"iner" Gram/IV GIARTUR Der/vv TIP Der/vv Gram/TV SSA Der/vv Gram/TV V Cont 3PlO %ContHypotagme
+	"iner" Gram/IV GIARTUR Der/vv Gram/IV TIP Der/vv Gram/TV SSA Der/vv V Cont 3PlO %ContHypotagme
 "<piffissallu>"
 	"piffik" SSAQ Der/nn N Abs Pl LU %AmbiguøsN
 	"piffik" SSAQ Der/nn N Abs Sg 2SgPoss LU %AmbiguøsN
 	"piffik" SSAQ Der/nn N Rel Pl LU %TidHypotagme %AmbiguøsN
 	"piffik" SSAQ Der/nn N Rel Sg LU %TidHypotagme %AmbiguøsN %Othertime %PossOblique
+	"piffik" TAQ Der/nn N Abs Pl LU %AmbiguøsN
+	"piffik" TAQ Der/nn N Abs Sg 2SgPoss LU %AmbiguøsN
+	"piffik" TAQ Der/nn N Rel Pl LU %AmbiguøsN
+	"piffik" TAQ Der/nn N Rel Sg LU %AmbiguøsN %PossOblique
 "<ingerlanerani>"
 	"ingerla" Gram/IV NIQ Der/vn N Lok Sg 3SgPoss %TidHypotagme %Othertime %Othertime %PossOblique
 	"ingerla" Gram/TV Gram/Pass NIQ Der/vn N Lok Sg 3SgPoss %TidHypotagme %Othertime %Othertime %PossOblique
@@ -31532,20 +31532,27 @@
 "<pigilernissaat>"
 	"pi" GE Der/nv Gram/TV LIR Der/vv Gram/Refl Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Pl 3PlPoss
 	"pi" GE Der/nv Gram/TV LIR Der/vv Gram/Refl Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss %ContHypotagme
+	"pi" GE Der/nv Gram/TV LIR Der/vv Gram/Refl Gram/IV NIQ Der/vn SSAQ Der/nn UTE Der/nn N Abs Sg %ContHypotagme
 	"pi" GE Der/nv Gram/TV LIR Der/vv Gram/Refl NIQ Der/vn SSAQ Der/nn N Abs Pl 3PlPoss
 	"pi" GE Der/nv Gram/TV LIR Der/vv Gram/Refl NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss %ContHypotagme
+	"pi" GE Der/nv Gram/TV LIR Der/vv Gram/Refl NIQ Der/vn SSAQ Der/nn UTE Der/nn N Abs Sg %ContHypotagme
 	"pi" GE Der/nv Gram/TV LIR Der/vv Gram/TV Gram/Pass NIQ Der/vn SSAQ Der/nn N Abs Pl 3PlPoss
 	"pi" GE Der/nv Gram/TV LIR Der/vv Gram/TV Gram/Pass NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss %ContHypotagme
+	"pi" GE Der/nv Gram/TV LIR Der/vv Gram/TV Gram/Pass NIQ Der/vn SSAQ Der/nn UTE Der/nn N Abs Sg %ContHypotagme
 	"pige" Gram/TV LIR Der/vv Gram/Refl Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Pl 3PlPoss
 	"pige" Gram/TV LIR Der/vv Gram/Refl Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss %ContHypotagme
+	"pige" Gram/TV LIR Der/vv Gram/Refl Gram/IV NIQ Der/vn SSAQ Der/nn UTE Der/nn N Abs Sg %ContHypotagme
 	"pige" Gram/TV LIR Der/vv Gram/Refl NIQ Der/vn SSAQ Der/nn N Abs Pl 3PlPoss
 	"pige" Gram/TV LIR Der/vv Gram/Refl NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss %ContHypotagme
+	"pige" Gram/TV LIR Der/vv Gram/Refl NIQ Der/vn SSAQ Der/nn UTE Der/nn N Abs Sg %ContHypotagme
 	"pige" Gram/TV LIR Der/vv Gram/TV Gram/Pass NIQ Der/vn SSAQ Der/nn N Abs Pl 3PlPoss
 	"pige" Gram/TV LIR Der/vv Gram/TV Gram/Pass NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss %ContHypotagme
+	"pige" Gram/TV LIR Der/vv Gram/TV Gram/Pass NIQ Der/vn SSAQ Der/nn UTE Der/nn N Abs Sg %ContHypotagme
 	"pigip" Gram/IV LIR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Pl 3PlPoss
 	"pigip" Gram/IV LIR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss %ContHypotagme
+	"pigip" Gram/IV LIR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn UTE Der/nn N Abs Sg %ContHypotagme
 "<anguniassallugu>"
-	"angu" Gram/TV NIAR Der/vv SSA Der/vv Gram/TV V Cont 3SgO %ContHypotagme
+	"angu" Gram/TV NIAR Der/vv Gram/TV SSA Der/vv Gram/TV V Cont 3SgO %ContHypotagme
 "<,>"
 	"," CLB
 "<nutserutit>"
@@ -38433,11 +38440,6 @@
 	"orpip" Gram/TV TUU Der/vv Gram/Refl TUQ Der/vn N Rel Pl LI %AmbiguøsN
 	"orpip" Gram/TV TUU Der/vv Gram/Refl TUQ Der/vn N Rel Sg LI %AmbiguøsN
 	"orpip" Gram/TV TUU Der/vv Gram/Refl V Par 3Pl LI %AmbiguøsPar
-	"orpissuaq" U Der/nv Gram/IV TUQ Der/vn N Abs Pl LI %AmbiguøsN
-	"orpissuaq" U Der/nv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss LI %AmbiguøsN
-	"orpissuaq" U Der/nv Gram/IV TUQ Der/vn N Rel Pl LI %AmbiguøsN
-	"orpissuaq" U Der/nv Gram/IV TUQ Der/vn N Rel Sg LI %AmbiguøsN
-	"orpissuaq" U Der/nv Gram/IV V Par 3Pl LI %AmbiguøsPar
 "<oqaluffittut>"
 	"oqalup" Gram/IV VIK Der/vn N Aeq Pl
 	"oqalup" Gram/IV VIK Der/vn N Aeq Pl 1SgPoss
@@ -48284,7 +48286,6 @@
 
 <s id="rbpZ1a5pcGt4QzoNpyIK4uYvnm4">
 "<3.693>"
-	"3.693" N Abs Sg
 	"3.693" Num Abs Sg
 "<meterisut>"
 	"meter" OLang/DAN Sem/Unit N Aeq Pl
@@ -48309,7 +48310,6 @@
 	"minus" Conj
 	"minus" OLang/DAN OLang/DAN N Abs Sg
 "<60>"
-	"60" N Abs Sg
 	"60" Num Abs Sg
 "<gradit>"
 	"grad" OLang/DAN OLang/DAN N Abs Pl %ContHypotagme %AmbiguøsN
@@ -56353,11 +56353,6 @@
 	"orpip" Gram/TV TUU Der/vv Gram/Refl TUQ Der/vn N Rel Pl LI %AmbiguøsN
 	"orpip" Gram/TV TUU Der/vv Gram/Refl TUQ Der/vn N Rel Sg LI %AmbiguøsN
 	"orpip" Gram/TV TUU Der/vv Gram/Refl V Par 3Pl LI %AmbiguøsPar
-	"orpissuaq" U Der/nv Gram/IV TUQ Der/vn N Abs Pl LI %AmbiguøsN
-	"orpissuaq" U Der/nv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss LI %AmbiguøsN
-	"orpissuaq" U Der/nv Gram/IV TUQ Der/vn N Rel Pl LI %AmbiguøsN
-	"orpissuaq" U Der/nv Gram/IV TUQ Der/vn N Rel Sg LI %AmbiguøsN
-	"orpissuaq" U Der/nv Gram/IV V Par 3Pl LI %AmbiguøsPar
 "<oqaluffittut>"
 	"oqalup" Gram/IV VIK Der/vn N Aeq Pl
 	"oqalup" Gram/IV VIK Der/vn N Aeq Pl 1SgPoss
