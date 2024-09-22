@@ -520,7 +520,7 @@
 "<inissiisarfinnillu>"
 	"ini" SSIP HTR TAR VIK N Ins Pl CONJ-LU @i-MIK-OBJ> #4->5
 "<utaqqisut>"
-	"utaqqi" TUQ N Abs Pl @OBJ> #5->5
+	"utaqqi" TUQ N Abs Pl @OBJ> #5->10
 "<ullumikkut>"
 	"ullumikkut" Adv @i-ADVL> #6->9
 "<300>"
@@ -1044,9 +1044,9 @@
 "<sungaartigisut>"
 	"sungaar" TIGE TUQ N Abs Pl @N< #5->2
 "<sumut>"
-	"suna" Pron Trm Sg @>N #6->7
+	"suna" Pron Trm Sg @ADVL> #6->8
 "<tamaanga>"
-	"ma" Adv Trm @ADVL> #7->8
+	"ma" Adv Trm @N< #7->6
 "<erfatsillugit>"
 	"erfatsip" V Cont 3PlO @<ADVL #8->1
 "<.>"
@@ -6912,9 +6912,9 @@
 "<,>"
 	"," CLB #5->5
 "<sumi>"
-	"suna" Pron Lok Sg @>N #6->7
+	"suna" Pron Lok Sg @ADVL> #6->9
 "<tamaani>"
-	"ma" Adv Lok @ADVL> #7->9
+	"ma" Adv Lok @N< #7->6
 "<meqqukasii>"
 	"meqqoq" KASIK N Abs Pl 3SgPoss @SUBJ> #8->9
 "<teqqalapput>"
@@ -7762,9 +7762,9 @@
 "<->"
 	"-" PUNCT DIRTALESTART #1->1
 "<Sunut>"
-	"suna" Pron Trm Pl @>N #2->3
+	"suna" Pron Trm Pl @HNOUN #2->0
 "<tamanut>"
-	"tamaq" N Trm Pl @HNOUN #3->3
+	"tamaq" N Trm Pl @N< #3->2
 "<,>"
 	"," CLB #4->4
 "<kunngi>"
@@ -10208,9 +10208,9 @@
 "<Tassami>"
 	"tassa" Adv MI @CL-ADVL> #1->4
 "<kikkut>"
-	"kina" Pron Rel Pl @>N #2->3
+	"kina" Pron Rel Pl @SUBJ> #2->4
 "<tamarmik>"
-	"tamaq" N Nom 4Pl @SUBJ> #3->4
+	"tamaq" N Nom 4Pl @N< #3->2
 "<nalunngilaat>"
 	"nalu" NNGIT V Ind 3Pl 3SgO @PRED #4->0
 "<Amerikami>"
@@ -11960,7 +11960,7 @@
 "<ilagalugit>"
 	"ila" GE V Cont 3PlO @ADVL> #3->7
 "<weekendit>"
-	"weekend" N Abs Pl @CL-ADVL> #4->7
+	"weekend" N Abs Pl @ADVL> #4->7
 "<tamaasa>"
 	"tamaq" N Akk 3Pl @N< #5->4
 "<ilerra>"
@@ -15561,9 +15561,9 @@
 "<sorlaasalu>"
 	"sorlak" N Rel Pl 3PlPoss CONJ-LU @SUBJ> #6->9
 "<suna>"
-	"suna" Pron Abs Sg @>N #7->8
+	"suna" Pron Abs Sg @OBJ> #7->9
 "<tamaat>"
-	"tamaq" N Akk 3Sg @OBJ> #8->9
+	"tamaq" N Akk 3Sg @N< #8->7
 "<aqqusaalutoralugu>"
 	"aqqusaalutore" V Cont 3SgO @PRED #9->0
 "<.>"
@@ -24743,9 +24743,9 @@
 "<Tassami>"
 	"tassa" Adv MI @CL-ADVL> #1->4
 "<kikkut>"
-	"kina" Pron Rel Pl @>N #2->3
+	"kina" Pron Rel Pl @SUBJ> #2->4
 "<tamarmik>"
-	"tamaq" N Nom 4Pl @SUBJ> #3->4
+	"tamaq" N Nom 4Pl @N< #3->2
 "<nalunngilaat>"
 	"nalu" NNGIT V Ind 3Pl 3SgO @PRED #4->0
 "<Amerikami>"
@@ -26495,9 +26495,9 @@
 "<->"
 	"-" PUNCT DIRTALESTART #1->1
 "<Suut>"
-	"suna" Pron Abs Pl @>N #2->3
+	"suna" Pron Abs Pl @OBJ> #2->4
 "<tamaasa>"
-	"tamaq" N Akk 3Pl @OBJ> #3->4
+	"tamaq" N Akk 3Pl @N< #3->2
 "<paarlakaajaappatit>"
 	"paarlakaajaap" V Ind 2Sg 3PlO @PRED #4->0
 "<->"
@@ -28828,17 +28828,17 @@
 "<">"
 	""" PUNCT #16->16
 "<Greenland and Barents Sea>"
-	"Greenland and Barents Sea" Prop Abs Sg #17->17
+	"Greenland and Barents Sea" Prop Abs Sg @<APPOS #17->15
 "<">"
 	""" PUNCT #18->18
 "<,>"
 	"," CLB #19->19
 "<Kalaallit Nunaat>"
-	"Kalaallit Nunaat" Prop Abs Sg 3PlPoss #20->20
+	"Kalaallit Nunaat" Prop Abs Sg 3PlPoss @<APPOS #20->15
 "<aamma>"
 	"aamma" Conj @CONJ #21->22
 "<Barentshavet>"
-	"Barentshavet" Prop Abs Sg #22->22
+	"Barentshavet" Prop Abs Sg @<APPOS #22->15
 "<.>"
 	"." CLB #23->23
 </s>

@@ -479,9 +479,9 @@
 "<Maanimi>"
 	"ma" Adv Lok MI @CL-ADVL> #1->4
 "<suut>"
-	"suna" Pron Abs Pl @>N #2->3
+	"suna" Pron Abs Pl @SUBJ> #2->4
 "<tamarmik>"
-	"tamaq" N Nom 4Pl @SUBJ> #3->4
+	"tamaq" N Nom 4Pl @N< #3->2
 "<qaqortuinnaapput>"
 	"qaqor" TUQ INNAQ U V Ind 3Pl @PRED #4->0
 "<.>"
@@ -716,9 +716,9 @@
 "<,>"
 	"," CLB #9->9
 "<sumi>"
-	"suna" Pron Lok Sg @>N #10->11
+	"suna" Pron Lok Sg @ADVL> #10->12
 "<tamaani>"
-	"ma" Adv Lok @ADVL> #11->12
+	"ma" Adv Lok @N< #11->10
 "<siniffissarsioqattaaginnartarluni>"
 	"sinip" VIK SSAQ SIUR QATTAAR INNAR TAR V Cont 4Sg @PRED #12->0
 "<.>"
@@ -1806,9 +1806,9 @@
 "<Soorlu>"
 	"soorlu" Adv @ADVL> #1->5
 "<sunit>"
-	"suna" Pron Abl Pl @>N #2->3
+	"suna" Pron Abl Pl @AGENS #2->4
 "<tamanit>"
-	"tamaq" N Abl Pl @AGENS #3->4
+	"tamaq" N Abl Pl @N< #3->2
 "<toqutsisimasuusaartinneqarlunga>"
 	"toqup" HTR SIMA TUQ USAAR TIP NIQAR V Cont 1Sg @ADVL> #4->5
 "<uukapaatinneqartunga>"
@@ -2367,9 +2367,9 @@
 "<”>"
 	"”" PUNCT RIGHT DIRTALESTART #1->1
 "<Kikkut>"
-	"kina" Pron Abs Pl @>N #2->3
+	"kina" Pron Abs Pl @SUBJ> #2->5
 "<tamarmik>"
-	"tamaq" N Nom 4Pl @SUBJ> #3->5
+	"tamaq" N Nom 4Pl @N< #3->2
 "<taamaattumik>"
 	"taama" IP TUQ N Ins Sg @i->N #4->5
 "<peqarput>"
@@ -2778,9 +2778,9 @@
 "<Ajugaanikuararpassuit>"
 	"ajor" TAQ U NIKUQ ARAQ PAK SUAQ N Abs Pl @HNOUN #1->0
 "<sumi>"
-	"suna" Pron Lok Sg @>N #2->3
+	"suna" Pron Lok Sg @i-ADVL> #2->5
 "<tamaani>"
-	"ma" Adv Lok @i-ADVL> #3->5
+	"ma" Adv Lok @N< #3->2
 "<imminnut>"
 	"immi" Pron Trm Pl @i-ADVL> #4->5
 "<iluarisimaartut>"
@@ -3091,9 +3091,9 @@
 "<paasigaa>"
 	"paasi" V Par 3Sg 3SgO @CL-<CIT #2->1
 "<suna>"
-	"suna" Pron Abs Sg @>N #3->4
+	"suna" Pron Abs Sg @OBJ> #3->5
 "<tamaat>"
-	"tamaq" N Akk 3Sg @OBJ> #4->5
+	"tamaq" N Akk 3Sg @N< #4->3
 "<angullugu>"
 	"angu" V Cont 3SgO @ADVL> #5->6
 "<akersuutissamaartunga>"
@@ -4700,9 +4700,9 @@
 "<,>"
 	"," CLB #6->6
 "<sunali>"
-	"suna" Pron Abs Sg CONJ-LI @>N #7->8
+	"suna" Pron Abs Sg CONJ-LI @SUBJ> #7->9
 "<tamarmi>"
-	"tamaq" N Nom 4Sg @SUBJ> #8->9
+	"tamaq" N Nom 4Sg @N< #8->7
 "<taartippoq>"
 	"taar" TIP V Ind 3Sg @PRED #9->0
 "<.>"
@@ -5093,9 +5093,9 @@
 "<timaalu>"
 	"timi" N Abs Pl 3SgPoss CONJ-LU @SUBJ> #4->7
 "<sumi>"
-	"suna" Pron Lok Sg @>N #5->6
+	"suna" Pron Lok Sg @ADVL> #5->7
 "<tamaaniipput>"
-	"ma" Adv Lok @ADVL> #6->7
+	"ma" Adv Lok @N< #6->5
 "<ipput>"
 	"IP" V Ind 3Pl @PRED #7->0
 "<.>"
@@ -6049,9 +6049,9 @@
 "<meeqqat>"
 	"meeraq" N Abs Pl @SUBJ> #2->5
 "<sumi>"
-	"suna" Pron Lok Sg @>N #3->4
+	"suna" Pron Lok Sg @ADVL> #3->5
 "<tamaani>"
-	"ma" Adv Lok @ADVL> #4->5
+	"ma" Adv Lok @N< #4->3
 "<siulliuniuttaqattaarput>"
 	"siulleq" U NIUTE TAR QATTAAR V Ind 3Pl @PRED #5->0
 "<.>"
@@ -7164,9 +7164,9 @@
 
 <s id="bbxKntGFWxVyC0bPsxKagUx82nE">
 "<Sukkut>"
-	"suna" Pron Via Sg @>N #1->2
+	"suna" Pron Via Sg @ADVL> #1->5
 "<tamaana>"
-	"ma" Adv Via @ADVL> #2->5
+	"ma" Adv Via @N< #2->1
 "<qullii>"
 	"qulli" N Abs Pl 3SgPoss @SUBJ> #3->5
 "<uluaatigut>"
@@ -7464,9 +7464,9 @@
 "<Pitsaaneruvoq>"
 	"pitsak" U NIRU V Ind 3Sg @PRED #1->0
 "<suut>"
-	"suna" Pron Abs Pl @>N #2->3
+	"suna" Pron Abs Pl @OBJ> #2->5
 "<tamaasa>"
-	"tamaq" N Akk 3Pl @OBJ> #3->5
+	"tamaq" N Akk 3Pl @N< #3->2
 "<tamaanga>"
 	"ma" Adv Trm @ADVL> #4->5
 "<kipitiinnarukkit>"
@@ -10090,9 +10090,9 @@
 "<angajoqqaavisa>"
 	"angajoqqaaq" N Rel Pl 3SgPoss @SUBJ> #3->6
 "<sunik>"
-	"suna" Pron Ins Pl @>N #4->5
+	"suna" Pron Ins Pl @ADVL> #4->6
 "<tamanik>"
-	"tamaq" N Ins Pl @ADVL> #5->6
+	"tamaq" N Ins Pl @N< #5->4
 "<oqilisaappaat>"
 	"oqili" SAR UTE V Ind 3Pl 3SgO @PRED #6->0
 "<.>"
