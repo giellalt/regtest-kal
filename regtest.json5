@@ -38,6 +38,10 @@
 		lu: {
 			cmd: '~/langtech/kaltesting/tools/shellscripts/kal-lu-prefix ~/langtech/kaltesting/src/fst/generator-gt-desc.hfstol | cg-sort',
 		},
+		valency: {
+			cmd: 'vislcg3 -g ~/langtech/kaltesting/src/cg3/valency.cg3',
+			type: 'cg',
+		},
 		syntax: {
 			cmd: 'vislcg3 -g ~/langtech/kaltesting/src/cg3/functions.cg3',
 			type: 'cg',
@@ -59,6 +63,7 @@
 		'kal-sems-l': ['pre', 'sems-l', 'pre2', 'morf', 'syntax', 'dep', 'no2nd-s'],
 		'kal-lu': ['morf-c', 'lu', 'syntax', 'dep', 'no2nd'],
 		heur: ['fst', 'pre1', 'heur'],
+		valency: ['fst', 'hybrids', 'pre2', 'morf', 'valency'],
 		'gloss-k2d': '~/langtech/gloss/kal2dan/kal2dan.pl --regtest --cmd',
 		'gloss-k2e': '~/langtech/gloss/kal2eng/kal2eng.pl --regtest --cmd',
 	},
@@ -67,6 +72,7 @@
 		gloss: ['KW', 'KWx'],
 		heur: ['heur/*'],
 		fst: ['fst/*'],
+		valency: ['valency/*'],
 	},
 	defaults: {
 		pipe: 'kal',
@@ -84,6 +90,11 @@
 			desc: 'FST only',
 			pipe: 'fst',
 			corpora: ['fst'],
+		},
+		valency: {
+			desc: 'Valency',
+			pipe: 'valency',
+			corpora: ['valency'],
 		},
 		'kal-lu': {
 			desc: 'Split LU/LI/etc to their own token (dynamic corpus)',
