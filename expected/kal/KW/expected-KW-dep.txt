@@ -2470,6 +2470,33 @@
 	"." CLB #11->11
 </s>
 
+<s id="EOQSUVdn2XmXpSbVOkwZMzUbgoU">
+"<Kalaallisuuma>"
+	"kalaallisooq" N Rel Pl 1SgPoss @POSS> #1->4
+"<oqortut>"
+	"oqor" Gram/IV TUQ Der/vn N Rel Pl @N< #2->1
+"<,>"
+	"," CLB #3->3
+"<nuilarmiorsuisa>"
+	"nuilarmioq" SUAQ Der/nn N Rel Pl 3PlPoss @SUBJ> #4->6
+"<oqimaatsut>"
+	"oqimaap" Gram/IV TUQ Der/vn N Rel Pl @N< #5->4
+"<ipianngutilerpaannga>"
+	"ipianngu" Gram/IV TIP Der/vv Gram/TV LIR Der/vv Gram/TV V Ind 3Pl 1SgO @PRED #6->0
+"<,>"
+	"," CLB #7->7
+"<eqqarsaatima>"
+	"eqqarsar" Gram/IV UTE Der/vn N Rel Pl 1SgPoss @SUBJ> #8->11
+"<amerlasuut>"
+	"amerlasooq" N Rel Pl @N< #9->8
+"<tujorminartut>"
+	"tujormi" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn N Rel Pl @N< #10->8
+"<kiaguummertittarlunga>"
+	"kiagup" Gram/IV UMMIR Der/vv Gram/IV TIP Der/vv Gram/TV TAR Der/vv Gram/TV V Cont 1SgO @<ADVL #11->6
+"<.>"
+	"." CLB #12->12
+</s>
+
 <s id="EQuvSHMx3WY94EKv5P8EJmPtldU">
 "<Arsugaaqqap>"
 	"Arsugaq" Sem/Fem Sem/Hum ARAQ Der/nn Prop Rel Sg @SUBJ> #1->7
@@ -4645,33 +4672,6 @@
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #8->8
 </s>
 
-<s id="O6EbDoKuDWQ6lf4UOexH8E3w4uI">
-"<Kalaallisuuma>"
-	"kalaallisooq" N Rel Pl 1SgPoss @POSS> #1->4
-"<oqortut>"
-	"oqor" Gram/IV TUQ Der/vn N Rel Pl @N< #2->1
-"<,>"
-	"," CLB #3->3
-"<nuilarmiorsuisa>"
-	"nuilarmioq" SUAQ Der/nn N Rel Pl 3PlPoss @SUBJ> #4->6
-"<oqimaatsut>"
-	"oqimaap" Gram/IV TUQ Der/vn N Rel Pl @N< #5->4
-"<ipianngutilerpaannga>"
-	"ipianngu" Gram/IV TIP Der/vv Gram/TV LIR Der/vv Gram/TV V Ind 3Pl 1SgO @PRED #6->0
-"<,>"
-	"," CLB #7->7
-"<eqqarsaatikka>"
-	"eqqarsar" Gram/IV UTE Der/vn N Abs Pl 1SgPoss @SUBJ> #8->11
-"<amerlasuut>"
-	"amerlasooq" N Abs Pl @N< #9->8
-"<tujorminartut>"
-	"tujormi" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn N Abs Pl @N< #10->8
-"<kiaguummertittarlunga>"
-	"kiagup" Gram/IV UMMIR Der/vv Gram/IV TIP Der/vv Gram/TV TAR Der/vv Gram/TV V Cont 1SgO @<ADVL #11->6
-"<.>"
-	"." CLB #12->12
-</s>
-
 <s id="ODBz6C7OxW1JijNUIrz5xhQWdVI">
 "<Suli>"
 	"suli" Adv @ADVL> #1->2
@@ -6710,7 +6710,7 @@
 "<qingaatigut>"
 	"qingaq" N Via Sg 3SgPoss @ADVL> #2->3
 "<tillullugu>"
-	"tillup" Gram/TV V Cont 3SgO @ADVL> #3->6
+	"tillup" Gram/TV V Cont 3SgO @<ADVL #3->1
 "<qingakasiata>"
 	"qingaq" KASIK Der/nn N Rel Sg 3SgPoss @POSS> #4->5
 "<saanii>"
