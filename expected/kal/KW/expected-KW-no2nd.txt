@@ -1002,8 +1002,7 @@
 "<Skaaviit>"
 	"skaavik" N Abs Pl @OBJ> #1->7
 "<atisaasiviit>"
-	"ati" TAR USIQ VIK N Abs Pl @N< #2->1
-	"atisaasivik" N Abs Pl @N< #2->1
+	"atisaasivik" N Abs Pl @OBJ> #2->7
 "<,>"
 	"," CLB #3->3
 "<igaffimmilu>"
@@ -5298,7 +5297,7 @@
 "<->"
 	"-" PUNCT DIRTALESTART &ADDED #1->1
 "<Naamerluinnarmi>"
-	"naamik" LLUINNAQ Interj MI @INTERJ #2->0
+	"naamik" Interj LLUINNAQ MI @INTERJ #2->0
 "<pisussanngilaq>"
 	"pisup" SSA NNGIT V Ind 3Sg @PRED #3->0
 "<,>"
@@ -7313,7 +7312,7 @@
 "<->"
 	"-" PUNCT DIRTALESTART &ADDED #1->1
 "<Naamerluinnarli>"
-	"naamik" LLUINNAQ Interj CONJ-LI @INTERJ #2->0
+	"naamik" Interj LLUINNAQ CONJ-LI @INTERJ #2->0
 "<.>"
 	"." CLB #3->3
 
