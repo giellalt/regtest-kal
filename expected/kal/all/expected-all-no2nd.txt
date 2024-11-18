@@ -518,7 +518,7 @@
 "<pinerluttarnerit>"
 	"pinerlup" TAR NIQ N Abs Pl @OBJ> #2->3
 "<annikillisinniarlugit>"
-	"angi" NIQ KILLI TIP NIAR V Cont 3PlO @CL-ADVL> #3->10
+	"angi" NIQ KILLI TIP NIAR V Cont 3PlO @ADVL> #3->24
 "<inissiisarfinnillu>"
 	"ini" SSIP HTR TAR VIK N Ins Pl CONJ-LU @i-MIK-OBJ> #4->5
 "<utaqqisut>"
@@ -532,11 +532,11 @@
 "<ittut>"
 	"IP" TUQ N Abs Pl @N< #9->5
 "<ikilisarniarlugit>"
-	"ikili" SAR NIAR V Cont 3PlO @ADVL> #10->12
+	"ikili" SAR NIAR V Cont 3PlO @ADVL> #10->24
 "<Siumut>"
 	"Siumut" Prop Abs Sg @OBJ> #11->12
 "<sinnerlugu>"
-	"sinner" V Cont 3SgO @ADVL> #12->19
+	"sinner" V Cont 3SgO @ADVL> #12->24
 "<Inatsisartunut>"
 	"Inatsisartut" Prop Trm Pl @i-ADVL> #13->14
 "<ilaasortat>"
@@ -554,7 +554,7 @@
 "<oktobarip>"
 	"oktobari" N Rel Sg @POSS> #20->21
 "<22-ani>"
-	"22" Num Lok Sg 3SgPoss @i-ADVL> #21->23
+	"22" Num Lok Sg 3SgPoss @ADVL> #21->24
 "<Inatsisartuni>"
 	"Inatsisartut" Prop Lok Pl @i-ADVL> #22->23
 "<aalajangiiffigisassamik>"
@@ -2115,7 +2115,7 @@
 "<ujaasinermut>"
 	"ujar" A HTR NIQ N Trm Sg @ADVL> #4->5
 "<atussallutigu>"
-	"ator" SSA V Cont 1Pl 3SgO @ADVL> #5->8
+	"ator" SSA V Cont 1Pl 3SgO #5->5
 "<allakkalli>"
 	"allagaq" N Abs Pl CONJ-LI @OBJ> #6->8
 "<annikitsuinnaat>"
@@ -3847,7 +3847,7 @@
 "<sinniisut>"
 	"sinner" HTR TUQ N Abs Sg 2SgPoss @OBJ> #4->5
 "<attaveqarfigalugu>"
-	"attavik" QAR VIK GE V Cont 3SgO @ADVL> #5->8
+	"attavik" QAR VIK GE V Cont 3SgO @<ADVL #5->2
 "<ilaasortanngornissamullu>"
 	"ilaa" TUQ TAQ NNGUR NIQ SSAQ N Trm Sg CONJ-LU @i-ADVL> #6->7
 "<immersugassaq>"
@@ -4321,7 +4321,7 @@
 "<Pissutsit>"
 	"pi" SSUSIQ N Abs Pl @OBJ> #1->2
 "<taamaatillugit>"
-	"taama" IP TIP V Cont 3PlO @ADVL> #2->5
+	"taama" IP TIP V Cont 3PlO @ADVL> #2->6
 "<nappaatillu>"
 	"nappaat" N Rel Sg CONJ-LU @POSS> #3->4
 "<siaruaqqinnissaa>"
@@ -11540,9 +11540,9 @@
 "<Ilisimatusarfimmi>"
 	"Ilisimatusarfik" Prop Lok Sg @i-ADVL> #1->2
 "<oqaasilerinermik>"
-	"oqaaseq" LIRI NIQ N Ins Sg @i->N>N #2->3
+	"oqaaseq" LIRI NIQ N Ins Sg @i->N #2->5
 "<tusagassiutilerinermillu>"
-	"tusar" TAQ SSAQ LIUR UTE LIRI NIQ N Ins Sg CONJ-LU @i->N>N #3->3
+	"tusar" TAQ SSAQ LIUR UTE LIRI NIQ N Ins Sg CONJ-LU @i->N #3->5
 "<cand. mag.-itut>"
 	"cand. mag." N Aeq Sg @ADVL> #4->5
 "<ilinniagaqarpoq>"
@@ -12417,7 +12417,7 @@
 "<sukkasuumik>"
 	"sukka" TUUQ N Ins Sg @i->N>N #1->3
 "<sunniuteqarluartumillu>"
-	"sunner" UTE QAR LLUAR TUQ N Ins Sg CONJ-LU @i->N>N #2->1
+	"sunner" UTE QAR LLUAR TUQ N Ins Sg CONJ-LU @i->N>N #2->3
 "<iliuuseqartoqarnissaa>"
 	"ilior" USIQ QAR TUQ QAR NIQ SSAQ N Abs Sg 3SgPoss @SUBJ> #3->4
 "<pingaaruteqartoq>"
@@ -12710,7 +12710,7 @@
 "<259>"
 	"259" Num Abs Sg @>N #7->8
 "<mio.>"
-	"mio" N @i-MWE>N #8->9
+	"mio" N @>N #8->9
 "<kr.-iusimapput>"
 	"kr." U SIMA V Ind 3Pl @PRED #9->0
 "<.>"
@@ -16356,7 +16356,7 @@
 "<1987-iminngaanneerami>"
 	"1987" Num Abl Sg @ADVL> #11->12
 "<IR>"
-	"IR" V Cau 4Sg @<CAU #12->7
+	"IR" V Cau 4Sg @CAU> #12->13
 "<pissutaalluni>"
 	"pissut" U V Cont 4Sg @<ADVL #13->7
 "<.>"
@@ -19209,7 +19209,7 @@
 "<1.908>"
 	"1.908" Num Abs Pl @>N #8->9
 "<mio.>"
-	"mio" N @i-MWE>N #9->10
+	"mio" N @>N #9->10
 "<kr.-usimapput>"
 	"kr." U SIMA V Ind 3Pl @PRED #10->0
 "<.>"
@@ -19962,7 +19962,7 @@
 "<sukkasuumik>"
 	"sukka" TUUQ N Ins Sg @i->N>N #7->9
 "<sunniuteqarluartumillu>"
-	"sunner" UTE QAR LLUAR TUQ N Ins Sg CONJ-LU @i->N>N #8->7
+	"sunner" UTE QAR LLUAR TUQ N Ins Sg CONJ-LU @i->N>N #8->9
 "<iliuuseqartoqarnissaa>"
 	"ilior" USIQ QAR TUQ QAR NIQ SSAQ N Abs Sg 3SgPoss @SUBJ> #9->10
 "<pingaaruteqartoq>"
@@ -24323,7 +24323,7 @@
 "<suliassami>"
 	"suliaq" SSAQ N Lok Sg @ADVL> #9->14
 "<oqaluttuarisaanermi>"
-	"oqaluttuarisaaneq" N Lok Sg @i-ADVL> #10->10
+	"oqaluttuarisaaneq" N Lok Sg @i-ADVL> #10->11
 "<eqqaamasassami>"
 	"eqqaama" TAQ SSAQ N Lok Sg @N< #11->9
 "<ulloq>"
@@ -24624,7 +24624,7 @@
 "<372>"
 	"372" Num Abs Sg @>N #6->7
 "<tusind>"
-	"tusind" Num Abs Sg @i-MWE>N #7->7
+	"tusind" Num Abs Sg @SUBJ> #7->8
 "<literiusimavoq>"
 	"liter" U SIMA V Ind 3Sg @PRED #8->0
 "<.>"
@@ -25397,7 +25397,7 @@
 "<uterlugulu>"
 	"uter" V Cont 3SgO CONJ-LU @ADVL> #3->5
 "<6.455>"
-	"6.455" Num Abs Sg @i-MWE>N #4->4
+	"6.455" Num Abs Sg @>N #4->4
 "<kr.-eqarput>"
 	"kr." QAR V Ind 3Pl @PRED #5->0
 </s>
