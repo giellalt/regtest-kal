@@ -3507,7 +3507,7 @@
 "<allaaserisaa>"
 	"allap" USIQ GE TAQ N Abs Sg 3SgPoss @OBJ> #2->3
 "<naapertorlugu>"
-	"naapertor" V Cont 3SgO @i-ADVL> #3->4
+	"naapertor" V Cont 3SgO @ADVL> #3->13
 "<unnerluutiginninnerit>"
 	"unnerlup" UTE GE HTR NIQ N Abs Pl @SUBJ> #4->13
 "<Siumup>"
@@ -11973,33 +11973,6 @@
 	"?" CLB #4->4
 </s>
 
-<s id="JKeoEXMSYTiHH6RqJV9vSa2cbCs">
-"<Ullumi>"
-	"ullumi" Adv @CL-ADVL> #1->4
-"<Arnatsiap>"
-	"Arnatsiaq" Prop Rel Sg @POSS> #2->3
-"<angusai>"
-	"angu" TAQ N Abs Pl 3SgPoss @OBJ> #3->4
-"<pillugit>"
-	"pi" V Cont 3PlO @ADVL> #4->6
-"<atuarfimmi>"
-	"atuar" VIK N Lok Sg @ADVL> #5->6
-"<oqaloqateqassagatta>"
-	"oqalup" QATE QAR SSA V Cau 1Pl @PRED #6->0
-"<15.00>"
-	"15.00" Num Abs Sg @OBJ> #7->8
-"<sioqqullugu>"
-	"sioqqup" V Cont 3SgO @CL-<CIT #8->6
-"<aneqqajumaarpunga>"
-	"aneqqajumaarpunga" ? #9->9
-"<naammassiguttalu>"
-	"naammassi" V Con 1Pl CONJ-LU @CON> #10->11
-"<uteqqillunga>"
-	"uter" QQIP V Cont 1SgO @PRED #11->0
-"<.>"
-	"." CLB #12->12
-</s>
-
 <s id="JLk5cCw6lvquwx8rJFk05UfBdlc">
 "<Toqutsisoq>"
 	"toqup" HTR TUQ N Abs Sg @SUBJ> #1->5
@@ -14251,7 +14224,7 @@
 "<eqqarsaatini>"
 	"eqqarsar" UTE N Abs Pl 4SgPoss @OBJ> #5->6
 "<pillugit>"
-	"pi" V Cont 3PlO @ADVL> #6->12
+	"pi" V Cont 3PlO @i-ADVL> #6->9
 "<Truth>"
 	"Truth" Prop Abs Sg @PROP> #7->8
 "<Socialimi>"
@@ -15853,7 +15826,7 @@
 
 <s id="Px4TL31k3LWch8Yh2SUahKyarpw">
 "<USA-mi>"
-	"USA" Prop Lok Sg @i-ADVL> #1->2
+	"USA" Prop Lok Sg @ADVL>N #1->2
 "<inuit>"
 	"inuk" N Abs Pl @SUBJ> #2->9
 "<suliffeeruttut>"
@@ -16692,7 +16665,7 @@
 
 <s id="R0cBIXSTIOqmRSC4dVyxx80AvpM">
 "<Danmarkimi>"
-	"Danmark" Prop Lok Sg @i-ADVL> #1->2
+	"Danmark" Prop Lok Sg @ADVL>N #1->2
 "<inuit>"
 	"inuk" N Abs Pl @SUBJ> #2->9
 "<859-it>"
@@ -20595,7 +20568,7 @@
 "<allalluni>"
 	"allap" V Cont 4Sg @ADVL> #6->7
 "<akisarniaraanni>"
-	"aki" TAR NIAR V Par 4Sg 3PlO @CL-ADVL> #7->7
+	"aki" TAR NIAR V Par 4Sg 3PlO @CL-ADVL> #7->11
 "<qallunaatut>"
 	"qallunaaq" N Aeq Sg @ADVL> #8->11
 "<oqaatsit>"
@@ -25578,9 +25551,7 @@
 
 <s id="gjE1QzN1fcYGmWt7HEOo0eWwWAc">
 "<Aperigaanni>"
-	"apere" V Par 3Sg 3PlO @CL-ADVL> #1->5
 	"apere" V Par 3Sg 3SgO @CL-ADVL> #1->5
-	"apere" V Par 4Sg @CL-ADVL> #1->5
 "<sooq>"
 	"sooq" Adv @<ADVL #2->5
 "<,>"
@@ -28546,8 +28517,8 @@
 "<Nuummut>"
 	"Nuuk" Prop Trm Sg @ADVL> #5->6
 "<sanilliutissagaanni>"
-	"sanilliup" SSA V Par 3Sg 3PlO @CL-<ADVL #6->4
-	"sanilliup" SSA V Par 3Sg 3SgO @CL-<ADVL #6->4
+	"sanilliup" SSA V Par 3Sg 3PlO @<ADVL #6->4
+	"sanilliup" SSA V Par 3Sg 3SgO @<ADVL #6->4
 "<.>"
 	"." CLB #7->7
 </s>
