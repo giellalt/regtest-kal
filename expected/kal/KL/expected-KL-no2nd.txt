@@ -354,7 +354,7 @@
 "<Arnanut>"
 	"Arnanut" Prop Abs Sg @SUBJ> #1->4
 "<nr.>"
-	"nr" N @>N #2->2
+	"nr" N @>N #2->3
 "<25>"
 	"25" Num Abs Sg @N< #3->1
 "<saqqummerpoq>"
@@ -4782,9 +4782,9 @@
 "<Pinerluttulerinermi>"
 	"pinerlup" TUQ LIRI NIQ N Lok Sg @i-ADVL> #1->2
 "<inatsimmi>"
-	"inatsit" N Lok Sg @ADVL>N #2->4
+	"inatsit" N Lok Sg @>N #2->4
 "<§>"
-	"§" Symbol N Abs Sg @>N #3->4
+	"§" N Symbol @>N #3->4
 "<37-mi>"
 	"37" Num Lok Sg @ADVL> #4->6
 "<ima>"
@@ -7375,7 +7375,7 @@
 "<Blok>"
 	"blok" N Abs Sg @>N #1->2
 "<2-310>"
-	"2-310" Num Abs Sg @HNOUN #2->2
+	"2-310" Num Abs Sg @HNOUN #2->0
 "<,>"
 	"," CLB #3->3
 "<takussaagut>"
@@ -19956,7 +19956,7 @@
 "<pinerluttulerinermi>"
 	"pinerlup" TUQ LIRI NIQ N Lok Sg @i-ADVL> #2->3
 "<inatsimmi>"
-	"inatsit" N Lok Sg @ADVL>N #3->5
+	"inatsit" N Lok Sg @>N #3->5
 "<§>"
 	"§" N Symbol @>N #4->5
 "<37>"
@@ -21885,7 +21885,7 @@
 "<Arnanut>"
 	"Arnanut" Prop Abs Sg @HNOUN #1->0
 "<nr.>"
-	"nr" N @>N #2->2
+	"nr" N @>N #2->3
 "<25>"
 	"25" Num Abs Sg @N< #3->1
 "<.>"
@@ -33284,7 +33284,7 @@
 "<Lynge-Rasmussen>"
 	"Lynge-Rasmussen" Prop Abs Sg @SUBJ> #2->4
 "<Inatsisartut Nunanut Allanut Sillimaniarnermullu Ataatsimiititaliaanni>"
-	"Inatsisartut Nunanut Allanut Sillimaniarnermullu Ataatsimiititaliaat" Prop Lok Sg 3PlPoss @i-ADVL> #3->4
+	"Inatsisartut Nunanut Allanut Sillimaniarnermullu Ataatsimiititaliaat" Prop Lok Sg 3PlPoss @ADVL> #3->4
 "<siulittaasuusimavoq>"
 	"siulittar" HTR TUQ U SIMA V Ind 3Sg @PRED #4->0
 "<.>"
@@ -34257,17 +34257,17 @@
 
 <s id="u4s05HuVXfs8RfMpCr8uzi3mDg8">
 "<Tamanna>"
-	"manna" Pron Abs Sg @OBJ> #1->14
+	"manna" Pron Abs Sg @Pron>N #1->9
 "<Peqqinnissaqarfimmi>"
 	"peqqip" NIQ SSAQ QAR VIK N Lok Sg @i-ADVL> #2->4
 "<naartusunik>"
 	"naaq" TU TUQ N Ins Pl @i-MIK-OBJ> #3->4
 "<isumaginninnermut>"
-	"isuma" GE HTR NIQ N Trm Sg @i-ADVL> #4->6
+	"isuma" GE HTR NIQ N Trm Sg @i-ADVL> #4->7
 "<ernisussanillu>"
 	"erni" TUQ SSAQ N Ins Pl CONJ-LU @i-ADVL> #5->6
 "<kiffartuussinermut>"
-	"kiffartuup" HTR NIQ N Trm Sg @i-ADVL> #6->8
+	"kiffartuup" HTR NIQ N Trm Sg @i-ADVL> #6->7
 "<iliuusissanut>"
 	"ilior" USIQ SSAQ N Trm Pl @i-ADVL> #7->8
 "<pilersaarusiassatut>"
@@ -38493,7 +38493,7 @@
 "<isumaqarput>"
 	"isuma" QAR V Ind 3Pl @PRED #11->0
 "<pisariaqartinneqartumik>"
-	"pi" TARIAQAR TIP NIQAR TUQ N Ins Sg @i-MIK-OBJ> #12->13
+	"pi" TARIAQAR TIP NIQAR TUQ N Ins Sg @i-ADVL> #12->13
 "<nutarterisoqartoq>"
 	"nutarter" HTR TUQ QAR V Par 3Sg @CL-<CIT #13->11
 "<.>"
