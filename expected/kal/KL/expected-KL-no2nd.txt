@@ -2753,7 +2753,7 @@
 "<->"
 	"-" PUNCT DIRTALESTART #1->1
 "<Ataasinngorpat>"
-	"ataaseq" NNGUR V Con 3Sg @CL-ADVL> #2->5
+	"ataaseq" NNGUR V Con 3Sg @ADVL> #2->5
 "<ulloqeqqartinnagu>"
 	"ulloqeqqar" TIP V ContNeg 3SgO @ADVL> #3->5
 "<tigunissaat>"
@@ -7069,7 +7069,7 @@
 "<ikittuinnaat>"
 	"ikip" TUQ INNAQ N Abs Pl @N< #4->3
 "<assigalugit>"
-	"assi" GE V Cont 3PlO @ADVL> #5->7
+	"assi" GE V Cont 3PlO @ADVL> #5->9
 "<oqaatsit>"
 	"oqaaseq" N Abs Pl @OBJ> #6->7
 "<pillugit>"
@@ -14520,7 +14520,7 @@
 "<poortanik>"
 	"poortaq" N Ins Pl @i-MIK-OBJ> #4->11
 "<katillugit>"
-	"katip" V Cont 3PlO @ADVL> #5->10
+	"katip" V Cont 3PlO @FOC>N #5->6
 "<arfineq pingasuusunik>"
 	"arfineq pingasut" U TUQ N Ins Pl @N< #6->4
 "<sapaatip>"
@@ -15497,7 +15497,7 @@
 "<IR>"
 	"IR" TUQ N Abs Sg @N< #4->2
 "<akileraarutitaqanngitsunik>"
-	"akileraar" UTE TAQ QAR NNGIT TUQ N Ins Pl @i-ADVL> #5->8
+	"akileraar" UTE TAQ QAR NNGIT TUQ N Ins Pl @i->N #5->8
 "<25.000>"
 	"25.000" Num Abs Sg @>N #6->7
 "<koruuninik>"
@@ -18902,7 +18902,7 @@
 "<DCR-imit>"
 	"DCR" N Abl Sg @AGENS #1->3
 "<sisamanngorpat>"
-	"sisamat" NNGUR V Con 3Sg @CON> #2->3
+	"sisamat" NNGUR V Con 3Sg @ADVL> #2->3
 "<ikiorneqariartussaagut>"
 	"ikior" NIQAR GIARTUR SSA V Ind 1Pl @PRED #3->0
 "<taakkorpiaat>"
@@ -19841,7 +19841,7 @@
 "<tamarmik>"
 	"tamaq" N Nom 4Pl @N< #7->6
 "<oqaatsitigut>"
-	"oqaaseq" N Via Pl @i-ADVL> #8->10
+	"oqaaseq" N Via Pl @ADVL>N #8->9
 "<teknologiimik>"
 	"teknologi" N Ins Sg @i->N #9->10
 "<tunngaveqarput>"
@@ -22706,7 +22706,7 @@
 "<Tamanna>"
 	"manna" Pron Abs Sg @OBJ> #1->2
 "<pissutigalugu>"
-	"pissut" GE V Cont 3SgO @ADVL> #2->5
+	"pissut" GE V Cont 3SgO @ADVL> #2->7
 "<nakorsaaneqarfiup>"
 	"nakorsaq" U NIQ QAR VIK N Rel Sg @SUBJ> #3->7
 "<politiit>"
@@ -22794,7 +22794,7 @@
 "<savaaqqanik>"
 	"sava" ARAQ N Ins Pl @i-MIK-OBJ> #4->5
 "<toqoraaviani>"
-	"toqup" RAR HTR VIK N Lok Sg 3SgPoss @i-ADVL> #5->6
+	"toqup" RAR HTR VIK N Lok Sg 3SgPoss @ADVL> #5->6
 "<pisortanngortoq>"
 	"pisortaq" NNGUR V Par 3Sg @PRED #6->0
 </s>
@@ -23512,7 +23512,7 @@
 "<Nuummi>"
 	"Nuuk" Prop Lok Sg @ADVL> #2->3
 "<pingasunngormat>"
-	"pingasut" NNGUR V Cau 3Sg @ADVL> #3->4
+	"pingasut" NNGUR V Cau 3Sg @ADVL> #3->5
 "<atserneqarlunilu>"
 	"atser" NIQAR V Cont 4Sg CONJ-LU @PRED #4->0
 "<saqqummiunneqarpoq>"
@@ -24266,7 +24266,7 @@
 "<droni>"
 	"drone" N Abs Sg @SUBJ> #8->12
 "<assiliissut>"
-	"assi" LIR HTR UTE N Abs Sg @N< #9->12
+	"assi" LIR HTR UTE N Abs Sg @N< #9->8
 "<aallarfiup>"
 	"aallar" VIK N Rel Sg @POSS> #10->11
 "<qulaaniippoq>"
@@ -25505,7 +25505,7 @@
 "<aqagu>"
 	"aqagu" Adv @ADVL> #4->5
 "<marlunngulerpat>"
-	"marluk" NNGUR LIR V Con 3Sg @CON> #5->6
+	"marluk" NNGUR LIR V Con 3Sg @ADVL> #5->6
 "<aneqqassutigiumaarpara>"
 	"ani" QQA UTE GE GUMAAR V Ind 1Sg 3SgO @PRED #6->0
 "<.>"
@@ -29096,7 +29096,7 @@
 
 <s id="k9bFi0UrvDwDovInZYw3toQ9nko">
 "<Pingasunngorpat>"
-	"pingasut" NNGUR V Con 3Sg @CL-ADVL> #1->3
+	"pingasut" NNGUR V Con 3Sg @ADVL> #1->3
 "<tulliani>"
 	"tulleq" N Lok Sg 3SgPoss @ADVL> #2->3
 "<suliartoqqissaanga>"
@@ -29466,7 +29466,7 @@
 "<Sermitsiami>"
 	"Sermitsiaq" Prop Lok Sg @<APPOS #4->3
 "<tallimanngorpat>"
-	"tallimat" NNGUR V Con 3Sg @CON> #5->6
+	"tallimat" NNGUR V Con 3Sg @ADVL> #5->6
 "<atuaruk>"
 	"atuar" V Imp 2Sg 3SgO @PRED #6->0
 "<.>"
@@ -30422,7 +30422,7 @@
 "<25.000>"
 	"25.000" Num Abs Sg @>N #8->9
 "<koruuninik>"
-	"krone" N Ins Pl @i-ADVL> #9->10
+	"krone" N Ins Pl @ADVL> #9->10
 "<akissarsialerlugu>"
 	"aki" SSAQ SIAQ LIR V Cont 3SgO @i-ADVL> #10->11
 "<atorfinitsinneqarneranut>"
@@ -33453,7 +33453,7 @@
 "<Sermitsiami>"
 	"Sermitsiaq" Prop Lok Sg @<APPOS #4->3
 "<tallimanngorpat>"
-	"tallimat" NNGUR V Con 3Sg @CON> #5->6
+	"tallimat" NNGUR V Con 3Sg @ADVL> #5->6
 "<atuaruk>"
 	"atuar" V Imp 2Sg 3SgO @PRED #6->0
 "<.>"
@@ -35020,7 +35020,7 @@
 
 <s id="stGWGb1VDqpmmPYdZ62xvux3RQg">
 "<Pingasunngorpat>"
-	"pingasut" NNGUR V Con 3Sg @CL-ADVL> #1->3
+	"pingasut" NNGUR V Con 3Sg @ADVL> #1->3
 "<Tukummeq>"
 	"Tukummeq" Prop Abs Sg @OBJ> #2->3
 "<kigutileriffiliaqatigisussaavara>"
@@ -36096,7 +36096,7 @@
 "<Nuummi>"
 	"Nuuk" Prop Lok Sg @i-ADVL> #2->3
 "<ataqqinaammik>"
-	"ataqqinar" UTE N Ins Sg @i-ADVL> #3->4
+	"ataqqinar" UTE N Ins Sg @ADVL> #3->4
 "<innuttaavoq>"
 	"innuttaq" U V Ind 3Sg @PRED #4->0
 "<illoqarfimmilu>"
@@ -39209,7 +39209,7 @@
 
 <s id="xn6eU7AkoEvLz1KLWJuOxV9HdQ8">
 "<Assersuutigalugu>"
-	"assersor" UTE GE V Cont 3SgO @ADVL> #1->3
+	"assersor" UTE GE V Cont 3SgO @ADVL> #1->12
 "<inuussutissarsiorneq>"
 	"inuk" U UTE SSAQ SIUR NIQ N Abs Sg @OBJ> #2->3
 "<pillugu>"
