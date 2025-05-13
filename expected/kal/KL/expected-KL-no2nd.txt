@@ -931,7 +931,7 @@
 "<nunatsinni>"
 	"nuna" N Lok Sg 1PlPoss @i-ADVL> #4->5
 "<aalisarnermik>"
-	"aalisar" NIQ N Ins Sg @i->N #5->6
+	"aalisar" NIQ N Ins Sg @i->N>N #5->6
 "<inuussutissarsiortunut>"
 	"inuk" U UTE SSAQ SIUR TUQ N Trm Pl @MIK-OBJ> #6->7
 "<unammillernartoqartitsingaatsiarput>"
@@ -2245,7 +2245,7 @@
 "<8>"
 	"8" Num Abs Pl @>N #15->16
 "<procentinik>"
-	"procent" N Ins Pl @N< #16->14
+	"procent" N Ins Pl @i->N>N #16->17
 "<akileraaruteqanngitsunik>"
 	"akileraar" UTE QAR NNGIT TUQ N Ins Pl @N< #17->14
 "<pissarsisoqassalluni>"
@@ -2634,7 +2634,7 @@
 "<akuulersitsiniarnermullu>"
 	"aku" U LIR TIP HTR NIAR NIQ N Trm Sg CONJ-LU @i-ADVL> #3->4
 "<oqartussaaneq>"
-	"oqar" TUQ SSAQ U NIQ N Abs Sg @SUBJ> #4->7
+	"oqar" TUSSAA NIQ N Abs Sg @SUBJ> #4->7
 "<nunatsinnit>"
 	"nuna" N Abl Sg 1PlPoss @AGENS #5->7
 "<suli>"
@@ -3689,7 +3689,7 @@
 
 <s id="4zZF4kBxQ6kimmpaebxVFll0dTg">
 "<Nuummi>"
-	"Nuuk" Prop Lok Sg @ADVL> #1->7
+	"Nuuk" Prop Lok Sg @CL-ADVL> #1->7
 "<sullorsuit>"
 	"sullorsuaq" N Abs Pl @SUBJ> #2->7
 "<marluk>"
@@ -3701,7 +3701,7 @@
 "<koruuningajannik>"
 	"krone" NGAJAK N Ins Pl @i->N #6->7
 "<akeqartussaapput>"
-	"aki" QAR TUQ SSAQ U V Ind 3Pl @PRED #7->0
+	"aki" QAR TUSSAA V Ind 3Pl @PRED #7->0
 "<,>"
 	"," CLB #8->8
 "<tamanna>"
@@ -5738,7 +5738,7 @@
 	"." CLB #2->2
 
 "<il.il.>"
-	"il.il." Adv @ADVL> #1->1
+	"il.il." Adv @HNOUN #1->0
 </s>
 
 <s id="8dw7WUTlHK16BZdlqEQVHPAJPXU">
@@ -9978,7 +9978,7 @@
 "<Kalaallit Nunaanni>"
 	"Kalaallit Nunaat" Prop Lok Sg 3PlPoss @i-ADVL> #4->5
 "<oqartussaasut>"
-	"oqar" TUQ SSAQ U TUQ N Rel Pl @POSS> #5->9
+	"oqar" TUSSAA TUQ N Rel Pl @POSS> #5->9
 "<nunatsinni>"
 	"nuna" N Lok Sg 1PlPoss @i-ADVL> #6->7
 "<Covid-19-imut>"
@@ -10455,7 +10455,7 @@
 "<suliffeqarfiit>"
 	"suli" VIK QAR VIK N Abs Pl @HNOUN #5->0
 "<aatsitassarsiornermik>"
-	"aap" TIP TAQ SSAQ SIUR NIQ N Ins Sg @i-ADVL> #6->7
+	"aap" TIP TAQ SSAQ SIUR NIQ N Ins Sg @i->N>N #6->7
 "<suliaqartut>"
 	"suliaq" QAR TUQ N Abs Pl @N< #7->5
 "<arlallit>"
@@ -11553,7 +11553,7 @@
 "<kingunissanik>"
 	"kinguneq" SSAQ N Ins Pl @i-MIK-OBJ> #4->5
 "<naliliinerminnik>"
-	"nale" LIR HTR NIQ N Ins Sg 4PlPoss @i-ADVL> #5->7
+	"nale" LIR HTR NIQ N Ins Sg 4PlPoss @i-MIK-OBJ> #5->7
 "<inaarutaasumik>"
 	"inaar" UTE U TUQ N Ins Sg @i-ADVL> #6->7
 "<akuersissuteqarfigineqarnissamut>"
@@ -11924,7 +11924,7 @@
 "<kalaallillu>"
 	"kalaaleq" N Rel Pl CONJ-LU @POSS> #5->6
 "<oqartussaasuisa>"
-	"oqar" TUQ SSAQ U TUQ N Rel Pl 3PlPoss @POSS> #6->9
+	"oqar" TUSSAA TUQ N Rel Pl 3PlPoss @POSS> #6->9
 "<'>"
 	"'" PUNCT #7->7
 "<imarisaanik>"
@@ -15281,7 +15281,7 @@
 "<akuulersitsiniarnermullu>"
 	"aku" U LIR TIP HTR NIAR NIQ N Trm Sg CONJ-LU @i-ADVL> #3->4
 "<oqartussaaneq>"
-	"oqar" TUQ SSAQ U NIQ N Abs Sg @SUBJ> #4->7
+	"oqar" TUSSAA NIQ N Abs Sg @SUBJ> #4->7
 "<Nunatsinnit>"
 	"Nuna" Prop Abl Sg 1PlPoss @AGENS #5->7
 "<suli>"
@@ -15481,9 +15481,9 @@
 "<Trumpip>"
 	"Trump" Prop Rel Sg @SUBJ> #1->15
 "<Kalaallit Nunaannik>"
-	"Kalaallit Nunaat" Prop Ins Sg 3PlPoss @i-ADVL> #2->3
+	"Kalaallit Nunaat" Prop Ins Sg 3PlPoss @i-MIK-OBJ> #2->4
 "<oqartussaanissamut>"
-	"oqar" TUQ SSAQ U NIQ SSAQ N Trm Sg @i-ADVL> #3->5
+	"oqar" TUSSAA NIQ SSAQ N Trm Sg @i-ADVL> #3->5
 "<piginnittuunissamullu>"
 	"pi" GE HTR TUQ U NIQ SSAQ N Trm Sg CONJ-LU @i-ADVL> #4->5
 "<eqqarsaatini>"
@@ -17475,7 +17475,7 @@
 "<tamat>"
 	"tamaq" N Nom 4Pl @N< #5->4
 "<oqartussaaqataanerat>"
-	"oqar" TUQ SSAQ U QATE U NIQ N Abs Sg 3PlPoss @OBJ> #6->7
+	"oqar" TUSSAA QATE U NIQ N Abs Sg 3PlPoss @OBJ> #6->7
 "<tunngavigalugu>"
 	"tunngavik" GE V Cont 3SgO @i-ADVL> #7->9
 "<pitsaanerusumik>"
@@ -18415,7 +18415,7 @@
 "<kalaallillu>"
 	"kalaaleq" N Rel Pl CONJ-LU @POSS> #4->5
 "<oqartussaasuisa>"
-	"oqar" TUQ SSAQ U TUQ N Rel Pl 3PlPoss @POSS> #5->7
+	"oqar" TUSSAA TUQ N Rel Pl 3PlPoss @POSS> #5->7
 "<imarisaanik>"
 	"imare" TAQ N Ins Sg 3SgPoss @i-MIK-OBJ> #6->7
 "<akuersinerisigut>"
@@ -19014,7 +19014,7 @@
 "<eqqumiitsulianik>"
 	"eqqumiip" TUQ LIAQ N Ins Pl @i->N #3->4
 "<imaqartussaammat>"
-	"ima" QAR TUQ SSAQ U V Cau 3Sg @CAU> #4->6
+	"ima" QAR TUSSAA V Cau 3Sg @CAU> #4->6
 "<inuiaqatigiinnut>"
 	"inuiaqat" GIIT N Trm Pl @ADVL> #5->6
 "<pingaaruteqartoq>"
@@ -19419,7 +19419,7 @@
 "<eriagisassallu>"
 	"eriage" TAQ SSAQ N Abs Pl CONJ-LU @N< #10->8
 "<annaaneqartussaapput>"
-	"annaa" NIQAR TUQ SSAQ U V Ind 3Pl @PRED #11->0
+	"annaa" NIQAR TUSSAA V Ind 3Pl @PRED #11->0
 "<.>"
 	"." CLB DIRTALEMIDDLE #12->12
 </s>
@@ -21200,7 +21200,7 @@
 "<aqagu>"
 	"aqagu" Adv @ADVL> #5->6
 "<aallartussaagatta>"
-	"aallar" TUQ SSAQ U V Cau 1Pl @<CAU #6->4
+	"aallar" TUSSAA V Cau 1Pl @<CAU #6->4
 "<.>"
 	"." CLB DIRTALEMIDDLE #7->7
 </s>
@@ -24357,7 +24357,7 @@
 "<danskit>"
 	"danskeq" N Rel Pl @POSS> #3->4
 "<oqartussaasui>"
-	"oqar" TUQ SSAQ U TUQ N Abs Pl 3PlPoss @OBJ> #4->12
+	"oqar" TUSSAA TUQ N Abs Pl 3PlPoss @OBJ> #4->12
 "<avatangiisit>"
 	"avatangiisi" N Abs Pl @OBJ> #5->6
 "<pillugit>"
@@ -26537,7 +26537,7 @@
 "<Japanip>"
 	"Japan" Prop Rel Sg @POSS> #9->10
 "<oqartussaasuisa>"
-	"oqar" TUQ SSAQ U TUQ N Rel Pl 3SgPoss @SUBJ> #10->12
+	"oqar" TUSSAA TUQ N Rel Pl 3SgPoss @SUBJ> #10->12
 "<2010-mi>"
 	"2010" N Lok Sg @ADVL> #11->12
 "<naalakkiutigaat>"
@@ -30142,7 +30142,7 @@
 "<Kuummiuni>"
 	"Kuummiut" Prop Lok Pl @CL-ADVL> #1->9
 "<umiatsiamik>"
-	"umiatsiaq" N Ins Sg @i->N #2->3
+	"umiatsiaq" N Ins Sg @ADVL> #2->3
 "<ajutoortoqartoq>"
 	"ajutoor" TUQ QAR V Par 3Sg @CL-CIT> #3->9
 "<Politiit>"
@@ -30734,7 +30734,7 @@
 "<Kalaallit Nunaat>"
 	"Kalaallit Nunaat" Prop Abs Sg 3PlPoss @OBJ> #7->8
 "<oqartussaaffigisariaqarpaa>"
-	"oqar" TUQ SSAQ U VIK GE TARIAQAR V Ind 3Sg 3SgO @PRED #8->0
+	"oqar" TUSSAA VIK GE TARIAQAR V Ind 3Sg 3SgO @PRED #8->0
 "<,>"
 	"," CLB #9->9
 "<Trump>"
@@ -30770,7 +30770,7 @@
 "<Danskit>"
 	"danskeq" N Rel Pl @POSS> #1->2
 "<oqartussaasuisa>"
-	"oqar" TUQ SSAQ U TUQ N Rel Pl 3PlPoss @SUBJ> #2->5
+	"oqar" TUSSAA TUQ N Rel Pl 3PlPoss @SUBJ> #2->5
 "<pisariaqanngitsumik>"
 	"pi" TARIAQAR NNGIT TUQ N Ins Sg @i-ADVL> #3->4
 "<angalasoqannginnissaa>"
@@ -32223,7 +32223,7 @@
 "<danskit>"
 	"danskeq" N Rel Pl @POSS> #3->4
 "<oqartussaasui>"
-	"oqar" TUQ SSAQ U TUQ N Abs Pl 3PlPoss @OBJ> #4->14
+	"oqar" TUSSAA TUQ N Abs Pl 3PlPoss @OBJ> #4->14
 "<avatangiisit>"
 	"avatangiisi" N Abs Pl @OBJ> #5->6
 "<pillugit>"
@@ -38445,7 +38445,7 @@
 "<nunatsinni>"
 	"nuna" N Lok Sg 1PlPoss @i-ADVL> #2->3
 "<oqartussaasuunissaq>"
-	"oqar" TUQ SSAQ U TUQ U NIQ SSAQ N Abs Sg @OBJ> #3->4
+	"oqar" TUSSAA TUQ U NIQ SSAQ N Abs Sg @OBJ> #3->4
 "<pillugu>"
 	"pi" V Cont 3SgO @ADVL> #4->5
 "<allagaqaqqittoq>"
