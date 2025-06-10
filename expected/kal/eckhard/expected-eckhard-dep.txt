@@ -719,7 +719,7 @@
 "<kiilumut>"
 	"kilo" Sem/Unit N Trm Sg @ADVL> #1->3
 "<60>"
-	"60" Num Abs Sg @>N #2->3
+	"60" Num Abs Pl @>N #2->3
 "<kroneqarpoq>"
 	"krone" OLang/DAN Sem/Unit QAR Der/nv Gram/IV V Ind 3Sg @PRED #3->0
 "<.>"
@@ -2953,7 +2953,7 @@
 "<illu>"
 	"illu" N Abs Sg @SUBJ> #1->4
 "<400.000>"
-	"400.000" Num Abs Sg @>N #2->3
+	"400.000" Num Abs Pl @>N #2->3
 "<kronilerlugu>"
 	"krone" OLang/DAN Sem/Unit LIR Der/nv Gram/TV V Cont 3SgO @i-ADVL> #3->4
 "<tunineqarpoq>"
@@ -3827,11 +3827,11 @@
 
 <s id="KnvBD3TiPPUAgDbtwdUheGbxzvw">
 "<nigallip>"
-	"nigalik" N Rel Sg @POSS> #1->2
+	"nigalik" Gram/llip N Rel Sg @POSS> #1->2
 "<kaajallannera>"
 	"kaajallap" Gram/IV NIQ Der/vn N Abs Sg 3SgPoss @SUBJ> #2->4
 "<6>"
-	"6" Num Abs Sg @>N #3->4
+	"6" Num Abs Pl @>N #3->4
 "<centimeteriuvoq>"
 	"centimeter" OLang/DAN Sem/Unit U Der/nv Gram/IV V Ind 3Sg @PRED #4->0
 "<.>"
@@ -4422,7 +4422,7 @@
 "<kiilumut>"
 	"kilo" Sem/Unit N Trm Sg @ADVL> #1->3
 "<tivi>"
-	"tyve" OLang/DAN Err/Sub Num Abs Sg @>N #2->3
+	"tyve" OLang/DAN Err/Sub Num Abs Pl @>N #2->3
 "<kroneqarpoq>"
 	"krone" OLang/DAN Sem/Unit QAR Der/nv Gram/IV V Ind 3Sg @PRED #3->0
 "<.>"
@@ -4476,7 +4476,7 @@
 "<kapisilik>"
 	"kapisilik" N Abs Sg @SUBJ> #1->3
 "<16>"
-	"16" Num Abs Sg @>N #2->3
+	"16" Num Abs Pl @>N #2->3
 "<kiiluuvoq>"
 	"kilo" Sem/Unit U Der/nv Gram/IV V Ind 3Sg @PRED #3->0
 "<.>"
@@ -7991,8 +7991,9 @@
 <s id="fhRLsuzxpvuxnoQ7pBLmyCdupE0">
 "<nipilersorneq>"
 	"nipi" LIRSUR Der/nv Gram/IV NIQ Der/vn N Abs Sg @SUBJ> #1->5
+	"nipi" LIRSUR Der/nv Gram/TV Gram/Refl NIQ Der/vn N Abs Sg @SUBJ> #1->5
 "<tusind>"
-	"tusind" Num Abs Sg @>N #2->3
+	"tusind" Num Abs Pl @>N #2->3
 "<kronit>"
 	"krone" OLang/DAN Sem/Unit N Abs Pl @OBJ> #3->4
 "<sinnerlugit>"
@@ -9967,11 +9968,11 @@
 "<illu>"
 	"illu" N Abs Sg @SUBJ> #1->6
 "<immap>"
-	"imaq" N Rel Sg @POSS> #2->3
+	"imaq" Gram/GEM N Rel Sg @POSS> #2->3
 "<qaaniit>"
-	"qaaq" Gram/2sml N Abl Sg 3SgPoss @i-ADVL> #3->5
+	"qaaq" N Abl Sg 3SgPoss @i-ADVL> #3->5
 "<30>"
-	"30" Num Abs Sg @>N #4->5
+	"30" Num Abs Pl @>N #4->5
 "<meterinik>"
 	"meter" OLang/DAN Sem/Unit N Ins Pl @ADVL> #5->6
 "<qaffasinneruvoq>"
@@ -11070,7 +11071,7 @@
 "<bilitsi>"
 	"billet" OLang/DAN Err/Sub N Abs Sg @SUBJ> #2->4
 "<50>"
-	"50" Num Abs Sg @>N #3->4
+	"50" Num Abs Pl @>N #3->4
 "<kroneqalissaaq>"
 	"krone" OLang/DAN Sem/Unit QAR Der/nv Gram/IV LIR Der/vv Gram/IV SSA Der/vv Gram/IV V Ind 3Sg @PRED #4->0
 "<.>"
@@ -11227,7 +11228,7 @@
 "<kapisilik>"
 	"kapisilik" N Abs Sg @SUBJ> #1->4
 "<16>"
-	"16" Num Abs Sg @>N #2->3
+	"16" Num Abs Pl @>N #2->3
 "<kiilungajannik>"
 	"kilo" Sem/Unit NGAJAK Der/nn N Ins Pl @>N #3->4
 "<kiiluuvoq>"
@@ -11277,7 +11278,7 @@
 "<motoori>"
 	"motoori" N Abs Sg @SUBJ> #1->4
 "<80>"
-	"80" Num Abs Sg @>N #2->3
+	"80" Num Abs Pl @>N #2->3
 "<hk-nik>"
 	"hestekræfter" N Gram/Abbr Pl Ins @i->N #3->4
 "<sakkortussuseqarpoq>"
