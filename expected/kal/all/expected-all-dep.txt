@@ -5964,13 +5964,13 @@
 "<,>"
 	"," CLB #8->8
 "<avannaamiusut>"
-	"avannaamiusut" Adv @<ADVL #9->18
+	"avannaamiusut" Adv @i-SUBJ_COMP< #9->7
 "<,>"
 	"," CLB #10->10
 "<tunumiusut>"
-	"tunumiusut" Adv @ADVL> #11->18
+	"tunumiusut" Adv @i-SUBJ_COMP< #11->7
 "<kitaamiusullu>"
-	"kitaamiusut" Gram/Conj-encl Adv CONJ-LU @ADVL> #12->18
+	"kitaamiusut" Gram/Conj-encl Adv CONJ-LU @i-SUBJ_COMP< #12->7
 "<,>"
 	"," CLB #13->13
 "<sumiiffinnilu>"
@@ -10114,7 +10114,8 @@
 "<ukaliatsiap>"
 	"ukaliatsiaq" N Rel Sg @POSS> #6->7
 "<amianik>"
-	"ameq" N Ins Sg 3SgPoss @i-ADVL> #7->8
+	"ameq" Gram/GEM N Ins Sg 3SgPoss @ADVL>N #7->8
+	"ameq" N Ins Sg 3SgPoss @ADVL>N #7->8
 "<sanaamik>"
 	"sanaaq" N Ins Sg @N< #8->5
 "<tamavimmi>"
@@ -10619,9 +10620,9 @@
 "<,>"
 	"," CLB #10->10
 "<tunumiusut>"
-	"tunumiusut" Adv @<ADVL #11->7
+	"tunumiusut" Adv @i-SUBJ_COMP< #11->7
 "<kitaamiusullu>"
-	"kitaamiusut" Gram/Conj-encl Adv CONJ-LU @<ADVL #12->7
+	"kitaamiusut" Gram/Conj-encl Adv CONJ-LU @i-SUBJ_COMP< #12->7
 "<.>"
 	"." CLB #13->13
 </s>
@@ -15369,7 +15370,7 @@
 "<soorlu>"
 	"soorlu" Adv @ADVL> #6->9
 "<ullorissani>"
-	"ulloriaq" Gram/GEMss N Lok Pl @ADVL> #7->9
+	"ulloriaq" N Lok Pl @ADVL> #7->9
 "<tamani>"
 	"tamaq" N Gram/Cong Lok Pl @N< #8->7
 "<taamaattoq>"
@@ -15487,7 +15488,7 @@
 "<ingerlaannaq>"
 	"ingerlaannaq" Adv @ADVL> #4->5
 "<nusullugu>"
-	"nusup" Gram/TV V Cont 3SgO @ADVL> #5->6
+	"nusup" Gram/TV V Cont 3SgO @i-ADVL> #5->6
 "<peerneqassaaq>"
 	"peer" Gram/TV NIQAR Der/vv Gram/IV SSA Der/vv Gram/IV V Ind 3Sg @PRED #6->0
 "<.>"
@@ -15548,7 +15549,7 @@
 	"." CLB #8->8
 
 "<Ulloriaq>"
-	"ulloriaq" Gram/GEMss N Abs Sg @OBJ> #1->3
+	"ulloriaq" N Abs Sg @OBJ> #1->3
 "<angalasoq>"
 	"angala" Gram/IV TUQ Der/vn N Abs Sg @N< #2->1
 "<tamakkerlugu>"
@@ -15569,7 +15570,7 @@
 	"." CLB #10->10
 
 "<Ulloriarlu>"
-	"ulloriaq" Gram/GEMss Gram/Conj-encl N Abs Sg CONJ-LU @SUBJ> #1->2
+	"ulloriaq" Gram/Conj-encl N Abs Sg CONJ-LU @SUBJ> #1->2
 "<mikivallaarpat>"
 	"mikivallaar" Gram/IV V Con 3Sg @CON> #2->8
 "<baobabillu>"
@@ -15581,7 +15582,7 @@
 "<taava>"
 	"taava" Adv @CL-ADVL> #6->8
 "<ulloriaq>"
-	"ulloriaq" Gram/GEMss N Abs Sg @OBJ> #7->8
+	"ulloriaq" N Abs Sg @OBJ> #7->8
 "<qaartissavaat>"
 	"qaar" Gram/IV TIP Der/vv Gram/TV SSA Der/vv V Ind 3Pl 3SgO @PRED #8->0
 "<.>"
@@ -20019,7 +20020,8 @@
 "<ukaliatsiap>"
 	"ukaliatsiaq" N Rel Sg @POSS> #6->7
 "<amianik>"
-	"ameq" N Ins Sg 3SgPoss @i-ADVL> #7->8
+	"ameq" Gram/GEM N Ins Sg 3SgPoss @ADVL>N #7->8
+	"ameq" N Ins Sg 3SgPoss @ADVL>N #7->8
 "<sanaamik>"
 	"sanaaq" N Ins Sg @N< #8->5
 "<tamavimmik>"
@@ -27092,7 +27094,7 @@
 "<ingerlaannaq>"
 	"ingerlaannaq" Adv @ADVL> #4->5
 "<nusullugu>"
-	"nusup" Gram/TV V Cont 3SgO @ADVL> #5->6
+	"nusup" Gram/TV V Cont 3SgO @i-ADVL> #5->6
 "<peerneqassaaq>"
 	"peer" Gram/TV NIQAR Der/vv Gram/IV SSA Der/vv Gram/IV V Ind 3Sg @PRED #6->0
 "<.>"
