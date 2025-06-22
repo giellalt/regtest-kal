@@ -8115,7 +8115,7 @@
 "<1952-ip>"
 	"1952" N Sem/dur Rel Sg @POSS> #11->13
 "<1955-illu>"
-	"1955" Gram/Conj-encl N Sem/dur Rel Sg CONJ-LU @POSS> #12->18
+	"1955" Gram/Conj-encl N Sem/dur Rel Sg CONJ-LU @POSS> #12->13
 "<akornanni>"
 	"akunneq" N Lok Sg 3PlPoss @i-ADVL> #13->14
 "<saqqummersartut>"
@@ -8127,7 +8127,7 @@
 "<allattaasitaamut>"
 	"allap" Gram/IV TAR Der/vv Gram/IV USIQ Der/vn TAAQ Der/nn N Trm Sg @i-ADVL> #17->18
 "<nuutsissutaa>"
-	"nuup" Gram/TV HTR Der/vv Gram/IV UTE Der/vn N Abs Sg 3SgPoss @OBJ> #18->19
+	"nuup" Gram/-schwa Gram/TV HTR Der/vv Gram/IV UTE Der/vn N Abs Sg 3SgPoss @OBJ> #18->19
 "<atorlugu>"
 	"ator" Gram/TV V Cont 3SgO @i-ADVL> #19->20
 "<katersorneqarsimapput>"
@@ -10816,7 +10816,7 @@
 "<sisamakkaarlugit>"
 	"sisamat" KKAAR Der/nv Gram/TV V Cont 3PlO @i-ADVL> #7->8
 "<inuttalertakkat>"
-	"inuk" TAQ Der/nn LIR Der/nv Gram/TV TAR Der/vv Gram/TV TAQ Der/vn N Abs Pl @OBJ> #8->13
+	"inuk" TAQ Der/nn LIR Der/nv Gram/TV TAR Der/vv Gram/TV TAQ Der/vn N Abs Pl @N< #8->3
 "<Oqaasileriffiup>"
 	"Oqaasileriffik" Sem/inst Sem/Hum Prop Rel Sg @SUBJ> #9->13
 "<ulluinnarni>"
@@ -20867,13 +20867,14 @@
 "<Inuit>"
 	"inuk" N Abs Pl @OBJ> #1->2
 "<piumaffigisinnaanngilagut>"
-	"pi" Gram/IV GUMA Der/vv Gram/IV VIK Der/vn GE Der/nv Gram/TV SINNAA Der/vv NNGIT Der/vv Gram/TV V Ind 1Pl 3PlO @PRED #2->0
+	"pi" Gram/IV GUMA Der/vv Gram/IV VIK Der/vn GE Der/nv Gram/TV SINNAA Der/vv Gram/TV NNGIT Der/vv Gram/TV V Ind 1Pl 3PlO @PRED #2->0
 "<ima>"
 	"ima" Adv @i-ADVL> #3->4
 "<ittunik>"
 	"ip" Gram/IV TUQ Der/vn N Ins Pl @i->N #4->5
+	"ip" TUQ Der/vn N Ins Pl @i->N #4->5
 "<pisussaaffeqarpusi>"
-	"pisussaaffik" QAR Der/nv Gram/IV V Ind 2Pl @PRED #5->0
+	"pi" Gram/IV TUQ Der/vn SSAQ Der/nn U Der/nv Gram/IV VIK Der/vn QAR Der/nv Gram/IV V Ind 2Pl @PRED #5->0
 "<,>"
 	"," CLB #6->6
 "<kisianni>"
@@ -22504,9 +22505,9 @@
 
 <s id="nx9JXBeExOu7uJEI657psTnHQWw">
 "<Timmisartumut>"
-	"timmi" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Trm Sg @i-ADVL> #1->2
+	"timmi" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Trm Sg @ADVL>N #1->2
 "<billetsit>"
-	"billet" OLang/DAN Err/Sub N Abs Pl @SUBJ> #2->8
+	"billet" OLang/DAN N Abs Pl @SUBJ> #2->8
 "<ullumimiit>"
 	"ullumi" Abl Adv @ADVL> #3->8
 "<januaarip>"
@@ -22514,7 +22515,7 @@
 "<ulluisa>"
 	"ulloq" N Rel Pl 3SgPoss @POSS> #5->6
 "<17-iata>"
-	"17" Num Rel Sg 3PlPoss @POSS> #6->7
+	"17" Num Gram/Ord Rel Sg 3PlPoss @POSS> #6->7
 "<tungaanut>"
 	"tunge" N Trm Sg 3SgPoss @ADVL> #7->8
 "<utertinneqarsinnaalerput>"
