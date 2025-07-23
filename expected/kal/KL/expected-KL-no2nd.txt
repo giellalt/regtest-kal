@@ -1979,7 +1979,7 @@
 "<Ernisarfiit>"
 	"erni" TAR VIK N Rel Pl @POSS> #1->2
 "<amerlassusaat>"
-	"amerla" SSUSIQ N Abs Pl 3PlPoss #2->2
+	"amerla" SSUSIQ N Abs Sg 3PlPoss @SUBJ> #2->3
 "<allanngussanngilaq>"
 	"alla" NNGUR SSA NNGIT V Ind 3Sg @PRED #3->0
 </s>
@@ -9555,7 +9555,7 @@
 "<naak>"
 	"naak" Conj @CONJ #9->10
 "<utoqqaligaluarluni>"
-	"utoqqali" GALUAR V Cont 4Sg @PRED2 #10->3
+	"utoqqali" GALUAR V Cont 4Sg @<ADVL #10->3
 "<.>"
 	"." CLB DIRTALEMIDDLE #11->11
 </s>
@@ -14143,7 +14143,7 @@
 "<naak>"
 	"naak" Conj @CONJ #9->10
 "<utoqqaligaluarluni>"
-	"utoqqali" GALUAR V Cont 4Sg @PRED2 #10->3
+	"utoqqali" GALUAR V Cont 4Sg @<ADVL #10->3
 "<.>"
 	"." CLB #11->11
 </s>
@@ -15405,7 +15405,7 @@
 "<naleqqiullugu>"
 	"naleqqiup" V Cont 3SgO @ADVL> #15->16
 "<appasinnerpaalluni>"
-	"appasip" NIRPAAQ U V Cont 4Sg @PRED2 #16->10
+	"appasip" NIRPAAQ U V Cont 4Sg @<ADVL #16->10
 "<.>"
 	"." CLB #17->17
 </s>
@@ -16534,7 +16534,7 @@
 "<atornissaanut>"
 	"ator" NIQ SSAQ N Trm Sg 3SgPoss @ADVL> #4->5
 "<ilerasuutissaqanngikkaluarlutit>"
-	"ilerasup" UTE SSAQ QAR NNGIT GALUAR V Cont 2Sg @PRED2 #5->10
+	"ilerasup" UTE SSAQ QAR NNGIT GALUAR V Cont 2Sg @ADVL> #5->10
 "<sikkilip>"
 	"sikkili" N Rel Sg @POSS> #6->7
 "<akuerisaanissaanut>"
@@ -20233,7 +20233,7 @@
 "<qaangiisimaguni>"
 	"qaanger" HTR SIMA V Con 4Sg @<CON #8->4
 "<utoqqatsereeraluarluni>"
-	"utoqqatser" RIIR GALUAR V Cont 4Sg @PRED2 #9->4
+	"utoqqatser" RIIR GALUAR V Cont 4Sg @<ADVL #9->4
 "<.>"
 	"." CLB #10->10
 </s>
@@ -26825,7 +26825,7 @@
 "<imminnut>"
 	"immi" Pron Trm Pl @ADVL> #9->10
 "<kajungeralutik>"
-	"kajungere" V Cont 4Pl @PRED2 #10->6
+	"kajungere" V Cont 4Pl @<ADVL #10->6
 "<,>"
 	"," CLB #11->11
 "<uffalu>"
@@ -26837,7 +26837,7 @@
 "<sivisuumik>"
 	"sivisooq" N Ins Sg @ADVL> #15->16
 "<qiteqatigiissimallutik>"
-	"qitip" QATE GIIP SIMA V Cont 4Pl @PRED2 #16->6
+	"qitip" QATE GIIP SIMA V Cont 4Pl @<ADVL #16->6
 "<,>"
 	"," CLB #17->17
 "<ikinngutitik>"
@@ -31833,7 +31833,7 @@
 "<Nuummut>"
 	"Nuuk" Prop Trm Sg @i-ADVL> #9->12
 "<2025-mi>"
-	"2025" N Lok Sg @i-ADVL> #10->12
+	"2025" N Lok Sg @>N #10->11
 "<aasakkut>"
 	"aasaq" N Via Sg @i-ADVL> #11->12
 "<timmisartuussisussanut>"
@@ -37124,7 +37124,7 @@
 "<marluk>"
 	"marluk" Num Abs Pl @N< #4->3
 "<2019-imi>"
-	"2019" N Lok Sg @ADVL> #5->7
+	"2019" N Lok Sg @>N #5->6
 "<upernaakkut>"
 	"upernaaq" N Via Sg @ADVL> #6->7
 "<pilersikkaluarpai>"

@@ -1982,7 +1982,7 @@
 "<Ernisarfiit>"
 	"erni" Gram/IV TAR Der/vv Gram/IV VIK Der/vn N Rel Pl @POSS> #1->2
 "<amerlassusaat>"
-	"amerla" Gram/IV SSUSIQ Der/vn N Abs Pl 3PlPoss Orth/Alt #2->2
+	"amerla" Gram/IV SSUSIQ Der/vn N Abs Sg 3PlPoss Orth/Alt @SUBJ> #2->3
 "<allanngussanngilaq>"
 	"alla" NNGUR Der/nv Gram/IV SSA Der/vv Gram/IV NNGIT Der/vv Gram/IV V Ind 3Sg @PRED #3->0
 </s>
@@ -9567,7 +9567,7 @@
 "<naak>"
 	"naak" Conj @CONJ #9->10
 "<utoqqaligaluarluni>"
-	"utoqqali" Gram/IV GALUAR Der/vv Gram/IV Sem/Concessive V Cont 4Sg @PRED2 #10->3
+	"utoqqali" Gram/IV GALUAR Der/vv Gram/IV V Cont 4Sg @<ADVL #10->3
 "<.>"
 	"." CLB DIRTALEMIDDLE #11->11
 </s>
@@ -14161,7 +14161,7 @@
 "<naak>"
 	"naak" Conj @CONJ #9->10
 "<utoqqaligaluarluni>"
-	"utoqqali" Gram/IV GALUAR Der/vv Gram/IV Sem/Concessive V Cont 4Sg @PRED2 #10->3
+	"utoqqali" Gram/IV GALUAR Der/vv Gram/IV V Cont 4Sg @<ADVL #10->3
 "<.>"
 	"." CLB #11->11
 </s>
@@ -15423,7 +15423,7 @@
 "<naleqqiullugu>"
 	"naleqqiup" Gram/TV V Cont 3SgO @ADVL> #15->16
 "<appasinnerpaalluni>"
-	"appasip" Gram/IV NIRPAAQ Der/vn U Der/nv Gram/IV Sem/Concessive V Cont 4Sg @PRED2 #16->10
+	"appasip" Gram/IV NIRPAAQ Der/vn U Der/nv Gram/IV V Cont 4Sg @<ADVL #16->10
 "<.>"
 	"." CLB #17->17
 </s>
@@ -16556,7 +16556,7 @@
 "<atornissaanut>"
 	"ator" Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Sg 3SgPoss @ADVL> #4->5
 "<ilerasuutissaqanngikkaluarlutit>"
-	"ilerasup" Gram/IV UTE Der/vn SSAQ Der/nn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV GALUAR Der/vv Gram/IV Sem/Concessive V Cont 2Sg @PRED2 #5->10
+	"ilerasup" Gram/IV UTE Der/vn SSAQ Der/nn QAR Der/nv Gram/IV NNGIT Der/vv Gram/IV GALUAR Der/vv Gram/IV V Cont 2Sg @ADVL> #5->10
 "<sikkilip>"
 	"sikkili" N Rel Sg @POSS> #6->7
 "<akuerisaanissaanut>"
@@ -20264,7 +20264,7 @@
 "<qaangiisimaguni>"
 	"qaanger" Gram/TV HTR Der/vv Gram/IV SIMA Der/vv V Con 4Sg @<CON #8->4
 "<utoqqatsereeraluarluni>"
-	"utoqqatser" Gram/IV RIIR Der/vv Gram/IV GALUAR Der/vv Gram/IV Sem/Concessive V Cont 4Sg @PRED2 #9->4
+	"utoqqatser" Gram/IV RIIR Der/vv Gram/IV GALUAR Der/vv Gram/IV V Cont 4Sg @<ADVL #9->4
 "<.>"
 	"." CLB #10->10
 </s>
@@ -26877,7 +26877,7 @@
 "<imminnut>"
 	"immi" Gram/Coref Pron Trm Pl @ADVL> #9->10
 "<kajungeralutik>"
-	"kajungere" Gram/TV Gram/Refl Gram/IV Sem/Concessive V Cont 4Pl @PRED2 #10->6
+	"kajungere" Gram/TV Gram/Refl Gram/IV V Cont 4Pl @<ADVL #10->6
 "<,>"
 	"," CLB #11->11
 "<uffalu>"
@@ -26889,8 +26889,8 @@
 "<sivisuumik>"
 	"sivisooq" N Ins Sg @ADVL> #15->16
 "<qiteqatigiissimallutik>"
-	"qitip" Gram/IV QATE Der/vn GIIP Der/nv Gram/Reci Gram/IV SIMA Der/vv Sem/Concessive V Cont 4Pl @PRED2 #16->6
-	"qitip" Gram/IV QATE Der/vn GIIP Der/nv Gram/Reci SIMA Der/vv Sem/Concessive V Cont 4Pl @PRED2 #16->6
+	"qitip" Gram/IV QATE Der/vn GIIP Der/nv Gram/Reci Gram/IV SIMA Der/vv V Cont 4Pl @<ADVL #16->6
+	"qitip" Gram/IV QATE Der/vn GIIP Der/nv Gram/Reci SIMA Der/vv V Cont 4Pl @<ADVL #16->6
 "<,>"
 	"," CLB #17->17
 "<ikinngutitik>"
@@ -31893,7 +31893,7 @@
 "<Nuummut>"
 	"Nuuk" Sem/Geo Prop Trm Sg @i-ADVL> #9->12
 "<2025-mi>"
-	"2025" N Sem/dur Lok Sg @i-ADVL> #10->12
+	"2025" N Sem/dur Lok Sg @>N #10->11
 "<aasakkut>"
 	"aasaq" N Via Sg @i-ADVL> #11->12
 "<timmisartuussisussanut>"
@@ -37196,7 +37196,7 @@
 "<marluk>"
 	"marluk" Num Abs Pl @N< #4->3
 "<2019-imi>"
-	"2019" N Sem/dur Lok Sg @ADVL> #5->7
+	"2019" N Sem/dur Lok Sg @>N #5->6
 "<upernaakkut>"
 	"upernaaq" N Via Sg @ADVL> #6->7
 "<pilersikkaluarpai>"
