@@ -866,7 +866,7 @@
 
 <s id="4AtIOPcIrCwNeIoA9WFKz01aN0E">
 "<->"
-	"-" PUNCT DIRTALESTART #1->1
+	"-" PUNCT MIDDLE DIRTALESTART #1->1
 "<Ajunngilaq>"
 	"ajor" Gram/IV NNGIT Der/vv Gram/IV V Ind 3Sg @PRED #2->0
 "<,>"
@@ -1224,7 +1224,7 @@
 
 <s id="6qY4Oc9z3FDC9GYvOKpLD4mxVTA">
 "<->"
-	"-" PUNCT DIRTALESTART #1->1
+	"-" PUNCT MIDDLE DIRTALESTART #1->1
 "<Pitunngikkukkumi>"
 	"pitup" Gram/TV NNGIT Der/vv Gram/TV V Con 1Sg 3SgO MI @CON> #2->3
 "<qimaariaannaavoq>"
@@ -2294,6 +2294,7 @@
 <s id="C9jk6oDxEhcecwiL2IcdZ5RklnI">
 "<Naalakkersuisoqatigiit>"
 	"Naalakkersuisoq" QATE Der/nn GIIT Der/nn N Abs Pl @SUBJ> #1->4
+	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn N Abs Pl @SUBJ> #1->4
 "<Demokraatillu>"
 	"Demokraatit" Sem/Hum Gram/Conj-encl Prop Abs Pl CONJ-LU @SUBJ> #2->4
 "<kisimik>"
@@ -2806,7 +2807,7 @@
 "<paarlakaajaappatit>"
 	"paarlakaajaap" Gram/TV V Ind 2Sg 3PlO @PRED #3->0
 "<->"
-	"-" PUNCT #4->4
+	"-" PUNCT MIDDLE #4->4
 "<tamaasa>"
 	"tamaq" N Gram/Cong Akk 3Pl @OBJ> #5->6
 "<akulerussuullugit>"
@@ -3400,7 +3401,7 @@
 "<ajuutigineqarluni>"
 	"ajuut" GE Der/nv Gram/TV NIQAR Der/vv Gram/IV V Cont 4Sg @CL-<CIT #5->2
 "<->"
-	"-" PUNCT #6->6
+	"-" PUNCT MIDDLE #6->6
 "<ingammik>"
 	"ingammik" Adv @FOC>N #7->8
 "<Jensimit>"
@@ -5272,9 +5273,8 @@
 
 <s id="SSqi3J1ps6zVS9h4903O7xGIVv0">
 "<->"
-	"-" PUNCT DIRTALESTART #1->1
+	"-" PUNCT MIDDLE DIRTALESTART #1->1
 "<Arlaannut>"
-	"arlaq" N Gram/Cong Trm Sg 3PlPoss @HNOUN #2->0
 	"arlaq" N Trm Sg 3PlPoss @HNOUN #2->0
 "<iluarisaminut>"
 	"iluar" GE Der/vv Gram/TV TAQ Der/vn N Trm Sg 4SgPoss @N< #3->2
@@ -5519,7 +5519,7 @@
 
 <s id="Tz1ioWf9Bj5sx3VbUxEEkXRxwnI">
 "<->"
-	"-" PUNCT DIRTALESTART #1->1
+	"-" PUNCT MIDDLE DIRTALESTART #1->1
 "<Siumuinnarlu>"
 	"siumuinnaq" Gram/Conj-encl Adv CONJ-LU @ADVL> #2->3
 "<pisukkaanni>"
@@ -6264,7 +6264,7 @@
 
 <s id="XvCb3YRU9EwqzXMd33Eli0EBxxM">
 "<->"
-	"-" PUNCT DIRTALESTART #1->1
+	"-" PUNCT MIDDLE DIRTALESTART #1->1
 "<Pisinnaaguit>"
 	"pi" Gram/IV SINNAA Der/vv Gram/IV V Con 2Sg @CON> #2->7
 "<pisinnaanngikkuilluunniit>"
@@ -7356,7 +7356,7 @@
 
 <s id="d3SZqfgx9RPyeUlizvT6F4tz2G4">
 "<->"
-	"-" PUNCT DIRTALESTART #1->1
+	"-" PUNCT MIDDLE DIRTALESTART #1->1
 "<Taannami>"
 	"una" Prefix/TA Gram/Dem Pron Abs Sg MI @OBJ> #2->3
 "<atorlugu>"
@@ -8192,7 +8192,7 @@
 
 <s id="gwZWKd2xiAl9q5NE8cjwLtEjt5E">
 "<->"
-	"-" PUNCT DIRTALESTART #1->1
+	"-" PUNCT MIDDLE DIRTALESTART #1->1
 "<Avataarsualiartartut>"
 	"avataarsualiar" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Rel Pl @POSS>> #2->2
 "<Amerikameersut>"
@@ -8210,7 +8210,7 @@
 "<uternissaat>"
 	"uter" Gram/IV NIQ Der/vn SSAQ Der/nn N Abs Sg 3PlPoss @OBJ> #9->11
 "<politikkikkut>"
-	"politik" OLang/DAN Err/Sub N Via Sg @ADVL> #10->11
+	"politik" OLang/DAN Gram/GEMloan N Via Sg @ADVL> #10->11
 "<sulissutiginiarparput>"
 	"suli" Gram/IV UTE Der/vn GE Der/nv Gram/TV NIAR Der/vv Gram/TV V Ind 1Pl 3SgO @PRED #11->0
 "<,>"
@@ -8222,9 +8222,9 @@
 "<,>"
 	"," CLB DIRTALESLUT #15->15
 "<USA-mi>"
-	"USA" Sem/Geo Prop Lok Sg Orth/Alt @i-ADVL> #16->17
+	"USA" Sem/Geo Prop Lok Sg Err/Sub @i-ADVL> #16->17
 "<naalagaaffeeqqami>"
-	"naalagaq" U Der/nv Gram/IV VIK Der/vn ARAQ Der/nn N Lok Sg @ADVL> #17->21
+	"naalagaq" Sem/Hprof U Der/nv Gram/IV VIK Der/vn ARAQ Der/nn N Lok Sg @ADVL> #17->21
 "<Alabamami>"
 	"Alabama" Sem/Geo Prop Lok Sg @<APPOS #18->17
 "<illoqarfimmi>"
@@ -9089,7 +9089,7 @@
 "<piniartut>"
 	"pi" NIAR Der/vv Gram/IV TUQ Der/vn N Abs Pl @SUBJ> #2->13
 "<–>"
-	"–" PUNCT #3->3
+	"–" PUNCT MIDDLE #3->3
 "<Avannaani>"
 	"Avannaa" Sem/Geo Prop Lok Sg 3SgPoss @i-ADVL> #4->5
 "<piniartut>"
@@ -9099,7 +9099,7 @@
 "<assigalugit>"
 	"assi" GE Der/nv Gram/TV V Cont 3PlO @ADVL> #7->13
 "<–>"
-	"–" PUNCT #8->8
+	"–" PUNCT MIDDLE #8->8
 "<37-nit>"
 	"37" Gram/2sml Num Abl Pl @i-ADVL> #9->10
 "<amerlanerusunik>"
@@ -11317,7 +11317,7 @@
 
 <s id="tPBn1S3AnUiYUotWwwcRxgTnuqg">
 "<->"
-	"-" PUNCT DIRTALESTART #1->1
+	"-" PUNCT MIDDLE DIRTALESTART #1->1
 "<Sumunnassagami>"
 	"sumunnar" Gram/IV SSA Der/vv Gram/IV V Cau 4Sg @PRED #2->0
 "<aamma>"
@@ -11833,7 +11833,7 @@
 "<erfalasoqartoq>"
 	"erfalasoq" QAR Der/nv Gram/IV V Par 3Sg @CL-<CIT #8->6
 "<–>"
-	"–" PUNCT #9->9
+	"–" PUNCT MIDDLE #9->9
 "<sunamitaava>"
 	"suna" Gram/Int Pron Abs Sg MI TAAVA @OBJ> #10->11
 "<pillugu>"
@@ -12754,7 +12754,7 @@
 
 <s id="zVZdXgr9fs66Lnz6DgXMZxAeK9Y">
 "<->"
-	"-" PUNCT DIRTALESTART #1->1
+	"-" PUNCT MIDDLE DIRTALESTART #1->1
 "<Qanoruna>"
 	"qanoq" Adv UNA @ADVL> #2->3
 "<oqarpit>"
