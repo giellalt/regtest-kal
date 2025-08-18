@@ -2885,19 +2885,19 @@
 "<Nauja>"
 	"Nauja" Dial/Vgr Sem/Fem Sem/Hum Prop Abs Sg @PROP> #2->3
 "<Bianco>"
-	"Bianco" Sem/LastName Sem/Hum Prop Abs Sg @<SUBJ #3->3
+	"Bianco" Sem/LastName Sem/Hum Prop Abs Sg @<SUBJ #3->1
 "<,>"
 	"," CLB #4->4
 "<29-nik>"
 	"29" Num Ins Pl @i->N #5->6
 "<ukiulik>"
-	"ukioq" LIK Der/nn N Abs Sg @<SUBJ #6->1
+	"ukioq" LIK Der/nn N Abs Sg @N< #6->3
 "<,>"
 	"," CLB #7->7
 "<taannalu>"
 	"una" Prefix/TA Gram/Dem Gram/Conj-encl Pron Abs Sg CONJ-LU @SUBJ> #8->13
 "<naalagaaffimmi>"
-	"naalagaq" U Der/nv Gram/IV VIK Der/vn N Lok Sg @i-ADVL> #9->10
+	"naalagaq" Sem/Hprof U Der/nv Gram/IV VIK Der/vn N Lok Sg @i-ADVL> #9->10
 "<pissutsit>"
 	"pi" Gram/IV SSUSIQ Der/vn N Abs Pl @OBJ> #10->11
 "<pillugit>"
@@ -17975,9 +17975,9 @@
 "<qaqungaaramik>"
 	"qaqor" Gram/IV NGAAR Der/vv Gram/IV V Cau 4Pl @PRED #11->0
 "<soorlumi>"
-	"soorlu" Adv MI @ADVL> #12->18
+	"soorlu" Conj MI #12->12
 "<aput>"
-	"aput" N Abs Sg @<SUBJ #13->13
+	"aput" N Abs Sg @HNOUN #13->0
 "<,>"
 	"," CLB #14->14
 "<aputitummi>"
@@ -22332,7 +22332,7 @@
 "<ilaallutik>"
 	"ilaa" Gram/IV V Cont 4Pl @ADVL> #3->4
 "<angalasut>"
-	"angala" Gram/IV Sem/Temporal V Par 3Pl @PRED2 #4->9
+	"angala" Gram/IV V Par 3Pl @PRED2 #4->9
 "<kingulliit>"
 	"kingulleq" N Abs Pl @SUBJ> #5->9
 "<maannakkorluinnaq>"
@@ -22364,9 +22364,10 @@
 "<timmisartunik>"
 	"timmi" Gram/IV TAR Der/vv Gram/IV TUQ Der/vn N Ins Pl @i-MIK-OBJ> #19->20
 "<aqutsisoqarfianeersoq>"
+	"aqup" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn Gram/lex Sem/Hprof QAR Der/nv Gram/IV VIK Der/vn N Abl Sg 3SgPoss Hyb/1-2 @i-ADVL> #20->21
 	"aqup" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn N Abl Sg 3SgPoss Hyb/1-2 @i-ADVL> #20->21
 "<IR>"
-	"IR" Gram/IV TUQ Der/vn N Abs Sg Hyb/2-2 @SUBJ> #21->25
+	"IR" Gram/IV TUQ Der/vn N Abs Sg Hyb/2-2 @<SUBJ #21->11
 "<,>"
 	"," CLB #22->22
 "<Hans>"
