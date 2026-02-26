@@ -2042,7 +2042,7 @@
 "<isertuussanik>"
 	"isertuussaq" N Ins Pl @i->N #6->7
 "<nalunaaruteqartarfimmi>"
-	"nalunaar" UTE QAR TAR VIK N Lok Sg @N< #7->4
+	"nalunaar" UTE QAR TAR VIK N Lok Sg @ADVL> #7->9
 "<Telegram-imi>"
 	"telegram" N Lok Sg @N< #8->7
 "<allaqqavoq>"
@@ -10074,6 +10074,23 @@
 	"siammarter" HTR SIMA NIRAR V Cau 3Sg 3PlO @<CAU #20->14
 "<.>"
 	"." CLB #21->21
+</s>
+
+<s id="CQu8LxJu1JxN7OjLJJNxfSDn9YE">
+"<Maanili>"
+	"ma" Adv Lok CONJ-LI @i-ADVL> #1->2
+"<pisortat>"
+	"pisortaq" N Abs Pl @SUBJ> #2->3
+"<peqqinnissaqarfeqarput>"
+	"peqqip" NIQ SSAQ QAR VIK QAR V Ind 3Pl @PRED #3->0
+"<akeqanngitsumik>"
+	"aki" QAR NNGIT TUQ N Ins Sg @i-ADVL> #4->5
+"<innuttaasunut>"
+	"innuttaq" U TUQ N Trm Pl @i-ADVL> #5->6
+"<katsorsaasartumik>"
+	"katsor" SAR HTR TAR TUQ N Ins Sg @i-N< #6->3
+"<.>"
+	"." CLB #7->7
 </s>
 
 <s id="CSYhU8QBpJSfxHnBgpxxpbCMa5Q">
@@ -23249,7 +23266,7 @@
 "<ullormi>"
 	"ulloq" N Lok Sg @ADVL> #3->7
 "<qinersivimmi>"
-	"qiner" HTR VIK N Lok Sg @N< #4->3
+	"qiner" HTR VIK N Lok Sg @i-ADVL> #4->5
 "<qinersineq>"
 	"qiner" HTR NIQ N Abs Sg @SUBJ> #5->7
 "<aatsaat>"
@@ -29760,7 +29777,7 @@
 "<tapersersuisut>"
 	"tapersersor" HTR TUQ N Abs Pl @SUBJ> #3->8
 "<Nuummi>"
-	"Nuuk" Prop Lok Sg @ADVL> #4->7
+	"Nuuk" Prop Lok Sg @i-ADVL> #4->5
 "<timersortarfissuarmi>"
 	"timersor" TAR VIK SUAQ N Lok Sg @ADVL> #5->7
 "<ataatsimoorlutik>"
@@ -30256,7 +30273,7 @@
 "<tunngatillugu>"
 	"tunnga" TIP V Cont 3SgO @i-ADVL> #20->21
 "<Aalajangiisartut>"
-	"aalajanger" HTR SAR TUQ N Rel Pl @POSS> #21->22
+	"aalajanger" HTR TAR TUQ N Rel Pl @POSS> #21->22
 "<ataatsimeereernerisa>"
 	"ataatsimiip" RIIR NIQ N Rel Pl 3PlPoss #22->22
 "<kingorna>"
@@ -33990,6 +34007,37 @@
 	"." CLB #10->10
 </s>
 
+<s id="hNCawqAdEv8Yvxt5VyZRvkwVsCk">
+"<Qarasaasiakkut>"
+	"qarasaasiaq" N Via Sg @i-ADVL> #1->2
+"<pinerliiniat>"
+	"pinerli" HTR NIAQ N Abs Pl @SUBJ> #2->13
+"<taakkua>"
+	"una" Pron Abs Pl @N< #3->2
+"<Danmarkimi>"
+	"Danmark" Prop Lok Sg @i-ADVL> #4->8
+"<kommuninut>"
+	"kommune" N Trm Pl @i-ADVL> #5->8
+"<siorna>"
+	"siorna" Adv @>N #6->7
+"<novembarimi>"
+	"novembari" N Lok Sg @i-ADVL> #7->8
+"<qinersisoqarnerani>"
+	"qiner" HTR TUQ QAR NIQ N Lok Sg 3SgPoss @ADVL> #8->13
+"<,>"
+	"," CLB #9->9
+"<kommunit>"
+	"kommune" N Rel Pl @POSS> #10->12
+"<ministereqarfiillu>"
+	"minister" QAR VIK N Rel Pl CONJ-LU @POSS> #11->12
+"<nittartagaannik>"
+	"nittar" TAR TAQ N Ins Sg 3PlPoss @MIK-OBJ> #12->13
+"<saassussipput>"
+	"saassup" HTR V Ind 3Pl @PRED #13->0
+"<.>"
+	"." CLB #14->14
+</s>
+
 <s id="hP3SIVMExGQXexFYbjq8FEJfxP8">
 "<Inuusuttut>"
 	"inuusup" TUQ N Abs Pl @SUBJ> #1->7
@@ -35587,6 +35635,41 @@
 	"neqeroor" UTE U V Ind 3Sg @PRED #11->0
 "<.>"
 	"." CLB #12->12
+</s>
+
+<s id="jMhxxFziHFJvlYiwpO4UydnXxxg">
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART #1->1
+"<Oqaloqatigiinnermi>"
+	"oqalup" QATE GIIP NIQ N Lok Sg @ADVL> #2->5
+"<suleqatigiinnermilu>"
+	"suli" QATE GIIP NIQ N Lok Sg CONJ-LU @ADVL> #3->11
+"<nunarput>"
+	"nuna" N Abs Sg 1PlPoss @OBJ> #4->5
+"<pillugu>"
+	"pi" V Cont 3SgO @i-ADVL> #5->9
+"<aalajangikkat>"
+	"aalajanger" TAQ N Rel Pl @POSS> #6->9
+"<maani>"
+	"ma" Adv Lok @i-ADVL> #7->10
+"<nunatsinni>"
+	"nuna" N Lok Sg 1PlPoss @A< #8->7
+"<aalajangerneqartarnerannik>"
+	"aalajanger" NIQAR TAR NIQ N Ins Sg 3PlPoss @i-MIK-OBJ> #9->10
+"<ataqqinninneq>"
+	"ataqqi" HTR NIQ N Abs Sg @SUBJ> #10->11
+"<tunngavissaasoq>"
+	"tunnga" VIK SSAQ U V Par 3Sg @CL-CIT> #11->14
+"<”>"
+	"”" PUNCT RIGHT #12->12
+"<,>"
+	"," CLB #13->13
+"<ilanngullugu>"
+	"ilanngup" V Cont 3SgO @ADVL> #14->15
+"<oqaatigaa>"
+	"oqaatige" V Ind 3Sg 3SgO @PRED #15->0
+"<.>"
+	"." CLB DIRTALEMIDDLE #16->16
 </s>
 
 <s id="jMrj84DJgSgGYTEuYWNPlBqQU24">
@@ -37626,8 +37709,8 @@
 "<unnukkut>"
 	"unnuk" N Via Sg @ADVL> #3->7
 "<Brasiliami>"
-	"Brasilia" Prop Lok Sg @ADVL> #4->7
-	"Brasilien" Prop Lok Sg @ADVL> #4->7
+	"Brasilia" Prop Lok Sg @i-ADVL> #4->5
+	"Brasilien" Prop Lok Sg @i-ADVL> #4->5
 "<illoqarfimmi>"
 	"illu" QAR VIK N Lok Sg @ADVL> #5->7
 "<Curitibami>"
@@ -38828,6 +38911,19 @@
 	"ullorsior" LLUAR GI V Imp 2Pl @PRED #1->0
 </s>
 
+<s id="naAPuPljXrUCZ93wbxV42l5KhCM">
+"<Tamanna>"
+	"manna" Pron Abs Sg @OBJ> #1->4
+"<inuiaqatigiinni>"
+	"inuiaqat" GIIT N Lok Pl @i-ADVL> #2->3
+"<toqqammavitta>"
+	"toqqama" VIK N Rel Pl 1PlPoss @SUBJ> #3->4
+"<ilagaat>"
+	"ila" GE V Ind 3Pl 3SgO @PRED #4->0
+"<.>"
+	"." CLB #5->5
+</s>
+
 <s id="naz9XYU2f4ry5fG1OZ8rShRi6FE">
 "<->"
 	"-" PUNCT MIDDLE DIRTALESTART #1->1
@@ -39684,7 +39780,7 @@
 "<Oqaasileriffimmi>"
 	"Oqaasileriffik" Prop Lok Sg @i-ADVL> #2->3
 "<asaasartuvut>"
-	"asa" USAR TUQ N Abs Pl 1PlPoss @SUBJ> #3->4
+	"asap" HTR TAR TUQ N Abs Pl 1PlPoss @SUBJ> #3->4
 "<tuaviorpallaalaartarsimagunaramik>"
 	"tuavior" VALLAAR LAAR TAR SIMA GUNAR V Cau 4Pl @CAU> #4->5
 "<asaasoqarsimagaluartorluunniit>"
@@ -40035,6 +40131,32 @@
 	"tunniup" HTR VIK SSAQ GE V Par 3Pl 3PlO @CL-<CIT #6->2
 "<.>"
 	"." CLB #7->7
+</s>
+
+<s id="ofqA2uYxjuWCkcNxp8QKZ4JGkxI">
+"<Inuinnaat>"
+	"inuk" INNAQ N Rel Pl @POSS> #1->3
+"<attaveqaatini>"
+	"ata" VIK QAR UTE N Lok Pl @i-ADVL> #2->3
+"<naapeqatigiittarfiini>"
+	"naapip" QATE GIIP TAR VIK N Lok Pl 3PlPoss @ADVL> #3->5
+"<nalaatsortumik>"
+	"nalaatsor" TUQ N Ins Sg @ADVL> #4->5
+"<oqariartuuteqarnasi>"
+	"oqar" GIARTUR UTE QAR V ContNeg 2Pl @ADVL> #5->6
+"<oqaloqatiginiartigut>"
+	"oqalup" QATE GE NIAR V Imp 2Pl 1PlO @PRED #6->0
+	"oqalup" QATE GE NIAR V Imp 2Sg 1PlO @PRED #6->0
+"<,>"
+	"," CLB #7->7
+"<Jens-Frederik>"
+	"Jens-Frederik" Prop Abs Sg @PROP> #8->9
+"<Nielsen>"
+	"Nielsen" Prop Abs Sg @SUBJ> #9->10
+"<allappoq>"
+	"allap" V Ind 3Sg @PRED #10->0
+"<.>"
+	"." CLB #11->11
 </s>
 
 <s id="okqFQTSGpdxmnD75fdBTTx2xigw">
@@ -42288,7 +42410,7 @@
 
 <s id="rWgTNOs4Ss138C6i3x2da9TdQHk">
 "<Samsømi>"
-	"Samsø" Prop Lok Sg @ADVL> #1->8
+	"Samsø" Prop Lok Sg @i-ADVL> #1->2
 "<nunaqarfeeqqami>"
 	"nuna" QAR VIK ARAQ N Lok Sg @ADVL> #2->8
 "<Brundbymi>"
@@ -48337,9 +48459,9 @@
 "<Kujataani>"
 	"Kujataa" Prop Lok Sg 3SgPoss @ADVL> #1->8
 "<Nalunami>"
-	"Nalunaq" Prop Lok Sg @ADVL> #2->8
+	"Nalunaq" Prop Lok Sg @i-ADVL> #2->3
 "<kuultisiorfimmi>"
-	"kuulti" SIUR VIK N Lok Sg @N< #3->2
+	"kuulti" SIUR VIK N Lok Sg @ADVL> #3->8
 "<aqqusinermi>"
 	"aqqusineq" N Lok Sg @i-ADVL> #4->5
 "<angallannermi>"
