@@ -9795,7 +9795,7 @@
 "<allat>"
 	"alla" N Abs Pl @N< #3->2
 "<peqatigalugit>"
-	"peqat" GE V Cont 3PlO @i-ADVL> #4->7
+	"peqat" GE V Cont 3PlO @ADVL> #4->9
 "<naluttarfissamut>"
 	"nalup" TAR VIK SSAQ N Trm Sg @i-ADVL> #5->7
 	"naluttar" VIK SSAQ N Trm Sg @i-ADVL> #5->7
@@ -12249,7 +12249,7 @@
 "<matut>"
 	"matu" N Abs Pl @SUBJ> #3->5
 "<nunamit>"
-	"nuna" N Abl Sg @ADVL> #4->5
+	"nuna" N Abl Sg @AGENS #4->5
 "<asserneqassapput>"
 	"asser" NIQAR SSA V Ind 3Pl @PRED #5->0
 "<.>"
@@ -15975,7 +15975,7 @@
 "<oqarnera>"
 	"oqar" NIQ N Abs Sg 3SgPoss @OBJ> #2->3
 "<naapertorlugu>"
-	"naapertor" V Cont 3SgO @i-ADVL> #3->5
+	"naapertor" V Cont 3SgO @ADVL> #3->7
 "<Danmarkimut>"
 	"Danmark" Prop Trm Sg @i-ADVL> #4->5
 "<assartuussiniarneq>"
@@ -21019,7 +21019,7 @@
 "<qinnuteqaataanut>"
 	"qinnut" QAR UTE N Trm Sg 3SgPoss @ADVL> #4->5
 "<tunngatillugu>"
-	"tunnga" TIP V Cont 3SgO @i-ADVL> #5->8
+	"tunnga" TIP V Cont 3SgO @ADVL> #5->9
 "<tamanut>"
 	"tamaq" N Trm Pl @i-ADVL> #6->7
 "<ammasumik>"
@@ -22074,7 +22074,7 @@
 
 <s id="RlpUJLx2hQBbiHTxXWYE8BP1a8Q">
 "<Taakkunannga>"
-	"una" Pron Abl Pl @ADVL> #1->8
+	"una" Pron Abl Pl @ADVL> #1->10
 "<Qaqortumi>"
 	"Qaqortoq" Prop Lok Sg @i-ADVL> #2->6
 "<,>"
@@ -25422,9 +25422,9 @@
 "<aatsitassaqarsinnaanera>"
 	"aap" TIP TAQ SSAQ QAR SINNAA NIQ N Abs Sg 3SgPoss @SUBJ> #5->10
 "<Namminersorlutik Oqartussanit>"
-	"Namminersorlutik Oqartussat" Prop Abl Pl @AGENS #6->10
+	"Namminersorlutik Oqartussat" Prop Abl Pl @i-AGENS #6->9
 "<GEUS-imiillu>"
-	"GEUS" Prop Abl Sg CONJ-LU @AGENS #7->10
+	"GEUS" Prop Abl Sg CONJ-LU @i-AGENS #7->9
 "<ataatsimut>"
 	"ataaseq" Num Trm Sg @i-ADVL> #8->9
 "<ingerlassatut>"
@@ -27191,7 +27191,7 @@
 "<pisinnaatitaaffiit>"
 	"pi" SINNAA TIP TAQ U VIK N Abs Pl @OBJ> #9->10
 "<pillugit>"
-	"pi" V Cont 3PlO @i-ADVL> #10->13
+	"pi" V Cont 3PlO @i-ADVL> #10->12
 "<Europami>"
 	"Europa" Prop Lok Sg @i-ADVL> #11->12
 "<isumaqatigiissummik>"
@@ -28426,7 +28426,7 @@
 "<isertortumik>"
 	"isertor" TUQ N Ins Sg @i-ADVL> #4->5
 "<paasiniaasartuinit>"
-	"paasi" NIAR HTR TAR TUQ N Abl Pl 3PlPoss @i-ADVL> #5->6
+	"paasi" NIAR HTR TAR TUQ N Abl Pl 3PlPoss @i-AGENS #5->7
 "<anngiortumik>"
 	"anngior" TUQ N Ins Sg @i-ADVL> #6->7
 "<naalaarneqalereersimanissaat>"
@@ -29809,17 +29809,17 @@
 "<soorlu>"
 	"soorlu" Adv @FOC>N #8->9
 "<oqaasilerisunit>"
-	"oqaaseq" LIRI TUQ N Abl Pl @AGENS #9->17
+	"oqaaseq" LIRI TUQ N Abl Pl @N< #9->5
 "<,>"
 	"," CLB #10->10
 "<ilinniartitsisunit>"
-	"ilinniar" TIP HTR TUQ N Abl Pl @AGENS #11->17
+	"ilinniar" TIP HTR TUQ N Abl Pl @N< #11->5
 "<,>"
 	"," CLB #12->12
 "<tusagassiortunit>"
-	"tusar" TAQ SSAQ LIUR TUQ N Abl Pl @AGENS #13->17
+	"tusar" TAQ SSAQ LIUR TUQ N Abl Pl @N< #13->5
 "<soqutiginnittunillu>"
-	"soqut" GE HTR TUQ N Abl Pl CONJ-LU @AGENS #14->17
+	"soqut" GE HTR TUQ N Abl Pl CONJ-LU @N< #14->5
 "<allanit>"
 	"alla" N Abl Pl @N< #15->14
 "<tamanit>"
@@ -33608,7 +33608,7 @@
 "<suli>"
 	"suli" Adv @ADVL> #9->10
 "<naammassillugit>"
-	"naammassi" V Cont 3PlO @i-ADVL> #10->12
+	"naammassi" V Cont 3PlO @i-ADVL> #10->11
 "<suliarineqarsimanngitsut>"
 	"suliaq" GE NIQAR SIMA NNGIT TUQ N Abs Pl @N< #11->4
 "<nassiunneqaqqissanngillat>"
@@ -35735,7 +35735,7 @@
 "<(>"
 	"(" PUNCT LEFT #2->2
 "<nunap inoqqaavinit>"
-	"nunap inoqqaavi" N Abl Pl 3SgPoss @ADVL> #3->11
+	"nunap inoqqaavi" N Abl Pl 3SgPoss @N< #3->1
 "<aaqq.>"
 	"aaqq" N #4->4
 "<)>"
@@ -35776,7 +35776,7 @@
 "<nunarsuaq>"
 	"nunarsuaq" Prop Abs Sg @OBJ> #4->5
 "<tamakkerlugu>"
-	"tamakker" V Cont 3SgO @i-ADVL> #5->7
+	"tamakker" V Cont 3SgO @ADVL> #5->9
 "<imminut>"
 	"immi" Pron Trm Sg @i-ADVL> #6->7
 "<toqunnissamut>"
@@ -42649,7 +42649,7 @@
 "<->"
 	"-" PUNCT MIDDLE DIRTALESTART #1->1
 "<Naleqqamiit>"
-	"Naleraq" Prop Abl Sg @i-ADVL> #2->3
+	"Naleraq" Prop Abl Sg @i-AGENS #2->3
 "<qinigassanngortittut>"
 	"qiner" TAQ SSAQ NNGUR TIP TUQ N Abs Pl @OBJ> #3->4
 "<tapersersorpakka>"
@@ -45090,7 +45090,7 @@
 "<oqarnera>"
 	"oqar" NIQ N Abs Sg 3SgPoss @OBJ> #7->8
 "<naapertorlugu>"
-	"naapertor" V Cont 3SgO @i-ADVL> #8->11
+	"naapertor" V Cont 3SgO @ADVL> #8->15
 "<Danmarkimi>"
 	"Danmark" Prop Lok Sg @i-ADVL> #9->11
 "<Kalaallit Illuutaanni>"
@@ -45143,7 +45143,7 @@
 "<Montrealiminngaanniit>"
 	"Montreal" Prop Abl Sg @ADVL> #2->5
 "<Nunavimmi>"
-	"Nunavik" Prop Lok Sg @ADVL> #3->4
+	"Nunavik" Prop Lok Sg @ADVL>N #3->4
 "<Kuujjuarmut>"
 	"Kuujjuaq" Prop Trm Sg @ADVL> #4->5
 "<timmisartortinneqariarlutik>"
