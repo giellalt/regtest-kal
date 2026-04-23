@@ -162,6 +162,10 @@
 	"." CLB #6->6
 </s>
 
+<s id="0CiCoI8LbdM6D9aK6tYvsE3VhNQ">
+
+</s>
+
 <s id="0EXEaPw3Xecgpx2lowJ0pY3OWeg">
 "<Oqaasileriffimmi>"
 	"Oqaasileriffik" Prop Lok Sg @i-ADVL> #1->3
@@ -3945,6 +3949,21 @@
 	"." CLB #2->2
 </s>
 
+<s id="4UQQpaBk2hpA5fxjSsbX5RUqV4o">
+"<“>"
+	"“" PUNCT LEFT #1->1
+"<Uangalu>"
+	"uanga" Pron Rel 1Sg CONJ-LU @HNOUN #2->0
+"<,>"
+	"," CLB #3->3
+"<">"
+	""" PUNCT #4->4
+"<akivara>"
+	"aki" V Ind 1Sg 3SgO @PRED #5->0
+"<.>"
+	"." CLB #6->6
+</s>
+
 <s id="4VvJeKghlskDHupdOxurv5l2duk">
 "<Ilisimasaqarnissaq>"
 	"ilisima" TAQ QAR NIQ SSAQ N Abs Sg @OBJ> #1->3
@@ -7054,6 +7073,23 @@
 	"suli" TUQ QAR SSA V Ind 3Sg @PRED #6->0
 "<.>"
 	"." CLB DIRTALEMIDDLE #7->7
+</s>
+
+<s id="8ZclCJvqQ5XjPAqMaaQ8meJU58g">
+"<Kisianni>"
+	"kisianni" Conj @CONJ #1->6
+"<illiusimassappat>"
+	"illit" U SIMA SSA V Con 3Sg @CON> #2->6
+"<,>"
+	"," CLB #3->3
+"<soorlu>"
+	"soorlu" Adv @ADVL> #4->6
+"<angutaatigigunakkat>"
+	"angutaat" GE GUNAR TAQ N Abs Sg 2SgPoss @OBJ> #5->6
+"<ilagigit>"
+	"ila" GE V Par 2Sg 3SgO @PRED #6->0
+"<.>"
+	"." CLB #7->7
 </s>
 
 <s id="8a2xqT59tUSbQtVNao4tAbxNnN4">
@@ -12847,6 +12883,19 @@
 	"." CLB #6->6
 </s>
 
+<s id="FQn7jPZ25kJda9jWQyElluEUfKU">
+"<Nipangersimaniarsarivunga>"
+	"nipanger" SIMA NIARSARE V Ind 1Sg @PRED #1->0
+"<oqaqqikkuma>"
+	"oqar" QQIP V Con 1Sg @CON> #2->4
+"<arpalluni>"
+	"arpap" V Cont 4Sg @ADVL> #3->4
+"<qimaanialeqimmat>"
+	"qimaa" NIAR LIR QE V Cau 3Sg @<CAU #4->1
+"<.>"
+	"." CLB #5->5
+</s>
+
 <s id="FScG3rrOxlXyDmh9hDQLtzxDZYA">
 "<Piareersimasariaqarpugut>"
 	"piareer" SIMA TARIAQAR V Ind 1Pl @PRED #1->0
@@ -13870,6 +13919,32 @@
 	"pitsak" U TUQ N Abs Sg @i-SUBJ_COMP< #3->2
 "<.>"
 	"." CLB #4->4
+</s>
+
+<s id="GZTIg0hcbj0upD5YVApocmYuOuM">
+"<Assinganik>"
+	"assik" N Ins Sg 3SgPoss @ADVL> #1->2
+"<qissimippaanga>"
+	"qissimip" V Ind 3Sg 1SgO @PRED #2->0
+"<,>"
+	"," CLB #3->3
+"<uangalu>"
+	"uanga" Pron Abs 1Sg CONJ-LU @SUBJ> #4->5
+"<uninngaveerukkama>"
+	"uninngavik" IRUTE V Cau 1Sg @CAU> #5->7
+"<suaartarlunga>"
+	"suaar" TAR V Cont 1Sg @ADVL> #6->7
+"<pississaarusukkaluarpunga>"
+	"pissip" SAR HTR GUSUP GALUAR V Ind 1Sg @PRED #7->0
+	"pississaar" GUSUP GALUAR V Ind 1Sg @PRED #7->0
+"<talikkalu>"
+	"taleq" N Abs Pl 1SgPoss CONJ-LU @OBJ> #8->10
+"<silaannarmi>"
+	"sila" INNAQ N Lok Sg @ADVL> #9->10
+"<aalaterujussuarlugit>"
+	"aalater" RUJUP SUAR V Cont 3PlO @PRED #10->0
+"<.>"
+	"." CLB #11->11
 </s>
 
 <s id="GfDSSBUUb4fUmoZY6BIBDErfkXA">
@@ -16402,7 +16477,7 @@
 "<aqutsisutut>"
 	"aqup" HTR TUQ N Aeq Sg @ADVL> #8->9
 "<pikkorissaassaanga>"
-	"pikkorip" SAR HTR SSA V Ind 1Sg @PRED #9->0
+	"pikkorip" SSAAR SSA V Ind 1Sg @PRED #9->0
 "<.>"
 	"." CLB #10->10
 </s>
@@ -30852,7 +30927,6 @@
 "<qinnuteqarnermik>"
 	"qinnut" QAR NIQ N Ins Sg @CL-<ADVL #7->4
 "<najoqqutassat>"
-	"najoqqutaq" SSAQ N Abs Pl @i-SUBJ_COMP< #8->4
 	"najoqqutaq" SSAQ N Abs Sg 2SgPoss @i-SUBJ_COMP< #8->4
 "<,>"
 	"," CLB #9->9
@@ -35877,7 +35951,7 @@
 "<Aperigaanni>"
 	"apere" V Par 3Sg 3SgO @CL-ADVL> #1->5
 "<sooq>"
-	"sooq" Adv @<ADVL #2->5
+	"sooq" Adv @HNOUN #2->0
 "<,>"
 	"," CLB #3->3
 "<taava>"
@@ -35887,7 +35961,7 @@
 "<'>"
 	"'" PUNCT #6->6
 "<Sapinnginnama>"
-	"saper" NNGIT V Cau 1Sg @<CAU #7->5
+	"saper" NNGIT V Cau 1Sg @PRED #7->0
 "<'>"
 	"'" PUNCT #8->8
 "<.>"
@@ -43977,6 +44051,29 @@
 	"." CLB #17->17
 </s>
 
+<s id="ppXTrfxj2nVndN3BEZdRhDIb8xY">
+"<“>"
+	"“" PUNCT LEFT #1->1
+"<Uangaana>"
+	"uanga" Pron Abs 1Sg UNA @SUBJ> #2->3
+"<angerlangajalersunga>"
+	"angerlar" NGAJAP LIR V Par 1Sg @PRED #3->0
+"<,>"
+	"," CLB #4->4
+"<aqagu>"
+	"aqagu" Adv @i-ADVL> #5->7
+"<qasullunga>"
+	"qasu" V Cont 1Sg @i-ADVL> #6->7
+"<suliartornissara>"
+	"suli" GIARTUR NIQ SSAQ N Abs Sg 1SgPoss @OBJ> #7->8
+"<eqiagigakku>"
+	"eqiage" V Cau 1Sg 3SgO @<CAU #8->3
+"<.>"
+	"." CLB #9->9
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART #1->1
+</s>
+
 <s id="pqk9jJvd6hP8vYNbkQzlUTa1uUA">
 "<Islandimi>"
 	"Island" Prop Lok Sg @i-ADVL> #1->2
@@ -44071,6 +44168,23 @@
 	"Airbnb" Prop Abl Sg @ADVL> #3->4
 "<IR>"
 	"IR" TUQ U V Ind 3Pl @PRED #4->0
+</s>
+
+<s id="pvCdkCq6KRxwXYKcdSYYddA1gmQ">
+"<“>"
+	"“" PUNCT LEFT #1->1
+"<Suminngaaniit>"
+	"suna" Pron Abl Sg @ADVL> #2->3
+"<puttuteriasaarpit>"
+	"puttup" RIATAAR V Int 2Sg @PRED #3->0
+"<?>"
+	"?" CLB #4->4
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART #1->1
+"<aqussinnaanngilanga>"
+	"aqup" SINNAA NNGIT V Ind 1Sg @PRED #2->0
+"<.>"
+	"." CLB DIRTALEMIDDLE #3->3
 </s>
 
 <s id="px8XFXgmOBDKuLv3mtnkMxZu3a0">
@@ -50482,6 +50596,23 @@
 	"?" CLB #7->7
 </s>
 
+<s id="x76t7dalHaXIEaZJ5hVbgfFiwgg">
+"<“>"
+	"“" PUNCT LEFT #1->1
+"<Kajumigisorsuunnginnakku>"
+	"kajumige" TURSUU NNGIT V Cau 1Sg 3SgO @PRED #2->0
+"<ullumikkut>"
+	"ullumikkut" Adv @<ADVL #3->2
+"<,>"
+	"," CLB #4->4
+"<”>"
+	"”" PUNCT RIGHT #5->5
+"<akivara>"
+	"aki" V Ind 1Sg 3SgO @PRED #6->0
+"<.>"
+	"." CLB #7->7
+</s>
+
 <s id="x7fY6xwVxjqd4CSpILCnMHABLIk">
 "<Oqaaseqaataasinnaasut>"
 	"oqaaseq" QAR UTE U SINNAA TUQ N Abs Pl @SUBJ> #1->11
@@ -54209,6 +54340,21 @@
 	"qaqip" HTR V Ind 3Pl @PRED #6->0
 "<.>"
 	"." CLB #7->7
+</s>
+
+<s id="zqbnKOSTpbWcIWuoxtjEYDN9KcU">
+"<Nalaatarisama>"
+	"nalaataq" GE TAQ N Rel Sg 1SgPoss @POSS> #1->3
+"<eqqumiitsorsuup>"
+	"eqqumiip" TUQ SUAQ N Rel Sg @N< #2->1
+"<allanngorsimanissaanut>"
+	"alla" NNGUR SIMA NIQ SSAQ N Trm Sg 3SgPoss @ADVL> #3->4
+"<ilimasullunga>"
+	"ilimasup" V Cont 1Sg @ADVL> #4->5
+"<qiviaqqippara>"
+	"qiviar" QQIP V Ind 1Sg 3SgO @PRED #5->0
+"<.>"
+	"." CLB #6->6
 </s>
 
 <s id="zupg5oAQNBtKNd9uvhPyJQwgaOc">
