@@ -537,7 +537,7 @@
 "<siunnersuuteqarput>"
 	"siunnersor" UTE QAR V Ind 3Pl @PRED #24->0
 "<naalakkersuisut>"
-	"naalagaq" LIRSUR HTR TUQ N Abs Pl @SUBJ> #25->26
+	"naalakker" TUR HTR TUQ N Abs Pl @SUBJ> #25->26
 "<piumaffigineqassasut>"
 	"pi" GUMA VIK GE NIQAR SSA V Par 3Pl @CL-<CIT #26->24
 "<Danmarkimi>"
@@ -1253,7 +1253,7 @@
 "<aningaasaqarnermut>"
 	"aningaasaq" QAR NIQ N Trm Sg @i-ADVL> #7->8
 "<naalakkersuisuusumik>"
-	"naalagaq" LIRSUR HTR TUQ U TUQ N Ins Sg @MIK-OBJ> #8->10
+	"naalakker" TUR HTR TUQ U TUQ N Ins Sg @MIK-OBJ> #8->10
 "<toqqaannartumik>"
 	"toqqa" INNAR TUQ N Ins Sg @ADVL> #9->10
 "<isumaqatiginninniarmata>"
@@ -1377,9 +1377,9 @@
 "<qujanaq>"
 	"quja" NAR V Ind @PRED #2->0
 "<Oqaasileriffimmut>"
-	"Oqaasileriffik" Prop Trm Sg @MIK-OBJ> #3->4
+	"Oqaasileriffik" Prop Trm Sg @ADVL> #3->4
 "<saaffiginnikkavit>"
-	"saap" VIK GE HTR V Cau 2Sg @CL-<CIT #4->2
+	"saaffiginnip" V Cau 2Sg @CL-<CIT #4->2
 "<.>"
 	"." CLB #5->5
 </s>
@@ -2649,7 +2649,7 @@
 "<Taamaammat>"
 	"taamaammat" Adv @CL-ADVL> #1->7
 "<naalakkersuisoq>"
-	"naalagaq" LIRSUR HTR TUQ N Abs Sg @SUBJ> #2->7
+	"naalakker" TUR HTR TUQ N Abs Sg @SUBJ> #2->7
 "<aappaagu>"
 	"aappaagu" Adv @i-ADVL> #3->4
 "<missingersuutissaq>"
@@ -2978,7 +2978,7 @@
 "<nammineerlutit>"
 	"nammineer" V Cont 2Sg @ADVL> #7->8
 "<saaffiginnissanngilatit>"
-	"saap" VIK GE HTR SSA NNGIT V Ind 2Sg @PRED #8->0
+	"saaffiginnip" SSA NNGIT V Ind 2Sg @PRED #8->0
 "<.>"
 	"." CLB #9->9
 </s>
@@ -3238,7 +3238,7 @@
 "<avatangiisinut>"
 	"avatangiisi" N Trm Pl @i-ADVL> #1->2
 "<naalakkersuisoq>"
-	"naalagaq" LIRSUR HTR TUQ N Abs Sg @SUBJ> #2->3
+	"naalakker" TUR HTR TUQ N Abs Sg @SUBJ> #2->3
 "<sinippoq>"
 	"sinip" V Ind 3Sg @PRED #3->0
 "<.>"
@@ -4144,7 +4144,7 @@
 "<Ilageeqarnermut>"
 	"ila" GIIT QAR NIQ N Trm Sg @i-ADVL> #16->17
 "<naalakkersuisoq>"
-	"naalagaq" LIRSUR HTR TUQ N Abs Sg @SUBJ> #17->21
+	"naalakker" TUR HTR TUQ N Abs Sg @SUBJ> #17->21
 "<Ane>"
 	"Ane" Prop Abs Sg @PROP> #18->20
 "<Lone>"
@@ -9357,7 +9357,7 @@
 "<pillugu>"
 	"pi" V Cont 3SgO @i-ADVL> #8->9
 "<naalakkersuinikkut>"
-	"naalagaq" LIRSUR HTR NIQ N Via Sg @i-ADVL> #9->10
+	"naalakker" TUR HTR NIQ N Via Sg @i-ADVL> #9->10
 "<kissaateqarneq>"
 	"kissar" UTE QAR NIQ N Abs Sg @i-SUBJ_COMP< #10->3
 "<.>"
@@ -10272,7 +10272,7 @@
 "<siuttuuffigisaanik>"
 	"siuttoq" U VIK GE TAQ N Ins Pl 3SgPoss @i->N>N #12->13
 "<naalakkersuisoqatigiiliornissanik>"
-	"naalagaq" LIRSUR HTR TUQ QATE GIIT LIUR NIQ SSAQ N Ins Pl @MIK-OBJ> #13->15
+	"naalakker" TUR HTR TUQ QATE GIIT LIUR NIQ SSAQ N Ins Pl @MIK-OBJ> #13->15
 "<pingasunik>"
 	"pingasut" Num Ins Pl @N< #14->13
 "<periarfissiisoq>"
@@ -10325,7 +10325,7 @@
 "<peqqissutsimut>"
 	"peqqip" SSUSIQ N Trm Sg @i-ADVL> #6->7
 "<naalakkersuisoqarfimmi>"
-	"naalagaq" LIRSUR HTR TUQ QAR VIK N Lok Sg @i-ADVL> #7->8
+	"naalakker" TUR HTR TUQ QAR VIK N Lok Sg @i-ADVL> #7->8
 "<pisortatut>"
 	"pisortaq" N Aeq Sg @ADVL> #8->9
 "<atorfininniarluni>"
@@ -10660,8 +10660,7 @@
 "<Kultureqarnermut>"
 	"kultur" QAR NIQ N Trm Sg @i-ADVL> #4->5
 "<Naalakkersuisumit>"
-	"Naalakkersuisoq" N Abl Sg @ADVL> #5->7
-	"naalagaq" LIRSUR HTR TUQ N Abl Sg @ADVL> #5->7
+	"naalakkersuisoq" N Abl Sg @ADVL> #5->7
 "<ukiut>"
 	"ukioq" N Abs Pl @OBJ> #6->7
 "<sisamakkaarlugit>"
@@ -11297,7 +11296,7 @@
 "<kultureqarnermut>"
 	"kultur" QAR NIQ N Trm Sg @i-ADVL> #12->13
 "<naalakkersuisoqarfik>"
-	"naalagaq" LIRSUR HTR TUQ QAR VIK N Abs Sg @SUBJ> #13->15
+	"naalakker" TUR HTR TUQ QAR VIK N Abs Sg @SUBJ> #13->15
 "<taama>"
 	"taama" Adv @ADVL> #14->15
 "<allappoq>"
@@ -12299,7 +12298,7 @@
 "<,>"
 	"," CLB #6->6
 "<naalakkersuisoq>"
-	"naalagaq" LIRSUR HTR TUQ N Abs Sg @SUBJ> #7->9
+	"naalakker" TUR HTR TUQ N Abs Sg @SUBJ> #7->9
 "<siusinnerusukkut>"
 	"siusip" NIRU TUQ N Via Sg @ADVL> #8->9
 "<oqarpoq>"
@@ -13340,8 +13339,7 @@
 "<Pinngortitamut>"
 	"pinngor" TIP TAQ N Trm Sg @i-ADVL> #1->2
 "<Naalakkersuisoq>"
-	"Naalakkersuisoq" N Abs Sg @HNOUN #2->0
-	"naalagaq" LIRSUR HTR TUQ N Abs Sg @HNOUN #2->0
+	"naalakkersuisoq" N Abs Sg @HNOUN #2->0
 "<.>"
 	"." CLB #3->3
 </s>
@@ -18574,8 +18572,7 @@
 "<Aatsitassanut>"
 	"aap" TIP TAQ SSAQ N Trm Pl @i-ADVL> #1->2
 "<Naalakkersuisoq>"
-	"Naalakkersuisoq" N Abs Sg @HNOUN #2->0
-	"naalagaq" LIRSUR HTR TUQ N Abs Sg @HNOUN #2->0
+	"naalakkersuisoq" N Abs Sg @HNOUN #2->0
 "<:>"
 	":" CLB DIRTALESTART #3->3
 "<Aatsitassarsiornissamut>"
@@ -21499,7 +21496,7 @@
 "<Inuit Ataqatigiit>"
 	"Inuit Ataqatigiit" Prop Rel Pl @SUBJ> #1->8
 "<naalakkersuisoqatigiinngortussat>"
-	"naalagaq" LIRSUR HTR TUQ QATE GIIT NNGUR TUQ SSAQ N Abs Pl @OBJ> #2->8
+	"naalakker" TUR HTR TUQ QATE GIIT NNGUR TUQ SSAQ N Abs Pl @OBJ> #2->8
 "<ualeru>"
 	"ualeru" Adv @>N #3->4
 "<nalunaaqutaq>"
@@ -22076,6 +22073,7 @@
 
 <s id="nscZ8P7iNsGM2ytb79tVYv4SE78">
 "<mittarfissualiornerit>"
+	"mip" TAR VIK SUAQ LIUR NIQ N Abs Pl @SUBJ> #1->4
 	"mip" TAR VIK SUAQ LIUR NIQ N Rel Pl @POSS>> #1->4
 "<innuttaasut>"
 	"innuttaq" U TUQ N Rel Pl @POSS> #2->3
@@ -22683,7 +22681,7 @@
 "<peqqissutsimullu>"
 	"peqqip" SSUSIQ N Trm Sg CONJ-LU @i-ADVL> #10->11
 "<naalakkersuisoq>"
-	"naalagaq" LIRSUR HTR TUQ N Abs Sg @OBJ> #11->17
+	"naalakker" TUR HTR TUQ N Abs Sg @OBJ> #11->17
 "<,>"
 	"," CLB #12->12
 "<Anna>"
@@ -24724,7 +24722,7 @@
 "<Ilageeqarnermullu>"
 	"ila" GIIT QAR NIQ N Trm Sg CONJ-LU @i-ADVL> #24->25
 "<Naalakkersuisunngortinneqarpoq>"
-	"Naalakkersuisoq" NNGUR TIP NIQAR V Ind 3Sg @PRED #25->0
+	"naalakkersuisoq" NNGUR TIP NIQAR V Ind 3Sg @PRED #25->0
 "<.>"
 	"." CLB #26->26
 </s>
@@ -24917,7 +24915,7 @@
 "<tamanna>"
 	"manna" Pron Abs Sg @SUBJ> #7->11
 "<naalakkersuisoqatigiinnissamik>"
-	"naalagaq" LIRSUR HTR TUQ QATE GIIP NIQ SSAQ N Ins Sg @MIK-OBJ> #8->11
+	"naalakker" TUR HTR TUQ QATE GIIP NIQ SSAQ N Ins Sg @MIK-OBJ> #8->11
 "<isumaqatigiissutaanni>"
 	"isuma" QATE GIIP UTE N Lok Sg 3PlPoss @ADVL> #9->11
 "<aamma>"
@@ -25347,7 +25345,7 @@
 "<Danskit>"
 	"danskeq" N Rel Pl @POSS> #1->2
 "<naalakkersuisui>"
-	"naalagaq" LIRSUR HTR TUQ N Abs Pl 3PlPoss @SUBJ> #2->16
+	"naalakker" TUR HTR TUQ N Abs Pl 3PlPoss @SUBJ> #2->16
 "<ilaatigut>"
 	"ilaatigut" Adv @ADVL> #3->16
 "<illersornissaqarfimmi>"
@@ -26816,8 +26814,7 @@
 "<Aatsitassanut>"
 	"aap" TIP TAQ SSAQ N Trm Pl @i-ADVL> #8->9
 "<Naalakkersuisoqarfimmit>"
-	"Naalakkersuisoq" QAR VIK N Abl Sg @AGENS #9->10
-	"naalagaq" LIRSUR HTR TUQ QAR VIK N Abl Sg @AGENS #9->10
+	"naalakkersuisoq" QAR VIK N Abl Sg @AGENS #9->10
 "<tiguneqartussanngorlugit>"
 	"tigu" NIQAR TUSSANNGUR V Cont 3PlO @i-ADVL> #10->11
 "<nassiunneqarsimassapput>"
@@ -27934,7 +27931,7 @@
 "<Danskit>"
 	"danskeq" N Rel Pl @POSS> #1->2
 "<naalakkersuisui>"
-	"naalagaq" LIRSUR HTR TUQ N Abs Pl 3PlPoss @SUBJ> #2->8
+	"naalakker" TUR HTR TUQ N Abs Pl 3PlPoss @SUBJ> #2->8
 "<ajornartorsiutaasut>"
 	"ajor" NAR TUQ SIUT U TUQ N Rel Pl @POSS> #3->4
 "<iluarsineqarnissaannut>"
@@ -28324,7 +28321,7 @@
 "<tunngasunut>"
 	"tunnga" TUQ N Trm Pl @i-ADVL> #15->16
 "<naalakkersuisoq>"
-	"naalagaq" LIRSUR HTR TUQ N Abs Sg @OBJ> #16->24
+	"naalakker" TUR HTR TUQ N Abs Sg @OBJ> #16->24
 "<,>"
 	"," CLB #17->17
 "<Steen>"

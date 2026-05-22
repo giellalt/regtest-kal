@@ -1197,12 +1197,12 @@
 "<siunnersuuteqarput>"
 	"siunnersor" Gram/TV UTE Der/vn QAR Der/nv Gram/IV V Ind 3Pl
 "<naalakkersuisut>"
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn Gram/wea N Abs Pl
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn Gram/wea N Rel Pl
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV V Par 3Pl
-	"naalakker" Gram/IV TUQ Der/vn N Aeq Pl 3SgPoss
-	"naalakker" Gram/TV Gram/Refl Gram/IV TUQ Der/vn N Aeq Pl 3SgPoss
+	"naalakker" Sem/order_Influence Gram/TV Gram/Refl Gram/IV TUQ Der/vn N Aeq Pl 3PlPoss
+	"naalakker" Sem/order_Influence Gram/TV Gram/Refl Gram/IV TUQ Der/vn N Aeq Pl 3SgPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn Gram/wea N Abs Pl
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn Gram/wea N Rel Pl
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV V Par 3Pl
 "<piumaffigineqassasut>"
 	"pi" Gram/IV GUMA Der/vv Gram/IV VIK Der/vn GE Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SSA Der/vv Gram/IV TUQ Der/vn Gram/wea N Abs Pl
 	"pi" Gram/IV GUMA Der/vv Gram/IV VIK Der/vn GE Der/nv Gram/TV Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV SSA Der/vv Gram/IV TUQ Der/vn Gram/wea N Rel Pl
@@ -2557,9 +2557,9 @@
 	"taap" Gram/TV Gram/Refl V Imp 2Sg
 	"una" Prefix/TA Gram/Dem Pron Abs Sg
 "<borgmesterit>"
-	"borgmester" OLang/DAN N Abs Pl
-	"borgmester" OLang/DAN N Abs Sg 2SgPoss
-	"borgmester" OLang/DAN N Rel Pl
+	"borgmester" Sem/Hprof OLang/DAN N Abs Pl
+	"borgmester" Sem/Hprof OLang/DAN N Abs Sg 2SgPoss
+	"borgmester" Sem/Hprof OLang/DAN N Rel Pl
 "<pingasut>"
 	"pingasut" Num Abs Pl
 	"pingasut" Num Rel Pl
@@ -2571,9 +2571,9 @@
 "<aningaasaqarnermut>"
 	"aningaasaq" QAR Der/nv Gram/IV NIQ Der/vn N Trm Sg
 "<naalakkersuisuusumik>"
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn U Der/nv Gram/IV TUQ Der/vn N Ins Sg
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn U Der/nv Gram/IV TUQ Der/vn N Rel Pl 4PlPoss
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn U Der/nv Gram/IV TUQ Der/vn N Rel Sg 4PlPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn U Der/nv Gram/IV TUQ Der/vn N Ins Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn U Der/nv Gram/IV TUQ Der/vn N Rel Pl 4PlPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn U Der/nv Gram/IV TUQ Der/vn N Rel Sg 4PlPoss
 "<toqqaannartumik>"
 	"toqqa" Gram/IV INNAR Der/vv Gram/IV TUQ Der/vn N Ins Sg
 	"toqqa" Gram/IV INNAR Der/vv Gram/IV TUQ Der/vn N Rel Pl 4PlPoss
@@ -2610,9 +2610,6 @@
 	"kommune" OLang/DAN N Abs Pl
 	"kommune" OLang/DAN N Abs Sg 2SgPoss
 	"kommune" OLang/DAN N Rel Pl
-	"kommune" Orth/Alt Gram/wea N Abs Pl
-	"kommune" Orth/Alt Gram/wea N Rel Pl
-	"kommune" Orth/Alt N Abs Sg 2SgPoss
 "<kattuffiattut>"
 	"kattuffik" N Aeq Sg 3PlPoss
 	"kattup" Gram/TV Gram/Refl VIK Der/vn N Aeq Sg 3PlPoss
@@ -2622,6 +2619,7 @@
 	"periar" Gram/IV VIK Der/vn IRUTE Der/nv Gram/IV TUQ Der/vn N Aeq Pl
 	"periar" Gram/IV VIK Der/vn IRUTE Der/nv Gram/IV TUQ Der/vn N Aeq Sg
 	"periar" Gram/IV VIK Der/vn IRUTE Der/nv Gram/IV TUQ Der/vn TUR Der/nv Gram/IV V Ind 3Pl Gram/Exclm
+	"periar" Gram/IV VIK Der/vn IRUTE Der/nv Gram/IV TUQ Der/vn TUR Der/nv Orth/Youth Gram/IV V Ind 3Pl Gram/Exclm
 	"periar" Gram/IV VIK Der/vn IRUTE Der/nv Gram/TV Gram/Pass TUQ Der/vn N Aeq Pl
 	"periar" Gram/IV VIK Der/vn IRUTE Der/nv Gram/TV Gram/Pass TUQ Der/vn N Aeq Sg
 	"periar" Gram/IV VIK Der/vn IRUTE Der/nv Gram/TV Gram/Pass TUQ Der/vn TUR Der/nv Gram/IV V Ind 3Pl Gram/Exclm
@@ -2629,10 +2627,12 @@
 	"periar" Gram/IV VIK Der/vn IRUTE Der/nv Gram/TV Gram/Refl TUQ Der/vn N Aeq Pl
 	"periar" Gram/IV VIK Der/vn IRUTE Der/nv Gram/TV Gram/Refl TUQ Der/vn N Aeq Sg
 	"periar" Gram/IV VIK Der/vn IRUTE Der/nv Gram/TV Gram/Refl TUQ Der/vn TUR Der/nv Gram/IV V Ind 3Pl Gram/Exclm
+	"periar" Gram/IV VIK Der/vn IRUTE Der/nv Gram/TV Gram/Refl TUQ Der/vn TUR Der/nv Orth/Youth Gram/IV V Ind 3Pl Gram/Exclm
 	"periar" Gram/IV VIK Der/vn IRUTE Der/nv Gram/TV TUQ Der/vn N Aeq Sg
 	"periar" Gram/TV Gram/Refl VIK Der/vn IRUTE Der/nv Gram/IV TUQ Der/vn N Aeq Pl
 	"periar" Gram/TV Gram/Refl VIK Der/vn IRUTE Der/nv Gram/IV TUQ Der/vn N Aeq Sg
 	"periar" Gram/TV Gram/Refl VIK Der/vn IRUTE Der/nv Gram/IV TUQ Der/vn TUR Der/nv Gram/IV V Ind 3Pl Gram/Exclm
+	"periar" Gram/TV Gram/Refl VIK Der/vn IRUTE Der/nv Gram/IV TUQ Der/vn TUR Der/nv Orth/Youth Gram/IV V Ind 3Pl Gram/Exclm
 	"periar" Gram/TV Gram/Refl VIK Der/vn IRUTE Der/nv Gram/TV Gram/Pass TUQ Der/vn N Aeq Pl
 	"periar" Gram/TV Gram/Refl VIK Der/vn IRUTE Der/nv Gram/TV Gram/Pass TUQ Der/vn N Aeq Sg
 	"periar" Gram/TV Gram/Refl VIK Der/vn IRUTE Der/nv Gram/TV Gram/Pass TUQ Der/vn TUR Der/nv Gram/IV V Ind 3Pl Gram/Exclm
@@ -2640,10 +2640,12 @@
 	"periar" Gram/TV Gram/Refl VIK Der/vn IRUTE Der/nv Gram/TV Gram/Refl TUQ Der/vn N Aeq Pl
 	"periar" Gram/TV Gram/Refl VIK Der/vn IRUTE Der/nv Gram/TV Gram/Refl TUQ Der/vn N Aeq Sg
 	"periar" Gram/TV Gram/Refl VIK Der/vn IRUTE Der/nv Gram/TV Gram/Refl TUQ Der/vn TUR Der/nv Gram/IV V Ind 3Pl Gram/Exclm
+	"periar" Gram/TV Gram/Refl VIK Der/vn IRUTE Der/nv Gram/TV Gram/Refl TUQ Der/vn TUR Der/nv Orth/Youth Gram/IV V Ind 3Pl Gram/Exclm
 	"periar" Gram/TV Gram/Refl VIK Der/vn IRUTE Der/nv Gram/TV TUQ Der/vn N Aeq Sg
 	"periarfeerup" Gram/IV TUQ Der/vn N Aeq Pl
 	"periarfeerup" Gram/IV TUQ Der/vn N Aeq Sg
 	"periarfeerup" Gram/IV TUQ Der/vn TUR Der/nv Gram/IV V Ind 3Pl Gram/Exclm
+	"periarfeerup" Gram/IV TUQ Der/vn TUR Der/nv Orth/Youth Gram/IV V Ind 3Pl Gram/Exclm
 "<ippoq>"
 	"IP" Gram/IV V Ind 3Sg
 	"ip" Gram/Refl V Ind 3Sg
@@ -2878,6 +2880,7 @@
 "<saaffiginnikkavit>"
 	"saa" Orth/Arch Gram/IV VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV V Cau 2Sg
 	"saa" Orth/Arch Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV V Cau 2Sg
+	"saaffiginnip" Sem/beg_Influence Gram/IV V Cau 2Sg
 	"saap" Gram/-schwa Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV V Cau 2Sg
 	"saap" Gram/IV VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV V Cau 2Sg
 	"saap" Gram/schwa Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV V Cau 2Sg
@@ -5480,8 +5483,8 @@
 	"taama" IP Der/nv Gram/TV Gram/Refl V Cau 3Sg
 	"taamaammat" Adv
 "<naalakkersuisoq>"
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
 "<aappaagu>"
 	"aappaagu" Adv
 "<missingersuutissaq>"
@@ -6189,31 +6192,31 @@
 	"pi" Gram/TV V Cont 3SgO
 "<allattoqarfimmulluunniit>"
 	"allap" Gram/HV Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn N Trm Sg LUUNNIIT
-	"allap" Gram/TV Gram/Pass TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn N Trm Sg LUUNNIIT
-	"allap" Gram/TV Gram/Refl TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn N Trm Sg LUUNNIIT
 "<nammineerlutit>"
 	"nammineer" Gram/IV V Cont 2Sg
 "<saaffiginnissanngilatit>"
-	"saa" Orth/Arch Gram/IV VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/Refl Gram/IV V Ind 2Sg Gram/Refl
+	"saa" Orth/Arch Gram/IV VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/Refl Gram/IV V Ind 2Sg
 	"saa" Orth/Arch Gram/IV VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/TV V Ind 2Sg 3PlO
-	"saa" Orth/Arch Gram/IV VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/TV V Int 2Sg Gram/Refl
 	"saa" Orth/Arch Gram/IV VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SSA Der/vv NNGIT Der/vv Gram/IV V Ind 2Sg
 	"saa" Orth/Arch Gram/IV VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SSA Der/vv NNGIT Der/vv Gram/IV V Int 2Sg
-	"saa" Orth/Arch Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/Refl Gram/IV V Ind 2Sg Gram/Refl
+	"saa" Orth/Arch Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/Refl Gram/IV V Ind 2Sg
 	"saa" Orth/Arch Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/TV V Ind 2Sg 3PlO
-	"saa" Orth/Arch Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/TV V Int 2Sg Gram/Refl
 	"saa" Orth/Arch Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SSA Der/vv NNGIT Der/vv Gram/IV V Ind 2Sg
 	"saa" Orth/Arch Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SSA Der/vv NNGIT Der/vv Gram/IV V Int 2Sg
-	"saap" Gram/IV VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/Refl Gram/IV V Ind 2Sg Gram/Refl
+	"saaffiginnip" Sem/beg_Influence Gram/IV SSA Der/vv Gram/IV NNGIT Der/vv Gram/IV V Ind 2Sg
+	"saaffiginnip" Sem/beg_Influence Gram/IV SSA Der/vv Gram/IV NNGIT Der/vv Gram/IV V Int 2Sg
+	"saap" Gram/-schwa Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/Refl Gram/IV V Ind 2Sg
+	"saap" Gram/-schwa Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/TV V Ind 2Sg 3PlO
+	"saap" Gram/-schwa Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SSA Der/vv NNGIT Der/vv Gram/IV V Ind 2Sg
+	"saap" Gram/-schwa Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SSA Der/vv NNGIT Der/vv Gram/IV V Int 2Sg
+	"saap" Gram/IV VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/Refl Gram/IV V Ind 2Sg
 	"saap" Gram/IV VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/TV V Ind 2Sg 3PlO
-	"saap" Gram/IV VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/TV V Int 2Sg Gram/Refl
 	"saap" Gram/IV VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SSA Der/vv NNGIT Der/vv Gram/IV V Ind 2Sg
 	"saap" Gram/IV VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SSA Der/vv NNGIT Der/vv Gram/IV V Int 2Sg
-	"saap" Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/Refl Gram/IV V Ind 2Sg Gram/Refl
-	"saap" Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/TV V Ind 2Sg 3PlO
-	"saap" Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/TV V Int 2Sg Gram/Refl
-	"saap" Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SSA Der/vv NNGIT Der/vv Gram/IV V Ind 2Sg
-	"saap" Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SSA Der/vv NNGIT Der/vv Gram/IV V Int 2Sg
+	"saap" Gram/schwa Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/Refl Gram/IV V Ind 2Sg
+	"saap" Gram/schwa Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SAR Der/vv Gram/TV NNGIT Der/vv Gram/TV V Ind 2Sg 3PlO
+	"saap" Gram/schwa Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SSA Der/vv NNGIT Der/vv Gram/IV V Ind 2Sg
+	"saap" Gram/schwa Gram/TV Gram/Refl VIK Der/vn GE Der/nv Gram/TV HTR Der/vv Gram/IV SSA Der/vv NNGIT Der/vv Gram/IV V Int 2Sg
 "<.>"
 	"." CLB
 </s>
@@ -6759,8 +6762,8 @@
 	"avatangiiseq" N Trm Pl
 	"avatangiisi" N Trm Pl
 "<naalakkersuisoq>"
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
 "<sinippoq>"
 	"sinip" Gram/IV V Ind 3Sg
 "<.>"
@@ -8690,10 +8693,10 @@
 	"alla" N Trm Pl
 	"allaq" N Trm Pl
 "<pingaaruteqaqisut>"
-	"pi" NGAAR Der/vv Gram/IV UTE Der/vn QAR Der/nv Gram/IV QE Der/vv Gram/IV TUQ Der/vn Gram/wea N Abs Pl
-	"pi" NGAAR Der/vv Gram/IV UTE Der/vn QAR Der/nv Gram/IV QE Der/vv Gram/IV TUQ Der/vn Gram/wea N Rel Pl
-	"pi" NGAAR Der/vv Gram/IV UTE Der/vn QAR Der/nv Gram/IV QE Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
-	"pi" NGAAR Der/vv Gram/IV UTE Der/vn QAR Der/nv Gram/IV QE Der/vv Gram/IV V Par 3Pl
+	"pi" NGAAR Der/vv Sem/be_attribute Sem/jimp Gram/IV UTE Der/vn QAR Der/nv Gram/IV QE Der/vv Gram/IV TUQ Der/vn Gram/wea N Abs Pl
+	"pi" NGAAR Der/vv Sem/be_attribute Sem/jimp Gram/IV UTE Der/vn QAR Der/nv Gram/IV QE Der/vv Gram/IV TUQ Der/vn Gram/wea N Rel Pl
+	"pi" NGAAR Der/vv Sem/be_attribute Sem/jimp Gram/IV UTE Der/vn QAR Der/nv Gram/IV QE Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
+	"pi" NGAAR Der/vv Sem/be_attribute Sem/jimp Gram/IV UTE Der/vn QAR Der/nv Gram/IV QE Der/vv Gram/IV V Par 3Pl
 "<pinngitsoortariaqarlugit>"
 	"pinngitsoor" Gram/TV TARIAQAR Der/vv Gram/TV V Cont 3PlO
 "<,>"
@@ -8701,8 +8704,8 @@
 "<Ilageeqarnermut>"
 	"ila" GIIT Der/nn QAR Der/nv Gram/IV NIQ Der/vn N Trm Sg
 "<naalakkersuisoq>"
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
 "<Ane>"
 	"Ane" Sem/Fem Sem/Hum Prop Abs Sg
 "<Lone>"
@@ -18677,11 +18680,11 @@
 "<pillugu>"
 	"pi" Gram/TV V Cont 3SgO
 "<naalakkersuinikkut>"
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Via Pl 1SgPoss
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Via Pl 2SgPoss
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Via Sg
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Via Sg 1SgPoss
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Via Sg 2SgPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Via Pl 1SgPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Via Pl 2SgPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Via Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Via Sg 1SgPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV NIQ Der/vn N Via Sg 2SgPoss
 "<kissaateqarneq>"
 	"kissaq" UTE Der/nn QAR Der/nv Gram/IV NIQ Der/vn N Abs Sg
 	"kissaq" UTE Der/nn QAR Der/nv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
@@ -20311,9 +20314,9 @@
 	"ili" Gram/TV SIMA Der/vv Gram/Refl TUUQ Der/vn N Abs Sg
 	"ilip" Gram/IV SIMA Der/vv Orth/Arch TUUQ Der/vn N Abs Sg
 	"ilip" Orth/Arch Gram/TV SIMA Der/vv Orth/Arch Gram/Refl TUUQ Der/vn N Abs Sg
+	"ilisima" Gram/IV TUUQ Der/vn Gram/lex Sem/Hprof N Abs Sg
 	"ilisima" Gram/IV TUUQ Der/vn N Abs Sg
 	"ilisima" Gram/TV Gram/Refl TUUQ Der/vn N Abs Sg
-	"ilisimatuu" Gram/IV V Ind Gram/Exclm
 "<,>"
 	"," CLB
 "<Rasmus>"
@@ -20323,7 +20326,7 @@
 "<,>"
 	"," CLB
 "<naliliivoq>"
-	"nale" LIR Der/nv Gram/TV HTR Der/vv Gram/IV V Ind 3Sg
+	"nale" LIR Der/nv Gram/truncative Gram/TV HTR Der/vv Gram/IV V Ind 3Sg
 	"nalik" LIR Der/nv Gram/TV HTR Der/vv Gram/IV V Ind 3Sg
 "<,>"
 	"," CLB
@@ -20338,14 +20341,12 @@
 	"siuttoq" U Der/nv Gram/IV VIK Der/vn GE Der/nv Gram/TV TAQ Der/vn N Ins Pl 3SgPoss
 	"siuttoq" U Der/nv Gram/IV VIK Der/vn GE Der/nv Gram/TV TAQ Der/vn N Ins Sg 3SgPoss
 "<naalakkersuisoqatigiiliornissanik>"
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn LIUR Der/nv Gram/IV NIQ Der/vn SSAQ Der/nn N Ins Pl
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn LIUR Der/nv Gram/IV NIQ Der/vn SSAQ Der/nn N Ins Pl
 "<pingasunik>"
 	"pingasut" Num Ins Pl
 "<periarfissiisoq>"
 	"periar" Gram/IV VIK Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
 	"periar" Gram/IV VIK Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
-	"periar" Gram/TV Gram/Refl VIK Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"periar" Gram/TV Gram/Refl VIK Der/vn SSIP Der/nv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
 "<.>"
 	"." CLB
 </s>
@@ -20405,38 +20406,44 @@
 	"apriili" N Rel Sg
 "<aallaqqaataa>"
 	"aallar" Gram/IV QQAAR Der/vv Gram/IV UTE Der/vn N Abs Sg 3SgPoss
-	"aallar" Gram/IV QQAAR Der/vv Gram/IV UTE Der/vn N Abs Sg AA
 "<aallarnerfigalugu>"
 	"aallarner" Gram/IV VIK Der/vn GE Der/nv Gram/TV V Cont 3SgO
 	"aallarner" Gram/TV Gram/Refl Gram/IV VIK Der/vn GE Der/nv Gram/TV V Cont 3SgO
 "<peqqissutsimut>"
 	"peqqip" Gram/IV SSUSIQ Der/vn N Trm Sg
 "<naalakkersuisoqarfimmi>"
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn N Abs Sg MI
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn N Lok Sg
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn N Rel Pl 4SgPoss
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn N Rel Sg 4SgPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn N Abs Sg MI
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn N Lok Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn N Rel Pl 4SgPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn N Rel Sg 4SgPoss
 "<pisortatut>"
 	"pi" Gram/IV TUQ Der/vn TAQ Der/nn N Aeq Pl
 	"pi" Gram/IV TUQ Der/vn TAQ Der/nn N Aeq Sg
+	"pi" Gram/IV TUQ Der/vn TAQ Der/nn TUR Der/nv Gram/IV V Ind 3Pl Gram/Exclm
+	"pi" Gram/IV TUQ Der/vn TAQ Der/nn TUR Der/nv Orth/Youth Gram/IV V Ind 3Pl Gram/Exclm
 	"pi" Gram/TV Gram/Refl TUQ Der/vn TAQ Der/nn N Aeq Pl
 	"pi" Gram/TV Gram/Refl TUQ Der/vn TAQ Der/nn N Aeq Sg
+	"pi" Gram/TV Gram/Refl TUQ Der/vn TAQ Der/nn TUR Der/nv Gram/IV V Ind 3Pl Gram/Exclm
+	"pi" Gram/TV Gram/Refl TUQ Der/vn TAQ Der/nn TUR Der/nv Orth/Youth Gram/IV V Ind 3Pl Gram/Exclm
 	"pisortaq" N Aeq Pl
 	"pisortaq" N Aeq Sg
+	"pisortaq" TUR Der/nv Gram/IV V Ind 3Pl Gram/Exclm
+	"pisortaq" TUR Der/nv Orth/Youth Gram/IV V Ind 3Pl Gram/Exclm
 "<atorfininniarluni>"
 	"ator" Gram/IV VIK Der/vn NIP Der/nv Gram/IV NIAR Der/vv Gram/IV V Cont 4Sg
-	"ator" Gram/TV Gram/Refl VIK Der/vn NIP Der/nv Gram/IV NIAR Der/vv Gram/IV V Cont 4Sg
+	"ator" Sem/use Gram/TV Gram/Refl VIK Der/vn NIP Der/nv Gram/IV NIAR Der/vv Gram/IV V Cont 4Sg
 "<aalajangermat>"
 	"aalajanger" Gram/IV V Cau 3Sg
 	"aalajanger" Gram/TV Gram/Refl Gram/IV V Cau 3Sg
 "<,>"
 	"," CLB
 "<rektoritut>"
-	"rektor" OLang/DAN N Aeq Pl
-	"rektor" OLang/DAN N Aeq Sg
+	"rektor" Sem/Hprof OLang/DAN N Aeq Pl
+	"rektor" Sem/Hprof OLang/DAN N Aeq Sg
+	"rektor" Sem/Hprof OLang/DAN TUR Der/nv Gram/IV V Ind 3Pl Gram/Exclm
 "<atorfik>"
 	"ator" Gram/IV VIK Der/vn N Abs Sg
-	"ator" Gram/TV Gram/Refl VIK Der/vn N Abs Sg
+	"ator" Sem/use Gram/TV Gram/Refl VIK Der/vn N Abs Sg
 "<inuttaqarunnaarpoq>"
 	"inuk" TAQ Der/nn QAR Der/nv Gram/IV GUNNAIR Der/vv Gram/IV V Ind 3Sg
 "<.>"
@@ -21074,9 +21081,9 @@
 	"ila" U Der/nv Gram/IV TUQ Der/vn TAQ Der/nn Gram/wea N Abs Pl
 	"ila" U Der/nv Gram/IV TUQ Der/vn TAQ Der/nn Gram/wea N Rel Pl
 	"ila" U Der/nv Gram/IV TUQ Der/vn TAQ Der/nn N Abs Sg 2SgPoss
-	"ilaa" Gram/IV TUQ Der/vn TAQ Der/nn Gram/lex Sem/Hprof Gram/wea N Abs Pl
-	"ilaa" Gram/IV TUQ Der/vn TAQ Der/nn Gram/lex Sem/Hprof Gram/wea N Rel Pl
-	"ilaa" Gram/IV TUQ Der/vn TAQ Der/nn Gram/lex Sem/Hprof N Abs Sg 2SgPoss
+	"ilaa" Gram/IV TUQ Der/vn TAQ Der/nn Gram/lex Sem/H Gram/wea N Abs Pl
+	"ilaa" Gram/IV TUQ Der/vn TAQ Der/nn Gram/lex Sem/H Gram/wea N Rel Pl
+	"ilaa" Gram/IV TUQ Der/vn TAQ Der/nn Gram/lex Sem/H N Abs Sg 2SgPoss
 	"ilaa" Gram/IV TUQ Der/vn TAQ Der/nn Gram/wea N Abs Pl
 	"ilaa" Gram/IV TUQ Der/vn TAQ Der/nn Gram/wea N Rel Pl
 	"ilaa" Gram/IV TUQ Der/vn TAQ Der/nn N Abs Sg 2SgPoss
@@ -21086,12 +21093,15 @@
 "<Kultureqarnermut>"
 	"kultur" OLang/DAN QAR Der/nv Gram/IV NIQ Der/vn N Trm Sg
 "<Naalakkersuisumit>"
-	"Naalakkersuisoq" N Abl Sg
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abl Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abl Sg
+	"naalakkersuisoq" Sem/Hprof N Abl Sg
 "<ukiut>"
-	"ukioq" Gram/wea N Abs Pl
-	"ukioq" Gram/wea N Rel Pl
-	"ukioq" N Abs Sg 2SgPoss
+	"ukioq" Sem/dur Gram/wea N Abs Pl
+	"ukioq" Sem/dur Gram/wea N Rel Pl
+	"ukioq" Sem/dur N Abs Sg 2SgPoss
+	"ukioq" Sem/temp Gram/wea N Abs Pl
+	"ukioq" Sem/temp Gram/wea N Rel Pl
+	"ukioq" Sem/temp N Abs Sg 2SgPoss
 "<sisamakkaarlugit>"
 	"sisamat" KKAAR Der/nv Gram/TV V Cont 3PlO
 "<inuttalertakkat>"
@@ -21107,8 +21117,6 @@
 	"ullor" Gram/IV INNAQ Der/vn N Lok Pl
 	"ullu" INNAQ Der/nn N Lok Pl
 "<allatseqarnikkut>"
-	"allatsi" QAR Der/nv Gram/IV NIQ Der/vn KKUT Der/nn Gram/PlurTant N Abs Pl
-	"allatsi" QAR Der/nv Gram/IV NIQ Der/vn KKUT Der/nn Gram/PlurTant N Rel Pl
 	"allatsi" QAR Der/nv Gram/IV NIQ Der/vn N Via Pl 1SgPoss
 	"allatsi" QAR Der/nv Gram/IV NIQ Der/vn N Via Pl 2SgPoss
 	"allatsi" QAR Der/nv Gram/IV NIQ Der/vn N Via Sg
@@ -22174,9 +22182,9 @@
 	"," CLB
 "<Oqaasileriffiullu>"
 	"Oqaasileriffik" Sem/inst Sem/Hum Prop Rel Sg LU
-	"oqaaseq" LIRI Der/nv Gram/IV VIK Der/vn N Rel Sg LU
+	"oqaaseq" LIRI Der/nv Gram/IV VIK Der/vn Gram/str N Rel Sg LU
 	"oqaaseq" LIRI Der/nv Gram/IV VIK Der/vn UTE Der/nn N Abs Sg LU
-	"oqar" Gram/IV USIQ Der/vn LIRI Der/nv Gram/IV VIK Der/vn N Rel Sg LU
+	"oqar" Gram/IV USIQ Der/vn LIRI Der/nv Gram/IV VIK Der/vn Gram/str N Rel Sg LU
 	"oqar" Gram/IV USIQ Der/vn LIRI Der/nv Gram/IV VIK Der/vn UTE Der/nn N Abs Sg LU
 "<ingerlannissaanut>"
 	"ingerlap" Gram/TV Gram/Pass NIQ Der/vn SSAQ Der/nn N Trm Pl 3SgPoss
@@ -22184,9 +22192,9 @@
 	"ingerlap" Gram/TV Gram/Refl NIQ Der/vn SSAQ Der/nn N Trm Pl 3SgPoss
 	"ingerlap" Gram/TV Gram/Refl NIQ Der/vn SSAQ Der/nn N Trm Sg 3SgPoss
 "<suliassat>"
-	"suliaq" SSAQ Der/nn N Abs Pl
+	"suliaq" SSAQ Der/nn Gram/wea N Abs Pl
+	"suliaq" SSAQ Der/nn Gram/wea N Rel Pl
 	"suliaq" SSAQ Der/nn N Abs Sg 2SgPoss
-	"suliaq" SSAQ Der/nn N Rel Pl
 "<,>"
 	"," CLB
 "<piumasaqaatit>"
@@ -22213,14 +22221,13 @@
 "<kultureqarnermut>"
 	"kultur" OLang/DAN QAR Der/nv Gram/IV NIQ Der/vn N Trm Sg
 "<naalakkersuisoqarfik>"
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn N Abs Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn N Abs Sg
 "<taama>"
 	"taama" Adv
 	"taama" Interj
 	"taaq" N Rel Pl 1SgPoss
 "<allappoq>"
 	"allap" Gram/HV Gram/IV V Ind 3Sg
-	"allap" Gram/TV Gram/Refl V Ind 3Sg
 "<.>"
 	"." CLB
 </s>
@@ -24224,8 +24231,8 @@
 "<,>"
 	"," CLB
 "<naalakkersuisoq>"
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
 "<siusinnerusukkut>"
 	"siusip" Gram/IV NIQ Der/vn U Der/nv Gram/IV TUQ Der/vn KKUT Der/nn Gram/PlurTant N Abs Pl
 	"siusip" Gram/IV NIQ Der/vn U Der/nv Gram/IV TUQ Der/vn KKUT Der/nn Gram/PlurTant N Rel Pl
@@ -26205,9 +26212,9 @@
 "<Pinngortitamut>"
 	"pinngor" Gram/IV TIP Der/vv Gram/TV TAQ Der/vn N Trm Sg
 "<Naalakkersuisoq>"
-	"Naalakkersuisoq" N Abs Sg
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
+	"naalakkersuisoq" Sem/Hprof N Abs Sg
 "<.>"
 	"." CLB
 </s>
@@ -36623,9 +36630,9 @@
 	"aap" Gram/IV TIP Der/vv Gram/TV TAQ Der/vn SSAQ Der/nn N Trm Pl
 	"aap" Gram/TV TIP Der/vv Gram/Db TAQ Der/vn SSAQ Der/nn N Trm Pl
 "<Naalakkersuisoq>"
-	"Naalakkersuisoq" N Abs Sg
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
+	"naalakkersuisoq" Sem/Hprof N Abs Sg
 "<:>"
 	":" CLB
 "<Aatsitassarsiornissamut>"
@@ -42232,15 +42239,15 @@
 	"Inuit Ataqatigiit" Prop Rel Pl
 	"Inuit Ataqatigiit" Prop Rel Sg Orth/Alt
 "<naalakkersuisoqatigiinngortussat>"
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/IV TUQ Der/vn SSAQ Der/nn Gram/wea N Abs Pl
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/IV TUQ Der/vn SSAQ Der/nn Gram/wea N Rel Pl
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/IV TUQ Der/vn SSAQ Der/nn N Abs Sg 2SgPoss
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/TV Gram/Pass TUQ Der/vn SSAQ Der/nn Gram/wea N Abs Pl
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/TV Gram/Pass TUQ Der/vn SSAQ Der/nn Gram/wea N Rel Pl
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/TV Gram/Pass TUQ Der/vn SSAQ Der/nn N Abs Sg 2SgPoss
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/TV Gram/Refl TUQ Der/vn SSAQ Der/nn Gram/wea N Abs Pl
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/TV Gram/Refl TUQ Der/vn SSAQ Der/nn Gram/wea N Rel Pl
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/TV Gram/Refl TUQ Der/vn SSAQ Der/nn N Abs Sg 2SgPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/IV TUQ Der/vn SSAQ Der/nn Gram/wea N Abs Pl
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/IV TUQ Der/vn SSAQ Der/nn Gram/wea N Rel Pl
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/IV TUQ Der/vn SSAQ Der/nn N Abs Sg 2SgPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/TV Gram/Pass TUQ Der/vn SSAQ Der/nn Gram/wea N Abs Pl
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/TV Gram/Pass TUQ Der/vn SSAQ Der/nn Gram/wea N Rel Pl
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/TV Gram/Pass TUQ Der/vn SSAQ Der/nn N Abs Sg 2SgPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/TV Gram/Refl TUQ Der/vn SSAQ Der/nn Gram/wea N Abs Pl
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/TV Gram/Refl TUQ Der/vn SSAQ Der/nn Gram/wea N Rel Pl
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIT Der/nn NNGUR Der/nv Gram/TV Gram/Refl TUQ Der/vn SSAQ Der/nn N Abs Sg 2SgPoss
 "<ualeru>"
 	"ualeru" Adv
 "<nalunaaqutaq>"
@@ -44658,17 +44665,17 @@
 	"KNR" N Gram/ACR Rel Sg
 	"KNR" Prop Rel Sg
 "<Naalakkersuisut>"
-	"Naalakkersuisoq" Gram/wea N Abs Pl
-	"Naalakkersuisoq" Gram/wea N Rel Pl
-	"Naalakkersuisoq" N Abs Sg 2SgPoss
 	"Naalakkersuisut" Sem/inst Sem/Hum Prop Abs Pl
 	"Naalakkersuisut" Sem/inst Sem/Hum Prop Rel Pl
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn Gram/wea N Abs Pl
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn Gram/wea N Rel Pl
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV V Par 3Pl
-	"naalakker" Gram/IV TUQ Der/vn N Aeq Pl 3SgPoss
-	"naalakker" Gram/TV Gram/Refl Gram/IV TUQ Der/vn N Aeq Pl 3SgPoss
+	"naalakker" Sem/order_Influence Gram/TV Gram/Refl Gram/IV TUQ Der/vn N Aeq Pl 3PlPoss
+	"naalakker" Sem/order_Influence Gram/TV Gram/Refl Gram/IV TUQ Der/vn N Aeq Pl 3SgPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn Gram/wea N Abs Pl
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn Gram/wea N Rel Pl
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV V Par 3Pl
+	"naalakkersuisoq" Sem/Hprof Gram/wea N Abs Pl
+	"naalakkersuisoq" Sem/Hprof Gram/wea N Rel Pl
+	"naalakkersuisoq" Sem/Hprof N Abs Sg 2SgPoss
 "<siulittaasuat>"
 	"siu" LIK Der/nn TAQ Der/nn U Der/nv Gram/IV TUQ Der/vn N Abs Sg 3PlPoss
 	"siulittar" Gram/TV HTR Der/vv Gram/IV TUQ Der/vn Gram/lex Sem/Hprof N Abs Sg 3PlPoss
@@ -44691,8 +44698,8 @@
 "<peqqissutsimullu>"
 	"peqqip" Gram/IV SSUSIQ Der/vn N Trm Sg LU
 "<naalakkersuisoq>"
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
 "<,>"
 	"," CLB
 "<Anna>"
@@ -48678,7 +48685,8 @@
 "<38-nik>"
 	"38" Num Ins Pl
 "<ukiulik>"
-	"ukioq" LIK Der/nn N Abs Sg
+	"ukioq" Sem/dur LIK Der/nn N Abs Sg
+	"ukioq" Sem/temp LIK Der/nn N Abs Sg
 "<Katti>"
 	"Katti" Sem/Fem Sem/Hum Prop Abs Sg
 "<Frederiksen>"
@@ -48716,13 +48724,16 @@
 "<juulip>"
 	"juuli" N Rel Sg
 "<qaammataata>"
-	"qaammat" N Rel Sg 3PlPoss
-	"qaammat" N Rel Sg 3SgPoss
+	"qaammat" Sem/Lstar N Rel Sg 3PlPoss
+	"qaammat" Sem/Lstar N Rel Sg 3SgPoss
+	"qaammat" Sem/dur N Rel Sg 3PlPoss
+	"qaammat" Sem/dur N Rel Sg 3SgPoss
 "<naanerani>"
-	"naa" Gram/IV NIQ Der/vn N Lok Sg 3SgPoss
 	"naa" Gram/TV Gram/Pass NIQ Der/vn N Lok Sg 3SgPoss
 	"naa" Gram/TV Gram/Refl NIQ Der/vn N Lok Sg 3SgPoss
 	"naa" Gram/TV NIQ Der/vn Gram/TransverbNIQ N Lok Sg 3SgPoss
+	"naa" Sem/end Gram/IV NIQ Der/vn N Lok Sg 3SgPoss
+	"naa" Sem/grow Gram/IV NIQ Der/vn N Lok Sg 3SgPoss
 "<tunuarnerata>"
 	"tunuar" Gram/IV NIQ Der/vn N Rel Sg 3PlPoss
 	"tunuar" Gram/IV NIQ Der/vn N Rel Sg 3SgPoss
@@ -48743,20 +48754,20 @@
 "<Ilageeqarnermullu>"
 	"ila" GIIT Der/nn QAR Der/nv Gram/IV NIQ Der/vn N Trm Sg LU
 "<Naalakkersuisunngortinneqarpoq>"
-	"Naalakkersuisoq" NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
-	"Naalakkersuisoq" NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
-	"Naalakkersuisoq" NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg
-	"Naalakkersuisoq" NNGUR Der/nv Gram/TV TIP Der/vv Gram/Db Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
-	"Naalakkersuisoq" NNGUR Der/nv Gram/TV TIP Der/vv Gram/Db Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
-	"Naalakkersuisoq" NNGUR Der/nv Gram/TV TIP Der/vv Gram/Db NIQAR Der/vv Gram/IV V Ind 3Sg
-	"Naalakkersuisoq" NNGUR Der/nv Gram/TV TIP Der/vv Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn NNGUR Der/nv Gram/TV TIP Der/vv Gram/Db Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn NNGUR Der/nv Gram/TV TIP Der/vv Gram/Db Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn NNGUR Der/nv Gram/TV TIP Der/vv Gram/Db NIQAR Der/vv Gram/IV V Ind 3Sg
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn NNGUR Der/nv Gram/TV TIP Der/vv Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn NNGUR Der/nv Gram/TV TIP Der/vv Gram/Db Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn NNGUR Der/nv Gram/TV TIP Der/vv Gram/Db Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn NNGUR Der/nv Gram/TV TIP Der/vv Gram/Db NIQAR Der/vv Gram/IV V Ind 3Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn NNGUR Der/nv Gram/TV TIP Der/vv Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
+	"naalakkersuisoq" Sem/Hprof NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
+	"naalakkersuisoq" Sem/Hprof NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
+	"naalakkersuisoq" Sem/Hprof NNGUR Der/nv Gram/IV TIP Der/vv Gram/TV NIQAR Der/vv Gram/IV V Ind 3Sg
+	"naalakkersuisoq" Sem/Hprof NNGUR Der/nv Gram/TV TIP Der/vv Gram/Db Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
+	"naalakkersuisoq" Sem/Hprof NNGUR Der/nv Gram/TV TIP Der/vv Gram/Db Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
+	"naalakkersuisoq" Sem/Hprof NNGUR Der/nv Gram/TV TIP Der/vv Gram/Db NIQAR Der/vv Gram/IV V Ind 3Sg
+	"naalakkersuisoq" Sem/Hprof NNGUR Der/nv Gram/TV TIP Der/vv Gram/Refl Gram/IV NIQ Der/vn QAR Der/nv Gram/IV V Ind 3Sg
 "<.>"
 	"." CLB
 </s>
@@ -49162,9 +49173,9 @@
 	"manna" Prefix/TA Gram/Dem Pron Abs Sg
 	"tamap" Orth/Arch Gram/IV V Imp 2Sg
 "<naalakkersuisoqatigiinnissamik>"
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIP Der/nv Gram/Reci Gram/IV NIQ Der/vn SSAQ Der/nn N Ins Sg
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIP Der/nv Gram/Reci Gram/IV NIQ Der/vn SSAQ Der/nn N Rel Pl 4PlPoss
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIP Der/nv Gram/Reci Gram/IV NIQ Der/vn SSAQ Der/nn N Rel Sg 4PlPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIP Der/nv Gram/Reci Gram/IV NIQ Der/vn SSAQ Der/nn N Ins Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIP Der/nv Gram/Reci Gram/IV NIQ Der/vn SSAQ Der/nn N Rel Pl 4PlPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QATE Der/nn GIIP Der/nv Gram/Reci Gram/IV NIQ Der/vn SSAQ Der/nn N Rel Sg 4PlPoss
 "<isumaqatigiissutaanni>"
 	"isuma" QATE Der/nn GIIP Der/nv Gram/Reci Gram/IV UTE Der/vn N Lok Pl 3PlPoss
 	"isuma" QATE Der/nn GIIP Der/nv Gram/Reci Gram/IV UTE Der/vn N Lok Sg 3PlPoss
@@ -49961,9 +49972,9 @@
 	"danskeq" Gram/wea N Rel Pl
 	"danskeq" N Abs Sg 2SgPoss
 "<naalakkersuisui>"
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl 3PlPoss
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl 3PlPoss Err/Sub
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl 3SgPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl 3PlPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl 3PlPoss Err/Sub
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl 3SgPoss
 "<ilaatigut>"
 	"ila" N Via Sg 3PlPoss
 	"ila" N Via Sg 3SgPoss
@@ -50027,7 +50038,7 @@
 	"pi" SI Der/nv Gram/TV NIQ Der/vn Gram/TransverbNIQ SSAQ Der/nn N Trm Sg
 	"pisi" Gram/HV NIQ Der/vn SSAQ Der/nn N Trm Sg
 "<atugassanik>"
-	"ator" Gram/TV TAQ Der/vn SSAQ Der/nn N Ins Pl
+	"ator" Sem/use Gram/TV TAQ Der/vn SSAQ Der/nn N Ins Pl
 "<1,5>"
 	"1,5" Num Abs Pl
 	"1,5" Num Abs Sg
@@ -53003,8 +53014,8 @@
 	"aap" Gram/IV TIP Der/vv Gram/TV TAQ Der/vn SSAQ Der/nn N Trm Pl
 	"aap" Gram/TV TIP Der/vv Gram/Db TAQ Der/vn SSAQ Der/nn N Trm Pl
 "<Naalakkersuisoqarfimmit>"
-	"Naalakkersuisoq" QAR Der/nv Gram/IV VIK Der/vn Gram/Sh N Abl Sg
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn Gram/Sh N Abl Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn QAR Der/nv Gram/IV VIK Der/vn Gram/Sh N Abl Sg
+	"naalakkersuisoq" Sem/Hprof QAR Der/nv Gram/IV VIK Der/vn Gram/Sh N Abl Sg
 "<tiguneqartussanngorlugit>"
 	"tigu" Gram/TV Gram/Pass NIQ Der/vn QAR Der/nv Gram/IV TUQ Der/vn SSAQ Der/nn NNGUR Der/nv Gram/TV V Cont 3PlO
 	"tigu" Gram/TV Gram/Refl NIQ Der/vn QAR Der/nv Gram/IV TUQ Der/vn SSAQ Der/nn NNGUR Der/nv Gram/TV V Cont 3PlO
@@ -55212,24 +55223,24 @@
 
 <s id="xs2cwnhxe6UxnA1jbyHoy0rmhes">
 "<Danskit>"
-	"dansk" OLang/DAN Gram/Adj N Abs Pl
+	"dansk" OLang/DAN Gram/Adj Gram/wea N Abs Pl
+	"dansk" OLang/DAN Gram/Adj Gram/wea N Rel Pl
 	"dansk" OLang/DAN Gram/Adj N Abs Sg 2SgPoss
-	"dansk" OLang/DAN Gram/Adj N Rel Pl
-	"danskeq" N Abs Pl
+	"danskeq" Gram/wea N Abs Pl
+	"danskeq" Gram/wea N Rel Pl
 	"danskeq" N Abs Sg 2SgPoss
-	"danskeq" N Rel Pl
 "<naalakkersuisui>"
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl 3PlPoss
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl 3PlPoss Err/Sub
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl 3SgPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl 3PlPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl 3PlPoss Err/Sub
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl 3SgPoss
 "<ajornartorsiutaasut>"
-	"ajor" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn U Der/nv Gram/IV TUQ Der/vn N Abs Pl
+	"ajor" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn U Der/nv Gram/IV TUQ Der/vn Gram/wea N Abs Pl
+	"ajor" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn U Der/nv Gram/IV TUQ Der/vn Gram/wea N Rel Pl
 	"ajor" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn U Der/nv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
-	"ajor" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn U Der/nv Gram/IV TUQ Der/vn N Rel Pl
 	"ajor" Gram/IV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn U Der/nv Gram/IV V Par 3Pl
-	"ajor" Gram/TV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn U Der/nv Gram/IV TUQ Der/vn N Abs Pl
+	"ajor" Gram/TV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn U Der/nv Gram/IV TUQ Der/vn Gram/wea N Abs Pl
+	"ajor" Gram/TV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn U Der/nv Gram/IV TUQ Der/vn Gram/wea N Rel Pl
 	"ajor" Gram/TV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn U Der/nv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
-	"ajor" Gram/TV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn U Der/nv Gram/IV TUQ Der/vn N Rel Pl
 	"ajor" Gram/TV NAR Der/vv Gram/IV TUQ Der/vn SIUT Der/nn U Der/nv Gram/IV V Par 3Pl
 "<iluarsineqarnissaannut>"
 	"iluaq" Orth/Arch SI Der/nv Gram/IV NIQ Der/vn QAR Der/nv Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Pl 3PlPoss
@@ -55247,8 +55258,8 @@
 	"iluarsi" Gram/TV NIQAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Pl 3PlPoss
 	"iluarsi" Gram/TV NIQAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Sg 3PlPoss
 "<aningaasaliillutillu>"
-	"aningaasaq" LIR Der/nv Gram/TV HTR Der/vv Gram/IV V Cont 2Sg LU
-	"aningaasaq" LIR Der/nv Gram/TV HTR Der/vv Gram/IV V Cont 4Pl LU
+	"aningaasaq" LIR Der/nv Gram/truncative Gram/TV HTR Der/vv Gram/IV V Cont 2Sg LU
+	"aningaasaq" LIR Der/nv Gram/truncative Gram/TV HTR Der/vv Gram/IV V Cont 4Pl LU
 "<immikkut>"
 	"immikkut" Adv
 "<ilisimasalinnik>"
@@ -56010,8 +56021,8 @@
 "<tunngasunut>"
 	"tunnga" Gram/IV TUQ Der/vn N Trm Pl
 "<naalakkersuisoq>"
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
-	"naalagaq" Sem/Hprof LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV V Par 3Sg
 "<,>"
 	"," CLB
 "<Steen>"
