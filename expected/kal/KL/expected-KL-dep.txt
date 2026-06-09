@@ -1320,6 +1320,42 @@
 	"." CLB #12->12
 </s>
 
+<s id="1T4RxbtktpYYLlx5KBeK5TupooE">
+"<“>"
+	"“" PUNCT LEFT #1->1
+"<Nalugakku>"
+	"nalu" Gram/TV V Cau 2Sg 3SgO @PRED #2->0
+"<Arnaq>"
+	"Arnaq" Dial/Vgr Sem/Fem Sem/Hum Prop Abs Sg @OBJ> #3->4
+"<anaanagigiga>"
+	"anaana" GE Der/nv Gram/TV V Par 1Sg 3SgO @CL-<CIT #4->2
+"<?>"
+	"?" CLB #5->5
+"<”>"
+	"”" PUNCT RIGHT DIRTALESTART #1->1
+"<nalunngikkaluarlugu>"
+	"nalu" Gram/TV NNGIT Der/vv Gram/TV GALUAR Der/vv Gram/TV V Cont 3SgO @ADVL> #2->10
+"<nalunngikkaa>"
+	"nalu" Gram/TV NNGIT Der/vv Gram/TV V Par 3Sg 3SgO @CL-<CIT #3->2
+"<piaarisunga>"
+	"piaare" Gram/IV V Par 1Sg @CL-<CIT #4->3
+	"piaari" Gram/IV V Par 1Sg @CL-<CIT #4->3
+"<,>"
+	"," CLB #5->5
+"<sallunngitsutut>"
+	"sallu" Gram/IV NNGIT Der/vv Gram/IV TUQ Der/vn N Aeq Sg @ADVL> #6->7
+"<isikkoqaannarlunga>"
+	"isikku" QAR Der/nv Gram/IV INNAR Der/vv Gram/IV V Cont 1Sg @ADVL> #7->10
+"<atisai>"
+	"ati" Gram/TV TAQ Der/vn N Abs Pl 3SgPoss @OBJ> #8->10
+"<tungaanut>"
+	"tunge" N Trm Sg 3SgPoss @ADVL> #9->10
+"<miloriuppakka>"
+	"miloriup" Gram/TV V Ind 1Sg 3PlO @PRED #10->0
+"<.>"
+	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE #11->11
+</s>
+
 <s id="1UMAbQ0opHJmpHhR69nysbcUjnk">
 "<Utoqqalinersiuteqaraluarluni>"
 	"utoqqali" Gram/IV NIQ Der/vn SIUT Der/nn QAR Der/nv Gram/IV GALUAR Der/vv Gram/IV V Cont 4Sg @i-ADVL> #1->2
@@ -1327,6 +1363,7 @@
 	"aalisar" Gram/IV TAR Der/vv Gram/IV NIQ Der/vn N Via Sg 4SgPoss @ADVL> #2->3
 "<isertitaqartarpoq>"
 	"iser" Gram/IV TIP Der/vv Gram/TV TAQ Der/vn QAR Der/nv Gram/IV TAR Der/vv Gram/IV V Ind 3Sg @PRED #3->0
+	"iser" TE Der/vn TAQ Der/nn QAR Der/nv Gram/IV TAR Der/vv Gram/IV V Ind 3Sg @PRED #3->0
 "<nammineq>"
 	"nammineq" Gram/Coref Pron Rel 4Sg @POSS> #4->5
 "<pigisaminik>"
@@ -34772,11 +34809,11 @@
 "<atugassat>"
 	"ator" Sem/use Gram/TV TAQ Der/vn SSAQ Der/nn N Abs Pl @OBJ> #3->11
 "<ilinniusiat>"
-	"ilinniar" Gram/IV UTE Der/vn LIAQ Der/nn N Abs Pl @OBJ> #4->7
+	"ilinniar" Gram/IV UTE Der/vn LIAQ Der/nn N Abs Pl @N< #4->3
 "<naqeqqinneqartussat>"
-	"naqip" Gram/TV QQIP Der/vv Gram/TV NIQAR Der/vv Gram/IV TUQ Der/vn SSAQ Der/nn N Abs Pl @N< #5->4
+	"naqip" Gram/TV QQIP Der/vv Gram/TV NIQAR Der/vv Gram/IV TUQ Der/vn SSAQ Der/nn N Abs Pl @N< #5->3
 "<arlallit>"
-	"arlaq" LIK Der/nn N Abs Pl @N< #6->4
+	"arlaq" LIK Der/nn N Abs Pl @N< #6->3
 "<kukkunersiorlugit>"
 	"kukkunersior" Gram/TV V Cont 3PlO @ADVL> #7->11
 "<allatullu>"
@@ -46308,6 +46345,31 @@
 	")" PUNCT RIGHT #8->8
 "<.>"
 	"." CLB #9->9
+</s>
+
+<s id="qfPXhzNr4cty7Olly674TWP68Lo">
+"<Nalaasaarfimmut>"
+	"nalaasaar" Gram/IV VIK Der/vn N Trm Sg @ADVL> #1->2
+"<pillunga>"
+	"pi" Gram/IV V Cont 1Sg @ADVL> #2->10
+"<,>"
+	"," CLB #3->3
+"<chipsit>"
+	"chips" OLang/DAN N Abs Pl @OBJ> #4->6
+"<ippassarnisat>"
+	"ippassarnisaq" N Abs Pl @N< #5->4
+"<neriutigalugit>"
+	"neri" Gram/TV UTIGE Der/vv Gram/TV V Cont 3PlO @ADVL> #6->10
+"<Arnap>"
+	"Arnaq" Dial/Vgr Sem/Fem Sem/Hum Prop Rel Sg @POSS> #7->8
+"<angerlarsimannginnera>"
+	"angerlar" Gram/IV SIMA Der/vv NNGIT Der/vv Gram/IV NIQ Der/vn N Abs Sg 3SgPoss @OBJ> #8->10
+"<assut>"
+	"assut" Adv @ADVL> #9->10
+"<eqqarsaatigaara>"
+	"eqqarsar" Gram/IV UTE Der/vn GE Der/nv Gram/TV V Ind 1Sg 3SgO @PRED #10->0
+"<.>"
+	"." CLB #11->11
 </s>
 
 <s id="qfeDXNFRx9RYprmPx3c5Yx0gRnw">
