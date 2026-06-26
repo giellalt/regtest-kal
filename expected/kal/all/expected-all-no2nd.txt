@@ -6078,7 +6078,7 @@
 "<:>"
 	":" CLB DIRTALESTART #2->2
 "<Oqaasileriffimmi>"
-	"Oqaasileriffik" Prop Lok Sg @i-ADVL> #1->2
+	"Oqaasileriffik" Prop Lok Sg @i-ADVL> #1->4
 "<tusagassiorfinnut>"
 	"tusar" TAQ SSAQ LIUR VIK N Trm Pl @i-MIK-OBJ> #2->4
 "<oqaatsinik>"
@@ -8600,7 +8600,7 @@
 "<630>"
 	"630" Num Abs Pl @>N #6->7
 "<milliardit>"
-	"milliard" N Rel Pl @>N #7->8
+	"milliard" Num Abs Pl @>N #7->8
 "<koruunit>"
 	"krone" N Rel Pl @POSS> #8->9
 "<missaannik>"
@@ -19157,13 +19157,13 @@
 "<Kontu>"
 	"konto" N Abs Sg @SUBJ> #1->7
 "<illumut>"
-	"illu" N Trm Sg @i-ADVL> #2->6
+	"illu" N Trm Sg @ADVL> #2->7
 "<,>"
 	"," CLB #3->3
 "<ilinniagaqarnermut>"
-	"ilinniar" TAQ QAR NIQ N Trm Sg @i-ADVL> #4->6
+	"ilinniar" TAQ QAR NIQ N Trm Sg @ADVL> #4->7
 "<inuussutissarsiornermulluunniit>"
-	"inuk" U UTE SSAQ SIUR NIQ N Trm Sg CONJ-LUUNNIIT @i-ADVL> #5->6
+	"inuk" U UTE SSAQ SIUR NIQ N Trm Sg CONJ-LUUNNIIT @ADVL> #5->7
 "<ileqqaarnermut>"
 	"ileqqaar" NIQ N Trm Sg @ADVL> #6->7
 "<atorneqassaaq>"
@@ -27647,7 +27647,7 @@
 "<ph.d.-mik>"
 	"ph.d" N Sg Ins @i-MIK-OBJ> #7->8
 "<allaaserisamut>"
-	"allap" USIQ GE TAQ N Trm Sg @ADVL> #8->10
+	"allap" USIQ GE TAQ N Trm Sg @MIK-OBJ> #8->10
 "<sukumiisumut>"
 	"sukumer" HTR TUQ N Trm Sg @N< #9->8
 "<allaaserinnittuusimalerpoq>"
