@@ -52,6 +52,9 @@
 		'no2nd-s': {
 			cmd: "perl -wpne 's~ (?!i?Sem)[^/\\s]+/[^/\\s]+~~g; s~ i(?!Sem)[A-Z\\d]\\w*~~g; s~\\x{E020}~\\x{20}~g; while(s~( DIRTALE[A-Z]+)\\1~$1~g){}' | cg-sort",
 		},
+		gen: {
+			cmd: '~/langtech/kal/tools/shellscripts/kal-generate ~/langtech/kal/src/fst/generator-gt-desc.hfstol',
+		},
 	},
 	pipes: {
 		kal: ['fst', 'pre1', 'hybrids', 'pre2', 'morf', 'syntax', 'dep', 'no2nd'],
@@ -61,12 +64,14 @@
 		heur: ['fst', 'pre1', 'heur'],
 		'gloss-k2d': '~/langtech/gloss/kal2dan/kal2dan.pl --regtest --cmd',
 		'gloss-k2e': '~/langtech/gloss/kal2eng/kal2eng.pl --regtest --cmd',
+		gen: ['gen'],
 	},
 	corpora: {
 		all: ['*'],
 		gloss: ['KW', 'KWx'],
 		heur: ['heur/*'],
 		fst: ['fst/*'],
+		gen: ['gen/*'],
 	},
 	defaults: {
 		pipe: 'kal',
@@ -111,6 +116,11 @@
 			pipe: 'gloss-k2e',
 			corpora: ['gloss'],
 			gold: true,
+		},
+		gen: {
+			desc: 'Generation',
+			pipe: 'gen',
+			corpora: ['gen'],
 		},
 	},
 }
