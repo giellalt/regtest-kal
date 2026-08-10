@@ -6425,7 +6425,7 @@
 "<Suliniutillit>"
 	"suli" NIUTE LIK N Abs Pl @SUBJ> #1->6
 "<akissarsiassanut>"
-	"aki" SSAQ SIAQ SSAQ N Trm Pl @i-MIK-OBJ> #2->3
+	"aki" SSAQ SIAQ SSAQ N Trm Pl @i-ADVL> #2->3
 "<aningaasaliisunit>"
 	"aningaasaq" LIR HTR TUQ N Abl Pl @i-ADVL> #3->5
 "<7.500>"
@@ -6747,7 +6747,7 @@
 "<inui>"
 	"inuk" N Abs Pl 3SgPoss @SUBJ> #13->15
 "<namminersortunngorsaanermi>"
-	"namminersor" TUQ NNGUR SAR HTR NIQ N Lok Sg @i-ADVL> #14->15
+	"namminersor" TUQ NNGUR SAR HTR NIQ N Lok Sg @ADVL> #14->15
 "<peqataatinneqalissallutik>"
 	"peqat" U TIP NIQAR LIR SSA V Cont 4Pl @PRED #15->0
 "<,>"
@@ -17821,7 +17821,7 @@
 "<Poorskikkunnili>"
 	"poorski" KKUT N Lok Pl ADV-LI @i-ADVL> #1->2
 "<naalagiartitsinissat>"
-	"naalagiartip" HTR NIQ SSAQ N Abs Pl @SUBJ> #2->5
+	"naalagiar" TIP HTR NIQ SSAQ N Abs Pl @SUBJ> #2->5
 "<tv-kkut>"
 	"tv" N Via @ADVL> #3->5
 "<toqqaannartumik>"
@@ -20094,7 +20094,7 @@
 "<2013-imi>"
 	"2013" N Lok Sg @i-ADVL> #11->12
 "<misissuinermut>"
-	"misissor" HTR NIQ N Trm Sg @i-ADVL> #12->13
+	"misissor" HTR NIQ N Trm Sg @ADVL> #12->13
 "<peqataatinneqassasoq>"
 	"peqat" U TIP NIQAR SSA V Par 3Sg @CL-<CIT #13->9
 "<.>"
@@ -28110,7 +28110,7 @@
 "<Ilaasortaq>"
 	"ilaa" TUQ TAQ N Abs Sg @SUBJ> #1->3
 "<ataatsimiinnermut>"
-	"ataatsimiip" NIQ N Trm Sg @i-ADVL> #2->3
+	"ataatsimiip" NIQ N Trm Sg @ADVL> #2->3
 "<peqataasinnaanngikkuni>"
 	"peqat" U SINNAA NNGIT V Con 4Sg @CON> #3->6
 "<tamanna>"
@@ -30272,6 +30272,19 @@
 	"nutser" TUSSANNGUR V Cont 3PlO @PRED #10->0
 "<.>"
 	"." CLB #11->11
+</s>
+
+<s id="Y5kK5nxDfPC17NAlz6GFu3uGbPw">
+"<Ilisimatitsissutigilaarsinnaavarput>"
+	"ilisima" TIP HTR UTE GE LAAR SINNAA V Ind 1Pl 3SgO @PRED #1->0
+"<atuakkap>"
+	"atuar" TAQ N Rel Sg @POSS> #2->3
+"<naqiterteqqinnissaanik>"
+	"naqip" TIR TIP QQIP NIQ SSAQ N Ins Sg 3SgPoss @i->N #3->4
+"<pilersaaruteqanngilagut>"
+	"pilersaar" UTE QAR NNGIT V Ind 1Pl @PRED #4->0
+"<.>"
+	"." CLB #5->5
 </s>
 
 <s id="Y72NWjHVIrtSxkKEMcm5WorvVaI">
@@ -51073,7 +51086,7 @@
 "<Poorskikkunnili>"
 	"poorski" KKUT N Lok Pl ADV-LI @i-ADVL> #1->2
 "<naalagiartitsinissat>"
-	"naalagiartip" HTR NIQ SSAQ N Abs Pl @SUBJ> #2->6
+	"naalagiar" TIP HTR NIQ SSAQ N Abs Pl @SUBJ> #2->6
 "<tv-kkut>"
 	"tv" N Via @ADVL> #3->6
 "<radiokkullu>"
