@@ -240,17 +240,18 @@
 	"taama" IP Der/nv Gram/TV Gram/Refl TUQ Der/vn N Rel Pl 4PlPoss
 	"taama" IP Der/nv Gram/TV Gram/Refl TUQ Der/vn N Rel Sg 4PlPoss
 "<Naalakkersuisut>"
-	"Naalakkersuisoq" N Abs Pl
-	"Naalakkersuisoq" N Abs Sg 2SgPoss
-	"Naalakkersuisoq" N Rel Pl
 	"Naalakkersuisut" Sem/inst Sem/Hum Prop Abs Pl
 	"Naalakkersuisut" Sem/inst Sem/Hum Prop Rel Pl
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Rel Pl
-	"naalagaq" LIRSUR Der/nv Gram/TV HTR Der/vv Gram/IV V Par 3Pl
-	"naalakker" Gram/IV TUQ Der/vn N Aeq Pl 3SgPoss
-	"naalakker" Gram/TV Gram/Refl Gram/IV TUQ Der/vn N Aeq Pl 3SgPoss
+	"naalakker" Sem/order_Influence Gram/TV Gram/Refl Gram/IV TUQ Der/vn N Aeq Pl 3PlPoss
+	"naalakker" Sem/order_Influence Gram/TV Gram/Refl Gram/IV TUQ Der/vn N Aeq Pl 3SgPoss
+	"naalakker" Sem/order_Influence Gram/TV Gram/Refl Gram/IV TUQ Der/vn VIK Der/nn TUR Der/nv Gram/IV V Ind 3Pl Gram/Exclm
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Pl
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Abs Sg 2SgPoss
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV TUQ Der/vn N Rel Pl
+	"naalakker" Sem/order_Influence TUR Der/vv Gram/TV HTR Der/vv Gram/IV V Par 3Pl
+	"naalakkersuisoq" Sem/Hprof N Abs Pl
+	"naalakkersuisoq" Sem/Hprof N Abs Sg 2SgPoss
+	"naalakkersuisoq" Sem/Hprof N Rel Pl
 "<aalajangerput>"
 	"aalajanger" Gram/IV V Ind 3Pl
 	"aalajanger" Gram/TV Gram/Refl Gram/IV V Ind 3Pl
@@ -271,7 +272,6 @@
 	"tuneq" NIP Der/nv Gram/IV JAAR Der/vv Gram/IV TAR Der/vv Orth/Arch Gram/IV NIQ Der/vn N Abs Pl
 	"tuneq" NIP Der/nv Gram/IV JAAR Der/vv Gram/IV TAR Der/vv Orth/Arch Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
 	"tuneq" NIP Der/nv Gram/IV JAAR Der/vv Gram/IV TAR Der/vv Orth/Arch Gram/IV NIQ Der/vn N Rel Pl
-	"tuni" Gram/TV Gram/Refl NIAQ Der/vn U Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn GIP Der/nv Gram/IV V Ind Pl Gram/Exclm
 	"tuni" Gram/TV Gram/Refl NIAQ Der/vn U Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn N Abs Pl
 	"tuni" Gram/TV Gram/Refl NIAQ Der/vn U Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn N Abs Sg 2SgPoss
 	"tuni" Gram/TV Gram/Refl NIAQ Der/vn U Der/nv Gram/IV TAR Der/vv Gram/IV NIQ Der/vn N Rel Pl
@@ -293,7 +293,7 @@
 	"ullu" N Rel Pl 3PlPoss
 	"ullu" N Rel Pl 3SgPoss
 "<28-anni>"
-	"28" Num Lok Sg 3PlPoss
+	"28" Num Gram/Ord Lok Sg 3PlPoss
 "<nalunaaqutaq>"
 	"nalunaaqutaq" N Abs Sg
 "<unnukkut>"
@@ -314,7 +314,7 @@
 	"ullu" N Rel Pl 3PlPoss
 	"ullu" N Rel Pl 3SgPoss
 "<15-iata>"
-	"15" Num Rel Sg 3PlPoss
+	"15" Num Gram/Ord Rel Sg 3PlPoss
 	"15" Num Rel Sg 3SgPoss
 "<tungaanut>"
 	"tunge" N Trm Pl 3SgPoss
@@ -443,10 +443,9 @@
 "<tassani>"
 	"tass" Gram/Dem Adv Lok
 "<ukioq>"
-	"ukioq" N Abs Sg
+	"ukioq" Sem/dur N Abs Sg
+	"ukioq" Sem/temp N Abs Sg
 "<ataaseq>"
-	"ata" Gram/IV USIQ Der/vn N Abs Sg
-	"ata" Gram/TV Gram/Refl USIQ Der/vn N Abs Sg
 	"ataaseq" N Abs Sg
 	"ataaseq" Num Abs Sg
 "<efterskolimi>"
@@ -474,9 +473,8 @@
 	"taama" Aeq Adv
 "<allappoq>"
 	"allap" Gram/HV Gram/IV V Ind 3Sg
-	"allap" Gram/TV Gram/Refl V Ind 3Sg
 "<forstander>"
-	"forstander" OLang/DAN N Abs Sg
+	"forstander" Sem/Hprof OLang/DAN N Abs Sg
 "<Flemming>"
 	"Flemming" Sem/Geo Prop Abs Sg
 	"Flemming" Sem/Mask Sem/Hum Prop Abs Sg
