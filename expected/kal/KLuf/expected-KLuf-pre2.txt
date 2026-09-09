@@ -2646,12 +2646,12 @@
 "<->"
 	"-" PUNCT MIDDLE DIRTALESTART
 "<Meeqqat>"
-	"meeraq" N Abs Pl %AmbiguøsN
-	"meeraq" N Abs Sg 2SgPoss %AmbiguøsN
-	"meeraq" N Rel Pl %AmbiguøsN
+	"meeraq" Sem/H N Abs Pl %AmbiguøsN
+	"meeraq" Sem/H N Abs Sg 2SgPoss %AmbiguøsN
+	"meeraq" Sem/H N Rel Pl %AmbiguøsN
 "<atugai>"
-	"ator" Gram/TV TAQ Der/vn N Abs Pl 3PlPoss Orth/Youth %ContHypotagme
-	"ator" Gram/TV TAQ Der/vn N Abs Pl 3SgPoss %ContHypotagme
+	"ator" Sem/use Gram/TV TAQ Der/vn N Abs Pl 3PlPoss Orth/Youth %ContHypotagme
+	"ator" Sem/use Gram/TV TAQ Der/vn N Abs Pl 3SgPoss %ContHypotagme
 "<pillugit>"
 	"pi" Gram/TV V Cont 3PlO %ContHypotagme
 	"pillup" Gram/IV V Imp 2Sg Gram/ImpPos
@@ -2664,9 +2664,9 @@
 	"periar" Gram/IV VIK Der/vn SSAQ Der/nn QAR Der/nv Gram/IV V IteCau 4Sg LU
 	"periar" Gram/TV Gram/Refl VIK Der/vn SSAQ Der/nn QAR Der/nv Gram/IV V IteCau 4Sg LU
 "<meeqqat>"
-	"meeraq" N Abs Pl %AmbiguøsN
-	"meeraq" N Abs Sg 2SgPoss %AmbiguøsN
-	"meeraq" N Rel Pl %AmbiguøsN
+	"meeraq" Sem/H N Abs Pl %AmbiguøsN
+	"meeraq" Sem/H N Abs Sg 2SgPoss %AmbiguøsN
+	"meeraq" Sem/H N Rel Pl %AmbiguøsN
 "<pisinnaatitaaffii>"
 	"pi" Gram/IV SINNAA Der/vv Gram/IV TIP Der/vv Gram/TV TAQ Der/vn U Der/nv Gram/IV VIK Der/vn N Abs Pl 3PlPoss %ContHypotagme
 	"pi" Gram/IV SINNAA Der/vv Gram/IV TIP Der/vv Gram/TV TAQ Der/vn U Der/nv Gram/IV VIK Der/vn N Abs Pl 3SgPoss %ContHypotagme
@@ -2678,13 +2678,8 @@
 	"pillup" Gram/TV Gram/Refl V Imp 2Sg Gram/ImpPos
 "<oqaluttuarnissamut>"
 	"oqalup" Gram/IV TUAR Der/vv Gram/IV NIQ Der/vn SSAQ Der/nn N Trm Sg
-"<tunuarsimaarneq>"
-	"tunuar" Gram/IV SIMAAR Der/vv Gram/IV NIQ Der/vn N Abs Sg
-	"tunuar" Gram/IV SIMAAR Der/vv Gram/IV NIQ Der/vn N Abs Sg Gram/Comp
-"<ajorluni>"
-	"ajor" Gram/IV V Cont 4Sg
-	"ajor" Gram/TV Gram/Refl V Cont 4Sg
-	"ajor" Gram/TV V Cont 4SgO
+"<tunuarsimaarneq ajorluni>"
+	"tunuar" Gram/IV SIMAAR Der/vv Gram/IV NIQ_AJUR Der/vv Gram/IV V Cont 4Sg
 "<.>"
 	"." CLB DIRTALEMIDDLE DIRTALEMIDDLE
 </s>
