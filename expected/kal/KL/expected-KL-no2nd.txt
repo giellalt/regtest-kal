@@ -6915,7 +6915,7 @@
 "<Misilillugu>"
 	"misilip" V Cont 3SgO @ADVL> #1->4
 "<aqajarorissaammik>"
-	"aqajaroq" GIP TAR UTE N Ins Sg @MIK-OBJ> #2->4
+	"aqajaroq" GIP SAR UTE N Ins Sg @MIK-OBJ> #2->4
 "<nipaallisaammillu>"
 	"nipaallisaat" N Ins Sg CONJ-LU @MIK-OBJ> #3->4
 "<iisivunga>"
@@ -13090,7 +13090,7 @@
 "<akuersiteqqaarnagu>"
 	"akuere" HTR TIP QQAAR V ContNeg 3SgO @ADVL> #3->5
 "<naartunaveersaammik>"
-	"naaq" TU NAVIIR TAR UTE N Ins Sg @i->N #4->5
+	"naaq" TU NAVIIR SAR UTE N Ins Sg @i->N #4->5
 "<spiralilerneqarsimavoq>"
 	"spiral" LIR NIQAR SIMA V Ind 3Sg @PRED #5->0
 "<.>"
@@ -16144,7 +16144,7 @@
 "<akuersiteqqaarnagu>"
 	"akuere" HTR TIP QQAAR V ContNeg 3SgO @i-ADVL> #3->5
 "<naartunaveersaammik>"
-	"naaq" TU NAVIIR TAR UTE N Ins Sg @i->N>N #4->5
+	"naaq" TU NAVIIR SAR UTE N Ins Sg @i->N>N #4->5
 "<spiralilerneqarsimasoq>"
 	"spiral" LIR NIQAR SIMA TUQ N Abs Sg @N< #5->2
 "<taama>"
@@ -21291,7 +21291,7 @@
 "<atoqatigiinneq>"
 	"ator" QATE GIIP NIQ N Abs Sg @<OBJ #3->2
 "<naartunaveersaatillu>"
-	"naaq" TU NAVIIR TAR UTE N Abs Pl CONJ-LU @<OBJ #4->2
+	"naaq" TU NAVIIR SAR UTE N Abs Pl CONJ-LU @<OBJ #4->2
 "<,>"
 	"," CLB #5->5
 "<arnat>"
@@ -23053,7 +23053,7 @@
 	"Hansen" Prop Abs Sg @SUBJ> #8->10
 "<akornatsinniikkunnaartoq>"
 	"akunneq" N Lok Sg 1PlPoss @ADVL> #9->10
-"<ikkunnaarsoq>"
+"<ikkunnaartoq>"
 	"IP" GUNNAIR V Par 3Sg @CL-<CIT #10->5
 "<,>"
 	"," CLB #11->11
@@ -25607,41 +25607,6 @@
 	"oqar" V Ind 3Sg @PRED #9->0
 "<.>"
 	"." CLB #10->10
-</s>
-
-<s id="S60MrM7fws3NXZkIJHzLHyCRWDA">
-"<Meeqqaat>"
-	"meer" QQAAQ N Rel Pl @SUBJ> #1->15
-"<innersuussutitik>"
-	"innersuup" UTE N Abs Pl 4PlPoss #2->2
-"<nutaat>"
-	"nutaaq" N Abs Pl @N< #3->2
-"<arfinillit>"
-	"arfinillit" Num Abs Pl @N< #4->2
-"<kommunit>"
-	"kommune" N Rel Pl @POSS> #5->6
-"<borgmesteriinut>"
-	"borgmester" N Trm Pl 3PlPoss @i-ADVL> #6->9
-"<Meeqqanut>"
-	"meeraq" N Trm Pl @i-ADVL> #7->9
-"<Inuusuttunullu>"
-	"inuusup" TUQ N Trm Pl CONJ-LU @i-ADVL> #8->9
-"<Naalakkersuisumut>"
-	"naalakkersuisoq" N Trm Sg @ADVL> #9->15
-"<Mads>"
-	"Mads" Prop Abs Sg @PROP> #10->11
-"<Pedersenimut>"
-	"Pedersen" Prop Trm Sg @<APPOS #11->9
-"<marlunngornermi>"
-	"marluk" NNGUR NIQ N Lok Sg @ADVL> #12->15
-"<ulloqeqqata>"
-	"ulloqeqqa" N Rel Sg 3SgPoss @POSS> #13->14
-"<kingorna>"
-	"kinguneq" N Abs Sg 3SgPoss @ADVL> #14->15
-"<tunniuppaat>"
-	"tunniup" V Ind 3Pl 3SgO @PRED #15->0
-"<.>"
-	"." CLB #16->16
 </s>
 
 <s id="S63hsxGAJZi3QHHrwvzNivkgojA">
@@ -36132,6 +36097,41 @@
 	"." CLB #8->8
 </s>
 
+<s id="df23rlHDZKGGKxBF5C2JRBeb5RA">
+"<Meeqqat>"
+	"meeraq" N Rel Pl @SUBJ> #1->15
+"<innersuussutitik>"
+	"innersuup" UTE N Abs Pl 4PlPoss #2->2
+"<nutaat>"
+	"nutaaq" N Abs Pl @N< #3->2
+"<arfinillit>"
+	"arfinillit" Num Abs Pl @N< #4->2
+"<kommunit>"
+	"kommune" N Rel Pl @POSS> #5->6
+"<borgmesteriinut>"
+	"borgmester" N Trm Pl 3PlPoss @i-ADVL> #6->9
+"<Meeqqanut>"
+	"meeraq" N Trm Pl @i-ADVL> #7->9
+"<Inuusuttunullu>"
+	"inuusup" TUQ N Trm Pl CONJ-LU @i-ADVL> #8->9
+"<Naalakkersuisumut>"
+	"naalakkersuisoq" N Trm Sg @ADVL> #9->15
+"<Mads>"
+	"Mads" Prop Abs Sg @PROP> #10->11
+"<Pedersenimut>"
+	"Pedersen" Prop Trm Sg @<APPOS #11->9
+"<marlunngornermi>"
+	"marluk" NNGUR NIQ N Lok Sg @ADVL> #12->15
+"<ulloqeqqata>"
+	"ulloqeqqa" N Rel Sg 3SgPoss @POSS> #13->14
+"<kingorna>"
+	"kinguneq" N Abs Sg 3SgPoss @ADVL> #14->15
+"<tunniuppaat>"
+	"tunniup" V Ind 3Pl 3SgO @PRED #15->0
+"<.>"
+	"." CLB #16->16
+</s>
+
 <s id="dfdVOP03zEEQpkndSxQJOCwZVao">
 "<filmi>"
 	"film" N Abs Sg @SUBJ> #1->3
@@ -36821,7 +36821,7 @@
 "<Qaqortumilu>"
 	"Qaqortoq" Prop Lok Sg CONJ-LU @ADVL> #4->5
 "<kingunerluuteqarpoq>"
-	"kingu" NIRLUP UTE QAR V Ind 3Sg @PRED #5->0
+	"kingunerlup" UTE QAR V Ind 3Sg @PRED #5->0
 "<.>"
 	"." CLB #6->6
 </s>
@@ -37220,7 +37220,7 @@
 "<ilisimatinneqarani>"
 	"ilisima" TIP NIQAR V ContNeg 4Sg @ADVL> #7->8
 "<naartunaveersaaserneqarpoq>"
-	"naaq" TU NAVIIR TAR UTE LIR NIQAR V Ind 3Sg @PRED #8->0
+	"naaq" TU NAVIIR SAR UTE LIR NIQAR V Ind 3Sg @PRED #8->0
 "<.>"
 	"." CLB #9->9
 </s>
@@ -46959,7 +46959,7 @@
 "<akuersiteqqaarnagit>"
 	"akuere" HTR TIP QQAAR V ContNeg 3PlO @ADVL> #2->11
 "<naartunaveersaammik>"
-	"naaq" TU NAVIIR TAR UTE N Ins Sg @i-ADVL> #3->4
+	"naaq" TU NAVIIR SAR UTE N Ins Sg @i-ADVL> #3->4
 "<spiralilersorneqartut>"
 	"spiral" LIRSUR NIQAR TUQ N Abs Pl @SUBJ> #4->14
 "<142-t>"
@@ -47298,7 +47298,7 @@
 "<tikillugu>"
 	"tikip" V Cont 3SgO @i-ADVL> #9->10
 "<naartunaveersaasersuineranni>"
-	"naaq" TU NAVIIR TAR UTE LIRSUR HTR NIQ N Lok Sg 3PlPoss @ADVL> #10->13
+	"naaq" TU NAVIIR SAR UTE LIRSUR HTR NIQ N Lok Sg 3PlPoss @ADVL> #10->13
 "<Danmark>"
 	"Danmark" Prop Abs Sg @SUBJ> #11->13
 "<inuiannik>"
