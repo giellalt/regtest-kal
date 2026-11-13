@@ -13398,6 +13398,35 @@
 	"pilerige" V Par 3Sg 3SgO @CL-<CIT #11->2
 </s>
 
+<s id="EHM2mw2AxzzOxdcTcCfZjSOVPqo">
+"<Ilisimatippara>"
+	"ilisima" TIP V Ind 1Sg 3SgO @PRED #1->0
+"<Miki>"
+	"Miki" Prop Abs Sg @PROP> #2->3
+"<Løvstrømip>"
+	"Løvstrøm" Prop Rel Sg @SUBJ> #3->6
+"<nuliaqaraluarluni>"
+	"nuliaq" QAR GALUAR V Cont 4Sg @ADVL> #4->6
+"<meeraqaraluarlunilu>"
+	"meeraq" QAR GALUAR V Cont 4Sg CONJ-LU @ADVL> #5->6
+"<anguterniarfigisarnikuugaanga>"
+	"angu" TIR NIAR VIK GE TAR NIKUU V Par 3Sg 1SgO @CL-<CIT #6->1
+	"anguter" NIAR VIK GE TAR NIKUU V Par 3Sg 1SgO @CL-<CIT #6->1
+"<,>"
+	"," CLB #7->7
+"<tamatumali>"
+	"manna" Pron Rel Sg CONJ-LI @POSS> #8->9
+"<ingerlateqqinneqannginnissaa>"
+	"ingerla" TIP QQIP NIQAR NNGIT NIQ SSAQ N Abs Sg 3SgPoss @OBJ> #9->11
+	"ingerlap" QQIP NIQAR NNGIT NIQ SSAQ N Abs Sg 3SgPoss @OBJ> #9->11
+"<Arnap>"
+	"Arnaq" Prop Rel Sg @SUBJ> #10->11
+"<neriorsuutigaa>"
+	"neriorsor" UTE GE V Ind 3Sg 3SgO @PRED #11->0
+"<.>"
+	"." CLB #12->12
+</s>
+
 <s id="EHMylW3Ks4mRX9b480JWABtxuw4">
 "<Sulisut>"
 	"suli" TUQ N Rel Pl @POSS> #1->2
@@ -18684,6 +18713,15 @@
 	"." CLB #7->7
 </s>
 
+<s id="KFagmxZte99s4siCyB8G01qHlm0">
+"<Ajortunit>"
+	"ajor" TUQ N Abl Pl @ADVL> #1->2
+"<illersorusuttuaannarnikuuakkit>"
+	"illersor" GUSUP TUAR INNAR NIKUU V Ind 1Sg 2SgO @PRED #2->0
+"<.>"
+	"." CLB #3->3
+</s>
+
 <s id="KGBoQWFdxms7y5nlmvUZO4Fh7N0">
 "<Danskit>"
 	"danskeq" N Rel Pl @POSS> #1->2
@@ -21904,23 +21942,23 @@
 "<Louisianamiikkaluaraanni>"
 	"Louisiana" Prop Lok Sg @ADVL> #2->3
 "<ikkaluaraanni>"
-	"IP" GALUAR V Par 4Sg @i-ADVL> #3->12
+	"IP" GALUAR V Par 4Sg @i-ADVL> #3->13
 "<,>"
 	"," CLB #4->4
 "<Kalaallit Nunaanniikkaluaraanni>"
 	"Kalaallit Nunaat" Prop Lok Sg @ADVL> #5->6
 "<ikkaluaraanni>"
-	"IP" GALUAR V Par 4Sg @i-ADVL> #6->12
+	"IP" GALUAR V Par 4Sg @i-ADVL> #6->13
 "<nunarsuarmiluunniit>"
 	"nunarsuaq" Prop Lok Sg CONJ-LUUNNIIT @ADVL>N #7->8
 "<sumiikkaluaraanniluunniit>"
 	"suna" Pron Lok Sg @ADVL> #8->9
 "<ikkaluaraanniluunniit>"
-	"IP" GALUAR V Par 4Sg ADV-LUUNNIIT @i-ADVL> #9->12
+	"IP" GALUAR V Par 4Sg ADV-LUUNNIIT @i-ADVL> #9->13
 "<inuunermik>"
 	"inuk" U NIQ N Ins Sg @MIK-OBJ> #10->11
 "<pitsaanerulersitsiniarluni>"
-	"pitsak" U NIRU LIR TIP HTR NIAR V Cont 4Sg @ADVL> #11->14
+	"pitsak" U NIRU LIR TIP HTR NIAR V Cont 4Sg @i-ADVL> #11->12
 "<periarfissanik>"
 	"periar" VIK SSAQ N Ins Pl @i-MIK-OBJ> #12->13
 "<atorluaarusunngitsumik>"
@@ -38762,7 +38800,7 @@
 "<pikkorissuseq>"
 	"pikkorip" SSUSIQ N Abs Sg @N< #4->2
 "<qaffasissorujussuaq>"
-	"qaffasip" TUQ RUJUK SUAQ N Abs Sg @N< #5->2
+	"qaffasip" TUQ RUJUK SUAQ N Abs Sg @N< #5->4
 "<takutippaat>"
 	"taku" TIP V Ind 3Pl 3SgO @PRED #6->0
 "<,>"
@@ -46811,6 +46849,27 @@
 	"." CLB #6->6
 </s>
 
+<s id="nXgzDK1bIxxqun5Rhnlt1DXn0Go">
+"<Eqqarsartarpunga>"
+	"eqqarsar" TAR V Ind 1Sg @PRED #1->0
+"<ikinngutinnit>"
+	"ikinngut" N Abl Pl 2SgPoss @AGENS> #2->4
+"<naalanngitsunit>"
+	"naalap" NNGIT TUQ N Abl Pl @N< #3->2
+"<sunnertittarsimanersutit>"
+	"sunner" TIP TAR SIMA NIR V Par 2Sg @CL-<CIT #4->1
+"<,>"
+	"," CLB #5->5
+"<imaluunniit>"
+	"imaluunniit" Conj @CONJ #6->8
+"<nammineq>"
+	"nammineq" Pron Rel 2Sg @SUBJ> #7->8
+"<aalajangertarsimanerit>"
+	"aalajanger" TAR SIMA NIR V Par 2Sg 3SgO @CL-<CIT #8->1
+"<.>"
+	"." CLB #9->9
+</s>
+
 <s id="nZoVDnjMB5Zjvna0xP0B6nV5Y30">
 "<Qujanaq>"
 	"quja" NAR V Ind @PRED #1->0
@@ -48237,7 +48296,7 @@
 "<sila>"
 	"sila" N Abs Sg @SUBJ> #2->5
 "<qulisimagaluarluni>"
-	"quli" SIMA GALUAR V Cont 4Sg @ADVL> #3->5
+	"quli" SIMA GALUAR V Cont 4Sg @i-ADVL> #3->4
 "<silagissutut>"
 	"sila" GIP TUQ N Aeq Sg @ADVL> #4->5
 "<oqaatigineqarsinnaavoq>"
@@ -48401,7 +48460,7 @@
 "<ingerlatitsisoq>"
 	"ingerla" TIP HTR TUQ N Abs Sg @SUBJ> #9->12
 "<mianersuaalliorluni>"
-	"mianersuaallior" V Cont 4Sg @i-ADVL> #10->7
+	"mianersuaallior" V Cont 4Sg @i-ADVL> #10->11
 "<toqutsisimasutut>"
 	"toqup" HTR SIMA TUQ N Aeq Sg @ADVL> #11->12
 "<unnerluutigineqassasoq>"
@@ -55758,7 +55817,7 @@
 "<pisariaqanngitsumik>"
 	"pi" TARIAQAR NNGIT TUQ N Ins Sg @ADVL> #3->11
 "<tunngavissaqanngitsumillu>"
-	"tunnga" VIK SSAQ QAR NNGIT TUQ N Ins Sg CONJ-LU @MIK-OBJ> #4->11
+	"tunnga" VIK SSAQ QAR NNGIT TUQ N Ins Sg CONJ-LU @ADVL> #4->11
 "<Kujallermi>"
 	"Kujalleq" Prop Lok Sg @ADVL> #5->11
 "<,>"
